@@ -32,6 +32,7 @@ theme:
         name: Switch to system preference
   features:
     - toc.integrate
+    - content.tabs.link
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -43,3 +44,12 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+

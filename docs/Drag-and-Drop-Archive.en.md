@@ -1,10 +1,30 @@
 ## Installation
-[:material-download: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button-primary }
+=== 1.2.0.43(1)
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button-primary }
 
-Download the drag-and-drop archive and then simply extract the contents into your game folder. If updating - delete update and modloader folders first. But please note that I will update this archive rarely (and mods are updated often). After installation, go through additional optimisation. If the game does not start - try to install vcredist_x86.exe that's in your game folder or your PC does not support DXVK - remove d3d9.dll from the folder or try async 1.10.3.
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+
+	!!! info
+		If updating - delete :material-folder:`update` first.
+	??? warning "If the game does not start"
+		Your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
+=== 1.0.8.0 (2)
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button-primary }
+	
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	!!! info
+		If updating - delete :material-folder:`update` and :material-folder:`modloader` first.
+	??? warning "If the game does not start"
+		Try to install :material-file:`vcredist_x86.exe` that's in your game folder.
+
+		Alternatively, your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
 
 ## Modlist
-mods idk
+| Mod name    | Details         |
+| :---------: | :-------------: |
+| Mod 1       | Mod 1 details  |
+| Mod 2       | Mod 2 details |
+| Mod 3    | Mod 3 details |
 
 ## Changelog
 - The archive frequently updates, below is the list of it's changes:
@@ -17,3 +37,6 @@ mods idk
 	* 30.06.2023 - Updated Shader Fixes.
 	* 26.06.2023 - Created the archive.
 
+{ .annotate }
+1. 1.2.0.43 is Complete Edition, a.k.a. latest :simple-steam: Steam version.
+2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer altogether. See [multiplayer](multiplayer.md) section for that.
