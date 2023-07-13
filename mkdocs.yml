@@ -11,8 +11,6 @@ plugins:
 theme:
   name: material
   palette:
-  features:
-    - toc.integrate
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -32,7 +30,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
+  features:
+    - toc.integrate
 markdown_extensions:
   - attr_list
   - md_in_html
