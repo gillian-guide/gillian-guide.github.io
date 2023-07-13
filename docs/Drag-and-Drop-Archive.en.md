@@ -1,7 +1,8 @@
+# Drag-and-Drop Archive
 You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist).
 
 ### Notes
-1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam: Steam version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements).
+1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements).
 2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
 3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
@@ -20,7 +21,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	??? info "Updating"
 		If you're updating the archive instead after installing it previously, delete :material-folder:`update` first.
 	??? warning "If the game does not start"
-		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
+		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
 	??? warning "My game is acting weird/my game randomly crashes"
 		Disable mods one-by-one to see the culprit by deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 === "1.0.8.0"
@@ -58,12 +59,12 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
 	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
 	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair<br>[Manually ported.](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br></br> |
-	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
+	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting `IVLodLights` files.== |
 	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~3.0~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3.<br>[Manually ported.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
-	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and <br>[Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
 === "1.0.8.0"
 	| Mod name | Details |
@@ -71,7 +72,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, SteamAchievements and IV Tweaker included. |
 	| [ZolikaPatch IV~7.56~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without this mod, either. |
 	| [IV Tweaker~2.2~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
-	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows to get Steam achievements on older patches. |
+	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows to get :material-steam:Steam achievements on older patches. |
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod of the pack: it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
@@ -82,12 +83,12 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
 	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
 	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair</br> |
-	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
+	| [Project2DFX~4.3~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting `IVLodLights` files.== |
 	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~3.0~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
-	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and <br>[Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
 
 ## Changelog
