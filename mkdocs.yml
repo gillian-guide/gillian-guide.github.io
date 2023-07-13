@@ -10,7 +10,8 @@ plugins:
         
 theme:
   name: material
-
+  features:
+    - navigation.sections
   palette:
 
     # Palette toggle for automatic mode
