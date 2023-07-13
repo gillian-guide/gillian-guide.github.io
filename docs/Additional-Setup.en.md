@@ -26,7 +26,7 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 ???+ note "How to set the Launch Options?"
     There are several ways to:
     
-    1. Going to the game's Properties menu in :material-steam:Steam and setting it there
+    1. Going to the game's Properties menu in :material-steam:Steam and setting them there
     2. Creating a :material-file-cog:`commandline.txt` in the game's folder and editing it
     3. Creating a shortcut for the game and adding the options after the shortcut's path
 
@@ -37,9 +37,15 @@ The only options you should set are: `-norestrictions -nomemrestrict`
 ??? warning "If using DXVK..."
     Add `-windowed` to use Borderless Fullscreen for improved stability. Make sure `BorderlessFullscreen` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
 
-    If the game doesn't show correct VRAM amounts (i.e. 512MB), add `-availablevidmem` with your GPU's amount of video memory.
+    If the game doesn't show correct VRAM amounts (i.e. 512MB), add `-availablevidmem` with your GPU's amount of video memory with a `.0` after it - up to `3072.0`.
 
     If the game doesn't allow to use correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
 
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might've helped, back in 2009, when average customer PC's couldn't really handle precaching and other stuff, but nowadays these options only do worse or act as a pure placebo.
+
+??? Full list of launch options
+    You can see the full list of launch options on [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options).
+
+???+ note "What's :material-file-cog:`stream.ini`?"
+    Other guides commonly use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), aswell as my own's - this provides no benefit whatsoever and is likely placebo.
