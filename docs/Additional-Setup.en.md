@@ -46,6 +46,7 @@ The only options you should set are: `-norestrictions -nomemrestrict`
 
 ??? note "Full list of launch options"
     You can use these options for tweaking, debugging and playing around. The list was sourced from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
+
     | Option | Description | 
     | -----: | :---------- |
     | -help | Lists the available commands. |
