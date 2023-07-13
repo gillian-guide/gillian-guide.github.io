@@ -39,7 +39,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:`modloader` or deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 		
 ## Modlist
-=== 1.2.0.43
+=== "1.2.0.43"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
@@ -59,7 +59,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
-=== 1.0.8.0
+=== "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| 1.0.8.0 downgrade with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, and IV Tweaker included. |
@@ -84,24 +84,24 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
 
 ## Changelog
-=== 1.2.0.43
-- The archive frequently updates, below is the list of it's changes:
-	* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
-	* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
-	* 09.07.2023 - IV Fixes and Improvements removed. Various Fixes added.
-	* 08.07.2023 - Updated FusionFix, Shader Fixes, changed DXVK config, removed dxgi.dll and repacked some mods.
-	* 02.07.2023 - Repacked mods in a more convenient format.
-	* 01.07.2023 - Updated Shader Fixes. Ported mods from older versions.
-	* 30.06.2023 - Updated mods.
-	* 27.06.2023 - Updated mods.
-	* 26.06.2023 - Created the archive.
-=== 1.0.8.0
-- The archive frequently updates, below is the list of it's changes:
-	* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos In-Game, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
-	* 11.07.2023 - Fixed the main game crash issue.
-	* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
-	* 09.07.2023 - Changed the downgrader - now bundled with the archive. IV Fixes and Improvements removed. Various Fixes added. Added Dualshock buttons(optional)
-	* 08.07.2023 - Updated Shader Fixes. Removed Simple Traffic Loader. Fully repacked the mods to use the modloader instead.
-	* 01.07.2023 - Updated Shader Fixes, some mods repacked.
-	* 30.06.2023 - Updated Shader Fixes.
-	* 26.06.2023 - Created the archive.
+=== "1.2.0.43"
+	- The archive frequently updates, below is the list of it's changes:
+		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
+		* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
+		* 09.07.2023 - IV Fixes and Improvements removed. Various Fixes added.
+		* 08.07.2023 - Updated FusionFix, Shader Fixes, changed DXVK config, removed dxgi.dll and repacked some mods.
+		* 02.07.2023 - Repacked mods in a more convenient format.
+		* 01.07.2023 - Updated Shader Fixes. Ported mods from older versions.
+		* 30.06.2023 - Updated mods.
+		* 27.06.2023 - Updated mods.
+		* 26.06.2023 - Created the archive.
+=== "1.0.8.0"
+	- The archive frequently updates, below is the list of it's changes:
+		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos In-Game, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
+		* 11.07.2023 - Fixed the main game crash issue.
+		* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
+		* 09.07.2023 - Changed the downgrader - now bundled with the archive. IV Fixes and Improvements removed. Various Fixes added. Added Dualshock buttons(optional)
+		* 08.07.2023 - Updated Shader Fixes. Removed Simple Traffic Loader. Fully repacked the mods to use the modloader instead.
+		* 01.07.2023 - Updated Shader Fixes, some mods repacked.
+		* 30.06.2023 - Updated Shader Fixes.
+		* 26.06.2023 - Created the archive.
