@@ -34,7 +34,7 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 
 The only options you should set are: `-norestrictions -nomemrestrict`
 
-??? warning "If using DXVK..."
+??? warning "If using DXVK or drag-and-drop archive..."
     Add `-windowed` to use Borderless Fullscreen for improved stability. Make sure `BorderlessFullscreen` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
 
     If the game doesn't show correct VRAM amounts (i.e. 512MB), add `-availablevidmem` with your GPU's amount of video memory with a `.0` after it - up to `3072.0`.
