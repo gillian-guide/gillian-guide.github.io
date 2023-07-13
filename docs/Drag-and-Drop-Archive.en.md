@@ -1,10 +1,9 @@
 # Drag-and-Drop Archive
-You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using :material-steam:[Steam](https://store.steampowered.com/app/12210/) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist).
+You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the :material-steam:[Steam](https://store.steampowered.com/app/12210/) or Rockstar Games Launcher version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist).
 
 ### Notes
-1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements). The amount of supported mods is also much more limited on this version - most mods are built for 1.0.8.0 and 1.0.7.0.
-2. 1.0.8.0 is the latest retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
-3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
+1. 1.2.0.59 is the Complete Edition, also known as the latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). The amount of supported mods is also much more limited in this version - most mods are built for 1.0.8.0 and 1.0.7.0.
+2. 1.0.8.0 is the latest retail patch, with ZolikaPatch and multiplayer support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
 
 ## Installation
 
@@ -13,37 +12,37 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
-		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
+		The archive must be installed on top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition installation. 
 		
-		If you're using the Rockstar Games Launcher version, avoid booting the game from the launcher itself, but rather use :material-file:`PlayGTAIV.exe` - the game files will be replaced otherwise. 
+		If you're using the Rockstar Games Launcher version, do not boot the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced. 
 		
-		Any other way to install it will not be supported.
+		Any other installation method is not supported.
 		
-		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
+		In addition, I will not support any additional modifications to the files other than the instructions already listed.
 	??? info "Updating"
-		If you're updating the archive instead after installing it previously, delete :material-folder:==update== and :material-folder:==modloader== first.
+		If you're updating after installing the archive instead, delete :material-folder:==update== and :material-folder:==modloader== first.
 	??? warning "If the game does not start"
 		Try to install :material-file-download:`vcredist_x86.exe` that's in your game folder.
 
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
-	??? warning "My game is acting weird/my game randomly crashes"
-		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. Let me know of the issue if you find it.
+	??? warning "My game is behaving strangely/my game is crashing randomly"
+		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. Let me know if you find the problem.
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
-		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
+		The archive must be installed on top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition installation.
 		
-		Any other way to install it will not be supported.
+		Any other installation method is not supported.
 		
-		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
+		In addition, I will not support any additional modifications to the files other than the instructions already listed.
 	??? info "Updating"
-		If you're updating the archive instead after installing it previously, delete :material-folder:==update== first.
+		If you're updating after installing the archive instead, delete :material-folder:==update== first.
 	??? warning "If the game does not start"
 		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
 	??? warning "My game is acting weird/my game randomly crashes"
-		Disable mods one-by-one to see the culprit by deleting mods in :material-folder:==update==. Let me know of the issue if you find it.
+		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==. Let me know if you find the problem.
 
 ## Modlist
 === "1.0.8.0"
@@ -52,7 +51,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, SteamAchievements and IV Tweaker included. |
 	| [ZolikaPatch IV~7.56~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without this mod, either. |
 	| [IV Tweaker~2.2~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
-	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows to get :material-steam:Steam achievements on older patches. |
+	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod of the pack: it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file)== |
@@ -92,8 +91,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
 
 ## Additional Mods
-These mods are not included by default, but require no additional steps to be installed on-top of the archive.
-=== "1.0.8.0"
+These mods are not included by default, but do not require any additional steps to install over the archive.=== "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.4==, extract :material-file:`IV.EFLC.ColAccel.asi` into :material-folder:==plugins== or in the game folder</br> |
@@ -112,8 +110,8 @@ These mods are not included by default, but require no additional steps to be in
 
 ## Changelog
 === "1.0.8.0"
-	- The archive frequently updates, below is the list of it's changes:
-		* 13.07.2023 - Fixed disappearing assets in Roman's cab office. FPS limit in cutscenes has been changed to 32.
+	- The archive is frequently updated, below is the list of changes:
+		* 13.07.2023 - Fixed disappearing assets in Roman's taxi office. Changed FPS limit in cutscenes to 32.
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
 		* 11.07.2023 - Fixed the main game crash issue.
 		* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
@@ -123,8 +121,8 @@ These mods are not included by default, but require no additional steps to be in
 		* 30.06.2023 - Updated Shader Fixes.
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
-	- The archive frequently updates, below is the list of it's changes:
-		* 13.07.2023 - Fixed disappearing assets in Roman's cab office. FPS limit in cutscenes has been changed to 32.
+	- The archive is frequently updated, below is the list of changes:
+		* 13.07.2023 - Fixed disappearing assets in Roman's taxi office. Changed FPS limit in cutscenes to 32.
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
 		* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
 		* 09.07.2023 - IV Fixes and Improvements removed. Various Fixes added.
