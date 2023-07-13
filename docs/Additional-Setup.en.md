@@ -92,8 +92,5 @@ The only options you should set are: `-norestrictions -nomemrestrict`
     | -windowed | Forces windowed mode. |
     | -width | Sets the horizontal resolution. |
 
-
-
-
-???+ info/ "What's :material-file-cog:`stream.ini`?"
+???+ info "What's :material-file-cog:`stream.ini`?"
     Other guides commonly use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), aswell as my own's - this provides no benefit whatsoever and is likely placebo.
