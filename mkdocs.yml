@@ -11,7 +11,8 @@ plugins:
 theme:
   name: material
   palette:
-
+  features:
+    - toc.integrate
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
