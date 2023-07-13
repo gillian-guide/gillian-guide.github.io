@@ -2,7 +2,7 @@
 Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0. Однако список модов в основном один и тот же - вы можете увидеть и сравнить его [ниже](#список_модов).
 
 ### Примечания
-1. 1.2.0.59 это Complete Edition, т.е. последняя версия в :material-steam:Steam. В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями).
+1. 1.2.0.59 это Complete Edition, т.е. последняя версия в :material-steam:[Steam](https://store.steampowered.com/app/12210/). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями).
 2. 1.0.8.0 является последним патчем для :material-disc:дисковой версии, с поддержкой ZolikaPatch и мультиплеера. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md).
 3. Если вы используете версию из Rockstar Games Launcher, строго используйте архив для 1.0.8.0 и прочитайте его предупреждение.
 
@@ -12,7 +12,7 @@
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную оптимизацию](Additional-Optimisation.md).
-	!!! warning
+	!!! warning "Предупреждение"
 		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из :material-steam:[Steam](https://store.steampowered.com/app/12210/). 
 		
 		Какой-либо другой способ установки не поддерживается.
@@ -28,7 +28,7 @@
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную оптимизацию](Additional-Optimisation.md).
-	!!! warning
+	!!! warning "Предупреждение"
 		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из :material-steam:[Steam](https://store.steampowered.com/app/12210/). 
 		
 		Если вы используете версию Rockstar Games Launcher, не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
@@ -107,7 +107,7 @@
 	- Архив часто обновляется, ниже приведен список его изменений:
 		* 12.07.2023 - Добавлены следующие моды: (обновлённый) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos In-Game, Higher Res Radio Logos Menu, Improved Weapon Spec. Various Fixes перемещён в папку update ради совместимости. Удалён TBoGT Vehicle Fixes из папки modloader - он уже включён в FusionFix. Удалён TBoGT Texture Quality Fix т.к. Various Fixes уже добавляет этот фикс. Удалён IV Presence. Обновлён ZolikaPatch.
 		* 11.07.2023 - Исправил проблему с крашем в основной игре.
-		* 10.07.2023 - 10.07.2023 - Обновлён давнгрейдер. Добавлен порт FusionFix 1.60 от Zolika. Чуть позже: Исправил проблему с крашами в TLAD. Изменил файл волос Нико, теперь без визуальных проблем должны быть.
+		* 10.07.2023 - Обновлён давнгрейдер. Добавлен порт FusionFix 1.60 от Zolika. Чуть позже: Исправил проблему с крашами в TLAD. Изменил файл волос Нико, теперь без визуальных проблем должны быть.
 		* 09.07.2023 - Изменен давнгрейдер - теперь включен в архив. Убран IV Fixes and Improvements. Добавлен Various Fixes. Добавлены кнопки для Dualshock(опционально)
 		* 08.07.2023 - Обновлён Shader Fixes. Убран Simple Traffic Loader. Полностью перепакованы моды для использования модлоадера.
 		* 01.07.2023 - Обновлён Shader Fixes, некоторые моды перепакованы.
