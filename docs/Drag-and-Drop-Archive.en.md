@@ -1,13 +1,13 @@
-You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist)
+You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist).
 
 ### Notes
-1. 1.2.0.43 is Complete Edition, a.k.a. latest :material-steam: Steam version.
+1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam: Steam version.
 2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
 3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
 ## Installation
 
-=== "1.2.0.43"
+=== "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
@@ -45,7 +45,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:`modloader` or deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 		
 ## Modlist
-=== "1.2.0.43"
+=== "1.2.0.59"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
@@ -60,7 +60,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair<br>[Manually ported.](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br></br> |
 	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
 	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack ~Update 3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Improved Animations Pack~3.0~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3.<br>[Manually ported.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
@@ -71,7 +71,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, and IV Tweaker included. |
 	| [ZolikaPatch IV~7.56~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without this mod, either. |
 	| [IV Tweaker~2.2~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
-	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
+	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod of the pack: it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
@@ -83,14 +83,14 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair</br> |
 	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
 	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack ~Update 3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Improved Animations Pack~3.0~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
-	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and <br>[Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
 
 ## Changelog
-=== "1.2.0.43"
+=== "1.2.0.59"
 	- The archive frequently updates, below is the list of it's changes:
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
 		* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
