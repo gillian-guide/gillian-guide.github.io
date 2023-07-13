@@ -1,6 +1,17 @@
 site_name: Kreato Linux Documentation
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+        ru:
+          name: Русский
+        
 theme:
   name: material
+
   palette:
 
     # Palette toggle for automatic mode
