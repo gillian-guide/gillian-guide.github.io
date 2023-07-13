@@ -113,6 +113,7 @@ These mods are not included by default, but require no additional steps to be in
 ## Changelog
 === "1.0.8.0"
 	- The archive frequently updates, below is the list of it's changes:
+		* 13.07.2023 - Fixed disappearing assets in Roman's cab office. FPS limit in cutscenes has been changed to 32.
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
 		* 11.07.2023 - Fixed the main game crash issue.
 		* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
@@ -123,6 +124,7 @@ These mods are not included by default, but require no additional steps to be in
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive frequently updates, below is the list of it's changes:
+		* 13.07.2023 - Fixed disappearing assets in Roman's cab office. FPS limit in cutscenes has been changed to 32.
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
 		* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
 		* 09.07.2023 - IV Fixes and Improvements removed. Various Fixes added.
