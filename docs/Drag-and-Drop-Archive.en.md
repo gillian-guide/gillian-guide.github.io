@@ -1,5 +1,7 @@
 ## Installation
-=== 1.2.0.43(1)
+=== "1.2.0.43 (1)"
+{ .annotate }
+1. 1.2.0.43 is Complete Edition, a.k.a. latest :simple-steam: Steam version.
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button-primary }
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
@@ -8,7 +10,9 @@
 		If updating - delete :material-folder:`update` first.
 	??? warning "If the game does not start"
 		Your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
-=== 1.0.8.0 (2)
+=== "1.0.8.0 (1)"
+{ .annotate }
+1. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer altogether. See [multiplayer](multiplayer.md) section for that.
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button-primary }
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
@@ -36,7 +40,3 @@
 	* 01.07.2023 - Updated Shader Fixes, some mods repacked.
 	* 30.06.2023 - Updated Shader Fixes.
 	* 26.06.2023 - Created the archive.
-
-{ .annotate }
-1. 1.2.0.43 is Complete Edition, a.k.a. latest :simple-steam: Steam version.
-2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer altogether. See [multiplayer](multiplayer.md) section for that.
