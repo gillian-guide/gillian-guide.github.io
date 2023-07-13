@@ -3,6 +3,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 ### Notes
 1. 1.2.0.43 is Complete Edition, a.k.a. latest :material-steam: Steam version.
 2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
 ## Installation
 
@@ -38,34 +39,53 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:`modloader` or deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 		
 ## Modlist
+=== 1.2.0.43
 	| Mod name | Details |
 	| :------: | :-----: |
+	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
+	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
+	| [DXVK~2.2~](https://github.com/doitsujin/dxvk/graphs/contributors)](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
+	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
+	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - changelog's on the page. |
+	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
+	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV-map on the sign to include an unused texture. |
+	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
+	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
+	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair</br> <br>([manually ported](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br> |
+	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
+	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
+	| [Improved Animations Pack~Update 3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Vehicle Pack - 15th Anniversary Edition~2.0~ by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
+	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
+	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
 === 1.0.8.0
+	| Mod name | Details |
+	| :------: | :-----: |
 	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| 1.0.8.0 downgrade with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, and IV Tweaker included. |
 	| [ZolikaPatch IV~7.56~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without this mod, either. |
 	| [IV Tweaker~2.2~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
-=== 1.2.0.43
-| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
-| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
-| [DXVK~2.2~](https://github.com/doitsujin/dxvk/graphs/contributors)](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
-| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
-| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - changelog's on the page. |
-| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
-| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV-map on the sign to include an unused texture. |
-| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
-| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
-| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair</br> <br>([manually ported](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br> |
-| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
-| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-| [Improved Animations Pack~Update 3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
-| [Vehicle Pack - 15th Anniversary Edition~2.0~ by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
-| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
-| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
-| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
+	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
+	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
+	| [DXVK~2.2~](https://github.com/doitsujin/dxvk/graphs/contributors)](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
+	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
+	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - changelog's on the page. |
+	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
+	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV-map on the sign to include an unused texture. |
+	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
+	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
+	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair</br> <br>([manually ported](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br> |
+	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting IVLodLights files.== |
+	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
+	| [Improved Animations Pack~Update 3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Vehicle Pack - 15th Anniversary Edition~2.0~ by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
+	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765)<br>[Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)</br>| High resolution textures of radio logos. |
+	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Higher resolution specular maps for weapons. |
 
 ## Changelog
-- The archive frequently updates, below is the list of it's changes:
 === 1.2.0.43
+- The archive frequently updates, below is the list of it's changes:
 	* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
 	* 10.07.2023 - Changed Niko's hair file, now has no visual problems.
 	* 09.07.2023 - IV Fixes and Improvements removed. Various Fixes added.
@@ -76,6 +96,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	* 27.06.2023 - Updated mods.
 	* 26.06.2023 - Created the archive.
 === 1.0.8.0
+- The archive frequently updates, below is the list of it's changes:
 	* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos In-Game, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
 	* 11.07.2023 - Fixed the main game crash issue.
 	* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
