@@ -55,6 +55,16 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+nav:
+  - "index.md"
+  - "Drag-and-Drop-Archive.md"
+  - "Main-Optimisation.md"
+  - "Additional-Setup.md"
+  - "downgrading.md"
+  - "Essential-Modding/FusionFix.md"
+  - "Essential-Modding/ZolikaPatch.md"
+  - "Essential-Modding/Shader-Fixes.md"
+  - "multiplayer.md"
 extra:
   analytics:
     provider: google
@@ -66,14 +76,3 @@ extra:
       as to measure the effectiveness of my guide and whether users
       find what they're searching for. With your consent, you're helping me to
       make my guide better.
-nav:
-  - "index.md"
-  - "Drag-and-Drop-Archive.md"
-  - "Main-Optimisation.md"
-  - "Additional-Setup.md"
-  - "downgrading.md"
-  - "Essential-Modding/"
-  - "Essential-Modding/FusionFix.md"
-  - "Essential-Modding/ZolikaPatch.md"
-  - "Essential-Modding/Shader-Fixes.md"
-  - "multiplayer.md"
