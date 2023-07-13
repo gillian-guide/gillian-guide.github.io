@@ -4,14 +4,16 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 ## Optimal Game Settings
 ???+ note
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
+??? note "Console Settings"
+    These settings were set on console versions on the game and the game is most optimized towards those. They're included for the sake of having a complete list.
 === "1.0.8.0"
-    | Setting | Optimal setting | Console Value | Description | 
+    | Setting | Optimal Setting | Console Setting | Description | 
     | :-----: | :-------------: | :-----------: | :---------: |
     | Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3; both ran at 20-30 FPS | This setting controls your monitor resolution, or, if `-windowed` launch option is set - game's window size. |
     | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio relative to your monitor resolution. |
     | Texture Quality | High | Medium | This setting controls the resolution of all textures. |
     | Reflection Resolution | Very High (If not installing FusionFix or Shader Fixes, High) | Medium | This setting controls the resolution of reflections - mainly car reflections (but if you're using FusionFix or Shader Fixes, it won't affect the resolution) |
-    | Water Quality | Medium or Very High | Medium | This setting controls the density and intensity of waves in water, as well as water samples. It does not affect the resolution of water's reflection. |
+    | Water Quality | Medium or Very High | Medium | This setting controls the density and intensity of waves in water, as well as water samples. Medium is reccomended due to being less extreme and more realistic. It does not affect the resolution of water's reflection. |
     | Shadow Quality | High | Medium | This setting controls the resolution, as well as the render distance, of shadows. Medium and Low rely on static shadows much more than High. Very High consumes ~20 FPS |
     | Night Shadows | High or Very High | Off | This setting controls the resolution of dynamic shadows off cars' headlights. FusionFix allows to enhance it, allowing to add dynamic shadows to most objects. |
     | Texture Filter Quality | Anisotropic 16x | Anisotropic 1x | This setting controls anisotropic filtering. |
@@ -20,6 +22,3 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
     | Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the density of traffic. Setting the option too high might prove travelling by car too troublesome, especially with unstable traffic AI that can occasionally create random blocks even on straight roads and bridges |
     | Definition | Off | Off | This setting controls Depth of Field and Motion Blur - however, it is also known to have issues with blurred image on PC and effects that simply don't scale up in resolution - use FusionFix or Shader Fixes to solve the problem |
     | VSync | Off | On | This setting controls Vertical Synchronisation. We're using the one bundled with DXVK instead for it's much better framepacing, aswell as FusionFix's FPS limiter |
-
-    ???+ note "Console Values"
-        These values were set on console versions on the game and the game is most optimized towards those.
