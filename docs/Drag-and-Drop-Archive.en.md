@@ -10,26 +10,30 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
-
+	!!! warning
+		The archive must be installed on-top of a clean, unmodded Complete Edition install downloaded from :material-steam:[Steam](https://store.steampowered.com/app/12210/). Any other way to install it will not be supported.
 	??? info "Updating"
-		Delete :material-folder:`update` first.
+		If you're updating the archive instead after installing it previously, delete :material-folder:`update` first.
 	??? warning "If the game does not start"
-		Your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
+		Your PC does not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	!!! warning
+		The archive must be installed on-top of a clean, unmodded Complete Edition install downloaded from :material-steam:[Steam](https://store.steampowered.com/app/12210/). If you're using the Rockstar Games Launcher version, avoid booting the game from the launcher itself, but rather use :material-file:`PlayGTAIV.exe` - the game files will be replaced otherwise. Any other way to install it will not be supported.
 	??? info "Updating"
-		Delete :material-folder:`update` and :material-folder:`modloader` first.
+		If you're updating the archive instead after installing it previously, delete :material-folder:`update` and :material-folder:`modloader` first.
 	??? warning "If the game does not start"
-		Try to install :material-file:`vcredist_x86.exe` that's in your game folder.
+		Try to install :material-file-download:`vcredist_x86.exe` that's in your game folder.
 
-		Alternatively, your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
+		Alternatively, your PC does not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#Additional_Mods).
 
+=== 1.2.0.43
 ## Modlist
-| Mod name    | Details         |
-| :---------: | :-------------: |
-| Mod 1       | Mod 1 details  |
+| Mod name | Details |
+| :------: | :-----: |
+| [https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/](FusionFix by ThirteenAG)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. <br>Version - 1.60</br> |
 | Mod 2       | Mod 2 details |
 | Mod 3    | Mod 3 details |
 
