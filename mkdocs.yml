@@ -69,4 +69,8 @@ extra:
 nav:
   - "index.md"
   - "Drag-and-Drop-Archive.md"
+  - "Main-Optimisation.md"
   - "Additional-Setup.md"
+  - "/Essential-Modding/FusionFix.md"
+  - "/Essential-Modding/ZolikaPatch.md"
+  - "/Essential-Modding/Shader-Fixes.md"
