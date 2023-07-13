@@ -91,7 +91,8 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
 
 ## Additional Mods
-These mods are not included by default, but do not require any additional steps to install over the archive.=== "1.0.8.0"
+These mods are not included by default, but do not require any additional steps to install over the archive
+=== "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.4==, extract :material-file:`IV.EFLC.ColAccel.asi` into :material-folder:==plugins== or in the game folder</br> |
