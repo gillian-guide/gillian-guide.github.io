@@ -2,17 +2,16 @@
 Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archive.md) or using the [main optimisation](Main-Optimisation.md), we still have to perform some setup for the best experience.
 
 ## Optimal Game Settings
-??? note
+???+ note
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
 === "1.0.8.0"
     ==Video Mode/Resolution==: Your native resolution
-    <br>==Aspect Ratio==: Auto</br>
-    <br>==Texture Quality==: High</br>
+    <br>==Aspect Ratio==: Auto
+    <br>==Texture Quality==: High</br></br>
 
-    ==Reflection Resolution==: Very High (1)
-    { .annotate }
+    ==Reflection Resolution==: Very High (1){ .annotate }
 
-        1. If not installing FusionFix or Shader Fixes, High
+    1. If not installing FusionFix or Shader Fixes, High
 
     ==Water Quality==: Very High
 
