@@ -1,8 +1,8 @@
 You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist).
 
 ### Notes
-1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam: Steam version.
-2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam: Steam version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements).
+2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
 3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
 ## Installation
@@ -68,9 +68,10 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
-	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, and IV Tweaker included. |
+	| [Downgrader~v16~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader(also known as xliveless), ZolikaPatch, SteamAchievements and IV Tweaker included. |
 	| [ZolikaPatch IV~7.56~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without this mod, either. |
 	| [IV Tweaker~2.2~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
+	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows to get Steam achievements on older patches. |
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod of the pack: it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. |
