@@ -1,3 +1,3 @@
-# Test in russian
+# Предисловие
 
-idk shit bout russian so this is a test yes
+Добро пожаловать на гайд по GTA IV от Gillian!
