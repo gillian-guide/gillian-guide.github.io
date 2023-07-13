@@ -34,22 +34,23 @@ theme:
     - toc.integrate
     - content.tabs.link
 markdown_extensions:
-  - attr_list
   - md_in_html
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - admonition
+  - tables
+  - attr_list
+  - attr_list
+  - def_list
+  - pymdownx.superfences
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - tables
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true 
-
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true

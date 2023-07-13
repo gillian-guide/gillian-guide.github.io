@@ -12,7 +12,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
-		The archive must be installed on-top of a clean, unmodded Complete Edition install downloaded from :material-steam:[Steam](https://store.steampowered.com/app/12210/). Any other way to install it will not be supported.
+		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. Any other way to install it will not be supported.
 		
 		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
 	??? info "Updating"
@@ -26,7 +26,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
-		The archive must be installed on-top of a clean, unmodded Complete Edition install downloaded from :material-steam:[Steam](https://store.steampowered.com/app/12210/). If you're using the Rockstar Games Launcher version, avoid booting the game from the launcher itself, but rather use :material-file:`PlayGTAIV.exe` - the game files will be replaced otherwise. Any other way to install it will not be supported.
+		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. If you're using the Rockstar Games Launcher version, avoid booting the game from the launcher itself, but rather use :material-file:`PlayGTAIV.exe` - the game files will be replaced otherwise. Any other way to install it will not be supported.
 		
 		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
 	??? info "Updating"
