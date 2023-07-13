@@ -1,9 +1,10 @@
-## Installation
-You can pick an archive depending on your desired version - be it 1.2.0.43 (1) or 1.0.8.0 (2). However, the modlist is mostly the same - you can see and compare it [below](#Modlist)
-{ .annotate }
+You can pick an archive depending on your desired version - be it 1.2.0.43 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist)
 
+### Notes
 1. 1.2.0.43 is Complete Edition, a.k.a. latest :material-steam: Steam version.
 2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+
+## Installation
 
 === "1.2.0.43"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
@@ -18,8 +19,8 @@ You can pick an archive depending on your desired version - be it 1.2.0.43 (1) o
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
-	!!! info
-		If updating - delete :material-folder:`update` and :material-folder:`modloader` first.
+	??? info "Updating"
+		Delete :material-folder:`update` and :material-folder:`modloader` first.
 	??? warning "If the game does not start"
 		Try to install :material-file:`vcredist_x86.exe` that's in your game folder.
 
