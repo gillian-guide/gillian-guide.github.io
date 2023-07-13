@@ -4,7 +4,7 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 ## Optimal Game Settings
 ???+ note
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
-??? note "Console Settings"
+??? info "Console Settings"
     These settings were set on console versions on the game and the game is most optimized towards those. They're included for the sake of having a complete list.
 === "1.0.8.0"
     | Setting | Optimal Setting | Console Setting | Description | 
