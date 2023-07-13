@@ -1,19 +1,21 @@
 ## Installation
-You can pick an archive depending on your desired version - be it 1.2.0.43 (1) or 1.0.8.0 (2)
+You can pick an archive depending on your desired version - be it 1.2.0.43 (1) or 1.0.8.0 (2). However, the modlist is mostly the same - you can see and compare it [below](#Modlist)
 { .annotate }
-1. 1.2.0.43 is Complete Edition, a.k.a. latest :simple-steam: Steam version.
+
+1. 1.2.0.43 is Complete Edition, a.k.a. latest :material-steam: Steam version.
 2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for multiplayer whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+
 === "1.2.0.43"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button-primary }
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 
-	!!! info
-		If updating - delete :material-folder:`update` first.
+	??? info "Updating"
+		Delete :material-folder:`update` first.
 	??? warning "If the game does not start"
 		Your PC does not support DXVK - remove :material-file:`d3d9.dll` from the game folder or try async 1.10.3 from additional mods.
-=== "1.0.8.0 (1)"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button-primary }
+=== "1.0.8.0"
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! info
