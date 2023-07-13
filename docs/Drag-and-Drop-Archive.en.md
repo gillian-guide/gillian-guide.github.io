@@ -8,26 +8,10 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 
 ## Installation
 
-=== "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
-
-	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
-	!!! warning
-		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
-		
-		Any other way to install it will not be supported.
-		
-		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
-	??? info "Updating"
-		If you're updating the archive instead after installing it previously, delete :material-folder:`update` first.
-	??? warning "If the game does not start"
-		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
-	??? warning "My game is acting weird/my game randomly crashes"
-		Disable mods one-by-one to see the culprit by deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	Download the archive and then simply :material-zip-box:extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
 		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
 		
@@ -44,28 +28,24 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#Additional_Mods).
 	??? warning "My game is acting weird/my game randomly crashes"
 		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:`modloader` or deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
-		
-## Modlist
 === "1.2.0.59"
-	| Mod name | Details |
-	| :------: | :-----: |
-	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
-	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
-	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file)== |
-	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
-	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - changelog's on the page. |
-	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
-	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV-map on the sign to include an unused texture. |
-	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
-	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
-	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair<br>[Manually ported.](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br></br> |
-	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting `IVLodLights` files.== |
-	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
-	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3.<br>[Manually ported.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
-	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
-	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
-	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
+
+	Download the archive and then simply :material-zip-box:extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	!!! warning
+		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
+		
+		Any other way to install it will not be supported.
+		
+		In addition to that, I won't support any extra modifications to the files other than already listed instructions.
+	??? info "Updating"
+		If you're updating the archive instead after installing it previously, delete :material-folder:`update` first.
+	??? warning "If the game does not start"
+		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
+	??? warning "My game is acting weird/my game randomly crashes"
+		Disable mods one-by-one to see the culprit by deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
+
+## Modlist
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
@@ -90,8 +70,57 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
+=== "1.2.0.59"
+	| Mod name | Details |
+	| :------: | :-----: |
+	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader. |
+	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
+	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main optimisation method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file)== |
+	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
+	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - changelog's on the page. |
+	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
+	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV-map on the sign to include an unused texture. |
+	| [Pedestrians with Unused Clothes Restored by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds unused clothes for some pedestrians. |
+	| [Varied Alderney State Trooper Ped by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Adds diversity to police troppers. |
+	| [Characters Fixes~2023-06-09~ by TheYoshiPunch, (Japan) GTA Love and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon used: Niko's Original GTAIV Hair<br>[Manually ported.](https://drive.google.com/file/d/19LA4e31Ibux3QpXo2PxHsjGu1xROtTG9/view?usp=drive_link)</br></br> |
+	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting `IVLodLights` files.== |
+	| [Console Visuals~1.2~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
+	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3.<br>[Manually ported.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
+	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
+	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
+	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
+
+## Additional Mods
+These mods are not included by default, but require no additional steps to be installed on-top of the archive.
+=== "1.0.8.0"
+	| Mod name | Details |
+	| :------: | :-----: |
+	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.4==, :material-zip-box:extract :material-file:==IV.EFLC.ColAccel.asi== into :material-folder:plugins or in the game folder</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, :material-zip-box:extract :fontawesome-solid-gears:==d3d9.dll== from :material-folder:==x32== into the game folder</br> |
+	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, :material-zip-box:extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: :material-zip-box:unzip the archive into the folder with the game, open :fontawesome-solid-gears:==install.bat==, then after the console closes itself - :material-zip-box:extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
+	| [Dualshock 4 button textures](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: In :material-folder:modloader edit :material-file-edit:modloader.ini to change `PlaystationButtons=1` to `0` at the beggining of the file, and `XboxButtons=0` to `1`</br> |
+=== "1.2.0.59"
+	| Mod name | Details |
+	| :------: | :-----: |
+	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.5==, :material-zip-box:extract :material-file:==IV.EFLC.ColAccel.asi== into :material-folder:plugins or in the game folder</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, :material-zip-box:extract :fontawesome-solid-gears:==d3d9.dll== from :material-folder:==x32== into the game folder</br> |
+	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, :material-zip-box:extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: :material-zip-box:unzip the archive into the folder with the game, open :fontawesome-solid-gears:==install.bat==, then after the console closes itself - :material-zip-box:extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
+	| [Dualshock 4 button textures](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: in the folder :material-folder:==update/pc/textures==, replace :material-file:==360_buttons.wtd==</br> |
 
 ## Changelog
+=== "1.0.8.0"
+	- The archive frequently updates, below is the list of it's changes:
+		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
+		* 11.07.2023 - Fixed the main game crash issue.
+		* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
+		* 09.07.2023 - Changed the downgrader - now bundled with the archive. IV Fixes and Improvements removed. Various Fixes added. Added Dualshock buttons(optional)
+		* 08.07.2023 - Updated Shader Fixes. Removed Simple Traffic Loader. Fully repacked the mods to use the modloader instead.
+		* 01.07.2023 - Updated Shader Fixes, some mods repacked.
+		* 30.06.2023 - Updated Shader Fixes.
+		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive frequently updates, below is the list of it's changes:
 		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix.
@@ -102,14 +131,4 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 		* 01.07.2023 - Updated Shader Fixes. Ported mods from older versions.
 		* 30.06.2023 - Updated mods.
 		* 27.06.2023 - Updated mods.
-		* 26.06.2023 - Created the archive.
-=== "1.0.8.0"
-	- The archive frequently updates, below is the list of it's changes:
-		* 12.07.2023 - Added following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Moved Various Fixes to update folder for compatibility concerns. Removed TBoGT Texture Quality Fix as Various Fixes already includes the fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already includes the fix. Removed IVPresence. Updated ZolikaPatch.
-		* 11.07.2023 - Fixed the main game crash issue.
-		* 10.07.2023 - Updated the downgrader. Added FusionFix 1.60 port by Zolika. Later: Fixed TLAD crash, changed Niko's hair file, now has no visual problems.
-		* 09.07.2023 - Changed the downgrader - now bundled with the archive. IV Fixes and Improvements removed. Various Fixes added. Added Dualshock buttons(optional)
-		* 08.07.2023 - Updated Shader Fixes. Removed Simple Traffic Loader. Fully repacked the mods to use the modloader instead.
-		* 01.07.2023 - Updated Shader Fixes, some mods repacked.
-		* 30.06.2023 - Updated Shader Fixes.
 		* 26.06.2023 - Created the archive.
