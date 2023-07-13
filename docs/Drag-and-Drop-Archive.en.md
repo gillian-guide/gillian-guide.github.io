@@ -3,7 +3,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 
 ### Notes
 1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements).
-2. 1.0.8.0 is the latest :material-disc: retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+2. 1.0.8.0 is the latest retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
 3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
 ## Installation
@@ -11,7 +11,7 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Download the archive and then simply :material-zip-box:extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
 		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
 		
@@ -25,13 +25,13 @@ You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.
 	??? warning "If the game does not start"
 		Try to install :material-file-download:`vcredist_x86.exe` that's in your game folder.
 
-		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#Additional_Mods).
+		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
 	??? warning "My game is acting weird/my game randomly crashes"
 		Disable mods one-by-one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:`modloader` or deleting mods in :material-folder:`update`. Let me know of the issue if you find it.
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
-	Download the archive and then simply :material-zip-box:extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional optimisation](Additional-Optimisation.md).
 	!!! warning
 		The archive must be installed on-top of a clean, unmodded :material-steam:[Steam](https://store.steampowered.com/app/12210/) Complete Edition install. 
 		
@@ -96,19 +96,19 @@ These mods are not included by default, but require no additional steps to be in
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
-	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.4==, :material-zip-box:extract :material-file:==IV.EFLC.ColAccel.asi== into :material-folder:plugins or in the game folder</br> |
-	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, :material-zip-box:extract :fontawesome-solid-gears:==d3d9.dll== from :material-folder:==x32== into the game folder</br> |
-	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, :material-zip-box:extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
-	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: :material-zip-box:unzip the archive into the folder with the game, open :fontawesome-solid-gears:==install.bat==, then after the console closes itself - :material-zip-box:extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
-	| [Dualshock 4 button textures](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: In :material-folder:modloader edit :material-file-edit:modloader.ini to change `PlaystationButtons=1` to `0` at the beggining of the file, and `XboxButtons=0` to `1`</br> |
+	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.4==, extract :material-file:`IV.EFLC.ColAccel.asi` into :material-folder:`plugins` or in the game folder</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, extract :fontawesome-solid-gears:`d3d9.dll` from :material-folder:`x32` into the game folder</br> |
+	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: unzip the archive into the folder with the game, open :fontawesome-solid-gears:`install.bat`, then after the console closes itself - extract the :material-folder:`update` from the desired version of vladivostok (:material-folder:`with new vladivostok` and :material-folder:`without new vladivostok` - without will not have new tracks that appeared after the cut)</br> |
+	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: In :material-folder:==modloader== edit :material-file-edit:==modloader.ini== to change `PlaystationButtons=1` to `0` at the beggining of the file, and `XboxButtons=0` to `1`</br> |
 === "1.2.0.59"
 	| Mod name | Details |
 	| :------: | :-----: |
-	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.5==, :material-zip-box:extract :material-file:==IV.EFLC.ColAccel.asi== into :material-folder:plugins or in the game folder</br> |
-	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, :material-zip-box:extract :fontawesome-solid-gears:==d3d9.dll== from :material-folder:==x32== into the game folder</br> |
-	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, :material-zip-box:extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
-	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: :material-zip-box:unzip the archive into the folder with the game, open :fontawesome-solid-gears:==install.bat==, then after the console closes itself - :material-zip-box:extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
-	| [Dualshock 4 button textures](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: in the folder :material-folder:==update/pc/textures==, replace :material-file:==360_buttons.wtd==</br> |
+	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (such as the burnt garage)==.<br>Installation: download version ==1.5==, extract :material-file:`IV.EFLC.ColAccel.asi` into :material-folder:`plugins` or in the game folder</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, extract :fontawesome-solid-gears:`d3d9.dll` from :material-folder:`x32` into the game folder</br> |
+	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimisation effect though.<br>Installation: remove :fontawesome-solid-gears:==d3d9.dll== from the game folder, extract :material-file:==dxwrapper.asi== and :material-file-edit:==dxwrapper.ini== into the game folder, then in the :material-file-edit:==dxwrapper.ini== change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: unzip the archive into the folder with the game, open :fontawesome-solid-gears:==install.bat==, then after the console closes itself - extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
+	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: in the :material-folder:`update/pc/textures`, replace :material-file:`360_buttons.wtd`</br> |
 
 ## Changelog
 === "1.0.8.0"
