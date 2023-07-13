@@ -44,8 +44,55 @@ The only options you should set are: `-norestrictions -nomemrestrict`
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might've helped, back in 2009, when average customer PC's couldn't really handle precaching and other stuff, but nowadays these options only do worse or act as a pure placebo.
 
-??? Full list of launch options
-    You can see the full list of launch options on [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options).
+??? note "Full list of launch options"
+    You can use these options for tweaking, debugging and playing around. The list was sourced from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
+    | Option | Description | 
+    | -----: | :---------- |
+    | -help | Lists the available commands. |
+    | -adapter | Uses the specified screen adapter. |
+    | -autoconfig | Automatically adjusts the graphics settings depending on computer specifications. |
+    | -availablevidmem | Sets the amount of available physical video memory. |
+    | -benchmark | Launches the game in Benchmark mode and then quits it. |
+    | -detailquality | Sets the game's detail distance (0-99). |
+    | -disableimposters | Turns off imposter rendering for vehicles. |
+    | -forcehighqualitymirrors | ? |
+    | -forcer2vb | Forces rendering to Vertex Buffer. |
+    | -frameLimit | Sets the setting for VSync. |
+    | -framelockinwindow | Forces framelock to work even in a window. |
+    | -fullscreen | Forces fullscreen mode. |
+    | -fullspecaudio | Forces high-end CPU audio footprint. |
+    | -gpucount | Allows to manually set the GPU count if query fails. |
+    | -height | Sets the vertical resolution. |
+    | -managed | Uses D3D runtime managed resources. |
+    | -memrestrict | Restricts the amount of available memory the game can use. |
+    | -minspecaudio | Forces low-end CPU audio footprint. |
+    | -no_3GB | Disables 3GB memory support on 32-bit OSes which have been set to allow games and applications to use that much memory. |
+    | -noBlockOnLostFocus | Prevents the game from blocking window updates during focus loss. |
+    | -noprecache | Disables precaching of resources. |
+    | -nomemrestrict | Disables memory restrictions. |
+    | -nominimize | Disables the ability to restore the game from minimize and altering resolutions (reduces system memory footprint). |
+    | -norestrictions | Disables restrictions on graphics settings. |
+    | -noswapdelay | Disables sleep delay before Present (disables the hard present stalls fix). |
+    | -notimefix | Disables Time Fix. |
+    | -novblank | Disables vertical blanking for V-Sync. |
+    | -percentvidmem | Percentage of video memory to be made available for the game. |
+    | -refreshrate | Sets the refresh rate (values set must be supported by the monitor used). |
+    | -reserve | Sets the amount of memory to be used by other programs. |
+    | -reservedApp | Sets the amount of memory to be left available within application space. |
+    | -renderquality | Adjusts anisotropic filtering (0-4). |
+    | -safemode | Sets the game's graphics to the lowest setting possible. |
+    | -shadowdensity | Adjusts night shadows (0-16). |
+    | -shadowquality | Sets the shadow quality (0-4). |
+    | -stereo | Enables stereo audio support. |
+    | -texturequality | Sets the game's texture quality (0-2). |
+    | -unmanaged | Uses application managed resources. |
+    | -usedirectinput | Allows DirectInput support alongside XInput support. |
+    | -viewdistance | Sets the game's view distance (0-99). |
+    | -windowed | Forces windowed mode. |
+    | -width | Sets the horizontal resolution. |
+
+
+
 
 ???+ note "What's :material-file-cog:`stream.ini`?"
     Other guides commonly use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), aswell as my own's - this provides no benefit whatsoever and is likely placebo.
