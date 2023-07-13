@@ -1,6 +1,13 @@
 # Additional Setup
 Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archive.md) or using the [main optimisation](Main-Optimisation.md), we still have to perform some setup for the best experience.
 
+Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
+{ .annotate }
+
+1.  :man_raising_hand: I'm an annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+
+
 ## Optimal Game Settings
 ???+ note
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
@@ -10,7 +17,7 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
     <br>==Texture Quality==: High</br></br>
 
     ==Reflection Resolution==: Very High (1) { .annotate }
-    
+
     1. If not installing FusionFix or Shader Fixes, High
 
     ==Water Quality==: Very High

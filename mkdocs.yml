@@ -40,7 +40,6 @@ markdown_extensions:
   - admonition
   - tables
   - attr_list
-  - attr_list
   - def_list
   - pymdownx.superfences
   - pymdownx.details
