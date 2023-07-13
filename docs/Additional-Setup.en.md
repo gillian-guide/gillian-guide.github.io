@@ -21,3 +21,25 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 | Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the density of traffic. Setting the option too high might prove travelling by car too troublesome, especially with unstable traffic AI that can occasionally create random blocks even on straight roads and bridges |
 | Definition | Off | Off | This setting controls Depth of Field and Motion Blur - however, it is also known to have issues with blurred image on PC and effects that simply don't scale up in resolution - use [FusionFix](/Essential-Modding/FusionFix.md) or [Shader Fixes](/Essential-Modding/Shader-Fixes.md) to solve the problem |
 | VSync | Off | On | This setting controls Vertical Synchronisation. We're using the one bundled with DXVK instead for it's much better framepacing, aswell as [FusionFix](/Essential-Modding/FusionFix.md)'s FPS limiter |
+
+## Launch Options
+???+ note "How to set the Launch Options?"
+    There are several ways to:
+    
+    1. Going to the game's Properties menu in :material-steam:Steam and setting it there
+    2. Creating a :material-file-cog:`commandline.txt` in the game's folder and editing it
+    3. Creating a shortcut for the game and adding the options after the shortcut's path
+
+    We're going to stick with the first two.
+
+The only options you should set are: `-norestrictions -nomemrestrict`
+
+??? warning "If using DXVK..."
+    Add `-windowed` to use Borderless Fullscreen for improved stability. Make sure `BorderlessFullscreen` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
+
+    If the game doesn't show correct VRAM amounts (i.e. 512MB), add `-availablevidmem` with your GPU's amount of video memory.
+
+    If the game doesn't allow to use correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+
+!!! danger "But other guides use more options!"
+    ^^Don't use them^^. They might've helped, back in 2009, when average customer PC's couldn't really handle precaching and other stuff, but nowadays these options only do worse or act as a pure placebo.
