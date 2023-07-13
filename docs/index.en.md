@@ -1,4 +1,4 @@
-# :material-help-circle-outline: Introduction
+# Introduction
 
 Welcome to Gillian's GTA IV Guide.
 

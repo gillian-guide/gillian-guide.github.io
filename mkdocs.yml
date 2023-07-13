@@ -7,7 +7,6 @@ plugins:
           name: English
         ru:
           name: Русский
-  - typeset
         
 theme:
   name: material
