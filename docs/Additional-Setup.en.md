@@ -1,8 +1,8 @@
 # Additional Setup
-Whether you're here after using the [drag-and-drop archive](drag-and-drop-archive.md) or using the [main optimisation](main-optimisation.md), we still have to perform some setup for the best experience.
+Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archive.md) or using the [main optimisation](Main-Optimisation.md), we still have to perform some setup for the best experience.
 
 ## Optimal Game Settings
-???+ note
+???
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
 === "1.0.8.0"
     ==Video Mode/Resolution==: Your native resolution

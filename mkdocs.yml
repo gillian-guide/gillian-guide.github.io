@@ -33,6 +33,7 @@ theme:
   features:
     - toc.integrate
     - content.tabs.link
+    - navigation.indexes
 markdown_extensions:
   - md_in_html
   - admonition
