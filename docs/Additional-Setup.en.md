@@ -5,7 +5,9 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 ???+ note
     These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
 === "1.0.8.0"
-    ==Video Mode/Resolution==: Your native resolution
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | ==Video Mode== | Your native resolution(max option, usually) | This setting controls your monitor resolution, or, if `-windowed` launch option is set - game's window size. |
     <br>==Aspect Ratio==: Auto
     <br>==Texture Quality==: High
     <br>==Reflection Resolution==: Very High. If not installing FusionFix or Shader Fixes, High
