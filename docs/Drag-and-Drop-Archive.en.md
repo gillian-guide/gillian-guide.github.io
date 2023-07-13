@@ -1,9 +1,9 @@
 # Drag-and-Drop Archive
-You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0. However, the modlist is mostly the same - you can see and compare it [below](#modlist).
+You can pick an archive depending on your desired version - be it 1.2.0.59 or 1.0.8.0. However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist).
 
 ### Notes
-1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements).
-2. 1.0.8.0 is the latest retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead.
+1. 1.2.0.59 is Complete Edition, a.k.a. latest :material-steam:[Steam](https://store.steampowered.com/app/12210/) version. It cuts out support for multiplayer and Games for Windows - LIVE, while adding Rockstar Games Launcher (and it's DRM) and Social Club overlay (with it's achievements). The amount of supported mods is also much more limited on this version - most mods are built for 1.0.8.0 and 1.0.7.0.
+2. 1.0.8.0 is the latest retail patch, with support for ZolikaPatch and multiplayer. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
 3. If you're using the Rockstar Games Launcher version, stick to the 1.0.8.0 archive and read it's warning.
 
 ## Installation
