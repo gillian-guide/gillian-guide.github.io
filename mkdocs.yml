@@ -1,5 +1,4 @@
 site_name: Gillian's GTA IV Guide
-
 plugins:
   - i18n:
       default_language: en
@@ -8,6 +7,7 @@ plugins:
           name: English
         ru:
           name: Русский
+  - typeset
         
 theme:
   name: material
