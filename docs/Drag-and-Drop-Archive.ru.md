@@ -21,13 +21,13 @@
 		
 		Кроме того, я не буду поддерживать никаких дополнительных модификаций файлов, кроме уже перечисленных инструкций.
 	??? info "Обновление"
-		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:`update` и :material-folder:`modloader`.
+		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== и :material-folder:==modloader==.
 	??? warning "Если игра не запускается"
 		Попробуйте установить :material-file-download:`vcredist_x86.exe` из папки с игрой.
 
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
 	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:`modloader` или удаляя моды в :material-folder:`update`. Сообщите мне о проблеме, если вы ее обнаружите.
+		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==. Сообщите мне о проблеме, если вы ее обнаружите.
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
@@ -39,11 +39,11 @@
 		
 		Кроме того, я не буду поддерживать никаких дополнительных модификаций файлов, кроме уже перечисленных инструкций.
 	??? info "Обновление"
-		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:`update`.
+		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update==.
 	??? warning "Если игра не запускается"
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
 	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:`update`. Сообщите мне о проблеме, если вы ее обнаружите.
+		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==. Сообщите мне о проблеме, если вы ее обнаружите.
 
 ## Список модов
 === "1.0.8.0"
@@ -97,19 +97,19 @@
 	| Название мода | Детали |
 	| :-----------: | :----: |
 	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой |
-	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.4==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:`plugins` или в папку с игрой</br> |
-	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:`x32` в папку с игрой</br> |
+	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.4==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:==x32== в папку с игрой</br> |
 	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| Если у вас не работает DXVK вовсе - можно на замену использовать DxWrapper. Но, эффект оптимизации будет гораздо хуже.<br>Установка: удалите :fontawesome-solid-gears:==d3d9.dll== из папки с игрой, распакуйте :material-file:==dxwrapper.asi== и :material-file-edit:==dxwrapper.ini== в папку с игрой, после чего в :material-file-edit:==dxwrapper.ini== измените `DDrawCompat` и `DDrawCompatNoProcAffinity` на `1`</br> |
-	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Возвращает удалённые треки - которые удалили в 2018 из-за лицензий - обратно в игру.<br>Установка: распакуйте архив в папку с игрой, откройте :fontawesome-solid-gears:`install.bat`, после того как консоль закроется - переносим :material-folder:`update` из желаемого варианта владивостока (:material-folder:`with new vladivostok` и :material-folder:`without new vladivostok` - в without не будет новых треков, появившихся после выреза)</br> |
-	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: В :material-folder:==modloader== измените в :material-file-edit:==modloader.ini== `PlaystationButtons=1` на `0` в начале файла, а `XboxButtons=0` на `1`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Возвращает удалённые треки - которые удалили в 2018 из-за лицензий - обратно в игру.<br>Установка: распакуйте архив в папку с игрой, откройте :fontawesome-solid-gears:`install.bat`, после того как консоль закроется - переносим :material-folder:==update== из желаемого варианта владивостока (:material-folder:==with new vladivostok== и :material-folder:==without new vladivostok== - в without не будет новых треков, появившихся после выреза)</br> |
+	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: В :material-folder:==modloader== измените в :material-file-edit:`modloader.ini` `PlaystationButtons=1` на `0` в начале файла, а `XboxButtons=0` на `1`</br> |
 === "1.2.0.59"
 	| Название мода | Детали |
 	| :-----------: | :----: |
-	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.5==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:`plugins` или в папку с игрой</br> |
-	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:`x32` в папку с игрой</br> |
+	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.5==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
+	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:==x32== в папку с игрой</br> |
 	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| Если у вас не работает DXVK вовсе - можно на замену использовать DxWrapper. Но, эффект оптимизации будет гораздо хуже.<br>Установка: удалите :fontawesome-solid-gears:==d3d9.dll== из папки с игрой, распакуйте :material-file:==dxwrapper.asi== и :material-file-edit:==dxwrapper.ini== в папку с игрой, после чего в :material-file-edit:==dxwrapper.ini== измените `DDrawCompat` и `DDrawCompatNoProcAffinity` на `1`</br> |
-	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Возвращает удалённые треки - которые удалили в 2018 из-за лицензий - обратно в игру.<br>Установка: распакуйте архив в папку с игрой, откройте :fontawesome-solid-gears:`install.bat`, после того как консоль закроется - переносим :material-folder:`update` из желаемого варианта владивостока (:material-folder:`with new vladivostok` и :material-folder:`without new vladivostok` - в without не будет новых треков, появившихся после выреза)</br> |
-	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: в :material-folder:`update/pc/textures`, замените :material-file:`360_buttons.wtd`</br> |
+	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Возвращает удалённые треки - которые удалили в 2018 из-за лицензий - обратно в игру.<br>Установка: распакуйте архив в папку с игрой, откройте :fontawesome-solid-gears:`install.bat`, после того как консоль закроется - переносим :material-folder:==update== из желаемого варианта владивостока (:material-folder:==with new vladivostok== и :material-folder:==without new vladivostok== - в without не будет новых треков, появившихся после выреза)</br> |
+	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br> |
 
 ## Список изменений
 === "1.0.8.0"
