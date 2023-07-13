@@ -9,9 +9,8 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
     <br>==Aspect Ratio==: Auto
     <br>==Texture Quality==: High</br></br>
 
-    ==Reflection Resolution==: Very High (1) 
-    { .annotate }
-
+    ==Reflection Resolution==: Very High (1) { .annotate }
+    
     1. If not installing FusionFix or Shader Fixes, High
 
     ==Water Quality==: Very High
