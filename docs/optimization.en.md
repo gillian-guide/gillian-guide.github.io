@@ -70,5 +70,5 @@ d3d9.presentInterval = 1
 # numBackBuffers may further improve frametime stability while using Vsync.
 d3d9.numBackBuffers = 3
 ```
-???+ abstract "Full list of DXVK options"
+??? abstract "Full list of DXVK options"
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
