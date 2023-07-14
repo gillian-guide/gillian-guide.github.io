@@ -17,7 +17,7 @@ Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archiv
 The only options you need to set are: `-norestrictions -nomemrestrict`
 
 ??? warning "When using DXVK or drag-and-drop archive..."
-    Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessFullscreen` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
+    Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
 
     If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
 
@@ -96,5 +96,5 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 | Definition | Off | Off | This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred images on PC and effects that simply do not scale up in resolution - use [FusionFix](/Essential-Modding/FusionFix/) or [Shader Fixes](/Essential-Modding/Shader-Fixes/) to solve this problem |
 | VSync | Off | On | This setting controls the vertical synchronization. We'll use the one bundled with [DXVK](Main-Optimisation.md) instead, as it has much better frame timing, as well as [FusionFix](/Essential-Modding/FusionFix/)'s FPS limiter |
 
-??? info "What is :material-file-cog:`stream.ini`?"
+??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.
