@@ -76,7 +76,7 @@ The only options you should set are: `-norestrictions -nomemrestrict`
 
 ## Optimal Game Settings
 ![GTA IV Settings](gta4settings.jpg){: style="height:30%;width:30%"; align=right}
-???+ note
+!!! ""
     These options are optimal for most people. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to set them higher, but don't blame me for the problems.
 ??? info "Console Settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They're included for the sake of a complete list.
