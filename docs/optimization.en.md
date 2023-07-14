@@ -1,3 +1,6 @@
+title: Optimization
+description: Methods to optimize your GTA IV install.
+
 # Optimization
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have an ultimate solution - but we do have a pretty good one.
 !!! warning ""
@@ -64,12 +67,15 @@ Currently the only good solution for improving game's performance. Although not 
     
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
-``` { .ini }
+``` { .yaml }
 # maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
+
 d3d9.maxFrameLatency = 1
 # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead. 
+
 d3d9.presentInterval = 1
 # numBackBuffers may further improve frametime stability while using Vsync.
+
 d3d9.numBackBuffers = 3
 ```
 ??? abstract "Full list of DXVK options"
