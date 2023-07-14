@@ -16,49 +16,58 @@ Currently the only good solution for game performance. Although not officially s
 === "Latest"
     !!! warning ""
         Use this version if your GPU supports the latest version. See the warning above to make sure.
+
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
-        * After downloading, open the archive and navigate to :material-zip-box:`dxvk-x.x.tar`\:material-folder:==dxvk-2.2==\==x32==\
+        * After downloading, open the archive and navigate to :material-zip-box:`dxvk-x.x.tar`\\:material-folder:==dxvk-2.2==\\==x32==\
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
+    
     ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
         
         In simpler words, the game will not use any other files.
-    ???+ info "Why :material-folder:==x32==? My system is 64-bit"
+    
+    ??? info "Why :material-folder:==x32==? My system is 64-bit"
         The bitness of your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
         
         In simpler words, the game will not use the files from :material-folder:==x64==.
+    
     ??? warning "If you have problems..."
-       Use version 2.2 or version 2.0, which are the latest versions confirmed to be safe to use. 
+        Use version 2.2 or version 2.0, which are the latest versions confirmed to be safe to use. 
        
-       If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
+        If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 === "Legacy"
     !!! warning ""
         Only use this version if your only supports the Legacy version. See the warning above to make sure.
+
     - Instructions:
         * Go to the [1.10.3 release of DXVK](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) and download the :material-zip-box:`dxvk-1.10.3.tar.gz`.
         !!! note ""
             [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) can be used instead for smoother performance.
-        * After downloading, open the archive and navigate to :material-zip-box:`dxvk-1.10.3.tar_3`(or :material-zip-box:`dxvk-async-1.10.3.tar_2`)\:material-folder:==dxvk-1.10.3==(or :material-folder:==dxvk-async-1.10.3==)\==x32==\
+        * After downloading, open the archive and navigate to :material-zip-box:`dxvk-1.10.3.tar_3`\\:material-folder:==dxvk-1.10.3==\\==x32==\ (or :material-zip-box:`dxvk-async-1.10.3.tar_2`\\:material-folder:==dxvk-async-1.10.3==\\==x32==\)
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
+    
     ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
         
         In simpler words, the game will not use any other files.
-    ???+ info "Why :material-folder:==x32==? My system is 64-bit"
+    
+    ??? info "Why :material-folder:==x32==? My system is 64-bit"
         The bitness of your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
         
         In simpler words, the game will not use the files from :material-folder:==x64==.
+    
     ??? warning "If you have problems..."
         If your game won't start at all, your GPU doesn't support DXVK.
     
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
 ``` { .conf .annotate }
-    d3d9.maxFrameLatency = 1 
-    # maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
-    d3d9.presentInterval = 1 
-    # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
-    d3d9.numBackBuffers = 3 
-    # numBackBuffers may further improve frametime stability while using Vsync.
+    d3d9.maxFrameLatency = 1 (1)
+    d3d9.presentInterval = 1 (2)
+    d3d9.numBackBuffers = 3 (3)
 ```
+{.annotate}
+1. maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
+2. presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
+3. numBackBuffers may further improve frametime stability while using Vsync.
