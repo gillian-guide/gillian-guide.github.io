@@ -26,7 +26,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo.
 
-??? note "Full list of launch options"
+??? abstract "Full list of launch options"
     You can use these options for tweaking, debugging and playing around. The list is taken from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
 
     | Option | Description | 
