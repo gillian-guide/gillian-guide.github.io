@@ -23,14 +23,13 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
 | Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
 | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
 | Возможность выбора дополнительных модов | :material-plus-minus: | :material-checkbox-marked-circle: |
-| Избегает замены внутренних файлов | :material-checkbox-marked-circle: | :material-cancel: |
 | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
 | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
 | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
 | Поддержка последнего [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Даунгрейдер от Zolika1351
-Этот даунгрейдер очень легкий, заменяет минимальное количество файлов, но при этом не содержит ни даунгрейд радио, ни способа понижения до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ### Установка
 - Инструкции:
@@ -43,7 +42,7 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](/Essential-Modding/FusionFix)).
 
 ## Даунгрейд от ItsClockAndre
-Этот даунгрейдер работает в онлайн-режиме онлайн и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
+Этот даунгрейдер работает в онлайн-режиме онлайн и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию, но это также приближает данный даунгрейдер к настоящей дисковой версии. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
 
 ### Установка
 - Инструкции:

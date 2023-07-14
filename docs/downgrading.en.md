@@ -23,14 +23,13 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
 | Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
 | Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
 | The ability to select optional mods | :material-plus-minus: | :material-checkbox-marked-circle: |
-| Avoids replacing internal files | :material-checkbox-marked-circle: | :material-cancel: |
 | Optional [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
 | Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 | Support for latest [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Zolika1351's Downgrader
-This downgrader is very lightweight, replaces a minimal amount of files, but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](/Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](/Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ### Installation
 - Instructions:
@@ -43,7 +42,7 @@ This downgrader is very lightweight, replaces a minimal amount of files, but als
     * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](/Essential-Modding/FusionFix) is preferred).
 
 ## ItsClockAndre's Downgrader
-This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you didn't make a backup. This downgrader also has an option to downgrade to 1.0.4.0.
+This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you didn't make a backup, but it also makes this downgrader closer to a true retail version. This downgrader also has an option to downgrade to 1.0.4.0.
 
 ### Installation
 - Instructions:
