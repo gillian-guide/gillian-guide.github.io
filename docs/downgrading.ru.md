@@ -2,7 +2,7 @@ title: Даунгрейдинг
 description: Методы давнгрейдинга GTA IV с Complete Edition.
 
 # Даунгрейдинг
-Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](../modloading/#iv-tweaker). 
+Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](../modloading/#iv-tweaker). 
 
 Однако у нас есть несколько даунгрейдеров на выбор.
 
@@ -13,7 +13,7 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     3. 1.0.4.0 - это более старый патч с полной совместимостью с ENB, а также со старым алгоритмом теней, который, по мнению некоторых людей в коммьюнити, лучше.
 
 ## Какой даунгрейдер выбрать?
-Это зависит от ваших целей.
+Это зависит от ваших целей. Если вам нужно что-то простое, как распаковка архива - выбирайте даунгрейдер от Zolika1351. Если нужно что-то с большим количеством опций - выбирайте даунгрейдер от ItsClockAndre.
 
 | Преимущества | от Zolika1351 | от ItsClockAndre |
 | :----------: | :-----------: | :--------------: |
@@ -27,10 +27,10 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
 | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
 | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
 | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
-| Поддержка последнего [FusionFix](Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
+| Поддержка последнего [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Даунгрейдер от Zolika1351
-Этот даунгрейдер очень легкий, заменяет минимальное количество файлов, но при этом не содержит ни даунгрейд радио, ни способа понижения до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+Этот даунгрейдер очень легкий, заменяет минимальное количество файлов, но при этом не содержит ни даунгрейд радио, ни способа понижения до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ### Установка
 - Инструкции:
@@ -40,7 +40,7 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     * Распаковать содержимое :material-zip-box:`IV_Downgrade_10x0_vxx.zip` в папку с игрой, заменив все, если требуется.
     * Запустите :material-file-download:`vcredist_x86.exe` и дайте ему установиться.
     * Запустите игру.
-    * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](Essential-Modding/FusionFix)).
+    * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](/Essential-Modding/FusionFix)).
 
 ## Даунгрейд от ItsClockAndre
 Этот даунгрейдер работает в онлайн-режиме онлайн и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
@@ -56,3 +56,5 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     * При настройке на поддержку GFWL обязательно проверьте [эту страницу](../multiplayer/#games-for-windows-live). Если нет, убедитесь, что мод `xliveless` включен.
     !!! info ""
         Если вы каким-то образом пропустили этот шаг, скачайте последнюю версию [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), распакуйте :material-file:`dinput8.dll` и переименуйте :material-file:`dinput8.dll` в `xlive.dll`
+
+[Предыдущая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button } [Следующая страница <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }

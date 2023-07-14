@@ -2,7 +2,7 @@ title: Downgrading
 description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches.
 
 # Downgrading
-You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](Essential-Modding/ZolikaPatch) and [IV Tweaker](../modloading/#iv-tweaker). 
+You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](../modloading/#iv-tweaker). 
 
 However, we have several downgraders to choose from.
 
@@ -13,7 +13,7 @@ However, we have several downgraders to choose from.
     3. 1.0.4.0 is an older retail patch with full ENB compatibility, as well as old shadow algorithm - considered better by some of the community.
 
 ## Which downgrader to choose?
-That depends vaguely on your goals.
+It depends vaguely on your goals. If you want something as simple as a drag&drop archive - go with Zolika1351's. If you want something more in-depth - go with ItsClockAndre's.
 
 | Advantages | Zolika1351's | ItsClockAndre's |
 | :--------: | :----------: | :-------------: |
@@ -27,10 +27,10 @@ That depends vaguely on your goals.
 | Optional [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
 | Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
-| Support for latest [FusionFix](Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
+| Support for latest [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Zolika1351's Downgrader
-This downgrader is very lightweight, replaces a minimal amount of files, but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+This downgrader is very lightweight, replaces a minimal amount of files, but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](/Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ### Installation
 - Instructions:
@@ -40,7 +40,7 @@ This downgrader is very lightweight, replaces a minimal amount of files, but als
     * Extract the contents of the :material-zip-box:`IV_Downgrade_10x0_vxx.zip` into your game folder, replacing everything if prompted.
     * Run :material-file-download:`vcredist_x86.exe` and let it install.
     * Run the game.
-    * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](Essential-Modding/FusionFix) is preferred).
+    * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](/Essential-Modding/FusionFix) is preferred).
 
 ## ItsClockAndre's Downgrader
 This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you didn't make a backup. This downgrader also has an option to downgrade to 1.0.4.0.
@@ -56,3 +56,5 @@ This downgrader is online-based and only downloads what you choose to download. 
     * If setting up for GFWL support, make sure to check [this page](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
     !!! info ""
         If you somehow missed this step, download the latest [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), extract :material-file:`dinput8.dll` to the game folder and rename :material-file:`dinput8.dll` to `xlive.dll`
+
+[Previous page <br>Additional Setup</br>](Additional-Setup.md){ .md-button } [Next page <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
