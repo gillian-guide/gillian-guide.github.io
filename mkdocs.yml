@@ -35,7 +35,6 @@ theme:
   features:
     - toc.integrate
     - content.tabs.link
-    - navigation.instant
     - navigation.expand
 markdown_extensions:
   - md_in_html
