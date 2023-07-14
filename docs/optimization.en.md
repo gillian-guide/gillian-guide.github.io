@@ -84,6 +84,4 @@ d3d9.numBackBuffers = 3
     
     If you can prove to me with indefinite comparisons that it *can* improve performance, [contact me](contact-me.md).
 
-# Navigation
-
 [Previous page <br>Introduction</br>](index.md){ .md-button } [Next page <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }
