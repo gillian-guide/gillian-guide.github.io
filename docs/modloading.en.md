@@ -29,7 +29,7 @@ This modloader is in many ways superior to UAL's - mainly, being able to merge d
     * You're done!
 
 - Usage:
-    * To increase the limits, edit :material-file-cog`IVTweaker.ini` - you may want to do this when you install mods that change vehicle textures, for example, as you may encounter the taxi bug.
+    * To increase the limits, edit :material-file-cog:`IVTweaker.ini` - you may want to do this when you install mods that change vehicle textures, for example, as you may encounter the taxi bug.
     * To install mods, create a folder with your mod's name in :material-folder:==modloader==. After that, create(with OpenIV) or place an `.img` or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) into that folder. ==Do not use subfolders. Use different folders for files that can apply to both IV and EFLC DLC's to avoid compatibility issues==.
     * To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==. Make sure to set a correct priority so you don't have unwanted mods taking priority of other ones. Make sure mods that are supposed to be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are for TBoGT are disabled for TLAD (Ep1) and mods that are for TLAD are disabled for TBoGT(Ep2)
 
@@ -50,6 +50,7 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
         
         In simpler words, the game will not use the files from :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
     * Extract to game folder.
+
 - Usage:
     * For `.img` mods, create a folder with your mod's name in :material-folder:==update==. After that, create(with OpenIV) or place an `.img` into that folder. ==If your mod has files that can apply to both IV and EFLC DLC's, create :material-folder:`IV`, :material-folder:`TLAD` and :material-folder:`TBoGT` subfolders and place the .img files separately to avoid compatibility issues==.
     * For mods that replace other files, create an identical to game's folder structure in :material-folder:==update== and place the replacement files in their corresponding folders. ==Do not use the mod folders.==
