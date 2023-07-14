@@ -1,4 +1,6 @@
 site_name: Gillian's GTA IV Guide
+site_url: https://gillian-guide.github.io/
+
 plugins:
   - i18n:
       default_language: en
