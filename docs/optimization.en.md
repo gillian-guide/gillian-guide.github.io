@@ -31,7 +31,7 @@ Currently the only good solution for improving game's performance. Although not 
         In simpler words, the game will not use any other files.
     
     ??? question "Why :material-folder:==x32==? My system is 64-bit"
-        The bitness of your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
+        Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
         
         In simpler words, the game will not use the files from :material-folder:==x64==.
     
@@ -41,7 +41,7 @@ Currently the only good solution for improving game's performance. Although not 
         If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 === "Legacy"
     !!! warning ""
-        Only use this version if your only supports the Legacy version. See the warning above to make sure.
+        Only use this version if your GPU only supports the Legacy version. See the warning above to make sure.
 
     - Instructions:
         * Go to the [1.10.3 release of DXVK](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) and download the :material-zip-box:`dxvk-1.10.3.tar.gz`.
@@ -56,7 +56,7 @@ Currently the only good solution for improving game's performance. Although not 
         In simpler words, the game will not use any other files.
     
     ??? question "Why :material-folder:==x32==? My system is 64-bit"
-        The bitness of your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
+        Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
         
         In simpler words, the game will not use the files from :material-folder:==x64==.
     
@@ -66,12 +66,20 @@ Currently the only good solution for improving game's performance. Although not 
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
 ``` { .py }
-# maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
+# maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering. This option enforces a stricter maximum frame latency.
 d3d9.maxFrameLatency = 1
 # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead. 
 d3d9.presentInterval = 1
-# numBackBuffers may further improve frametime stability while using Vsync.
+# numBackBuffers may further improve frametime stability while using Vsync. This option overrides back buffer count for the Vulkan swap chain.
 d3d9.numBackBuffers = 3
 ```
 ??? abstract "Full list of DXVK options"
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
+
+## DxWrapper
+??? note ""What's DxWrapper and how to use it?"
+    Some part of GTA IV community believes [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) can increase performance. From my experiments, using `v1.0.6387.21` only worsened my performance and did not provide any benefits whatsoever. 
+    
+    To use it, extract dxwrapper.asi, dxwrapper.ini and dxwrapper.dll, and in the ini enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
+    
+    If you can prove to me with indefinite comparisons that it *can* improve performance, [contact me](contact-me.md).
