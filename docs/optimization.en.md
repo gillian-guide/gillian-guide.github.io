@@ -77,9 +77,9 @@ d3d9.numBackBuffers = 3
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
 
 ## DxWrapper
-??? note ""What's DxWrapper and how to use it?"
+??? note "What's DxWrapper and how to use it?"
     Some part of GTA IV community believes [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) can increase performance. From my experiments, using `v1.0.6387.21` only worsened my performance and did not provide any benefits whatsoever. 
     
-    To use it, extract dxwrapper.asi, dxwrapper.ini and dxwrapper.dll, and in the ini enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
+    To use it, extract :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` and :fontawesome-solid-gears:`dxwrapper.dll`, and in the :material-file-edit:`dxwrapper.ini` enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
     
     If you can prove to me with indefinite comparisons that it *can* improve performance, [contact me](contact-me.md).
