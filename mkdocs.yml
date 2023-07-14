@@ -76,6 +76,7 @@ nav:
   - "optimization.md"
   - "Additional-Setup.md"
   - "downgrading.md"
+  - "modloading.md"
   - Essential Modding:
     - "Essential-Modding/index.md"
     - "Essential-Modding/FusionFix.md"

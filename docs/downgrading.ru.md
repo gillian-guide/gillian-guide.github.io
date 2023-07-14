@@ -2,7 +2,7 @@ title: Даунгрейдинг
 description: Методы давнгрейдинга GTA IV с Complete Edition.
 
 # Даунгрейдинг
-Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker). 
+Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](../modloading/#iv-tweaker). 
 
 Однако у нас есть несколько даунгрейдеров на выбор.
 
@@ -24,13 +24,13 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
 | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
 | Возможность выбора дополнительных модов | :material-plus-minus: | :material-checkbox-marked-circle: |
 | Избегает замены внутренних файлов | :material-checkbox-marked-circle: | :material-cancel: |
-| Дополнительная поддержка [GFWL](./multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
+| Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
 | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
 | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
 | Поддержка последнего [FusionFix](Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Даунгрейдер от Zolika1351
-Этот даунгрейдер очень легкий, заменяет минимальное количество файлов, но при этом не содержит ни даунгрейд радио, ни способа понижения до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](./multiplayer/#games-for-windows-live), however.
+Этот даунгрейдер очень легкий, заменяет минимальное количество файлов, но при этом не содержит ни даунгрейд радио, ни способа понижения до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ### Установка
 - Инструкции:
@@ -53,6 +53,6 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     ??? info "Автономный режим"
         Вы можете настроить даунгрейдер для работы в автономном режиме. Скачайте файлы [отсюда](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) и распакуйте их в :material-folder:==Downgrader\\Data\\Temp==. Запускайте :material-file:`LaunchInOfflineMode.exe`.
     * Следуйте инструкциям в приложении. Обязательно прочитайте предупреждения при выборе модов.
-    * При настройке на поддержку GFWL обязательно проверьте [эту страницу](./multiplayer/#games-for-windows-live). Если нет, убедитесь, что мод `xliveless` включен.
+    * При настройке на поддержку GFWL обязательно проверьте [эту страницу](../multiplayer/#games-for-windows-live). Если нет, убедитесь, что мод `xliveless` включен.
     !!! info ""
         Если вы каким-то образом пропустили этот шаг, скачайте последнюю версию [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), распакуйте :material-file:`dinput8.dll` и переименуйте :material-file:`dinput8.dll` в `xlive.dll`
