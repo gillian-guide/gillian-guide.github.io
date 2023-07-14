@@ -40,7 +40,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
     | -disableimposters | Turns off imposter rendering for vehicles. |
     | -forcehighqualitymirrors | ? |
     | -forcer2vb | Forces rendering to Vertex Buffer. |
-    | -frameLimit | Sets the setting for VSync. |
+    | -frameLimit | Sets the setting for V-Sync. |
     | -framelockinwindow | Forces framelock to work even in a window. |
     | -fullscreen | Forces fullscreen mode. |
     | -fullspecaudio | Forces high-end CPU audio footprint. |
@@ -88,13 +88,14 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 | Reflection Resolution | Very High | Medium | This setting controls the resolution of reflections - mainly car reflections (but if you are using [FusionFix](/Essential-Modding/FusionFix/) or [Shader Fixes](/Essential-Modding/Shader-Fixes/), it will not affect the resolution). |
 | Water Quality | Medium or Very High | Medium | This setting controls the density and intensity of waves in water and water samples. Medium is recommended because it is less extreme and more realistic. It does not affect the resolution of water reflections. |
 | Shadow Quality | High | Medium | This setting controls the resolution and render distance of shadows. Medium and Low rely much more on static shadows than High. Very High consumes ~20 FPS. |
-| Night Shadows | High or Very High | Off | This setting controls the resolution of dynamic shadows from car headlights. [FusionFix](/Essential-Modding/FusionFix/) allows you to enhance it by adding dynamic shadows to most objects. |
+| Night Shadows | Medium or Very High | Off | This setting controls the resolution of dynamic shadows from car headlights. [FusionFix](/Essential-Modding/FusionFix/) allows you to enhance it by adding dynamic shadows to most objects. Both [FusionFix](/Essential-Modding/FusionFix/) and [Shader Fixes](/Essential-Modding/Shader-Fixes/) fix the artefacts that come from options above Medium. |
 | Texture Filter Quality | Anisotropic 16x | Tri-Linear | This setting controls the anisotropic filtering. |
 | View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. |
 | Detail Distance | Between 10 and 70 | 10 | This setting controls the secondary LOD render distance for secondary props (such as trash cans). Setting it higher than 70 can cause instability and artifacts. |
 | Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
 | Definition | Off | Off | This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred images on PC and effects that simply do not scale up in resolution - use [FusionFix](/Essential-Modding/FusionFix/) or [Shader Fixes](/Essential-Modding/Shader-Fixes/) to solve this problem |
-| VSync | Off | On | This setting controls the vertical synchronization. We'll use the one bundled with [DXVK](Main-Optimisation.md) instead, as it has much better frame timing, as well as [FusionFix](/Essential-Modding/FusionFix/)'s FPS limiter |
+| FXAA | On | - | This setting controls FXAA (a simple method of Anti-Aliasing) - use [FusionFix](/Essential-Modding/FusionFix/) for it to exist, or [Shader Fixes](/Essential-Modding/Shader-Fixes/) to have FXAA at all times. |
+| VSync | Off | On | This setting controls the vertical synchronization. We'll use the one bundled with [DXVK](Optimization.md) instead, as it has much better frame timing, as well as [FusionFix](/Essential-Modding/FusionFix/)'s FPS limiter |
 
 ??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.

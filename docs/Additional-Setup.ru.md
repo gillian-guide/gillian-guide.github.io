@@ -1,45 +1,101 @@
-# Additional Setup
-Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archive.md) or using the [main optimisation](Main-Optimisation.md), we still have to perform some setup for the best experience.
+title: Второстепення настройка
+description: Второстепення настройка для вашей установки GTA IV - после выполнения оптимизации или установки готового архива.
 
-## Optimal Game Settings
-???+ note
-    These options are optimal for most. If your PC is weaker - feel free to set them lower. If your PC is stronger - feel free to set them higher, but don't blame me for the issues.
-??? info "Console Settings"
-    These settings were set on console versions on the game and the game is most optimized towards those. They're included for the sake of having a complete list.
-| Setting | Optimal Setting | Console Setting | Description | 
-| :-----: | :-------------: | :-----------: | :---------: |
-| Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3; both ran at 20-30 FPS | This setting controls your monitor resolution, or, if `-windowed` launch option is set - game's window size. |
-| Aspect Ratio | Auto | Auto | This setting controls the aspect ratio relative to your monitor resolution. |
-| Texture Quality | High | Medium | This setting controls the resolution of all textures. |
-| Reflection Resolution | Very High | Medium | This setting controls the resolution of reflections - mainly car reflections (but if you're using [FusionFix](/Essential-Modding/FusionFix.md) or [Shader Fixes](/Essential-Modding/Shader-Fixes.md), it won't affect the resolution) |
-| Water Quality | Medium or Very High | Medium | This setting controls the density and intensity of waves in water, as well as water samples. Medium is reccomended due to being less extreme and more realistic. It does not affect the resolution of water's reflection. |
-| Shadow Quality | High | Medium | This setting controls the resolution, as well as the render distance, of shadows. Medium and Low rely on static shadows much more than High. Very High consumes ~20 FPS |
-| Night Shadows | High or Very High | Off | This setting controls the resolution of dynamic shadows off cars' headlights. [FusionFix](/Essential-Modding/FusionFix.md) allows to enhance it by adding dynamic shadows to most objects. |
-| Texture Filter Quality | Anisotropic 16x | Anisotropic 1x | This setting controls anisotropic filtering. |
-| View Distance | Between 21 and 70 | 21 | This setting controls main LOD render distance for stuff like buildings and vehicles. Setting the option above 70 is known to produce instability and artefacts, as well as negatively impact the framerate |
-| Detail Distance | Between 10 and 70 | 10 | This setting controls secondary LOD render distance for secondary props(such as trashcans). Setting the option above 70 may produce instability and artefacts |
-| Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the density of traffic. Setting the option too high might prove travelling by car too troublesome, especially with unstable traffic AI that can occasionally create random blocks even on straight roads and bridges |
-| Definition | Off | Off | This setting controls Depth of Field and Motion Blur - however, it is also known to have issues with blurred image on PC and effects that simply don't scale up in resolution - use [FusionFix](/Essential-Modding/FusionFix.md) or [Shader Fixes](/Essential-Modding/Shader-Fixes.md) to solve the problem |
-| VSync | Off | On | This setting controls Vertical Synchronisation. We're using the one bundled with DXVK instead for it's much better framepacing, aswell as [FusionFix](/Essential-Modding/FusionFix.md)'s FPS limiter |
+# Второстепенная настройка
+Независимо от того, пришли ли вы сюда после использования [готового архива](Drag-and-Drop-Archive.md) или после [оптимизации](optimization.md), нам все ещё необходимо выполнить второстепенную настройку для достижения наилучшего опыта игры.
 
-## Launch Options
-???+ note "How to set the Launch Options?"
-    There are several ways to:
+## Параметры запуска
+???+ note "Как выставить параметры запуска?"
+    Есть несколько способов:
     
-    1. Going to the game's Properties menu in :material-steam:Steam and setting it there
-    2. Creating a :material-file-cog:`commandline.txt` in the game's folder and editing it
-    3. Creating a shortcut for the game and adding the options after the shortcut's path
+    1. Зайдите в меню Свойства игры в :material-steam:Steam и выставите их там;
+    2. Создайте в папке с игрой :material-file-cog:`commandline.txt` и отредактируйте его;
+    3. Создайте ярлык для игры и добавьте параметры после пути к ярлыку.
 
-    We're going to stick with the first two.
+    Мы ограничимся первыми двумя.
 
-The only options you should set are: `-norestrictions -nomemrestrict`
+Единственные настройки, что вы должны выставить: `-norestrictions -nomemrestrict`
 
-??? warning "If using DXVK..."
-    Add `-windowed` to use Borderless Fullscreen for improved stability. Make sure `BorderlessFullscreen` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`IV.EFLC.FusionFix.ini` for this to work.
+??? warning "При использовании DXVK или готового архива..."
+    Добавьте `-windowed` для использования безграничного полноэкранного режима для большей стабильности. Убедитесь, что `BorderlessWindowed` включён в :material-file-cog:`ZolikaPatch.ini` и/или :material-file-cog:`IV.EFLC.FusionFix.ini`.
 
-    If the game doesn't show correct VRAM amounts (i.e. 512MB), add `-availablevidmem` with your GPU's amount of video memory.
+    Если в настройках графики игра не показывает нужного объема VRAM (например, 512 МБ), добавьте `-availablevidmem` с значением видеопамяти вашего ГП с `.0` в конце - до `3072.0`.
 
-    If the game doesn't allow to use correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+    Если игра не позволяет использовать правильное разрешение/частоту обновления, добавьте `-width`, `-height` и `-refreshrate` с "родными" значениями вашего монитора.
 
-!!! danger "But other guides use more options!"
-    ^^Don't use them^^. They might've helped, back in 2009, when average customer PC's couldn't really handle precaching and other stuff, but nowadays these options only do worse or act as a pure placebo.
+!!! danger "Но в других гайдах используют больше настроек!"
+    ^^Не используйте их^^. Может быть, они и помогли бы в 2009 году, когда обычные пользовательские ПК не могли справиться с прекэшированием и прочим, но сейчас эти опции только ухудшают ситуацию или выступают в роли чистого плацебо.
+
+??? note "Полный список параметров запуска"
+    Эти опции можно использовать для настройки и отладки. Список взят из [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
+
+    | Настройка | Описание | 
+    | --------: | :------- |
+    | -help | Список доступных команд. |
+    | -adapter | Используется указанный адаптер экрана. |
+    | -autoconfig | Автоматически настраивает графические параметры в зависимости от характеристик компьютера. |
+    | -availablevidmem | Устанавливает объем доступной физической видеопамяти. |
+    | -benchmark | Запускает игру в режиме Benchmark и затем завершает ее. |
+    | -detailquality | Устанавливает глубину детализации игры (0-99). |
+    | -disableimposters | Отключает рендеринг ненастоящего траффика в далеке. |
+    | -forcehighqualitymirrors | ? |
+    | -forcer2vb | Принудительный рендеринг в Vertex Buffer. |
+    | -frameLimit | Устанавливает настройку для V-Sync. |
+    | -framelockinwindow | Заставляет framelock работать даже в окне. |
+    | -fullscreen | Заставляет полноэкранный режим. |
+    | -fullspecaudio | Принудительное использование высоко-качественного звука. |
+    | -gpucount | Позволяет вручную установить количество GPU, если запрос не выполняется. |
+    | -height | Устанавливает вертикальное разрешение. |
+    | -managed | Использует управляемые ресурсы времени выполнения D3D. |
+    | -memrestrict | Ограничивает объем доступной памяти, которую может использовать игра. |
+    | -minspecaudio | Принудительное использование низко-качественного звука. |
+    | -no_3GB | Отключает поддержку памяти 3 ГБ в 32-разрядных ОС, в которых установлено, что игры и приложения могут использовать такой объем памяти. |
+    | -noBlockOnLostFocus | Запрещает игре блокировать обновление окна при потере фокуса.  |
+    | -noprecache | Отключает предварительное кэширование ресурсов. |
+    | -nomemrestrict | Отключает ограничение памяти. |
+    | -nominimize | Отключает возможность восстановления игры из режима минимизации и изменения разрешения (уменьшает занимаемую системную память). |
+    | -norestrictions | Отключает ограничения на настройки графики. |
+    | -noswapdelay | Отключает задержку перед Present (отключает исправление hard present stalls). |
+    | -notimefix | Отключает Time Fix. |
+    | -novblank | Отключение вертикального бланкирования для V-Sync. |
+    | -percentvidmem | Процент видеопамяти, который должен быть доступен для игры. |
+    | -refreshrate | Устанавливает частоту обновления (установленные значения должны поддерживаться используемым монитором). |
+    | -reserve | Устанавливает объем памяти, который будет использоваться другими программами. |
+    | -reservedApp | Устанавливает объем памяти, который должен оставаться доступным в пространстве приложения. |
+    | -renderquality | Настраивает анизотропную фильтрацию (0-4). |
+    | -safemode | Устанавливает минимально возможные настройки графики игры. |
+    | -shadowdensity | Настраивает ночные тени (0-16). |
+    | -shadowquality | Устанавливает качество теней (0-4). |
+    | -stereo | Включает поддержку стереозвука. |
+    | -texturequality | Устанавливает качество текстур игры (0-2). |
+    | -unmanaged | Использует ресурсы, управляемые приложением. |
+    | -usedirectinput | Позволяет использовать поддержку DirectInput наряду с поддержкой XInput. |
+    | -viewdistance | Устанавливает расстояние обзора игры (0-99). |
+    | -windowed | Устанавливает оконный режим. |
+    | -width | Устанавливает разрешение по горизонтали. |
+
+## Оптимальные настройки графики
+![Настройки GTA IV](gta4settings.jpg){: style="height:25%;width:25%"; align=right}
+!!! note ""
+    Эти настройки оптимальны для большинства пользователей. Если ваш компьютер слабее - можете их понизить. Если ваш компьютер мощнее - можете их повышать, но не вините меня в возникших проблемах.
+??? info "Консольные настройки"
+    Эти настройки были установлены на консольных версиях игры, и игра наиболее оптимизирована для них. Они включены ради полноценного списка.
+| Настройка | Оптимальная настройка | Консольная настройка | Описание | 
+| :-------: | :-------------------: | :------------------: | :------: |
+| Видеорежим | Ваше сообственное разрешение (максимальное, обычно) | 1280x720 на Xbox 360; 1152x640 на PlayStation 3; оба работали с частотой 20-30 FPS | Эта настройка контролирует разрешение вашего монитора или, если установлен параметр запуска `-windowed`, размер игрового окна. |
+| Соотношение сторон | Авто | Авто | Этот параметр определяет соотношение сторон экрана относительно разрешения вашего монитора. |
+| Качество текстур | Высокоое | Среднее | Эта настройка регулирует разрешение всех текстур. |
+| Разрешение отражений | Очень высокое | Среднее | Эта настройка регулирует разрешение отражений - в основном отражений транспорта (но если вы используете [FusionFix](/Essential-Modding/FusionFix/) или [Shader Fixes](/Essential-Modding/Shader-Fixes/), то это не будет влиять на разрешение). |
+| Качество воды | Среднее или Очень высокое | Среднее | Эта настройка регулирует плотность и интенсивность волн в воде и образцах воды. Рекомендуется использовать среднюю настройку, так как она менее экстремальна и более реалистична. Она не влияет на разрешение отражений в воде. |
+| Качество теней | Высокое | Среднее | Этот параметр регулирует разрешение и расстояние рендеринга теней. Среднее и низкое качество в большей степени полагаются на статические тени, чем высокое. Очень высокое значение потребляет ~20 FPS. |
+| Улучшенные ночные тени | Среднее или Очень высокое | Откл | Эта настройка управляет разрешением динамических теней от фар транспорта. [FusionFix](/Essential-Modding/FusionFix/) позволяет улучшить эффект, добавив динамические тени к большинству объектов. И [FusionFix](/Essential-Modding/FusionFix/), и [Shader Fixes](/Essential-Modding/Shader-Fixes/) исправляют артефакты, возникающие при использовании опций выше Среднее. |
+| Качество фильтрации текстур | Анизотропная 16x | Трилинейная | Эта настройка управляет анизотропной фильтрацией. |
+| Дистанция обзора | Между 21 и 70 | 21 | Эта настройка контролирует основное расстояние рендеринга LOD для таких объектов, как здания и транспорт. Установка значения выше 70 приводит к нестабильности и артефактам, а также негативно сказывается на FPS. |
+| Глубина детализации | Между 10 и 70 | 10 | Этот параметр управляет расстоянием вторичного рендеринга LOD для второстепенных объектов (например, мусорных баков). Установка значения выше 70 может привести к нестабильности и появлению артефактов. |
+| Транспортный поток | По предпочтению - желательно менее 90 | 33 | Этот параметр регулирует плотность движения. Слишком высокое значение может сделать вождение слишком надоедливым, особенно с нестабильным ИИ трафика, который может иногда создавать случайные заграждения даже на прямых дорогах и мостах. |
+| Глубина поля наблюдения | Откл | Откл | Эта настройка регулирует глубину резкости и размытие в движении - однако, она также вызывает проблемы с размытыми изображениями на ПК и эффектами, которые просто не масштабируются по разрешению - используйте [FusionFix](/Essential-Modding/FusionFix/) или [Shader Fixes](/Essential-Modding/Shader-Fixes/) для исправления проблемы |
+| FXAA | Вкл | - | Эта настройка управляет FXAA (простой метод сглаживания) - используйте [FusionFix](/Essential-Modding/FusionFix/) для её появления, или [Shader Fixes](/Essential-Modding/Shader-Fixes/) чтобы всегда иметь FXAA. |
+| VSync | Выкл | Вкл |  Эта настройка управляет вертикальной синхронизацией. Мы будем использовать ту, которая поставляется [DXVK](Optimization.md), поскольку она имеет гораздо лучшую синхронизацию кадров, а также ограничитель FPS из [FusionFix](/Essential-Modding/FusionFix/) |
+
+??? question "Что такое :material-file-cog:`stream.ini`?"
+    В других руководствах часто используют :material-file-cog:`stream.ini` и меняют в нем значения с `2048000` на `4096000`. По [наблюдениям пользователей PCGW](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), а также моими собственным - это не дает никакого эффекта и, скорее всего, является плацебо.
