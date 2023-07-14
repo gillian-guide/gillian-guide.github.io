@@ -7,6 +7,8 @@ plugins:
           name: English
         ru:
           name: Русский
+  - glightbox
+  - social
         
 theme:
   name: material
@@ -55,6 +57,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+
 nav:
   - "index.md"
   - "Drag-and-Drop-Archive.md"
@@ -67,6 +70,7 @@ nav:
     - "Essential-Modding/ZolikaPatch.md"
     - "Essential-Modding/Shader-Fixes.md"
   - "multiplayer.md"
+
 extra:
   analytics:
     provider: google
@@ -78,3 +82,31 @@ extra:
       as to measure the effectiveness of my guide and whether users
       find what they're searching for. With your consent, you're helping me to
       make my guide better.
+
+definitions:
+
+  - &page_title_with_site_name >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}
+
+  - &page_description >-
+    {{ page.meta.get("description", config.site_description) or "" }}
+
+tags:
+
+  og:type: website
+  og:title: *page_title_with_site_name
+  og:description: *page_description
+  og:image: "{{ image.url }}"
+  og:image:type: "{{ image.type }}"
+  og:image:width: "{{ image.width }}"
+  og:image:height: "{{ image.height }}"
+  og:url: "{{ page.canonical_url }}"
+
+  twitter:card: summary_large_image
+  twitter.title: *page_title_with_site_name
+  twitter:description: *page_description
+  twitter:image: "{{ image.url }}"

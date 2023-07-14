@@ -20,6 +20,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material mkdocs-static-i18n
+      - run: apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
+      - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-glightbox pillow cairosvg
       - run: mkdocs gh-deploy --force
 
