@@ -86,4 +86,4 @@ d3d9.numBackBuffers = 3
 
 
 # Навигация
-[Предыдущая страница <br font-size:"60%">Введение</br>](index.md){ .md-button } [Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }

@@ -86,4 +86,4 @@ d3d9.numBackBuffers = 3
 
 # Navigation
 
-[Previous page <br font-size:"60%">Introduction</br>](index.md){ .md-button } [Next page <br font-size:"60%">Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[Previous page <br>Introduction</br>](index.md){ .md-button } [Next page <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }

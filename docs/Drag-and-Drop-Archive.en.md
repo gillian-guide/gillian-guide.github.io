@@ -139,4 +139,4 @@ These mods are not included by default, but do not require any additional steps 
 		* 26.06.2023 - Created the archive.
 
 # Navigation
-[Previous page <br font-size:"60%">Introduction</br>](index.md){ .md-button } [Next page <br font-size:"60%">Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[Previous page <br>Introduction</br>](index.md){ .md-button } [Next page <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }

@@ -26,5 +26,5 @@ If you have no need for the in-depth tutorials, you can simply install the [drag
 
 Otherwise, start with [optimization](optimization.md).
 
-[Next page <br style="font-size:60%">Drag-and-Drop Archive</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Next page <br style:"font-size:60%">Optimization</br>](optimization.md){ .md-button .md-button--primary }
+[Next page <br>Drag-and-Drop Archive</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Next page <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
 
