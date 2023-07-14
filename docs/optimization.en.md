@@ -3,8 +3,6 @@ description: Methods to optimize your GTA IV install.
 
 # Optimization
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have an ultimate solution - but we do have a pretty good one.
-!!! warning ""
-    Please **do not** ignore this section. Average PC's can have near perfect performance after this section.
 
 ## DXVK
 Currently the only good solution for improving game's performance. Although not officially supported for Windows, it works perfectly with GTA IV as of Version 2.2 of DXVK.
@@ -49,7 +47,7 @@ Currently the only good solution for improving game's performance. Although not 
         * Go to the [1.10.3 release of DXVK](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) and download the :material-zip-box:`dxvk-1.10.3.tar.gz`.
         !!! note ""
             [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) can be used instead for smoother performance.
-        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\\== (or :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\\==)
+        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\\==<br>Or :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\\==</br>
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
     
     ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
