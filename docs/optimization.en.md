@@ -13,7 +13,7 @@ Currently the only good solution for game performance. Although not officially s
     DXVK doesn't officially support ENB and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
 
 ### Installation
-=== Latest
+=== "Latest"
     !!! warning ""
         Use this version if your GPU supports the latest version. See the warning above to make sure.
     - Instructions:
@@ -32,7 +32,7 @@ Currently the only good solution for game performance. Although not officially s
        Use version 2.2 or version 2.0, which are the latest versions confirmed to be safe to use. 
        
        If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
-=== Legacy
+=== "Legacy"
     !!! warning ""
         Only use this version if your only supports the Legacy version. See the warning above to make sure.
     - Instructions:
@@ -55,7 +55,10 @@ Currently the only good solution for game performance. Although not officially s
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
 ``` { .conf .annotate }
-    d3d9.maxFrameLatency = 1 # maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
-    d3d9.presentInterval = 1 # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
-    d3d9.numBackBuffers = 3 # numBackBuffers may further improve frametime stability while using Vsync.
+    d3d9.maxFrameLatency = 1 
+    # maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
+    d3d9.presentInterval = 1 
+    # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
+    d3d9.numBackBuffers = 3 
+    # numBackBuffers may further improve frametime stability while using Vsync.
 ```
