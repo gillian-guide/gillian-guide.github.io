@@ -1,6 +1,9 @@
+title: Introduction
+description: Introduction to Gillian's GTA IV Guide
+
 # Introduction
 
-Welcome to Gillian's GTA IV Guide.
+Welcome to Gillian's Grand Theft Auto IV Guide.
 
 This is a centralised, all-in-one guide. It includes steps for [optimizing](optimization.md), tweaking, fixing, improving the game and more!
 

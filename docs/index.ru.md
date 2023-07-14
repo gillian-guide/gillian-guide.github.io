@@ -1,3 +1,6 @@
+title: Введение
+description: Введение к руководству по GTA IV от Gillian
+
 # Введение
 
 Добро пожаловать в руководство по Grand Theft Auto IV от Gillian.

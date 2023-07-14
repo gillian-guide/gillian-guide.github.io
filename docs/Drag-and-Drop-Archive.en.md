@@ -1,5 +1,5 @@
 title: Drag-and-Drop Archive
-description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version.
+description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version
 
 # Drag-and-Drop Archive
 You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist).
