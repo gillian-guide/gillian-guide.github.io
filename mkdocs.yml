@@ -63,7 +63,7 @@ markdown_extensions:
 nav:
   - "index.md"
   - "Drag-and-Drop-Archive.md"
-  - "Main-Optimization.md"
+  - "optimization.md"
   - "Additional-Setup.md"
   - "downgrading.md"
   - Essential Modding:
