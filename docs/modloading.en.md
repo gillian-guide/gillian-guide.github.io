@@ -14,7 +14,7 @@ While they are different in some ways, you can still use both if you're running 
 | Can inject .img files | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
 | Can inject other files without overriding | :material-checkbox-marked-circle: | :material-cancel: |
 | Greater variety of supported inject files | :material-checkbox-marked-circle: | :material-cancel: |
-| Greater variety of override files supported | :material-cancel: | :material-checkbox-marked-circle: |
+| Greater variety of supported override files | :material-cancel: | :material-checkbox-marked-circle: |
 | Subfolder support | :material-cancel: | :material-checkbox-marked-circle: |
 | A simple .ini for configuration | :material-checkbox-marked-circle: | :material-cancel: |
 
