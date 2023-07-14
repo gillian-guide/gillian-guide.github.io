@@ -31,8 +31,9 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
-    - toc.integrate
     - content.tabs.link
+    - navigation.instant
+    - navigation.expand
 markdown_extensions:
   - md_in_html
   - admonition
