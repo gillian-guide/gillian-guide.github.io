@@ -22,7 +22,7 @@ Currently the only good solution for game performance. Although not officially s
         * After downloading, open the archive and navigate to :material-zip-box:`dxvk-x.x.tar`\\:material-folder:==dxvk-2.2==\\==x32==\
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
     
-    ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?
+    ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
         
         In simpler words, the game will not use any other files.
@@ -47,7 +47,7 @@ Currently the only good solution for game performance. Although not officially s
         * After downloading, open the archive and navigate to :material-zip-box:`dxvk-1.10.3.tar_3`\\:material-folder:==dxvk-1.10.3==\\==x32==\ (or :material-zip-box:`dxvk-async-1.10.3.tar_2`\\:material-folder:==dxvk-async-1.10.3==\\==x32==\)
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
     
-    ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?
+    ???+ info "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
         
         In simpler words, the game will not use any other files.
@@ -62,12 +62,13 @@ Currently the only good solution for game performance. Although not officially s
     
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
-``` { .conf .annotate }
-    d3d9.maxFrameLatency = 1 (1)
-    d3d9.presentInterval = 1 (2)
-    d3d9.numBackBuffers = 3 (3)
+``` { .conf }
+    # maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
+    d3d9.maxFrameLatency = 1
+    # presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead. 
+    d3d9.presentInterval = 1
+    # numBackBuffers may further improve frametime stability while using Vsync.
+    d3d9.numBackBuffers = 3
 ```
-{.annotate}
-1. maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering.
-2. presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
-3. numBackBuffers may further improve frametime stability while using Vsync.
+???+ note "Full list of DXVK options"
+    You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
