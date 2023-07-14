@@ -49,7 +49,7 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
 
 ???+ note "Installation"
     * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.
-    * Download :material-zip-box:`Ultimate-ASI-Loader.zip`
+    * Download :material-zip-box:`Ultimate-ASI-Loader.zip`.
     ??? question "Why not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`? My system is 64-bit"
         Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
         
