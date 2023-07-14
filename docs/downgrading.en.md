@@ -14,8 +14,9 @@ However, we have several downgraders to choose from.
 
 ## Which downgrade to choose?
 That depends vaguely on your goals.
+
 | Advantages | Zolika1351's | ItsClockAndre's |
-| :------: | :----------: | :-------------: |
+| :--------: | :----------: | :-------------: |
 | Downgrading to 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
 | Downgrading to 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
 | Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
