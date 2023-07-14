@@ -4,13 +4,13 @@ We all know how horrible the optimization of the game was at release. Unfortunat
     Please **do not** ignore this section. Average PC's can have near perfect performance after this section.
 
 ## DXVK
-Currently the only good solution for game performance. Although not officially supported for Windows, it works perfectly with GTA IV as of Version 2.2 of DXVK.
+Currently the only good solution for improving game's performance. Although not officially supported for Windows, it works perfectly with GTA IV as of Version 2.2 of DXVK.
 
 !!! warning ""
     Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2014 and newer GPUs should support the normal version, and 2012 and newer GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced tab to check for yourself. The legacy version will have less performance and may have more bugs.
 
 ??? warning "ENB Support"
-    DXVK doesn't officially support ENB and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
+    DXVK doesn't officially support ENB (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
 
 ### Installation
 === "Latest"
