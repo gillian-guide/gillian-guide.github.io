@@ -2,7 +2,7 @@
 
 Welcome to Gillian's GTA IV Guide.
 
-This is a centralised, all-in-one guide. It includes steps for optimising, tweaking, fixing, improving the game and more!
+This is a centralised, all-in-one guide. It includes steps for optimizing, tweaking, fixing, improving the game and more!
 
 ## Prerequisites
 !!! warning ""
@@ -14,6 +14,8 @@ This is a centralised, all-in-one guide. It includes steps for optimising, tweak
         * You need to have an archivator installed. I recommend [7-Zip](https://www.7-zip.org/ "Official 7-Zip website").
         * Make sure you have the game's prerequisites installed(they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
 
+## Sections
 If you have no need for the in-depth tutorials, you can simply install the [drag-and-drop archive](Drag-and-Drop-Archive.md) and you are ready to go.
 
+Otherwise, start with [main optimization](Main-Optimization.md).
 

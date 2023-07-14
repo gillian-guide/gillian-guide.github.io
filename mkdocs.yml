@@ -63,11 +63,10 @@ markdown_extensions:
 nav:
   - "index.md"
   - "Drag-and-Drop-Archive.md"
-  - "Main-Optimisation.md"
+  - "Main-Optimization.md"
   - "Additional-Setup.md"
   - "downgrading.md"
-  - Essential Modding:
-    - "Essential-Modding/index.md"
+  - Essential Modding: "Essential-Modding/index.md"
     - "Essential-Modding/FusionFix.md"
     - "Essential-Modding/ZolikaPatch.md"
     - "Essential-Modding/Shader-Fixes.md"
