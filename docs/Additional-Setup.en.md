@@ -75,7 +75,7 @@ The only options you should set are: `-norestrictions -nomemrestrict`
     | -width | Sets the horizontal resolution. |
 
 ## Optimal Game Settings
-![GTA IV Settings](gta4settings.jpg){: style="height:60%;width:60%"; align=right}
+![GTA IV Settings](gta4settings.jpg){: style="height:35%;width:35%"; align=right}
 ???+ note
     These options are optimal for most people. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to set them higher, but don't blame me for the problems.
 ??? info "Console Settings"
