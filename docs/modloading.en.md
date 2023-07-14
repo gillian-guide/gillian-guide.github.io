@@ -4,7 +4,7 @@ description: Methods for injecting mods into your GTA IV installation to avoid r
 # Modloading
 Most mods require replacing internal files with OpenIV. We can get around this by using a modloader - or two!
 
-# What's the difference between them?
+## What's the difference between them?
 While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0.
 
 | Advantages | IV Tweaker | UAL's |
