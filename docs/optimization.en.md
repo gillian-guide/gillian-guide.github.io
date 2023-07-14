@@ -10,7 +10,9 @@ Currently the only good solution for improving game's performance. Although not 
     Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2014 and newer GPUs should support the normal version, and 2012 and newer GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced tab to check for yourself. The legacy version will have less performance and may have more bugs.
 
 ??? warning "ENB Support"
-    DXVK doesn't officially support ENB (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
+    DXVK doesn't officially support [ENB](Graphics-Enhancement\ENB) (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
+
+    Ignore this if you don't plan to use [ENB's](Graphics-Enhancement\ENB)
 
 ### Installation
 === "Latest"
@@ -19,7 +21,7 @@ Currently the only good solution for improving game's performance. Although not 
 
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
-        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\==
+        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\\==
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
     
     ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
@@ -44,7 +46,7 @@ Currently the only good solution for improving game's performance. Although not 
         * Go to the [1.10.3 release of DXVK](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) and download the :material-zip-box:`dxvk-1.10.3.tar.gz`.
         !!! note ""
             [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) can be used instead for smoother performance.
-        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\== (or :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\==)
+        * After downloading, open the archive and navigate to :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\\== (or :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\\==)
         * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
     
     ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
