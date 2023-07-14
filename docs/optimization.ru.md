@@ -83,3 +83,7 @@ d3d9.numBackBuffers = 3
     Чтобы использовать его, извлеките :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` и :fontawesome-solid-gears:`dxwrapper.dll`, и в :material-file-edit:`dxwrapper.ini` включите `DDrawCompat` и `DDrawCompatNoProcAffinity`.
     
     Если вы сможете мне доказать мне с помощью чётких сравнений, что это *может* повысить производительность, [свяжитесь со мной](contact-me.md).
+
+
+# Навигация
+[Предыдущая страница <br font-size:"60%">Введение</br>](index.md){ .md-button } [Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }

@@ -25,3 +25,6 @@ description: Введение к руководству по моддингу GT
 Если вам не нужны подробные руководства, вы можете просто установить архив [готовый архив](Drag-and-Drop-Archive.md) и начать игру.
 
 В другом случае, начните с [оптимизации](optimization.md).
+
+# Навигация
+[Следующая страница страница<br font-size:"60%">Готовый архив</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Следующая страница <br font-size:"60%">Оптимизация</br>)](optimization.md){ .md-button .md-button--primary }

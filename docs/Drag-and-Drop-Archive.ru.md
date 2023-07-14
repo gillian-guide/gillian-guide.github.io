@@ -99,7 +99,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	| Название мода | Детали |
 	| :-----------: | :----: |
-	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой |
+	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой, в Settings - Game смените язык на Русский. |
 	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.4==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
 	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:==x32== в папку с игрой</br> |
 	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| Если у вас не работает DXVK вовсе - можно на замену использовать DxWrapper. Но, эффект оптимизации будет гораздо хуже.<br>Установка: удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой, распакуйте :material-file:`dxwrapper.asi` и :material-file-edit:`dxwrapper.ini` в папку с игрой, после чего в :material-file-edit:`dxwrapper.ini` измените `DDrawCompat` и `DDrawCompatNoProcAffinity` на `1`</br> |
@@ -138,3 +138,6 @@ description: Полноценный готовый архив для игры в
 		* 30.06.2023 - Обновлены моды.
 		* 27.06.2023 - Обновлены моды.
 		* 26.06.2023 - Создание архива.
+
+# Навигация
+[Предыдущая страница <br font-size:"60%">Введение</br>](index.md){ .md-button } [Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }
