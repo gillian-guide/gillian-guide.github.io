@@ -38,6 +38,7 @@ theme:
     - toc.integrate
     - content.tabs.link
     - navigation.expand
+    - content.tooltips
 markdown_extensions:
   - md_in_html
   - admonition
