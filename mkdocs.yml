@@ -35,7 +35,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   logo: assets/iv-logo.png
-  favicon: assets/iv-logo.png
+  favicon: assets/iv-logo-favicon.png
   features:
     - toc.integrate
     - content.tabs.link
@@ -43,6 +43,8 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.annotate 
+  palette:
+    primary: black
 
 
 markdown_extensions:
