@@ -15,6 +15,7 @@ plugins:
 theme:
   name: material
   palette:
+    primary: black
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -43,8 +44,6 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.annotate 
-  palette:
-    primary: black
 
 
 markdown_extensions:
