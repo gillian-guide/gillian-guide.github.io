@@ -1,7 +1,6 @@
 title: Modloading
 description: Methods for injecting mods into your GTA IV installation to avoid replacing internal files.
-hide:
-  - footer
+hide: footer
 
 # Modloading
 Most mods require replacing internal files with OpenIV. We can get around this by using a modloader - or two!
