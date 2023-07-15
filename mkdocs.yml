@@ -1,5 +1,6 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
+copyright: Copyright &copy; 2023 Gillian
 
 plugins:
   - i18n:
@@ -41,8 +42,9 @@ theme:
   favicon: assets/iv-logo-favicon.png
   features:
     - toc.integrate
-    - content.tabs.link
     - navigation.expand
+    - navigation.footer
+    - content.tabs.link
     - content.tooltips
     - content.code.copy
     - content.code.annotate 
@@ -90,6 +92,13 @@ nav:
   - "multiplayer.md"
 
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gillian-guide/gillian-guide.github.io/issues
+      name: If you have concerns about the page, post them on the GitHub issues page.
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zwmsQqExbQ
+      name: My Discord server.
   analytics:
     provider: google
     property: G-RSQFR3F839
