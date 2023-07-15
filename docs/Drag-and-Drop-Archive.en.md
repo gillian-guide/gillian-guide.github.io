@@ -2,12 +2,12 @@ title: Drag-and-Drop Archive
 description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version
 
 # Drag-and-Drop Archive
-You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist).
+You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist). You'll mainly be lacking [ZolikaPatch](Essential-Modding/ZolikaPatch.md) and Liberty Tweaks.
 
 ### Notes
 !!! info ""
 	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). The amount of supported mods is also much more limited in this version - most mods are built for 1.0.8.0 and 1.0.7.0.
-	2. 1.0.8.0 is the latest retail patch, with ZolikaPatch and multiplayer support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
+	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](Essential-Modding/ZolikaPatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
 
 ## Installation
 
@@ -59,6 +59,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	| [FusionFix~1.60~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a bunch of fixes and also acts as a modloader together with Ultimate ASI Loader.<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V106~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file).== |
+	| [Liberty Tweaks~1.1~ by The Westside Minions & The GTA IV Modding Community](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
@@ -99,6 +100,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
+	| Liberty Tweaks options |`Improved AI` and `Remove Weapons on Death` have been disabled - you can toggle them back in :material-file-cog:`LibertyTweaks.ini` located in :material-folder:==IVSDKDotNet\scripts==. You can also tweak your FOV in there, aswell as change keybinds for quicksaving and holstering weapons (F9 and H by default) |
 	| [ColAccel by ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (like the burnt garage)==. [Can be used in combination with ZolikaPatch's FastLoading option](https://streamable.com/slqqsl). <br>Installation: download version ==1.4==, extract :material-file:`IV.EFLC.ColAccel.asi` into :material-folder:==plugins== or into the game folder</br> |
 	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| If you have an ancient GPU (like the GTX 600 series) and DXVK from the main archive doesn't work, use this version as a replacement.<br>Installation: From the archive, extract :fontawesome-solid-gears:`d3d9.dll` from :material-folder:==x32== into the game folder.</br> |
 	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| If DXVK doesn't work at all - you can try to use DxWrapper instead. You won't get as much of an optimization effect though.<br>Installation: remove :fontawesome-solid-gears:`d3d9.dll` from the game folder, extract :material-file:`dxwrapper.asi` and :material-file-edit:`dxwrapper.ini` into the game folder, then in the :material-file-edit:`dxwrapper.ini` change `DDrawCompat` and `DDrawCompatNoProcAffinity` to `1`.</br> |
@@ -116,6 +118,7 @@ These mods are not included by default, but do not require any additional steps 
 ## Changelog
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
+		* 15.07.2023 - Added Liberty Tweaks.
 		* 13.07.2023 - Fixed disappearing assets in Roman's taxi office. Changed FPS limit in cutscenes to 32.
 		* 12.07.2023 - Added the following mods: (newer) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos, Improved Weapon Spec. Moved Various Fixes to update folder due to compatibility issues. Removed TBoGT Texture Quality Fix as Various Fixes already contains this fix fix. Removed TBoGT Vehicle Fix from modloader as FusionFix already contains the fix. Removed IVPresence. Updated ZolikaPatch.
 		* 11.07.2023 - Fixed the main game crash problem.

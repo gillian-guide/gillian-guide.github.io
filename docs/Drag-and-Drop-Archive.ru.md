@@ -2,7 +2,7 @@ title: Готовый архив
 description: Полноценный готовый архив для игры в желаемую версию GTA IV
 
 # Готовый архив
-Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или Rockstar Games Launcher, то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4).
+Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или Rockstar Games Launcher, то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4). В основном у вас не будет [ZolikaPatch](Essential-Modding/ZolikaPatch.md) и Liberty Tweaks.
 
 ### Примечания
 !!! note ""
@@ -59,6 +59,7 @@ description: Полноценный готовый архив для игры в
 	| [FusionFix~1.60~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с Ultimate ASI Loader.<br>[Портировано Zolika1351'ом](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br>|
 	| [Shader Fixes Collection~V106~ от Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| Сборник многочисленных фиксов шейдеров, от простого скейлинга до ввостановления их консольных версий. |
 	| [DXVK~2.2~](https://github.com/doitsujin/dxvk)| Переводит DirectX 9 в Vulkan - метод оптимизации. ==Удалите :fontawesome-solid-gears:`d3d9.dll` и измените параметры в :material-file-cog:`dxvk.conf` на параметры запуска Proton, если вы используете Linux (или просто удалите файл)== |
+	| [Liberty Tweaks~1.1~ от The Westside Minions & Коммьюнити моддинга GTA IV](https://gtaforums.com/topic/991160-liberty-tweaks/)| Мод с большим количеством quality-of-life изменений.<br>==`Improved AI` и `Remove Weapons on Death` были отключены - их можно вернуть в :material-file-cog:`LibertyTweaks.ini`, расположенном в :material-folder:==IVSDKDotNet\scripts==. Там же можно настроить FOV, а также изменить привязки клавиш для быстрого сохранения и убирания оружия в кобуру (по умолчанию F9 и H).==</br> |
 	| [Various Fixes~1.5~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
@@ -100,6 +101,7 @@ description: Полноценный готовый архив для игры в
 	| Название мода | Детали |
 	| :-----------: | :----: |
 	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой, в Settings - Game смените язык на Русский. |
+	| Настройки Liberty Tweaks | `Improved AI`(Улучшенный ИИ) и `Remove Weapons on Death`(Удаление оружий при смерти) были отключены - их можно вернуть в :material-file-cog:`LibertyTweaks.ini`, расположенном в :material-folder:==IVSDKDotNet\scripts==. Там же можно настроить FOV, а также изменить привязки клавиш для быстрого сохранения и убирания оружия в кобуру (по умолчанию F9 и H). |
 	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.4==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
 	| [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3)| Если у вас древняя видеокарта(как GTX 600 серии) и у вас не работает DXVK из основного архива, используйте на замену эту версию.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`d3d9.dll` из :material-folder:==x32== в папку с игрой</br> |
 	| [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/)| Если у вас не работает DXVK вовсе - можно на замену использовать DxWrapper. Но, эффект оптимизации будет гораздо хуже.<br>Установка: удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой, распакуйте :material-file:`dxwrapper.asi` и :material-file-edit:`dxwrapper.ini` в папку с игрой, после чего в :material-file-edit:`dxwrapper.ini` измените `DDrawCompat` и `DDrawCompatNoProcAffinity` на `1`</br> |
@@ -117,6 +119,7 @@ description: Полноценный готовый архив для игры в
 ## Список изменений
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
+		* 15.07.2023 - Добавлен Liberty Tweaks.
 		* 13.07.2023 - Исправлено исчезновение обьектов в кабинете Романа. Ограничение FPS в катсценах изменено на 32.
 		* 12.07.2023 - Добавлены следующие моды: (обновлённый) IV Fixes and Improvements, Liberty Ferry Terminal - Waiting Room Sign Fix, Sugar Chomps - Separate Signs, Pedestrians with Unused Clothes Restored, Varied Alderney State Trooper Ped, Higher Res Radio Logos In-Game, Higher Res Radio Logos Menu, Improved Weapon Spec. Various Fixes перемещён в папку update ради совместимости. Удалён TBoGT Vehicle Fixes из папки modloader - он уже включён в FusionFix. Удалён TBoGT Texture Quality Fix т.к. Various Fixes уже добавляет этот фикс. Удалён IV Presence. Обновлён ZolikaPatch.
 		* 11.07.2023 - Исправил проблему с крашем в основной игре.

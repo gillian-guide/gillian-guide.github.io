@@ -27,7 +27,6 @@ description: Методы даунгрейдинга GTA IV с Complete Edition.
     | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
     | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
     | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
-    | Поддержка последнего [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Даунгрейдер от Zolika1351
 Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
