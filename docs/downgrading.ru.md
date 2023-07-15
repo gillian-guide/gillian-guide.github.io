@@ -15,24 +15,24 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
 ## Какой даунгрейдер выбрать?
 Это зависит от ваших целей. Если вам нужно что-то простое, как распаковка архива - выбирайте даунгрейдер от Zolika1351. Если нужно что-то с большим количеством опций - выбирайте даунгрейдер от ItsClockAndre.
 
-| Преимущества | от Zolika1351 | от ItsClockAndre |
-| :----------: | :-----------: | :--------------: |
-| Даунгрейд до 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-| Даунгрейд до 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-| Даунгрейд до 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
-| Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
-| Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
-| Возможность выбора дополнительных модов | :material-plus-minus: | :material-checkbox-marked-circle: |
-| Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
-| Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
-| Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
-| Поддержка последнего [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
+???+ question "Сравнение"
+    | Преимущества | от Zolika1351 | от ItsClockAndre |
+    | :----------: | :-----------: | :--------------: |
+    | Даунгрейд до 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Даунгрейд до 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
+    | Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Возможность выбора дополнительных модов | :material-plus-minus: | :material-checkbox-marked-circle: |
+    | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
+    | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
+    | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
+    | Поддержка последнего [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Даунгрейдер от Zolika1351
 Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
-### Установка
-- Инструкции:
+???+ note "Установка"
     * Создайте исключение в антивирусе для папки с игрой. (Необязательно, но настоятельно рекомендуется).
     * Зайдите на сайт [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
     * Скачайте архив с даунгрейдом (версия для 1.0.7.0 ниже).
@@ -42,13 +42,12 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](/Essential-Modding/FusionFix)).
 
 ## Даунгрейд от ItsClockAndre
-Этот даунгрейдер работает в онлайн-режиме онлайн и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию, но это также приближает данный даунгрейдер к настоящей дисковой версии. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
+Этот даунгрейдер работает в онлайн-режиме и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию, но это также делает данный даунгрейдер более близким к настоящей дисковой версии. Этот даунгрейдер также может быть не таким актуальным, как от Zolika1351. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
 
-### Установка
-- Инструкции:
+???+ note "Установка"
     * Создайте исключение в антивирусе для папки с игрой. (Необязательно, но настоятельно рекомендуется).
     * Зайдите на [страницу на GTAForums](https://gtaforums.com/topic/976691-gta-iv-downgrader/) и скачайте последнюю версию.
-    * Распаковать архив, запустить :material-file:`IVDowngrader.exe`.
+    * Распаковать архив, запустить :material-file:`IVDowngrader.exe`. с :fontawesome-solid-shield-halved:==правами администратора==.
     ??? info "Автономный режим"
         Вы можете настроить даунгрейдер для работы в автономном режиме. Скачайте файлы [отсюда](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) и распакуйте их в :material-folder:==Downgrader\\Data\\Temp==. Запускайте :material-file:`LaunchInOfflineMode.exe`.
     * Следуйте инструкциям в приложении. Обязательно прочитайте предупреждения при выборе модов.

@@ -15,24 +15,24 @@ However, we have several downgraders to choose from.
 ## Which downgrader to choose?
 It depends vaguely on your goals. If you want something as simple as a drag&drop archive - go with Zolika1351's. If you want something more in-depth - go with ItsClockAndre's.
 
-| Advantages | Zolika1351's | ItsClockAndre's |
-| :--------: | :----------: | :-------------: |
-| Downgrading to 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-| Downgrading to 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-| Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
-| Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
-| Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
-| The ability to select optional mods | :material-plus-minus: | :material-checkbox-marked-circle: |
-| Optional [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
-| Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
-| Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
-| Support for latest [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
+???+ question "Comparison"
+    | Advantages | Zolika1351's | ItsClockAndre's |
+    | :--------: | :----------: | :-------------: |
+    | Downgrading to 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Downgrading to 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
+    | Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | The ability to select optional mods | :material-plus-minus: | :material-checkbox-marked-circle: |
+    | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-cancel: | :material-checkbox-marked-circle: |
+    | Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
+    | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
+    | Support for latest [FusionFix](/Essential-Modding/FusionFix) | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## Zolika1351's Downgrader
 This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](/Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
-### Installation
-- Instructions:
+???+ note "Installation"
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
     * Download the downgrade archive (version for 1.0.7.0 is lower).
@@ -42,17 +42,16 @@ This downgrader is very lightweight and replaces a minimal amount of files(which
     * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](/Essential-Modding/FusionFix) is preferred).
 
 ## ItsClockAndre's Downgrader
-This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you didn't make a backup, but it also makes this downgrader closer to a true retail version. This downgrader also has an option to downgrade to 1.0.4.0.
+This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may also not be as up to date as Zolika1351's. This downgrader also has an option to downgrade to 1.0.4.0.
 
-### Installation
-- Instructions:
+???+ note "Installation"
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
     * Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
-    * Extract the archive, run :material-file:`IVDowngrader.exe`.
+    * Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved:==admin rights==.
     ??? info "Offline mode"
         You can set up downgrader up for offline use instead. Download the files from [here](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) and extract them to the :material-folder:==Downgrader\\Data\\Temp==. Run :material-file:`LaunchInOfflineMode.exe` instead.
     * Follow the instructions in the application. Be sure to read the warnings at mod selection.
-    * If setting up for GFWL support, make sure to check [this page](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
+    * If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
     !!! info ""
         If you somehow missed this step, download the latest [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), extract :material-file:`dinput8.dll` to the game folder and rename :material-file:`dinput8.dll` to `xlive.dll`
 

@@ -15,6 +15,10 @@ description: Методы оптимизации вашей установки G
 
     Не обращайте внимания, если не планируете использовать [ENB](Graphics-Enhancement\ENB)
 
+### Какое улучшение мне ожидать?
+Сложно сказать, поскольку улучшение DXVK может варьироваться от устройства к устройству. Но для приблизительного сравнения можно воспользоваться моим сравнением:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Установка
 === "Последняя версия"
     !!! warning ""
@@ -43,7 +47,7 @@ description: Методы оптимизации вашей установки G
     !!! warning ""
         Используйте эту версию только в том случае, если ваша видеокарта поддерживает только Legacy версию. Убедитесь в этом, ознакомившись с предупреждением выше.
 
-    - Instructions:
+    - Инструкции:
         * Перейдите на [релиз DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) и скачайте :material-zip-box:`dxvk-1.10.3.tar.gz`.
         !!! note ""
             Вы также можете использовать [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) для более плавной игры.
