@@ -76,7 +76,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 
 ## Ultimate ASI Loader
 !!! warning ""
-    See [Ultimate ASI Loader](ultimate-asi-loader.md) for installation.
+    See [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) for installation.
 
     Supports the Complete Edition.
     
@@ -112,4 +112,4 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
     ??? "Configuring the modloader"
         Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](contact-me.md) if you know a way to.
 
-[:material-page-first:Previous page <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Mod dependencies</br>](mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }

@@ -77,7 +77,7 @@ hide: footer
 
 ## Ultimate ASI Loader
 !!! warning ""
-    Для установки см. раздел [Ultimate ASI Loader](ultimate-asi-loader.md).
+    Для установки см. раздел [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).
 
     Поддерживает Complete Edition.
     
@@ -114,4 +114,4 @@ hide: footer
     ??? "Настройка модлоадера"
         В настоящее время я не знаю никакого способа настройки модлоадера для установки приоритета или чего-либо еще. [Свяжитесь со мной](contact-me.md), если вы знаете способ.
 
-[:material-page-first:Предыдущая страница <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button } [Следующая страница:material-page-last: <br>Важные моды</br>](essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Зависимости для модов</br>](mod-dependencies.md){ .md-button } [Следующая страница:material-page-last: <br>Важные моды</br>](essential-modding/index.md){ .md-button .md-button--primary }

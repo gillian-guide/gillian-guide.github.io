@@ -11,7 +11,7 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
     There are several ways to:
     
     1. Go to the game's Properties menu in :material-steam:Steam and set them there;
-    2. Create a :material-file-cog:`commandline.txt` in the game folder and edit it;
+    2. Create a :material-file-cog:`commandline.txt` in the game folder and edit it (not possible on Complete Edition);
     3. Create a shortcut for the game and add the options after the path of the shortcut.
 
     We'll stick with the first two.
