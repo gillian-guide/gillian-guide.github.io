@@ -88,4 +88,4 @@ d3d9.numBackBuffers = 3
     
     Если вы сможете мне доказать мне с помощью чётких сравнений, что это *может* повысить производительность, [свяжитесь со мной](contact-me.md).
 
-[Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }

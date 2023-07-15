@@ -55,4 +55,4 @@ description: Методы давнгрейдинга GTA IV с Complete Edition.
     !!! info ""
         Если вы каким-то образом пропустили этот шаг, скачайте последнюю версию [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), распакуйте :material-file:`dinput8.dll` и переименуйте :material-file:`dinput8.dll` в `xlive.dll`
 
-[:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button } [:material-page-last:Следующая страница <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button } [Следующая страница:material-page-last: <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }

@@ -100,4 +100,4 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 ??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.
 
-[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [:material-page-last:Next page <br>Downgrading</br>](downgrading.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Downgrading</br>](downgrading.md){ .md-button .md-button--primary }

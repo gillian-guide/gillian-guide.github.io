@@ -138,4 +138,4 @@ These mods are not included by default, but do not require any additional steps 
 		* 27.06.2023 - Updated mods.
 		* 26.06.2023 - Created the archive.
 
-[:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [:material-page-last:Next page <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }

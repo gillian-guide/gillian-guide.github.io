@@ -139,4 +139,4 @@ description: Полноценный готовый архив для игры в
 		* 27.06.2023 - Обновлены моды.
 		* 26.06.2023 - Создание архива.
 
-[Предыдущая страница <br>Введение</br>](index.md){ .md-button } [:material-page-last:Следующая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }

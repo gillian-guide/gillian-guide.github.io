@@ -55,4 +55,4 @@ This downgrader is online-based and only downloads what you choose to download. 
     !!! info ""
         If you somehow missed this step, download the latest [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), extract :material-file:`dinput8.dll` to the game folder and rename :material-file:`dinput8.dll` to `xlive.dll`
 
-[:material-page-first:Previous page <br>Additional Setup</br>](Additional-Setup.md){ .md-button } [:material-page-last:Next page <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Additional Setup</br>](Additional-Setup.md){ .md-button } [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
