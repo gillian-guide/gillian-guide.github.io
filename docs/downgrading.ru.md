@@ -3,7 +3,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition.
 hide: footer
 
 # Даунгрейд
-Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](/Essential-Modding/ZolikaPatch), Liberty Tweaks и [IV Tweaker](../modloading/#iv-tweaker). 
+Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks и [IV Tweaker](../modloading/#iv-tweaker). 
 
 Однако у нас есть несколько даунгрейдеров на выбор.
 
@@ -30,7 +30,7 @@ hide: footer
     | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |
 
 ## Даунгрейдер от Zolika1351
-Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](./modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](/Essential-Modding/FusionFix). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0.  Он включает в себя [ZolikaPatch](essential-modding/zolikapatch.md) и [IV Tweaker](../modloading/#iv-tweaker), а также имеет дополнительную поддержку портированной версии [FusionFix](essential-modding/fusionfix.md). Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ???+ note "Установка"
     * Создайте исключение в антивирусе для папки с игрой. (Необязательно, но настоятельно рекомендуется).
@@ -39,7 +39,7 @@ hide: footer
     * Распаковать содержимое :material-zip-box:`IV_Downgrade_10x0_vxx.zip` в папку с игрой, заменив все, если требуется.
     * Запустите :material-file-download:`vcredist_x86.exe` и дайте ему установиться.
     * Запустите игру.
-    * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](/Essential-Modding/FusionFix)).
+    * Если все работает нормально, можно также установить один из дополнительных модов(Optional mods), перечисленных ниже (не рекомендуется устанавливать оба; предпочтительнее [FusionFix](essential-modding/fusionfix.md)).
 
 ## Даунгрейдер от ItsClockAndre
 Этот даунгрейдер работает в онлайн-режиме и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию, но это также делает данный даунгрейдер более близким к настоящей дисковой версии. Этот даунгрейдер также может быть не таким актуальным, как от Zolika1351. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
@@ -55,4 +55,4 @@ hide: footer
     !!! info ""
         Если вы каким-то образом пропустили этот шаг, скачайте последнюю версию [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), распакуйте :material-file:`dinput8.dll` и переименуйте :material-file:`dinput8.dll` в `xlive.dll`
 
-[:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button } [Следующая страница:material-page-last: <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](additional-setup.md){ .md-button } [Следующая страница:material-page-last: <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button .md-button--primary }

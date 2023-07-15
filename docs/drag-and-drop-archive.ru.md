@@ -3,7 +3,7 @@ description: Полноценный готовый архив для игры в
 hide: footer
 
 # Готовый архив
-Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4). В основном у вас не будет [ZolikaPatch](Essential-Modding/ZolikaPatch.md) и Liberty Tweaks.
+Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4). В основном у вас не будет [ZolikaPatch](essential-modding/zolikapatch.md) и Liberty Tweaks.
 
 ### Примечания
 !!! info ""
@@ -34,7 +34,7 @@ hide: footer
 
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
 	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==. Сообщите мне о проблеме, если вы ее обнаружите.
+		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==. [Сообщите мне о проблеме, если вы ее обнаружите.](contact-me.md)
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
@@ -50,7 +50,7 @@ hide: footer
 	??? warning "Если игра не запускается"
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
 	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==. Сообщите мне о проблеме, если вы ее обнаружите.
+		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==. [Сообщите мне о проблеме, если вы ее обнаружите.](contact-me.md)
 
 ## Список модов
 === "1.0.8.0"
@@ -144,4 +144,4 @@ hide: footer
 		* 27.06.2023 - Обновлены моды.
 		* 26.06.2023 - Создание архива.
 
-[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Второстепенная настройка</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Второстепенная настройка</br>](additional-setup.md){ .md-button .md-button--primary }

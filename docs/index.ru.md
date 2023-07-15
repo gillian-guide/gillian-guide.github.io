@@ -23,8 +23,8 @@ hide: footer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Разделы
-Если вам не нужны подробные руководства, вы можете просто установить архив [готовый архив](Drag-and-Drop-Archive.md) и начать игру.
+Если вам не нужны подробные руководства, вы можете просто установить архив [готовый архив](drag-and-drop-archive.md) и начать игру.
 
 В другом случае, начните с [оптимизации](optimization.md).
 
-[Следующая страница:material-page-last:<br>Готовый архив</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Следующая страница:material-page-last: <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary }
+[Следующая страница:material-page-last:<br>Готовый архив</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Следующая страница:material-page-last: <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary }

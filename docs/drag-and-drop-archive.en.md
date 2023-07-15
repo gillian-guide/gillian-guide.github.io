@@ -51,7 +51,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	??? warning "If the game does not start"
 		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
 	??? warning "My game is behaving strangely/my game is crashing randomly"
-		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==. Let me know if you find the problem.
+		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==. [Let me know if you find the problem.](contact-me.md)
 
 ## Modlist
 === "1.0.8.0"

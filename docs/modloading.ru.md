@@ -79,9 +79,9 @@ hide: footer
 !!! warning ""
     Поддерживает Complete Edition.
     
-    Уже включен в [FusionFix](/Essential-Modding/FusionFix).
+    Уже включен в [FusionFix](essential-modding/fusionfix.md).
     
-    Может поддерживать 1.0.8.0/1.0.7.0 при использовании последней версии [ZolikaPatch](/Essential-Modding/ZolikaPatch).
+    Может поддерживать 1.0.8.0/1.0.7.0 при использовании последней версии [ZolikaPatch](/essential-modding/zolikapatch.md).
 
 Этот модлоадер не такой продвинутый, как IV Tweaker, но может заменять большее количество файлов. Сам ASI Loader используется, как вы уже догадались, для модов `.asi`.
 
