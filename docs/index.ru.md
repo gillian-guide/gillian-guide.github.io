@@ -26,4 +26,4 @@ description: Введение к руководству по моддингу GT
 
 В другом случае, начните с [оптимизации](optimization.md).
 
-[Следующая страница страница<br>Готовый архив</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Следующая страница <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary }
+[:material-page-last:Следующая страница страница<br>Готовый архив</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [:material-page-last:Следующая страница <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary }

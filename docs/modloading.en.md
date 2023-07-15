@@ -5,7 +5,7 @@ description: Methods for injecting mods into your GTA IV installation to avoid r
 Most mods require replacing internal files with OpenIV. We can get around this by using a modloader - or two!
 
 ## What's the difference between them?
-While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0.
+While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0. UAL's, for example, can cover what IV Tweaker doesn't support.
 ???+ question "Comparison"
     | Advantages | IV Tweaker | UAL's |
     | :--------: | :--------: | :---: |
@@ -25,7 +25,6 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 ???+ note "Installation"
     * Go to the bottom of the [page](https://zolika1351.pages.dev/mods/ivtweaker) and download the archive.
     * Extract the :material-zip-box:`IVTweaker_vx.x.zip` to your game folder.
-    * You're done!
 
 ???+ info "Usage"
 
@@ -72,7 +71,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
             TLADImprovedAnimations=1
             ```
     ??? "Increasing the limits"
-        To increase the limits, edit :material-file-cog:`IVTweaker.ini` - you may want to do this if you install mods that change vehicle textures, for example, as you may encounter the taxi bug.
+        To increase the limits, edit :material-file-cog:`IVTweaker.ini` - you may want to do this if you install mods that, for example, change vehicle textures as you may encounter the taxi bug.
 
 ## Ultimate ASI Loader's
 !!! warning ""
@@ -81,7 +80,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
     Already included in [FusionFix](/Essential-Modding/FusionFix).
     
     Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
-This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
+This modloader is not as robust as IV Tweaker, but can replace all kinds of files. The ASI Loader itself is used for, as you'd already guessed, `.asi` mods.
 
 ???+ note "Installation"
     * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.

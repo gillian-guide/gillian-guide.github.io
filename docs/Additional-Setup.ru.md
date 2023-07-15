@@ -100,4 +100,4 @@ description: Второстепення настройка для вашей у�
 ??? question "Что такое :material-file-cog:`stream.ini`?"
     В других руководствах часто используют :material-file-cog:`stream.ini` и меняют в нем значения с `2048000` на `4096000`. По [наблюдениям пользователей PCGW](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), а также моими собственным - это не дает никакого эффекта и, скорее всего, является плацебо.
 
-[Предыдущая страница <br>Оптимизация</br>](optimization.md){ .md-button } [Следующая страница <br>Даунгрейд</br>](downgrading.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Оптимизация</br>](optimization.md){ .md-button } [:material-page-last:Следующая страница <br>Даунгрейд</br>](downgrading.md){ .md-button .md-button--primary }
