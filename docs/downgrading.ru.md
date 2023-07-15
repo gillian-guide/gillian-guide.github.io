@@ -53,6 +53,6 @@ hide: footer
     * Следуйте инструкциям в приложении. Обязательно прочитайте предупреждения при выборе модов.
     * При настройке на поддержку GFWL обязательно проверьте [эту страницу](../multiplayer/#games-for-windows-live). Если нет, убедитесь, что мод `xliveless` включен.
     !!! info ""
-        Если вы каким-то образом пропустили этот шаг, скачайте последнюю версию [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), распакуйте :material-file:`dinput8.dll` и переименуйте :material-file:`dinput8.dll` в `xlive.dll`
+        Если вы каким-то образом пропустили этот шаг, настройте [Ultimate ASI Loader](ultimate-asi-loader.md) на избавление от GFWL.
 
 [:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](additional-setup.md){ .md-button } [Следующая страница:material-page-last: <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button .md-button--primary }

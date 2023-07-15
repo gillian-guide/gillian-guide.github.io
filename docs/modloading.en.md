@@ -76,21 +76,12 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 
 ## Ultimate ASI Loader
 !!! warning ""
+    See [Ultimate ASI Loader](ultimate-asi-loader.md) for installation.
+
     Supports the Complete Edition.
     
-    Already included in [FusionFix](essential-modding/fusionfix.md).
-    
     Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
-This modloader is not as robust as IV Tweaker, but can replace all kinds of files. The ASI Loader itself is used for, as you'd already guessed, `.asi` mods.
-
-???+ note "Installation"
-    * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.
-    * Download :material-zip-box:`Ultimate-ASI-Loader.zip`.
-    ??? question "Why not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`? My system is 64-bit"
-        Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
-        
-        In simpler words, the game will not use the files from :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
-    * Extract to the game folder.
+This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
 
 ???+ info "Usage"
 

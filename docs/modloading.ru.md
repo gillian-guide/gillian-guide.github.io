@@ -77,22 +77,13 @@ hide: footer
 
 ## Ultimate ASI Loader
 !!! warning ""
+    Для установки см. раздел [Ultimate ASI Loader](ultimate-asi-loader.md).
+
     Поддерживает Complete Edition.
-    
-    Уже включен в [FusionFix](essential-modding/fusionfix.md).
     
     Может поддерживать 1.0.8.0/1.0.7.0 при использовании последней версии [ZolikaPatch](/essential-modding/zolikapatch.md).
 
-Этот модлоадер не такой продвинутый, как IV Tweaker, но может заменять большее количество файлов. Сам ASI Loader используется, как вы уже догадались, для модов `.asi`.
-
-???+ note "Установка"
-    * Перейдите к странице [релизов](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases).
-    * Скачайте :material-zip-box:`Ultimate-ASI-Loader.zip`.
-    ??? question "Почему не :material-zip-box:`Ultimate-ASI-Loader_x64.zip`? Моя система 64-битная"
-        Ваша система в данном случае не имеет значения. Сама игра рассчитана на использование 32-битных библиотек, а не 64-битных.
-
-        Проще говоря, игра не будет использовать файлы из :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
-    * Распакуйте в папку с игрой.
+Этот модлоадер не такой продвинутый, как IV Tweaker, но может заменять большее количество файлов.
 
 ???+ info "Использование"
 
@@ -122,3 +113,5 @@ hide: footer
 
     ??? "Настройка модлоадера"
         В настоящее время я не знаю никакого способа настройки модлоадера для установки приоритета или чего-либо еще. [Свяжитесь со мной](contact-me.md), если вы знаете способ.
+
+[:material-page-first:Предыдущая страница <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button } [Следующая страница:material-page-last: <br>Важные моды</br>](essential-modding/index.md){ .md-button .md-button--primary }

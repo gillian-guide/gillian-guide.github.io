@@ -54,6 +54,6 @@ This downgrader is online-based and only downloads what you choose to download. 
     * Follow the instructions in the application. Be sure to read the warnings at mod selection.
     * If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
     !!! info ""
-        If you somehow missed this step, download the latest [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), extract :material-file:`dinput8.dll` to the game folder and rename :material-file:`dinput8.dll` to `xlive.dll`
+        If you somehow missed this step, set up [Ultimate ASI Loader](ultimate-asi-loader.md) to get rid of GFWL.
 
 [:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button .md-button--primary }
