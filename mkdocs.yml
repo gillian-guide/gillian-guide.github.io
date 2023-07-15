@@ -38,7 +38,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  logo: assets/iv-logo.png
+  logo: assets/iv-logo-horizontal.png
   favicon: assets/iv-logo-favicon.png
   features:
     - toc.integrate
