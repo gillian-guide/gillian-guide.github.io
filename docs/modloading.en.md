@@ -33,6 +33,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
         To install mods, create a folder with the name of your mod in :material-folder:==modloader==. Then create(with OpenIV) or place an `.img` or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) in that folder. ==Don't use subfolders. Use different folders for files that can be used for both IV and EFLC DLCs to avoid compatibility issues==.
         ??? warning "Expected folder structure"
             Improved Animations mod will be used for an example.
+            
             * :material-folder:==GTAIV==\
                 * :material-folder:==modloader==\
                     * :material-folder:==IVImprovedAnimations==\
@@ -99,6 +100,7 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
         * For mods that replace other files, create an identical folder structure to the game's in :material-folder:==update== for the replacement files and place the replacement files in their respective folders. ==Don't use the mod folders.==
         ??? warning "Expected folder structure"
             Improved Animations mod will be used for an example.
+
             * :material-folder:==GTAIV==\
                 * :material-folder:==update==\
                     * :material-folder:==ImprovedAnimations==\
@@ -115,8 +117,6 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
                         * :material-folder:==common==\
                             * :material-folder:==data==\
                                 * :material-file:`WeaponInfo.xml`
-
-                
 
     ??? "Configuring the modloader"
         Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](contact-me.md) if you know a way to.
