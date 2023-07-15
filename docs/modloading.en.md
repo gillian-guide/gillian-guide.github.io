@@ -73,7 +73,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
     ??? "Increasing the limits"
         To increase the limits, edit :material-file-cog:`IVTweaker.ini` - you may want to do this if you install mods that, for example, change vehicle textures as you may encounter the taxi bug.
 
-## Ultimate ASI Loader's
+## Ultimate ASI Loader
 !!! warning ""
     Supports the Complete Edition.
     
