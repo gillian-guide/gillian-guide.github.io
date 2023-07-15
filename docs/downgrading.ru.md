@@ -1,7 +1,7 @@
-title: Даунгрейдинг
-description: Методы давнгрейдинга GTA IV с Complete Edition.
+title: Даунгрейд
+description: Методы даунгрейдинга GTA IV с Complete Edition.
 
-# Даунгрейдинг
+# Даунгрейд
 Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](/Essential-Modding/ZolikaPatch) и [IV Tweaker](../modloading/#iv-tweaker). 
 
 Однако у нас есть несколько даунгрейдеров на выбор.
