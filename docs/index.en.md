@@ -1,9 +1,7 @@
 title: Introduction
 description: Introduction to Gillian's GTA IV Modding Guide
----
 hide:
   - footer
----
 
 # Introduction
 

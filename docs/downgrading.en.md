@@ -1,9 +1,7 @@
 title: Downgrading
 description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches.
----
 hide:
   - footer
----
 
 
 # Downgrading

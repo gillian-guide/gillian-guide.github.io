@@ -1,9 +1,7 @@
 title: Drag-and-Drop Archive
 description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version
----
 hide:
   - footer
----
 
 
 # Drag-and-Drop Archive
