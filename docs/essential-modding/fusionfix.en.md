@@ -1,3 +1,7 @@
+title: FusionFix
+description: One of the essential must-use mods for your GTA IV install
+hide: footer
+
 # FusionFix
 !!! warning "Compatibility" 
     This mod is only officially supported on the Complete Edition, but thanks to the efforts of Zolika1351, you can also use it with the 1.0.8.0 and 1.0.7.0 patches. Alternatively, you can use the old version, which still supports the 1.0.8.0 and 1.0.7.0 patches.

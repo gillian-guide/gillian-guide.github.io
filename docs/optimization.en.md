@@ -1,5 +1,5 @@
 title: Optimization
-description: Methods to optimize your GTA IV install.
+description: Methods to optimize your GTA IV install
 hide: footer
 
 # Optimization

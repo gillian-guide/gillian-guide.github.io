@@ -1,5 +1,5 @@
 title: Modloading
-description: Methods for injecting mods into your GTA IV installation to avoid replacing internal files.
+description: Methods for injecting mods into your GTA IV installation to avoid replacing internal files
 hide: footer
 
 # Modloading

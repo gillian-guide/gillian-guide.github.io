@@ -1,5 +1,5 @@
 title: Mod Dependencies
-description: How to set up mod dependencies for your GTA IV install.
+description: How to set up mod dependencies for your GTA IV install
 hide: footer
 
 # Mod Dependencies
