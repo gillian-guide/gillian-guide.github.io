@@ -56,4 +56,4 @@ This downgrader is online-based and only downloads what you choose to download. 
     !!! info ""
         If you somehow missed this step, set up [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) to get rid of GFWL.
 
-[:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Mod dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }

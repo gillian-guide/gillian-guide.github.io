@@ -112,4 +112,4 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
     ??? "Configuring the modloader"
         Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](contact-me.md) if you know a way to.
 
-[:material-page-first:Previous page <br>Mod dependencies</br>](mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }
