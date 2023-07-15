@@ -4,7 +4,7 @@ hide: footer
 
 
 # Downgrading
-You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](/Essential-Modding/ZolikaPatch), Liberty Tweaks and [IV Tweaker](../modloading/#iv-tweaker). 
+You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and [IV Tweaker](../modloading/#iv-tweaker). 
 
 However, we have several downgraders to choose from.
 
@@ -31,7 +31,7 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
     | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 
 ## Zolika1351's Downgrader
-This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](/Essential-Modding/ZolikaPatch) and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](/Essential-Modding/FusionFix). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](essential-modding/zolikapatch.md).md and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](essential-modding/fusionfix.md). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ???+ note "Installation"
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
@@ -40,7 +40,7 @@ This downgrader is very lightweight and replaces a minimal amount of files(which
     * Extract the contents of the :material-zip-box:`IV_Downgrade_10x0_vxx.zip` into your game folder, replacing everything if prompted.
     * Run :material-file-download:`vcredist_x86.exe` and let it install.
     * Run the game.
-    * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](/Essential-Modding/FusionFix) is preferred).
+    * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](essential-modding/fusionfix.md) is preferred).
 
 ## ItsClockAndre's Downgrader
 This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may also not be as up to date as Zolika1351's. This downgrader also has an option to downgrade to 1.0.4.0.
@@ -56,4 +56,4 @@ This downgrader is online-based and only downloads what you choose to download. 
     !!! info ""
         If you somehow missed this step, download the latest [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), extract :material-file:`dinput8.dll` to the game folder and rename :material-file:`dinput8.dll` to `xlive.dll`
 
-[:material-page-first:Previous page <br>Additional Setup</br>](Additional-Setup.md){ .md-button } [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button .md-button--primary }

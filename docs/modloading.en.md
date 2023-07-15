@@ -78,7 +78,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 !!! warning ""
     Supports the Complete Edition.
     
-    Already included in [FusionFix](/Essential-Modding/FusionFix).
+    Already included in [FusionFix](essential-modding/fusionfix.md).
     
     Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
 This modloader is not as robust as IV Tweaker, but can replace all kinds of files. The ASI Loader itself is used for, as you'd already guessed, `.asi` mods.
@@ -120,3 +120,5 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
 
     ??? "Configuring the modloader"
         Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](contact-me.md) if you know a way to.
+
+[:material-page-first:Previous page <br>Ultimate ASI Loader</br>](ultimate-asi-loader.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }

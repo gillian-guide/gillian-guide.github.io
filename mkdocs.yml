@@ -80,17 +80,20 @@ markdown_extensions:
 
 nav:
   - "index.md"
-  - "Drag-and-Drop-Archive.md"
+  - "drag-and-drop-archive.md"
   - "optimization.md"
-  - "Additional-Setup.md"
+  - "additional-setup.md"
   - "downgrading.md"
+  - "ultimate-asi-loader.md"
   - "modloading.md"
   - Essential Modding:
     - "Essential-Modding/index.md"
-    - "Essential-Modding/FusionFix.md"
-    - "Essential-Modding/ZolikaPatch.md"
-    - "Essential-Modding/Shader-Fixes.md"
+    - "Essential-Modding/fusionfix.md"
+    - "Essential-Modding/zolikapatch.md"
+    - "Essential-Modding/shader-fixes.md"
   - "multiplayer.md"
+  - "credits.md"
+  - "contact-me.md"
 
 extra:
   social:

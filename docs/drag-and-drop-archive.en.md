@@ -4,12 +4,12 @@ hide: footer
 
 
 # Drag-and-Drop Archive
-You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist). You'll mainly be lacking [ZolikaPatch](Essential-Modding/ZolikaPatch.md) and Liberty Tweaks.
+You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist). You'll mainly be lacking [ZolikaPatch](essential-modding/zolikapatch.md) and Liberty Tweaks.
 
 ### Notes
 !!! info ""
 	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). The amount of supported mods is also much more limited in this version - most mods are built for 1.0.8.0 and 1.0.7.0.
-	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](Essential-Modding/ZolikaPatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
+	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
 
 !!! warning ""
 	A potential new huge update is coming soon.
@@ -19,7 +19,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Download the archive and then simply extract the contents to your game folder. After installation, go through [additional setup](Additional-Setup.md).
+	Download the archive and then simply extract the contents to your game folder. After installation, go through [additional setup](additional-setup.md).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) Complete Edition installation. 
 		
@@ -35,11 +35,11 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try async 1.10.3 from [additional mods](#additional-mods).
 	??? warning "My game is behaving strangely/my game is crashing randomly"
-		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. Let me know if you find the problem.
+		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. [Let me know if you find the problem](contact-me.md).
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
-	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional setup](Additional-Setup.md).
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional setup](additional-setup.md).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) Complete Edition installation.
 		
@@ -144,4 +144,4 @@ These mods are not included by default, but do not require any additional steps 
 		* 27.06.2023 - Updated mods.
 		* 26.06.2023 - Created the archive.
 
-[:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](Additional-Setup.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }

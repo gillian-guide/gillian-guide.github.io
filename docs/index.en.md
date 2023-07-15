@@ -20,13 +20,13 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
         * Make sure you have a PC(or a device capable of emulating a PC), set of arms for modding (or any other part of body capable of doing PC things) and eyes for reading (or ears if you're using a screen reader).
 
 ## Gameplay Demo
-Your game will look and play roughly like this after finishing the modding (the [drag-and-drop archive](Drag-and-Drop-Archive.md) has been used for this video).
+Your game will look and play roughly like this after finishing the modding (the [drag-and-drop archive](drag-and-drop-archive.md) has been used for this video).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Sections
-If you have no need for the in-depth tutorials, you can simply install the [drag-and-drop archive](Drag-and-Drop-Archive.md) and you are ready to go.
+If you have no need for the in-depth tutorials, you can simply install the [drag-and-drop archive](drag-and-drop-archive.md) and you are ready to go.
 
 Otherwise, start with [optimization](optimization.md).
 
-[Next page:material-page-last: <br>Drag-and-Drop Archive</br>](Drag-and-Drop-Archive.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
+[Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
 
