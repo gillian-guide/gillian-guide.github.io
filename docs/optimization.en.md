@@ -1,9 +1,9 @@
+title: Optimization
+description: Methods to optimize your GTA IV install.
 ---
 hide:
   - footer
 ---
-title: Optimization
-description: Methods to optimize your GTA IV install.
 
 # Optimization
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have an ultimate solution - but we do have a pretty good one.

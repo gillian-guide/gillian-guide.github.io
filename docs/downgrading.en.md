@@ -1,9 +1,10 @@
+title: Downgrading
+description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches.
 ---
 hide:
   - footer
 ---
-title: Downgrading
-description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches.
+
 
 # Downgrading
 You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](/Essential-Modding/ZolikaPatch), Liberty Tweaks and [IV Tweaker](../modloading/#iv-tweaker). 

@@ -1,9 +1,9 @@
+title: Готовый архив
+description: Полноценный готовый архив для игры в желаемую версию GTA IV
 ---
 hide:
   - footer
 ---
-title: Готовый архив
-description: Полноценный готовый архив для игры в желаемую версию GTA IV
 
 # Готовый архив
 Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4). В основном у вас не будет [ZolikaPatch](Essential-Modding/ZolikaPatch.md) и Liberty Tweaks.

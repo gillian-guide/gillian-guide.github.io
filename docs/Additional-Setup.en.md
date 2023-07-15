@@ -1,9 +1,10 @@
+title: Additional Setup
+description: Additional setup for your GTA IV installation - after performing the optimization or the drag-and-drop archive.
 ---
 hide:
   - footer
 ---
-title: Additional Setup
-description: Additional setup for your GTA IV installation - after performing the optimization or the drag-and-drop archive.
+
 
 # Additional Setup
 Whether you're here after using the [drag-and-drop archive](Drag-and-Drop-Archive.md) or performing the [optimization](optimization.md), we still need to do some setup for the best experience.

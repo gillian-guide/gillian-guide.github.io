@@ -1,9 +1,9 @@
+title: Даунгрейд
+description: Методы даунгрейдинга GTA IV с Complete Edition.
 ---
 hide:
   - footer
 ---
-title: Даунгрейд
-description: Методы даунгрейдинга GTA IV с Complete Edition.
 
 # Даунгрейд
 Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](/Essential-Modding/ZolikaPatch), Liberty Tweaks и [IV Tweaker](../modloading/#iv-tweaker). 
@@ -11,7 +11,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition.
 Однако у нас есть несколько даунгрейдеров на выбор.
 
 ### Примечания
-!!! note ""
+!!! info ""
 	1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) и [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). Количество поддерживаемых модов в этой версии также значительно ограничено - большинство модов создано для версий 1.0.8.0 и 1.0.7.0.
 	2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и мультиплеера. Эта версия лучше подходит для совместимости с модами.
     3. 1.0.4.0 - это более старый патч с полной совместимостью с ENB, а также со старым алгоритмом теней, который, по мнению некоторых людей в коммьюнити, лучше.
