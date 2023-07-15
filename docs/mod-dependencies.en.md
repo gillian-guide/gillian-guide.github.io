@@ -24,7 +24,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
 
 ??? tip "How to use .asi mods?"
     !!! warning ""
-        Make sure your mod was built for Ultimate ASI Loader and not [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-.net).
+        Make sure your mod was built for Ultimate ASI Loader and not [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-net).
     
     Extract the mod to either the game folder or :material-folder:==plugins== - either will do.
 
@@ -41,7 +41,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     Also known as ScriptHookDotNet and aru's ScriptHook.
 !!! warning ""
     Compatible with all versions. See notes below.
-This tool is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-.net). See your mod's requirements to see whether it was built for ScriptHook or [IV-SDK .NET](#iv-sdk-.net).
+This tool is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net). See your mod's requirements to see whether it was built for ScriptHook or [IV-SDK .NET](#iv-sdk-net).
 
 ???+ note "Installation"
     * Go to [Releases](https://github.com/HazardX/gta4_scripthookdotnet/releases) and download the version for the patch you want.
