@@ -8,7 +8,6 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     === "Latest version"
         - Instructions:
             * Get latest [ZolikaPatch](ZolikaPatch.md) and [Ultimate ASI Loader](../ultimate-asi-loader.md).
-
             !!! note ""
                 [Zolika1351's Downgrader](../downgrading/#zolika1351s-downgrader) already takes care of that.
             * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
