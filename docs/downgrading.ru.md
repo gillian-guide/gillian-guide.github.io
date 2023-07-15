@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 title: Даунгрейд
 description: Методы даунгрейдинга GTA IV с Complete Edition.
 

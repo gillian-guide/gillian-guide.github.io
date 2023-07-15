@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 title: Оптимизация
 description: Методы оптимизации вашей установки GTA IV.
 
