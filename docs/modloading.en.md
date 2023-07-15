@@ -33,7 +33,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
         To install mods, create a folder with the name of your mod in :material-folder:==modloader==. Then create(with OpenIV) or place an `.img` or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) in that folder. ==Don't use subfolders. Use different folders for files that can be used for both IV and EFLC DLCs to avoid compatibility issues==.
         ??? warning "Expected folder structure"
             Improved Animations mod will be used for an example.
-            
+
             * :material-folder:==GTAIV==\
                 * :material-folder:==modloader==\
                     * :material-folder:==IVImprovedAnimations==\
@@ -80,7 +80,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
     
     Already included in [FusionFix](/Essential-Modding/FusionFix).
     
-    Can support 1.0.8.0/1.0.7.0 by renaming to `xlive.dll` and using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
+    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
 This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
 
 ???+ note "Installation"
