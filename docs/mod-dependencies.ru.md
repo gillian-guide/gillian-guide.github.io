@@ -2,9 +2,10 @@ title: Зависимости для модов
 description: Как установить зависимости для вашей установки GTA IV.
 hide: footer
 
-Если вы здесь в первый раз - устанавливайте только Ultimate ASI Loader.
+# Зависимости для модов
+==Если вы здесь в первый раз - устанавливайте только Ultimate ASI Loader.==
 
-# Ultimate ASI Loader
+## Ultimate ASI Loader
 Этот инструмент предназначен для загрузки модов `.asi` (один из наиболее распространенных типов модов для GTA IV) в игру. Он многоцелевой и может использоваться для многих других игр, но мы будем использовать его для GTA IV.
 
 !!! warning ""
@@ -33,7 +34,7 @@ hide: footer
 ??? tip "Модлоадинг"
     Этот инструмент может быть использован для целей модлоадинга. См. раздел [модлоадинг](modloading.md).
 
-# ScriptHook
+## ScriptHook
 !!! info ""
     Also known as ScriptHookDotNet and aru's ScriptHook.
 !!! warning ""
@@ -53,7 +54,7 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
 
     Extract the mod into :material-folder:==scripts==.
 
-# IV-SDK .NET
+## IV-SDK .NET
 !!! warning ""
     Only compatible with 1.0.8.0 and 1.0.7.0.
 This tool is used to run scripts written in any .NET language. Not to confuse with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or [ScriptHook](#scripthook).

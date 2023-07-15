@@ -2,9 +2,10 @@ title: Mod Dependencies
 description: How to set up mod dependencies for your GTA IV install.
 hide: footer
 
-Only install Ultimate ASI Loader if you're here for the first time.
+# Mod Dependencies
+==Only install Ultimate ASI Loader if you're here for the first time.==
 
-# Ultimate ASI Loader
+## Ultimate ASI Loader
 This tool is used to load `.asi` mods (one of the most common types of GTA IV mods) into your game. It's multipurpose and can be used for many other games, but we will use it for GTA IV.
 
 !!! warning ""
@@ -35,7 +36,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
 ??? tip "Modloading"
     This tool can be used for modloading purposes. See [modloading](modloading.md).
 
-# ScriptHook
+## ScriptHook
 !!! info ""
     Also known as ScriptHookDotNet and aru's ScriptHook.
 !!! warning ""
@@ -55,7 +56,7 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
 
     Extract the mod into :material-folder:==scripts==.
 
-# IV-SDK .NET
+## IV-SDK .NET
 !!! warning ""
     Only compatible with 1.0.8.0 and 1.0.7.0.
 This tool is used to run scripts written in any .NET language. Not to confuse with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or [ScriptHook](#scripthook).
