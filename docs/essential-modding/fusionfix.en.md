@@ -11,6 +11,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 
                 !!! note ""
                     [Zolika1351's Downgrader](../downgrading/#zolika1351s-downgrader) already takes care of that.
+
             * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
             * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` to your game folder.
     === "Legacy version"
