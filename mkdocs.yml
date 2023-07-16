@@ -11,9 +11,9 @@ plugins:
         ru:
           name: Русский
   - search:
-    lang:
-      - en
-      - ru
+      lang: 
+        - en
+        - de
   - glightbox
   - social
         
