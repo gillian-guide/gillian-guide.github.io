@@ -20,9 +20,9 @@ The classic multiplayer method, the one that started it all. And the one that is
     * Install :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` and :material-file-download:`xliveredist.msi`.
 ???+ info "Signing in"
     !!! warning ""
-        This is the same account as your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account. Create one if you don't already have one.
+        This is using the same account as your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account. Create one if you don't already have one.
 
-        Disable 2FA completely on the account to be able to sign in. You can turn it back on after you're signed in and set to sign in automatically.
+        [Disable 2FA completely on the account](https://account.microsoft.com/security) to be able to sign in. You can turn it back on after you're signed in and set to sign in automatically.
 
     * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
     * Open the game.
@@ -35,7 +35,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     === "Buying another GFWL game"
         Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted (except for taxes if you're American). I recommend `FlatOut: Ultimate Carnage`:
 
-        <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190" allowtransparency="true" style="background-color:transparent"></iframe>
+        <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"
