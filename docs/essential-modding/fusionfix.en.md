@@ -4,15 +4,15 @@ description: One of the essential must-use mods for your GTA IV install
 # FusionFix
 !!! warning "Compatibility" 
     This mod is only officially supported on the Complete Edition, but thanks to the efforts of Zolika1351, you can also use it with the 1.0.8.0 and 1.0.7.0 patches. Alternatively, you can use the old version, which still supports the 1.0.8.0 and 1.0.7.0 patches.
-This project aims to fix or address some issues in Grand Theft Auto IV. You can view the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md).
+This project aims to fix or address some issues in Grand Theft Auto IV. You can view the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). It also bundles [Shader Fixes](shader-fixes.md) along with toggles to enable/disable its' [FXAA](../../additional-setup/#optimal-game-settings) and [Console-like gamma](assets/console-gamma.png).
 
 ## Installation
 === "1.0.8.0"
     === "Latest version"
         - Instructions:
-            * Get latest [ZolikaPatch](ZolikaPatch.md) and [Ultimate ASI Loader](.../ultimate-asi-loader.md).
+            * Get latest [ZolikaPatch](ZolikaPatch.md) and [Ultimate ASI Loader](../../ultimate-asi-loader.md).
             !!! note ""
-                [Zolika1351's Downgrader](.../downgrading/#zolika1351s-downgrader) already takes care of that.
+                [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
             * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
             * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` to your game folder.
     === "Legacy version"
@@ -37,9 +37,9 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (by default located in :mater
     
     * `SkipIntro` allows to skip game's, normally unskippable, intro video. ==Default is `1`.==
     * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. ==Default is `1`.==
-    * `BorderlessWindowed` launches the game in Borderless Windowed mode in favor of Exclusive Fullscreen that the game uses by default (`-windowed` [launch option](.../additional-setup/#launch-options) must be set for this to work). ==Default is `1`.==
+    * `BorderlessWindowed` launches the game in Borderless Windowed mode in favor of Exclusive Fullscreen that the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). ==Default is `1`.==
     * `RecoilFix` enables recoil on keyboard, which is, due to an overlook, only present on gamepads. ==Default is `1`.==
-    * `DefinitonFix` fixes blurness that appears from using the Definition [setting](.../additional-setup/#optimal-game-settings). ==Default is `1`.==
+    * `DefinitonFix` fixes blurness that appears from using the Definition [setting](../../additional-setup/#optimal-game-settings). ==Default is `1`.==
     * `EmissiveShaderFix` fixes broken emissive shaders present in the PC port. ==Default is `1`.==
     * `AimingZoomFix` fixes reversed zooming control in TBoGT, aswell as remembering last zoom multiplier. The options are `0` for disabled, `1` for an xbox-like fix, `2` to also enable the fix in IV and TLAD, `-1` to disable the feature. ==Default is `1`.==
     * `FlickeringShadowsFix` disables player's shadow from headlights to avoid flickering shadows. ==Default is `1`.==
@@ -51,7 +51,7 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (by default located in :mater
     * `CutsceneFpsLimit` allows to set a custom framerate lock for cutscenes. It's recommended to set this option to 32 - [read this issue](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/issues/58) for context. Do not set this option above 60 FPS to avoid zoom-ins. ==Default is `60`.==
     * `ScriptCutsceneFovLimit` allows to set a FOV limit for scripted cutscenes. This is needed due to cutscenes [changing the FOV based on your framerate](https://youtu.be/NzKw7ijHG10).  ==Default is `20`.==
     * `ScriptCutsceneFpsLimit` is a proper fix for the issue above (toggle the `ScriptCutsceneFovLimit` off) that locks the framerate instead. ==This option is hidden by default.==
-    * `FXAA` allows to toggle [Shader Fixes](shader-fixes.md)' [FXAA](.../additional-setup/#optimal-game-settings). This setting has an in-game toggle in Settings - Graphics. ==Default is `1`.==
+    * `FXAA` allows to toggle [Shader Fixes](shader-fixes.md)' [FXAA](../../additional-setup/#optimal-game-settings). This setting has an in-game toggle in Settings - Graphics. ==Default is `1`.==
     * `ConsoleGamma` allows to toggle [Shader Fixes](shader-fixes.md)' [Console-like gamma](assets/console-gamma.png) ==Default is `0`.==
     * `DefaultCameraAngleInTLAD` allows to force the original [IV camera angle](assets/enabled.png) in [TLAD](assets/disabled.png). ==Default is `0`.==
     * `PedDeathAnimFixFromTBoGT` enables an additional death animation when you perform a counter attack after a dodge. [Enabled](https://imgur.com/EYsiGPe) vs [Disabled](https://imgur.com/CR3LEdR). ==Default is `1`.== 
