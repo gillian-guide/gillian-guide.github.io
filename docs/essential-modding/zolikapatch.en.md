@@ -3,7 +3,7 @@ description: One of the must-have mods for your GTA IV install
 
 # ZolikaPatch
 !!! warning "Compatibility" 
-    This mod is not compatible with the Complete Edition. Other game patches are compatible with this mod.
+    This mod is not compatible with the Complete Edition. Other game patches are compatible with it.
 
 This mod aims to fix & improve various things in GTA IV, as well as greatly improve the [multiplayer](../../multiplayer) experience. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
