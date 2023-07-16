@@ -20,11 +20,11 @@ hide: footer
         Проще говоря, игра не будет использовать файлы из :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
     * Распакуйте в папку с игрой.
 
-??? tip "How to use .asi mods?"
+??? tip "Как использовать `.asi` моды?"
     !!! warning ""
-        Make sure your mod was built for Ultimate ASI Loader and not [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-net).
+        Убедитесь, что ваш мод был создан для Ultimate ASI Loader, а не для [ScriptHook](#scripthook) или [IV-SDK .NET](#iv-sdk-net).
     
-    Extract the mod to either the game folder or :material-folder:==plugins== - either will do.
+    Распакуйте мод либо в папку с игрой, либо в :material-folder:==plugins== - подойдет любой из вариантов.
 
 ??? tip "Избавление от Games for Windows - LIVE (для старых патчей)"
     С помощью этого инструмента можно избавиться от [GFWL](../multiplayer/#games-for-windows-live), если вас не интересуют [мультиплеер](multiplayer.md) и достижения Xbox. Это уменьшит количество проблем с игрой.
@@ -36,45 +36,45 @@ hide: footer
 
 ## ScriptHook
 !!! info ""
-    Also known as ScriptHookDotNet and aru's ScriptHook.
+    Также известен как ScriptHookDotNet и aru's ScriptHook.
 !!! warning ""
-    Compatible with all versions. See notes below.
-This tool is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net). See your mod's requirements to see whether it was built for ScriptHook or [IV-SDK .NET](#iv-sdk-net).
+    Совместим со всеми версиями. См. примечания ниже.
+Этот инструмент используется для запуска скриптов, написанных на любом языке .NET. Не следует путать с [IV-SDK .NET](#iv-sdk-net). Посмотрите в требованиях к вашему моду, чтобы узнать, был ли он создан для ScriptHook или [IV-SDK .NET](#iv-sdk-net).
 
-???+ note "Installation"
-    * Go to [Releases](https://github.com/HazardX/gta4_scripthookdotnet/releases)
-    * Download the version for the patch you want.
-    * Extract :material-zip-box:`scripthookdotnet_vx_x_x_xb.zip` to your game folder.
-    ??? note "Compatibility with 1.0.8.0"
-        You may want to use [this version](https://gtaforums.com/topic/946154-release-gtaiv-net-scripthook-v1718-support-for-gta-iv-1080-and-eflc-1130-by-arinc9-zolika1351/) instead for 1.0.8.0 compatibility.
-    ??? note "Compatibility with Complete Edition"
-        Add this [patch](https://www.lcpdfr.com/downloads/gta4mods/g17media/26726-compatibility-patch-for-gta-iv-complete-edition/) for Complete Edition compatibility ontop. This is limited and you may experience problems.
-??? tip "How to use .NET scripts?"
+???+ note "Установка"
+    * Перейдите на страницу [релизов](https://github.com/HazardX/gta4_scripthookdotnet/releases)
+    * Скачайте версию для желаемого патча.
+    * Распакуйте :material-zip-box:`scripthookdotnet_vx_x_x_xb.zip` в папку с игрой.
+    ??? note "Совместимость с 1.0.8.0"
+        Для совместимости с 1.0.8.0 лучше использовать [эту версию](https://gtaforums.com/topic/946154-release-gtaiv-net-scripthook-v1718-support-for-gta-iv-1080-and-eflc-1130-by-arinc9-zolika1351/).
+    ??? note "Совместимость с Complete Edition"
+        Добавьте этот [патч](https://www.lcpdfr.com/downloads/gta4mods/g17media/26726-compatibility-patch-for-gta-iv-complete-edition/) поверх для совместимости с Complete Edition. Патч не идеален и вы, возможно, встретите проблемы.
+??? tip "Как использовать .NET скрипты?"
     !!! warning ""
-        Make sure that your mod is built for ScriptHook and not for [IV-SDK .NET](#iv-sdk-.net).
+        Убедитесь, что ваш мод создан для ScriptHook, а не для [IV-SDK .NET](#iv-sdk-net).
 
-    Extract the mod into :material-folder:==scripts==.
+    Распакуйте мод в :material-folder:==scripts==.
 
 ## IV-SDK .NET
 !!! warning ""
-    Only compatible with 1.0.8.0 and 1.0.7.0.
-This tool is used to run scripts written in any .NET language. Not to be confused with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or for [ScriptHook](#scripthook).
+    Совместим только с 1.0.8.0 и 1.0.7.0.
+Этот инструмент используется для запуска скриптов, написанных на любом языке .NET. Не следует путать с [ScriptHook](#scripthook). Посмотрите в требованиях к вашему моду, чтобы узнать, был ли он создан для IV-SDK .NET или для [ScriptHook](#scripthook).
 
-???+ note "Installation"
-    * Go to the [GTAForums page](https://gtaforums.com/topic/986510-iv-sdk-net/).
-    * Download latest version.
-    * Extract :material-zip-box:`IV-SDK.NET.vx_x_x.zip` to your game folder.
+???+ note "Установка
+    * Перейдите на [страницу GTAForums](https://gtaforums.com/topic/986510-iv-sdk-net/).
+    * Скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`IV-SDK.NET.vx_x_x.zip` в папку с игрой.
     ??? tip "Clonk's Coding Library"
-        Some mods may require extensions from [Clonk's Coding Library](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/).
+        Для некоторых модов могут потребоваться расширения из [Clonk's Coding Library](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/).
         
-        - Installation:
-            * Go to the [Releases](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/tag/v1.3) page.
-            * Download latest version.
-            * Extract :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip` into your game folder.
-??? tip "How to use .NET scripts?"
+        - Установка:
+            * Перейдите на страницу [релизов](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/tag/v1.3).
+            * Скачайте последнюю версию.
+            * Распакуйте :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip` в папку с игрой.
+??? tip "Как использовать .NET скрипты?"
     !!! warning ""
-        Make sure your mod is built for IV-SDK .NET and not for [ScriptHook](#scripthook).
+    Убедитесь, что ваш мод создан для IV-SDK .NET, а не для [ScriptHook](#scripthook).
 
-    Extract the mod to :material-folder:==IVSDKDotNot\scripts==.
+    Распакуйте мод в :material-folder:==IVSDKDotNot\scripts==.
 
 [:material-page-first:Предыдущая страница <br>Давнгрейд</br>](downgrading.md){ .md-button } [Следующая страница:material-page-last: <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }

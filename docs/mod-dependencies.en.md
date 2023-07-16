@@ -14,7 +14,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     [FusionFix](essential-modding/fusionfix.md) already includes this tool.
 
 ???+ note "Installation"
-    * Go to the <a href="https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases" target="_blank">Releases</a> page.
+    * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.
     * Download :material-zip-box:`Ultimate-ASI-Loader.zip`.
     ??? question "Why not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`? My system is 64-bit"
         Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
@@ -22,9 +22,9 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
         In simpler words, the game will not use the files from :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
     * Extract to the game folder.
 
-??? tip "How to use .asi mods?"
+??? tip "How to use `.asi` mods?"
     !!! warning ""
-        Make sure your mod was built for Ultimate ASI Loader and not [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-net).
+        Make sure your mod is built for Ultimate ASI Loader and not for [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-net).
     
     Extract the mod to either the game folder or :material-folder:==plugins== - either will do.
 
@@ -49,11 +49,11 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
     * Extract :material-zip-box:`scripthookdotnet_vx_x_x_xb.zip` to your game folder.
     ??? note "Compatibility with 1.0.8.0"
         You may want to use [this version](https://gtaforums.com/topic/946154-release-gtaiv-net-scripthook-v1718-support-for-gta-iv-1080-and-eflc-1130-by-arinc9-zolika1351/) instead for 1.0.8.0 compatibility.
-    ??? note "Compatibility with Complete Edition"
+    ??? note "Compatibility with the Complete Edition"
         Add this [patch](https://www.lcpdfr.com/downloads/gta4mods/g17media/26726-compatibility-patch-for-gta-iv-complete-edition/) for Complete Edition compatibility ontop. This is limited and you may experience problems.
 ??? tip "How to use .NET scripts?"
     !!! warning ""
-        Make sure that your mod is built for ScriptHook and not for [IV-SDK .NET](#iv-sdk-.net).
+        Make sure that your mod is built for ScriptHook and not for [IV-SDK .NET](#iv-sdk-net).
 
     Extract the mod into :material-folder:==scripts==.
 

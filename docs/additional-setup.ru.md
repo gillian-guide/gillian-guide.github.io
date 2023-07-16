@@ -18,7 +18,7 @@ hide: footer
 Единственные настройки, что вы должны выставить: `-norestrictions -nomemrestrict`
 
 ??? warning "При использовании DXVK или готового архива..."
-    Добавьте `-windowed` для использования безграничного полноэкранного режима для большей стабильности. Убедитесь, что `BorderlessWindowed` включён в :material-file-cog:`ZolikaPatch.ini` и/или :material-file-cog:`IV.EFLC.FusionFix.ini`.
+    Добавьте `-windowed` для использования безграничного полноэкранного режима для большей стабильности. Убедитесь, что `BorderlessWindowed` включён в :material-file-cog:`ZolikaPatch.ini` и/или :material-file-cog:`GTAIV.EFLC.FusionFix.ini`.
 
     Если в настройках графики игра не показывает нужного объема VRAM (например, 512 МБ), добавьте `-availablevidmem` с значением видеопамяти вашего ГП с `.0` в конце - до `3072.0`.
 

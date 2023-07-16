@@ -81,7 +81,7 @@ hide: footer
 
     Поддерживает Complete Edition.
     
-    Может поддерживать 1.0.8.0/1.0.7.0 при использовании последней версии [ZolikaPatch](/essential-modding/zolikapatch.md).
+    Может поддерживать 1.0.8.0/1.0.7.0 при использовании последней версии [ZolikaPatch](essential-modding/zolikapatch.md).
 
 Этот модлоадер не такой продвинутый, как IV Tweaker, но может заменять большее количество файлов.
 

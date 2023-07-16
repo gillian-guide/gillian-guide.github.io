@@ -17,7 +17,6 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
         * Make sure you have enough free space on your drive (the base game takes about 22GB, a backup will take just as much, plus count in all the modding you'd do - at least 4GB).
         * You need to have an archivator installed. I recommend [7-Zip](https://www.7-zip.org/ "Official 7-Zip website").
         * Make sure you have the game's prerequisites installed(they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
-        * Make sure you have a PC(or a device capable of emulating a PC), set of arms for modding (or any other part of body capable of doing PC things) and eyes for reading (or ears if you're using a screen reader).
 
 ## Gameplay Demo
 Your game will look and play roughly like this after finishing the modding (the [drag-and-drop archive](drag-and-drop-archive.md) has been used for this video).

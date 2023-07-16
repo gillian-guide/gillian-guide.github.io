@@ -80,7 +80,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 
     Supports the Complete Edition.
     
-    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](/Essential-Modding/ZolikaPatch).
+    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](essential-modding/zolikapatch.md).
 This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
 
 ???+ info "Usage"
