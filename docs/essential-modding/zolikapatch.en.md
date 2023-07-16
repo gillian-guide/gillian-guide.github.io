@@ -13,7 +13,7 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
     * Scroll to the bottom of the page and download the latest version.
     * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` to your game folder.
-    ???+ "What's :material-file:`GFWLProtectionDisabler2019.asi`?
+    ???+ "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
         This mod is required to prevent [GFWL](../../multiplayer/#games-for-windows-live) from blocking `.asi` mods.
 
 ## Configuration
