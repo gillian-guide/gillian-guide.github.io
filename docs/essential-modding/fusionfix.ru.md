@@ -29,7 +29,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 ## Configuration
 Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:==plugins== by default) and configure the file as needed.
 
-???+ abstract "Full list of options"
+??? abstract "Full list of options"
     !!! warning ""
         This list is based on the latest version of FusionFix. If you're using the legacy or other outdated version, you may be missing some of these options.
 

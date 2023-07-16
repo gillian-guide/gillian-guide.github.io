@@ -16,15 +16,17 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
         ???+ tip "Console-like Gamma"
             If you also want to have console-like gamma, extract :material-folder:==2. Addons\Console-like Gamma== to your game folder, replacing all files when prompted.
 
-=== "A part of UAL's modloader | Updating FusionFix files"
+=== "Part of UAL's modloader | Updating FusionFix files"
     - Instructions:
         * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
         * Download the latest version.
         * Extract the files from the :material-folder:==1. Main== to the :material-folder:==update==, replacing all files if prompted.
+        ??? tip "Console-like Gamma"
+            If you also want to have console-like gamma and ==you're not using FusionFix==, extract :material-folder:==2. Addons\Console-like Gamma== to :material-folder:==update==, replacing all files when prompted.
 
 === "Part of IV Tweaker"
     !!! warning ""
-        This is not reccomended due to potential incompatibility issues.
+        This is not reccomended due to potential incompatibility issues. Use the UAL's modloader method or [latest FusionFix port](fusionfix.md) instead.
     - Instructions:
         * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
         * Download the latest version.
