@@ -91,8 +91,8 @@ nav:
     - "essential-modding/zolikapatch.md"
     - "essential-modding/shader-fixes.md"
   - "multiplayer.md"
-  - "credits.md"
   - "contact-me.md"
+  - "credits.md"
 
 extra:
   social:

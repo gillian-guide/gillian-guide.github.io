@@ -45,4 +45,4 @@ description: Один из важных модов для вашей устан�
             Также вы можете скачать папку с модом [отсюда](https://zolika1351.pages.dev/mods/ivtweaker/downgrading) из optional mods и просто распаковать её.
         * Настройте :material-file-cog:`modloader.ini` по необходимости.
 
-[:material-page-first:Предыдущая страница <br>ZolikaPatch</br>](fusionfix.md){ .md-button } [Следующая страница:material-page-last: <br>Мультиплеер</br>](multiplayer.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>ZolikaPatch</br>](fusionfix.md){ .md-button } [Следующая страница:material-page-last: <br>Мультиплеер</br>](../../multiplayer.md){ .md-button .md-button--primary }
