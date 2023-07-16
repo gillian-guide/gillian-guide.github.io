@@ -43,7 +43,6 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
-    - navigation.footer
     - content.tabs.link
     - content.tooltips
     - content.code.copy

@@ -1,6 +1,5 @@
 title: FusionFix
 description: One of the essential must-use mods for your GTA IV install
-hide: footer
 
 # FusionFix
 !!! warning "Compatibility" 
@@ -61,3 +60,5 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (by default located in :mater
     * `ScreenFilter` changes the timecyc between Default, IV, TLAD and TBoGT. Use the in-game toggle in Settings - Screen instead. ==Default is `5`.== 
     * `VehicleBudget` allows to change the vehicle budget. This option comes from the integrated [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're encountering the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` file in bytes(e.g. 200000000). ==Default is `0`.==
     * `PedBudget` allows to change the ped budget. This option comes from the integrated [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
+
+    [:material-page-first:Previous page <br>What's in this section</br>](index.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }

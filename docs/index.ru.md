@@ -1,6 +1,5 @@
 title: Введение
 description: Введение к руководству по моддингу GTA IV от Gillian
-hide: footer
 
 # Введение
 

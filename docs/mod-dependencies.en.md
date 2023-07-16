@@ -1,6 +1,5 @@
 title: Mod Dependencies
 description: How to set up mod dependencies for your GTA IV install
-hide: footer
 
 # Mod Dependencies
 ==Only install Ultimate ASI Loader if you're here for the first time.==
