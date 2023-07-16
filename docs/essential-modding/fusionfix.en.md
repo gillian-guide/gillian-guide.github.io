@@ -14,16 +14,16 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
             !!! note ""
                 [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
             * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
-            * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` to your game folder.
+            * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` into the game folder.
     === "Legacy Version"
         - Instructions:
             * Get the [Release 1.10](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/tag/v1.10) of FusionFix.
-            * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` to your game folder.
+            * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
 === "1.2.0.59"
-    - Instructions
+    - Instructions:
         * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) page.
         * Download the latest release.
-        * Extract the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` to your game folder.
+        * Extract the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
 !!! tip ""
     You can move files from the :material-folder:==plugins== to the game folder for convenience.
 ## Configuration
@@ -35,11 +35,11 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
 
         The options are either `0` for disabled and `1` for enabled unless otherwise noted.
     
-    * `SkipIntro` allows to skip the game's normally unskippable intro video. ==Default is `1`.==
-    * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. ==Default is `1`.==
-    * `BorderlessWindowed` launches the game in Borderless Windowed mode instead of Exclusive Fullscreen, which the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). ==Default is `1`.==
+    * `SkipIntro` allows to skip the game's normally unskippable intro video. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
+    * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
+    * `BorderlessWindowed` launches the game in Borderless Windowed mode instead of Exclusive Fullscreen, which the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
     * `RecoilFix` enables weapon recoil on keyboard&mouse controls, which is only present on gamepads due to an oversight. ==Default is `1`.==
-    * `DefinitonFix` fixes blurriness caused by using the Definition [setting](../../additional-setup/#optimal-game-settings). ==Default is `1`.==
+    * `DefinitonFix` fixes blurriness caused by using the Definition [setting](../../additional-setup/#optimal-game-settings). This setting controls the fix from [Shader Fixes](shader-fixes.md). ==Default is `1`.==
     * `EmissiveShaderFix` fixes broken emissive shaders present in the PC port. ==Default is `1`.==
     * `AimingZoomFix` fixes inverted zoom control in TBoGT and allows to remember last zoom multiplier. The options are `0` for disabled, `1` for an xbox-like fix, `2` to also enable the fix in IV and TLAD, `-1` to disable the feature. ==Default is `1`.==
     * `FlickeringShadowsFix` disables player's shadow from headlights to avoid flickering shadows. ==Default is `1`.==
@@ -47,18 +47,18 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `DynamicShadowForTrees` makes tree shadows dynamic. ==Default is `0`.==
     * `FpsLimitPreset` controls the FPS limiter preset. Toggle from the in-game Settings - Display tab instead - recommended to limit to 60 FPS to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues). ==Default is `0`.==
     * `FrameLimitType` controls the type of the framerate lock. The options are `1` for a real-time lock (thread-lock) and `2` for an accurate lock (sleep-yield) that uses less resources. ==Default is `2`.==
-    * `FpsLimit` allows you to set a custom framerate lock. Set your desired framerate as an option. To toggle it in-game, change the "FPS limiter" setting in Settings - Game to `Default`. ==Default is `0`.==
+    * `FpsLimit` allows you to set a custom framerate lock. Set your desired framerate as an option. To toggle it in-game, change the "FPS limiter" setting in Settings - Display to `Default`. ==Default is `0`.==
     * `CutsceneFpsLimit` allows you to set a custom framerate lock for cutscenes. It's recommended to set this option to 32 - [read this issue](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/issues/58) for context. Do not set this option above 60 FPS to avoid zoom-ins. ==Default is `60`.==
-    * `ScriptCutsceneFovLimit` allows you to set a FOV limit for scripted cutscenes. This is needed because scripted cutscenes [changing the FOV based on your framerate](https://youtu.be/NzKw7ijHG10).  ==Default is `20`.==
+    * `ScriptCutsceneFovLimit` allows you to set a FOV limit for scripted cutscenes. This is needed because scripted cutscenes [changing the FOV based on your framerate](https://youtu.be/NzKw7ijHG10). ==Default is `20`.==
     * `ScriptCutsceneFpsLimit` is a proper fix for the issue above (toggle the `ScriptCutsceneFovLimit` off) that locks the framerate instead. ==This option is hidden by default.==
     * `FXAA` allows you to toggle [Shader Fixes](shader-fixes.md)' [FXAA](../../additional-setup/#optimal-game-settings). This setting has an in-game toggle in Settings - Graphics. ==Default is `1`.==
     * `ConsoleGamma` allows to toggle [Shader Fixes](shader-fixes.md)' [Console-like Gamma](assets/console-gamma.png). This setting has an in-game toggle in Settings - Display. ==Default is `0`.==
     * `DefaultCameraAngleInTLAD` allows to force the original [IV camera angle](assets/enabled.png) in [TLAD](assets/disabled.png). ==Default is `0`.==
-    * `PedDeathAnimFixFromTBoGT` enables an additional death animation when you perform a counter attack after a dodge. [Enabled](https://imgur.com/EYsiGPe) vs [Disabled](https://imgur.com/CR3LEdR). ==Default is `1`.== 
+    * `PedDeathAnimFixFromTBoGT` enables an additional ped death animation when you perform a counter attack after a dodge. [Enabled](https://imgur.com/EYsiGPe) vs [Disabled](https://imgur.com/CR3LEdR). ==Default is `1`.== 
     * `DisableCameraCenteringInCover` allows you to disable camera centering when entering a corner of cover. [Enabled](https://imgur.com/93CKToM) vs [Disabled](https://imgur.com/q6i6KOX). ==Default is `1`.== 
     * `MouseFix` removes the mouse deadzone. ==Default is `1`.== 
     * `ScreenFilter` changes the timecyc between Default, IV, TLAD and TBoGT. Use the in-game toggle in Settings - Screen instead. ==Default is `5`.== 
-    * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). nly change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` file in bytes(e.g. 200000000). ==Default is `0`.==
+    * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` in bytes(e.g. 200000000). ==Default is `0`.==
     * `PedBudget` allows to change the ped budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
 
 [:material-page-first:Previous page <br>What's in this section</br>](index.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }

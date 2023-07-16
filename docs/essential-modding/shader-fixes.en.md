@@ -14,9 +14,9 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
     - Instructions:
         * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
         * Download the latest version.
-        * Extract the files from the :material-folder:==1. Main== to your game folder, replacing all files when prompted.
+        * Extract the files from the :material-folder:==1. Main== into the game folder, replacing all files when prompted.
         ???+ tip "Console-like Gamma"
-            If you also want to have console-like gamma, extract :material-folder:==2. Addons\Console-like Gamma== to your game folder, replacing all files when prompted.
+            If you also want to have console-like gamma, extract :material-folder:==2. Addons\Console-like Gamma== into the game folder, replacing all files when prompted.
             <figure markdown>
                 ![Image title](assets/console-gamma.png)
                 <figcaption></figcaption>

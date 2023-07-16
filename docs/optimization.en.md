@@ -27,7 +27,7 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
         * After downloading, open the archive and navigate to :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\\==
-        * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
+        * Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
     
     ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
@@ -52,7 +52,7 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
         !!! note ""
             [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) can be used instead for smoother performance.
         * After downloading, open the archive and navigate to :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\\==<br>Or :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\\==</br>
-        * Extract :fontawesome-solid-gears:`d3d9.dll` to your game folder.
+        * Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
     
     ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
         The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11. 
@@ -84,7 +84,7 @@ d3d9.numBackBuffers = 3
 ??? note "What's DxWrapper and how to use it?"
     Some part of GTA IV community believes [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) can increase performance. From my experiments, using `v1.0.6387.21` only worsened my performance and did not provide any benefits whatsoever. 
     
-    To use it, extract :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` and :fontawesome-solid-gears:`dxwrapper.dll`, and in the :material-file-edit:`dxwrapper.ini` enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
+    To use it, extract :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` and :fontawesome-solid-gears:`dxwrapper.dll` into the game folder, and in the :material-file-edit:`dxwrapper.ini` enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
     
     If you can prove to me with indefinite comparisons that it *can* improve performance, [contact me](contact-me.md).
 

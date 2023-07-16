@@ -5,7 +5,7 @@ description: Introduction to Gillian's GTA IV Modding Guide
 
 Welcome to Gillian's Grand Theft Auto IV Modding Guide.
 
-This is a centralized, all-in-one guide. It includes steps for [optimizing](optimization.md), tweaking, fixing, improving the game and more!
+This is a centralized, all-in-one guide. It includes steps for [optimizing](optimization.md), [tweaking](additional-setup.md), [fixing, improving](essential-modding/index.md) the game and more!
 
 ## Prerequisites
 !!! warning ""

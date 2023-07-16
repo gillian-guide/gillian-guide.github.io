@@ -36,7 +36,7 @@ This downgrader is very lightweight and replaces a minimal amount of files(which
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
     * Download the downgrade archive (version for 1.0.7.0 is lower).
-    * Extract the contents of the :material-zip-box:`IV_Downgrade_10x0_vxx.zip` into your game folder, replacing everything if prompted.
+    * Extract the contents of the :material-zip-box:`IV_Downgrade_10x0_vxx.zip` into the game folder, replacing everything if prompted.
     * Run :material-file-download:`vcredist_x86.exe` and let it install.
     * Run the game.
     * If everything works fine, you can also install one of the optional mods listed below (it is not recommended to install both; [FusionFix](essential-modding/fusionfix.md) is preferred).
@@ -49,7 +49,7 @@ This downgrader is online-based and only downloads what you choose to download. 
     * Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
     * Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved:==admin rights==.
     ??? info "Offline mode"
-        You can set up downgrader up for offline use instead. Download the files from [here](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) and extract them to the :material-folder:==Downgrader\\Data\\Temp==. Run :material-file:`LaunchInOfflineMode.exe` instead.
+        You can set up downgrader up for offline use instead. Download the files from [here](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) and extract them into the :material-folder:==Downgrader\\Data\\Temp==. Run :material-file:`LaunchInOfflineMode.exe` instead.
     * Follow the instructions in the application. Be sure to read the warnings at mod selection.
     * If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
     !!! info ""

@@ -1,7 +1,6 @@
 title: Additional Setup
 description: Additional setup for your GTA IV installation - after performing the optimization or the drag-and-drop archive
 
-
 # Additional Setup
 Whether you're here after using the [drag-and-drop archive](drag-and-drop-archive.md) or performing the [optimization](optimization.md), we still need to do some setup for the best experience.
 
@@ -91,8 +90,8 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 | Shadow Quality | High | Medium | This setting controls the resolution and render distance of shadows. Medium and Low rely much more on static shadows than High. Very High consumes ~20 FPS. |
 | Night Shadows | Medium or Very High | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. [FusionFix](essential-modding/fusionfix.md) allows you to enhance this by adding dynamic shadows to most objects. Both [FusionFix](essential-modding/fusionfix.md) and [Shader Fixes](essential-modding/shader-fixes.md) fix the artifacts caused by this option. |
 | Texture Filter Quality | Anisotropic 16x | Tri-Linear | This setting controls the anisotropic filtering. |
-| View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. |
-| Detail Distance | Between 10 and 70 | 10 | This setting controls the secondary LOD render distance for secondary props (such as trash cans). Setting it above 70 can cause instability and artifacts. |
+| View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. |
+| Detail Distance | Between 10 and 70 | 10 | This setting controls the secondary LOD render distance for props detail. Setting it above 70 can cause instability and artifacts. |
 | Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
 | Definition | Off | Off | This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred images on PC and effects that simply do not scale up in resolution - use [Shader Fixes](essential-modding/shader-fixes.md) to solve this problem. Can be quickly toggled by pressing ++p++ button. |
 | FXAA | On | - | This setting controls FXAA (a simple method of Anti-Aliasing) - use [FusionFix](essential-modding/fusionfix.md) for it to exist, or [Shader Fixes](essential-modding/shader-fixes.md) to have FXAA at all times. |
@@ -101,4 +100,5 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 ??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.
 
+You can stop here if all you wanted was to improve your performance, however I'd advise going up to install essential mods for best experience.
 [:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Downgrading</br>](downgrading.md){ .md-button .md-button--primary }

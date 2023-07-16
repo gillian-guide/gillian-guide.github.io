@@ -12,7 +12,7 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
     * Scroll to the bottom of the page and download the latest version.
-    * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` to your game folder.
+    * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
     ???+ "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
         This mod is required to prevent [GFWL](../../multiplayer/#games-for-windows-live) from blocking `.asi` mods.
 

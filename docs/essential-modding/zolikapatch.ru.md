@@ -1,22 +1,22 @@
 title: ZolikaPatch
-description: One of the must-have mods for your GTA IV install
+description: Один из важных модов для вашей установки GTA IV
 
 # ZolikaPatch
-!!! warning "Compatibility" 
-    This mod is not compatible with the Complete Edition. Other patches are compatible.
+!!! warning "Совместимость" 
+    Этот мод не совместим с Complete Edition. Другие игровые патчи с ним совместимы.
 
-This mod aims to fix & improve various things in GTA IV, as well as greatly improve the [multiplayer](../../multiplayer) experience. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
+Этот мод призван исправить и улучшить различные вещи в GTA IV, а также значительно улучшить опыт [мультиплеера](../../multiplayer). Вы можете прочитать список изменений [здесь](https://zolika1351.pages.dev/mods/ivpatch).
 
-## Installation
-- Instructions:
-    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
-    * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
-    * Scroll to the bottom of the page and download the latest version.
-    * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` to your game folder.
-    ???+ "What's :material-file:`GFWLProtectionDisabler2019.asi`?
-        This mod is required to prevent [GFWL](../../multiplayer/#games-for-windows-live) from blocking `.asi` mods.
+## Установка
+- Инструкции:
+    * Установите последнюю версию [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
+    * Перейдите на сайт [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
+    * Прокрутите страницу до концаи скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`ZolikaPatch_vx_x.zip` в папку с игрой.
+    ???+ "Что такое :material-file:`GFWLProtectionDisabler2019.asi`?"
+        Этот мод необходим для предотвращения блокировки `.asi` модов при использовании [GFWL](../../multiplayer/#games-for-windows-live).
 
-## Configuration
-Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options already have descriptions.
+## Настройка
+Откройте :material-file-cog:`ZolikaPatch.ini` и настройте файл по необходимости.
 
-[:material-page-first:Previous page <br>FusionFix</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Shader Fixes</br>](shader-fixes.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>FusionFix</br>](fusionfix.md){ .md-button } [Следующая страница:material-page-last: <br>Shader Fixes</br>](shader-fixes.md){ .md-button .md-button--primary }

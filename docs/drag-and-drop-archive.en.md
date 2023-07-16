@@ -18,7 +18,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Download the archive and then simply extract the contents to your game folder. After installation, go through [additional setup](additional-setup.md).
+	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional setup](additional-setup.md).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) Complete Edition installation. 
 		

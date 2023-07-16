@@ -1,64 +1,64 @@
 title: FusionFix
-description: One of the must-have mods for your GTA IV install
+description: Один из важных модов для вашей установки GTA IV
 
 # FusionFix
-!!! warning "Compatibility" 
-    This mod is only officially supported on the Complete Edition, but thanks to the efforts of Zolika1351, you can also use it with the 1.0.8.0 and 1.0.7.0 patches. Alternatively, you can use the old version, which still supports the 1.0.8.0 and 1.0.7.0 patches.
-This project aims to fix or address some issues in Grand Theft Auto IV. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). It also bundles [Shader Fixes](shader-fixes.md) along with toggles to enable/disable its [FXAA](../../additional-setup/#optimal-game-settings) and [Console-like Gamma](assets/console-gamma.png).
+!!! warning "Совместимость" 
+    Этот мод официально поддерживает только Complete Edition, но благодаря Zolika1351 вы можете использовать его и с патчами 1.0.8.0 и 1.0.7.0. Также можно использовать старую версию, которая по-прежнему поддерживает патчи 1.0.8.0 и 1.0.7.0.
+Данный проект направлен на исправление или устранение некоторых проблем в Grand Theft Auto IV. Вы можете прочитать список изменений [здесь](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). Также в состав входит [Shader Fixes](shader-fixes.md) с переключателем для [FXAA](../../additional-setup/#optimal-game-settings) и [консольной гаммы](assets/console-gamma.png).
 
-## Installation
+## Установка
 === "1.0.8.0"
-    === "Latest version"
-        - Instructions:
-            * Get the latest [ZolikaPatch](ZolikaPatch.md) and [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
+    === "Последняя версия"
+        - Инструкции:
+            * Установите последние версии [ZolikaPatch](ZolikaPatch.md) и [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
             !!! note ""
-                [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
-            * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
-            * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` to your game folder.
-    === "Legacy Version"
-        - Instructions:
-            * Get the [Release 1.10](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/tag/v1.10) of FusionFix.
-            * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` to your game folder.
+                [Давнгрейдер от Zolika1351](../../downgrading/#zolika1351s-downgrader) уже имеет их в своем комплекте.
+            * Скачайте FusionFix из Optional mods [здесь](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
+            * Распакуйте :material-zip-box:`FusionFix_1070-1080_New.zip` в папку с игрой.
+    === "Старая версия"
+        - Инструкции:
+            * Скачайте [релиз 1.10](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/tag/v1.10) FusionFix.
+            * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
 === "1.2.0.59"
-    - Instructions
-        * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) page.
-        * Download the latest release.
-        * Extract the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` to your game folder.
+    - Инструкции:
+        * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
+        * Скачайте последнюю версию.
+        * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
 !!! tip ""
-    You can move files from the :material-folder:==plugins== to the game folder for convenience.
-## Configuration
-Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:==plugins== by default) and configure the file as needed.
+    Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
+## Настройка
+Откройте :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (по умолчанию находится в :material-folder:==plugins==) и настройте файл так, как вам нужно.
 
-??? abstract "Full list of options"
+??? abstract "Полный список опций"
     !!! warning ""
-        This list is based on the latest version of FusionFix. If you're using the legacy or other outdated version, you may be missing some of these options.
+        Данный список основан на последней версии FusionFix. Если вы используете устаревшую версию, то некоторые из этих опций могут отсутствовать.
 
-        The options are either `0` for disabled and `1` for enabled unless otherwise noted.
+        Если не уточнено, опции имеют значение `0` для отключения и `1` для включения.
     
-    * `SkipIntro` allows to skip the game's normally unskippable intro video. ==Default is `1`.==
-    * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. ==Default is `1`.==
-    * `BorderlessWindowed` launches the game in Borderless Windowed mode instead of Exclusive Fullscreen, which the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). ==Default is `1`.==
-    * `RecoilFix` enables weapon recoil on keyboard&mouse controls, which is only present on gamepads due to an oversight. ==Default is `1`.==
-    * `DefinitonFix` fixes blurriness caused by using the Definition [setting](../../additional-setup/#optimal-game-settings). ==Default is `1`.==
-    * `EmissiveShaderFix` fixes broken emissive shaders present in the PC port. ==Default is `1`.==
-    * `AimingZoomFix` fixes inverted zoom control in TBoGT and allows to remember last zoom multiplier. The options are `0` for disabled, `1` for an xbox-like fix, `2` to also enable the fix in IV and TLAD, `-1` to disable the feature. ==Default is `1`.==
-    * `FlickeringShadowsFix` disables player's shadow from headlights to avoid flickering shadows. ==Default is `1`.==
-    * `ExtraDynamicShadows` allows to restore missing dynamic shadows, up to forcing all objects to cast a shadow. The options are `0` for disabled, `1` for restoring some missing ,shadows, `2` for adding vegetation shadows and `3` for forcing all shadows. ==Default is `1`.==
-    * `DynamicShadowForTrees` makes tree shadows dynamic. ==Default is `0`.==
-    * `FpsLimitPreset` controls the FPS limiter preset. Toggle from the in-game Settings - Display tab instead - recommended to limit to 60 FPS to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues). ==Default is `0`.==
-    * `FrameLimitType` controls the type of the framerate lock. The options are `1` for a real-time lock (thread-lock) and `2` for an accurate lock (sleep-yield) that uses less resources. ==Default is `2`.==
-    * `FpsLimit` allows you to set a custom framerate lock. Set your desired framerate as an option. To toggle it in-game, change the "FPS limiter" setting in Settings - Game to `Default`. ==Default is `0`.==
-    * `CutsceneFpsLimit` allows you to set a custom framerate lock for cutscenes. It's recommended to set this option to 32 - [read this issue](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/issues/58) for context. Do not set this option above 60 FPS to avoid zoom-ins. ==Default is `60`.==
-    * `ScriptCutsceneFovLimit` allows you to set a FOV limit for scripted cutscenes. This is needed because scripted cutscenes [changing the FOV based on your framerate](https://youtu.be/NzKw7ijHG10).  ==Default is `20`.==
-    * `ScriptCutsceneFpsLimit` is a proper fix for the issue above (toggle the `ScriptCutsceneFovLimit` off) that locks the framerate instead. ==This option is hidden by default.==
-    * `FXAA` allows you to toggle [Shader Fixes](shader-fixes.md)' [FXAA](../../additional-setup/#optimal-game-settings). This setting has an in-game toggle in Settings - Graphics. ==Default is `1`.==
-    * `ConsoleGamma` allows to toggle [Shader Fixes](shader-fixes.md)' [Console-like Gamma](assets/console-gamma.png). This setting has an in-game toggle in Settings - Display. ==Default is `0`.==
-    * `DefaultCameraAngleInTLAD` allows to force the original [IV camera angle](assets/enabled.png) in [TLAD](assets/disabled.png). ==Default is `0`.==
-    * `PedDeathAnimFixFromTBoGT` enables an additional death animation when you perform a counter attack after a dodge. [Enabled](https://imgur.com/EYsiGPe) vs [Disabled](https://imgur.com/CR3LEdR). ==Default is `1`.== 
-    * `DisableCameraCenteringInCover` allows you to disable camera centering when entering a corner of cover. [Enabled](https://imgur.com/93CKToM) vs [Disabled](https://imgur.com/q6i6KOX). ==Default is `1`.== 
-    * `MouseFix` removes the mouse deadzone. ==Default is `1`.== 
-    * `ScreenFilter` changes the timecyc between Default, IV, TLAD and TBoGT. Use the in-game toggle in Settings - Screen instead. ==Default is `5`.== 
-    * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). nly change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` file in bytes(e.g. 200000000). ==Default is `0`.==
-    * `PedBudget` allows to change the ped budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
+    * `SkipIntro` позволяет пропустить обычно не пропускаемый вступительный ролик игры. Эта настройка имеет внутриигровой переключатель в Настройки - Игра. ==По умолчанию `1`.==
+    * `SkipMenu` позволяет пропустить меню игры, загружаясь сразу же в файл сохранения сразу после запуска игры. Эта настройка имеет внутриигровой переключатель в Настройки - Игра. ==По умолчанию `1`.==
+    * `BorderlessWindowed` запускает игру в полноэкранном безрамочном режиме вместо экслюзивного полноэкранного, который игра использует по умолчанию (для этого должен быть установлен [параметр запуска](../../additional-setup/#_2) `-windowed`). Эта настройка имеет внутриигровой переключатель в Настройки - Игра. ==По умолчанию `1`.==
+    * `RecoilFix` включает отдачу оружия при управлении с клавиатуры и мыши, которая по недосмотру присутствует только на геймпадах. ==По умолчанию `1`.==
+    * `DefinitonFix` исправляет размытость, вызванную использованием [настройки](../../additional-setup/#_3) Глубины поля наблюдения. Эта настройка контролирует исправление из [Shader Fixes](shader-fixes.md). ==По умолчанию `1`.==
+    * `EmissiveShaderFix` исправляет сломанные эмиссионные шейдеры, присутствующие в ПК порте. ==По умолчанию `1`.==
+    * `AimingZoomFix` исправляет инвертированное управление зумом в TBoGT и позволяет запоминать последний множитель зума. Опции: `0` - отключено, `1` - исправление, подобное Xbox-версии, `2` - включение исправления в IV и TLAD, `-1` - отключение функции. ==По умолчанию `1`.==
+    * `FlickeringShadowsFix` отключает тень игрока от фар, чтобы избежать мерцания теней. ==По умолчанию `1`.==
+    * `ExtraDynamicShadows` позволяет восстановить недостающие динамические тени, вплоть до принудительного отбрасывания тени всеми объектами. Опции: `0` - отключено, `1` - восстановление некоторых отсутствующих теней, `2` - добавление растительных теней и `3` - принуждение всех теней. ==По умолчанию `1`.==
+    * `DynamicShadowForTrees` делает тени деревьев динамическими. ==По умолчанию `0`.==
+    * `FpsLimitPreset` управляет предустановкой ограничителя FPS. Переключается в Настройки - Экран - рекомендуется ограничиться 60 FPS, чтобы избежать [проблем с таймингом](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues). ==По умолчанию `0`.==
+    * `FrameLimitType` управляет типом блокировки частоты кадров. Опции: `1` для блокировки в реальном времени (thread-lock) и `2` для точной блокировки (sleep-yield), которая использует меньше ресурсов. ==По умолчанию `2`.==
+    * `FpsLimit` позволяет установить пользовательскую блокировку частоты кадров. Задайте желаемую частоту кадров в качестве опции. Чтобы включить его в игре, измените значение параметра "FPS limiter" в Настройки - Экран на `Default`. ==По умолчанию `0`.==
+    * `CutsceneFpsLimit` позволяет установить пользовательскую блокировку частоты кадров для сцен. Рекомендуется устанавливать значение 32 - [прочитайте эту проблему](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/issues/58) для контекста.Не устанавливайте этот параметр выше 60 FPS, чтобы избежать приближений в катсценах. ==По умолчанию `60`.==
+    * `ScriptCutsceneFovLimit` позволяет установить ограничение FOV для скриптовых сцен. Это необходимо, поскольку скриптовые сцены [изменяют FOV в зависимости от частоты кадров](https://youtu.be/NzKw7ijHG10). ==По умолчанию `20`.==
+    * `ScriptCutsceneFpsLimit` более "правильное" исправление вышеуказанной проблемы (отключите `ScriptCutsceneFovLimit`), которое, на замену, блокирует частоту кадров. ==По умолчанию эта опция скрыта.==
+    * `FXAA` позволяет отключить [FXAA](../../additional-setup/#_3) от [Shader Fixes](shader-fixes.md)'. Эта настройка имеет внутриигровой переключатель в Настройки - Графика. ==По умолчанию `1`.==
+    * `ConsoleGamma` позволяет переключать [консольную гамму](assets/console-gamma.png) от [Shader Fixes](shader-fixes.md)'. Эта настройка имеет внутриигровой переключатель в Настройки - Экран. ==По умолчанию `0`.==
+    * `DefaultCameraAngleInTLAD` позволяет принудительно использовать оригинальный [угол камеры из IV](assets/enabled.png) в [TLAD](assets/disabled.png). ==По умолчанию `0`.==
+    * `PedDeathAnimFixFromTBoGT` включает дополнительную анимацию смерти педов при выполнении контр-атаки после уклонения. Сравнение при [включено](https://imgur.com/EYsiGPe) и [выключено](https://imgur.com/CR3LEdR). ==По умолчанию `1`.== 
+    * `DisableCameraCenteringInCover` позволяет отключить центрирование камеры при входе в угол укрытия. Сравнение при [включено](https://imgur.com/93CKToM) и [выключено](https://imgur.com/q6i6KOX). ==По умолчанию `1`.== 
+    * `MouseFix` устраняет мертвую зону мыши. ==По умолчанию `1`.== 
+    * `ScreenFilter` изменяет timecyc между Default, IV, TLAD и TBoGT. Вместо этого используйте внутриигровой переключатель в Настройки - Экран. ==По умолчанию `5`.== 
+    * `VehicleBudget` позволяет изменить бюджет транспорта. Этот параметр берется из встроенного [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Изменяйте этот параметр только тогда, когда вы сталкиваетесь с [нашествием такси](assets/taxi-bug.png). Значение должно быть равно размеру вашего :material-file:`vehicles.img` в байтах(например, 200000000). ==По умолчанию `0`.==
+    * `PedBudget` позволяет изменять бюджет педов. Этот параметр берется из встроенного [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Изменяйте этот параметр только тогда, когда у вас не появляются ==По умолчанию эта опция скрыта.==
 
-[:material-page-first:Previous page <br>What's in this section</br>](index.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Что находится в этом разделе?</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
