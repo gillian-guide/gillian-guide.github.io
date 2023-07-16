@@ -34,19 +34,24 @@ The classic multiplayer method, the one that started it all. And the one that is
     We now have several ways to activate the game.
     === "Buying another GFWL game"
         Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted (except for taxes if you're American). I recommend `FlatOut: Ultimate Carnage`:
+
         <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
+
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"
         This one is pretty self-explanatory - just go around online and look for random GFWL keys - they have multiple uses, so you might get lucky. These two Discord servers might help you:
+
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Games For Windows Live Hub](https://discord.gg/d97u73k2TV){ .md-button .md-button--primary }
     === "RevIVal's community method"
         This Discord server is also one of the servers where you can find people to play multiplayer with. The channel with the activation method is #gfwl-keys (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
+
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 ???+ tip "Joining/Creating Lobbies"
     Either use the in-game phone's Multiplayer option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
     
     If you're looking for people to play with, visit this Discord server:
+    
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
