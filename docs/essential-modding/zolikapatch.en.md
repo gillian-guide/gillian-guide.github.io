@@ -1,5 +1,3 @@
-search:
-  boost: 3
 title: ZolikaPatch
 description: One of the must-have mods for your GTA IV install
 

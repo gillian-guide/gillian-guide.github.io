@@ -1,5 +1,3 @@
-search:
-  boost: 3
 title: Shader Fixes
 description: One of the must-have mods for your GTA IV install
 

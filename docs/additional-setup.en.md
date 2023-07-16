@@ -1,5 +1,3 @@
-search:
-  boost: 2
 title: Additional Setup
 description: Additional setup for your GTA IV installation - after performing the optimization or the drag-and-drop archive
 

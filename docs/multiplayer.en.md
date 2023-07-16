@@ -1,5 +1,3 @@
-search:
-  boost: 2
 title: Multiplayer
 description: Experience GTA IV Multiplayer!
 
