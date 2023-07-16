@@ -14,7 +14,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     [FusionFix](essential-modding/fusionfix.md) already includes this tool.
 
 ???+ note "Installation"
-    * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.
+    * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) { target="_blank" } page.
     * Download :material-zip-box:`Ultimate-ASI-Loader.zip`.
     ??? question "Why not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`? My system is 64-bit"
         Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
