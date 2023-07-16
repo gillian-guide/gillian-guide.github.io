@@ -9,7 +9,7 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
 
 ## Installation
 - Instructions:
-    * Get the latest [Ultimate ASI Loader](../../ultimate-asi-loader.md).
+    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
     * Scroll to the bottom of the page and download the latest version.
     * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` to your game folder.
