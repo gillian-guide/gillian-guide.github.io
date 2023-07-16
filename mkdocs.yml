@@ -12,6 +12,7 @@ plugins:
           name: Русский
   - glightbox
   - social
+  - search
         
 theme:
   name: material
