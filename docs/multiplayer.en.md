@@ -1,3 +1,5 @@
+search:
+  boost: 2
 title: Multiplayer
 description: Experience GTA IV Multiplayer!
 
@@ -35,7 +37,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     === "Buying another GFWL game"
         Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted (except for taxes if you're American). I recommend `FlatOut: Ultimate Carnage`:
 
-        <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
+        <iframe allowtransparency="true" style="background: transparent;" src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"

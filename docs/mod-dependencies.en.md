@@ -1,3 +1,5 @@
+search:
+  boost: 2
 title: Mod Dependencies
 description: How to set up mod dependencies for your GTA IV install
 

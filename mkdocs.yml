@@ -10,10 +10,7 @@ plugins:
           name: English
         ru:
           name: Русский
-  - search:
-      lang: 
-        - en
-        - ru
+  - search
   - glightbox
   - social
         
@@ -45,6 +42,8 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.annotate 
+    - search.share
+
 
 
 markdown_extensions:

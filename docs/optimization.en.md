@@ -1,3 +1,5 @@
+search:
+  boost: 2
 title: Optimization
 description: Methods to optimize your GTA IV install
 
