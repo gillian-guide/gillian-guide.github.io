@@ -40,6 +40,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
                         * :material-file:`WeaponInfo.xml`
                     * :material-folder:==TLADImprovedAnimations==\
                         * :material-file:`TLADAnims.img`
+                        * :material-file:`WeaponInfo.xml`
                     * :material-folder:==TBoGTImprovedAnimations==\
                         * :material-file:`TBoGTAnims.img`
                             
