@@ -10,7 +10,7 @@ plugins:
           name: English
         ru:
           name: Русский
-  - search
+  - search:
     lang:
       - en
       - ru
