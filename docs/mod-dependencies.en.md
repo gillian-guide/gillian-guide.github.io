@@ -58,7 +58,7 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
 
 ## IV-SDK .NET
 !!! warning ""
-    Only compatible with 1.0.8.0 and 1.0.7.0.
+    Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](downgrading.md) if using the Complete Edition.
 This tool is used to run scripts written in any .NET language. Not to be confused with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or for [ScriptHook](#scripthook).
 
 ???+ note "Installation"

@@ -91,7 +91,8 @@ nav:
     - "essential-modding/shader-fixes.md"
   - "multiplayer.md"
   - Extras:
-    - "trainers.md"
+    - "extras/index.md"
+    - "extras/trainers.md"
   - "contact-me.md"
   - "credits.md"
 

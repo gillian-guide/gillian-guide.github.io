@@ -72,10 +72,15 @@ The classic multiplayer method, the one that started it all. And the one that is
     If you're looking for people to play with, visit this Discord server:
 
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
-    
+???+ warning "Port Forwarding"
+    If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you may be having problems with automatic port forwarding (UPnP). Set up port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
+    TCP: `3074`, `80`, `53`;
+    UDP: `3074`, `88`, `53`.
+
+    If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0.
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
 This is not as faithful as the original multiplayer, but it is currently one of the best ways to experience GTA IV multiplayer without messing with GFWL.
 ### Usage
 ???+ info "Installation"
@@ -108,4 +113,4 @@ This client also aims to provide a highly flexible multiplayer experience, simil
 
 [:material-web: Liberty City Online's website](https://lc-online.net/){ .md-button .md-button--primary }
 
-[:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Extras</br>](extras/index.md){ .md-button .md-button--primary }

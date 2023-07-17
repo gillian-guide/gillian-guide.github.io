@@ -20,7 +20,7 @@ While they are different in some ways, you can still use both if you're running 
 
 ## IV Tweaker
 !!! warning ""
-    Supports 1.0.8.0 and 1.0.7.0 only.
+    Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](downgrading.md) if using the Complete Edition.
 This modloader is superior to UAL's in many ways - especially the ability to merge different files and having a simple .ini file for configuration. It also allows to increase limits for various things - like VehicleBudget to avoid the taxi bug.
 ???+ note "Installation"
     * Go to the bottom of the [page](https://zolika1351.pages.dev/mods/ivtweaker) and download the archive.
