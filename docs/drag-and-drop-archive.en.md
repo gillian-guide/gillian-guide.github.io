@@ -2,10 +2,10 @@ title: Drag-and-Drop Archive
 description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version
 
 
-# Drag-and-Drop Archive
+# Drag-and-Drop Archive { data-search-exclude }
 You can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). However, the modlist for this pack alone is mostly the same - you can see and compare it [below](#modlist). You'll mainly be lacking [ZolikaPatch](essential-modding/zolikapatch.md) and Liberty Tweaks.
 
-### Notes
+### Notes { data-search-exclude }
 !!! info ""
 	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). The amount of supported mods is also much more limited in this version - most mods are built for 1.0.8.0 and 1.0.7.0.
 	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. This version is better for mod compatibility.
@@ -13,7 +13,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 !!! warning ""
 	A potential new huge update is coming soon.
 
-## Installation
+## Installation { data-search-exclude }
 
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
@@ -52,7 +52,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	??? warning "My game is behaving strangely/my game is crashing randomly"
 		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==. [Let me know if you find the problem.](contact-me.md)
 
-## Modlist
+## Modlist { data-search-exclude }
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
@@ -99,7 +99,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Higher resolution specular maps for weapons. |
 
-## Additional Mods
+## Additional Mods { data-search-exclude }
 These mods are not included by default, but do not require any additional steps to install over the archive
 === "1.0.8.0"
 	| Mod name | Details |
@@ -117,7 +117,7 @@ These mods are not included by default, but do not require any additional steps 
 	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Brings back removed tracks - which were deleted in 2018 due to licensing issues - to the game.<br>Installation: unzip the archive into the folder with the game, open :fontawesome-solid-gears:`install.bat`, then after the console closes itself - extract the :material-folder:==update== from the desired version of vladivostok (:material-folder:==with new vladivostok== and :material-folder:==without new vladivostok== - without will not have new tracks that appeared after the cut)</br> |
 	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: in the :material-folder:==update/pc/textures==, replace :material-file:`360_buttons.wtd`.</br> |
 
-## Changelog
+## Changelog { data-search-exclude }
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
 		* 15.07.2023 - Added Liberty Tweaks.
