@@ -7,6 +7,9 @@ Welcome to Gillian's Grand Theft Auto IV Modding Guide.
 
 This is a centralized, all-in-one guide. It includes steps for [optimizing](optimization.md), [tweaking](additional-setup.md), [fixing, improving](essential-modding/index.md) the game, [experiencing multiplayer](multiplayer.md) and [more](extras/index.md)!
 
+!!! warning ""
+    This guide is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves. 
+
 ## Prerequisites
 !!! warning ""
     - In order for this guide to be useful to you, please make sure that the following requirements are met:
