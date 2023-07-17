@@ -2,7 +2,7 @@ title: Trainers
 description: Add extra features to your GTA IV experience - for whatever reason you may need them!
 
 # Trainers
-Trainers are essentially modmenus that add a lot of fun and useful options. You may want one for [multiplayer](../multiplayer.md), however make sure your server allows them.
+Trainers are essentially modmenus that add a lot of fun and useful options. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them.
 ## ZMenuIV
 !!! warning "Compatibility"
     This trainer is not compatible with the Complete Edition. [Downgrade](../downgrading.md) if using the Complete Edition.
@@ -34,7 +34,7 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
     
     Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
     ??? tip "Setting up Numpad-less keybinds"
-        Not everyone has a Numpad, I get it, 80%(and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
+        Not everyone has a Numpad, I get it, 80% (and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
 
         ```{ .ini }
         [Keybinds]
@@ -76,8 +76,7 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
 
 ## Liberty's Legacy
 !!! warning "Compatibility"
-    This trainer is compatible with both retail patches and the Complete Edition.
-This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing on the Complete Edition.
+    This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing with the Complete Edition.
 ???+ info "Installation"
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
     * Go to the [GTAForums page](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
@@ -88,6 +87,6 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
         * ++f11++ or RB+X/R1+Square to toggle menu.
         * Arrow keys or D-Pad for navigation. ++enter++ or A/X to accept, ++backspace++ or B/Circle to go back.
     
-    Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
+    Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to bind.
 
 [:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }
