@@ -61,7 +61,7 @@ This downgrader is online-based and only downloads what you choose to download. 
 !!! note ""
     This downgrader can be used on both Complete Edition and downgraded versions. Read notes below.
 
-    This downgrader is already a part of [ItsClockAndre's Downgrader](#itsclockandres-downgrader) if you didn't skip radio downgrader - you can skip this part in that case.
+    This downgrader is already a part of [ItsClockAndre's Downgrader](#itsclockandres-downgrader) if you didn't skip the radio downgrading stage - you can skip this part in that case.
 Over 50 radio station tracks were removed from the game in April 2018 due to expired licenses. We can restore them, however.
 ???+ note "Installation"
     * Get latest [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) for the modloader (also get latest [ZolikaPatch](essential-modding/zolikapatch.md) if you're using downgraded copies; we can get around this, read the note later)

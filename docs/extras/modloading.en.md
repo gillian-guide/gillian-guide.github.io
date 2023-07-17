@@ -20,7 +20,7 @@ While they are different in some ways, you can still use both if you're running 
 
 ## IV Tweaker
 !!! warning ""
-    Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](downgrading.md) if using the Complete Edition.
+    Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](../downgrading.md) if using the Complete Edition.
 This modloader is superior to UAL's in many ways - especially the ability to merge different files and having a simple .ini file for configuration. It also allows to increase limits for various things - like VehicleBudget to avoid the taxi bug.
 ???+ note "Installation"
     * Go to the bottom of the [page](https://zolika1351.pages.dev/mods/ivtweaker) and download the archive.
@@ -76,11 +76,11 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 
 ## Ultimate ASI Loader
 !!! warning ""
-    See [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) for installation.
+    See [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) for installation.
 
     Supports the Complete Edition.
     
-    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](essential-modding/zolikapatch.md).
+    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](../essential-modding/zolikapatch.md).
 This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
 
 ???+ info "Usage"
@@ -110,6 +110,6 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
                                 * :material-file:`WeaponInfo.xml`
 
     ??? "Configuring the modloader"
-        Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](contact-me.md) if you know a way to.
+        Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](../contact-me.md) if you know a way to.
 
-[:material-page-first:Previous page <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>OpenIV</br>](openiv.md){ .md-button } [Next page:material-page-last: <br>Mods</br>](mods.md){ .md-button .md-button--primary }
