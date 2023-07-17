@@ -16,8 +16,10 @@ The classic multiplayer method, the one that started it all. And the one that is
 
 
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
-    * Download latest [GFWL Redistributable](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
+    * Download latest [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
     * Install :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` and :material-file-download:`xliveredist.msi`.
+    !!! note "What's the Marketplace?"
+        While you do get the Marketplace, don't bother opening it or trying to make it work. Marketplace is not functional, but still must be installed for GFWL itself to work.
 ???+ info "Signing in"
     !!! warning ""
         This is using the same account as your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account. Create one if you don't already have one.
@@ -26,14 +28,15 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
     * Open the game.
-    * Press the ++home++ key on your keyboard. You'll be met with the sign in screen.
+    * Press the ++home++ key on your keyboard. You'll be met with the startup screen - press `Use Existing LIVE Profile` to get the sign in screen.
+    * Disable the `Save my e-mail address` and `Save my e-mail address and password` toggles.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
     * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. Don't think it's stuck - it's not.
     * See the next part for activation.
 ???+ tip "Activation"
     We now have several ways to activate the game.
     === "Buying another GFWL game"
-        Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted (except for taxes if you're American). I recommend `FlatOut: Ultimate Carnage`:
+        Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted. I recommend `FlatOut: Ultimate Carnage`, but any other GFWL game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) will do.
 
         <iframe style="background: transparent; background-color: transparent;" allowtransparency="true" src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
 
@@ -48,7 +51,7 @@ The classic multiplayer method, the one that started it all. And the one that is
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 ???+ tip "Joining/Creating Lobbies"
-    Either use the in-game phone's Multiplayer option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+    Either use the in-game phone's Multiplayer - LIVE option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
     
     If you're looking for people to play with, visit this Discord server:
 

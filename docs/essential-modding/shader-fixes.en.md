@@ -37,7 +37,7 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
 
 === "Part of IV Tweaker"
     !!! warning ""
-        This is not reccomended due to potential incompatibility issues. Use the UAL's modloader method or [latest FusionFix port](fusionfix.md) instead.
+        This is not recommended due to potential incompatibility issues. Use the UAL's modloader method or [latest FusionFix port](fusionfix.md) instead.
     - Instructions:
         * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
         * Download the latest version.
