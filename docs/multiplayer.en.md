@@ -18,7 +18,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
     * Download latest [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
     * Install :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` and :material-file-download:`xliveredist.msi`.
-    !!! note "What's the Marketplace?"
+    !!! question "What's the Marketplace?"
         While you do get the Marketplace, don't bother opening it or trying to make it work. Marketplace is not functional, but still must be installed for GFWL itself to work.
 ???+ info "Signing in"
     !!! warning ""
@@ -28,8 +28,9 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
     * Open the game.
-    * Press the ++home++ key on your keyboard. You'll be met with the startup screen - press `Use Existing LIVE Profile` to get the sign in screen.
-    * Disable the `Save my e-mail address` and `Save my e-mail address and password` toggles.
+    * Press the ++home++ key on your keyboard. You'll be met with the startup screen.
+    * Press `Use Existing LIVE Profile` to get the sign in screen.
+    * Check the `Save my e-mail address` and `Save my e-mail address and password` checkmarks off.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
     * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. Don't think it's stuck - it's not.
     * See the next part for activation.
