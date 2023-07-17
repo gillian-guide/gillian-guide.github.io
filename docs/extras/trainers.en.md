@@ -2,7 +2,7 @@ title: Trainers
 description: Add extra features to your GTA IV experience - for whatever reason you may need them!
 
 # Trainers
-Trainers are essentially modmenus that add a lot of fun and useful options. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them.
+Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them.
 ## ZMenuIV
 !!! warning "Compatibility"
     This trainer is not compatible with the Complete Edition. [Downgrade](../downgrading.md) if using the Complete Edition.
