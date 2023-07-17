@@ -28,7 +28,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     * Open the game.
     * Press the ++home++ key on your keyboard. You'll be met with the sign in screen.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
-    * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. Don't think it's stuck - it's not.
+    * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
     * See the next part for activation.
 ???+ tip "Activation"
     We now have several ways to activate the game.
@@ -48,7 +48,11 @@ The classic multiplayer method, the one that started it all. And the one that is
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 ???+ tip "Joining/Creating Lobbies"
-    Either use the in-game phone's Multiplayer option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+    Either use the in-game phone's Multiplayer - LIVE option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+    - Explanations of menu options:
+        * ==Player Match== allows to join an existing lobby of a *specific* gamemode.
+        * ==Custom Match== allows to find an existing lobby of *any* gamemode.
+        * ==Create Match== allows to create a lobby yourself.
     
     If you're looking for people to play with, visit this Discord server:
 
