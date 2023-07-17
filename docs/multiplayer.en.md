@@ -12,7 +12,7 @@ The classic multiplayer method, the one that started it all. And the one that is
 ### Usage
 ???+ info "Installation"
     !!! note ""
-        This step is already taken care of by [ItsClockAndre's downgrader](../downgrading/#) if you chose to configure the install for GFWL. Skip it if you did.
+        This step is already taken care of by [ItsClockAndre's downgrader](../downgrading/#itsclockandres-downgrader) if you chose to configure the install for GFWL. Skip it if you did.
 
 
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
@@ -30,7 +30,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     * Open the game.
     * Press the ++home++ key on your keyboard. You'll be met with the startup screen.
     * Press `Use Existing LIVE Profile` to get the sign in screen.
-    * Check the `Save my e-mail address` and `Save my e-mail address and password` checkmarks off.
+    * Uncheck the `Save my e-mail address` and `Save my e-mail address and password` checkmarks.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
     * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. Don't think it's stuck - it's not.
     * See the next part for activation.
