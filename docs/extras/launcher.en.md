@@ -8,7 +8,7 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 
 ## Installation
 - Instructions:
-    * Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/)
+    * Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
     * Download latest version. Read the notes on the page.
     * Extract :material-zip-box:`GTAIVLauncher_vx.x.zip` into any folder of choice.
     * Open :material-file:`GTAIVLauncher.exe` with :fontawesome-solid-shield-halved:==admin rights==

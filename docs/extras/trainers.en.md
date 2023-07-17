@@ -76,7 +76,7 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
 
 ## Liberty's Legacy
 !!! warning "Compatibility"
-    This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0
+    This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
 This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing with the Complete Edition.
 ???+ info "Installation"
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
