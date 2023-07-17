@@ -8,7 +8,7 @@ GTA IV had an amazing multiplayer... and it still does! At least for people who 
 
     It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](../downgrading/#itsclockandres-downgrader) already takes care of that if you chose to configure your install for GFWL.
 
-    Make sure to have `RecoilFix` set to `0` in both :material-file:cog`GTAIV.EFLC.FusionFix.ini` and :material-file-cog:`ZolikaPatch.ini` to avoid being at disadvantage with other players.
+    Make sure to have `RecoilFix` set to `0` in both :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and :material-file-cog:`ZolikaPatch.ini` to avoid being at disadvantage with other players.
 
     Use [JacksIVFixes](https://drive.google.com/file/d/1-qTmg28S6lHNI2qoYtCwdECOMb4hh9f2/view?usp=sharing) to stop the game from registering input when minimized.
 

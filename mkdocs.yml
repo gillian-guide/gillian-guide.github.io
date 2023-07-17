@@ -83,7 +83,6 @@ nav:
   - "additional-setup.md"
   - "downgrading.md"
   - "mod-dependencies.md"
-  - "modloading.md"
   - Essential Modding:
     - "essential-modding/index.md"
     - "essential-modding/fusionfix.md"
