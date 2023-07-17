@@ -48,7 +48,7 @@ theme:
 
 markdown_extensions:
   - toc:
-      permalink: "Link"
+      permalink: "#"
   - md_in_html
   - admonition
   - tables
