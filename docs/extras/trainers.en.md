@@ -31,6 +31,7 @@ This is the most powerful and full-fledged modmenu for GTA IV. Also includes a C
         * ++minus++ for Resurrect.
         * ++single-quote++ for Forward Through Door.
         * ++m++ for Ragdoll.
+    
     Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
 ## Liberty's Legacy
 !!! warning "Compatibility"
@@ -45,6 +46,7 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
     - The default controls are: 
         * ++f11++ or RB+X/R1+Square to toggle menu.
         * Arrow keys or D-Pad for navigation. ++enter++ or A/X to accept, ++backspace++ or B/Circle to go back.
-   Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
+    
+    Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
 
 [:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }

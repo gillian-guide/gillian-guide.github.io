@@ -74,8 +74,8 @@ The classic multiplayer method, the one that started it all. And the one that is
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
 ???+ warning "Port Forwarding"
     If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you may be having problems with automatic port forwarding (UPnP). Set up port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
-    TCP: `3074`, `80`, `53`;
-    UDP: `3074`, `88`, `53`.
+    * TCP: `3074`, `80`, `53`;
+    * UDP: `3074`, `88`, `53`.
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 ## Grand Theft Auto Connected
