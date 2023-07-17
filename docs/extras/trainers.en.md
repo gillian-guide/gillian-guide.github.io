@@ -93,6 +93,7 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
 ## Simple Native Trainer
 !!! warning "Compatibility"
     This trainer is compatible with all patches.
+This trainer is less robust than the other two, but.. some people would want it, I guess.
 ???+ info "Installation"
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
     * Go to the [GTAForums page](https://gtaforums.com/topic/392973-ivrel-simple-trainer-for-gtaiv/).
