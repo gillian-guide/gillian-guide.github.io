@@ -6,7 +6,7 @@ Trainers are essentially modmenus that add a lot of fun and useful options. You 
 ## ZMenuIV
 !!! warning "Compatibility"
     This trainer is not compatible with the Complete Edition. [Downgrade](downgrading.md) if using the Complete Edition.
-This is the most powerful and full-fledged modmenu for GTA IV. Also includes a Chaos mod for streamers.
+The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod for streamers and fun. And... Goldsrc physics...? Bhopping is fun, I guess.
 ???+ info "Installation"
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
@@ -31,7 +31,49 @@ This is the most powerful and full-fledged modmenu for GTA IV. Also includes a C
         * ++minus++ for Resurrect.
         * ++single-quote++ for Forward Through Door.
         * ++m++ for Ragdoll.
+    
     Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
+    ??? tip "Setting up Numpad-less keybinds"
+        Not everyone has a Numpad, I get it, 80%(and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
+
+        ```{ .ini }
+        [Keybinds]
+        AirbreakUp=87
+        AirbreakDn=83
+        AirbreakForward=104
+        AirbreakBack=98
+        AirbreakLeft=100
+        AirbreakRight=102
+        MenuUp=104
+        MenuDn=98
+        MenuLeft=100
+        MenuRight=102
+        MenuEnter=101
+        MenuBack=96
+        ```
+
+        and change them to:
+
+        ```{ .ini }
+        [Keybinds]
+        AirbreakUp=69
+        AirbreakDn=81
+        AirbreakForward=87
+        AirbreakBack=83
+        AirbreakLeft=65
+        AirbreakRight=68
+        MenuUp=38
+        MenuDn=40
+        MenuLeft=37
+        MenuRight=39
+        MenuEnter=13
+        MenuBack=8
+        ```
+
+        - Which will be:
+            * Arrow keys for navigation. ++enter++ to accept, ++backspace++ to go back.
+            * ++w++++a++++s++++d++ for horizontal airbreak control, ++q++ and ++e++ for vertical.
+
 ## Liberty's Legacy
 !!! warning "Compatibility"
     This trainer is compatible with both retail patches and the Complete Edition.
@@ -45,6 +87,7 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
     - The default controls are: 
         * ++f11++ or RB+X/R1+Square to toggle menu.
         * Arrow keys or D-Pad for navigation. ++enter++ or A/X to accept, ++backspace++ or B/Circle to go back.
-   Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
+    
+    Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
 
 [:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }

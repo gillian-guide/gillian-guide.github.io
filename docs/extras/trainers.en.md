@@ -6,7 +6,7 @@ Trainers are essentially modmenus that add a lot of fun and useful options. You 
 ## ZMenuIV
 !!! warning "Compatibility"
     This trainer is not compatible with the Complete Edition. [Downgrade](downgrading.md) if using the Complete Edition.
-This is the most powerful and full-fledged modmenu for GTA IV. Also includes a Chaos mod for streamers.
+The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod for streamers and fun. And... Goldsrc physics...? Bhopping is fun, I guess.
 ???+ info "Installation"
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
