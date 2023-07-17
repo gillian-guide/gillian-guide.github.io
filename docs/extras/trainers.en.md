@@ -33,6 +33,47 @@ This is the most powerful and full-fledged modmenu for GTA IV. Also includes a C
         * ++m++ for Ragdoll.
     
     Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
+    ??? tip "Setting up Numpad-less keybinds"
+        Not everyone has a Numpad, I get it, 80%(and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
+
+        ```{ .ini }
+        [Keybinds]
+        AirbreakUp=87
+        AirbreakDn=83
+        AirbreakForward=104
+        AirbreakBack=98
+        AirbreakLeft=100
+        AirbreakRight=102
+        MenuUp=104
+        MenuDn=98
+        MenuLeft=100
+        MenuRight=102
+        MenuEnter=101
+        MenuBack=96
+        ```
+
+        and change them to:
+
+        ```{ .ini }
+        [Keybinds]
+        AirbreakUp=81
+        AirbreakDn=69
+        AirbreakForward=87
+        AirbreakBack=83
+        AirbreakLeft=65
+        AirbreakRight=68
+        MenuUp=38
+        MenuDn=40
+        MenuLeft=37
+        MenuRight=39
+        MenuEnter=13
+        MenuBack=8
+        ```
+
+        Which will be:
+            * Arrow keys for navigation. ++enter++ to accept, ++backspace++ to go back.
+            * ++w++++a++++s++++d++ for horizontal airbreak control, ++q++ and ++e++ for vertical.
+
 ## Liberty's Legacy
 !!! warning "Compatibility"
     This trainer is compatible with both retail patches and the Complete Edition.
