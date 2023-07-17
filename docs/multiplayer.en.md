@@ -2,8 +2,10 @@ title: Multiplayer
 description: Experience GTA IV Multiplayer!
 
 # Multiplayer
-GTA IV had an amazing multiplayer... and it still does! ==At least for people who [downgrade](downgrading.md)==, as Rockstar Games has removed the multiplayer from the Complete Edition. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
+GTA IV had an amazing multiplayer... and it still does! At least for people who [downgrade](downgrading.md), as Rockstar Games has removed the multiplayer from the Complete Edition. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
 !!! warning ""
+    Current multiplayer methods require [downgrading](downgrading.md).
+
     It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience.
 
     Additionally, you may want to have [ZMenuIV](../extras/trainers/#ZMenuIV) for the ability to create and participate in custom gamemodes.
@@ -93,5 +95,17 @@ This is not as faithful as the original multiplayer, but it is currently one of 
     * Extract the `GTAC-Server-Winxx-x.x.x.zip` to a folder of your choice.
     * Configure the :material-file-cog:`server.xml` as needed. Use [this page](https://wiki.gtaconnected.com/ServerConfiguration) for instructions.
     * Run :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
+
+## Upcoming clients
+These clients are currently in development and are not available for play yet. They'll receive their own full-fledged sections when they're freely available for play. Support their development if you can!
+### HappinessMP
+This client aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. It will require the Complete Edition and rely on Social Club to function.
+
+[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt) { .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/) { .md-button .md-button--primary }
+
+### Liberty City Online
+This client also aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. However, it will require the 1.0.8.0 and 1.0.7.0 patches instead.
+
+[:material-web: Liberty City Online's website](https://lc-online.net/) { .md-button .md-button--primary }
 
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }

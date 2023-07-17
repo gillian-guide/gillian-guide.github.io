@@ -1,6 +1,6 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
-copyright: Copyright &copy; 2023 Gillian. This guide is not affiliated with Rockstar Games or Take-Two Interactive.
+copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North and Take-Two Interactive.
 
 plugins:
   - i18n:
@@ -90,6 +90,8 @@ nav:
     - "essential-modding/zolikapatch.md"
     - "essential-modding/shader-fixes.md"
   - "multiplayer.md"
+  - Extras:
+    - "trainers.md"
   - "contact-me.md"
   - "credits.md"
 
