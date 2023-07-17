@@ -74,22 +74,24 @@ The classic multiplayer method, the one that started it all. And the one that is
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.7.0 and 1.0.8.0.
-This is not as faithful as the original multiplayer, but currently one of the best options to experience GTA IV Multiplayer without messing with GFWL.
+This is not as faithful as the original multiplayer, but it is currently one of the best ways to experience GTA IV multiplayer without messing with GFWL.
 ### Usage
 ???+ info "Installation"
     * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
-    * Download latest client version.
-    * Install the :material-file-download:`GTAC-x.x.x.exe` in :material-zip-box:`GTAC-x.x.x.zip`.
+    * Download the latest ==client==.
+    * Install the :material-file-download:`GTAC-x.x.x.exe` in the :material-zip-box:`GTAC-x.x.x.zip`.
 ???+ tip "Configuration"
     * Set the `Game` box to `Grand Theft Auto IV`.
-    * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as desired.
-    * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as desired.
+    * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as you wish.
+    * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as you wish.
 ???+ tip "Joining servers"
-    After you've set up the settings, it's as easy as double clicking on any server you want in the list. You'll be presented with the game's main menu - just hit Play.
-???+ tip "Setting up a server"
+    Once you're done with the configuration, it's as simple as double-clicking on any server in the list. You'll be presented with the game's main menu - just hit Play.
+??? tip "Setting up a server"
+    !!! warning ""
+        Only do any of this if you're experienced with hosting servers.
     * Download the server from the [GTA Connected](https://gtaconnected.com/downloads/) website.
-    * Extract the `GTAC-Server-Winxx-x.x.x.zip` into any folder.
+    * Extract the `GTAC-Server-Winxx-x.x.x.zip` to a folder of your choice.
     * Configure the :material-file-cog:`server.xml` as needed. Use [this page](https://wiki.gtaconnected.com/ServerConfiguration) for instructions.
-    * Launch :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
+    * Run :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
 
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
