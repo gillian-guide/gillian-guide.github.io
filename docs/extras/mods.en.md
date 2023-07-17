@@ -21,7 +21,6 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Liberty Rush](https://gtaforums.com/topic/979688-liberty-rush/) | Internet Rob, ItsClockAndre, donnits, Datalvarezguy | Adds dozens of improvements, restored content, new traffic scenarios etc. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) | iiCriminnaaL | This mod overhauls the gameplay, as well as making it harder. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 
 ## List of mods (smaller-scale)
