@@ -1,6 +1,6 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
-copyright: Copyright &copy; 2023 Gillian
+copyright: Copyright &copy; 2023 Gillian. This guide is not affiliated with Rockstar Games or Take-Two Interactive.
 
 plugins:
   - i18n:
@@ -38,7 +38,6 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
-    - navigation.tracking
     - navigation.indexes
     - navigation.top
     - content.tabs.link
@@ -49,7 +48,7 @@ theme:
 
 markdown_extensions:
   - toc:
-      permalink: "#"
+      permalink: "Link"
   - md_in_html
   - admonition
   - tables

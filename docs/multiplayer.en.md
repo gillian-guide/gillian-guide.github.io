@@ -86,5 +86,10 @@ This is not as faithful as the original multiplayer, but currently one of the be
     * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as desired.
 ???+ tip "Joining servers"
     After you've set up the settings, it's as easy as double clicking on any server you want in the list. You'll be presented with the game's main menu - just hit Play.
+???+ tip "Setting up a server"
+    * Download the server from the [GTA Connected](https://gtaconnected.com/downloads/) website.
+    * Extract the `GTAC-Server-Winxx-x.x.x.zip` into any folder.
+    * Configure the :material-file-cog:`server.xml` as needed. Use [this page](https://wiki.gtaconnected.com/ServerConfiguration) for instructions.
+    * Launch :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
 
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
