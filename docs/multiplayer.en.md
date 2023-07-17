@@ -101,11 +101,11 @@ These clients are currently in development and are not available for play yet. T
 ### HappinessMP
 This client aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. It will require the Complete Edition and rely on Social Club to function.
 
-[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt) { .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/) { .md-button .md-button--primary }
+[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary }
 
 ### Liberty City Online
 This client also aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. However, it will require the 1.0.8.0 and 1.0.7.0 patches instead.
 
-[:material-web: Liberty City Online's website](https://lc-online.net/) { .md-button .md-button--primary }
+[:material-web: Liberty City Online's website](https://lc-online.net/){ .md-button .md-button--primary }
 
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
