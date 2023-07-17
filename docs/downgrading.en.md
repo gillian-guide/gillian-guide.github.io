@@ -3,7 +3,7 @@ description: Methods for downgrading your GTA IV installation from the Complete 
 
 
 # Downgrading
-You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and [IV Tweaker](../modloading/#iv-tweaker). 
+You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and [IV Tweaker](../extras/modloading/#iv-tweaker). 
 
 However, we have several downgraders to choose from.
 
@@ -32,7 +32,7 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
     | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 
 ## Zolika1351's Downgrader
-This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](essential-modding/zolikapatch.md).md and [IV Tweaker](./modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](essential-modding/fusionfix.md). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](essential-modding/zolikapatch.md).md and [IV Tweaker](../extras/modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](essential-modding/fusionfix.md). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ???+ note "Installation"
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
@@ -56,5 +56,23 @@ This downgrader is online-based and only downloads what you choose to download. 
     * If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
     !!! info ""
         If you somehow missed this step, set up [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) to get rid of GFWL.
+
+## Radio Downgrader
+!!! note ""
+    This downgrader can be used on both Complete Edition and downgraded versions. Read notes below.
+
+    This downgrader is already a part of [ItsClockAndre's Downgrader](#itsclockandres-downgrader) if you didn't skip radio downgrader - you can skip this part in that case.
+Over 50 radio station tracks were removed from the game in April 2018 due to expired licenses. We can restore them, however.
+???+ note "Installation"
+    * Get latest [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) for the modloader (also get latest [ZolikaPatch](essential-modding/zolikapatch.md) if you're using downgraded copies; we can get around this, read the note later)
+    * Go to the [Various GTA Downgraders website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
+    * Download the Radio downgrader for GTA IV.
+    * Extract the :material-zip-box:`IVCE_RADIO_DOWNGRADER.rar` into the game folder (excl. :material-folder:`... new vladivostok` folders).
+    * Run :material-file-download:`install.bat` and wait until the console closes itself.
+    * Now extract the contents of either the :material-folder:`with new vladivostok` or :material-folder:`without new vladivostok` into the game folder.
+    ???+ question "What's the difference?"
+        Rockstar added new tracks to Vladivostok to replace the cut ones. :material-folder:`with new vladivostok` keeps these alongside the restored cut ones, while :material-folder:`without new vladivostok` cuts them out, only keeping the restored ones.
+    ??? question "How to get around using Ultimate ASI Loader?"
+        Move the contents of the :material-folder:`update` folder to the game folder, replacing files when prompted.
 
 [:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }

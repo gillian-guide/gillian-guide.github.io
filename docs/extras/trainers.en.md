@@ -90,4 +90,4 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
     
     Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to set.
 
-[:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }

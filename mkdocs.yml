@@ -93,6 +93,10 @@ nav:
   - Extras:
     - "extras/index.md"
     - "extras/trainers.md"
+    - "extras/launcher.md"
+    - "extras/openiv.md"
+    - "extras/modloading.md"
+    - "extras/mods.md"
   - "contact-me.md"
   - "credits.md"
 

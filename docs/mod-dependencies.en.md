@@ -33,7 +33,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
 
 ??? tip "Modloading"
-    This tool can be used for modloading purposes. See [modloading](modloading.md).
+    This tool can be used for modloading purposes. See [modloading](extras/modloading).
 
 ## ScriptHook
 !!! info ""
@@ -78,4 +78,4 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
 
     Extract the mod into :material-folder:==IVSDKDotNot\scripts==.
 
-[:material-page-first:Previous page <br>Downgrading</br>](downgrading.md){ .md-button } [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Downgrading</br>](downgrading.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }
