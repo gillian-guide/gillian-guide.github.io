@@ -6,7 +6,9 @@ GTA IV had an amazing multiplayer... and it still does! At least for people who 
 !!! warning ""
     Current multiplayer methods require [downgrading](downgrading.md).
 
-    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience.
+    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](../downgrading/#itsclockandres-downgrader) already takes care of that if you chose to configure your install for GFWL.
+
+    Use [JacksIVFixes](https://drive.google.com/file/d/1-qTmg28S6lHNI2qoYtCwdECOMb4hh9f2/view?usp=sharing) to stop the game from registering input when minimized.
 
     Additionally, you may want to have [ZMenuIV](../extras/trainers/#ZMenuIV) for the ability to create and participate in custom gamemodes.
 
@@ -39,7 +41,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
     * Open the game.
     * Press the ++home++ key on your keyboard. You'll be met with the startup screen.
-    * Press `Use Existing LIVE Profile` to get the sign in screen.
+    * Click `Use Existing LIVE Profile` to get the sign in screen.
     * Uncheck the `Save my e-mail address` and `Save my e-mail address and password` checkmarks.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
     * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
@@ -75,8 +77,8 @@ The classic multiplayer method, the one that started it all. And the one that is
 ???+ warning "Port Forwarding"
     If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you may be having problems with automatic port forwarding (UPnP). Set up port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
 
-    * TCP: `3074`, `80`
-    * UDP: `3074`, `88`
+    * TCP: `3074`, `80`, `88`
+    * UDP: `3074`, `80`, `88`
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 ## Grand Theft Auto Connected
