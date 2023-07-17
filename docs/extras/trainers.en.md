@@ -56,8 +56,8 @@ This is the most powerful and full-fledged modmenu for GTA IV. Also includes a C
 
         ```{ .ini }
         [Keybinds]
-        AirbreakUp=81
-        AirbreakDn=69
+        AirbreakUp=69
+        AirbreakDn=81
         AirbreakForward=87
         AirbreakBack=83
         AirbreakLeft=65
