@@ -11,6 +11,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 
 ## Making mods
 If you're interested in making mods instead, visit this Discord server:
+
 [:simple-discord: GTA IV Modding](https://discord.gg/caKjAAYx){ .md-button .md-button--primary }
 
 [:material-page-first:Previous page <br>OpenIV</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }
