@@ -3,10 +3,18 @@ description: Experience GTA IV Multiplayer!
 
 # Multiplayer
 GTA IV had an amazing multiplayer... and it still does! ==At least for people who [downgrade](downgrading.md)==, as Rockstar Games has removed the multiplayer from the Complete Edition. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
+!!! warning ""
+    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience.
+
+    Additionally, you may want to have [ZMenuIV](../extras/trainers/#ZMenuIV) for the ability to create and participate in custom gamemodes.
+
+    You can also use [this](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
 
 ## Games for Windows - LIVE
 !!! note ""
     This section also includes steps to configure GFWL for non-mulitplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
+!!! warning "Compatibility"
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies.
 The classic multiplayer method, the one that started it all. And the one that is obnoxiously annoying to set up. Most communities stick to it at the moment.
 
 ### Usage
@@ -53,6 +61,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 ???+ tip "Joining/Creating Lobbies"
     Either use the in-game phone's Multiplayer - LIVE option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+
     - Explanations of menu options:
         * ==Player Match== allows to join an existing lobby of a *specific* gamemode.
         * ==Custom Match== allows to find an existing lobby of *any* gamemode.
@@ -62,4 +71,20 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     
+## Grand Theft Auto Connected
+!!! warning "Compatibility"
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0.
+This is not as faithful as the original multiplayer, but currently one of the best options to experience GTA IV Multiplayer without messing with GFWL.
+### Usage
+???+ info "Installation"
+    * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
+    * Download latest client version.
+    * Install the :material-file-download:`GTAC-x.x.x.exe` in :material-zip-box:`GTAC-x.x.x.zip`.
+???+ tip "Configuration"
+    * Set the `Game` box to `Grand Theft Auto IV`.
+    * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as desired.
+    * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as desired.
+???+ tip "Joining servers"
+    After you've set up the settings, it's as easy as double clicking on any server you want in the list. You'll be presented with the game's main menu - just hit Play.
+
 [:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }

@@ -1,4 +1,4 @@
-title: What's in this section?
+title: Essential Modding
 description: Get must-have mods for your GTA IV install
 
 # What's in this section?

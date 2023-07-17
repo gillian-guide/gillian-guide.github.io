@@ -38,15 +38,18 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
     - content.tabs.link
     - content.tooltips
     - content.code.copy
     - content.code.annotate 
     - search.share
 
-
-
 markdown_extensions:
+  - toc:
+      permalink: "#"
   - md_in_html
   - admonition
   - tables
