@@ -70,7 +70,7 @@ This is the most powerful and full-fledged modmenu for GTA IV. Also includes a C
         MenuBack=8
         ```
 
-        Which will be:
+        - Which will be:
             * Arrow keys for navigation. ++enter++ to accept, ++backspace++ to go back.
             * ++w++++a++++s++++d++ for horizontal airbreak control, ++q++ and ++e++ for vertical.
 
