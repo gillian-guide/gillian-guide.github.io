@@ -19,7 +19,7 @@ Currently the only good solution for improving game's performance. Although not 
 It's hard to say, because DXVK's improvement can vary from device to device. But for a rough comparison, you can use my benchmark:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Installation
+### Installation { data-search-exclude }
 === "Latest"
     !!! warning ""
         Use this version if your GPU supports the latest version. See the warning above to make sure.

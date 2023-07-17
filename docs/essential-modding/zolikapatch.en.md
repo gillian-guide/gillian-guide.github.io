@@ -7,7 +7,7 @@ description: One of the must-have mods for your GTA IV install
 
 This mod aims to fix & improve various things in GTA IV, as well as greatly improve the [multiplayer](../../multiplayer) experience. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
-## Installation
+## Installation { data-search-exclude }
 - Instructions:
     * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).

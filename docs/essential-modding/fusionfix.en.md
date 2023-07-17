@@ -6,7 +6,7 @@ description: One of the must-have mods for your GTA IV install
     This mod is only officially supported on the Complete Edition, but thanks to the efforts of Zolika1351, you can also use it with the 1.0.8.0 and 1.0.7.0 patches. Alternatively, you can use the old version, which still supports the 1.0.8.0 and 1.0.7.0 patches.
 This project aims to fix or address some issues in Grand Theft Auto IV. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). It also bundles [Shader Fixes](shader-fixes.md) along with toggles to enable/disable its [FXAA](../../additional-setup/#optimal-game-settings) and [Console-like Gamma](assets/console-gamma.png).
 
-## Installation
+## Installation { data-search-exclude }
 === "1.0.8.0"
     === "Latest version"
         - Instructions:

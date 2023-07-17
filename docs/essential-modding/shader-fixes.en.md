@@ -7,7 +7,7 @@ description: One of the must-have mods for your GTA IV install
 
 This project aims to fix and restore broken and missing shaders on the PC port (everything from [here](https://libertycity-ru.translate.goog/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=pt-BR)). You can read the changelog [here](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
 
-## Installation
+## Installation { data-search-exclude }
 You can either install this mod as a standalone, as a part of [IV Tweaker](../../extras/modloading/#iv-tweaker), a part of [UAL's modloader](../../extras/modloading/#ultimate-asi-loader) or update the files in [FusionFix](fusionfix.md) which already contains this mod.
 
 === "Standalone"
