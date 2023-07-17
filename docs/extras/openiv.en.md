@@ -2,13 +2,14 @@ title: OpenIV
 description: Learn the basics to the powerful tool to mod GTA IV known as OpenIV!
 
 # OpenIV
-OpenIV is a powerful tool to modify, create and extracting internal files. It can be used to create `.img` and `.rpf` files, which might be useful for [modloading](modloading.md) or mod creating. You can also, very rarely, meet mods packaged in `.oiv` - this tool allows to install them too.
+OpenIV is a powerful tool for modifying, creating and extracting internal files. It can be used to create `.img` and `.rpf` files, which can be useful for [modloading](modloading.md) or mod creation. You may also, very rarely, come across mods packaged in `.oiv` - this tool allows you to install them as well.
 
 ## Installation
 - Instructions:
-    * Download the [installer](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/) (official website is down at the moment, this is a safe reupload; don't get scammed by the `.org` and the likes)
+    * Download the [installer](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/) (official website is down at the moment, this is a safe reupload; don't get scammed by the `.org` and the likes).
     * Install OpenIV.
 ## Usage
+- Instructions:
     * Open OpenIV.
     * In the `Grand Theft Auto IV` section, click on `Windows`.
     * If requested, set the directory with the game files.
