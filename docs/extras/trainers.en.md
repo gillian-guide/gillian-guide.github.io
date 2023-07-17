@@ -89,4 +89,15 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
     
     Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to bind.
 
+## Simple Native Trainer
+!!! warning "Compatibility"
+    This trainer is compatible with all patches.
+???+ info "Installation"
+    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
+    * Go to the [GTAForums page](https://gtaforums.com/topic/392973-ivrel-simple-trainer-for-gtaiv/).
+    * Download latest version (it's somewhere in the post:material-trademark:).
+    * Extract :material-file:`trainer.asi`, :material-file-cog:`trainer.ini`, :material-file:`trainertbogt.asi`, :material-file-cog:`trainertbogt.ini`, :material-file:`trainertlad.asi`, :material-file-cog:`trainertlad.ini` from :material-zip-box:`trainervxx.rar` to your game folder.
+???+ tip "Usage"
+    ++f3++ to open the menu, numpad for navigation. Read the :material-file:`readme.doc` or the GTAForums page for instructions and keybinds.
+
 [:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }

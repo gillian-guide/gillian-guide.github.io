@@ -16,6 +16,6 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 ???+ tip "How to launch the launcher with Steam"
     * Move the launcher files to the game folder.
     * Rename :material-file:`PlayGTAIV.exe` to something else.
-    * Rename :materiall-file:`GTAIVLauncher.exe` to `PlayGTAIV.exe` and :material-file-cog:`GTAIVLauncher.exe.config` to `PlayGTAIV.exe.config`.
+    * Rename :material-file:`GTAIVLauncher.exe` to `PlayGTAIV.exe` and :material-file-cog:`GTAIVLauncher.exe.config` to `PlayGTAIV.exe.config`.
 
 [:material-page-first:Previous page <br>Trainers</br>](trainers.md){ .md-button } [Next page:material-page-last: <br>OpenIV</br>](openiv.md){ .md-button .md-button--primary }
