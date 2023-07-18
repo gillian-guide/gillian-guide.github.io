@@ -8,9 +8,9 @@ description: How to set up mod dependencies for your GTA IV install
 This tool is used to load `.asi` mods (one of the most common types of GTA IV mods) into your game. It's multipurpose and can be used for many other games, but we will use it for GTA IV.
 
 !!! warning ""
-    This tool is compatible with all versions.
-
     [FusionFix](essential-modding/fusionfix.md) already includes this tool.
+!!! warning "Compatibility"
+    This tool is compatible with all versions.
 
 ???+ note "Installation"
     * Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) page.
@@ -38,7 +38,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
 ## ScriptHook
 !!! info ""
     Also known as ScriptHookDotNet and aru's ScriptHook.
-!!! warning ""
+!!! warning "Compatibility"
     Compatible with all versions. See notes below.
 This tool is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net). See your mod's requirements to see whether it was built for ScriptHook or [IV-SDK .NET](#iv-sdk-net).
 
@@ -57,7 +57,7 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
     Extract the mod into :material-folder:==scripts==.
 
 ## IV-SDK .NET
-!!! warning ""
+!!! warning "Compatibility"
     Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](downgrading.md) if using the Complete Edition.
 This tool is used to run scripts written in any .NET language. Not to be confused with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or for [ScriptHook](#scripthook).
 
