@@ -33,6 +33,7 @@ The communities of these discord servers helped me a lot with this guide:
 ## Extra Mentions
 * [Kreato](https://github.com/kreatoo) for his help to set up this website - check out his stuff if you like Linux tinkering.
 * [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
+* Yilmaz, MauriceGS, Krooked_ and others from the Grand Theft RevIVal Discord server for providing information for the guide.
 * Rockstar Games and Rockstar North for making the game.
 
 
