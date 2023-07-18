@@ -22,6 +22,9 @@ For their work on [ScriptHook](../mod-dependencies/#scripthook).
 ## const96b
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
+## Multiplayer clients developers
+Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive!
+
 ## Mod Creators
 Their names are already listed next to their contributions in [mods](extras/mods.md), they have done a lot too! I really respect all the modders whose mods I've listed - and if I haven't listed your mod that you think fits in [mods](extras/mods.md), [contact me!](contact-me.md)
 
