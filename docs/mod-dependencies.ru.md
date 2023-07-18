@@ -78,4 +78,4 @@ description: Как установить зависимости для ваше�
 
     Распакуйте мод в :material-folder:==IVSDKDotNot\scripts==.
 
-[:material-page-first:Предыдущая страница <br>Давнгрейд</br>](downgrading.md){ .md-button } [Следующая страница:material-page-last: <br>Важные моды</br>](essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Даунгрейд</br>](downgrading.md){ .md-button } [Следующая страница:material-page-last: <br>Важные моды</br>](essential-modding/index.md){ .md-button .md-button--primary }

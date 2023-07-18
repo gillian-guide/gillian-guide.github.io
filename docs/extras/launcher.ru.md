@@ -7,12 +7,11 @@ Let's say you have an instance for your modded version of GTA IV and an instance
     This launcher is theoretically compatible with the Complete Edition instances, but it's very problematic. You have to start the instance first, then once the Rockstar Games Launcher is open, close the IV launcher and click `Play on Steam`, which will open the launcher again - from there, start the instance again ==without== closing the Rockstar Games Launcher, and that should get you into the game.
 
 ## Installation
-- Instructions:
-    * Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/)
-    * Download latest version. Read the notes on the page.
-    * Extract :material-zip-box:`GTAIVLauncher_vx.x.zip` into any folder of choice.
-    * Open :material-file:`GTAIVLauncher.exe` with :fontawesome-solid-shield-halved:==admin rights==
-    * Follow the in-app instructions to create and configure instances.
+* Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
+* Download latest version. Read the notes on the page.
+* Extract :material-zip-box:`GTAIVLauncher_vx.x.zip` into any folder of choice.
+* Open :material-file:`GTAIVLauncher.exe` with :fontawesome-solid-shield-halved:==admin rights==.
+* Follow the in-app instructions to create and configure instances.
 ???+ tip "How to launch the launcher with Steam"
     * Move the launcher files to the game folder.
     * Rename :material-file:`PlayGTAIV.exe` to something else.

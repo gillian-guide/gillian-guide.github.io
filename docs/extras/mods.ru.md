@@ -8,6 +8,8 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 
     Most mods in the list are oriented towards 1.0.7.0 and 1.0.8.0.
 
+    Avoid using larger-scale and select smaller-scale mods in [multiplayer](../multiplayer.md).
+
 ## List of mods (larger-scale)
 | Mod | Author(s) | Description |
 | :-: | :-------: | :---------: |
@@ -48,17 +50,16 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 ## Workshops
 These workshops might have some mods or tools you may be interested in!
 
-[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button} 
+[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button}  [ItsClockAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button} 
 
-[ItsClockAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button} 
-
-[Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button}
-
-[Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
+[Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 
 ## Making mods
 If you're interested in making mods instead, visit this Discord server:
 
 [:simple-discord: GTA IV Modding](https://discord.gg/caKjAAYx){ .md-button .md-button--primary }
+
+## Want your mod to be listed?
+[Contact me!](../contact-me.md){ .md-button .md-button--primary } 
 
 [:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }

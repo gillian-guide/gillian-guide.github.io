@@ -1,40 +1,43 @@
-title: Trainers
-description: Add extra features to your GTA IV experience - for whatever reason you may need them!
+title: Трейнеры
+description: Добавьте в GTA IV дополнительные функции - неважно для чего!
 
-# Trainers
-Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them.
+# Трейнеры
+Трейнеры - это, по сути, менюшки добавляющие множество интересных и полезных опций. Они также являются лучшей альтернативой очень ограниченному количеству [читкодов](https://gta.fandom.com/wiki/Cheats_in_GTA_IV), предлагаемых игрой. Вам может понадобиться один из них для [мультиплеера](../multiplayer.md), но убедитесь, что ваш сервер разрешает их использование.
+
 ## ZMenuIV
-!!! warning "Compatibility"
-    This trainer is not compatible with the Complete Edition. [Downgrade](../downgrading.md) if using the Complete Edition.
-The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod for streamers and fun. And... Goldsrc physics...? Bhopping is fun, I guess.
-???+ info "Installation"
-    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
-    * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
-    * Scroll to the bottom of the page and download the latest version.
-    * Extract :material-zip-box:`ZMenuIV_vx.zip` into the game folder (excl. folders :material-folder:`asi loader if not using xliveless`, :material-folder:`for developers`, :material-folder:`old version (has VR support)`, :material-folder:`parachute support(all into game folder)`. Read the :material-file:`readme.txt` for details on these folders).
-    ??? question "Addons"
-        Read the :material-file:`readme.txt` for information on the addons.
-???+ tip "Usage"
-    - The default controls are:
-        * ++f7++ to toggle menu.
-        * ++num8++, ++num2++, ++num4++, ++num6++ for navigation. ++num5++ to accept, ++num0++ to go back.
-        * ++right-control+num1++ to fix the car.
-        * ++right-control+num2++ to flip the car.
-        * ++bracket-right++ (hold) to speed the car up.
-        * ++f6++ to enable/disable airbreak(noclip).
-        * ++right-control++ for Special God 1.
-        * ++f1++ for Special God 2.
-        * ++0++ for Always God Mode.
-        * ++bracket-left++ for Never Wanted.
-        * ++semicolon++ for Unlimited Ammo.
-        * ++equal++ for Collision.
-        * ++minus++ for Resurrect.
-        * ++single-quote++ for Forward Through Door.
-        * ++m++ for Ragdoll.
+!!! warning "Совместимость"
+    Этот трейнер не совместим с Complete Edition. Совершите [даунгрейд](../downgrading.md), если вы используете Complete Edition.
+Самый мощный и полноценный трейнер для GTA IV. Также в комплект входит Chaos-мод для стримеров и веселья. И... физика из Goldsrc...? Бхоппинг по фану, ig.
+???+ info "Установка"
+    * Установите последний [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
+    * Перейдите на сайт [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
+    * Прокрутите страницу до конца и скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`ZMenuIV_vx.zip` в папку с игрой (исключая папки :material-folder:`asi loader if not using xliveless`, :material-folder:`for developers`, :material-folder:`old version (has VR support)`, :material-folder:`parachute support(all into game folder)`. Прочтите :material-file:`readme.txt` для деталей на эти папки).
+    ??? question "Аддоны"
+        Прочтите :material-file:`readme.txt` для деталей на аддоны.
+???+ tip "Использование"
+    - Управление по умолчанию:
+        * ++f7++ для переключения меню.
+        * ++num8++, ++num2++, ++num4++, ++num6++ для навигации. ++num5++ - принять, ++num0++ - назад.
+        * ++right-control+num1++ для ремонта транспорта.
+        * ++right-control+num2++ для переворота транспорта.
+        * ++bracket-right++ (удерживать) для ускорения транспорта.
+        * ++f6++ для Airbreak(noclip)
+        * ++right-control++ для Special God 1.
+        * ++f1++ для Special God 2.
+        * ++0++ для Always God Mode(бессмертие).
+        * ++bracket-left++ для Never Wanted(откл. розыск).
+        * ++semicolon++ для Unlimited Ammo(бесконечные патроны).
+        * ++equal++ для Collision.
+        * ++minus++ для Resurrect(возрождения).
+        * ++single-quote++ для Forward Through Door.
+        * ++m++ для Ragdoll.
     
-    Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
-    ??? tip "Setting up Numpad-less keybinds"
-        Not everyone has a Numpad, I get it, 80% (and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
+    Вы можете добавлять свои собственные привязки клавиш, которые могут сочетать в себе несколько опций. Для этого включите функцию `Custom Keybind Creator` в разделе `Trainer Settings`, выделите нужную опцию и нажмите ++left-control+enter++ для установки привязки.
+
+    Отредактируйте категорию `[Keybinds]` в :material-file-cog:`ZMenuIV.ini` для изменения существующих привязок.
+    ??? tip "Привязки клавиш без Numpad"
+       Не у всех есть Numpad, я понимаю, 80% (и меньше) клавиатуры - это круто и удобно. Откройте :material-file-cog:`ZMenuIV.ini` и найдите эти строки:
 
         ```{ .ini }
         [Keybinds]
@@ -52,7 +55,7 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
         MenuBack=96
         ```
 
-        and change them to:
+        и измените их на:
 
         ```{ .ini }
         [Keybinds]
@@ -70,36 +73,36 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
         MenuBack=8
         ```
 
-        - Which will be:
-            * Arrow keys for navigation. ++enter++ to accept, ++backspace++ to go back.
-            * ++w++++a++++s++++d++ for horizontal airbreak control, ++q++ and ++e++ for vertical.
+        - Что будет:
+            * Стрелочки для навигации. ++enter++ - принять, ++backspace++ - назад.
+            * ++w++++a++++s++++d++ для горизонтального управления Airbreak, ++q++ и ++e++ для вертикального.
 
 ## Liberty's Legacy
-!!! warning "Compatibility"
-    This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
-This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing with the Complete Edition.
-???+ info "Installation"
-    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
-    * Go to the [GTAForums page](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
-    * Download the latest version.
-    * Extract :material-zip-box:`Liberty's Legacy Trainer xxx.zip` into the game folder.
-???+ tip "Usage"
-    - The default controls are: 
-        * ++f11++ or RB+X/R1+Square to toggle menu.
-        * Arrow keys or D-Pad for navigation. ++enter++ or A/X to accept, ++backspace++ or B/Circle to go back.
+!!! warning "Совместимость"
+    Данный тренер совместим с Complete Edition, а также с патчами 1.0.8.0 и 1.0.7.0.
+Этот трейнер не такой мощный, как ZMenuIV, но все же предлагает много полезных функций, особенно если вы играете с Complete Edition.
+???+ info "Установка"
+    * Установить последние [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) и [ScriptHook](../../mod-dependencies/#scripthook).
+    * Перейдите на [страницу GTAForums](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
+    * Скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`Liberty's Legacy Trainer xxx.zip` в папку с игрой.
+???+ tip "Использование"
+    - Управление по умолчанию:
+        * ++f11++ или RB+X/R1+Квадрат для переключения меню.
+        * Стрелки или крестовина для навигации. ++enter++ или A/X - принять, ++backspace++ или B/Кружок - назад.
     
-    Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key/button you want to bind.
+    Дополнительные привязки клавиш можно установить, выделив нужную опцию, нажав ++left-control+enter++ и нажав клавишу, которую вы хотите привязать.
 
 ## Simple Native Trainer
-!!! warning "Compatibility"
-    This trainer is compatible with all patches.
-This trainer is less robust than the other two, but.. some people would want it, I guess.
-???+ info "Installation"
-    * Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
-    * Go to the [GTAForums page](https://gtaforums.com/topic/392973-ivrel-simple-trainer-for-gtaiv/).
-    * Download latest version (it's somewhere in the post:material-trademark:).
-    * Extract :material-file:`trainer.asi`, :material-file-cog:`trainer.ini`, :material-file:`trainertbogt.asi`, :material-file-cog:`trainertbogt.ini`, :material-file:`trainertlad.asi`, :material-file-cog:`trainertlad.ini` from :material-zip-box:`trainervxx.rar` to your game folder.
-???+ tip "Usage"
-    ++f3++ to open the menu, numpad for navigation. Read the :material-file:`readme.doc` or the GTAForums page for instructions and keybinds.
+!!! warning "Совместимость"
+    Данный трейнер совместим со всеми патчами.
+Этот трейнер менее полный, чем два других, но... некоторым людям он будет полезен, я думаю.
+???+ info "Установите"
+    * Установить последние [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) и [ScriptHook](../../mod-dependencies/#scripthook).
+    * Перейдите на [страницу GTAForums](https://gtaforums.com/topic/392973-ivrel-simple-trainer-for-gtaiv/).
+    * Скачайте последнюю версию (где-то в посте:material-trademark:).
+    * Распакуйте :material-file:`trainer.asi`, :material-file-cog:`trainer.ini`, :material-file:`trainertbogt.asi`, :material-file-cog:`trainertbogt.ini`, :material-file:`trainertlad.asi`, :material-file-cog:`trainertlad.ini` из :material-zip-box:`trainervxx.rar` в папку с игрой.
+???+ tip "Использование"
+    ++f3++ для открытия меню,  ++num8++, ++num2++, ++num4++, ++num6++ для навигации. Читайте :material-file:`readme.doc` или страницу GTAForums для инструкций для изменения клавиш.
 
-[:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <brДополнительно</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Лаунчер</br>](launcher.md){ .md-button .md-button--primary }
