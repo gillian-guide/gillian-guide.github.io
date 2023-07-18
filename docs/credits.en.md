@@ -23,7 +23,7 @@ For their work on [ScriptHook](../mod-dependencies/#scripthook).
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
 ## Mod Creators
-Their names are already listed next to their contributions in [mods](extras/mods.md), they did a lot too! I genuinely respect all the modders whose mods I listed - and if I didn't list your mod that you think fits into [mods](extras/mods.md), [contact me!](contact-me.md).
+Their names are already listed next to their contributions in [mods](extras/mods.md), they have done a lot too! I really respect all the modders whose mods I've listed - and if I haven't listed your mod that you think fits in [mods](extras/mods.md), [contact me!](contact-me.md)
 
 ## Discord Communities
 The communities of these discord servers helped me a lot with this guide:
@@ -33,6 +33,8 @@ The communities of these discord servers helped me a lot with this guide:
 ## Extra Mentions
 * [Kreato](https://github.com/kreatoo) for his help to set up this website - check out his stuff if you like Linux tinkering.
 * [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
+* Rockstar Games and Rockstar North for making the game.
+
 
 ## And everyone else!
 Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you!
