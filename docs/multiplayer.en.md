@@ -32,6 +32,7 @@ The classic multiplayer method, the one that started it all. And the one that is
 
 
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
+    * Install [Microsoft Visual C++ 2005 Redistributable **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=26347).
     * Download latest [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
     * Install :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` and :material-file-download:`xliveredist.msi`.
     !!! question "What's the Marketplace?"
