@@ -22,7 +22,7 @@ GTA IV had an amazing multiplayer... and it still does! At least for people who 
 !!! note ""
     This section also includes steps to configure GFWL for non-mulitplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies.
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](downgrading.md) if using the Complete Edition.
 The classic multiplayer method, the one that started it all. And the one that is obnoxiously annoying to set up. Most communities stick to it at the moment.
 
 ### Usage
@@ -95,7 +95,7 @@ This is not as faithful as the original multiplayer, but it is currently one of 
 ???+ info "Installation"
     * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
     * Download the latest ==client==.
-    * Install the :material-file-download:`GTAC-x.x.x.exe` in the :material-zip-box:`GTAC-x.x.x.zip`.
+    * Install the :material-file-download:`GTAC-x.x.x.exe` from the :material-zip-box:`GTAC-x.x.x.zip`.
 ???+ tip "Configuration"
     * Set the `Game` box to `Grand Theft Auto IV`.
     * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as you wish.

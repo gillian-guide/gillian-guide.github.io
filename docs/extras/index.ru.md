@@ -1,5 +1,5 @@
 title: Дополнительно
-description: Get extra mods and apps for your GTA IV experience.
+description: Получите дополнительные моды и приложения для GTA IV.
 
 # What's in this section?
 This section contains mention-worthy mods and applications for GTA IV.

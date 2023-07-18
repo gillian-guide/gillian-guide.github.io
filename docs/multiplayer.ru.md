@@ -22,7 +22,7 @@ description: Познакомьтесь с мультиплеером GTA IV!
 !!! note ""
     Этот раздел также содержит шаги по настройке GFWL для использования не в мультиплеерных целях, если вы пришли сюда с других страниц. Просто пропустите часть "Вход/Создание лобби".
 !!! warning "Совместимость"
-    Этот метод совместим только с патчами 1.0.7.0 и 1.0.8.0. Он также совместим с более старыми патчами, но игроки на этих патчах будут помещены в отдельные лобби.
+    Этот метод совместим только с патчами 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition. Он также совместим с более старыми патчами, но игроки на этих патчах будут помещены в отдельные лобби.
 Классический многопользовательский метод, с которого все началось. И тот, который очень муторно настраивать. На данный момент, большинство сообществ придерживается именно его.
 
 ### Использование
@@ -88,38 +88,38 @@ description: Познакомьтесь с мультиплеером GTA IV!
 
     Если вы не можете выполнить проброс портов, используйте вместо этого VPN-сервис. Я рекомендую [Mullvad VPN](https://mullvad.net/en) (мне за это не платят).
 ## Grand Theft Auto Connected
-!!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
-This is not as faithful as the original multiplayer, but it is currently one of the best ways to experience GTA IV multiplayer without messing with GFWL.
-### Usage
-???+ info "Installation"
-    * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
-    * Download the latest ==client==.
-    * Install the :material-file-download:`GTAC-x.x.x.exe` in the :material-zip-box:`GTAC-x.x.x.zip`.
-???+ tip "Configuration"
-    * Set the `Game` box to `Grand Theft Auto IV`.
-    * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as you wish.
-    * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as you wish.
-???+ tip "Joining servers"
-    Once you're done with the configuration, it's as simple as double-clicking on any server in the list. You'll be presented with the game's main menu - just hit Play.
-??? tip "Setting up a server"
+!!! warning "Совместимость"
+    Данный метод совместим только с патчами 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition.
+Этот клиент не даст того же опыта, что и оригинальный мультиплеер, но на данный момент это один из лучших способов сыграть в мультиплеер GTA IV, не трогая GFWL.
+### Использование
+???+ info "Установка"
+    * Перейдите на сайт [GTA Connected](https://gtaconnected.com/downloads/).
+    * Скачайте последнюю версию ==клиента==.
+    * Установите :material-file-download:`GTAC-x.x.x.exe` из :material-zip-box:`GTAC-x.x.x.zip`.
+???+ tip "Настройка"
+    * В поле `Game` выберите `Grand Theft Auto IV`.
+    * В окне Tools - Launcher Settings, установите ваш никнейм. Вы также можете выставить другие настройки по желанию, включая язык в Language.
+    * В окне Настройки - Настройки игры, установите путь к вашей установке GTA IV. Вы также можете выставить другие настройки по желанию.
+???+ tip "Вход на сервера"
+    После завершения настройки достаточно дважды щелкнуть на любом сервере в списке. Появится главное меню игры - просто нажмите Играть.
+??? tip "Создание сервера"
     !!! warning ""
-        Only do any of this if you're experienced with hosting servers.
-    * Download the server from the [GTA Connected](https://gtaconnected.com/downloads/) website.
-    * Extract the `GTAC-Server-Winxx-x.x.x.zip` to a folder of your choice.
-    * Configure the :material-file-cog:`server.xml` as needed. Use [this page](https://wiki.gtaconnected.com/ServerConfiguration) for instructions.
-    * Run :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
+        Выполняйте все эти действия только в том случае, если у вас есть опыт работы с серверами.
+    * Скачайте последнюю версию сервера с сайта [GTA Connected](https://gtaconnected.com/downloads/).
+    * Распакуйте `GTAC-Server-Winxx-x.x.x.zip` в папку на выбор.
+    * Настройте :material-file-cog:`server.xml` как необходимо. Используйте [эту страницу](https://wiki.gtaconnected.com/ServerConfiguration) для инструкций.
+    * Запустите :material-file:`Server.exe` или :material-file:`Server` если ваш сервер на Linux.
 
-## Upcoming clients
-These clients are currently in development and are not available for play yet. They'll receive their own full-fledged sections when they're freely available for play. Support their development if you can!
+## Будущие клиенты
+Эти клиенты находятся в стадии разработки и пока недоступны для игры. Они получат свои собственные полноценные разделы, когда будут свободно доступны для игры. Поддержите их разработку, если можете!
 ### HappinessMP
-This client aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. It will require the Complete Edition and rely on Social Club to function.
+Этот клиент призван обеспечить мультиплеер аналогичный [SA:MP](https://www.sa-mp.com/), а также поддержку оригинальных режимов игры, таких как Deathmatch. Для его работы потребуется Complete Edition и Social Club.
 
-[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary }
+[:simple-discord: Сервер HappinessMP в Discord](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: Сайт HappinessMP](https://happinessmp.net/){ .md-button .md-button--primary }
 
 ### Liberty City Online
-This client also aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. However, it will require the 1.0.8.0 and 1.0.7.0 patches instead.
+Этот клиент также призван обеспечить мультиплеер аналогичный [SA:MP](https://www.sa-mp.com/), а также поддержку оригинальных режимов игры, таких как Deathmatch. Однако этот требует патчи 1.0.8.0 и 1.0.7.0.
 
-[:material-web: Liberty City Online's website](https://lc-online.net/){ .md-button .md-button--primary }
+[:material-web: Сайт Liberty City Online](https://lc-online.net/){ .md-button .md-button--primary }
 
-[:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Extras</br>](extras/index.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Следующая страница:material-page-last: <br>Extras</br>](extras/index.md){ .md-button .md-button--primary }
