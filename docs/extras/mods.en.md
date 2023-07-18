@@ -8,7 +8,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 
     Most mods in the list are oriented towards 1.0.7.0 and 1.0.8.0.
 
-    Please avoid using larger-scale and select smaller-scale mods in multiplayer.
+    Avoid using larger-scale and select smaller-scale mods in [multiplayer](../multiplayer.md).
 
 ## List of mods (larger-scale)
 | Mod | Author(s) | Description |
