@@ -24,7 +24,8 @@ While they are different in some ways, you can still use both if you're running 
 This modloader is superior to UAL's in many ways - especially the ability to merge different files and having a simple .ini file for configuration. It also allows to increase limits for various things - like VehicleBudget to avoid the taxi bug.
 
 ???+ note "Installation"
-    * Go to the bottom of the [page](https://zolika1351.pages.dev/mods/ivtweaker) and download the archive.
+    * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivtweaker)
+    * Scroll to the bottom and download the archive.
     * Extract the :material-zip-box:`IVTweaker_vx.x.zip` into the game folder.
 
 ???+ info "Usage"
@@ -45,7 +46,6 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
                     * :material-folder:==TBoGTImprovedAnimations==\
                         * :material-file:`TBoGTAnims.img`
                             
-
     ??? "Configuring the modloader"
         To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==. Make sure you set the correct priority so you don't have unwanted mods overriding other mods. Make sure mods that should be be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are for TBoGT are disabled for TLAD (Ep1), and mods that are for TLAD are disabled for TBoGT(Ep2). If you have issues - experiment with disabling mods.
         ??? warning "Expected configuration"
