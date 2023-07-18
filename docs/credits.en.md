@@ -19,6 +19,9 @@ For their work on [Shader Fixes Collection](essential-modding/shader-fixes.md), 
 ## HazardX
 For their work on [ScriptHook](../mod-dependencies/#scripthook).
 
+## const96b
+For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
+
 ## Mod Creators
 Their names are already listed next to their contributions in [mods](extras/mods.md), they did a lot too! I genuinely respect all the modders whose mods I listed - and if I didn't list your mod that you think fits into [mods](extras/mods.md), [contact me!](contact-me.md).
 
