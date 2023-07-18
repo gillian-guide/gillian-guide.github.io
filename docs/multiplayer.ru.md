@@ -1,88 +1,92 @@
-title: Multiplayer
-description: Experience GTA IV Multiplayer!
+title: Мультиплеер
+description: Познакомьтесь с мультиплеером GTA IV!
 
-# Multiplayer
-GTA IV had an amazing multiplayer... and it still does! At least for people who [downgrade](downgrading.md), as Rockstar Games has removed the multiplayer from the Complete Edition. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
+# Мультиплеер
+В GTA IV был потрясающий мультиплеер... и он все еще есть! По крайней мере, для тех, кто [даунгрейдиться](downgrading.md), поскольку Rockstar Games удалила мультиплеер из Complete Edition. Если вы устали от GTA Online и хотите чего-то более классического, вам обязательно стоит попробовать мультиплеер GTA IV!
 !!! warning ""
-    Current multiplayer methods require [downgrading](downgrading.md).
+    Текущие методы мультиплеера требуют [даунгрейдинга](downgrading.md).
 
-    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](../downgrading/#itsclockandres-downgrader) already takes care of that if you chose to configure your install for GFWL.
+    Для улучшения опыта мультиплеера крайне рекомендуется установить [ZolikaPatch](essential-modding/zolikapatch.md). Настройте :material-file-cog:`ZolikaPatch.ini` для использования функций мультиплеера и установите `DoNotPauseOnMinimize` на `1`. [Даунгрейдер ItsClockAndre's](../downgrading/#itsclockandres) уже об этом позаботился если вы решили настроить свою установку для GFWL.
 
-    Make sure to have `RecoilFix` set to `0` in both :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and :material-file-cog:`ZolikaPatch.ini` to avoid being at disadvantage with other players.
+    Убедитесь, что `RecoilFix` установлен на `0` в :material-file-cog:`GTAIV.EFLC.FusionFix.ini`, чтобы не оказаться в нечестном положении по отношению к другим игрокам.
 
-    Use [JacksIVFixes](https://drive.google.com/file/d/1-qTmg28S6lHNI2qoYtCwdECOMb4hh9f2/view?usp=sharing) to stop the game from registering input when minimized.
+    Используйте [JacksIVFixes](https://drive.google.com/file/d/1-qTmg28S6lHNI2qoYtCwdECOMb4hh9f2/view?usp=sharing), чтобы игра не считала ввод при сворачивании.
 
-    Additionally, you may want to have [ZMenuIV](../extras/trainers/#ZMenuIV) for the ability to create and participate in [custom gamemodes](https://grandtheftrevivalforums.com/thread/9/all-community-game-mode-rules).
+    Кроме того, вам может понадобиться [ZMenuIV](../extras/trainers/#ZMenuIV) для возможности создания и участия в [пользовательских режимах](https://grandtheftrevivalforums.com/thread/9/all-community-game-mode-rules).
 
-    You can also use [this](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
+    Вы также можете использовать [этот мод](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) для разблокировки всей одежды для кастомизации.
+
+    Избегайте использования крупных, добавляющих или заменяющих [модов](extras/mods.md).
 
 ## Games for Windows - LIVE
 !!! note ""
-    This section also includes steps to configure GFWL for non-mulitplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
-!!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies.
-The classic multiplayer method, the one that started it all. And the one that is obnoxiously annoying to set up. Most communities stick to it at the moment.
+    Этот раздел также содержит шаги по настройке GFWL для использования не в мультиплеерных целях, если вы пришли сюда с других страниц. Просто пропустите часть "Вход/Создание лобби".
+!!! warning "Совместимость"
+    Этот метод совместим только с патчами 1.0.7.0 и 1.0.8.0. Он также совместим с более старыми патчами, но игроки на этих патчах будут помещены в отдельные лобби.
+Классический многопользовательский метод, с которого все началось. И тот, который очень муторно настраивать. На данный момент, большинство сообществ придерживается именно его.
 
-### Usage
-???+ info "Installation"
+### Использование
+???+ info "Установка"
     !!! note ""
-        This step is already taken care of by [ItsClockAndre's downgrader](../downgrading/#itsclockandres-downgrader) if you chose to configure the install for GFWL. Skip it if you did.
+        [Даунгрейдер от ItsClockAndre](../downgrading/#itsclockandre) уже выполняет этапы из этой части если вы выбрали настроить установку для GFWL. В этом случае, пропустите эту часть.
 
-
-    * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
-    * Download latest [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
-    * Install :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` and :material-file-download:`xliveredist.msi`.
-    !!! question "What's the Marketplace?"
-        While you do get the Marketplace, don't bother opening it or trying to make it work. Marketplace is not functional, but still must be installed for GFWL itself to work.
-???+ info "Signing in"
+    * Убедитесь, что у вас нет устаревшей установки GFWL Marketplace и LIVE. Удалите их, если они есть.
+    * Установите [Microsoft Visual C++ 2005 Redistributable **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=26347).
+    * Скачайте последний [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
+    * Установите :material-file-download:`gfwllivesetup.exe`, :material-file-download:`wllogin_64.msi` и :material-file-download:`xliveredist.msi`.
+    !!! question "Что такое Marketplace?"
+        Вы получаете Marketplace, но не стоит открывать его или пытаться заставить его работать. Marketplace не является функциональным, но все же должен быть установлен для работы самого GFWL.
+???+ info "Вход в аккаунт"
     !!! warning ""
-        This is using the same account as your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account. Create one if you don't already have one.
+        Используйте тот же аккаунт, что и для [Microsoft](https://microsoft.com/account) или [Xbox](https://xbox.com/account). Создайте его, если у вас его еще нет.
 
-        [Disable 2FA completely on the account](https://account.microsoft.com/security) to be able to sign in. You can turn it back on after you're signed in and set to sign in automatically.
+        [Полностью отключите 2FA на вашем аккаунте](https://account.microsoft.com/security) чтобы иметь возможность войти в аккаунт. Вы сможете включить его обратно после того, как войдете в систему и настроите автоматический вход.
 
-    * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
-    * Open the game.
-    * Press the ++home++ key on your keyboard. You'll be met with the startup screen.
-    * Click `Use Existing LIVE Profile` to get the sign in screen.
-    * Uncheck the `Save my e-mail address` and `Save my e-mail address and password` checkmarks.
-    * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
-    * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
-    * See the next part for activation.
-???+ tip "Activation"
-    We now have several ways to activate the game.
-    === "Buying another GFWL game"
-        Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted. I recommend `FlatOut: Ultimate Carnage`, but any other GFWL game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) will do.
+    * Убедитесь, что в папке с игрой нет :fontawesome-solid-gears:`xlive.dll` переименуйте его в :fontawesome-solid-gears:`dinput8.dll` если есть.
+    * Откройте игру.
+    * Нажмите ++home++. Появится начальный экран.
+    !!! note ""
+        Если начальный экран не появился или у вас ошибка при запуске игры, перечитайте инструкции с самого начала.
+    * Нажмите `Use Existing LIVE Profile` для перехода на окно входа в аккаунт.
+    * Снимите флажки с `Save my e-mail address` и `Save my e-mail address and password`.
+    * Введите данные от вашего [Microsoft](https://microsoft.com/account) или [Xbox](https://xbox.com/account) аккаунта для входа.  ==Для удобства и чтобы иметь возможность снова включить 2FA, установите флажок `Sign me in automatically`.==
+    * Сделайте себе чашку чая или займитесь чем угодно в течение следующих 5-10 минут. Я не шучу - вход может занять столько времени. ==Не думайте, что зависло - это не так.==
+    * Об активации читайте в следующей части.
+???+ tip "Активация"
+    Теперь у нас есть несколько способов активации игры.
+    === "Покупка другой игры с GFWL"
+        Как ни странно, это самый простой способ. Не волнуйтесь - впоследствии вы сможете вернуть деньги за игру, так что деньги не будут потрачены. Я рекомендую `FlatOut: Ultimate Carnage`, но подойдет и любая другая игра с GFWL с [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE).
 
         <iframe style="background: transparent; background-color: transparent;" allowtransparency="true" src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
 
-        After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
-    === "Trying out random GFWL keys online"
-        This one is pretty self-explanatory - just go around online and look for random GFWL keys - they have multiple uses, so you might get lucky. These two Discord servers might help you:
+        После покупки игры зайдите в библиотеку, выберите игру, нажмите правой кнопкой мыши - Управление - CD ключи и скопируйте ключ куда-нибудь. Теперь вы можете вернуть деньги за игру.
+    === "Пробовать случайные ключи GFWL онлайн"
+        Этот пункт не требует пояснений - просто поищите онлайн случайные ключи для GFWL - желательно от игр с [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - они имеют несколько использований, так что вам может повезти. Эти два сервера в Discord могут вам помочь:
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Games For Windows Live Hub](https://discord.gg/d97u73k2TV){ .md-button .md-button--primary }
-    === "RevIVal's community method"
-        This Discord server is also one of the servers where you can find people to play multiplayer with. The channel with the activation method is `#gfwl-keys` (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
+    === "Метод коммьюнити RevIVal"
+        Канал с методом активации - `#gfwl-keys` (из соображений продвижения и уважения я не буду давать здесь прямую ссылку на него), но загляньте и на сам сервер, мы рады всем(однако, уважайте то, что сервер является англоязычным)!
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
-    After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
-???+ tip "Joining/Creating Lobbies"
-    Either use the in-game phone's Multiplayer - LIVE option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+    После того, как вы приобрели ключ и активировали игру (опять же, это может занять еще 5-10 минут, так что сделайте чаю или что-нибудь еще), вы готовы играть!
+???+ tip "Вход/Создание лобби"
+    Либо воспользуйтесь опцией Сетевая игра - Похожие игроки - LIVE в игровом телефоне чтобы присоединиться к или создать лобби, либо добавьте друзей в оверлее ++home++ и присоединитесь к их лобби.
 
-    - Explanations of menu options:
-        * ==Player Match== allows to join an existing lobby of a *specific* gamemode.
-        * ==Custom Match== allows to find an existing lobby of *any* gamemode.
-        * ==Create Match== allows to create a lobby yourself.
+    - Обьяснение пунктов меню:
+        * ==Быстрая игра== позволяет присоединиться к случайному существующему лобби *конкретного* режима.
+        * ==Точный поиск== позволяет найти существующее лобби *любой* режима.
+        * ==Создать игру== позволяет создать лобби самостоятельно.
     
-    If you're looking for people to play with, visit this Discord server:
+    Если вы ищете людей для игры, посетите этот сервер в Discord(англо-язычный):
 
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
-???+ warning "Port Forwarding"
-    If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you may be having problems with automatic port forwarding (UPnP). Set up port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
+???+ warning "Переадресация портов"
+    Если у вас возникают проблемы с подключением к лобби (кикбаг, присоединение к пустому лобби), возможно, у вас проблемы с автоматической переадресацией портов (UPnP). Настройте проброс портов для следующих портов в настройках маршрутизатора (поищите в Интернете инструкции для конкретного маршрутизатора или провайдера, либо обратитесь к провайдеру):
 
     * TCP: `3074`, `80`, `88`
     * UDP: `3074`, `80`, `88`
 
-    If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
+    Если вы не можете выполнить проброс портов, используйте вместо этого VPN-сервис. Я рекомендую [Mullvad VPN](https://mullvad.net/en) (мне за это не платят).
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.

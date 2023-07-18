@@ -9,21 +9,18 @@ description: Один из важных модов для вашей устан�
 ## Установка { data-search-exclude }
 === "1.0.8.0"
     === "Последняя версия"
-        - Инструкции:
-            * Установите последние версии [ZolikaPatch](zolikapatch.md) и [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
-            !!! note ""
-                [Давнгрейдер от Zolika1351](../../downgrading/#zolika1351) уже имеет их в своем комплекте.
-            * Скачайте FusionFix из Optional mods [здесь](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
-            * Распакуйте :material-zip-box:`FusionFix_1070-1080_New.zip` в папку с игрой.
+        * Установите последние версии [ZolikaPatch](zolikapatch.md) и [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
+        !!! note ""
+            [Давнгрейдер от Zolika1351](../../downgrading/#zolika1351) уже имеет их в своем комплекте.
+        * Скачайте FusionFix из Optional mods [здесь](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
+        * Распакуйте :material-zip-box:`FusionFix_1070-1080_New.zip` в папку с игрой.
     === "Старая версия"
-        - Инструкции:
-            * Скачайте [релиз 1.10](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/tag/v1.10) FusionFix.
-            * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
-=== "1.2.0.59"
-    - Инструкции:
-        * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
-        * Скачайте последнюю версию.
+        * Скачайте [релиз 1.10](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/tag/v1.10) FusionFix.
         * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
+=== "1.2.0.59"
+    * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
+    * Скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
 !!! tip ""
     Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
 ## Настройка

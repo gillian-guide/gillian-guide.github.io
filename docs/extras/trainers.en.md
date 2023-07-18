@@ -32,7 +32,9 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
         * ++single-quote++ for Forward Through Door.
         * ++m++ for Ragdoll.
     
-    Edit the `[Keybinds]` and `[CustomHotkeys]` sections in :material-file-cog:`ZMenuIV.ini` to change or add keybinds.
+    You can add your own custom keybinds that can combine multiple options together. To do so, enable `Custom Keybind Creator` in `Trainer Settings`, highlight on desired option and press ++left-control+enter++ to set the keybind up.
+
+    Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change existing keybinds.
     ??? tip "Setting up Numpad-less keybinds"
         Not everyone has a Numpad, I get it, 80% (and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
 

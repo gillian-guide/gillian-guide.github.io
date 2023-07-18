@@ -30,7 +30,6 @@ The classic multiplayer method, the one that started it all. And the one that is
     !!! note ""
         This step is already taken care of by [ItsClockAndre's downgrader](../downgrading/#itsclockandres-downgrader) if you chose to configure the install for GFWL. Skip it if you did.
 
-
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
     * Install [Microsoft Visual C++ 2005 Redistributable **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=26347).
     * Download latest [GFWL Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
@@ -43,11 +42,13 @@ The classic multiplayer method, the one that started it all. And the one that is
 
         [Disable 2FA completely on the account](https://account.microsoft.com/security) to be able to sign in. You can turn it back on after you're signed in and set to sign in automatically.
 
-    * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
+    * Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the game folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
     * Open the game.
     * Press the ++home++ key on your keyboard. You'll be met with the startup screen.
+    !!! note ""
+        If the startup screen did not appear or you're met with an error when opening the game, re-read the instructions from the start.
     * Click `Use Existing LIVE Profile` to get the sign in screen.
-    * Uncheck the `Save my e-mail address` and `Save my e-mail address and password` checkmarks.
+    * Uncheck `Save my e-mail address` and `Save my e-mail address and password`.
     * Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.  ==Check `Sign me in automatically` for convenience and to be able to turn 2FA back on.==
     * Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
     * See the next part for activation.
@@ -60,19 +61,19 @@ The classic multiplayer method, the one that started it all. And the one that is
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"
-        This one is pretty self-explanatory - just go around online and look for random GFWL keys - they have multiple uses, so you might get lucky. These two Discord servers might help you:
+        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. These two Discord servers might help you:
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Games For Windows Live Hub](https://discord.gg/d97u73k2TV){ .md-button .md-button--primary }
     === "RevIVal's community method"
-        This Discord server is also one of the servers where you can find people to play multiplayer with. The channel with the activation method is `#gfwl-keys` (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
+        The channel with the activation method is `#gfwl-keys` (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game(again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 ???+ tip "Joining/Creating Lobbies"
-    Either use the in-game phone's Multiplayer - LIVE option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
+    Either use the in-game phone's Multiplayer - LIVE - Player Match option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
 
     - Explanations of menu options:
-        * ==Player Match== allows to join an existing lobby of a *specific* gamemode.
+        * ==Quick Match== allows to join a random existing lobby of a *specific* gamemode.
         * ==Custom Match== allows to find an existing lobby of *any* gamemode.
         * ==Create Match== allows to create a lobby yourself.
     

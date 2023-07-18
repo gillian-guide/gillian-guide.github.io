@@ -60,7 +60,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
 
     Этот даунгрейдер уже является частью [даунгрейдера от ItsClockAndre](#itsclockandre) если вы не пропустили этап даунгрейда радиостанций - в этом случае вы можете пропустить эту часть.
 Более 50 треков радиостанций были удалены из игры в апреле 2018 года из-за просроченных лицензий. Однако мы можем их восстановить.
-???+ note "Installation"
+???+ note "Установка"
     * Установите последнюю версию [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) для его модлоадера (также [ZolikaPatch](essential-modding/zolikapatch.md) если вы используете старые версии; мы можем обойти это, читайте примечание позже)
     * Перейдите на сайт [Various GTA Downgraders](http://downgraders.rockstarvision.com/) и прокрутите страницу до конца.
     * Скачайте Radio downgrader для GTA IV.
