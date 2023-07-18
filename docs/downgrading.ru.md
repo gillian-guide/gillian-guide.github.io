@@ -75,12 +75,12 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
 ## Даунгрейд сохранения
 Если вы уже начали играть на Complete Edition, то, возможно, вам захочется понизить свой файл сохранения до старых версий.
 
-* Сначала найдите свои сохранения в :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\==. Они называются :material-file:`SGTAxxx`.
+* Сначала найдите свои сохранения в :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\\==. Они называются :material-file:`SGTAxxx`.
 * Загрузите тот, который вы хотите конвертировать на [GTASnP](https://gtasnp.com/).
 * Разверните вкладку `Modifications`.
 * Выберите `1.0.8.0 IV / 1.1.3.0 EFLC and older` в `Downgrade Version`.
 * Выберите слот, в который вы хотите сохранить свой файл сохранения. У вас должно загрузиться конвертированное сохранение.
-* Расположите его в :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)==.
+* Расположите его в :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
 ## Руссификатор
 После даунгрейдинга, у вас не будет русского языка. Скачайте [оффициальный руссификатор](https://drive.google.com/file/d/1YCoM0BTfCiVYNPl2UxgOK6QiV4j1nAMG/view) и установите его как для EFLC в папку с игрой. 

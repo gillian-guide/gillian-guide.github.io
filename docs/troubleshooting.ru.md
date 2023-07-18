@@ -1,69 +1,71 @@
-title: Troubleshooting
-description: Troubleshooting your GTA IV issues.
+title: Исправление проблем
+description: Исправление проблем с вашей установкой GTA IV.
 
-# Troubleshooting
-Anyone can have problems modding their favorite games, and GTA IV is extremely prone to this.
-??? info "I'm using the Rockstar Games Launcher and can't install mods!"
-    After downgrading or using the drag-and-drop archive, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
+# Исправление проблем
+У любого человека могут возникнуть проблемы с моддингом любимых игр, и GTA IV очень подвержена этому.
+??? info "Я пользуюсь Rockstar Games Launcher и не могу установить моды!"
+    После понижения версии или использования готового архива избегайте использования лаунчера и запускайте игру только с помощью :material-file:`PlayGTAIV.exe`.
 
-??? info "The game does not start in desired resolution and there is no option to increase it in the settings"
-    After installing [DXVK](optimization.md), set these [launch options](../additional-setup/#launch-options):
+??? info "Игра не запускается в нужном разрешении и нет возможности увеличить его в настройках"
+    После установки [DXVK](optimization.md), установите эти [параметры запуска](../additional-setup/#_2):
 
-    * `-width (horizontal resolution)`
-    * `-height (vertical resolution)`
-    * `-refreshrate (refresh rate)`
+    * `-width (горизонтальное разрешение)`
+    * `-height (вертикальное разрешение)`
+    * `-refreshrate (частота обновления)`
 
-    Example:
+    К примеру:
     * `-width 1920`
     * `-height 1080`
     * `-refreshrate 60`
 
-    Also, check for video card driver updates.
+     Также проверьте наличие обновлений драйверов видеокарты.
 
-??? info "Game performance is still poor"
-    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
+??? info "Производительность никак не улучшилась"
+    Убедитесь, что [DXVK](optimization.md) установлен правильно, и что используются [оптим](../additional-setup/#_3) are used.
 
-??? info "Load times got even longer"
-    Remove ColAccel. It doesn't work properly for some people for some reason.
+??? info "Загрузки стали ещё дольше"
+    Удаляйте ColAccel. У некоторых людей по каким-то причинам он неправильно работает.
 
-??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS"
-    Install [FusionFix](essential-modding/fusionfix.md) and enable the `FPS limiter` in Settings - Display and set it to 60 FPS.
+??? info "На последней миссии не получается попасть в вертолёт | Другие проблемы с таймингом при высоком FPS"
+    Установите [FusionFix](essential-modding/fusionfix.md) и включите `FPS limiter` в Настройки - Дисплей и установите его на 60 FPS.
 
-??? info "Game loads directly into the savegame on startup, no menu"
-    Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
+??? info "Игра сразу загружается в сохранение при запуске, нету меню"
+    Откройте :material-file-cog:`GTAIV.EFLC.FusionFix.ini` и измените `SkipMenu` на `0` (или перейдите в Настройки - Игра и переключите `Skip Menu` на Откл). Если проблема осталась, откройте :material-file-cog:`ZolikaPatch.ini` и измените эту же настройку там.
 
-??? info "Game loads endlessly when loading saves | Constantly missing textures | Game shows wrong VRAM value in settings"
-    Set the `-availablevidmem` [launch options](../additional-setup/#launch-options) (with a value of up to 3072.0).
+??? info "Игра бесконечно загружается при загрузке сохранений | Постоянно пропадают текстуры | Игра показывает неправильное значение VRAM в настройках"
+    Установите [параметр запуска](../additional-setup/#_2) `-availablevidmem` (со значением не выше 3072.0).
 
-??? info "Random but constant frame timing problems (i.e. a microstutter every 0.5 seconds)"
-    Try disconnecting your gamepad. If the problem goes away, try enabling Steam Overlay. If the problem persists, try enabling Steam Input as well.
+??? info "Случайные, но постоянные проблемы с фреймтаймингом (например, микрофриз каждые 0,5 секунды)"
+    Попробуйте отключить геймпад. Если проблема исчезнет, попробуйте включить оверлей в стиме. Если проблема по прежнему не исчезает, попробуйте включить Steam Input.
 
-??? info "Asi Loader Error | Other Visual C++ issues"
-    Install [prerequisites](index.md)
+??? info "Asi Loader Error | Другие проблемы с Visual C++"
+    Установите [библиотеки](index.md)
 
-??? info "Steam Achievements don't work after downgrading"
-    You have probably set up your install to be GFWL-compatible - the script will not work in this case.
+??? info "Достижения в :material-steam:Steam не работают после даунгрейдинга"
+    Вероятно, вы настроили свою установку на совместимость с [GFWL](../multiplayer/#games-for-windows-live) - в этом случае скрипт не будет работать.
 
-??? info "Game crashes"
-    Make sure you started with a clean install. After installing any mods, make sure your game is working properly by starting it at least once in game to pinpoint the problematic mod.
+??? info "Игра вылетает"
+    Убедитесь, что начали вы с чистой версии. После установки каждого мода, убедитесь, что все работает, запустив игру хоть раз, дабы вычесть из проблем несовместимость модов или нестабильный мод.
 
-??? info "Game crashes immediately upon booting | Won't even boot"
-    * Reboot your PC.
-    * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
-    * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
-    * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==
-    * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)(and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
-    * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
+??? info "Игра вылетает прямо при запуске | Даже не запускается"
+    * Перезагрузите ПК.
+    * Убедитесь, что у вас нету дублей модов - вы могли, например, оставить [FusionFix](essential-modding/fusionfix.md) и в :material-folder:==plugins==, и в папке с игрой. Игра в таком случае не запустится.
+    * Запускайте игру только через :material-steam:Steam или :material-file:`PlayGTAIV.exe`.
+    * Если вы даунгрейдились до 1.0.4.0, удалите :material-file-cog:`settings.cfg` в :material-folder:==C:/Users/(Назваие ПК)/AppData/Local/Rockstar Games/GTA IV/Settings==
+    * Установите [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)(и настройте его на избавление от GFWL) и [ZolikaPatch](essential-modding/zolikapatch.md).
+    * Если всё еще не получается - пробуйте по одному удалять/отключать моды и смотреть какой не работает.
 
-??? info "Game crashes during or after load"
-    * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
-    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software][https://x3t-infinity.com/GTAIV_SE].
-    * Unsafe mod installs an also be a problem. Try disabling/deleting some mods.
+??? info "Игра вылетает во время или после загрузки"
+    * Поврежденный файл сохранения может быть проблемой, если перед даунгрейдом вы играли на более новой версии. Исправить можно, [сделав даунгрейд сохранения](../downgrading/#_5).
+    * Если вы устанавливали моды, которые добавляют в список машин новые и сохранили их возле вашего дома, то ваше сохранение скорее всего повреждено. Сменить машину в сохранении можно, используя эту [программу][https://x3t-infinity.com/GTAIV_SE].
+    * Также проблемой может быть небезопасная установка модов. Попробуйте отключить/удалить некоторые моды.
 
-??? info "Game randomly crashes mid-game"
-    One of your mods is unstable. Don't install too many mods.
+??? info "Игра случайно вылетает во время игры"
+    Один из ваших модов нестабилен. Не устанавливайте слишком много модов.
 
-??? info "Game is using the wrong GPU(laptop)"
-    Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select max performance in power plan mode.
+??? info "Игра использует неправильную видеокарту(ноутбук)"
+    Откройте Nvidia Control Panel, Управление параметрами 3D, добавьте :material-file:`gtaiv.exe` и в `Режиме управления электропитанием` выберите `Предпочитетелен режим максимальной производительности`.
 
-[:material-page-first:Previous page <br>Mods</br>](extras/mods.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
+Если вы знаете проблему и решение, которые я упустил, [свяжитесь со мной!](contact-me.md)
+
+[:material-page-first:Предыдущая страница <br>Моды</br>](extras/mods.md){ .md-button } [Следующая страница:material-page-last: <br>Свяжитесь со мной</br>](contact-me.md){ .md-button .md-button--primary }

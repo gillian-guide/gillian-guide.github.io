@@ -41,8 +41,8 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Asi Loader Error | Other Visual C++ issues"
     Install [prerequisites](index.md)
 
-??? info "Steam Achievements don't work after downgrading"
-    You have probably set up your install to be GFWL-compatible - the script will not work in this case.
+??? info ":material-steam:Steam Achievements don't work after downgrading"
+    You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
 
 ??? info "Game crashes"
     Make sure you started with a clean install. After installing any mods, make sure your game is working properly by starting it at least once in game to pinpoint the problematic mod.
@@ -64,6 +64,8 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     One of your mods is unstable. Don't install too many mods.
 
 ??? info "Game is using the wrong GPU(laptop)"
-    Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select max performance in power plan mode.
+    Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select `Max Performance` in `Power Plan Mode`.
+
+If you know an issue and a solution that I missed, [contact me!](contact-me.md)
 
 [:material-page-first:Previous page <br>Mods</br>](extras/mods.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
