@@ -75,4 +75,14 @@ Over 50 radio station tracks were removed from the game in April 2018 due to exp
     ??? question "How to get around using Ultimate ASI Loader?"
         Move the contents of the :material-folder:`update` folder to the game folder, replacing files when prompted.
 
+## Downgrading the savefile
+If you've already started playing on the Complete Edition, you may want to downgrade your savefile to retail version.
+
+* First, locate your savefiles in :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\==. They're named :material-file:`SGTAxxx`.
+* Upload the one you want to convert to [GTASnP](https://gtasnp.com/).
+* Expand the `Modifications` tab.
+* Pick `1.0.8.0 IV / 1.1.3.0 EFLC and older` in `Downgrade Version`.
+* Pick the slot you want to save your savefile as. You'll download your converted savefile.
+* Place it at :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)==.
+
 [:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }

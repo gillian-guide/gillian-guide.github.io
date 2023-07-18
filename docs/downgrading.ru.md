@@ -72,4 +72,22 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     ??? question "Как обойтись без использования Ultimate ASI Loader?"
         Переместите содержимое папки :material-folder:`update` в папку с игрой, заменяя файлы при появлении запроса.
 
+## Даунгрейд сохранения
+Если вы уже начали играть на Complete Edition, то, возможно, вам захочется понизить свой файл сохранения до старых версий.
+
+* Сначала найдите свои сохранения в :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\==. Они называются :material-file:`SGTAxxx`.
+* Загрузите тот, который вы хотите конвертировать на [GTASnP](https://gtasnp.com/).
+* Разверните вкладку `Modifications`.
+* Выберите `1.0.8.0 IV / 1.1.3.0 EFLC and older` в `Downgrade Version`.
+* Выберите слот, в который вы хотите сохранить свой файл сохранения. У вас должно загрузиться конвертированное сохранение.
+* Расположите его в :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)==.
+
+## Руссификатор
+После даунгрейдинга, у вас не будет русского языка. Скачайте [оффициальный руссификатор](https://drive.google.com/file/d/1YCoM0BTfCiVYNPl2UxgOK6QiV4j1nAMG/view) и установите его как для EFLC в папку с игрой. 
+
+???+ note "Альтернативная версия"
+    Также есть версия для [UAL'овского модлоадера](../extras/modloading/#ultimate-asi-loader). Скачать можно [здесь](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)
+
+В Настройках - Дисплей измените язык на Русский.
+
 [:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](additional-setup.md){ .md-button } [Следующая страница:material-page-last: <br>Зависимости для модов</br>](mod-dependencies.md){ .md-button .md-button--primary }

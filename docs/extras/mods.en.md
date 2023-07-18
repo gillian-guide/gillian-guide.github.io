@@ -62,4 +62,4 @@ If you're interested in making mods instead, visit this Discord server:
 ## Want your mod to be listed?
 [Contact me!](../contact-me.md){ .md-button .md-button--primary } 
 
-[:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Troubleshooting</br>](../troubleshooting.md){ .md-button .md-button--primary }
