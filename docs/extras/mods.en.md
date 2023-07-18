@@ -62,6 +62,6 @@ If you're interested in making mods instead, visit this Discord server:
 [:simple-discord: GTA IV Modding](https://discord.gg/caKjAAYx){ .md-button .md-button--primary }
 
 ## Want your mod to be listed?
-[Contact me!](contact-me.md){ .md-button .md-button--primary } 
+[Contact me!](../contact-me.md){ .md-button .md-button--primary } 
 
 [:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }
