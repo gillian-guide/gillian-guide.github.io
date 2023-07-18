@@ -37,6 +37,7 @@ description: Это руководство было бы невозможно б
 * [Kreato](https://github.com/kreatoo) за помощь в создании этого сайта - посмотрите его репозитории, если вам нравится играться с Linux.
 * [Коммьюнити PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) за их вклад в вики, который помог мне сделать это руководство более полным (конечно, я тоже внес свой вклад).
 * Yilmaz, MauriceGS, Krooked_ и другие из [Discord сервера Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb) за предоставление информации для руководства.
+* Сообщество Steam за активную поддержку во время создания оригинального руководства на Steam.
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) за предоставление прекрасных библиотек для написания этого руководства.
 * Rockstar Games и Rockstar North за создание игры.
 
