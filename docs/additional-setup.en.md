@@ -14,7 +14,7 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
 
     We'll stick with the first two.
 
-The only options you need to set are: `-norestrictions -nomemrestrict`
+The only options you need to set are: `-norestrictions -nomemrestrict`.
 
 ??? warning "When using DXVK or drag-and-drop archive..."
     Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`GTAIV.EFLC.FusionFix.ini` for this to work.
@@ -24,7 +24,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
     If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
 
 !!! danger "But other guides use more options!"
-    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo.
+    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 
 ??? abstract "Full list of launch options"
     You can use these options for tweaking, debugging and playing around. The list is taken from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
@@ -78,6 +78,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`
 ![GTA IV Settings](assets/gta4settings.jpg){: style="height:25%;width:25%"; align=right}
 !!! note ""
     These settings are optimal for most people. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to increase them, but don't blame me for the issues.
+
 ??? info "Console Settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
 | Setting | Optimal Setting | Console Setting | Description | 

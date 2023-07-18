@@ -1,18 +1,18 @@
 title: Готовый архив
 description: Полноценный готовый архив для игры в желаемую версию GTA IV
 
-# Готовый архив
+# Готовый архив { data-search-exclude }
 Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Однако список модов в основном один и тот же для этого набора - вы можете увидеть и сравнить его [ниже](#_4). В основном у вас не будет [ZolikaPatch](essential-modding/zolikapatch.md) и Liberty Tweaks.
 
-### Примечания
+### Примечания { data-search-exclude }
 !!! info ""
-	1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). Количество поддерживаемых модов в этой версии также значительно ограничено - большинство модов создано для версий 1.0.8.0 и 1.0.7.0.
-	2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и мультиплеера. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md). Эта версия лучше подходит для совместимости с модами.
+	1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). ==Количество поддерживаемых модов в этой версии также значительно ограничено - большинство модов создано для версий 1.0.8.0 и 1.0.7.0==.
+	2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и мультиплеера. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md). ==Эта версия лучше подходит для совместимости с модами==.
 !!! warning ""
 	Возможно, скоро будет крупное обновление.
 
 
-## Установка
+## Установка { data-search-exclude }
 
 === "1.0.8.0"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
@@ -21,7 +21,7 @@ description: Полноценный готовый архив для игры в
 	!!! warning "Предупреждение"
 		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/). 
 		
-		Если вы используете версию Rockstar Games Launcher, не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
+		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 		
 		Какой-либо другой способ установки не поддерживается.
 		
@@ -51,7 +51,7 @@ description: Полноценный готовый архив для игры в
 	??? warning "Моя игра нестабильна/случайно вылетает"
 		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==. [Сообщите мне о проблеме, если вы ее обнаружите.](contact-me.md)
 
-## Список модов
+## Список модов { data-search-exclude }
 === "1.0.8.0"
 	| Название мода | Детали |
 	| :-----------: | :----: |
@@ -98,7 +98,7 @@ description: Полноценный готовый архив для игры в
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| Текстуры радиостанций в более высоком разрешении. |
 	| [Improved Weapon Spec от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Текстуры спекулярных мапок для оружий в более высоком разрешении. |
 
-## Дополнительные моды
+## Дополнительные моды { data-search-exclude }
 Эти моды не включены по умолчанию, но не требуют дополнительных действий для установки поверх архива.
 === "1.0.8.0"
 	| Название мода | Детали |
@@ -117,7 +117,7 @@ description: Полноценный готовый архив для игры в
 	| [Radio Downgrader](http://downgraders.rockstarvision.com/)| Возвращает удалённые треки - которые удалили в 2018 из-за лицензий - обратно в игру.<br>Установка: распакуйте архив в папку с игрой, откройте :fontawesome-solid-gears:`install.bat`, после того как консоль закроется - переносим :material-folder:==update== из желаемого варианта владивостока (:material-folder:==with new vladivostok== и :material-folder:==without new vladivostok== - в without не будет новых треков, появившихся после выреза)</br> |
 	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br> |
 
-## Список изменений
+## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
 		* 15.07.2023 - Добавлен Liberty Tweaks.

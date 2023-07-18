@@ -11,9 +11,9 @@ Currently the only good solution for improving game's performance. Although not 
     Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2014 and newer GPUs should support the normal version, and 2012 and newer GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced tab to check for yourself. The legacy version will have less performance and may have more bugs.
 
 ??? warning "ENB Support"
-    DXVK doesn't officially support [ENB](Graphics-Enhancement\ENB) (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
+    DXVK doesn't officially support ENB (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
 
-    Ignore this if you don't plan to use [ENB's](Graphics-Enhancement\ENB)
+    Ignore this if you don't plan to use ENB's.
 
 ### What benefit can I expect?
 It's hard to say, because DXVK's improvement can vary from device to device. But for a rough comparison, you can use my benchmark:
