@@ -67,7 +67,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     * Распакуйте :material-zip-box:`IVCE_RADIO_DOWNGRADER.rar` в папку с игрой (исключая папки :material-folder:`... new vladivostok`).
     * Запустите :material-file-download:`install.bat` и дождитесь, пока консоль сама закроется.
     * Теперь распакуйте либо :material-folder:`with new vladivostok`, либо :material-folder:`without new vladivostok` в папку с игрой.
-    ???+ question "В чём разница?"
+    ???+ question "В чем разница?"
         Rockstar добавили на Владивосток новые треки взамен вырезанных. :material-folder:`with new vladivostok` сохраняет их вместе с восстановленными вырезанными, а :material-folder:`without new vladivostok` вырезает их, оставляя только восстановленные.
     ??? question "Как обойтись без использования Ultimate ASI Loader?"
         Переместите содержимое папки :material-folder:`update` в папку с игрой, заменяя файлы при появлении запроса.

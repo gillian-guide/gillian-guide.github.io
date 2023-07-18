@@ -18,7 +18,7 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
         ???+ tip "Console-like Gamma"
             If you also want to have console-like gamma, extract :material-folder:==2. Addons\Console-like Gamma== into the game folder, replacing all files when prompted.
             <figure markdown>
-                ![Image title](assets/console-gamma.png)
+                ![Console gamma](assets/console-gamma.png)
                 <figcaption></figcaption>
             </figure>
 
@@ -31,7 +31,7 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
         ??? tip "Console-like Gamma"
             If you also want to have console-like gamma and ==you're not using FusionFix==, extract :material-folder:==2. Addons\Console-like Gamma== to :material-folder:==update==, replacing all files when prompted.
             <figure markdown>
-                ![Image title](assets/console-gamma.png)
+                ![Console Gamma](assets/console-gamma.png)
                 <figcaption></figcaption>
             </figure>
 
@@ -47,4 +47,4 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
             Alternatively you can grab the mod folder from [here](https://zolika1351.pages.dev/mods/ivtweaker/downgrading) in optional mods and just extract that.
         * Configure :material-file-cog:`modloader.ini` if needed.
 
-[:material-page-first:Previous page <br>ZolikaPatch</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Multiplayer</br>](../../multiplayer){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>ZolikaPatch</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Multiplayer</br>](../multiplayer.md){ .md-button .md-button--primary }
