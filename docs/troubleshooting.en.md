@@ -39,7 +39,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Try disconnecting your gamepad. If the problem goes away, try enabling Steam Overlay. If the problem persists, try enabling Steam Input as well.
 
 ??? info "Asi Loader Error | Other Visual C++ issues"
-    Install [prerequisites](index.md)
+    Install [prerequisites](index.md).
 
 ??? info ":material-steam:Steam Achievements don't work after downgrading"
     You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
@@ -51,13 +51,13 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * Reboot your PC.
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
-    * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==
+    * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)(and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game crashes during or after load"
     * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
-    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software][https://x3t-infinity.com/GTAIV_SE].
+    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
     * Unsafe mod installs an also be a problem. Try disabling/deleting some mods.
 
 ??? info "Game randomly crashes mid-game"
