@@ -1,46 +1,46 @@
-title: Credits
-description: This guide wouldn't be possible without all these amazing people!
+title: Авторы
+description: Это руководство было бы невозможно без всех этих замечательных людей!
 
-# Credits
-This guide wouldn't be possible without all these amazing people!
+# Авторы
+Это руководство было бы невозможно без всех этих замечательных людей!
 
 ## Zolika1351
-For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [Downgrader](../downgrading/#zolika1351s-downgrader), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more!
+За их работу над [ZolikaPatch](essential-modding/zolikapatch.md), [даунгрейдером](../downgrading/#zolika1351), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помогает многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое!
 
 ## ThirteenAG
-For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
+За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md).
 
 ## ItsClockAndre
-For their work on the [Downgrader Tool](../downgrading/#itsclockandres-downgrader), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md).
+За их работу над [даунгрейдером](../downgrading/#itsclockandre), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md).
 
 ## Parallellines
-For their work on [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) and [Various Fixes](extras/mods.md).
+За их работу над [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
 
 ## HazardX
-For their work on [ScriptHook](../mod-dependencies/#scripthook).
+За их работу над [ScriptHook](../mod-dependencies/#scripthook).
 
 ## const96b
-For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
+За их работу над [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
-## Multiplayer clients developers
-Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive!
+## Разработчики клиентов для мультиплеера
+Всем, кто вносит свой вклад в создание многопользовательских клиентов, спасибо за то, что вы поддерживаете мультиплеер GTA IV!
 
-## Mod Creators
-Their names are already listed next to their contributions in [mods](extras/mods.md), they have done a lot too! I really respect all the modders whose mods I've listed - and if I haven't listed your mod that you think fits in [mods](extras/mods.md), [contact me!](contact-me.md)
+## Создатели модов
+Их имена уже перечислены рядом с их вкладом в [модах](extras/mods.md), они тоже много сделали! Я очень уважаю всех моддеров, чьи моды я перечислил - и если я не перечислил ваш мод, который вы считаете подходящим для [модов](extras/mods.md), [свяжитесь со мной!](contact-me.md)
 
-## Discord Communities
-The communities of these discord servers helped me a lot with this guide:
+## Коммьюнити Discord
+Сообщества этих англо-язычных серверов в Discord очень помогли мне в работе над этим руководством:
 
 [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } 
 
-## Extra Mentions
-* [Kreato](https://github.com/kreatoo) for his help to set up this website - check out his stuff if you like Linux tinkering.
-* [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
-* Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.
-* Rockstar Games and Rockstar North for making the game.
+## Дополнительные упоминания
+* [Kreato](https://github.com/kreatoo) за помощь в создании этого сайта - посмотрите его репозитории, если вам нравится играться с Linux.
+* [Коммьюнити PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) за их вклад в вики, который помог мне сделать это руководство более полным (конечно, я тоже внес свой вклад).
+* Yilmaz, MauriceGS, Krooked_ и другие из [Discord сервера Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb) за предоставление информации для руководства.
+* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) за предоставление прекрасных библиотек для написания этого руководства.
+* Rockstar Games и Rockstar North за создание игры.
 
+## И всех других!
+Всем остальным, кто помогал мне в создании этого руководства, мотивировал меня на дальнейшую работу или просто поделился этим руководством со своими друзьями, - спасибо!
 
-## And everyone else!
-Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you!
-
-[:material-page-first:Previous page <br>Contact me</br>](contact-me.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Свяжитесь со мной</br>](contact-me.md){ .md-button }
