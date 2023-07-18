@@ -1,25 +1,24 @@
 title: OpenIV
-description: Learn the basics to the powerful tool to mod GTA IV known as OpenIV!
+description: Изучите основы мощного инструмента для модификации GTA IV, известного как OpenIV!
 
 # OpenIV
-OpenIV is a powerful tool for modifying, creating and extracting internal files. It can be used to create `.img` and `.rpf` files, which can be useful for [modloading](modloading.md) or mod creation. You may also, very rarely, come across mods packaged in `.oiv` - this tool allows you to install them as well.
-
-## Installation { data-search-exclude }
-* Download the [installer](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/) (official website is down at the moment, this is a safe reupload; don't get scammed by the `.org` and the likes).
-* Install :material-file-download:`OpenIVSetup.exe`.
-## Usage
-* Open OpenIV.
-* In the `Grand Theft Auto IV` section, click on `Windows`.
-* If requested, set the directory with the game files.
+OpenIV - это мощный инструмент для модификации, создания и извлечения внутренних файлов. С его помощью можно создавать файлы `.img` и `.rpf`, которые могут быть полезны для [модлоадинга](modloading.md) или создания модов. Также, очень редко, можно встретить моды, запакованные в формате `.oiv` - этот инструмент позволяет установить и их.
+## Установка { data-search-exclude }
+* Скачайте [установщик](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/) (официальный сайт сейчас не работает, это безопасное зеркало; не ведитесь на `.org` и т.п.).
+* Установите :material-file-download:`OpenIVSetup.exe`.
+## Использование
+* Откройте OpenIV.
+* В разделе `Grand Theft Auto IV`, нажмите на `Windows`.
+* Если требуется, задайте папку с файлами игры.
 !!! warning ""
-    Be sure to back up your files before making any changes.
-??? tip "Extracting internal files"
-    Locate them in explorer, double click to open(OpenIV can open `.img` and `.rpf` files), select the files you want to export and right click - `Extract...`. Or right click on an empty space and click `Extract all...`.
-??? tip "Editing existing files"
-    Locate them in explorer(mods usually give the structure to follow), double click to open (OpenIV can open `.img` and `.rpf` files), press :fontawesome-solid-shield-halved:`Edit mode` and modify the files as you wish - changes are saved automatically.
-??? tip "Creating archives"
+    Перед внесением изменений обязательно сделайте резервную копию файлов.
+??? tip "Извлечение внутренних файлов"
+    Найдите их в проводнике, дважды щелкните, чтобы открыть, выберите файлы, которые вы хотите экспортировать, и щелкните правой кнопкой мыши - `Extract...`. Или нажмите в пустом месте правой кнопкой и нажмите `Extract all...` для извлечения всех файлов.
+??? tip "Изменение существующих файлов"
+    Найдите их в проводнике (обычно моды дают структуру, которой нужно следовать), дважды щелкните, чтобы открыть, нажмите :fontawesome-solid-shield-halved:`Edit mode` и измените файлы как хотите - изменения сохраняются автоматически.
+??? tip "Создание архивов"
     !!! info ""
-        This might be useful for you if you're making a mod or trying to pack a mod for a [modloader](modloading.md).
-    Click File - Create Archive and choose the type of the archive you need. After that, choose the directory where you want to save the archive and add and modify the files as you wish - changes are automatically saved.
+        Это может пригодиться вам, если вы создаете мод или пытаетесь упаковать мод для [модлоадера](modloading.md).
+    Нажмите File - Create Archive и выберите тип необходимого архива. После этого выберите папку, в которой будет сохранен архив, и добавляйте и изменяйте файлы как хотите - изменения сохраняются автоматически.
 
-[:material-page-first:Previous page <br>Launcher</br>](launcher.md){ .md-button } [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Лаунчер</br>](launcher.md){ .md-button } [Следующая страница:material-page-last: <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }
