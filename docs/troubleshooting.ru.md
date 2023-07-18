@@ -2,7 +2,7 @@ title: Troubleshooting
 description: Troubleshooting your GTA IV issues.
 
 # Troubleshooting
-Anyone can have problems modding their favorite games, and GTA IV is extremely susceptible.
+Anyone can have problems modding their favorite games, and GTA IV is extremely prone to this.
 ??? info "I'm using the Rockstar Games Launcher and can't install mods!"
     After downgrading or using the drag-and-drop archive, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
 
@@ -21,7 +21,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely s
     Also, check for video card driver updates.
 
 ??? info "Game performance is still poor"
-Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
+    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
 
 ??? info "Load times got even longer"
     Remove ColAccel. It doesn't work properly for some people for some reason.
@@ -56,14 +56,14 @@ Make sure that [DXVK](optimization.md) is installed correctly, and that the [opt
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game crashes during or after load"
-    * Corrupted savefile can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
-    * If you have added modded cars and saved it near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software][https://x3t-infinity.com/GTAIV_SE].
+    * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
+    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software][https://x3t-infinity.com/GTAIV_SE].
     * Unsafe mod installs an also be a problem. Try disabling/deleting some mods.
 
 ??? info "Game randomly crashes mid-game"
     One of your mods is unstable. Don't install too many mods.
 
 ??? info "Game is using the wrong GPU(laptop)"
-Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select max performance in power plan mode.
+    Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select max performance in power plan mode.
 
-[:material-page-first:Previous page <br>Mods</br>](extras/mods.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](../contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Mods</br>](extras/mods.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }

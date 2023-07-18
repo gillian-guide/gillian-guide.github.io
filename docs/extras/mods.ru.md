@@ -62,4 +62,4 @@ description: Установите эти достойные внимания м�
 ## Хотите, чтобы ваш мод был в списке?
 [Свяжитесь со мной!](../contact-me.md){ .md-button .md-button--primary } 
 
-[:material-page-first:Предыдущая страница <br>Модлоадинг</br>](modloading.md){ .md-button } [Следующая страница:material-page-last: <br>Свяжитесь со мной</br>](../contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Модлоадинг</br>](modloading.md){ .md-button } [Следующая страница:material-page-last: <br>Исправление проблем</br>](../troubleshooting.md){ .md-button .md-button--primary }
