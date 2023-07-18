@@ -19,7 +19,7 @@ While they are different in some ways, you can still use both if you're running 
     | A simple .ini for configuration | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## IV Tweaker
-!!! warning ""
+!!! warning "Compatibility"
     Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](../downgrading.md) if using the Complete Edition.
 This modloader is superior to UAL's in many ways - especially the ability to merge different files and having a simple .ini file for configuration. It also allows to increase limits for various things - like VehicleBudget to avoid the taxi bug.
 
@@ -78,10 +78,8 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 ## Ultimate ASI Loader
 !!! warning ""
     See [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) for installation.
-
-    Supports the Complete Edition.
-    
-    Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](../essential-modding/zolikapatch.md).
+!!! warning "Compatibility"
+    Supports the Complete Edition. Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](../essential-modding/zolikapatch.md).
 This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
 
 ???+ info "Usage"
