@@ -11,9 +11,7 @@ You can choose an archive depending on the version you want - be it 1.2.0.59 or 
 	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. ==This version is better for mod compatibility==.
 
 !!! warning ""
-	A potential new huge update is coming soon.
-
-	I can't update the archive frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
+	I can't update the archive too frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
 
 ## Installation { data-search-exclude }
 
