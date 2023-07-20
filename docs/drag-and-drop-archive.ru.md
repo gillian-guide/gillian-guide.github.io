@@ -17,7 +17,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После этого запустите файл :material-file:`install.bat`. После этого переместите содержимое папок :material-folder:==with new vladivostok== или :material-folder:==without new vladivostok== ("new vladivostok" - треки, которые появились после вырезания старых) в папку с игрой - впоследствии эти папки можно будет удалить. После установки пройдите через [второстепенную настройку](additional-setup.md).
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
 		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/). 
 		
@@ -37,7 +37,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После этого переместите содержимое папок :material-folder:==with new vladivostok== или :material-folder:==without new vladivostok== ("new vladivostok" - треки, которые появились после вырезания старых) в папку с игрой - впоследствии эти папки можно будет удалить. После установки пройдите через [второстепенную настройку](additional-setup.md).
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
 		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/). 
 		
