@@ -4,11 +4,49 @@ description: Methods to optimize your GTA IV install
 # Optimization
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have an ultimate solution - but we do have a pretty good one.
 
-## DXVK
-Currently the only good solution for improving game's performance. Although not officially supported for Windows, it works perfectly with GTA IV as of Version 2.2 of DXVK.
+## Drivers
+This may sound obvious, but a lot of people don't install drivers, so I feel the need to mention it. Select your GPU vendor (for the dedicated GPU, not integrated one) and follow the instructions for that vendor only.
 
-!!! warning ""
-    Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2014 and newer GPUs should support the normal version, and 2012 and newer GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced tab to check for yourself. The legacy version will have less performance and may have more bugs.
+=== "NVIDIA"
+    === "NVCleanstall"
+        !!! warning ""
+            This installation method is recommended because it allows you to install only what you need, for example, if you do not want GeForce Experience or Telemetry.
+        * Go to the [official website](https://www.techpowerup.com/nvcleanstall/).
+        * Download the latest version.
+        * Run the :material-file-download:`NVCleanstall_x.x.x.exe`.
+        * Select `Install best driver for my hardware`.
+        * Check `Periodically check for driver updates in background` to always have the latest drivers.
+        * Select the components you want/need (if unsure - click `Recommended` and read the module descriptions and toggle them as needed).
+        * After the download, select tweaks as needed (if unsure - leave them as they are).
+        * Install the driver.
+    === "Official"
+        !!! warning ""
+            This method installs things you may not want, such as Telemetry or GeForce Experience. See NVCleanstall to avoid this.
+        * Go to the [official website](https://www.nvidia.com/en-us/geforce/drivers/).
+        * Install GeForce Experience. If you want the driver separately, select it from the [manual driver search](https://www.nvidia.com/Download/index.aspx?lang=en-us).
+        * Follow the in-app instructions to install the driver.
+=== "AMD"
+    * Go to the [official website](https://www.amd.com/en/support).
+    * Press `Download Windows Drivers`. If you want to manually select your driver instead, use the manual search below.
+    * Follow the in-app instructions to install the driver.
+    * Select `Optional` drivers over `Recommended` to get the latest drivers.
+    * Select `Minimal Install` if you don't need the extra features of the Adrenaline app.
+=== "Intel"
+    * Go to the [official website](https://www.intel.com/content/www/us/en/download-center/home.html).
+    * Either use the automatic tool to detect and install drivers automatically, or browse through the list of video drivers and install the driver you want.
+    * Follow the in-app instructions to install the driver.
+
+## DXVK
+Currently the only good solution for improving game's performance. 
+
+!!! warning "Prerequisites and information"
+    * DXVK mainly improves CPU performance through better drawcall handling - the ones the game abuses so much.
+    * This section is irrelevant for Linux users as Proton/Wine already uses DXVK.
+    * There is a chance that DXVK will not improve performance for you.
+    * DXVK does not officially support Windows, but it works perfectly for GTA IV.
+    * Make sure your [drivers](#drivers) are up-to-date.
+    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. Intel iGPU's only support the Legacy version 1.10.1.
+    * Disable Shader Pre-caching in :material-simple:Steam Settings - Downloads tab.
 
 ??? warning "ENB Support"
     DXVK doesn't officially support ENB (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
@@ -22,7 +60,8 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
 ### Installation { data-search-exclude }
 === "Latest"
     !!! warning ""
-        Use this version if your GPU supports the latest version. See the warning above to make sure.
+        * Use this version if your GPU supports the latest version. See the warning above to make sure.
+        * AMD GPU users won't have shader precompilation on start - they can use [an async patch](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) instead.
 
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
@@ -45,7 +84,8 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
         If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 === "Legacy"
     !!! warning ""
-        Only use this version if your GPU only supports the Legacy version. See the warning above to make sure.
+        * Only use this version if your GPU only supports the Legacy version. See the warning above to make sure.
+        * If using an Intel iGPU, stick to [1.10.1](https://github.com/doitsujin/dxvk/releases/tag/v1.10.1)([async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.1)) instead.
 
     - Instructions:
         * Go to the [1.10.3 release of DXVK](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) and download the :material-zip-box:`dxvk-1.10.3.tar.gz`.
@@ -77,8 +117,10 @@ d3d9.presentInterval = 1
 # numBackBuffers may further improve frametime stability while using Vsync. This option overrides back buffer count for the Vulkan swap chain.
 d3d9.numBackBuffers = 3
 ```
+Also add `dxvk.enableAsync = true` if using an async patch.
 ??? abstract "Full list of DXVK options"
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
+Also set up the [launch options](additional-setup.md).
 
 ## DxWrapper
 ??? note "What's DxWrapper and how to use it?"

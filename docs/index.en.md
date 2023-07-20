@@ -13,6 +13,7 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
 ## Prerequisites
 !!! warning ""
     - In order for this guide to be useful to you, please make sure that the following requirements are met:
+        * A PC running Windows 10/11 or any up-to-date Linux distribution suited for gaming.
         * You **must** own the game on [:material-steam:Steam](https://store.steampowered.com/app/12210/) or the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions are not supported. Retail versions with 1.0.8.0 are not supported, but should work as long as you get rid of the DRM.
         * Your PC must at least meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Requirements on PCGW - copied from Steam"). For a pleasant experience, however, it should also meet [DXVK's requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki")(ignore Linux requirements such as Wine if you're running Windows; older GPUs may meet the 1.10.3 requirements instead).
         * The game should not be located in :material-folder:`C:\Program Files` or :material-folder:`C:\Program Files (x86)` to avoid permission issues. ==This is irrelevant for :material-steam:Steam users.==

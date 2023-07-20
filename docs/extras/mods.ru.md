@@ -57,7 +57,7 @@ description: Установите эти достойные внимания м�
 ## Создание модов
 Если же вы заинтересованы в создании модов, посетите этот сервер Discord(англо-язычный):
 
-[:simple-discord: GTA IV Modding](https://discord.gg/caKjAAYx){ .md-button .md-button--primary }
+[:simple-discord: GTA IV Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
 
 ## Хотите, чтобы ваш мод был в списке?
 [Свяжитесь со мной!](../contact-me.md){ .md-button .md-button--primary } 

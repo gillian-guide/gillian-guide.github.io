@@ -16,12 +16,11 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
 
 The only options you need to set are: `-norestrictions -nomemrestrict`.
 
-??? warning "When using DXVK or drag-and-drop archive..."
-    Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`GTAIV.EFLC.FusionFix.ini` for this to work.
-
-    If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
-
-    If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+???+ warning "When using DXVK or drag-and-drop archive..."
+    * Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`GTAIV.EFLC.FusionFix.ini` for this to work.
+    * If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
+    * If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+    * Furthermore, you can add `-managed` for increased performance, but your game may result in crashing more often, especially with the `-nomemrestrict` argument.
 
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.

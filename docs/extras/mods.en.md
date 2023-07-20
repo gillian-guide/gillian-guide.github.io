@@ -57,7 +57,7 @@ These workshops might have some mods or tools you may be interested in!
 ## Making mods
 If you're interested in making mods instead, visit this Discord server:
 
-[:simple-discord: GTA IV Modding](https://discord.gg/caKjAAYx){ .md-button .md-button--primary }
+[:simple-discord: GTA IV Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
 
 ## Want your mod to be listed?
 [Contact me!](../contact-me.md){ .md-button .md-button--primary } 
