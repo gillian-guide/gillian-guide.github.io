@@ -5,7 +5,7 @@ description: This guide wouldn't be possible without all these amazing people!
 This guide wouldn't be possible without all these amazing people!
 
 ## Zolika1351
-For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [Downgrader](../downgrading/#zolika1351s-downgrader), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more! You can support him [here](https://www.patreon.com/zolika1351).
+For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [Downgrader](../downgrading/#zolika1351s-downgrader), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more! You can support him on [Patreon](https://www.patreon.com/zolika1351).
 
 ## ThirteenAG
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). ThirteenAG currently does not accept donations.
