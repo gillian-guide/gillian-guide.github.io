@@ -30,7 +30,7 @@ This may sound obvious, but a lot of people don't install drivers, so I feel the
     * Press `Download Windows Drivers`. If you want to manually select your driver instead, use the manual search below.
     * Follow the in-app instructions to install the driver.
     * Select `Optional` drivers over `Recommended` to get the latest drivers.
-    * Select `Minimal Install` if you don't need the extra features of the Adrenaline app.
+    * Select `Minimal Install` over `Full Install` if you don't need the extra features of the Adrenaline app.
 === "Intel"
     * Go to the [official website](https://www.intel.com/content/www/us/en/download-center/home.html).
     * Either use the automatic tool to detect and install drivers automatically, or browse through the list of video drivers and install the driver you want.
@@ -45,7 +45,7 @@ Currently the only good solution for improving game's performance.
     * This section is irrelevant for Linux users as Proton/Wine already uses DXVK.
 !!! warning "Prerequisites"
     * Make sure your [drivers](#drivers) are up-to-date.
-    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z)'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. Intel iGPU's only support the Legacy version `1.10.1`.
+    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z")'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. Intel iGPU's only support the Legacy version `1.10.1`.
     * Disable Shader Pre-caching in :material-steam:Steam Settings - Downloads tab.
 
 ??? warning "ENB Support"
@@ -61,7 +61,7 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
 === "Latest"
     !!! warning ""
         * Use this version if your GPU supports the latest version. See the warning above to make sure.
-        * AMD GPU users won't have shader precompilation on start - they can use [an async patch](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) instead.
+        * AMD GPU and Intel Arc users won't have shader precompilation on start - they can use [an async patch](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) instead.
 
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.

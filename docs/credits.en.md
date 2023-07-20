@@ -43,7 +43,7 @@ The communities of these discord servers helped me a lot with this guide:
 * Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) for providing this great environment for writing a guide.
 * [GitHub Pages](https://pages.github.com/) for providing a free hosting and domain, allowing the site to be hosted completely free and not require any ads or donations.
-* Me for spending 60+ hours(+the countless hours that went into research, trial-and-error and writing the steam guides over the span of 2 years) into this guide. If you want to support me, you can do so by supporting me  by [sending money to my monobank jar](https://send.monobank.ua/jar/3cJx2rhdw2) (for reasons, I cannot set up a PayPal or Payoneer account, and so, no Ko-Fi or Patreon either).
+* Me for spending 60+ hours(+the countless hours that went into research, trial-and-error and writing the steam guides over the span of 2 years) into this guide. If you want to support me, you can do so by [sending money to my monobank jar](https://send.monobank.ua/jar/3cJx2rhdw2) (for reasons, I cannot set up a PayPal or Payoneer account, and so, no Ko-Fi or Patreon either).
 * Rockstar Games and Rockstar North for making the game.
 
 ## And everyone else!
