@@ -28,10 +28,10 @@ You can either install this mod as a standalone, as a part of [IV Tweaker](../..
     * Extract the files from the :material-folder:==1. Main== to the :material-folder:==update==, replacing all files if prompted.
     ??? tip "Console-like Gamma"
         If you also want to have console-like gamma and ==you're not using FusionFix==, extract :material-folder:==2. Addons\Console-like Gamma== to :material-folder:==update==, replacing all files when prompted.
-    <figure markdown>
-        ![Console Gamma](assets/console-gamma.png)
-        <figcaption></figcaption>
-    </figure>
+        <figure markdown>
+            ![Console Gamma](assets/console-gamma.png)
+            <figcaption></figcaption>
+        </figure>
 
 === "Part of IV Tweaker"
     !!! warning ""
