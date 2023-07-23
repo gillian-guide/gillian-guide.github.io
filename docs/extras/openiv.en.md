@@ -22,4 +22,8 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
         This might be useful for you if you're making a mod or trying to pack a mod for a [modloader](modloading.md).
     Click File - Create Archive and choose the type of the archive you need. After that, choose the directory where you want to save the archive and add and modify the files as you wish - changes are automatically saved.
 
+# SparkIV
+???+ "What's SparkIV?"
+    SparkIV is an open source alternative to OpenIV. It's not as robust as OpenIV, but it does almost the same thing. I won't provide any usage or installation instructions, but feel free to [check it out yourself](https://github.com/ahmed605/SparkIV).
+
 [:material-page-first:Previous page <br>Launcher</br>](launcher.md){ .md-button } [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
