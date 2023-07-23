@@ -58,25 +58,23 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
 
         ```{ .ini }
         [Keybinds]
-        AirbreakUp=69
-        AirbreakDn=81
+        AirbreakUp=32
+        AirbreakDn=160
         AirbreakForward=87
         AirbreakBack=83
         AirbreakLeft=65
         AirbreakRight=68
-        MenuUp=38
-        MenuDn=40
-        MenuLeft=37
-        MenuRight=39
+        MenuUp=73
+        MenuDn=75
+        MenuLeft=74
+        MenuRight=76
         MenuEnter=13
-        MenuBack=8
+        MenuBack=220
         ```
 
         - Which will be:
-            * Arrow keys for navigation. ++enter++ to accept, ++backspace++ to go back.
-            * ++w++++a++++s++++d++ for horizontal airbreak control, ++q++ and ++e++ for vertical.
-        
-        Enable `Disable Controls in Menu` in `Trainer Settings` to avoid the phone taking over.
+            * ++i++++j++++k++++l++ for navigation. ++enter++ to accept, ++backslash++ to go back.
+            * ++w++++a++++s++++d++ for horizontal airbreak control, ++space++ for going up and ++lshift++ for going down.
 
 ## Liberty's Legacy
 !!! warning "Compatibility"

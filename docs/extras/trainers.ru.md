@@ -59,23 +59,23 @@ description: Добавьте в GTA IV дополнительные функц�
 
         ```{ .ini }
         [Keybinds]
-        AirbreakUp=69
-        AirbreakDn=81
+        AirbreakUp=32
+        AirbreakDn=160
         AirbreakForward=87
         AirbreakBack=83
         AirbreakLeft=65
         AirbreakRight=68
-        MenuUp=38
-        MenuDn=40
-        MenuLeft=37
-        MenuRight=39
+        MenuUp=73
+        MenuDn=75
+        MenuLeft=74
+        MenuRight=76
         MenuEnter=13
-        MenuBack=8
+        MenuBack=220
         ```
 
         - Что будет:
-            * Стрелочки для навигации. ++enter++ - принять, ++backspace++ - назад.
-            * ++w++++a++++s++++d++ для горизонтального управления Airbreak, ++q++ и ++e++ для вертикального.
+            * ++i++++j++++k++++l++ для навигации. ++enter++ - принять, ++backslash++ - назад.
+            * ++w++++a++++s++++d++ для горизонтального управления Airbreak, ++space++ для поднятия высоты, и ++lshift++ для спуска.
         
         Включите `Disable Controls in Menu` в `Trainer Settings` для избегания игрового телефона.
 
