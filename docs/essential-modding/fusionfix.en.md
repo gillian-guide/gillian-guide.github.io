@@ -36,7 +36,7 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
     * `BorderlessWindowed` launches the game in Borderless Windowed mode instead of Exclusive Fullscreen, which the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
     * `RecoilFix` enables weapon recoil on keyboard&mouse controls, which is only present on gamepads due to an oversight. ==Default is `1`.==
-    * `DefinitonFix` fixes blurriness caused by using the Definition [setting](../../additional-setup/#optimal-game-settings). This setting controls the fix from [Shader Fixes](shader-fixes.md). ==Default is `1`.==
+    * `DefinitonFix` fixes the behavior where the game ignores the Definition [setting](../../additional-setup/#optimal-game-settings) in cutscenes. ==Default is `1`.==
     * `EmissiveShaderFix` fixes broken emissive shaders present in the PC port. ==Default is `1`.==
     * `AimingZoomFix` fixes inverted zoom control in TBoGT and allows to remember last zoom multiplier. The options are `0` for disabled, `1` for an xbox-like fix, `2` to also enable the fix in IV and TLAD, `-1` to disable the feature. ==Default is `1`.==
     * `FlickeringShadowsFix` disables player's shadow from headlights to avoid flickering shadows. ==Default is `1`.==

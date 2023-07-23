@@ -21,7 +21,7 @@ description: Полноценный готовый архив для игры в
 	
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
-		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/). 
+		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 		
 		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 		
@@ -41,7 +41,7 @@ description: Полноценный готовый архив для игры в
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой. После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
-		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/). 
+		Архив дожлжен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 		
 		Какой-либо другой способ установки не поддерживается.
 		

@@ -22,7 +22,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	
 	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional setup](additional-setup.md).
 	!!! warning
-		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) Complete Edition installation. 
+		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation. 
 		
 		If you are using the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version, do not start the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced.
 		
@@ -42,7 +42,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 	Download the archive and then simply extract the contents into your game folder.  After installation, go through [additional setup](additional-setup.md).
 	!!! warning
-		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) Complete Edition installation.
+		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation.
 		
 		Other installation methods are not supported.
 		
