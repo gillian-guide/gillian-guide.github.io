@@ -65,7 +65,7 @@ These workshops might have some mods or tools you may be interested in!
 
 [Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 
-[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button .md-button--primary } 
+[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button} 
 
 ## Making mods
 If you're interested in making mods instead, visit this Discord server:
