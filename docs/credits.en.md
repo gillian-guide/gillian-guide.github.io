@@ -36,7 +36,7 @@ The communities of these discord servers helped me a lot with this guide:
 
 [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
-## Extra Mentions
+## Special Thanks
 * [Kreato](https://github.com/kreatoo) for his help to set up this website - check out his stuff if you like Linux tinkering.
 * [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
 * Steam Community for actively supporting me during the making of the original guide on Steam.
