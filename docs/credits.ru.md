@@ -31,8 +31,7 @@ description: Это руководство было бы невозможно б
 ## Коммьюнити Discord
 Сообщества этих англо-язычных серверов в Discord очень помогли мне в работе над этим руководством:
 
-[:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } 
-
+[:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } [:simple-discord: Мой сервер в Discord](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 ## Дополнительные упоминания
 * [Kreato](https://github.com/kreatoo) за помощь в создании этого сайта - посмотрите его репозитории, если вам нравится играться с Linux.
 * [Коммьюнити PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) за их вклад в вики, который помог мне сделать это руководство более полным (конечно, я тоже внес свой вклад).

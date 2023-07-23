@@ -67,6 +67,8 @@ description: Установите эти достойные внимания м�
 
 [Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 
+[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button .md-button--primary } 
+
 ## Создание модов
 Если же вы заинтересованы в создании модов, посетите этот сервер Discord(англо-язычный):
 
