@@ -6,4 +6,4 @@ description: Установите важные моды на вашу устан
 
 Все, что перечислено в этом разделе, требует наличия [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).
 
-[:material-page-first:Предыдущая страница <br>Зависимости для модов</br>](../mod-dependencies.md){ .md-button } [Следующая страница:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Зависимости для модов</br>](../mod-dependencies.md){ .md-button } [Следующая страница:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }

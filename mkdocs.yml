@@ -85,8 +85,8 @@ nav:
   - "mod-dependencies.md"
   - Essential Modding:
     - "essential-modding/index.md"
-    - "essential-modding/fusionfix.md"
     - "essential-modding/zolikapatch.md"
+    - "essential-modding/fusionfix.md"
     - "essential-modding/shader-fixes.md"
   - "multiplayer.md"
   - Extras:

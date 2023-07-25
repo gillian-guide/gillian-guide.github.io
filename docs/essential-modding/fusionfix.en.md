@@ -58,4 +58,4 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` in bytes(e.g. 200000000). ==Default is `0`.==
     * `PedBudget` allows to change the ped budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
 
-[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Shader Fixes</br>](shader-fixes.md){ .md-button .md-button--primary }
