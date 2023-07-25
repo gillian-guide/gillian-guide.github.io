@@ -2,20 +2,18 @@ title: Готовый архив
 description: Полноценный готовый архив для игры в желаемую версию GTA IV
 
 # Готовый архив { data-search-exclude }
-Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Вы можете сравнить список модов [ниже](#_4) - 1.0.8.0 имеет больше модов, имейте это ввиду. В основном у вас не будет [ZolikaPatch](essential-modding/zolikapatch.md) и Liberty Tweaks.
+Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Вы можете сравнить список модов [ниже](#_4) - 1.0.8.0 имеет больше значимых модов, имейте это ввиду.
 
 ### Примечания { data-search-exclude }
 !!! info ""
 	1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). ==Количество поддерживаемых модов в этой версии также значительно ограничено - большинство модов создано для версий 1.0.8.0 и 1.0.7.0==.
 	2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и мультиплеера. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md). ==Эта версия лучше подходит для совместимости с модами==.
 !!! warning ""
-	Я сам не могу слишком часто обновлять архив - загляните на страницы и посмотрите, не было ли обновлений у модов, особенно у тех, что наверху.
-
-	Убедитесь, что прошли через всю [подготовку](index.md) (кроме необходимого места на диске).
-
-	Убедитесь, что установлены последние [драйвера](../optimization/#_2).
-
-	Убедитесь, что папка с игрой чистая и без лишних модов (:material-steam:Steam не удаляет старые моды).
+	* Я сам не могу слишком часто обновлять архив - загляните на страницы и посмотрите, не было ли обновлений у модов, особенно у тех, что наверху.
+	* Убедитесь, что прошли через всю [подготовку](index.md) (кроме необходимого места на диске).
+	* Убедитесь, что установлены последние [драйвера](../optimization/#_2).
+	* Убедитесь, что папка с игрой чистая и без лишних модов (:material-steam:Steam не удаляет старые моды).
+	* После установки архива рекомендуется начать игру с нового файла сохранения, но можно продолжать играть и с существующими файлами сохранения - просто возникнут небольшие проблемы (например, второстепенные объекты окажутся там, где их не должно быть).
 
 ## Установка { data-search-exclude }
 
@@ -76,6 +74,8 @@ description: Полноценный готовый архив для игры в
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
 	| [Characters Fixes~2023-06-09~ от TheYoshiPunch, (Japan) GTA Love и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
+	| [Restored Pedestrians от Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Восстанавливает различных вырезанных/не включенных педов. |
+	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
@@ -161,7 +161,7 @@ description: Полноценный готовый архив для игры в
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
-		* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах. Добавлен Project Thunder.
+		* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах. Добавлены Project Thunder, Restored Pedestrians, Various Pedestrian Actions.
 		* 24.07.2023 - Перепакованы моды дабы использовать меньше папок. Добавлены улучшения текстур дорог, Project Glass (+освещение для автобусных остановок), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display и несколько исправлений позаимствованы из Responsive Plus.
 		* 20.07.2023 - Изменен dxvk на dxvk-gplasync. Обновлён FusionFix.
 		* 19.07.2023 - Обновлены Downgrader, ZolikaPatch, IV Tweaker, FusionFix, Shader Fixes. Добавлены Radio Downgrader, GTA Online QUB3D Background, Better Wardrobes, Traffic Cops in the Toolbooths, Xbox Rain Droplets, Fixed Pistol Sights. Добавлен Dualsense buttons в дополнительные моды. Удалены Pedestrians with Unused Clothing Restored и Varied Alderney State Trooper Ped из-за несовместимостей.

@@ -3,7 +3,7 @@ description: A complete ready-to-play drag-and-drop archive for your desired GTA
 
 
 # Drag-and-Drop Archive { data-search-exclude }
-If you don't want to manually mod your game, you can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). You can compare the modlist between the versions [below](#modlist) - 1.0.8.0 has more, keep that in mind. You'll mainly be lacking [ZolikaPatch](essential-modding/zolikapatch.md) and Liberty Tweaks.
+If you don't want to manually mod your game, you can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). You can compare the modlist between the versions [below](#modlist) - 1.0.8.0 has a lot more notable improvements, keep that in mind.
 
 ### Notes { data-search-exclude }
 !!! info ""
@@ -11,13 +11,11 @@ If you don't want to manually mod your game, you can choose an archive depending
 	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) and [multiplayer](multiplayer.md) support. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. ==This version is better for mod compatibility==.
 
 !!! warning ""
-	I can't update the archive too frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
-
-	Make sure you follow the [prerequisites](index.md) (except for required space).
-
-	Make sure latest [drivers](../optimization/#drivers) are installed.
-
-	Make sure the game folder is a completely clean, fresh installation with no leftovers (:material-steam:Steam does not remove leftovers).
+	* I can't update the archive too frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
+	* Make sure you follow the [prerequisites](index.md) (except for required space).
+	* Make sure latest [drivers](../optimization/#drivers) are installed.
+	* Make sure the game folder is a completely clean, fresh installation with no leftovers (:material-steam:Steam does not remove leftovers).
+	* It is recommended that you start the game with a new save file after installing the archive, but you can continue to play on existing save files - you will just encounter minor issues (such as secondary objects being where they shouldn't be).
 
 ## Installation { data-search-exclude }
 
@@ -76,6 +74,8 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
+	| [Restored Pedestrians by Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Restores various cut/non-included pedestrians to the game world. |
+	| [Various Pedestrians Actions by Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Restores various cut/non-included pedestrian actions to the game world. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
 	| [Project Thunder by ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Adds a highly customizable thunder effect to the Lighting weather. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
@@ -163,7 +163,7 @@ These mods are not included by default, but do not require any additional steps 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
-		* 25.07.2023 - Updated Fix Collection. Minor .ini tweaks. Added Project Thunder.
+		* 25.07.2023 - Updated Fix Collection. Minor .ini tweaks. Added Project Thunder, Restored Pedestrians, Various Pedestrian Actions.
 		* 24.07.2023 - Repackage mods to reduce folder bloat. Added Road Texture Enhancement, Project Glass(+lighthing for bus stops), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display and borrowed a few fixes from Responsive Plus.
 		* 20.07.2023 - Changed dxvk to dxvk-gplasync. Updated FusionFix.
 		* 19.07.2023 - Updated the Downgrader, ZolikaPatch, IV Tweaker, FusionFix, Shader Fixes. Added the Radio Downgrader, GTA Online QUB3D Background, Better Wardrobes, Traffic Cops in the Toolbooths, Xbox Rain Droplets, Fixed Pistol Sights. Added Dualsense buttons to optionals. Removed Pedestrians with Unused Clothing Restored and Varied Alderney State Trooper Ped due to potential incompatibilities.
