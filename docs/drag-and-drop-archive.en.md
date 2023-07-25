@@ -17,6 +17,8 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 	Make sure latest [drivers](../optimization/#drivers) are installed.
 
+	Make sure the game folder is a completely clean, fresh installation with no leftovers (:material-steam:Steam does not remove leftovers).
+
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
