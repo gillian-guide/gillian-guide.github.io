@@ -22,7 +22,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
 	
-	Download the archive and then simply extract the contents into your game folder. After installation, go through [additional setup](additional-setup.md).
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). After installation, go through [additional setup](additional-setup.md).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation. 
 		
@@ -31,7 +31,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Other installation methods are not supported.
 		
 		In addition, I will not support any additional modifications to the files other than the instructions already listed.
-	??? info "Updating"
+	???+ info "Updating"
 		If you're updating after installing the archive instead, delete :material-folder:==update== and :material-folder:==modloader== first.
 	??? warning "If the game does not start"
 		Try to install :material-file-download:`vcredist_x86.exe` that's in your game folder.
@@ -51,7 +51,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Other installation methods are not supported.
 		
 		In addition, I will not support any additional modifications to the files other than the instructions already listed.
-	??? info "Updating"
+	???+ info "Updating"
 		If you're updating after installing the archive instead, delete :material-folder:==update== first.
 	??? warning "If the game does not start"
 		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
