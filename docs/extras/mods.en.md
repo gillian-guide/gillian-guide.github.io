@@ -26,6 +26,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores various cut/non-included pedestrians to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Restores various cut/non-included pedestrian actions to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre |  |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 
@@ -33,7 +34,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | Mod | Author(s) | Description |
 | :-: | :-------: | :---------: |
 | [IV Fixes and Improvements](https://zolika1351.pages.dev/mods/ivfixes) | Zolika1351 | Collection of minor fixes and improvements. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [Fixes from Responsive Plus by iiCriminnaaL and me](https://cdn.discordapp.com/attachments/1129814754593091594/1132775010780577893/FixCollection.7z) | Several fixes from Responsivle Plus, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat` and `cargrp.dat`. |
+| [Fix Collection](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL, nkjellman and me | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
 | [Better Wardrobes](https://zolika1351.pages.dev/mods/ivwardrobe) | Zolika1351 | Improves the clunky wardrobe the game originally has. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on outfits. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -44,7 +45,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | 6135 | Fixes missing normal and specular textures on Luis' bag, improves texture quality. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | 6135 | Fixes missing normal and specular textures on Johnny's shoes. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes incorrect suit display in Perseus. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [Fixes from Responsive Plus](https://cdn.discordapp.com/attachments/1129814754593091594/1132775010780577893/FixCollection.7z) | iiCriminnaaL and me | Several fixes from Responsivle Plus, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat` and `cargrp.dat`. |
+| [Fix Collection](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL, nkjellman and me | Several fixes from Responsivle Plus, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat` and `cargrp.dat`. |
 | [GTA Online QUB3D Background](https://zolika1351.pages.dev/mods/ivqub3d) | Zolika1351 | Ports the QUB3D background from GTA V. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/) | B Dawg, C1aude_III | This project improves various issues with weapon animations. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Higher resolutions textures for all vehicles(some ported from Max Payne 3 and GTA V, some sourced from original sources). Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |

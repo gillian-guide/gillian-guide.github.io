@@ -44,6 +44,9 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info ":material-steam:Steam Achievements don't work after downgrading"
     You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
 
+??? info "RMN60 error on launch"
+    Reinstall [ZolikaPatch](essential-modding/zolikapatch.md). Your antivirus is likely at fault - disable it or add the game folder to exceptions.
+
 ??? info "Game crashes"
     Make sure you started with a clean install. After installing any mods, make sure your game is working properly by starting it at least once in game to pinpoint the problematic mod.
 
@@ -56,6 +59,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game crashes during or after load"
+    * Make sure you started with a clean install (after pressing Uninstall on Steam, manually wipe the remainders in the folder).
     * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
     * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
     * Unsafe mod installs an also be a problem. Try disabling/deleting some mods.
