@@ -13,6 +13,8 @@ If you don't want to manually mod your game, you can choose an archive depending
 !!! warning ""
 	I can't update the archive too frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
 
+	Make sure you follow the [prerequisites](index.md) (except for required space).
+
 	Make sure latest [drivers](../optimization/#drivers) are installed.
 
 ## Installation { data-search-exclude }
@@ -34,6 +36,8 @@ If you don't want to manually mod your game, you can choose an archive depending
 	??? warning "If the game does not start"
 		Try to install :material-file-download:`vcredist_x86.exe` that's in your game folder.
 
+		Disable your antivirus or add the GTA IV folder to exceptions.
+
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
 	??? warning "My game is behaving strangely/my game is crashing randomly"
 		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. [Let me know if you find the problem](contact-me.md).
@@ -50,6 +54,8 @@ If you don't want to manually mod your game, you can choose an archive depending
 	??? info "Updating"
 		If you're updating after installing the archive instead, delete :material-folder:==update== first.
 	??? warning "If the game does not start"
+		Disable your antivirus or add the GTA IV folder to exceptions.
+
 		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
 	??? warning "My game is behaving strangely/my game is crashing randomly"
 		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==. [Let me know if you find the problem.](contact-me.md)
