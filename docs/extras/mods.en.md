@@ -26,7 +26,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores various cut/non-included pedestrians to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Restores various cut/non-included pedestrian actions to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre |  |
+| [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre | Adds a highly customizable thunder effect to the Lighting weather. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 
