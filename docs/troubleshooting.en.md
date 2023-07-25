@@ -55,6 +55,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
     * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
+    * Make sure MSI Afterburner and/or RivaTuner Statistics and any other software of this sort is not running - overlays mess the game up on boot.
     * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)(and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
