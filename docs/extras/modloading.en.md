@@ -47,7 +47,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
                         * :material-file:`TBoGTAnims.img`
                             
     ??? "Configuring the modloader"
-        To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==. Make sure you set the correct priority so you don't have unwanted mods overriding other mods. Make sure mods that should be be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are for TBoGT are disabled for TLAD (Ep1), and mods that are for TLAD are disabled for TBoGT(Ep2). If you have issues - experiment with disabling mods.
+        To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==. Make sure you set the correct priority so you don't have unwanted mods overriding other mods(higher number - higher priority). Make sure mods that should be be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are for TBoGT are disabled for TLAD (Ep1), and mods that are for TLAD are disabled for TBoGT(Ep2). If you have issues - experiment with disabling mods.
         ??? warning "Expected configuration"
             Improved Animations mod will be used for an example.
 
@@ -109,6 +109,8 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
                                 * :material-file:`WeaponInfo.xml`
 
     ??? "Configuring the modloader"
-        Currently, I do not know of any way to configure the modloader to set up a priority or anything else. [Contact me](../contact-me.md) if you know a way to.
+        If you want to set a priority, put a number in front of the mod folder name. Lower number - higher priority.
+
+        I don't know of any other way to configure the modloader. [Contact me](../contact-me.md) if you know a way to.
 
 [:material-page-first:Previous page <br>OpenIV</br>](openiv.md){ .md-button } [Next page:material-page-last: <br>Mods</br>](mods.md){ .md-button .md-button--primary }
