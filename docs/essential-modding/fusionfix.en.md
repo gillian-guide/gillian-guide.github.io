@@ -41,7 +41,7 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `AimingZoomFix` fixes inverted zoom control in TBoGT and allows to remember last zoom multiplier. The options are `0` for disabled, `1` for an xbox-like fix, `2` to also enable the fix in IV and TLAD, `-1` to disable the feature. ==Default is `1`.==
     * `FlickeringShadowsFix` disables player's shadow from headlights to avoid flickering shadows. ==Default is `1`.==
     * `ExtraDynamicShadows` allows to restore missing dynamic shadows, up to forcing all objects to cast a shadow. The options are `0` for disabled, `1` for restoring some missing ,shadows, `2` for adding vegetation shadows and `3` for forcing all shadows. ==Default is `1`.==
-    * `DynamicShadowForTrees` makes tree shadows dynamic. ==Default is `0`.==
+    * `DynamicShadowForTrees` makes tree shadows dynamic. ==Default is `1`.==
     * `FpsLimitPreset` controls the FPS limiter preset. Toggle from the in-game Settings - Display tab instead - recommended to limit to 60 FPS to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues). ==Default is `0`.==
     * `FrameLimitType` controls the type of the framerate lock. The options are `1` for a real-time lock (thread-lock) and `2` for an accurate lock (sleep-yield) that uses less resources. ==Default is `2`.==
     * `FpsLimit` allows you to set a custom framerate lock. Set your desired framerate as an option. To toggle it in-game, change the "FPS limiter" setting in Settings - Display to `Default`. ==Default is `0`.==
@@ -55,6 +55,7 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `DisableCameraCenteringInCover` allows you to disable camera centering when entering a corner of cover. [Enabled](https://imgur.com/93CKToM) vs [Disabled](https://imgur.com/q6i6KOX). ==Default is `1`.== 
     * `MouseFix` removes the mouse deadzone. ==Default is `1`.== 
     * `ScreenFilter` changes the timecyc between Default, IV, TLAD and TBoGT. Use the in-game toggle in Settings - Screen instead. ==Default is `5`.== 
+    * `DepthOfField` toggles Depth of Field. Use the in-game toggle in Settings - Screen instead. ==Default is `1`.==
     * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` in bytes(e.g. 200000000). ==Default is `0`.==
     * `PedBudget` allows to change the ped budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
 

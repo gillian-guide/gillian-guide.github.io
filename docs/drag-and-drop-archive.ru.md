@@ -66,13 +66,13 @@ description: Полноценный готовый архив для игры в
 	| [ZolikaPatch IV~7.61~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
 	| [IV Tweaker~2.35~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Выступает основным модлоадером в сборке, а также позволяет увеличить лимиты для других модов. |
 	| [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
-	| [FusionFix~1.67~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Портировано Zolika1351'ом](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br>|
+	| [FusionFix~1.73~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Портировано Zolika1351'ом](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br>|
 	| [Shader Fixes Collection~V109~ от Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| Сборник многочисленных фиксов шейдеров, от простого скейлинга до ввостановления их консольных версий. |
 	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Переводит DirectX 9 в Vulkan - метод оптимизации. ==Удалите :fontawesome-solid-gears:`d3d9.dll` и измените параметры в :material-file-cog:`dxvk.conf` на параметры запуска Proton, если вы используете Linux (или просто удалите файл)== |
 	| [Liberty Tweaks~1.1~ от The Westside Minions & Коммьюнити моддинга GTA IV](https://gtaforums.com/topic/991160-liberty-tweaks/)| Мод с большим количеством quality-of-life изменений. |
 	| [Various Fixes~1.5~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
-	| [Characters Fixes~2023-06-09~ от TheYoshiPunch, (Japan) GTA Love и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
+	| [Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Restored Pedestrians от Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Восстанавливает различных вырезанных/не включенных педов. |
 	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
@@ -111,7 +111,7 @@ description: Полноценный готовый архив для игры в
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
-	| [Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек. |
+	| [Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
 	| [Sugar Chomps - Separate Signs от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Редактирует UV-мапку на вывеске Sugar Chomps для использования неиспользованной текстуры. |
 	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
@@ -159,6 +159,7 @@ description: Полноценный готовый архив для игры в
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
+        * 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes - также слегка перепакован.
 		* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах. Добавлены Project Thunder, Restored Pedestrians, Various Pedestrian Actions.
 		* 24.07.2023 - Перепакованы моды дабы использовать меньше папок. Добавлены улучшения текстур дорог, Project Glass (+освещение для автобусных остановок), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display и несколько исправлений позаимствованы из Responsive Plus.
 		* 20.07.2023 - Изменен dxvk на dxvk-gplasync. Обновлён FusionFix.
