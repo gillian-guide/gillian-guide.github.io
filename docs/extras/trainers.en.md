@@ -104,4 +104,4 @@ This trainer is less robust than the other two, but.. some people would want it,
 ???+ tip "Usage"
     ++f3++ to open the menu, ++num8++, ++num2++, ++num4++, ++num6++ for navigation. Read the :material-file:`readme.doc` or the GTAForums page for instructions and keybinds.
 
-[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Multiplayer</br>](../multiplayer.md){ .md-button } [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }

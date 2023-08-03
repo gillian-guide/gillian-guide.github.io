@@ -92,9 +92,9 @@ nav:
     - "essential-modding/zolikapatch.md"
     - "essential-modding/fusionfix.md"
     - "essential-modding/shader-fixes.md"
-  - "multiplayer.md"
   - Extras:
     - "extras/index.md"
+    - "multiplayer.md"
     - "extras/trainers.md"
     - "extras/launcher.md"
     - "extras/openiv.md"

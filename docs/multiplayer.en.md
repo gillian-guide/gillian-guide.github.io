@@ -122,4 +122,4 @@ This client also aims to provide a highly flexible multiplayer experience, simil
 
 [:material-web: Liberty City Online's website](https://lc-online.net/){ .md-button .md-button--primary }
 
-[:material-page-first:Previous page <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Next page:material-page-last: <br>Extras</br>](extras/index.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button } [Next page:material-page-last: <br>Trainers</br>](extras/trainers.md){ .md-button .md-button--primary }
