@@ -8,6 +8,7 @@ A lot of mods require replacing internal files with [OpenIV](openiv.md). We can 
 While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0. UAL's, for example, can cover what IV Tweaker doesn't support.
 ???+ question "Comparison"
     * :material-plus-minus: means "Partially" or "Not as good".
+
     | Advantages | IV Tweaker | UAL's |
     | :--------: | :--------: | :---: |
     | 1.0.8.0 and 1.0.7.0 support | :material-checkbox-marked-circle: | :material-plus-minus: |
