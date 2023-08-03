@@ -49,4 +49,4 @@ The communities of these discord servers helped me a lot with this guide:
 ## And everyone else!
 Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you!
 
-[:material-page-first:Previous page <br>Contact me</br>](contact-me.md){ .md-button }
+[:material-page-first:Previous page <br>Introductions</br>](index.md){ .md-button } [Next page:material-page-last: <br>Credits</br>](credits.md){ .md-button .md-button--primary }

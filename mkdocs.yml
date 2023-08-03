@@ -77,7 +77,11 @@ markdown_extensions:
 
 
 nav:
-  - "index.md"
+  - Introduction:
+    - "index.md"
+    - "credits.md"
+    - "troubleshooting.md"
+    - "contact-me.md"
   - "drag-and-drop-archive.md"
   - "optimization.md"
   - "additional-setup.md"
@@ -96,9 +100,6 @@ nav:
     - "extras/openiv.md"
     - "extras/modloading.md"
     - "extras/mods.md"
-  - "troubleshooting.md"
-  - "contact-me.md"
-  - "credits.md"
 
 extra:
   social:

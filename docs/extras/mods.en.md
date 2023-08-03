@@ -35,6 +35,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | Mod | Author(s) | Description |
 | :-: | :-------: | :---------: |
 | [IV Fixes and Improvements](https://zolika1351.pages.dev/mods/ivfixes) | Zolika1351 | Collection of minor fixes and improvements. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores several trees that were only present in the beta version. |
 | [Fix Collection](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL, nkjellman and me | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
 | [Better Wardrobes](https://zolika1351.pages.dev/mods/ivwardrobe) | Zolika1351 | Improves the clunky wardrobe the game originally has. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -79,4 +80,4 @@ If you're interested in making mods instead, visit this Discord server:
 ## Want your mod to be listed?
 [Contact me!](../contact-me.md){ .md-button .md-button--primary } 
 
-[:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button } [Next page:material-page-last: <br>Troubleshooting</br>](../troubleshooting.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Modloading</br>](modloading.md){ .md-button }

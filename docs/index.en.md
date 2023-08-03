@@ -19,7 +19,7 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
         * The game should not be located in :material-folder:`C:\Program Files` or :material-folder:`C:\Program Files (x86)` to avoid permission issues. ==This is irrelevant for :material-steam:Steam users.==
         * Make sure you have enough free space on your drive (the base game takes about 22GB, a backup will take just as much, plus count in all the modding you'd do - reserve at least 70GB counting the game too).
         * You need to have an archivator installed. I recommend [7-Zip](https://www.7-zip.org/ "Official 7-Zip website").
-        * Make sure you have the game's prerequisites installed(they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
+        * Make sure you have the game's prerequisites installed (they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
 
 ## Gameplay Demo
 Your game will look and play roughly like this after finishing the modding (the [drag-and-drop archive](drag-and-drop-archive.md) has been used for this video).
@@ -30,5 +30,4 @@ If you have no need for the in-depth tutorials, you can simply install the [drag
 
 Otherwise, start with [optimization](optimization.md).
 
-[Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
-
+[Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Credits</br>](credits.md){ .md-button .md-button--primary }

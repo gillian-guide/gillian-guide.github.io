@@ -10,7 +10,7 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 * Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
 * Download latest version. Read the notes on the page.
 * Extract :material-zip-box:`GTAIVLauncher_vx.x.zip` into any folder of choice.
-* Open :material-file:`GTAIVLauncher.exe` with :fontawesome-solid-shield-halved:==admin rights==.
+* Open :material-file:`GTAIVLauncher.exe` :fontawesome-solid-shield-halved:==as an Administrator==.
 * Follow the in-app instructions to create and configure instances.
 ???+ tip "How to launch the launcher with :material-steam:Steam"
     * Move the launcher files to the game folder.

@@ -22,6 +22,9 @@ The only options you need to set are: `-norestrictions -nomemrestrict`.
     * If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
     * You can also add `-managed` for better performance, but your game may crash more often, especially with the `-nomemrestrict` option.
 
+???+ warning "When running on Linux..."
+    * Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
+
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 

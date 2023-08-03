@@ -68,9 +68,9 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Game randomly crashes mid-game"
     One of your mods is unstable. Don't install too many mods.
 
-??? info "Game is using the wrong GPU(laptop)"
+??? info "Game is using the wrong GPU (Nvidia laptop)"
     Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select `Max Performance` in `Power Plan Mode`.
 
 If you know an issue and a solution that I missed, [contact me!](contact-me.md)
 
-[:material-page-first:Previous page <br>Mods</br>](extras/mods.md){ .md-button } [Next page:material-page-last: <br>Contact me</br>](contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Contact Me | Discord Server</br>](contact-me.md){ .md-button .md-button--primary }
