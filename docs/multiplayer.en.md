@@ -57,7 +57,7 @@ The classic multiplayer method, the one that started it all. And the one that is
     === "Buying another GFWL game"
         Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted. I recommend `FlatOut: Ultimate Carnage`, but any other GFWL game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) will do.
 
-        <iframe style="background: transparent; background-color: transparent;" allowtransparency="true" src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
+        <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"
