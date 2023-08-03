@@ -74,4 +74,4 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 If you know an issue and a solution that I missed, [contact me!](contact-me.md)
 
-[:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Contact Me | Discord Server</br>](contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Discord Server</br>](contact-me.md){ .md-button .md-button--primary }
