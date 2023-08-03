@@ -32,6 +32,9 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
 
     * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
 
+???+ warning "When running on Linux..."
+    * Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
+
 ??? tip "Modloading"
     This tool can be used for modloading purposes. See [modloading](extras/modloading.md).
 
