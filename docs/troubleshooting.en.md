@@ -14,6 +14,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * `-refreshrate (refresh rate)`
 
     Example:
+
     * `-width 1920`
     * `-height 1080`
     * `-refreshrate 60`
