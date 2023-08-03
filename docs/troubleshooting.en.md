@@ -19,7 +19,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * `-height 1080`
     * `-refreshrate 60`
 
-    Also, check for video card driver updates.
+    Also, check for [GPU driver updates](../optimization/#drivers).
 
 ??? info "Game performance is still poor"
     Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
@@ -34,7 +34,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
 
 ??? info "Game loads endlessly when loading saves | Constantly missing textures | Game shows wrong VRAM value in settings"
-    Set the `-availablevidmem` [launch options](../additional-setup/#launch-options) (with a value of up to 3072.0).
+    Set the `-availablevidmem` [launch option](../additional-setup/#launch-options) (with a value of up to 3072.0).
 
 ??? info "Random but constant frame timing problems (i.e. a microstutter every 0.5 seconds)"
     Try disconnecting your gamepad. If the problem goes away, try enabling Steam Overlay. If the problem persists, try enabling Steam Input as well.
@@ -57,14 +57,14 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
     * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     * Make sure MSI Afterburner and/or RivaTuner Statistics and any other software of this sort is not running - overlays mess the game up on boot.
-    * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)(and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
+    * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) (and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game crashes during or after load"
     * Make sure you started with a clean install (after pressing Uninstall on Steam, manually wipe the remainders in the folder).
     * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
     * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
-    * Unsafe mod installs an also be a problem. Try disabling/deleting some mods.
+    * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game randomly crashes mid-game"
     One of your mods is unstable. Don't install too many mods.
