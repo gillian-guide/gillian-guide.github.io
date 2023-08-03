@@ -19,6 +19,7 @@ However, we have several downgraders to choose from.
 It depends vaguely on your goals. If you want something as simple as a drag&drop archive - go with Zolika1351's. If you want something more in-depth - go with ItsClockAndre's.
 
 ???+ question "Comparison"
+    * :material-plus-minus: means "Partially" or "Not as good".
     | Advantages | Zolika1351's | ItsClockAndre's |
     | :--------: | :----------: | :-------------: |
     | Downgrading to 1.0.8.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
