@@ -38,8 +38,12 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Disable your antivirus or add the GTA IV folder to exceptions. Extract :material-file:`ZolikaPatch.asi` again after doing so.
 
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
+
+		See [troubleshooting](troubleshooting.md).
 	??? warning "My game is behaving strangely/my game is crashing randomly"
-		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==. [Let me know if you find the problem](contact-me.md).
+		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==.
+
+		See [troubleshooting](troubleshooting.md).
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
