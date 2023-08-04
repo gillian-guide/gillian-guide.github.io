@@ -21,6 +21,9 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
         In simpler words, the game will not use the files from :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
     * Extract into the game folder.
 
+    ???+ warning "When running on Linux..."
+    * Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
+
 ??? tip "How to use `.asi` mods?"
     !!! warning ""
         Make sure your mod is built for Ultimate ASI Loader and not for [ScriptHook](#scripthook) or [IV-SDK .NET](#iv-sdk-net).
@@ -31,9 +34,6 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     This tool can be used to get rid of [GFWL](../multiplayer/#games-for-windows-live) if you're not interested in [multiplayer](multiplayer.md) and Xbox achievements. This will reduce the amount of hassle you have with your game.
 
     * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
-
-???+ warning "When running on Linux..."
-    * Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
 
 ??? tip "Modloading"
     This tool can be used for modloading purposes. See [modloading](extras/modloading.md).
