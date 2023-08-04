@@ -33,7 +33,7 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
         The options are either `0` for disabled and `1` for enabled unless otherwise noted.
     
     * `SkipIntro` allows to skip the game's normally unskippable intro video. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
-    * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
+    * `SkipMenu` allows to skip game's menu, loading into the savefile immediately upon launching the game. You can hold ++lshift++ to stop at the menu. This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
     * `BorderlessWindowed` launches the game in Borderless Windowed mode instead of Exclusive Fullscreen, which the game uses by default (`-windowed` [launch option](../../additional-setup/#launch-options) must be set for this to work). This setting has an in-game toggle in Settings - Game. ==Default is `1`.==
     * `RecoilFix` enables weapon recoil on keyboard&mouse controls, which is only present on gamepads due to an oversight. ==Default is `1`.==
     * `DefinitonFix` fixes the behavior where the game ignores the Definition [setting](../../additional-setup/#optimal-game-settings) in cutscenes. ==Default is `1`.==

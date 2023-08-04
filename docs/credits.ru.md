@@ -5,10 +5,10 @@ description: Это руководство было бы невозможно б
 Это руководство было бы невозможно без всех этих замечательных людей!
 
 ## Zolika1351
-За их работу над [ZolikaPatch](essential-modding/zolikapatch.md), [даунгрейдером](../downgrading/#zolika1351), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помогает многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое!
+За их работу над [ZolikaPatch](essential-modding/zolikapatch.md), [даунгрейдером](../downgrading/#zolika1351), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помогает многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое! Вы можете поддержать его на [Patreon](https://www.patreon.com/zolika1351).
 
 ## ThirteenAG
-За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md).
+За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). ThirteenAG на данный момент не принимает донаты.
 
 ## ItsClockAndre
 За их работу над [даунгрейдером](../downgrading/#itsclockandre), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md).
@@ -24,6 +24,9 @@ description: Это руководство было бы невозможно б
 
 ## Разработчики клиентов для мультиплеера
 Всем, кто вносит свой вклад в создание многопользовательских клиентов, спасибо за то, что вы поддерживаете мультиплеер GTA IV!
+
+## Разработчики DXVK
+Без [всех этих людей](https://github.com/doitsujin/dxvk/graphs/contributors) DXVK не был бы таким отличным, как сейчас!
 
 ## Создатели модов
 Их имена уже перечислены рядом с их вкладом в [модах](extras/mods.md), они тоже много сделали! Я очень уважаю всех моддеров, чьи моды я перечислил - и если я не перечислил ваш мод, который вы считаете подходящим для [модов](extras/mods.md), [свяжитесь со мной!](contact-me.md)
@@ -46,4 +49,4 @@ description: Это руководство было бы невозможно б
 ## И всех других!
 Всем остальным, кто помогал мне в создании этого руководства, мотивировал меня на дальнейшую работу или просто поделился этим руководством со своими друзьями, - спасибо!
 
-[:material-page-first:Предыдущая страница <br>Свяжитесь со мной</br>](contact-me.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Исправление проблем</br>](troubleshooting.md){ .md-button .md-button--primary }

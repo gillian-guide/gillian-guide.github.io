@@ -1,9 +1,9 @@
-title: Свяжитесь со мной
-description: Есть вопросы? Нашли еще один замечательный мод, достойный упоминания? Нашли проблему в руководстве? Обязательно дайте мне знать!
+title: Сервер в Discord
+description: Есть вопросы? Нашли еще один замечательный мод, достойный упоминания? Нашли проблему в руководстве? Хотите пообщаться с другими фанатами GTA IV? Обязательно загляните в мой сервер в Discord!
 
-# Свяжитесь со мной
-Есть вопросы? Нашли еще один замечательный мод, достойный упоминания? Нашли проблему в руководстве? Обязательно дайте мне знать!
+# Сервер в Discord
+Есть вопросы? Нашли еще один замечательный мод, достойный упоминания? Нашли проблему в руководстве? Хотите пообщаться с другими фанатами GTA IV? Обязательно загляните в мой сервер в Discord!
 
-[:simple-discord: Мой сервер в Discord](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary } [:simple-github: GitHub Issues](https://github.com/gillian-guide/gillian-guide.github.io/issues){ .md-button .md-button--primary }
+[:simple-discord: Мой сервер в Discord](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
-[:material-page-first:Предыдущая страница <br>Исправление проблем</br>](extras/mods.md){ .md-button } [Следующая страница:material-page-last: <br>Авторы</br>](credits.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Исправление проблем</br>](troubleshooting.md){ .md-button } [Следующая страница:material-page-last:<br>Готовый архив</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Следующая страница:material-page-last: <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary }

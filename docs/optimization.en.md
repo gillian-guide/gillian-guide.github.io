@@ -82,6 +82,8 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
         Use version 2.2 or version 2.0, which are the latest versions confirmed to be safe to use. 
        
         If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
+
+        See [troubleshooting](troubleshooting.md).
 === "Legacy"
     !!! warning ""
         * Only use this version if your GPU only supports the Legacy version. See the warning above to make sure.
@@ -106,7 +108,8 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
     
     ??? warning "If you have problems..."
         If your game won't start at all, your GPU doesn't support DXVK.
-    
+
+        See [troubleshooting](troubleshooting.md).
 ### Configuration
 Create a :material-file-cog:`dxvk.conf` in the game folder and add following lines to the file with any text editor(sourced from [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
 ``` { .py }
@@ -120,7 +123,7 @@ d3d9.numBackBuffers = 3
 Also add `dxvk.enableAsync = true` if using an async patch.
 ??? abstract "Full list of DXVK options"
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
-Also set up the [launch options](additional-setup.md).
+Also go through [additional setup](additional-setup.md).
 
 ## DxWrapper
 ??? note "What's DxWrapper and how to use it?"

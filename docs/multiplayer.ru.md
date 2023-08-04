@@ -122,4 +122,4 @@ description: Познакомьтесь с мультиплеером GTA IV!
 
 [:material-web: Сайт Liberty City Online](https://lc-online.net/){ .md-button .md-button--primary }
 
-[:material-page-first:Предыдущая страница <br>Shader Fixes</br>](essential-modding/shader-fixes.md){ .md-button } [Следующая страница:material-page-last: <br>Дополнительно</br>](extras/index.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Дополнительно</br>](extras/index.md){ .md-button } [Следующая страница:material-page-last: <br>Трейнеры</br>](extras/trainers.md){ .md-button .md-button--primary }

@@ -1,5 +1,5 @@
 title: Discord Server
-description: Got some questions? Found another great mod worth mentioning? Found an issue with the guide? Make sure to direct it to me!
+description: Got some questions? Found another great mod worth mentioning? Found an issue with the guide? Just want to chat with other GTA IV fans? Visit my Discord server!
 
 # Discord Server
 Got some questions? Found another great mod worth mentioning? Found an issue with the guide? Just want to chat with other GTA IV fans? Visit my Discord server!

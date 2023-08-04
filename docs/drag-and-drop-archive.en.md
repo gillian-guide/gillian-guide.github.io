@@ -40,7 +40,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Alternatively, your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
 
 		See [troubleshooting](troubleshooting.md).
-	??? warning "My game is behaving strangely/my game is crashing randomly"
+	??? warning "My game is behaving strangely | My game is crashing randomly"
 		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==.
 
 		See [troubleshooting](troubleshooting.md).
@@ -69,82 +69,82 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
-	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade. |
 	| [Downgrader~v20~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader, ZolikaPatch, SteamAchievements and IV Tweaker included. |
+	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade. |
 	| [ZolikaPatch IV~7.61~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
 	| [IV Tweaker~2.35~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
 	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
 	| [FusionFix~1.73~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
 	| [Shader Fixes Collection~V109~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
+	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
 	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file).== |
-	| [Liberty Tweaks~1.1~ by The Westside Minions & The GTA IV Modding Community](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. ==This mod allows to quicksave using ++f9++ key. It also allows to holster weapons using the ++h++ key.== |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
+	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
+	| [Liberty Tweaks~1.1~ by The Westside Minions & The GTA IV Modding Community](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. ==This mod allows to quicksave using ++f9++ key. It also allows to holster weapons using the ++h++ key.== |
+	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
-	| [Restored Pedestrians by Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Restores various cut/non-included pedestrians to the game world. |
-	| [Various Pedestrians Actions by Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Restores various cut/non-included pedestrian actions to the game world. |
-	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
-	| [Project Thunder by ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Adds a highly customizable thunder effect to the Lighting weather. |
 	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
 	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a nicer to use one. |
-	| [Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
-	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
-	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
 	| [Project2DFX~4.3~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
 	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
-	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Restored Pedestrians by Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Restores various cut/non-included pedestrians to the game world. |
+	| [Various Pedestrians Actions by Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Restores various cut/non-included pedestrian actions to the game world. |
+	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
+	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
+	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
+	| [Project Thunder by ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Adds a highly customizable thunder effect to the Lighting weather. |
+	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
+	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002)| Higher resolution specular maps for weapons. |
+	| [Dodgy Doc - Higher Quality by donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Increases the texture resolution for the Dodgy Doc. |
+	| [Resized Blista Compact by Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. |
+	| [Fixed LCPD Buffalo by Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Fixes the police Buffalo model and texture bugs. |
+	| [Player Outfit Texture Fixes by B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Fixes green-ish textures on outfits. |
+	| [Fixed Suit Display in Perseus by _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Fixes incorrect suit display in Perseus. |
+	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
 	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV map on the sign to include an unused texture. |
-	| [Dodgy Doc - Higher Quality by donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Increases the texture resolution for the Dodgy Doc. |
 	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Simple script mod that replaces the toll booth cop peds with traffic cops |
-	| [Resized Blista Compact by Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. |
-	| [Player Outfit Texture Fixes by B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Fixes green-ish textures on outfits. |
-	| [Fixed LCPD Buffalo by Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Fixes the police buffalo model and texture bugs. |
 	| [Luis' Helmet Reflections Fix by 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Fixes the reflections on Luis' helmet. |
 	| [Luis' Bag Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Fixes missing normal and specular textures on Luis' bag, improves texture quality. |
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
-	| [Fixed Suit Display in Perseus by _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Fixes incorrect suit display in Perseus. |
 	| [GTA Online QUBE3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
-	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
-	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002)| Higher resolution specular maps for weapons. |
 === "1.2.0.59"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade. |
 	| [FusionFix~1.73~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). |
 	| [Shader Fixes Collection~V109~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. |
-	| [DXVK~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file).== |
+	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
+	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. ==Remove :fontawesome-solid-gears:`d3d9.dll` and change :material-file-cog:`dxvk.conf` options to Proton launch options instead if you're using Linux(or just remove the file).== |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
+	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
+	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
+	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
+	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
+	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
+	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
-	| [Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3.<br>[Manually ported.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
-	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
-	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
-	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
-	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
-	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
+	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002)| Higher resolution specular maps for weapons. |
+	| [Dodgy Doc - Higher Quality by donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Increases the texture resolution for the Dodgy Doc. |
+	| [Resized Blista Compact by Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. |
+	| [Fixed LCPD Buffalo by Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Fixes the police buffalo model and texture bugs. |
+	| [Player Outfit Texture Fixes by B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Fixes green-ish textures on outfits. |
+	| [Fixed Suit Display in Perseus by _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Fixes incorrect suit display in Perseus. |
+	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
 	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV map on the sign to include an unused texture. |
-	| [Dodgy Doc - Higher Quality by donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Increases the texture resolution for the Dodgy Doc. |
 	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Simple script mod that replaces the toll booth cop peds with traffic cops |
-	| [Resized Blista Compact by Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. |
-	| [Player Outfit Texture Fixes by B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Fixes green-ish textures on outfits. |
-	| [Fixed LCPD Buffalo by Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Fixes the police buffalo model and texture bugs. |
 	| [Luis' Helmet Reflections Fix by 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Fixes the reflections on Luis' helmet. |
 	| [Luis' Bag Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Fixes missing normal and specular textures on Luis' bag, improves texture quality. |
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
-	| [Fixed Suit Display in Perseus by _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Fixes incorrect suit display in Perseus. |
 	| [GTA Online QUBE3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
-	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
-	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002)| Higher resolution specular maps for weapons. |
 
 ## Additional Mods { data-search-exclude }
 These mods are not included by default, but do not require any additional steps to install over the archive
@@ -188,7 +188,7 @@ These mods are not included by default, but do not require any additional steps 
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive is updated frequently, below is the list of changes:
-	    * 03.08.2023 - Added Restored Trees Position. Rearranged some files to avoid incompatibility issues. 
+	    * 03.08.2023 - Added Restored Trees Position.
 		* 02.08.2023 - Updated FusionFix, Trilogy Characters Fixes, Console Visuals.
 		* 25.07.2023 - Updated Fix Collection. Minor .ini tweaks.
 		* 23.07.2023 - Fixed priority for mods. Repackage mods to reduce folder bloat. Added Road Texture Enhancement, Project Glass(+lighthing for bus stops), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display and borrowed a few fixes from Responsive Plus.

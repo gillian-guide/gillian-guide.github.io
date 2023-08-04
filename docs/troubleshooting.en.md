@@ -31,7 +31,9 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Install [FusionFix](essential-modding/fusionfix.md) and enable the `FPS limiter` in Settings - Display and set it to 60 FPS.
 
 ??? info "Game loads directly into the savegame on startup, no menu"
-    Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
+    You can hold ++lshift++ on boot for when you need the menu.
+    
+    If you want to completely disable the feature off, open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
 
 ??? info "Game loads endlessly when loading saves | Constantly missing textures | Game shows wrong VRAM value in settings"
     Set the `-availablevidmem` [launch option](../additional-setup/#launch-options) (with a value of up to 3072.0).
@@ -69,8 +71,8 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Game randomly crashes mid-game"
     One of your mods is unstable. Don't install too many mods.
 
-??? info "Game is using the wrong GPU (Nvidia laptop)"
-    Go to the Nvidia Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select `Max Performance` in `Power Plan Mode`.
+??? info "Game is using the wrong GPU (NVIDIA laptop)"
+    Go to the NVIDIA Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select `Max Performance` in `Power Plan Mode`.
 
 If you know an issue and a solution that I missed, [contact me!](contact-me.md)
 

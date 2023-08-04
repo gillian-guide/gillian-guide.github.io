@@ -8,6 +8,7 @@ description: Полноценный готовый архив для игры в
 !!! info ""
 	1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). ==Количество поддерживаемых модов в этой версии также значительно ограничено - большинство модов создано для версий 1.0.8.0 и 1.0.7.0==.
 	2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и мультиплеера. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md). ==Эта версия лучше подходит для совместимости с модами==.
+
 !!! warning ""
 	* Я сам не могу слишком часто обновлять архив - загляните на страницы и посмотрите, не было ли обновлений у модов, особенно у тех, что наверху.
 	* Убедитесь, что прошли через всю [подготовку](index.md) (кроме необходимого места на диске).
@@ -37,8 +38,12 @@ description: Полноценный готовый архив для игры в
 		Отключите антивирус или добавьте папку с GTA IV в исключения. Распакуйте :material-file:`ZolikaPatch.asi` заново.
 
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
-	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==. [Сообщите мне о проблеме, если вы ее обнаружите.](contact-me.md)
+
+		Просмотрите [исправление проблем](troubleshooting.md).
+	??? warning "Моя игра нестабильна | Моя игра случайно вылетает"
+		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==.
+
+		Просмотрите [исправление проблем](troubleshooting.md).
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
 
@@ -52,85 +57,90 @@ description: Полноценный готовый архив для игры в
 	???+ info "Обновление"
 		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update==.
 	??? warning "Если игра не запускается"
-		
 		Ваш ПК, возможно, не поддерживает DXVK - удалите :fontawesome-solid-gears:`d3d9.dll` из папки с игрой или попробуйте async 1.10.3 из [дополнительных модов](#_5).
-	??? warning "Моя игра нестабильна/случайно вылетает"
-		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==. [Сообщите мне о проблеме, если вы ее обнаружите.](contact-me.md)
+
+		Просмотрите [исправление проблем](troubleshooting.md).
+	??? warning "Моя игра нестабильна | Моя игра случайно вылетает"
+		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==.
+
+		Просмотрите [исправление проблем](troubleshooting.md).
 
 ## Список модов { data-search-exclude }
 === "1.0.8.0"
 	| Название мода | Детали |
 	| :-----------: | :----: |
-	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
 	| [Downgrader~v20~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| Простой даунгрейд до 1.0.8.0 с Ultimate ASI Loader, ZolikaPatch, SteamAchievements и IV Tweaker. |
+	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
 	| [ZolikaPatch IV~7.61~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
 	| [IV Tweaker~2.35~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Выступает основным модлоадером в сборке, а также позволяет увеличить лимиты для других модов. |
 	| [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
 	| [FusionFix~1.73~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Портировано Zolika1351'ом](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br>|
 	| [Shader Fixes Collection~V109~ от Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| Сборник многочисленных фиксов шейдеров, от простого скейлинга до ввостановления их консольных версий. |
+	| [Console Visuals~1.3~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
 	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Переводит DirectX 9 в Vulkan - метод оптимизации. ==Удалите :fontawesome-solid-gears:`d3d9.dll` и измените параметры в :material-file-cog:`dxvk.conf` на параметры запуска Proton, если вы используете Linux (или просто удалите файл)== |
-	| [Liberty Tweaks~1.1~ от The Westside Minions & Коммьюнити моддинга GTA IV](https://gtaforums.com/topic/991160-liberty-tweaks/)| Мод с большим количеством quality-of-life изменений. |
 	| [Various Fixes~1.5~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+	| [Trilogy Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
+	| [Liberty Tweaks~1.1~ от The Westside Minions & Коммьюнити моддинга GTA IV](https://gtaforums.com/topic/991160-liberty-tweaks/)| Мод с большим количеством quality-of-life изменений. ==Этот мод позволяет совершить быстрое сохранение с помощью клавиши ++f9++. Он также позволяет убирать оружие в кобуру с помощью клавиши ++h++.== |
+	| [Improved Animations Pack~1.3~ от B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Фиксы для некоторых анимаций оружия, как задержка стрельбы. |
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
-	| [Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
-	| [Restored Pedestrians от Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Восстанавливает различных вырезанных/не включенных педов. |
-	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
-	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
-	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
-	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
-	| [Sugar Chomps - Separate Signs от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Редактирует UV-мапку на вывеске Sugar Chomps для использования неиспользованной текстуры. |
-	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
-	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Простой скрипт, который заменяет педов-копов в платной дороге на дорожных полицейских. |
-	| [Resized Blista Compact от Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Исправление модели для Blista Compact, придание ей правильных размеров и исправление ошибок моделирования. |
-	| [Player Outfit Texture Fixes от B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Исправлены зеленоватые текстуры одежды. |
-	| [Fixed LCPD Buffalo от Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Исправлены ошибки в модели и текстуре полицейского Buffalo. |
-	| [Luis' Helmet Reflections Fix от 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Исправлено отражение на шлеме Луиса. |
-	| [Luis' Bag Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на сумке Луиса, улучшено качество текстур. |
-	| [Johnny's Shoe Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на обуви Джонни. |
-	| [Fixed Suit Display in Perseus от _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Исправлено некорректное отображение костюмов в Perseus. |
-	| [Fix Collection от iiCriminnaaL, nkjellman и меня](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Несколько исправлений из Responsivle Plus и Graphics Fix, а именно - `stipple.wtd`, `coronas.wtd`, `carcols.dat` и `cargrp.dat` и файлы, связанные с эффектами брызг дождя. Моя работа здесь заключается только в том, что я их собрал отдельно. |
+	| [Fix Collection от iiCriminnaaL, nkjellman и меня](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Несколько исправлений из Responsive Plus и Graphics Fix, а именно - `stipple.wtd`, `coronas.wtd`, `carcols.dat` и `cargrp.dat` и файлы, связанные с эффектами брызг дождя. Моя работа здесь заключается только в том, что я их собрал отдельно. |
 	| [Better Wardrobes от Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Заменяет неудобный шкаф на более приятный. |
 	| [Project2DFX~4.3~ от ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Добавляет приятные огни в далеке ночью. ==Можно отключить, удалив файлы `IVLodLights`.== |
 	| [Xbox Rain Droplets от ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Добавляет на экран красивые капельки воды. ==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.== |
-	| [Console Visuals~1.2~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~1.3~ от B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Фиксы для некоторых анимаций оружия, как задержка стрельбы. |
+	| [Restored Pedestrians от Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Восстанавливает различных вырезанных/не включенных педов. |
+	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
+	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
+	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
+	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
+	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. |
-	| [GTA Online QUBE3D Background от Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Портированный фон QUB3D (без сетки) из GTA Online. |
+	| [Improved Weapon Spec от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Текстуры спекулярных мапок для оружий в более высоком разрешении. |
+	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
+	| [Resized Blista Compact от Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Исправление модели для Blista Compact, придание ей правильных размеров и исправление ошибок моделирования. |
+	| [Fixed LCPD Buffalo от Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Исправлены ошибки в модели и текстуре полицейского Buffalo. |
+	| [Player Outfit Texture Fixes от B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Исправлены зеленоватые текстуры одежды. |
+	| [Fixed Suit Display in Perseus от _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Исправлено некорректное отображение костюмов в Perseus. |
 	| [Default Pistol Iron Sight Fix от grasscid](https://www.nexusmods.com/gta4/mods/15)| Исправляет неправильный прицел на пистолетах. |
+	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
+	| [Sugar Chomps - Separate Signs от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Редактирует UV-мапку на вывеске Sugar Chomps для использования неиспользованной текстуры. |
+	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Простой скрипт, который заменяет педов-копов в платной дороге на дорожных полицейских. |
+	| [Luis' Helmet Reflections Fix от 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Исправлено отражение на шлеме Луиса. |
+	| [Luis' Bag Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на сумке Луиса, улучшено качество текстур. |
+	| [Johnny's Shoe Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на обуви Джонни. |
+	| [GTA Online QUBE3D Background от Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Портированный фон QUB3D (без сетки) из GTA Online. |
 	| [Xbox One/Series S+X Buttons от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Более современные текстуры для кнопок контроллера. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| Текстуры радиостанций в более высоком разрешении. |
-	| [Improved Weapon Spec от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Текстуры спекулярных мапок для оружий в более высоком разрешении. |
 === "1.2.0.59"
 	| Название мода | Детали |
 	| :-----------: | :----: |
 	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
 	| [FusionFix~1.73~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) |
 	| [Shader Fixes Collection~V109~ от Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| Сборник многочисленных фиксов шейдеров, от простого скейлинга до ввостановления их консольных версий. |
+	| [Console Visuals~1.3~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
 	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Переводит DirectX 9 в Vulkan - метод оптимизации. ==Удалите :fontawesome-solid-gears:`d3d9.dll` и измените параметры в :material-file-cog:`dxvk.conf` на параметры запуска Proton, если вы используете Linux (или просто удалите файл)== |
 	| [Various Fixes~1.5~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+	| [Trilogy Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
+	| [Improved Animations Pack~1.3~ от B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Фиксы для некоторых анимаций оружия, как задержка стрельбы. |
 	| [IV Fixes and Improvements~3.3~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
+	| [Fix Collection от iiCriminnaaL, nkjellman и меня](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Несколько исправлений из Responsivle Plus и Graphics Fix, а именно - `stipple.wtd`, `coronas.wtd`, `carcols.dat` и `cargrp.dat` и файлы, связанные с эффектами брызг дождя. Моя работа здесь заключается только в том, что я их собрал отдельно. |
+	| [Project2DFX~4.5~ от ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Добавляет приятные огни в далеке ночью. ==Можно отключить, удалив файлы `IVLodLights`.== |
+	| [Xbox Rain Droplets от ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Добавляет на экран красивые капельки воды. ==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.== |
+	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
-	| [Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
+	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. <br>[Вручную портировано.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
+	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
+	| [Resized Blista Compact от Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Исправление модели для Blista Compact, придание ей правильных размеров и исправление ошибок моделирования. |
+	| [Fixed LCPD Buffalo от Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Исправлены ошибки в модели и текстуре полицейского Buffalo. |
+	| [Player Outfit Texture Fixes от B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Исправлены зеленоватые текстуры одежды. |
+	| [Fixed Suit Display in Perseus от _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Исправлено некорректное отображение костюмов в Perseus. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Исправляет сломанную текстуру на табличке "Waiting Room". |
 	| [Sugar Chomps - Separate Signs от donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Редактирует UV-мапку на вывеске Sugar Chomps для использования неиспользованной текстуры. |
-	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
 	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Простой скрипт, который заменяет педов-копов в платной дороге на дорожных полицейских. |
-	| [Resized Blista Compact от Thundersmacker](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Исправление модели для Blista Compact, придание ей правильных размеров и исправление ошибок моделирования. |
-	| [Player Outfit Texture Fixes от B Dawg](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | Исправлены зеленоватые текстуры одежды. |
-	| [Fixed LCPD Buffalo от Ooboy](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Исправлены ошибки в модели и текстуре полицейского Buffalo. |
 	| [Luis' Helmet Reflections Fix от 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Исправлено отражение на шлеме Луиса. |
 	| [Luis' Bag Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на сумке Луиса, улучшено качество текстур. |
 	| [Johnny's Shoe Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на обуви Джонни. |
-	| [Fixed Suit Display in Perseus от _ys](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | Исправлено некорректное отображение костюмов в Perseus. |
-	| [Fix Collection от iiCriminnaaL, nkjellman и меня](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Несколько исправлений из Responsivle Plus и Graphics Fix, а именно - `stipple.wtd`, `coronas.wtd`, `carcols.dat` и `cargrp.dat` и файлы, связанные с эффектами брызг дождя. Моя работа здесь заключается только в том, что я их собрал отдельно. |
-	| [Xbox Rain Droplets от ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Добавляет на экран красивые капельки воды. ==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.== |
-	| [Project2DFX~4.5~ от ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Добавляет приятные огни в далеке ночью. ==Можно отключить, удалив файлы `IVLodLights`.== |
-	| [Console Visuals~1.2~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(PC Leaves)</br> |
-	| [Improved Animations Pack~1.3~ от B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Фиксы для некоторых анимаций оружия, как задержка стрельбы. |
 	| [GTA Online QUBE3D Background от Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Портированный фон QUB3D (без сетки) из GTA Online. |
-	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. <br>[Вручную портировано.](https://drive.google.com/file/d/1rMgtpkMBoyoaaFwYTl1bPV5eWEJwXQ4q/view?usp=drive_link)</br> |
 	| [Xbox One/Series S+X Buttons от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Более современные текстуры для кнопок контроллера. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| Текстуры радиостанций в более высоком разрешении. |
 	| [Improved Weapon Spec от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Текстуры спекулярных мапок для оружий в более высоком разрешении. |
@@ -160,6 +170,7 @@ description: Полноценный готовый архив для игры в
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
+		* 03.08.2023 - Добавлен Restored Trees Position. Перепакованы несколько файлов дабы избежать несовместимостей. Обновлён Console Visuals.
         * 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes - также слегка перепакован.
 		* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах. Добавлены Project Thunder, Restored Pedestrians, Various Pedestrian Actions.
 		* 24.07.2023 - Перепакованы моды дабы использовать меньше папок. Добавлены улучшения текстур дорог, Project Glass (+освещение для автобусных остановок), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display и несколько исправлений позаимствованы из Responsive Plus.
@@ -177,7 +188,8 @@ description: Полноценный готовый архив для игры в
 		* 26.06.2023 - Создание архива.
 === "1.2.0.59"
 	- Архив часто обновляется, ниже приведен список его изменений:
-		* 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes.
+		* 03.08.2023 - Добавлен Restored Trees Position.
+		* 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals.
 		* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах.
 		* 23.07.2023 - Исправлен приоритет для модов. Перепакованы моды дабы использовать меньше папок. Добавлены улучшения текстур дорог, Project Glass (+освещение для автобусных остановок), Dodgy Doc - Higher Quality, Rescaled Blista Compact, Player Outfit Texture Fixes, LCPD Buffalo Fix, Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Fixed Suit Display и несколько исправлений позаимствованы из Responsive Plus.
 		* 20.07.2023 - Изменен dxvk на dxvk-gplasync. Обновлён FusionFix.

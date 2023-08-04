@@ -20,6 +20,9 @@ description: Как установить зависимости для ваше�
 
         Проще говоря, игра не будет использовать файлы из :material-zip-box:`Ultimate-ASI-Loader_x64.zip`.
     * Распакуйте в папку с игрой.
+    
+    ???+ warning "При использовании Linux..."
+    * Совершите [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) для использования :fontawesome-solid-gears:`dinput8.dll` или :fontawesome-solid-gears:`xlive.dll`.
 
 ??? tip "Как использовать `.asi` моды?"
     !!! warning ""

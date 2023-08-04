@@ -10,7 +10,7 @@ description: Используете несколько установок GTA IV
 * Перейдите на [страницу GTAForums](https://gtaforums.com/topic/978788-gta-iv-launcher/).
 * Скачайте последнюю версию. Прочитайте примечания на странице.
 * Распакуйте :material-zip-box:`GTAIVLauncher_vx.x.zip` в любую папку на выбор.
-* Откройте :material-file:`GTAIVLauncher.exe` с :fontawesome-solid-shield-halved:==правами администратора==.
+* Откройте :material-file:`GTAIVLauncher.exe` :fontawesome-solid-shield-halved:==от имени администратора==.
 * Следуйте инструкциям в приложении для создания и настройки установок.
 ???+ tip "Как запускать лаунчер из :material-steam:Steam"
     * Переместите файлы лаунчера в папку с игрой.
