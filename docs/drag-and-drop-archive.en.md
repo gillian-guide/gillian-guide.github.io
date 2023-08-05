@@ -19,9 +19,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	* Last updated: [^^03.08.2023^^](#changelog)
-
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary } * Last updated: [^^03.08.2023^^](#changelog)
 	
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). After installation, go through [additional setup](additional-setup.md).
 	!!! warning
@@ -47,9 +45,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		See [troubleshooting](troubleshooting.md).
 === "1.2.0.59"
-	* Last updated: [^^03.08.2023^^](#changelog)
-
-	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary } * Last updated: [^^03.08.2023^^](#changelog)
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==).  After installation, go through [additional setup](additional-setup.md).
 	!!! warning

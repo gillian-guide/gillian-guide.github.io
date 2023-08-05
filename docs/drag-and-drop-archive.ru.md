@@ -19,9 +19,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	* Последнее обновление: [^^03.08.2023^^](#_6)
-
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary } * Последнее обновление: [^^03.08.2023^^](#_6)
 	
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
@@ -47,9 +45,7 @@ description: Полноценный готовый архив для игры в
 
 		Просмотрите [исправление проблем](troubleshooting.md).
 === "1.2.0.59"
-	* Последнее обновление: [^^03.08.2023^^](#_6)
-
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary } * Последнее обновление: [^^03.08.2023^^](#_6)
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
