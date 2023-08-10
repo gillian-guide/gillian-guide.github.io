@@ -85,7 +85,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`.
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
 | Setting | Optimal Setting | Console Setting | Description | 
 | :-----: | :-------------: | :-----------: | :---------: |
-| Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3; both ran at 20-30 FPS | This setting controls your monitor resolution or, if the `-windowed' launch option is set, the size of the game window. |
+| Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed' launch option is set, the size of the game window. |
 | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
 | Texture Quality | High | Medium | This setting controls the resolution of all textures. |
 | Reflection Resolution | Very High | Medium | This setting controls the resolution of reflections (excluding water reflections). |
@@ -96,9 +96,13 @@ The only options you need to set are: `-norestrictions -nomemrestrict`.
 | View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. |
 | Detail Distance | Between 10 and 70 | 10 | This setting controls the secondary LOD render distance for props detail. Setting it above 70 can cause instability and artifacts. |
 | Vehicle Density | Preference - preferably below 90 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
-| Definition | Off | Off | This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred images on PC and effects that simply do not scale up in resolution - use [Shader Fixes](essential-modding/shader-fixes.md) to solve this problem. Can be quickly toggled by pressing ++p++ button. |
-| FXAA | On | - | This setting controls FXAA (a simple method of Anti-Aliasing) - use [FusionFix](essential-modding/fusionfix.md) for it to exist, or [Shader Fixes](essential-modding/shader-fixes.md) to have FXAA at all times. |
+| Definition | Off | Off | This setting controls depth of field* and motion blur - however, it is also known to cause problems with blurred images on PC and effects that simply do not scale up in resolution - use [Shader Fixes](essential-modding/shader-fixes.md) to solve this problem - however, this changes the setting to toggle Motion Blur only. (see the next setting for toggling depth of field). Can be quickly toggled by pressing ++p++ button. |
+| Depth of Field | On | On | This setting controls depth of field. ==Only appears in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).== |
+| FXAA | On | On | This setting controls FXAA (a simple method of Anti-Aliasing) - use [FusionFix](essential-modding/fusionfix.md) for it to exist, or [Shader Fixes](essential-modding/shader-fixes.md) to have FXAA at all times. |
 | VSync | Off | On | This setting controls the vertical synchronization. We'll use the one bundled with [DXVK](optimization.md) instead, as it has much better framepacing. |
+| Console Gamma | On | On | [Changes the gamma to match the console-like look.](essential-modding/assets/console-gamma.png) ==Only appears in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md). The change itself comes from [Shader Fixes](essential-modding/shader-fixes.md).== |
+| FPS Limiter | 60 | 30 | Changes the FPS limit. Recommended to set to 60 to avoid [timing issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues). ==Only appears in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).== |
+| Screen Filter | Default | Default | Allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). ==Only appears in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).== |
 
 ??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often use :material-file-cog:`stream.ini` and change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.
