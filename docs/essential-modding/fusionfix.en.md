@@ -13,8 +13,10 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
         [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
     * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
     * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` into the game folder.
+    !!! tip ""
+        Optionally, if the official release is more up-to-date, you can update the files from the :material-folder:==update== - simply download the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) and extract only the :material-folder:==update==.
 === "1.2.0.59"
-    * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) page.
+    * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.
     * Extract the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
 !!! tip ""
