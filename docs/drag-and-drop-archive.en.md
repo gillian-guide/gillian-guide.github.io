@@ -17,7 +17,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	* It is recommended that you start the game with a new save file after installing the archive, but you can continue to play on existing save files - you will just encounter minor issues (such as secondary objects being where they shouldn't be).
 
 !!! warning "Performance"
-	**This archive does NOT provide optimal performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. The performance, in most cases, is still perfectly acceptable and most people shouldn't mind the slight drop in performance.**
+	**This archive does NOT provide highest possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. The performance, in most cases, is still perfectly acceptable and most people shouldn't mind the slight drop in performance.**
 
 ## Installation { data-search-exclude }
 
