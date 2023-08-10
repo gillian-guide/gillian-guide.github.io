@@ -10,8 +10,6 @@ description: Познакомьтесь с мультиплеером GTA IV!
 
     Убедитесь, что `RecoilFix` установлен на `0` в :material-file-cog:`GTAIV.EFLC.FusionFix.ini`, чтобы не оказаться в нечестном положении по отношению к другим игрокам.
 
-    Используйте [JacksIVFixes](https://drive.google.com/file/d/1-qTmg28S6lHNI2qoYtCwdECOMb4hh9f2/view?usp=sharing), чтобы игра не считала ввод при сворачивании.
-
     Кроме того, вам может понадобиться [ZMenuIV](../extras/trainers/#ZMenuIV) для возможности создания и участия в [пользовательских режимах](https://grandtheftrevivalforums.com/thread/9/all-community-game-mode-rules).
 
     Вы также можете использовать [этот мод](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) для разблокировки всей одежды для кастомизации.
