@@ -19,7 +19,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[07.08.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[10.08.2023](#changelog)**
 	
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). After installation, go through [additional setup](additional-setup.md).
 	!!! warning
@@ -45,7 +45,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		See [troubleshooting](troubleshooting.md).
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[07.08.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[10.08.2023](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==).  After installation, go through [additional setup](additional-setup.md).
 	!!! warning
@@ -69,9 +69,9 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	| Mod name | Details |
 	| :------: | :-----: |
-	| [Downgrader~v20~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader, ZolikaPatch, SteamAchievements and IV Tweaker included. |
+	| [Downgrader~v22~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader, ZolikaPatch, SteamAchievements and IV Tweaker included. |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade. |
-	| [ZolikaPatch IV~7.61~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
+	| [ZolikaPatch IV~7.62~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
 	| [IV Tweaker~2.35~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
 	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
 	| [FusionFix~1.76~ by ThirteenAG and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Ported by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)</br> |
@@ -84,7 +84,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
 	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
-	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a nicer to use one. |
+	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a nicer to use one. ==This mod also unlocks all clothing as of now, so if you don't want that - remove :material-file:`WardrobeMod.asi`== |
 	| [Project2DFX~4.3~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
 	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
 	| [Restored Pedestrians by Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Restores various cut/non-included pedestrians to the game world. |
@@ -171,6 +171,7 @@ These mods are not included by default, but do not require any additional steps 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
+		* 10.08.2023 - Updated the Downgrader, ZolikaPatch and Project Glass. 
 		* 07.08.2023 - Updated FusionFix.
     	* 03.08.2023 - Added Restored Trees Position. Rearranged some files to avoid incompatibility issues. Updated Console Visuals.
 		* 02.08.2023 - Updated FusionFix, Trilogy Characters Fixes - also repacked it slightly.
@@ -190,6 +191,7 @@ These mods are not included by default, but do not require any additional steps 
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive is updated frequently, below is the list of changes:
+		* 10.08.2023 - Updated Project Glass.  
 		* 07.08.2023 - Updated FusionFix. 
 	    * 03.08.2023 - Added Restored Trees Position.
 		* 02.08.2023 - Updated FusionFix, Trilogy Characters Fixes, Console Visuals.
