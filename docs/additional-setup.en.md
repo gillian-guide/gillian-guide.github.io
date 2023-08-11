@@ -18,6 +18,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`.
 
 ???+ warning "When using DXVK or drag-and-drop archive..."
     * Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`GTAIV.EFLC.FusionFix.ini` for this to work.
+    * Disable `Enable Shader Pre-caching` in `Settings` - `Downloads` on Steam.
     * If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
     * If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
     * You can also add `-managed` for better performance, but your game may crash more often, especially with the `-nomemrestrict` option.
