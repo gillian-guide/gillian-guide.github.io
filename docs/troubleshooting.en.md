@@ -65,7 +65,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Game crashes during or after load"
     * Make sure you started with a clean install (after pressing Uninstall on Steam, manually wipe the remainders in the folder).
     * A corrupted save file can be a problem if you were playing on a newer version before downgrading. This can be fixed by [downgrading your savefile](../downgrading/#downgrading-the-savefile).
-    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. and saved them near your savehouse, your savefile will be corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
+    * If you have added modded cars and saved them near your savehouse, your savefile may be corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game randomly crashes mid-game"
