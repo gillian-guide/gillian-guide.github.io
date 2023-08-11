@@ -50,9 +50,6 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "RMN60 error on launch"
     Reinstall [ZolikaPatch](essential-modding/zolikapatch.md). Your antivirus is likely at fault - disable it or add the game folder to exceptions.
 
-??? info "Game crashes"
-    Make sure you started with a clean install. After installing any mods, make sure your game is working properly by starting it at least once in game to pinpoint the problematic mod.
-
 ??? info "Game crashes immediately upon booting | Won't even boot"
     * Reboot your PC.
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
