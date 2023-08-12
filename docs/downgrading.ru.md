@@ -71,6 +71,8 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     * Теперь распакуйте либо :material-folder:`with new vladivostok`, либо :material-folder:`without new vladivostok` в папку с игрой.
     ???+ question "В чем разница?"
         Rockstar добавили на Владивосток новые треки взамен вырезанных. :material-folder:`with new vladivostok` сохраняет их вместе с восстановленными вырезанными, а :material-folder:`without new vladivostok` вырезает их, оставляя только восстановленные.
+    ???+ tip "Аддоны"
+        Существует множество аддонов - смотрите их [здесь](https://www.nexusmods.com/gta4/mods/234?tab=files)
     ??? question "Как обойтись без использования Ultimate ASI Loader?"
         Переместите содержимое папки :material-folder:`update` в папку с игрой, заменяя файлы при появлении запроса.
 

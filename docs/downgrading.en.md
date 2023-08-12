@@ -74,6 +74,8 @@ Over 50 radio station tracks were removed from the game in April 2018 due to exp
     * Now extract the contents of either the :material-folder:`with new vladivostok` or :material-folder:`without new vladivostok` into the game folder.
     ???+ question "What's the difference?"
         Rockstar added new tracks to Vladivostok to replace the cut ones. :material-folder:`with new vladivostok` keeps these alongside the restored cut ones, while :material-folder:`without new vladivostok` cuts them out, only keeping the restored ones.
+    ???+ tip "Addons"
+        There are serveral addons - see them [here](https://www.nexusmods.com/gta4/mods/234?tab=files)
     ??? question "How to get around using Ultimate ASI Loader?"
         Move the contents of the :material-folder:`update` folder to the game folder, replacing files when prompted.
 
