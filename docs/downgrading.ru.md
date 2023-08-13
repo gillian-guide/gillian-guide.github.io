@@ -25,7 +25,6 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
     | Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
     | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Возможность выбора дополнительных модов | :material-plus-minus: | :material-checkbox-marked-circle: |
     | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
     | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
     | Включена конвертация сохранений | :material-cancel: | :material-checkbox-marked-circle: |

@@ -28,13 +28,12 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
     | Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
     | Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
     | Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | The ability to select optional mods | :material-plus-minus: | :material-checkbox-marked-circle: |
     | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-cancel: | :material-checkbox-marked-circle: |
     | Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
     | Savefile conversion as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
 
 ## Zolika1351's Downgrader
-This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](essential-modding/zolikapatch.md).md and [IV Tweaker](../extras/modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](essential-modding/fusionfix.md). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
+This downgrader is very lightweight and replaces a minimal amount of files(which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It bundles [ZolikaPatch](essential-modding/zolikapatch.md) and [IV Tweaker](../extras/modloading/#iv-tweaker), and has optional support for a ported version of [FusionFix](essential-modding/fusionfix.md). It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
 ???+ note "Installation"
     * Create an antivirus exclusion for your game folder. (Optional, but highly recommended).
