@@ -42,11 +42,12 @@ Currently the only good solution for improving game's performance.
 !!! warning "Information"
     * DXVK mainly improves CPU performance through better drawcall handling - the ones the game abuses so much. There is a chance that DXVK will not improve performance for you if you're GPU-bound instead.
     * DXVK does not officially support Windows, but it works perfectly for GTA IV.
-    * This section is irrelevant for Linux users using Proton, since Proton already uses DXVK.
+    * For Linux users using Proton, only apply [configuration](#configuration), since Proton already uses DXVK.
 !!! warning "Prerequisites"
     * Make sure your [drivers](#drivers) are up-to-date.
-    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z")'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. Intel iGPU's only support the Legacy version `1.10.1`.
-    * Disable Shader Pre-caching in :material-steam:Steam Settings - Downloads tab.
+    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z")'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. 
+    * Intel iGPU's only support the Legacy version `1.10.1`.
+    * Disable `Shader Pre-caching` in :material-steam:Steam `Settings` - `Downloads` tab.
 
 ??? warning "ENB Support"
     DXVK doesn't officially support ENB (and vice-versa) and is strongly discouraged by the ENB community. However, it will still work for more basic effects - but expect problems.
