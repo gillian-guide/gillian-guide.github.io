@@ -19,6 +19,8 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * `-height 1080`
     * `-refreshrate 60`
 
+    If it still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`.
+
     Also, check for [GPU driver updates](../optimization/#drivers).
 
 ??? info "Game performance is still poor"
