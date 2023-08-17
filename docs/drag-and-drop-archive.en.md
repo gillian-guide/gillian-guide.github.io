@@ -184,7 +184,7 @@ These mods are not included by default, but do not require any additional steps 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
-		* 17.08.2023 - Updated Project Glass. Added More Visible Interiors. 
+		* 17.08.2023 - Updated Project Glass. Added More Visible Interiors. Slightly tweaked configuration files.
 		* 12.08.2023 - Fixed known crash and softlock issues in TLAD and TBoGT. Restored TBoGT menu soundtrack. 
 		* 11.08.2023 - Fixed crash issues (IV Tweaker from up-to-date downgrader was not up-to-date). Updated FusionFix, Shader Fixes (manually built). Slightly tweaked vehicle budget. Changed Niko's hair files to fix the visual issues with it.
 		* 10.08.2023 - Updated the Downgrader, ZolikaPatch and Project Glass. 
@@ -207,7 +207,7 @@ These mods are not included by default, but do not require any additional steps 
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive is updated frequently, below is the list of changes:
-		* 17.08.2023 - Updated Project Glass. Added More Visible Interiors. 
+		* 17.08.2023 - Updated Project Glass. Added More Visible Interiors. Slightly tweaked configuration files.
 		* 12.08.2023 - Fixed known crash and softlock issues in TLAD and TBoGT. Restored TBoGT menu soundtrack.  
 		* 11.08.2023 - Updated Shader Fixes (manually built). Slightly tweaked vehicle budget. Changed Niko's hair files to fix the visual issues with it.
 		* 10.08.2023 - Updated Project Glass.  
