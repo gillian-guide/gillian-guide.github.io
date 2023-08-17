@@ -22,7 +22,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[12.08.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[17.08.2023](#_6)**
 	
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
@@ -36,7 +36,7 @@ description: Полноценный готовый архив для игры в
 		
 		Кроме того, я не буду поддерживать никаких дополнительных модификаций файлов, кроме уже перечисленных инструкций.
 	???+ info "Обновление"
-		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== и :material-folder:==modloader==.
+		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== и :material-folder:==modloader== из папки с игрой..
 	??? warning "Если игра не запускается"
 		Попробуйте установить :material-file-download:`vcredist_x86.exe` из папки с игрой.
 
@@ -50,7 +50,7 @@ description: Полноценный готовый архив для игры в
 
 		Просмотрите [исправление проблем](troubleshooting.md).
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[12.08.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[17.08.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). После установки пройдите через [второстепенную настройку](additional-setup.md).
 	!!! warning "Предупреждение"
@@ -97,6 +97,7 @@ description: Полноценный готовый архив для игры в
 	| [Restored Pedestrians от Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Восстанавливает различных вырезанных/не включенных педов. |
 	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
+	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
@@ -133,6 +134,7 @@ description: Полноценный готовый архив для игры в
 	| [Project2DFX~4.5~ от ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Добавляет приятные огни в далеке ночью. ==Можно отключить, удалив файлы `IVLodLights`.== |
 	| [Xbox Rain Droplets от ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Добавляет на экран красивые капельки воды. ==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.== |
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
+	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. |
@@ -181,6 +183,7 @@ description: Полноценный готовый архив для игры в
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	- Архив часто обновляется, ниже приведен список его изменений:
+		* 17.08.2023 - Обновлен Project Glass. Добавлен More Visible Interiors. 
 		* 12.08.2023 - Исправлены известные вылеты и софтлоки в TLAD и TBoGT. Ввостановлен трек из меню TBoGT.
 		* 11.08.2023 - Исправлены вылеты (IV Tweaker из давнгрейдера являлся устаревшим). Обновлён FusionFix, Shader Fixes (вручную собрано). Немного изменён VehicleBudget. Изменен файл волос Нико для исправления визуальных проблем.
 		* 10.08.2023 - Обновлены Downgrader, ZolikaPatch и Project Glass. 
@@ -203,6 +206,7 @@ description: Полноценный готовый архив для игры в
 		* 26.06.2023 - Создание архива.
 === "1.2.0.59"
 	- Архив часто обновляется, ниже приведен список его изменений:
+		* 17.08.2023 - Обновлен Project Glass. Добавлен More Visible Interiors. 
 		* 12.08.2023 - Исправлены известные вылеты и софтлоки в TLAD и TBoGT. Ввостановлен трек из меню TBoGT. 
 		* 11.08.2023 - Обновлен Shader Fixes (вручную собрано). Немного изменен VehicleBudget. Изменен файл волос Нико для исправления визуальных проблем.
 		* 10.08.2023 - Обновлен Project Glass.  
