@@ -61,6 +61,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [ColAccel](https://github.com/ThirteenAG/IV.EFLC.ColAccel/) | ThirteenAG | Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (like the burnt garage)==. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871) | Ash_735 | Replaces radio logos textures with higher resolutions ones. |
 | [Xbox One/Series S+X Buttons](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058) | Ash_735 | Replaces Xbox 360 button textures with Xbox One/Series ones. |
+| [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
 | [Dualshock 4 Buttons](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html) | tehherb | Replaces Xbox 360 button textures with Dualshock 4 ones. |
 | [Dualsense Buttons](https://www.nexusmods.com/gta4/mods/286) | COZlerCae | Replaces Xbox 360 button textures with Dualsense ones. |
 
