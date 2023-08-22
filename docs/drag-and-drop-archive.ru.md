@@ -24,7 +24,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[18.08.2023](#_6)**
 	
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки пройдите через [второстепенную настройку](additional-setup.md)==.
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки пройдите через [второстепенную настройку](additional-setup.md) и просмотрите [дополнительные моды](#_5)==.
 	!!! warning "Предупреждение"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 		
@@ -52,7 +52,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[22.08.2023](#_6)**
 
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки пройдите через [второстепенную настройку](additional-setup.md)==.
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки пройдите через [второстепенную настройку](additional-setup.md)  и просмотрите [дополнительные моды](#_5)==.
 	!!! warning "Предупреждение"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 

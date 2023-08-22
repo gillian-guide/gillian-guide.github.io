@@ -24,7 +24,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[18.08.2023](#changelog)**
 	
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md)==.
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md) and check [additional mods](#additional-mods)==.
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation. 
 		
@@ -52,7 +52,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[22.08.2023](#changelog)**
 
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md)==.
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md) and check [additional mods](#additional-mods)==.
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation.
 
