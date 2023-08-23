@@ -122,7 +122,7 @@ description: Полноценный готовый архив для игры в
 	| Название мода | Детали |
 	| :-----------: | :----: |
 	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
-	| [FusionFix~1.77~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) |
+	| [FusionFix~1.80~ от ThirteenAG и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) |
 	| [Shader Fixes Collection~V109*~ от Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| Сборник многочисленных фиксов шейдеров, от простого скейлинга до ввостановления их консольных версий. *вручную собрано из обновленных файлов |
 	| [Console Visuals~1.3~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
 	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Переводит DirectX 9 в Vulkan - метод оптимизации. |
