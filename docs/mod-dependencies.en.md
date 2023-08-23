@@ -22,7 +22,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     * Extract into the game folder.
 
     ???+ warning "When running on Linux..."
-    * Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
+        Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
 
 ??? tip "How to use `.asi` mods?"
     !!! warning ""
