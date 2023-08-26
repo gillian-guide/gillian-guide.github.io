@@ -62,7 +62,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		
 		In addition, I will not support any additional modifications to the files other than the instructions already listed.
 	???+ info "Updating"
-		If you're updating after installing the archive instead, delete :material-folder:==update== first.
+		If you're updating after installing the archive instead, delete :material-folder:==update== from the game folder first.
 	??? warning "If the game does not start"
 		Your PC may not support DXVK - remove :fontawesome-solid-gears:`d3d9.dll` from the game folder or try other versions from [additional mods](#additional-mods).
 
