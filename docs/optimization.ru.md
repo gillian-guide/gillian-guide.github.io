@@ -62,10 +62,11 @@ description: Методы оптимизации вашей установки G
 === "Последняя версия"
     !!! warning ""
         * Используйте эту версию, если ваша видеокарта поддерживает последнюю версию. Убедитесь в этом, ознакомившись с предупреждением выше.
-        * Пользователи ГП от AMD и Intel Arc не будут иметь шейдерной прекомпиляции при запуске - вместо этого они могут использовать [async патч](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases).
 
     - Инструкции:
         * Перейдите на [релизы DXVK](https://github.com/doitsujin/dxvk/releases) и скачайте последнюю версию - :material-zip-box:`dxvk-x.x.tar.gz`.
+        !!! note ""
+            Вы также можете использовать [патч DXVK-gplasync](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) для более плавной игры на видеокартах AMD и Intel Arc, т.к. только у Nvidia есть прекомпиляция шейдеров на данный момент.
         * После скачивания откройте архив и перейдите по :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\\==
         * Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
     
@@ -121,7 +122,7 @@ d3d9.presentInterval = 1
 # numBackBuffers может дополнительно улучшить стабильность FPS при использовании Vsync. Эта опция переопределяет количество обратных буферов для цепочки подкачки Vulkan.
 d3d9.numBackBuffers = 3
 ```
-Также добавьте `dxvk.enableAsync = true` если вы используете патч async.
+Также добавьте `dxvk.enableAsync = true` если вы используете патч async и дополнительно `dxvk.gplAsyncCache = true` если используете патч gplasync.
 ??? abstract "Полный список настроек DXVK"
     Полный список можно посмотреть [здесь](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
 Также пройдите через [второстепенную настройку](additional-setup.md)

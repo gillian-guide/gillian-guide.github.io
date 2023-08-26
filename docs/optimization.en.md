@@ -62,10 +62,11 @@ It's hard to say, because DXVK's improvement can vary from device to device. But
 === "Latest"
     !!! warning ""
         * Use this version if your GPU supports the latest version. See the warning above to make sure.
-        * AMD GPU and Intel Arc users won't have shader precompilation on start - they can use [an async patch](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) instead.
 
     - Instructions:
         * Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
+        !!! note ""
+            [DXVK-gplasync patch](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can be used instead for smoother performance on AMD and Intel Arc GPU's, as only Nvidia gets shader pre-compilation at the moment.
         * After downloading, open the archive and navigate to :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\\==
         * Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
     
@@ -121,7 +122,7 @@ d3d9.presentInterval = 1
 # numBackBuffers may further improve frametime stability while using Vsync. This option overrides back buffer count for the Vulkan swap chain.
 d3d9.numBackBuffers = 3
 ```
-Also add `dxvk.enableAsync = true` if using an async patch.
+Also add `dxvk.enableAsync = true` if using an async patch and `dxvk.gplAsyncCache = true` additionally if using a gplasync patch.
 ??? abstract "Full list of DXVK options"
     You can see the full list [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
 Also go through [additional setup](additional-setup.md).
