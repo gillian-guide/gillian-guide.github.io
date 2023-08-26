@@ -15,8 +15,7 @@ description: Методы установки модов в GTA IV, позвол�
     | Поддержка Complete Edition | :material-cancel: | :material-checkbox-marked-circle: |
     | Возможность внедрения файлов .img | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Возможность внедрения других файлов без замены | :material-checkbox-marked-circle: | :material-cancel: |
-    | Большее разнообразие поддерживаемых файлов для внедрения | :material-checkbox-marked-circle: | :material-cancel: |
-    | Большее разнообразие поддерживаемых файлов для перезаписи | :material-cancel: | :material-checkbox-marked-circle: |
+    | Есть возможность заменить большинство файлов не изменяя оригиналы | :material-cancel: | :material-checkbox-marked-circle: |
     | Простой .ini для настройки | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## IV Tweaker
