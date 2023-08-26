@@ -35,15 +35,6 @@ You can either install this mod as a standalone, as a part of [UAL's modloader](
             <figcaption></figcaption>
         </figure>
 
-=== "Part of IV Tweaker"
-    !!! warning ""
-        This is not recommended due to potential incompatibility issues. Use the UAL's modloader method or [latest FusionFix port](fusionfix.md) instead.
-    * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
-    * Download the latest version.
-    * Create a mod folder in :material-folder:==modloader==.
-    * Extract the files from the :material-folder:==1. Main\common\shaders\win32-30== (or any other folder in there) into the mod folder.
-    * Configure :material-file-cog:`modloader.ini` if needed.
-
 ??? tip "Restoring the vanilla noise look in TLAD"
     If you don't like the noise tiling in TLAD that Shader Fixes introduces to make it look like the console version, you can extract [this archive](https://drive.google.com/file/d/1zxCWhWQ4qP4rJvUablTGjfqpFUp3UOS3/view?usp=sharing) ontop to restore the vanilla look. The files are organized for the UAL's modloader, but you can repurpose the files manually.
 
