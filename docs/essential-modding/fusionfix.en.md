@@ -8,9 +8,6 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
-    * Get the latest [ZolikaPatch](zolikapatch.md) and [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
-    !!! note ""
-        [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
     * Download Zolika1351's fork of FusionFix [here](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
     !!! tip ""

@@ -8,9 +8,6 @@ description: Один из важных модов для вашей устан�
 
 ## Установка { data-search-exclude }
 === "1.0.8.0"
-    * Установите последние версии [ZolikaPatch](zolikapatch.md) и [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
-    !!! note ""
-        [Давнгрейдер от Zolika1351](../../downgrading/#zolika1351) уже имеет их в своем комплекте.
     * Скачайте форк FusionFix от Zolika1351 [здесь](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
     * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` в папку с игрой.
     !!! tip ""
