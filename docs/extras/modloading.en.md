@@ -11,13 +11,12 @@ While they are different in some ways, you can still use both if you're running 
 
     | Advantages | IV Tweaker | UAL's |
     | :--------: | :--------: | :---: |
-    | 1.0.8.0 and 1.0.7.0 support | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | 1.0.8.0 and 1.0.7.0 support | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Complete Edition support | :material-cancel: | :material-checkbox-marked-circle: |
     | Can inject .img files | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Can inject other files without overriding | :material-checkbox-marked-circle: | :material-cancel: |
     | Greater variety of supported inject files | :material-checkbox-marked-circle: | :material-cancel: |
     | Greater variety of supported override files | :material-cancel: | :material-checkbox-marked-circle: |
-    | Subfolder support | :material-cancel: | :material-checkbox-marked-circle: |
     | A simple .ini for configuration | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## IV Tweaker

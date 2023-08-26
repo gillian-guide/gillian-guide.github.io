@@ -11,13 +11,12 @@ description: Методы установки модов в GTA IV, позвол�
 
     | Преимущества | IV Tweaker | UAL'овский |
     | :--------: | :--------: | :---: |
-    | Поддержка 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Поддержка 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Поддержка Complete Edition | :material-cancel: | :material-checkbox-marked-circle: |
     | Возможность внедрения файлов .img | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Возможность внедрения других файлов без замены | :material-checkbox-marked-circle: | :material-cancel: |
     | Большее разнообразие поддерживаемых файлов для внедрения | :material-checkbox-marked-circle: | :material-cancel: |
     | Большее разнообразие поддерживаемых файлов для перезаписи | :material-cancel: | :material-checkbox-marked-circle: |
-    | Поддержка подпапок | :material-cancel: | :material-checkbox-marked-circle: |
     | Простой .ini для настройки | :material-checkbox-marked-circle: | :material-cancel: |
 
 ## IV Tweaker
