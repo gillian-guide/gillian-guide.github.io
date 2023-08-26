@@ -11,8 +11,8 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     * Get the latest [ZolikaPatch](zolikapatch.md) and [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     !!! note ""
         [Zolika1351's Downgrader](../../downgrading/#zolika1351s-downgrader) already takes care of that.
-    * Download FusionFix from optional mods [here](https://zolika1351.pages.dev/mods/ivpatch/downgrading).
-    * Extract :material-zip-box:`FusionFix_1070-1080_New.zip` into the game folder.
+    * Download Zolika1351's fork of FusionFix [here](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
+    * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
     !!! tip ""
         Optionally, if the official release is more up-to-date, you can update the files from the :material-folder:==update== - simply download the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) and extract only the :material-folder:==update==.
 === "1.2.0.59"

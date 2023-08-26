@@ -10,11 +10,17 @@ For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [Downgrader](
 ## ThirteenAG
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). ThirteenAG currently does not accept donations.
 
+## Tomasak
+For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.
+
 ## ItsClockAndre
 For their work on the [Downgrader Tool](../downgrading/#itsclockandres-downgrader), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). You can support him on [Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true), [PayPal](https://www.paypal.com/paypalme/ItsClonkAndre) and [Ko-Fi](https://ko-fi.com/itsclonkandre).
 
 ## Parallellines
 For their work on [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) and [Various Fixes](extras/mods.md).
+
+## Shvab, OpenIV developers, FiveM team, and more
+For their work on modding tools. All those mods wouldn't be possible without them.
 
 ## HazardX
 For their work on [ScriptHook](../mod-dependencies/#scripthook).

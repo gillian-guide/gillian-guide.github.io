@@ -10,11 +10,17 @@ description: Это руководство было бы невозможно б
 ## ThirteenAG
 За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). ThirteenAG на данный момент не принимает донаты.
 
+## Tomasak
+За их работу над [FusionFix](essential-modding/fusionfix.md), а также вклад во многие другие моды сообщества.
+
 ## ItsClockAndre
 За их работу над [даунгрейдером](../downgrading/#itsclockandre), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md).
 
 ## Parallellines
 За их работу над [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
+
+## Shvab, разработчики OpenIV, команда FiveM, и другие
+За их работу над инструментами для моддинга. Без них все эти моды были бы невозможны.
 
 ## HazardX
 За их работу над [ScriptHook](../mod-dependencies/#scripthook).
