@@ -8,16 +8,18 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
-    * Download Zolika1351's fork of FusionFix [here](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
+    * Go to the Zolika1351's fork of FusionFix [Releases](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
+    * Download the latest release.
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
     !!! tip ""
         Optionally, if the official release is more up-to-date, you can update the files from the :material-folder:==update== - simply download the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) and extract only the :material-folder:==update==.
 === "1.2.0.59"
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.
-    * Extract the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
-!!! tip ""
-    You can move files from the :material-folder:==plugins== to the game folder for convenience.
+    * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
+    !!! tip ""
+        You can move files from the :material-folder:==plugins== to the game folder for convenience.
+
 ## Configuration
 Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:==plugins== by default) and configure the file as needed.
 
