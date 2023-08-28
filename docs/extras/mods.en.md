@@ -10,6 +10,8 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 
     Avoid using larger-scale and select smaller-scale mods in [multiplayer](../multiplayer.md).
 
+    I'm only listing these mods - I do not intend people to actually install all of them together. Pick what to install yourself.
+
 ## List of mods (larger-scale)
 | Mod | Author(s) | Description |
 | :-: | :-------: | :---------: |
