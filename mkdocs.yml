@@ -2,14 +2,22 @@ site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
 copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive.
 
+i18n:
+  docs_structure: suffix
+  fallback_to_default: true
+  languages:
+    - build: true
+      default: true
+      locale: en
+      name: English
+    - build: true
+      default: false
+      locale: ru
+      name: Русский
+  reconfigure_material: true
+  reconfigure_search: true
+
 plugins:
-  - i18n:
-      default_language: en
-      languages:
-        en:
-          name: English
-        ru:
-          name: Русский
   - search
   - glightbox
   - social

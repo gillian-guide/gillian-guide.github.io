@@ -39,7 +39,7 @@ description: Методы оптимизации вашей установки G
 ## Автоматическое приложене для настройки
 Благодаря [Kreato](https://gillian-guide.github.io/credits/#_4) и моим собственным усилиям, теперь вы можете настроить DXVK и [параметры запуска](https://gillian-guide.github.io/additional-setup/#launch-options) полуавтоматически. При этом автоматически проверяется железо и необходимые параметры, а также учитываются установленные моды.
 !!! info "Использование"
-    - [Скачайте приложение](https://drive.google.com/file/d/1RvaN4hfkyWJmfJzoOCtKN1eLFdQGmMOh/view?usp=drive_link) (если вы не доверяете надежности приложения, [доступен чистый скрипт](../GTAIVSetupUtility.py)).
+    - [Скачайте приложение](https://drive.google.com/file/d/1RvaN4hfkyWJmfJzoOCtKN1eLFdQGmMOh/view?usp=drive_link) (если вы не доверяете надежности приложения, [доступен чистый скрипт](https://github.com/SandeMC/GTAIVSetupUtility)).
     - Запустите его и следуйте инструкциям в приложении.
     - Если возникнут какие-либо проблемы, [сообщите об этом на сервере Discord](contact-me.md).
 
