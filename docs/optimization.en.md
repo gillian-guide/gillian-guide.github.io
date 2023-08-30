@@ -39,7 +39,7 @@ This may sound obvious, but a lot of people don't install drivers, so I feel the
 ## Setup Utility
 Thanks to [Kreato's](https://gillian-guide.github.io/credits/#special-thanks) and my own efforts, you can now set up DXVK and [Launch Options](https://gillian-guide.github.io/additional-setup/#launch-options) semi-automatically. It automatically checks your hardware and what options to use, aswell as accounting for installed mods.
 !!! info "Usage"
-    - [Download the tool](https://drive.google.com/file/d/1RvaN4hfkyWJmfJzoOCtKN1eLFdQGmMOh/view?usp=drive_link) (If you doubt the trust-ability, [source code is available](https://github.com/SandeMC/GTAIVSetupUtility)).
+    - [Download the tool](https://github.com/SandeMC/GTAIVSetupUtility/releases).
     - Launch it and follow the in-app instructions.
     - If any issues occur, [report it on the discord server](contact-me.md).
 
