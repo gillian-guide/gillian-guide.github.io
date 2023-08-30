@@ -43,7 +43,7 @@ description: Это руководство было бы невозможно б
 [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } [:simple-discord: Мой сервер в Discord](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
 ## Отдельное спасибо
-* [Kreato](https://github.com/kreatoo) за помощь в создании этого сайта - посмотрите его репозитории, если вам нравится играться с Linux.
+* [Kreato](https://github.com/kreatoo) за помощь в создании этого сайта и большой помощи в разработке [автоматического приложения для настройки](../optimization/#_3) - посмотрите его репозитории, если вам нравится Linux.
 * [Коммьюнити PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) за их вклад в вики, который помог мне сделать это руководство более полным (конечно, я тоже внес свой вклад).
 * Yilmaz, MauriceGS, Krooked_ и другие из [Discord сервера Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb) за предоставление информации для руководства.
 * Сообщество Steam за активную поддержку во время создания оригинального руководства на Steam.

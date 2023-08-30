@@ -10,6 +10,8 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
     
     1. For Complete Edition, go to the game's Properties menu in :material-steam:Steam and set them there;
     2. For retail versions, create a :material-file-cog:`commandline.txt` in the game folder and edit it.
+???+ tip "Setup Utility"
+     [Automatic setup utility](../optimization/#setup-utility) can be used to set up the launch options semi-automatically.
 
 The only options you need to set are: `-norestrictions -nomemrestrict`. All options with values should have a space between the option and the value.
 
