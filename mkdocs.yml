@@ -4,19 +4,19 @@ copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar G
 
 plugins:
   - i18n:
-    docs_structure: suffix
-    fallback_to_default: true
-    languages:
-      - build: true
-        default: true
-        locale: en
-        name: English
-      - build: true
-        default: false
-        locale: ru
-        name: Русский
-    reconfigure_material: true
-    reconfigure_search: true
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - build: true
+          default: true
+          locale: en
+          name: English
+        - build: true
+          default: false
+          locale: ru
+          name: Русский
+      reconfigure_material: true
+      reconfigure_search: true
   - search
   - glightbox
   - social
