@@ -1,8 +1,22 @@
-site_name: Gillian's Modlists
-site_url: https://gillian-modlists.github.io/
-copyright: Copyright &copy; 2023.
+site_name: Gillian's GTA IV Modding Guide
+site_url: https://gillian-guide.github.io/
+copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive.
 
 plugins:
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - build: true
+          default: true
+          locale: en
+          name: English
+        - build: true
+          default: false
+          locale: ru
+          name: Русский
+      reconfigure_material: true
+      reconfigure_search: true
   - search
   - glightbox
   - social
@@ -27,7 +41,7 @@ theme:
         name: Switch to dark mode
 
   logo: assets/logo-horizontal.png
-  favicon: assets/logo-favicon.png
+  favicon: assets/iv-logo-favicon.png
   features:
     - toc.integrate
     - navigation.expand
@@ -70,22 +84,41 @@ markdown_extensions:
 
 
 nav:
+  - Introduction:
     - "index.md"
     - "credits.md"
     - "troubleshooting.md"
     - "contact-me.md"
+  - "drag-and-drop-archive.md"
+  - "optimization.md"
+  - "additional-setup.md"
+  - "downgrading.md"
+  - "mod-dependencies.md"
+  - Essential Modding:
+    - "essential-modding/index.md"
+    - "essential-modding/zolikapatch.md"
+    - "essential-modding/fusionfix.md"
+    - "essential-modding/shader-fixes.md"
+  - Extras:
+    - "extras/index.md"
+    - "multiplayer.md"
+    - "extras/trainers.md"
+    - "extras/launcher.md"
+    - "extras/openiv.md"
+    - "extras/modloading.md"
+    - "extras/mods.md"
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/gillian-modlists/gillian-modlists.github.io/issues
+      link: https://github.com/gillian-guide/gillian-guide.github.io/issues
       name: If you have concerns about the page, post them on the GitHub issues page.
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zwmsQqExbQ
       name: My Discord server.
   analytics:
     provider: google
-    property: G-CK7DHRFFWQ
+    property: G-RSQFR3F839
   consent:
     title: Cookie consent
     description: >- 
