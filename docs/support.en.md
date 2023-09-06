@@ -7,6 +7,7 @@ Without the people listed in [credits](credits.md) we wouldn't have this guide, 
 
 ## ThirteenAG
 Note: ThirteenAG is a resident of Russia, so he may not be able to accept the non-Boosty donations at the moment. They shouldn't just vanish if you so desire to send it, but he may not be able to receive it either. I have no 100% confirmation on this.
+
 Note 2: Boosty is a Russian company.
 
 [:simple-patreon: Patreon](https://patreon.com/ThirteenAG) [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag) [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
