@@ -6,11 +6,11 @@ description: Если вы хотите поддержать всех людей
 Без [авторов](credits.md), у нас не было бы ни этого руководства, ни всех этих замечательных инструментов и модов. Так почему бы не поддержать их материально? Я стараюсь предоставить все доступные ссылки на пожертвования для всех [авторов](credits.md).
 
 ## ThirteenAG
-Примечание: ThirteenAG проживает в России, поэтому в настоящее время он может не иметь возможности принимать пожертвования, отправленные не из Boosty. Деньги не должны просто исчезнуть, если вы захотите их отправить, но он также может быть не в состоянии их принять.
+Примечание: ThirteenAG проживает в России, поэтому в настоящее время он может не иметь возможности принимать пожертвования, отправленные не из Boosty. Деньги не должны просто исчезнуть, если вы захотите их отправить, но он также может быть не в состоянии их принять. Я в этом не на 100% уверен, так что [свяжитесь со мной](contact-me.md), если я не прав.
 
 Примечание 2: Boosty - российская компания.
 
-[:simple-patreon: Patreon](https://patreon.com/ThirteenAG) [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag) [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
+[:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
 
 ## Zolika1351
 
