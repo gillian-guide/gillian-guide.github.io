@@ -23,4 +23,7 @@ description: Если вы хотите поддержать всех людей
 
 [:simple-googlepay::fontawesome-brands-apple-pay::octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }
 
+## В случае, если я вас пропустил
+Если вы перечислены в [авторах](credits.md)и у вас есть ссылка на донат но её здесь нет, [свяжитесь со мной!](contact-me.md)
+
 [:material-page-first:Предыдущая страница <br>Авторы</br>](credits.md){ .md-button } [Следующая страница:material-page-last: <br>Исправление проблем</br>](troubleshooting.md){ .md-button .md-button--primary } 

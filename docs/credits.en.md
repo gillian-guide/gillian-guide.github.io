@@ -53,6 +53,8 @@ The communities of these discord servers helped me a lot with this guide:
 * Rockstar Games and Rockstar North for making the game.
 
 ## And everyone else!
-Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you!
+Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you! 
+
+If you think you should be listed separately, [contact me!](contact-me.md)
 
 [:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [Next page:material-page-last: <br>Donations</br>](support.md){ .md-button .md-button--primary }

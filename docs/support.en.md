@@ -23,4 +23,7 @@ I'd, of course, prefer if you sent donations to any other modders listed above r
 
 [:simple-googlepay::fontawesome-brands-apple-pay::octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }
 
+## In case I missed you
+If you are mentioned on [credits](credits.md) and have a donation link but it's not here, [contact me!](contact-me.md)
+
 [:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Troubleshooting</br>](troubleshooting.md){ .md-button .md-button--primary }

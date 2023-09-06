@@ -5,7 +5,7 @@ description: Troubleshooting your GTA IV issues.
 Anyone can have problems modding their favorite games, and GTA IV is extremely prone to this.
 
 ???+ info "Known issues without a solution"
-    I know about these issues, no need to report them to me, unless you know a solution.
+    * I know about these issues, no need to report them to me, unless you know a solution.
     - After you get drunk, the lighting is flickering for some period.
     - Broken LOD's on mission replays in TBoGT (did not attempt to reproduce).
     - Broken LOD's during long gameplay periods; additionally, the game can get hardlocked when you try to start a mission in that state - temporary solution is to reload a save.
