@@ -8,7 +8,7 @@ description: Если вы хотите поддержать всех людей
 ## ThirteenAG
 Примечание: ThirteenAG проживает в России, поэтому в настоящее время он может не иметь возможности принимать эти пожертвования. Деньги не должны просто исчезнуть, если вы захотите их отправить, но он также может быть не в состоянии их принять.
 
-[:simple-paypal: PayPal]([troubleshooting.md](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE)){ .md-button .md-button--primary }
+[:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary }
 
 ## Zolika1351
 
