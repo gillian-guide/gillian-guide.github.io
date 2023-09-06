@@ -16,7 +16,7 @@ description: Если вы хотите поддержать всех людей
 
 ## ItsClockAndre
 
-[:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary }. [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
+[:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
 ## Me
 Я, конечно, предпочел бы, чтобы вы отправляли пожертвования не мне, а другим авторам, перечисленным выше, но в конечном итоге я был бы рад, если бы вы отправили мне копейку за все то время, которое я потратил на создание этого руководства и всего остального, с чем я связан. Я работаю над ним уже более 2 лет и собираюсь активно обновлять его до тех пор, пока есть что обновлять. Также имейте в виду, что на данный момент хостинг сайта не требует абсолютно никаких денег благодаря GitHub, а также то, что он не приносит мне никаких денег, так как у меня нет рекламы. ==Примечание: В данный момент я не могу использовать другие способы оплаты.==.
