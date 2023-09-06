@@ -22,3 +22,5 @@ Note: ThirteenAG is a resident of Russia, so he may not be able to accept these 
 I'd, of course, prefer if you sent donations to any other modders listed above rather than me - but I would be ultimately happy if you sent me a tip for all the time I spent making this website and everything else I'm associated with. I've been working on it for over 2 years, and I'm still going to update it actively as long as there's things to update. Also, keep in mind that hosting the website takes absolutely no money at the moment thanks to GitHub, aswell as the fact it doesn't make me any money as I don't have any ads. ==Note: I can't set up any other payment methods at the moment. This would send the tip directly to my debit.==
 
 [:simple-googlepay::fontawesome-brands-apple-pay::octicons-credit-card-16:monobank](https://send.monobank.ua/jar/3cJx2rhdw2)
+
+[:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Troubleshooting</br>](troubleshooting.md){ .md-button .md-button--primary }

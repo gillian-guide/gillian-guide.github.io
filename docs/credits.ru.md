@@ -55,4 +55,4 @@ description: Это руководство было бы невозможно б
 ## И всех других!
 Всем остальным, кто помогал мне в создании этого руководства, мотивировал меня на дальнейшую работу или просто поделился этим руководством со своими друзьями, - спасибо!
 
-[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Исправление проблем</br>](troubleshooting.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Пожертвования</br>](support.md){ .md-button .md-button--primary }

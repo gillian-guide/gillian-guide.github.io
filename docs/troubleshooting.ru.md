@@ -91,4 +91,4 @@ description: Исправление проблем с вашей установ�
 
 Если вы знаете проблему и решение, которые я упустил, [свяжитесь со мной!](contact-me.md)
 
-[:material-page-first:Предыдущая страница <br>Авторы</br>](credits.md){ .md-button } [Следующая страница:material-page-last: <br>Сервер в Discord</br>](contact-me.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Пожертвования</br>](support.md){ .md-button } [Следующая страница:material-page-last: <br>Сервер в Discord</br>](contact-me.md){ .md-button .md-button--primary }
