@@ -2,7 +2,7 @@ title: Drag-and-Drop Archive
 description: A complete ready-to-play drag-and-drop archive for your desired GTA IV version
 
 # Drag-and-Drop Archive { data-search-exclude }
-If you don't want to manually mod your game, you can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). You can compare the modlist between the versions [below](#modlist) - 1.0.8.0 has a lot more notable improvements, keep that in mind.
+If you don't want to manually mod your game, you can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). You can compare the modlist between the versions [below](#modlist) - ==1.0.8.0 has a lot more notable improvements, keep that in mind==.
 
 ### Notes { data-search-exclude }
 !!! info ""
@@ -22,15 +22,15 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[28.08.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[06.09.2023](#changelog)**
 	
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md) (or use the [automatic setup utility](../optimization/#setup-utility)) and check [additional mods](#additional-mods)==.
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods)==. For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation. 
 		
 		If you are using the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version, do not start the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced.
 
-		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options.
+		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-files:`IVSDKDotNet` as DotNet does not work on latest Proton as it should.
 		
 		Other installation methods are not supported.
 		
@@ -50,9 +50,9 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		See [troubleshooting](troubleshooting.md).
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[28.08.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[06.09.2023](#changelog)**
 
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, go through [additional setup](additional-setup.md) (or use the [automatic setup utility](../optimization/#setup-utility)) and check [additional mods](#additional-mods)==.
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods)==. For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation.
 
@@ -78,20 +78,18 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| :------: | :-----: |
 	| [Downgrader~v22~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch/downgrading)| A simple drag&drop downgrade to 1.0.8.0 with Ultimate ASI Loader, ZolikaPatch, SteamAchievements and IV Tweaker included. |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234?tab=files)</br> |
-	| [ZolikaPatch IV~7.62~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
+	| [ZolikaPatch IV~7.63~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
 	| [IV Tweaker~2.35~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Main modloader in the pack, also allows to increase limits for other mods. |
 	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
-	| [FusionFix~1.80~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>[Ported by Zolika1351](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/)</br> |
-	| [Shader Fixes Collection~V109*~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. *manually built the up-to-date files |
+	| [FusionFix~1.89~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Includes [Shader Fixes Collection~V200~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/). <br>[Ported by Zolika1351](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/)</br> |
 	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
-	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
 	| [Liberty Tweaks~1.1~ by The Westside Minions & The GTA IV Modding Community](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. ==This mod allows to quicksave using ++f9++ key. It also allows to holster weapons using the ++h++ key.== |
 	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
-	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
-	| [Project2DFX~4.3~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
+	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
+	| [Project2DFX~4.3~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/v0.0)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
 	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
 	| [Restored Pedestrians by Attramet](https://gtaforums.com/topic/981864-restored-pedestrians/) | Restores various cut/non-included pedestrians to the game world. |
 	| [Various Pedestrians Actions by Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Restores various cut/non-included pedestrian actions to the game world. |
@@ -110,26 +108,23 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
 	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV map on the sign to include an unused texture. |
-	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Simple script mod that replaces the toll booth cop peds with traffic cops |
 	| [Luis' Helmet Reflections Fix by 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Fixes the reflections on Luis' helmet. |
 	| [Luis' Bag Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Fixes missing normal and specular textures on Luis' bag, improves texture quality. |
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
-	| [GTA Online QUBE3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
+	| [GTA Online QUB3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 === "1.2.0.59"
 	| Mod name | Details |
 	| :------: | :-----: |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234?tab=files)</br> |
-	| [FusionFix~1.80~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a bunch of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). |
-	| [Shader Fixes Collection~V109*~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection)| A collection of numerous shader fixes, from simple scaling to restoring console files. *manually built the up-to-date files |
+	| [FusionFix~1.89~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a lot of fixes and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>Includes [Shader Fixes Collection~V200~ by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/).</br> |
 	| [Console Visuals~1.3~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Collection of ported visuals from the console version - from timecyc, to animations.<br>Used addons: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
-	| [DXVK-gplasync~2.2-4~](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases)| Translates DirectX 9 API to Vulkan - main [optimization](optimization.md) method. |
 	| [Various Fixes~1.5~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
 	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements~3.3~ by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page. |
-	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
+	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
 	| [Project2DFX~4.5~ by ThirteenAG](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv)| Adds nice lights in the distance at night. ==Can be disabled by deleting the `IVLodLights` files.== |
 	| [Xbox Rain Droplets by ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
 	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
@@ -146,11 +141,10 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Default Pistol Iron Sight Fix by grasscid](https://www.nexusmods.com/gta4/mods/15)| Fixes the incorrect pistol iron sight. |
 	| [Liberty Ferry Terminal - Waiting Room Sign Fix by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Fixes broken UV map on "Waiting Room" sign texture. |
 	| [Sugar Chomps - Separate Signs by donnits](https://gtaforums.com/topic/974798-donnits-bakery/)| Edits the UV map on the sign to include an unused texture. |
-	| [Traffic Cops: Back in the Toolbooths by Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/)| Simple script mod that replaces the toll booth cop peds with traffic cops |
 	| [Luis' Helmet Reflections Fix by 6135](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | Fixes the reflections on Luis' helmet. |
 	| [Luis' Bag Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Fixes missing normal and specular textures on Luis' bag, improves texture quality. |
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
-	| [GTA Online QUBE3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
+	| [GTA Online QUB3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
 	| [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | Fixes lower resolution backgrounds in EFLC's main menus. |
 	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
@@ -189,6 +183,7 @@ These mods are not included by default, but do not require any additional steps 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	- The archive is updated frequently, below is the list of changes:
+		* 06.09.2023 - Updated ZolikaPatch, FusionFix - with it, Shader Fixes. Included Setup Utility. Removed Traffic Cops in the Toolbooths - FusionFix now includes it. Removed DXVK and commandline.txt, you can now install them automatically via :material-file-download:`GTAIVSetupUtility.exe`.
 		* 28.08.2023 - Fixed the infinite loading on Three Leaf Clover mission (needs a better solution - at the moment, there's a missing NPC model in the cutscene due to this). Fixed Dodgy Doc HQ mod to actually be used. Added `dxvk.gplAsyncCache = true` to :material-file-cog:`dxvk.conf`. Removed Better Wardrobes.
 		* 26.08.2023 - Updated FusionFix, Project Glass, Xbox One/Series S+X Buttons. Added Menu Art Fix. Repacked Various Fixes, aswell as adding community's fixes to it.
 		* 18.08.2023 - Updated Various Fixes files. Fixed a model issue with Angels of Death's clubhouse in TLAD.
@@ -215,6 +210,7 @@ These mods are not included by default, but do not require any additional steps 
 		* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	- The archive is updated frequently, below is the list of changes:
+		* 06.09.2023 - Updated FusionFix - with it, Shader Fixes. Included Setup Utility. Removed Traffic Cops in the Toolbooths - FusionFix now includes it. Removed DXVK, you can now install them automatically via :material-file-download:`GTAIVSetupUtility.exe`.
 		* 28.08.2023 - Fixed Dodgy Doc HQ mod to actually be used. Added `dxvk.gplAsyncCache = true` to :material-file-cog:`dxvk.conf`.
 		* 26.08.2023 - Updated Project Glass. Added community's fixes to Various Fixes. Returned more up-to-date Shader Fixes files, as I accidentally overwrote them last update.
 		* 22.08.2023 - Updated FusionFix, Xbox One/Series S+X Buttons. Added Menu Art Fix.
