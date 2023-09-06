@@ -22,9 +22,13 @@ description: Введение к руководству по моддингу GT
         * Убедитесь, что установлены следующие библиотеки (они уже устанавливаются в :material-steam:Steam и Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Официальные установщики от Microsoft") и [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Официальные установщики от Microsoft").
 
 ## Демонстрация геймплея
-После завершения моддинга ваша игра будет выглядеть и играть примерно так (для этих видео использовался [готовый архив](Drag-and-Drop-Archive.md)).
+После завершения моддинга ваша игра будет выглядеть и играть примерно так (для этих видео использовался устаревший [готовый архив](Drag-and-Drop-Archive.md) - актуальная версия даст результат еще лучше).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lARlDyPLLtA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Руководство от catsmackaroo
+*Старое* руководство catsmackaroo послужило стимулом для создания моего оригинального руководства. Мое руководство с того момента очень сильно увеличилось в размере, и теперь catsmackaroo планирует сделать новую серию видеороликов, знакомящих людей с моддингом IV, частично основанных на моем руководстве. Вот первая часть:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AhPr0WAqNv8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Разделы
 Если вам не нужны подробные руководства, вы можете просто установить архив [готовый архив](drag-and-drop-archive.md) и начать игру.

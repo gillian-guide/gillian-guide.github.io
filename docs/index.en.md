@@ -22,9 +22,13 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
         * Make sure you have the game's prerequisites installed (they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
 
 ## Gameplay Demo
-Your game will look and play roughly like this after finishing the modding (the [drag-and-drop archive](drag-and-drop-archive.md) has been used for these videos).
+Your game will look and play roughly like this after finishing the modding (a severely outdated [drag-and-drop archive](drag-and-drop-archive.md) has been used for these videos - up-to-date version will provide even better results).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lARlDyPLLtA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## catsmackaroo's Guide
+catsmackaroo's *old* guide was the motivation behind making the original guide. My guide has evolved long since, and now catsmackaroo plans to do a new series of videos introducing people to modding IV partially based off my guide. Here's the first part of it:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AhPr0WAqNv8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Sections
 If you have no need for the in-depth tutorials, you can simply install the [drag-and-drop archive](drag-and-drop-archive.md) and you are ready to go.

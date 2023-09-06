@@ -43,6 +43,8 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     Also known as ScriptHookDotNet and aru's ScriptHook.
 !!! warning "Compatibility"
     Compatible with all versions. See notes below.
+
+    Not compatible with Linux. See [this issue](https://github.com/Matoking/protontricks/issues/161) for details.
 This tool is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net). See your mod's requirements to see whether it was built for ScriptHook or [IV-SDK .NET](#iv-sdk-net).
 
 ???+ note "Installation"
@@ -62,6 +64,8 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
 ## IV-SDK .NET
 !!! warning "Compatibility"
     Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](downgrading.md) if using the Complete Edition.
+
+    Not compatible with Linux. See [this issue](https://github.com/Matoking/protontricks/issues/161) for details.
 This tool is used to run scripts written in any .NET language. Not to be confused with [ScriptHook](#scripthook). See your mod's requirements to see whether it was built for IV-SDK .NET or for [ScriptHook](#scripthook).
 
 ???+ note "Installation"

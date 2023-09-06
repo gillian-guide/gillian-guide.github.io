@@ -6,7 +6,7 @@ description: Познакомьтесь с мультиплеером GTA IV!
 !!! warning ""
     Текущие методы мультиплеера требуют [даунгрейдинга](downgrading.md).
 
-    Для улучшения опыта мультиплеера крайне рекомендуется установить [ZolikaPatch](essential-modding/zolikapatch.md). Настройте :material-file-cog:`ZolikaPatch.ini` для использования функций мультиплеера и установите `DoNotPauseOnMinimize` на `1`. [Даунгрейдер ItsClockAndre's](../downgrading/#itsclockandres) уже об этом позаботился если вы решили настроить свою установку для GFWL.
+    Для улучшения опыта мультиплеера крайне рекомендуется установить [ZolikaPatch](essential-modding/zolikapatch.md). Настройте :material-file-cog:`ZolikaPatch.ini` для использования функций мультиплеера и установите `DoNotPauseOnMinimize` на `1`. [Даунгрейдер ItsClockAndre's](downgrading.md) уже об этом позаботился если вы решили настроить свою установку для GFWL.
 
     Убедитесь, что `RecoilFix` установлен на `0` в :material-file-cog:`GTAIV.EFLC.FusionFix.ini`, чтобы не оказаться в нечестном положении по отношению к другим игрокам.
 
@@ -26,7 +26,7 @@ description: Познакомьтесь с мультиплеером GTA IV!
 ### Использование
 ???+ info "Установка"
     !!! note ""
-        [Даунгрейдер от ItsClockAndre](../downgrading/#itsclockandre) уже выполняет этапы из этой части если вы выбрали настроить установку для GFWL. В этом случае, пропустите эту часть.
+        [Даунгрейдер от ItsClockAndre](downgrading.md) уже выполняет этапы из этой части если вы выбрали настроить установку для GFWL. В этом случае, пропустите эту часть.
 
     * Убедитесь, что у вас нет устаревшей установки GFWL Marketplace и LIVE. Удалите их, если они есть.
     * Установите [Microsoft Visual C++ 2005 Redistributable **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=26347).

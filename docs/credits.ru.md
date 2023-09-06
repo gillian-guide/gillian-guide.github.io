@@ -4,17 +4,17 @@ description: Это руководство было бы невозможно б
 # Авторы
 Это руководство было бы невозможно без всех этих замечательных людей!
 
-## Zolika1351
-За их работу над [ZolikaPatch](essential-modding/zolikapatch.md), [даунгрейдером](../downgrading/#zolika1351), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помогает многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое! Вы можете поддержать его на [Patreon](https://www.patreon.com/zolika1351).
-
 ## ThirteenAG
-За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). ThirteenAG на данный момент не принимает донаты.
+За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
 ## Tomasak
 За их работу над [FusionFix](essential-modding/fusionfix.md), а также вклад во многие другие моды сообщества.
 
+## Zolika1351
+За их работу над [ZolikaPatch](essential-modding/zolikapatch.md) и включенным даунгрейдером, [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помощь многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое! У этого автора есть [ссылка на пожертвования](support.md).
+
 ## ItsClockAndre
-За их работу над [даунгрейдером](../downgrading/#itsclockandre), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md).
+За их работу над [даунгрейдером](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
 ## Parallellines
 За их работу над [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
@@ -49,7 +49,7 @@ description: Это руководство было бы невозможно б
 * Сообщество Steam за активную поддержку во время создания оригинального руководства на Steam.
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) за предоставление прекрасных библиотек для написания этого руководства.
 * [GitHub Pages](https://pages.github.com/) за бесплатный хостинг и домейн, из-за чего этот сайт является полностью бесплатным, а с этим - и без рекламы и не требует донатов.
-* Мне за потраченные 60+ часов(+бесчисленные часы, потраченные на раздобычу информации, проверок и написание стимовских руководств в течение 2 лет) в это руководство. Если вы хотите меня поддержать, вы можете [отправить деньги на мою банку monobank](https://send.monobank.ua/jar/3cJx2rhdw2).
+* Мне за потраченные 60+ часов(+бесчисленные часы, потраченные на раздобычу информации, проверок и написание стимовских руководств в течение 2 лет) в это руководство. У меня есть [ссылка на пожертвования](support.md).
 * Rockstar Games и Rockstar North за создание игры.
 
 ## И всех других!

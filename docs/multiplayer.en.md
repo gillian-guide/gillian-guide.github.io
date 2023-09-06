@@ -6,7 +6,7 @@ GTA IV had an amazing multiplayer... and it still does! At least for people who 
 !!! warning ""
     Current multiplayer methods require [downgrading](downgrading.md).
 
-    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](../downgrading/#itsclockandres-downgrader) already takes care of that if you chose to configure your install for GFWL.
+    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](downgrading.md) already takes care of that if you chose to configure your install for GFWL.
 
     Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
 
@@ -26,7 +26,7 @@ The classic multiplayer method, the one that started it all. And the one that is
 ### Usage
 ???+ info "Installation"
     !!! note ""
-        This step is already taken care of by [ItsClockAndre's downgrader](../downgrading/#itsclockandres-downgrader) if you chose to configure the install for GFWL. Skip it if you did.
+        This step is already taken care of by [ItsClockAndre's downgrader](downgrading.md) if you chose to configure the install for GFWL. Skip it if you did.
 
     * Make sure you don't have an outdated installation of GFWL Marketplace and LIVE. Remove them if you do.
     * Install [Microsoft Visual C++ 2005 Redistributable **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=26347).

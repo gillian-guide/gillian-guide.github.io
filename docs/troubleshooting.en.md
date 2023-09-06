@@ -3,8 +3,21 @@ description: Troubleshooting your GTA IV issues.
 
 # Troubleshooting
 Anyone can have problems modding their favorite games, and GTA IV is extremely prone to this.
-??? info "I'm using the Rockstar Games Launcher and can't install mods!"
-    After downgrading or using the drag-and-drop archive, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
+
+???+ info "Known issues without a solution"
+    I know about these issues, no need to report them to me, unless you know a solution.
+    - After you get drunk, the lighting is flickering for some period.
+    - Broken LOD's on mission replays in TBoGT (did not attempt to reproduce).
+    - Broken LOD's during long gameplay periods; additionally, the game can get hardlocked when you try to start a mission in that state - temporary solution is to reload a save.
+    - Cutscenes freeze the game if the game is out-of-focus for too long.
+    - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back).
+    - Taxi rides can occasionally crash the game on 1.0.8.0.
+    - .NET dependencies do not work on Linux.
+
+??? info "I'm using the Rockstar Games Launcher"
+    After downgrading or using the drag-and-drop archive for 1.0.8.0, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
+
+    Otherwise, if you want to use CE, avoid file replacements.
 
 ??? info "The game does not start in desired resolution and there is no option to increase it in the settings"
     After installing [DXVK](optimization.md), set these [launch options](../additional-setup/#launch-options):
@@ -29,8 +42,11 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Load times got even longer"
     Remove ColAccel. It doesn't work properly for some people for some reason.
 
-??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS"
-    Install [FusionFix](essential-modding/fusionfix.md) and enable the `FPS limiter` in Settings - Display and set it to 60 FPS.
+??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS such as arcades being broken"
+    Install [FusionFix](essential-modding/fusionfix.md) and set the `FPS limiter` in Settings - Graphics to 60 FPS.
+
+??? info "Softlock on TLAD - Shifting Weight"
+    Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
 
 ??? info "Game loads directly into the savegame on startup, no menu"
     You can hold ++lshift++ on boot for when you need the menu.
