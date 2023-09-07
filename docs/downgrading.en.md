@@ -39,6 +39,7 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
         * You will be prompted to downgrade when opening the game, press Yes. It'll automatically handle everything.
         ??? note "Downgrading to 1.0.7.0"
             This tool is only intended to downgrade to 1.0.8.0. For 1.0.7.0, instead, follow these instructions:
+            
             * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu/downgrading).
             * Scroll to the bottom and download the 1.0.7.0 archive. 
             * Extract the contents of the :material-zip-box:`IV_Downgrade_1070_vxx.zip` into the game folder, replacing everything if prompted.
