@@ -13,12 +13,13 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
     I'm only listing these mods - I do not intend people to actually install all of them together. Pick what to install yourself.
 
 ## List of mods (larger-scale)
-| Mod | Author(s) | Description |
+| Mod | Author(s) | Details |
 | :-: | :-------: | :---------: |
 | [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyaaboi, Tomasak, Ash_735, Parallellines, Vaani, AssaultKifle47, RaphaelK12 | This project, along with [Shader Fixes](../essential-modding/shader-fixes.md), restores graphics from the console version. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look. | 
 | [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/) | Attramet, MikhailRock, Ash735, Tomasak, novatic, Philips_27, Parallellines | The purpose of the mod is to fix, restore some things, console content, implement various texture improvements, etc. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | (Japan) GTA Love, TheYoshiPunch, whatever57010 | A massive collection of fixes and improvements to characters models to fix inconsistencies between IV and EFLC. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Enhanced Minor Characters](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/) | Datalvarezguy | Replaces vanilla peds in some missions with author's visions for the characters. Requires [OpenIV](openiv.md) or a [modloader](modloading.md).  |
 | [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/) | The Westside Minions & The GTA IV Modding Community | This mod aims to make GTA IV a more modern title, adding various features such as quick save, improved AI, the ability to move with the sniper rifle, etc. Requires [IV-SDK .NET](../../mod-dependencies/#iv-sdk-net) with Clonk's Coding Library. |
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores various cut/non-included pedestrians to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Restores various cut/non-included pedestrian actions to the game world. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -37,8 +38,8 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 
 ## List of mods (smaller-scale)
-| Mod | Author(s) | Description |
-| :-: | :-------: | :---------: |
+| Mod | Author(s) | Details |
+| :-: | :-------: | :-----: |
 | [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/) | B Dawg, C1aude_III | This project improves various issues with weapon animations. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [IV Fixes and Improvements](https://zolika1351.pages.dev/mods/ivfixes) | Zolika1351 | Collection of minor fixes and improvements. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Fix Collection](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL, nkjellman and me | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
@@ -48,6 +49,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores several trees that were only present in the beta version. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Improved Weapon Spec](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002) | Ash_735 | Backports TBoGT's higher quality specular maps on the weapons to IV. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Dodgy Doc - Higher Quality, Liberty Ferry Terminal - Waiting Sign Fix, Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Several minor-scale mods, you can read the descriptions for them on the page. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. Requires [OpenIV](openiv.md) or a [modloader](modloading.md).  |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Fixes the model for Blista Compact, giving it the correct size and correcting modeling errors. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Fixed LCPD Buffalo](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Ooboy | Fixes the police buffalo model and texture bugs. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on outfits. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -61,6 +63,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Traffic Cops: Back in the Tollbooths](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/) | Olanov | Simple script mod that replaces the tollbooth cop peds with traffic cops. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence. |
 | [ColAccel](https://github.com/ThirteenAG/IV.EFLC.ColAccel/) | ThirteenAG | Speeds up loading times by several times, ==but can cause memory problems and does not cache moments from the story (like the burnt garage)==. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
+| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | by GladiTek | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871) | Ash_735 | Replaces radio logos textures with higher resolutions ones. |
 | [Xbox One/Series S+X Buttons](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058) | Ash_735 | Replaces Xbox 360 button textures with Xbox One/Series ones. |
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
