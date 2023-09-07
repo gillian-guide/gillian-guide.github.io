@@ -24,13 +24,13 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[08.09.2023](#changelog)**
 	
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods)==. For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup== (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings). The archive already includes a downgrader, you don't need to downgrade on your own.
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation. 
 		
 		If you are using the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version, do not start the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced.
 
-		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-files:`IVSDKDotNet` as DotNet does not work on latest Proton as it should.
+		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-file:`IVSDKDotNet` as DotNet does not work on latest Proton.
 		
 		Other installation methods are not supported.
 		
@@ -51,7 +51,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Last updated: **[08.09.2023](#changelog)**
 
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods)==. For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup== (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation.
 
