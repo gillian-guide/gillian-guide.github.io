@@ -19,6 +19,8 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
     !!! tip ""
         You can move files from the :material-folder:==plugins== to the game folder for convenience.
+!!! warning "Updating"
+    If you're updating the mod, do not extract :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. Just take note if there are any new options that differ from your existing ones, carry them over in that case.
 
 ## Configuration
 Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:==plugins== by default) and configure the file as needed.
