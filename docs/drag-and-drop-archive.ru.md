@@ -24,13 +24,13 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[08.09.2023](#_6)**
 	
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtility.exe` и пройдите через установку (если его нету, [скачайте здесь](../optimization/#_3) и добавьте в исключения антивируса) и просмотрите [дополнительные моды](#_5)==. Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
-	!!! warning "Предупреждение"
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtility.exe` и пройдите через установку (если его нету, [скачайте здесь](../optimization/#_3) и добавьте в исключения антивируса) и просмотрите [дополнительные моды](#_5)==. Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3). В архив уже включен даунгрейдер.
+	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 		
 		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 
-		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-files:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
+		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
 		
 		Какой-либо другой способ установки не поддерживается.
 		
@@ -51,8 +51,8 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[08.09.2023](#_6)**
 
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtility.exe` и пройдите через установку (если его нету, [скачайте здесь](../optimization/#_3) и добавьте в исключения антивируса) и просмотрите [дополнительные моды](#_5)==. Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
-	!!! warning "Предупреждение"
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtility.exe` и пройдите через установку== (если его нету, [скачайте здесь](../optimization/#_3) и добавьте в исключения антивируса) и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
+	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 
 		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-files:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
