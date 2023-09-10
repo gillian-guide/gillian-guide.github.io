@@ -12,6 +12,7 @@ While they are different in some ways, you can still use both if you're running 
     | 1.0.8.0 and 1.0.7.0 support | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Complete Edition support | :material-cancel: | :material-checkbox-marked-circle: |
     | Can inject .img files | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Can inject raw files without any .img itself | :material-checkbox-marked-circle: | :material-cancel: |
     | Can inject other files without overriding | :material-checkbox-marked-circle: | :material-cancel: |
     | Can override most files without affecting the originals | :material-cancel: | :material-checkbox-marked-circle: |
     | A simple .ini for configuration | :material-checkbox-marked-circle: | :material-cancel: |
@@ -29,7 +30,7 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 ???+ info "Usage"
 
     ??? "Installing mods"
-        To install mods, create a folder with the name of your mod in :material-folder:==modloader==. Then create(with [OpenIV](openiv.md)) or place an `.img` or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) in that folder. You can also leave a :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` to avoid bloating the config. ==Don't use subfolders. Use different folders for files that can be used for both IV and EFLC DLCs to avoid compatibility issues==.
+        To install mods, create a folder with the name of your mod in :material-folder:==modloader==. Then create(with [OpenIV](openiv.md)) or place an `.img` (note: you can put raw files in instead without one) or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) in that folder. You can also leave a :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` to avoid bloating the config. ==Don't use subfolders. Use different folders for files that can be used for both IV and EFLC DLCs to avoid compatibility issues==.
         ??? warning "Expected folder structure"
             Improved Animations mod will be used for an example.
 
