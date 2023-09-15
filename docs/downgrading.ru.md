@@ -65,25 +65,16 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     После даунгрейда всегда запускайте игру с помощью :material-file:`PlayGTAIV.exe` или кнопки `Играть` в Steam. Кроме того, при желании папку с игрой можно переместить в другое место.
 
 ## Даунгрейд радио
-!!! note ""
-    Этот даунгрейдер может быть использован как для Complete Edition, так и для старых версий. Читайте примечания ниже.
-
-    Этот даунгрейдер уже является частью даунгрейдера от ItsClockAndre если вы не пропустили этап даунгрейда радиостанций - в этом случае вы можете пропустить эту часть.
-
 Более 50 треков радиостанций были удалены из игры в апреле 2018 года из-за просроченных лицензий. Однако мы можем их восстановить.
 ???+ note "Установка"
-    * Установите последнюю версию [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) для его модлоадера (также [ZolikaPatch](essential-modding/zolikapatch.md) если вы используете старые версии; мы можем обойти это, читайте примечание позже)
     * Перейдите на сайт [Various GTA Downgraders](http://downgraders.rockstarvision.com/) и прокрутите страницу до конца.
-    * Скачайте Radio downgrader для GTA IV.
-    * Распакуйте :material-zip-box:`IVCE_RADIO_DOWNGRADER.rar` в папку с игрой (исключая папки :material-folder:`... new vladivostok`).
-    * Запустите :material-file-download:`install.bat` и дождитесь, пока консоль сама закроется.
-    * Теперь распакуйте либо :material-folder:`with new vladivostok`, либо :material-folder:`without new vladivostok` в папку с игрой.
-    ???+ question "В чем разница?"
-        Rockstar добавили на Владивосток новые треки взамен вырезанных. :material-folder:`with new vladivostok` сохраняет их вместе с восстановленными вырезанными, а :material-folder:`without new vladivostok` вырезает их, оставляя только восстановленные.
+    * Скачайте Radio Restoration mod for GTAIV CE.
+    * Распакуйте :material-zip-box:`GTAIVCERADIORESTOREINSTALLER.zip` в любую пустую папку.
+    * Запустите :material-file-download:`IVCERadioRestorer.exe` и следуйте инструкциям в приложении. Поставьте галочку на установку [FusionFix](essential-modding/fusionfix.md) если вы его не установили заранее (на старых версиях установите вручную).
+    ???+ question "В чем разница между pre-cut Vladivostok и pre-+post-cut?"
+        Rockstar добавили на Владивосток новые треки взамен вырезанных. pre-+post-cut сохраняет их вместе с восстановленными вырезанными, а pre-cut вырезает их, оставляя только восстановленные.
     ???+ tip "Аддоны"
         Существуют аддоны - см. их [здесь](https://www.nexusmods.com/gta4/mods/234?tab=files)
-    ??? question "Как обойтись без использования дополнительных модов?"
-        Переместите содержимое папки :material-folder:`update` в папку с игрой, заменяя файлы при появлении запроса.
 
 ## Даунгрейд сохранения
 !!! note ""

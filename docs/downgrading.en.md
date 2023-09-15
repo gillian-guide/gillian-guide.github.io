@@ -65,25 +65,16 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
     After downgrading, always launch the game using :material-file:`PlayGTAIV.exe` or `Play` button on Steam. Additionally, your game folder can be moved elsewhere if you desire so.
 
 ## Downgrading the radio
-!!! note ""
-    This downgrader can be used on both Complete Edition and downgraded versions. Read notes below.
-
-    This downgrader is already a part of ItsClockAndre's Downgrader if you didn't skip the radio downgrading stage - you can skip this part in that case.
-
 Over 50 radio station tracks were removed from the game in April 2018 due to expired licenses. We can restore them, however.
 ???+ note "Installation"
-    * Get latest [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) for the modloader (also get latest [ZolikaPatch](essential-modding/zolikapatch.md) if you're using downgraded copies; we can get around this, read the note later)
     * Go to the [Various GTA Downgraders website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
-    * Download the Radio downgrader for GTA IV.
-    * Extract the :material-zip-box:`IVCE_RADIO_DOWNGRADER.rar` into the game folder (excl. :material-folder:`... new vladivostok` folders).
-    * Run :material-file-download:`install.bat` and wait until the console closes itself.
-    * Now extract the contents of either the :material-folder:`with new vladivostok` or :material-folder:`without new vladivostok` into the game folder.
-    ???+ question "What's the difference?"
-        Rockstar added new tracks to Vladivostok to replace the cut ones. :material-folder:`with new vladivostok` keeps these alongside the restored cut ones, while :material-folder:`without new vladivostok` cuts them out, only keeping the restored ones.
+    * Download the Radio Restoration mod for GTAIV CE.
+    * Extract the :material-zip-box:`GTAIVCERADIORESTOREINSTALLER.zip` into any empty folder.
+    * Run :material-file-download:`IVCERadioRestorer.exe` and follow the in-app instructions. Pick to install [FusionFix](essential-modding/fusionfix.md) if you didn't install it beforehand (install manually on older patches).
+    ???+ question "What's the difference between only pre-cut Vladivostok and pre-+post-cut?"
+        Rockstar added new tracks to Vladivostok to replace the cut ones. Pre-+post-cut keeps these alongside the restored cut ones, while only pre-cut songs cuts them out, only keeping the restored ones.
     ???+ tip "Addons"
         There are serveral addons - see them [here](https://www.nexusmods.com/gta4/mods/234?tab=files)
-    ??? question "How to get around using additional mods?"
-        Move the contents of the :material-folder:`update` folder to the game folder, replacing files when prompted.
 
 ## Downgrading the savefile
 !!! note ""
