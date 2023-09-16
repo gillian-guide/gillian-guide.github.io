@@ -22,7 +22,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[15.09.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[15.09.2023](#changelog)** (+hotfix)
 	
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtility.exe` and go through the setup== (if it's missing, [download here](../optimization/#setup-utility) and add to antivirus exceptions) and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings). The archive already includes a downgrader, you don't need to downgrade on your own.
 	!!! warning
@@ -184,6 +184,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.0.8.0"
 	The archive is updated frequently, below is the list of changes:
 
+	* 16.09.2023 - Hotfix: Removed the :material-file:`IVMenuAPI.asi` that was bundled accidentally.
 	* 15.09.2023 - Updated FusionFix, ZolikaPatch, IV Tweaker, IV Fixes and Improvements, Liberty Tweaks, Radio Downgrader (this reduces the archive size a lot), Setup Utility. Added IV Bikers in Episodes voice sets fix.
 	* 08.09.2023 - Updated Various Fixes (should fix savefile damage). Added VAmbience.
 	* 07.09.2023 - Updated FusionFix. Added Reduced Traffic Screech and High Quality Pigeons.

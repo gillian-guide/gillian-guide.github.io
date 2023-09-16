@@ -22,7 +22,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[15.09.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Последнее обновление: **[15.09.2023](#_6)** + хотфикс
 	
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtility.exe` и пройдите через установку (если его нету, [скачайте здесь](../optimization/#_3) и добавьте в исключения антивируса) и просмотрите [дополнительные моды](#_5)==. Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3). В архив уже включен даунгрейдер.
 	!!! warning "Предупреждения"
@@ -187,6 +187,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	Архив часто обновляется, ниже приведен список его изменений:
 
+	* 16.09.2023 - Хотфикс: Удален :material-file:`IVMenuAPI.asi` который был включен по случайности.
 	* 15.09.2023 - Обновлены FusionFix, ZolikaPatch, IV Tweaker, IV Fixes and Improvements, Liberty Tweaks, Radio Downgrader (что прилично уменьшило размер архива), Setup Utility. Добавлен IV Bikers in Episodes voice sets fix.
 	* 08.09.2023 - Обновлен Various Fixes (должно исправить повреждение сохранений). Добавлен VAmbience.
 	* 07.09.2023 - Обновлен FusionFix. Добавлены Reduced Traffic Screech и High Quality Pigeons.
