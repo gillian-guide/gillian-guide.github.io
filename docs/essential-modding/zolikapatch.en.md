@@ -7,6 +7,9 @@ description: One of the must-have mods for your GTA IV install
 
 This mod aims to fix & improve various things in GTA IV, as well as greatly improve the [multiplayer](../multiplayer.md) experience. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
+!!! warning "Notice"
+    This section won't be updated until further notice due to ongoing drama between Fusion Team and Zolika, aswell as uncertainity of up-to-date information. My guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV only.
+
 ## Installation { data-search-exclude }
 * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
 * Scroll to the bottom of the page and download the latest version.

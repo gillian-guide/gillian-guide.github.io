@@ -19,6 +19,9 @@ If you don't want to manually mod your game, you can choose an archive depending
 !!! warning "Performance"
 	**This archive does NOT provide highest possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. The performance, in most cases, is still perfectly acceptable and most people shouldn't mind the slight drop in performance.**
 
+!!! warning "Notice"
+    This section nor the archive won't be updated until further notice due to ongoing drama between Fusion Team and Zolika, aswell as uncertainity of up-to-date information. My guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV only.
+
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"

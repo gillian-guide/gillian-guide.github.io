@@ -10,6 +10,9 @@ This is a centralized, all-in-one guide. It includes steps for [optimizing](opti
 !!! warning ""
     This guide is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves. 
 
+!!! warning "Notice"
+    This guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV only, thus the ongoing drama between Zolika and Fusion Team will affect this guide in the least. Or so I hope to achieve, at least.
+
 ## Prerequisites
 !!! warning ""
     - In order for this guide to be useful to you, please make sure that the following requirements are met:

@@ -1,10 +1,16 @@
-title: FusionFix
+title: FusionFix & Shader Fixes
 description: One of the must-have mods for your GTA IV install
 
-# FusionFix
+# FusionFix & Shader Fixes
 !!! warning "Compatibility" 
     This mod is only officially supported on the Complete Edition, but thanks to the efforts of Zolika1351, you can also use it with the 1.0.8.0 and 1.0.7.0 patches.
-This project aims to fix or address some issues in Grand Theft Auto IV. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). It also bundles [Shader Fixes](shader-fixes.md) along with toggles to enable/disable its [FXAA](../../additional-setup/#optimal-game-settings), [Console-like Gamma](assets/console-gamma.png) and Depth of Field.
+This project aims to fix or address some issues in Grand Theft Auto IV. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). It also bundles [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) with toggles to many of it's options.
+
+??? info "Shader Fixes"
+    This project aims to fix and restore broken and missing shaders on the PC port (everything from [here](https://libertycity-ru.translate.goog/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=pt-BR)). You can read the changelog [here](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
+
+!!! warning "Notice"
+    This section won't be updated until further notice due to ongoing drama between Fusion Team and Zolika, aswell as uncertainity of up-to-date information. My guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV only.
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
@@ -21,6 +27,8 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
         You can move files from the :material-folder:==plugins== to the game folder for convenience.
 !!! warning "Updating"
     If you're updating the mod, do not extract :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. Just take note if there are any new options that differ from your existing ones, carry them over in that case.
+??? tip "Restoring the vanilla noise look in TLAD"
+    If you don't like the noise tiling in TLAD that Shader Fixes introduces to make it look like the console version, you can extract [this archive](https://drive.google.com/file/d/1zxCWhWQ4qP4rJvUablTGjfqpFUp3UOS3/view?usp=sharing) ontop to restore the vanilla look. The files are organized for the UAL's modloader, but you can repurpose the files manually.
 
 ## Configuration
 Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:==plugins== by default) and configure the file as needed.
@@ -64,4 +72,4 @@ Open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` (located in :material-folder:
     * `VehicleBudget` allows you to change the vehicle budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you've encountered the [taxi bug](assets/taxi-bug.png). The value should be the size of your :material-file:`vehicles.img` in bytes(e.g. 200000000). ==Default is `0`.==
     * `PedBudget` allows to change the ped budget. This option comes from the built-in [RIL.Budgeted](https://gtaforums.com/topic/744584-reliv-rilbudgeted-population-budget-adjustertaxi-bug-fix/). Only change this option if you're unable to encounter modded peds. ==This option is hidden by default.==
 
-[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Shader Fixes</br>](shader-fixes.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Multiplayer</br>](../multiplayer.md){ .md-button .md-button--primary }

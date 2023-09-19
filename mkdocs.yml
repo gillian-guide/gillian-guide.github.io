@@ -1,6 +1,6 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
-copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive.
+copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. [Contribute](https://github.com/gillian-guide/gillian-guide.github.io/).
 
 plugins:
   - i18n:
@@ -99,7 +99,6 @@ nav:
     - "essential-modding/index.md"
     - "essential-modding/zolikapatch.md"
     - "essential-modding/fusionfix.md"
-    - "essential-modding/shader-fixes.md"
   - Extras:
     - "extras/index.md"
     - "multiplayer.md"
@@ -112,11 +111,11 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/gillian-guide/gillian-guide.github.io/issues
-      name: If you have concerns about the page, post them on the GitHub issues page.
+      link: https://github.com/gillian-guide/gillian-guide.github.io/
+      name: Contribute to the guide
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zwmsQqExbQ
-      name: My Discord server.
+      name: My Discord server
   analytics:
     provider: google
     property: G-RSQFR3F839

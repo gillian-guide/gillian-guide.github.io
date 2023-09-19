@@ -15,7 +15,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 ## List of mods (larger-scale)
 | Mod | Author(s) | Details |
 | :-: | :-------: | :---------: |
-| [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyaaboi, Tomasak, Ash_735, Parallellines, Vaani, AssaultKifle47, RaphaelK12 | This project, along with [Shader Fixes](../essential-modding/shader-fixes.md), restores graphics from the console version. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyaaboi, Tomasak, Ash_735, Parallellines, Vaani, AssaultKifle47, RaphaelK12 | This project, along with [Shader Fixes](../essential-modding/fusionfix.md), restores graphics from the console version. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look. | 
 | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod. |
 | [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/) | Attramet, MikhailRock, Ash735, Tomasak, novatic, Philips_27, Parallellines | The purpose of the mod is to fix, restore some things, console content, implement various texture improvements, etc. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |

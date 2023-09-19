@@ -17,7 +17,7 @@ description: Это руководство было бы невозможно б
 За их работу над [даунгрейдером](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
 ## Parallellines
-За их работу над [Shader Fixes Collection](essential-modding/shader-fixes.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
+За их работу над [Shader Fixes Collection](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
 
 ## Shvab, разработчики OpenIV, команда FiveM, и другие
 За их работу над инструментами для моддинга. Без них все эти моды были бы невозможны.
