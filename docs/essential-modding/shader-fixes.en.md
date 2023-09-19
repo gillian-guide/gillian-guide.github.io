@@ -16,12 +16,12 @@ You can either install this mod as a standalone or update the files in [FusionFi
 === "Updating FusionFix files"
     * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
     * Download the latest version.
-    * Extract the files from the archive to the :material-folder:==update==, replacing all files if prompted.
+    * Extract the archive to the :material-folder:==update==, replacing all files if prompted.
 
 === "Standalone"
     * Go to the [Releases](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/releases) page.
     * Download the latest version.
-    * Extract the files from the archive into the game folder, replacing all files when prompted.
+    * Extract the archive into the game folder, replacing all files when prompted.
 
 ??? tip "Restoring the vanilla noise look in TLAD"
     If you don't like the noise tiling in TLAD that Shader Fixes introduces to make it look like the console version, you can extract [this archive](https://drive.google.com/file/d/1zxCWhWQ4qP4rJvUablTGjfqpFUp3UOS3/view?usp=sharing) ontop to restore the vanilla look. The files are organized for the UAL's modloader, but you can repurpose the files manually.
