@@ -1,6 +1,6 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
-copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. [Contribute](https://github.com/gillian-guide/gillian-guide.github.io/).
+copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. You can contribute - press the GitHub button to the right.
 
 plugins:
   - i18n:
