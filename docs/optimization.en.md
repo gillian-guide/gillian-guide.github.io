@@ -37,11 +37,11 @@ This may sound obvious, but a lot of people don't install drivers, so I feel the
     * Follow the in-app instructions to install the driver.
 
 ## Setup Utility
-Thanks to [Kreato's](https://gillian-guide.github.io/credits/#special-thanks) and my own efforts, you can now set up DXVK and [Launch Options](https://gillian-guide.github.io/additional-setup/#launch-options) semi-automatically. It automatically checks your hardware and what options to use, aswell as accounting for installed mods.
+Using this tool you canset up DXVK and [Launch Options](../additional-setup/#launch-options) semi-automatically. It automatically checks your hardware and what options should be available (aswell as setting defaults).
 !!! info "Usage"
-    - [Download the tool](https://github.com/SandeMC/GTAIVSetupUtility/releases).
-    - Launch it and follow the in-app instructions.
-    - If any issues occur, [report it on the discord server](contact-me.md).
+    - [Download the tool](https://github.com/SandeMC/GTAIVSetupUtilityWPF/releases).
+    - Launch it and follow the in-app instructions (or just press `Install DXVK` and `Setup launch options` buttons and don't touch anything else).
+    - If any issues occur, [report it on the discord server](contact-me.md). You can also try using the deprecated [Python version](https://github.com/SandeMC/GTAIVSetupUtility/releases).
 
 ## DXVK
 Currently the only good solution for improving game's performance. 
