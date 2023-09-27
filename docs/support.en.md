@@ -5,16 +5,14 @@ description: If you wish to support the amazing people that made this guide poss
 
 Without the people listed in [credits](credits.md) we wouldn't have this guide, nor all these amazing tools and mods. So why not support them? I'm going to provide all available donation links for all people mentioned in the [credits](credits.md).
 
-## ThirteenAG
-Note: ThirteenAG is a resident of Russia, so he may not be able to accept the non-Boosty donations at the moment. They shouldn't just vanish if you so desire to send it, but he may not be able to receive it either. I have no 100% confirmation on this - [contact me](contact-me.md) if I'm wrong.
-
-Note 2: Boosty is a Russian company.
-
-[:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
-
 ## Zolika1351
 
 [:simple-patreon: Patreon](https://www.patreon.com/zolika1351){ .md-button .md-button--primary }
+
+## ThirteenAG
+Note: Boosty is a Russian company.
+
+[:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
 
 ## ItsClockAndre
 

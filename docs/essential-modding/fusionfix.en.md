@@ -9,16 +9,24 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 ???+ info "Shader Fixes"
     This project aims to fix and restore broken and missing shaders on the PC port (everything from [here](https://libertycity-ru.translate.goog/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=pt-BR)). You can read the changelog [here](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
 
-!!! warning "Notice"
-    This section won't be updated until further notice due to ongoing drama between Fusion Team and Zolika, aswell as uncertainity of up-to-date information. My guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV only.
-
 ## Installation { data-search-exclude }
 === "1.0.8.0"
-    * Go to the Zolika1351's fork of FusionFix [Releases](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/).
-    * Download the latest release.
-    * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
-    !!! tip ""
-        Optionally, if the official release is more up-to-date, you can update the files from the :material-folder:==update== - simply download the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) and extract only the :material-folder:==update==.
+    === "Zolika1351's fork"
+        !!! warning "Notice"
+            This fork, nor any other Zolika1351's mods will not be updated anymore. See [this post](https://zolika1351.pages.dev/posts/saying-goodbye) for context.
+        * Go to the Zolika1351's fork of FusionFix [Releases](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/releases/).
+        * Download the latest release.
+        * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
+        !!! tip ""
+            Optionally, if the official release is more up-to-date, you can update the files from the :material-folder:==update== - simply download the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) and extract only the :material-folder:==update==.
+    === "Official"
+        !!! warning "Compatibility"
+            Official support is currently lacking support for any of Zolika1351's mods, including [ZolikaPatch](zolikapatch.md).
+        * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
+        * Download the latest release.
+        * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
+        !!! tip ""
+            You can move files from the :material-folder:==plugins== to the game folder for convenience.
 === "1.2.0.59"
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.

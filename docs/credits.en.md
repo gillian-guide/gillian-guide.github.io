@@ -4,14 +4,14 @@ description: This guide wouldn't be possible without all these amazing people!
 # Credits
 This guide wouldn't be possible without all these amazing people!
 
+## Zolika1351
+For their work on [ZolikaPatch](essential-modding/zolikapatch.md) and it's downgrading tool, [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more! This author has a [donation link](support.md).
+
 ## ThirteenAG
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
 
 ## Tomasak
 For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.
-
-## Zolika1351
-For their work on [ZolikaPatch](essential-modding/zolikapatch.md) and it's downgrading tool, [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more! This author has a [donation link](support.md).
 
 ## ItsClockAndre
 For their work on the [Downgrader Tool](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).

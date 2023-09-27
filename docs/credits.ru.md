@@ -4,14 +4,14 @@ description: Это руководство было бы невозможно б
 # Авторы
 Это руководство было бы невозможно без всех этих замечательных людей!
 
+## Zolika1351
+За их работу над [ZolikaPatch](essential-modding/zolikapatch.md) и включенным даунгрейдером, [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помощь многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое! У этого автора есть [ссылка на пожертвования](support.md).
+
 ## ThirteenAG
 За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
 ## Tomasak
 За их работу над [FusionFix](essential-modding/fusionfix.md), а также вклад во многие другие моды сообщества.
-
-## Zolika1351
-За их работу над [ZolikaPatch](essential-modding/zolikapatch.md) и включенным даунгрейдером, [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помощь многим другим моддерам (куча модов [отсюда](extras/mods.md) были бы невозможны без него!), оказание легкой помощь в составлении руководства и многое другое! У этого автора есть [ссылка на пожертвования](support.md).
 
 ## ItsClockAndre
 За их работу над [даунгрейдером](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
