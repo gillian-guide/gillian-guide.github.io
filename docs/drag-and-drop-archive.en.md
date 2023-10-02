@@ -25,7 +25,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1O1qD8ocbJ_fnERTvvVzyw6_bsw-k_evo/view){ .md-button .md-button--primary }  Last updated: **[27.09.2023](#changelog)**
+	[:material-download-circle: Download](https://mega.nz/file/j5MF1CLY#VKndZI9m7G1D_D__qttsgKSMkZe_9bfxj9TYiRZIziA){ .md-button .md-button--primary }  Last updated: **[27.09.2023](#changelog)**
 	
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation, launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== (if it's missing, [download here](../optimization/#setup-utility)) and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
