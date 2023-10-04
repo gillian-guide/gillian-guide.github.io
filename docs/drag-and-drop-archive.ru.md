@@ -25,9 +25,9 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://mega.nz/file/j5MF1CLY#VKndZI9m7G1D_D__qttsgKSMkZe_9bfxj9TYiRZIziA){ .md-button .md-button--primary }  Последнее обновление: **[21.09.2023](#_6)**
+	[:material-download-circle: Скачать](https://mega.nz/file/j5MF1CLY#VKndZI9m7G1D_D__qttsgKSMkZe_9bfxj9TYiRZIziA){ .md-button .md-button--primary }  Последнее обновление: **[21.09.2023](#_6)** + хотфикс ([04.10.2023](#_6))
 	
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку (если его нету, [скачайте здесь](../optimization/#setup_utility)) и просмотрите [дополнительные моды](#_5)==. Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите игру один раз, нажмите 'Да' на даунгрейд, после чего запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`, пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 		
@@ -54,7 +54,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[21.09.2023](#_6)**
 
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== (если его нету, [скачайте здесь](../optimization/#setup_utility)) и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
 
@@ -191,6 +191,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	Архив часто обновляется, ниже приведен список его изменений:
 
+	* 04.10.2023 (хотфикс) - Исправлена проблема с давнгрейдом которая ломала настройки.
 	* 27.09.2023 - Обновлены Setup Utility, ZolikaPatch, IV Tweaker, Liberty Tweaks. Добавлен Extra Options.
 	* 21.09.2023 - Обновлен Various Fixes. Заменен Setup Utility на переписанную версию.
 	* 16.09.2023 - Хотфикс: Удален :material-file:`IVMenuAPI.asi` который был включен по случайности.
