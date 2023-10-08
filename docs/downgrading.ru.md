@@ -91,7 +91,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     * Расположите его в :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
 ## Руссификатор
-После даунгрейдинга, у вас не будет русского языка. Скачайте [оффициальный руссификатор](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link) и распакуйте его в папку с игрой. У вас должны бытьь установлены [Ultimate ASI Loader](../extras/modloading/#ultimate-asi-loader) и [ZolikaPatch](essential-modding/zolikapatch.md).
+После даунгрейдинга, у вас не будет русского языка. Скачайте [оффициальный руссификатор](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link) и распакуйте его в папку с игрой. У вас должны быть установлены [Ultimate ASI Loader](../extras/modloading/#ultimate-asi-loader) и [ZolikaPatch](essential-modding/zolikapatch.md).
 
 В Настройки - Дисплей измените язык на Русский.
 
