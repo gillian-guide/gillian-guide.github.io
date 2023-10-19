@@ -1,0 +1,5 @@
+mkdocs-material
+mkdocs-static-i18n
+mkdocs-glightbox
+pillow
+cairosvg
