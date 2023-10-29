@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "shardulm94.trailing-spaces",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "ms-vscode-remote.remote-wsl"
+  ]
+}

@@ -8,6 +8,9 @@
 .docusaurus
 .cache-loader
 
+# Mkdocs generated files
+.cache/
+
 # Misc
 .DS_Store
 .env.local
