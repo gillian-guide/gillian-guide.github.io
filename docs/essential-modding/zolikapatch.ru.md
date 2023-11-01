@@ -21,4 +21,4 @@ description: Один из важных модов для вашей устан�
 ## Настройка
 Откройте :material-file-cog:`ZolikaPatch.ini` и настройте файл по необходимости. Все опции уже имеют описания.
 
-[:material-page-first:Предыдущая страница <br>Essential Modding</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Essential Modding</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button .md-button--primary }

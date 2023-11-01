@@ -10,14 +10,17 @@ For their work on [ZolikaPatch](essential-modding/zolikapatch.md) and it's downg
 ## ThirteenAG
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
 
-## Tomasak
+## Parallellines
+For their work on [Shader Fixes Collection](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and contributing to [Various Fixes](extras/mods.md).
+
+## AssaultKnife47, RaphaelK12, robi29, \_CP_
+For directly contributing to [Shader Fixes Collection](essential-modding/fusionfix.md).
+
+## Tomasak & the rest of the Fusion Team
 For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.
 
 ## ItsClockAndre
 For their work on the [Downgrader Tool](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
-
-## Parallellines
-For their work on [Shader Fixes Collection](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and [Various Fixes](extras/mods.md).
 
 ## Shvab, OpenIV developers, FiveM team, and more
 For their work on modding tools. All those mods wouldn't be possible without them.

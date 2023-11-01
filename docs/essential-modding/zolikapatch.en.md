@@ -21,4 +21,4 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
 ## Configuration
 Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options already have descriptions.
 
-[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button .md-button--primary }

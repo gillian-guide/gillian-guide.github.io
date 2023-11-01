@@ -15,13 +15,13 @@ description: Установите эти достойные внимания м�
 ## Список модов (большего размера)
 | Мод | Автор(ы) | Описание |
 | :-: | :------: | :------: |
-| [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyaaboi, Tomasak, Ash_735, Parallellines, Vaani, AssaultKifle47, RaphaelK12 | Этот проект вместе с [Shader Fixes](../essential-modding/fusionfix.md) восстанавливает графику из консольной версии. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
-| [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori | Графический мод, построенный на ванильном визуале. | 
+| [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyaaboi, Tomasak, Ash_735, Parallellines, Vaani, AssaultKifle47, RaphaelK12 | Этот проект портирует ассеты из консольной версии. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
+| [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori | Графический мод, построенный на ванильном визуале. |
 | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Еще один Timecyc мод, построенный на ванильном визуале. |
 | [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/) | Attramet, MikhailRock, Ash735, Tomasak, novatic, Philips_27, Parallellines | Цель мода - исправить, восстановить некоторые вещи, консольный контент, улучшить различные текстуры и т.д. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | (Japan) GTA Love, TheYoshiPunch, whatever57010 | Огромный набор исправлений и улучшений моделей персонажей для устранения несоответствий между IV и EFLC. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [Enhanced Minor Characters](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/) | Datalvarezguy | Заменяет ванильных педов в некоторых миссиях на авторское видение персонажей. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
-| [Extra Options](https://zolika1351.pages.dev/mods/ivoptions)| Zolika1351 | Добавляет множество полезных переключателей в меню игры. Необходим [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) |
+| [Extra Options](https://zolika1351.pages.dev/mods/ivoptions)| Zolika1351 | Добавляет множество полезных переключателей в меню игры. Необходим [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). ==Не совместим с FusionFix 2.0+.== |
 | [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/) | The Westside Minions & The GTA IV Modding Community | Этот мод призван сделать GTA IV более современной игрой, добавляя в нее различные функции, такие как быстрое сохранение, улучшенный ИИ, возможность перемещения со снайперской винтовкой и т.д. Необходим [IV-SDK .NET](../../mod-dependencies/#iv-sdk-net) с Clonk's Coding Library и [IV Tweaker](../modloading/#iv-tweaker). |
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает различных вырезанных/не включенных педов. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Восстанавливает различные вырезанные/не включенные действия педов. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
@@ -34,6 +34,7 @@ description: Установите эти достойные внимания м�
 | [The Actual Complete Edition](https://gtaforums.com/topic/967792-grand-theft-auto-iv-the-actual-complete-edition/) | C1aude_III | Переносит почти все эксклюзивные вещи из EFLC в IV. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). ==Заменяет два следующих мода. Из-за того, что мод размещен на MEGA, вы можете получить битые файлы.== |
 | [The Complete Liberty City](https://gtaforums.com/topic/935747-the-complete-liberty-city-gta-iv-eflc-map-mix/) | ElYisusKing | Масштабный проект, направленный на то, чтобы сделать карты EFLC и IV единым целым, устранив их различия. Необходимы [ZolikaPatch](../essential-modding/zolikapatch.md) и [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [EFLC Vehicle Addon Pack](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag, Gaming with SG | Добавляет транспорт из EFLC в IV. Необходимы [ZolikaPatch](../essential-modding/zolikapatch.md) и [OpenIV](openiv.md) или [модлоадер](modloading.md). |
+| [Higher Resolution Miscellaneous Pack](https://www.nexusmods.com/gta4/mods/357/)| Ash_735 | Текстуры более высокого разрешения для многих вторичных объектов. Необходим [модлоадер](modloading.md).  |
 | [Vanilla Road and Vegetation Texture Enhancement](https://discord.gg/gZvZmFt2p7) | DayL | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Текстуры более высокого разрешения для всего транспорта (некоторые портированы из Max Payne 3 и GTA V, некоторые взяты из оригинальных источников). Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
 | [Hi-Res Characters](https://www.gtainside.com/en/gta4/mods/176255-hi-res-characters-update-v1-1-upscaled-mod/) | Primusideus | Увеличенные текстуры персонажей с более высоким разрешением. Необходим [OpenIV](openiv.md) или [модлоадер](modloading.md). |
@@ -77,11 +78,11 @@ description: Установите эти достойные внимания м�
 ## Мастерские
 В этих мастерских могут быть некоторые моды или инструменты, которые могут вас заинтересовать!
 
-[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button}  [ItsClockAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button} 
+[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button}  [ItsClockAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button}
 
 [Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 
-[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button} 
+[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button}
 
 ## Создание модов
 Если же вы заинтересованы в создании модов, посетите этот сервер Discord(англо-язычный):
@@ -89,6 +90,6 @@ description: Установите эти достойные внимания м�
 [:simple-discord: GTA IV Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
 
 ## Хотите, чтобы ваш мод был в списке?
-[Свяжитесь со мной!](../contact-me.md){ .md-button .md-button--primary } 
+[Свяжитесь со мной!](../contact-me.md){ .md-button .md-button--primary }
 
 [:material-page-first:Предыдущая страница <br>Модлоадинг</br>](modloading.md){ .md-button }

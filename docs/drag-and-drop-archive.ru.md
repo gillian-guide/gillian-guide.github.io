@@ -17,26 +17,26 @@ description: Полноценный готовый архив для игры в
 	* После установки архива рекомендуется начать игру с нового файла сохранения, но можно продолжать играть и с существующими файлами сохранения - просто возникнут небольшие проблемы (например, второстепенные объекты окажутся там, где их не должно быть).
 
 !!! warning "Производительность"
-	**Этот архив НЕ обеспечивает максимальную возможную производительность - цель состоит прежде всего в том, чтобы обеспечить наилучший ванильный опыт игры. Если вы хотите получить максимальную производительность - модифицируйте игру вручную. В большинстве случаев производительность остается вполне приемлемой, и большинство людей не должны замечать небольшого снижения производительности.**
+	**Этот архив НЕ обеспечивает лучшую производительность - цель состоит прежде всего в том, чтобы обеспечить наилучший ванильный опыт игры. Если вы хотите получить максимальную производительность - модифицируйте игру вручную. Однако можете поиграть с настройками графики - возможно, одна из новых настроек поможет вам исправить ситуацию.**
 
 !!! warning "Примечание"
-    Данный раздел и архив не будут обновляться до дальнейшего примечания в связи с продолжающейся драмой между Fusion Team и Zolika, а также неизвестности будущей ситуации. Мое руководство стремится быть максимально объективным, стараясь предоставлять только актуальную информацию для модинга GTA IV.
+    Этот раздел не отражает моего личного мнения о важности модов или моей позиции по отношению к моддерам. Я просто пытаюсь включить в него лучшие и совместимые с ванилью моды, не вызывающие проблем.
 
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[21.09.2023](#_6)** + хотфикс ([04.10.2023](#_6))
-	
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[01.11.2023](#_6)**
+
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите игру один раз, нажмите 'Да' на даунгрейд, после чего запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`, пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
-		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
-		
+		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
+
 		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 
 		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
-		
+
 		Какой-либо другой способ установки не поддерживается.
-		
+
 		Кроме того, я не буду поддерживать никаких дополнительных модификаций файлов, кроме уже перечисленных инструкций.
 	???+ info "Обновление"
 		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== и :material-folder:==modloader== из папки с игрой.
@@ -50,18 +50,18 @@ description: Полноценный готовый архив для игры в
 		Просмотрите [исправление проблем](troubleshooting.md).
 
 		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==.
-		
+
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[21.09.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1eJ4cbVhJ4tnTGJByh_Lf4eS5SS2ShmHO/view){ .md-button .md-button--primary }  Последнее обновление: **[01.11.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
-		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). 
+		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
 
 		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-files:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
-		
+
 		Какой-либо другой способ установки не поддерживается.
-		
+
 		Кроме того, я не буду поддерживать никаких дополнительных модификаций файлов, кроме уже перечисленных инструкций.
 	???+ info "Обновление"
 		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== из папки с игрой.
@@ -79,11 +79,9 @@ description: Полноценный готовый архив для игры в
 	| [ZolikaPatch IV~7.65~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
 	| [IV Tweaker~2.43~ от Zolika1351](https://zolika1351.pages.dev/mods/ivtweaker)| Выступает основным модлоадером в сборке, а также позволяет увеличить лимиты для других модов. |
 	| [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
-	| [FusionFix~1.96~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и [Traffic Cops: Back in the Toolbooths от Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/). <br>[Используется форк от Zolika1351](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/)</br>|
-	| [Console Visuals~1.3~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
+	| [FusionFix~2.0~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
 	| [Various Fixes~1.60~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Trilogy Characters Fixes от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
-	| [Extra Options~1.1~ от Zolika1351](https://zolika1351.pages.dev/mods/ivoptions) | Добавляет множество полезных переключателей в меню игры. |
 	| [Liberty Tweaks~1.2.1~ от The Westside Minions & Коммьюнити моддинга GTA IV](https://gtaforums.com/topic/991160-liberty-tweaks/)| Мод с большим количеством quality-of-life изменений. ==Этот мод позволяет совершить быстрое сохранение с помощью клавиши ++f9++. Он также позволяет убирать оружие в кобуру с помощью клавиши ++h++.== |
 	| [Improved Animations Pack~1.3~ от B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Фиксы для некоторых анимаций оружия, как задержка стрельбы. |
 	| [IV Fixes and Improvements~3.41~ от Zolika1351 и других](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| Сборник фиксов и улучшений - список на сайте. |
@@ -94,6 +92,7 @@ description: Полноценный готовый архив для игры в
 	| [Various Pedestrians Actions от Attramet](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Восстанавливает различные вырезанные/не включенные действия педов. |
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
 	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
+	| [Higher Resolution Miscellaneous Pack~1.0~ от Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Текстуры более высокого разрешения для многих вторичных объектов. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
@@ -121,7 +120,7 @@ description: Полноценный готовый архив для игры в
 	| Мод | Описание |
 	| :-: | :------: |
 	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
-	| [FusionFix~1.96~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, а также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и [Traffic Cops: Back in the Toolbooths от Olanov](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/).</br> |
+	| [FusionFix~2.0~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и .</br> |
 	| [Console Visuals~1.3~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированного визуала с консольной версии - от timecyc, до анимаций.<br>Использованные аддоны: Console Clothing, Console Fences, Console Trees(Console Leaves)</br> |
 	| [Various Fixes~1.60~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Trilogy Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
@@ -132,6 +131,7 @@ description: Полноценный готовый архив для игры в
 	| [Xbox Rain Droplets от ThirteenAG](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv)| Добавляет на экран красивые капельки воды. ==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.== |
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
 	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
+	| [Higher Resolution Miscellaneous Pack~1.0~ от Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Текстуры более высокого разрешения для многих вторичных объектов. |
 	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. |
@@ -161,14 +161,14 @@ description: Полноценный готовый архив для игры в
 	| Мод | Описание |
 	| :-: | :------: |
 	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой, в Settings - Display - Language смените язык на Русский. |
-	| [Radio Downgrader Addons](https://www.nexusmods.com/gta4/mods/234?tab=files) | Вы можете установить следующие аддоны: `Combine Old and New Songs on Vladivostok FM` и `No EFLC Music in GTA IV Radio`. <br>Установка: распакуйте скачанный аддон в папку с игрой.</br> | 
+	| [Radio Downgrader Addons](https://www.nexusmods.com/gta4/mods/234?tab=files) | Вы можете установить следующие аддоны: `Combine Old and New Songs on Vladivostok FM` и `No EFLC Music in GTA IV Radio`. <br>Установка: распакуйте скачанный аддон в папку с игрой.</br> |
 	| Настройки Liberty Tweaks | `Improved AI`(Улучшенный ИИ) и `Remove Weapons on Death`(Удаление оружий при смерти) были отключены - их можно вернуть в :material-file-cog:`LibertyTweaks.ini`, расположенном в :material-folder:==IVSDKDotNet\scripts==. Там же можно настроить FOV, а также изменить привязки клавиш для быстрого сохранения и убирания оружия в кобуру (по умолчанию ++f9++ и ++h++). |
+	| [Console Visuals от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии. |
+	| [Extra Options от Zolika1351](https://zolika1351.pages.dev/mods/ivoptions) | Добавляет множество полезных переключателей в меню игры. |
 	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.4==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
-	| [Vanilla PC TLAD Noise от меня](https://drive.google.com/file/d/1zxCWhWQ4qP4rJvUablTGjfqpFUp3UOS3/view?usp=sharing) | Удаляет исправленный шум в TLAD из Shader Fixes, делая его идентичным ванильному шуму на ПК<br>Установка: Распаковать в папку с игрой.</br> |
-	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==. ==Рекомендуется использовать с Vanilla PC TLAD Noise.==</br> | 
-	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале. <br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==. ==Рекомендуется использовать с Vanilla PC TLAD Noise.==</br> |
+	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==.</br> |
+	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале. <br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==. |
 	| [Enhanced Minor Characters от Datalvarezguy](https://drive.google.com/file/d/19VffQ6h_6NKR1k6CLDV610DDei7RwK_5/view?usp=sharing) | [Страница мода](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Заменяет ванильных педов в некоторых миссиях на авторское видение персонажей. <br>Установка: Распакуйте в папку с игрой.</br> |
-	| [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Вы можете добавить несколько аддонов, таких как консольные загрузочные экраны и прочее. Однако сначала проверьте, не установлен ли уже нужный вам аддон.<br>Установка: Скачайте версию Complete Edition и распакуйте желаемые папки ==update==.</br> |
 	| [Better Wardrobes от Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Заменяет неудобный шкаф на более приятный, однако некоторым он может оказаться неудобным а также ==мод разблокирует всю одежду с самого старта.==<br>Установка: Распакуйте :material-file:`WardrobeMod.asi` в папку с игрой.</br> |
 	| [IV-Presence от ItsClockAndre](https://gtaforums.com/topic/975850-iv-presence/) | Добавляет Discord Rich Presence.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`discord-rpc.dll` и :material-file:`IVPresence.asi` из :material-folder:==For GTA IV 1070 and 1080== в папку с игрой. Если возникают проблемы, также распакуйте :material-file:`IVPresenceDependenciesChecker.exe` с его конфигом, запустите и посмотрите, каких зависимостей вам не хватает.</br>|
 	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: В :material-folder:==modloader== измените в :material-file-edit:`modloader.ini` `DualshockButtons=1` на `0` в начале файла, а `XboxButtons=0` на `1`</br> |
@@ -177,20 +177,21 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
 	| Название мода | Детали |
 	| :-----------: | :----: |
-	| [Radio Downgrader Addons](https://www.nexusmods.com/gta4/mods/234?tab=files) | Вы можете установить следующие аддоны: `Combine Old and New Songs on Vladivostok FM` и `No EFLC Music in GTA IV Radio`. <br>Установка: распакуйте скачанный аддон в папку с игрой.</br> | 
+	| [Radio Downgrader Addons](https://www.nexusmods.com/gta4/mods/234?tab=files) | Вы можете установить следующие аддоны: `Combine Old and New Songs on Vladivostok FM` и `No EFLC Music in GTA IV Radio`. <br>Установка: распакуйте скачанный аддон в папку с игрой.</br> |
 	| [ColAccel от ThirteenAG](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Ускоряет загрузки в несколько раз, ==но может вызвать проблемы с памятью а также не кэширует моменты из сюжета(таких как сгоревший гараж)==.<br>Установка: скачиваем версию ==1.5==, распакуйте :material-file:`IV.EFLC.ColAccel.asi` в :material-folder:==plugins== или в папку с игрой</br> |
-	| [Vanilla PC TLAD Noise от меня](https://drive.google.com/file/d/1zxCWhWQ4qP4rJvUablTGjfqpFUp3UOS3/view?usp=sharing) | Удаляет исправленный шум в TLAD из Shader Fixes, делая его идентичным ванильному шуму на ПК<br>Установка: Распаковать в папку с игрой.</br> |
-	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==. ==Рекомендуется использовать с Vanilla PC TLAD Noise.==</br> | 
-	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале.<br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==. ==Рекомендуется использовать с Vanilla PC TLAD Noise.==</br> |
+	| [Console Visuals от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии. |
+	| [Extra Options от Zolika1351](https://zolika1351.pages.dev/mods/ivoptions) | Добавляет множество полезных переключателей в меню игры. |
+	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==.</br> |
+	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале.<br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==.</br> |
 	| [Enhanced Minor Characters от Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Страница мода](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Заменяет ванильных педов в некоторых миссиях на авторское видение персонажей. <br>Установка: Распакуйте в папку с игрой.</br> |
-	| [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Вы можете добавить несколько аддонов, таких как консольные загрузочные экраны и прочее. Однако сначала проверьте, не установлен ли уже нужный вам аддон.<br>Установка: Скачайте версию Complete Edition и распакуйте желаемые папки ==update==.</br> |
 	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br> |
 	| [Текстуры кнопок Dualsense от COZlerCae](https://www.nexusmods.com/gta4/mods/286)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualsense<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br>.
 
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
-	Архив часто обновляется, ниже приведен список его изменений:
+	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 01.11.2023 - Обновлен FusionFix. Добавлен Higher Resolution Miscellaneous Pack. Удален Console Visuals, перемещен в дополнительные моды. Удален Extra Options из-за несовместимости с FusionFix 2.0 - перемещен в дополнительные моды.
 	* 04.10.2023 (хотфикс) - Исправлена проблема с давнгрейдом которая ломала настройки.
 	* 27.09.2023 - Обновлены Setup Utility, ZolikaPatch, IV Tweaker, Liberty Tweaks. Добавлен Extra Options.
 	* 21.09.2023 - Обновлен Various Fixes. Заменен Setup Utility на переписанную версию.
@@ -201,12 +202,12 @@ description: Полноценный готовый архив для игры в
 	* 06.09.2023 - Обновлены ZolikaPatch, FusionFix - вместе с ним и Shader Fixes. Включен Setup Utility. Удален Traffic Cops in the Toolbooths - FusionFix теперь включает его. Удалены DXVK и commandline.txt, теперь их можно установить автоматически через :material-file-download:`GTAIVSetupUtility.exe`.
 	* 28.08.2023 - Исправлена бесконечная загрузка на миссии Three Leaf Clover (нужно другое решение - на данный момент из-за этого в катсцене нету одного NPC). Исправлен мод Dodgy Doc HQ - теперь должен быть использован. Добавлено `dxvk.gplAsyncCache = true` в :material-file-cog:`dxvk.conf`. Удалено Better Wardrobes.
 	* 26.08.2023 - Обновлены FusionFix, Project Glass, Xbox One/Series S+X Buttons. Добавлен Menu Art Fix. Перепакован Various Fixes, а также добавлены исправления от сообщества.
-	* 18.08.2023 - Обновлены файлы Various Fixes. Исправлена модель клабхауса Angels of Death в TLAD. 
+	* 18.08.2023 - Обновлены файлы Various Fixes. Исправлена модель клабхауса Angels of Death в TLAD.
 	* 17.08.2023 - Обновлен Project Glass. Добавлен More Visible Interiors. Немного изменены конфиги.
 	* 12.08.2023 - Исправлены известные вылеты и софтлоки в TLAD и TBoGT. Ввостановлен трек из меню TBoGT.
 	* 11.08.2023 - Исправлены вылеты (IV Tweaker из давнгрейдера являлся устаревшим). Обновлён FusionFix, Shader Fixes (вручную собрано). Немного изменён VehicleBudget. Изменен файл волос Нико для исправления визуальных проблем.
-	* 10.08.2023 - Обновлены Downgrader, ZolikaPatch и Project Glass. 
-	* 07.08.2023 - Обновлен FusionFix. 
+	* 10.08.2023 - Обновлены Downgrader, ZolikaPatch и Project Glass.
+	* 07.08.2023 - Обновлен FusionFix.
 	* 03.08.2023 - Добавлен Restored Trees Position. Перепакованы несколько файлов дабы избежать несовместимостей. Обновлён Console Visuals.
 	* 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes - также слегка перепакован.
 	* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах. Добавлены Project Thunder, Restored Pedestrians, Various Pedestrian Actions.
@@ -224,8 +225,9 @@ description: Полноценный готовый архив для игры в
 	* 30.06.2023 - Обновлён Shader Fixes.
 	* 26.06.2023 - Создание архива.
 === "1.2.0.59"
-  	Архив часто обновляется, ниже приведен список его изменений:
+  	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 01.11.2023 - Обновлен FusionFix. Добавлен Higher Resolution Miscellaneous Pack. Удален Console Visuals, перемещен в дополнительные моды.
 	* 21.09.2023 - Обновлен Various Fixes. Заменен Setup Utility на переписанную версию.
 	* 15.09.2023 - Обновлены FusionFix, Radio Downgrader (что прилично уменьшило размер архива), Setup Utility. Добавлен IV Bikers in Episodes voice sets fix.
 	* 08.09.2023 - Обновлен Various Fixes (должно исправить повреждение сохранений). Добавлены файлы которые отсутсвовали по таинственным причинам.
@@ -234,12 +236,12 @@ description: Полноценный готовый архив для игры в
 	* 28.08.2023 - Исправлен мод Dodgy Doc HQ - теперь должен быть использован. Добавлено `dxvk.gplAsyncCache = true` в :material-file-cog:`dxvk.conf`.
 	* 26.08.2023 - Обновлен Project Glass. Добавлены исправления от сообщества в Various Fixes. Возвращена более новая версия Shader Fixes, т.к. я случайно её перезаписал в прошлом обновлении.
 	* 22.08.2023 - Обновлены FusionFix, Xbox One/Series S+X Buttons. Добавлен Menu Art Fix.
-	* 18.08.2023 - Обновлены файлы Various Fixes. Исправлена модель клабхауса Angels of Death в TLAD. 
+	* 18.08.2023 - Обновлены файлы Various Fixes. Исправлена модель клабхауса Angels of Death в TLAD.
 	* 17.08.2023 - Обновлен Project Glass. Добавлен More Visible Interiors. Немного изменены конфиги.
-	* 12.08.2023 - Исправлены известные вылеты и софтлоки в TLAD и TBoGT. Ввостановлен трек из меню TBoGT. 
+	* 12.08.2023 - Исправлены известные вылеты и софтлоки в TLAD и TBoGT. Ввостановлен трек из меню TBoGT.
 	* 11.08.2023 - Обновлен Shader Fixes (вручную собрано). Немного изменен VehicleBudget. Изменен файл волос Нико для исправления визуальных проблем.
-	* 10.08.2023 - Обновлен Project Glass.  
-	* 07.08.2023 - Обновлен FusionFix. 
+	* 10.08.2023 - Обновлен Project Glass.
+	* 07.08.2023 - Обновлен FusionFix.
 	* 03.08.2023 - Добавлен Restored Trees Position.
 	* 02.08.2023 - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals.
 	* 25.07.2023 - Обновлён Fix Collection. Небольшие изменения в .ini файлах.
