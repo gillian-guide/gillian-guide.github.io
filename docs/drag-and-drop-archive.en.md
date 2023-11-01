@@ -27,7 +27,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 === "1.0.8.0"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[01.11.2023](#changelog)**
 
-	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation, run the game once, say 'Yes' to downgrading and then launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
+	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
 		The archive must be installed on top of a clean, unmodded [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) Complete Edition installation.
 
@@ -41,7 +41,9 @@ If you don't want to manually mod your game, you can choose an archive depending
 	???+ info "Updating"
 		If you're updating after installing the archive instead, delete :material-folder:==update== and :material-folder:==modloader== from the game folder first.
 	??? warning "My game doesn't boot"
-		Disable your antivirus or add the GTA IV folder to exceptions. Extract :material-file:`ZolikaPatch.asi` again after doing so.
+		Install :material-file-download:`vcredist_x86.exe` from the :material-folder:==Redist==.
+
+		Disable your antivirus or add the GTA IV folder to exceptions.
 
 		See [troubleshooting](troubleshooting.md).
 	??? warning "My game is behaving strangely | My game is crashing randomly"

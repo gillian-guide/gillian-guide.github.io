@@ -27,7 +27,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[01.11.2023](#_6)**
 
-	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите игру один раз, нажмите 'Да' на даунгрейд, после чего запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`, пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
+	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
 
@@ -41,9 +41,9 @@ description: Полноценный готовый архив для игры в
 	???+ info "Обновление"
 		Если вы обновляете архив после его предварительной установки, сначала удалите :material-folder:==update== и :material-folder:==modloader== из папки с игрой.
 	??? warning "Если игра не запускается"
-		Попробуйте установить :material-file-download:`vcredist_x86.exe` из папки с игрой.
+		Попробуйте установить :material-file-download:`vcredist_x86.exe` из :material-folder:==Redist==.
 
-		Отключите антивирус или добавьте папку с GTA IV в исключения. Распакуйте :material-file:`ZolikaPatch.asi` заново.
+		Отключите антивирус или добавьте папку с GTA IV в исключения.
 
 		Просмотрите [исправление проблем](troubleshooting.md).
 	??? warning "Моя игра нестабильна | Моя игра случайно вылетает"
