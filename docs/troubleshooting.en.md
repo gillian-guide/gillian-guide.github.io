@@ -6,7 +6,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 ???+ info "Known issues without a solution"
     I know about these issues, no need to report them to me, unless you know a solution.
-    
+
     - After you get drunk, the lighting is flickering for some period.
     - Broken LOD's on mission replays in TBoGT (did not attempt to reproduce).
     - Broken LOD's during long gameplay periods; additionally, the game can get hardlocked when you try to start a mission in that state - temporary solution is to reload a save.
@@ -14,6 +14,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back).
     - Taxi rides can occasionally crash the game on 1.0.8.0.
     - .NET dependencies do not work on Linux.
+    - Missing NPC on Three Leaf Clover.
 
 ??? info "I'm using the Rockstar Games Launcher"
     After downgrading or using the drag-and-drop archive for 1.0.8.0, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
