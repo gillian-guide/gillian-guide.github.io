@@ -17,6 +17,15 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
 * If prompted to downgrade when opening the game, press Yes. It'll automatically downgrade everything.
 ???+ question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
     This mod is required to prevent [GFWL](../../multiplayer/#games-for-windows-live) from blocking `.asi` mods.
+!!! warning "If using FusionFix 2.0 or higher..."
+    Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
+    - BuildingAlphaFix
+    - EmissiveLerpFix
+    - BorderlessWindowed
+    - CutsceneFixes
+    - HighFPSBikePhysicsFix
+    - SkipIntro
+    - SkipMenu
 
 ## Configuration
 Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options already have descriptions.

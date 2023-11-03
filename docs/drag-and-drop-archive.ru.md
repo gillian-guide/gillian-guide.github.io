@@ -25,7 +25,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[01.11.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[01.11.2023](#_6)** + [хотфикс](#_6)
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -194,11 +194,12 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 03.11.2023 (хотфикс) - Исправлена проблема с даунгрейдом, исправлено некорректное название папки (удалите папку :material-folder:==xlive==), отключены несовместимые и лишние опции из :material-file-cog:`ZolikaPatch.ini`.
 	* 01.11.2023 - Обновлен FusionFix. Добавлен Higher Resolution Miscellaneous Pack. Удалены некоторые аддоны Console Visuals, перемещены в дополнительные моды. Удален Extra Options из-за несовместимости с FusionFix 2.0 - перемещен в дополнительные моды.
 	* 04.10.2023 (хотфикс) - Исправлена проблема с давнгрейдом которая ломала настройки.
 	* 27.09.2023 - Обновлены Setup Utility, ZolikaPatch, IV Tweaker, Liberty Tweaks. Добавлен Extra Options.
 	* 21.09.2023 - Обновлен Various Fixes. Заменен Setup Utility на переписанную версию.
-	* 16.09.2023 - Хотфикс: Удален :material-file:`IVMenuAPI.asi` который был включен по случайности.
+	* 16.09.2023 (хотфикс) - Удален :material-file:`IVMenuAPI.asi` который был включен по случайности.
 	* 15.09.2023 - Обновлены FusionFix, ZolikaPatch, IV Tweaker, IV Fixes and Improvements, Liberty Tweaks, Radio Downgrader (что прилично уменьшило размер архива), Setup Utility. Добавлен IV Bikers in Episodes voice sets fix.
 	* 08.09.2023 - Обновлен Various Fixes (должно исправить повреждение сохранений). Добавлен VAmbience.
 	* 07.09.2023 - Обновлен FusionFix. Добавлены Reduced Traffic Screech и High Quality Pigeons.
