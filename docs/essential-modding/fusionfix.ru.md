@@ -22,13 +22,13 @@ description: Один из важных модов для вашей устан�
             Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
         !!! warning "Если используете ZolikaPatch..."
             Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
-            - BuildingAlphaFix
-            - EmissiveLerpFix
-            - BorderlessWindowed
-            - CutsceneFixes
-            - HighFPSBikePhysicsFix
-            - SkipIntro
-            - SkipMenu
+            * BuildingAlphaFix
+            * EmissiveLerpFix
+            * BorderlessWindowed
+            * CutsceneFixes
+            * HighFPSBikePhysicsFix
+            * SkipIntro
+            * SkipMenu
     === "Форк от Zolika1351"
         !!! warning "Примечание"
             Этот форк, как и другие моды Zolika1351, больше не будут обновлены. Прочитайте [этот пост](https://zolika1351.pages.dev/posts/saying-goodbye) для контекста.

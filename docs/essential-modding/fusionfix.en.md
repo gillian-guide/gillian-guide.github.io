@@ -22,13 +22,13 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
             You can move files from the :material-folder:==plugins== to the game folder for convenience.
         !!! warning "If using ZolikaPatch..."
             Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
-            - BuildingAlphaFix
-            - EmissiveLerpFix
-            - BorderlessWindowed
-            - CutsceneFixes
-            - HighFPSBikePhysicsFix
-            - SkipIntro
-            - SkipMenu
+            * BuildingAlphaFix
+            * EmissiveLerpFix
+            * BorderlessWindowed
+            * CutsceneFixes
+            * HighFPSBikePhysicsFix
+            * SkipIntro
+            * SkipMenu
     === "Zolika1351's fork"
         !!! warning "Notice"
             This fork, nor any other Zolika1351's mods will not be updated anymore. See [this post](https://zolika1351.pages.dev/posts/saying-goodbye) for context.

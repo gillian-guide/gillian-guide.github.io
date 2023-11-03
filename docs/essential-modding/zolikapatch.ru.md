@@ -19,13 +19,13 @@ description: Один из важных модов для вашей устан�
     Этот мод необходим для предотвращения блокировки `.asi` модов при использовании [GFWL](../../multiplayer/#games-for-windows-live).
 !!! warning "Если используете FusionFix 2.0 или выше..."
     Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
-    - BuildingAlphaFix
-    - EmissiveLerpFix
-    - BorderlessWindowed
-    - CutsceneFixes
-    - HighFPSBikePhysicsFix
-    - SkipIntro
-    - SkipMenu
+    * BuildingAlphaFix
+    * EmissiveLerpFix
+    * BorderlessWindowed
+    * CutsceneFixes
+    * HighFPSBikePhysicsFix
+    * SkipIntro
+    * SkipMenu
 
 ## Настройка
 Откройте :material-file-cog:`ZolikaPatch.ini` и настройте файл по необходимости. Все опции уже имеют описания.
