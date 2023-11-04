@@ -37,7 +37,7 @@ This may sound obvious, but a lot of people don't install drivers, so I feel the
     * Follow the in-app instructions to install the driver.
 
 ## Setup Utility
-Using this tool you canset up DXVK and [Launch Options](../additional-setup/#launch-options) semi-automatically. It automatically checks your hardware and what options should be available (aswell as setting defaults).
+Using this tool you can set up DXVK and [Launch Options](../additional-setup/#launch-options) semi-automatically. It automatically checks your hardware and what options should be available (aswell as setting defaults).
 !!! info "Usage"
     - [Download the tool](https://github.com/SandeMC/GTAIVSetupUtilityWPF/releases).
     - Launch it and follow the in-app instructions (or just press `Install DXVK` and `Setup launch options` buttons and don't touch anything else).
