@@ -28,6 +28,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
             - BorderlessWindowed
             - CutsceneFixes
             - HighFPSBikePhysicsFix
+            - OutOfCommissionFix
             - SkipIntro
             - SkipMenu
     === "Zolika1351's fork"

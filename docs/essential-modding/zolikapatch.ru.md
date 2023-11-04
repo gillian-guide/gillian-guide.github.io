@@ -25,6 +25,7 @@ description: Один из важных модов для вашей устан�
     - BorderlessWindowed
     - CutsceneFixes
     - HighFPSBikePhysicsFix
+    - OutOfCommissionFix
     - SkipIntro
     - SkipMenu
 
