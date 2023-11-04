@@ -11,7 +11,7 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
     1. For Complete Edition, go to the game's Properties menu in :material-steam:Steam and set them there;
     2. For retail versions, create a :material-file-cog:`commandline.txt` in the game folder and edit it.
 ???+ tip "Setup Utility"
-     [Automatic setup utility](../optimization/#setup-utility) can be used to set up the launch options semi-automatically.
+     [Automatic setup utility](../optimization/#setup-utility) can set up the launch options semi-automatically.
 
 The only options you need to set are: `-norestrictions -nomemrestrict`. All options with values should have a space between the option and the value.
 
@@ -26,7 +26,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
     Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
 
 !!! danger "But other guides use more options!"
-    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
+    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC couldn't handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 
 ??? abstract "Full list of launch options"
     You can use these options for tweaking, debugging and playing around. The list is taken from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
@@ -90,7 +90,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 | Texture Quality | High | Medium | This setting controls the resolution of all textures. |
 | Reflection Resolution | Very High | Medium | This setting controls the resolution of reflections (excluding water reflections). |
 | Water Quality | Medium | Medium | This setting controls the density and intensity of waves in the water and water samples, as well as the resolution of water reflections. Medium is recommended as it is less extreme and more realistic. [FusionFix](essential-modding/fusionfix.md) allows you to keep the max reflection resolution at lower options. |
-| Shadow Quality | High | Medium | This setting controls the resolution and render distance of shadows. Medium and Low rely much more on static shadows than High. Very High consumes a lot of FPS and may appear broken at times. |
+| Shadow Quality | High | Medium | This setting controls the resolution and renders distance of shadows. Medium and Low rely much more on static shadows than High. Very High consumes a lot of FPS and may appear broken at times. |
 | Night Shadows | Medium or Very High | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. Use [ZolikaPatch](essential-modding/zolikapatch.md) and [FusionFix](essential-modding/fusionfix.md) to fix the artifacts caused by this option, aswell as to be able to enhance this option by adding dynamic shadows to most objects. |
 | Texture Filter Quality | Anisotropic 16x | Tri-Linear | This setting controls texture filtering. |
 | View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. Use [FusionFix](essential-modding/fusionfix.md) to fix the artifacts caused by this option. |
