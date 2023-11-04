@@ -25,6 +25,7 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
     - BorderlessWindowed
     - CutsceneFixes
     - HighFPSBikePhysicsFix
+    - OutOfCommissionFix
     - SkipIntro
     - SkipMenu
 
