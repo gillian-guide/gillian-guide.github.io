@@ -11,7 +11,7 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
     1. For Complete Edition, go to the game's Properties menu in :material-steam:Steam and set them there;
     2. For retail versions, create a :material-file-cog:`commandline.txt` in the game folder and edit it.
 ???+ tip "Setup Utility"
-     [Automatic setup utility](../optimization/#setup-utility) can be used to set up the launch options semi-automatically.
+     [Automatic setup utility](../optimization/#setup-utility) can set up the launch options semi-automatically.
 
 The only options you need to set are: `-norestrictions -nomemrestrict`. All options with values should have a space between the option and the value.
 
@@ -26,7 +26,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
     Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
 
 !!! danger "But other guides use more options!"
-    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC's couldn't really handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
+    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC couldn't handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 
 ??? abstract "Full list of launch options"
     You can use these options for tweaking, debugging and playing around. The list is taken from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
