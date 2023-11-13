@@ -87,8 +87,8 @@ The classic multiplayer method, the one that started it all. And the one that is
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
-This is not as faithful as the original multiplayer, but it is currently one of the best ways to experience GTA IV multiplayer without messing with GFWL.
+    This method is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
+Second most popular multiplayer option, as it's one of the best ways to experience GTA IV multiplayer without messing with GFWL.
 ### Usage
 ???+ info "Installation"
     * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.

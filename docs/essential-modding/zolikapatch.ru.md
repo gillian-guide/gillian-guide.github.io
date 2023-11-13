@@ -2,7 +2,7 @@ title: ZolikaPatch
 description: Один из важных модов для вашей установки GTA IV
 
 # ZolikaPatch
-!!! warning "Совместимость" 
+!!! warning "Совместимость"
     Этот мод не совместим с Complete Edition. ZolikaPatch может это сделать за вас.
 
 Этот мод призван исправить и улучшить различные вещи в GTA IV, а также значительно улучшить опыт [мультиплеера](../multiplayer.md). Вы можете прочитать список изменений [здесь](https://zolika1351.pages.dev/mods/ivpatch).
