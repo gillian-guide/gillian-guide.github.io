@@ -31,6 +31,8 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
             - OutOfCommissionFix
             - SkipIntro
             - SkipMenu
+        !!! tip "If you want to play GFWL..."
+            Apply [this fork](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
     === "Zolika1351's fork"
         !!! warning "Notice"
             This fork, nor any other Zolika1351's mods will not be updated anymore. See [this post](https://zolika1351.pages.dev/posts/saying-goodbye) for context.
