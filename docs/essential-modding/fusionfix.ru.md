@@ -11,36 +11,25 @@ description: Один из важных модов для вашей устан�
 
 ## Установка { data-search-exclude }
 === "1.0.8.0"
-    === "Оффициальный"
-        !!! warning "Совместимость"
-            Оффициальная поддержка не поддерживает мод Extra Options от Zolika1351.
-        * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/).
-        * Скачайте последнюю версию.
-        * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
-        * Переименуйте :fontawesome-solid-gears:`dinput8.dll` в `xlive.dll` если не используете GFWL. По надобности, замените.
-        !!! tip ""
-            Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
-        !!! warning "Если используете ZolikaPatch..."
-            Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
+    !!! warning "Совместимость"
+        Оффициальная поддержка не поддерживает GFWL. Сначала установите мод, после чего примените наверх [этот форк](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL).
+    * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/).
+    * Скачайте последнюю версию.
+    * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
+    * Переименуйте :fontawesome-solid-gears:`dinput8.dll` в `xlive.dll` если не используете GFWL. По надобности, замените.
+    !!! tip ""
+        Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
+    !!! warning "Если используете ZolikaPatch..."
+        Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
 
-            - BuildingAlphaFix
-            - EmissiveLerpFix
-            - BorderlessWindowed
-            - CutsceneFixes
-            - HighFPSBikePhysicsFix
-            - OutOfCommissionFix
-            - SkipIntro
-            - SkipMenu
-        !!! tip "Если вы хотите играть в GFWL..."
-            Примените наверх [этот форк](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL).
-    === "Форк от Zolika1351"
-        !!! warning "Примечание"
-            Этот форк, как и другие моды Zolika1351, больше не будут обновлены. Прочитайте [этот пост](https://zolika1351.pages.dev/posts/saying-goodbye) для контекста.
-
-            Включен же он ради тех, кто хочет установить Extra Options. В другом случае используйте оффициальную версию.
-        * Перейдите на страницу [релизов](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/releases/) форка FusionFix от Zolika1351.
-        * Скачайте последнюю версию.
-        * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` в папку с игрой.
+        - BuildingAlphaFix
+        - EmissiveLerpFix
+        - BorderlessWindowed
+        - CutsceneFixes
+        - HighFPSBikePhysicsFix
+        - OutOfCommissionFix
+        - SkipIntro
+        - SkipMenu
 === "1.2.0.59"
     * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
     * Скачайте последнюю версию.

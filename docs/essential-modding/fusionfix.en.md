@@ -11,36 +11,25 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
-    === "Official"
-        !!! warning "Compatibility"
-            Official support is lacking support for Zolika1351's Extra Options mod.
-        * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
-        * Download the latest release.
-        * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
-        * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` if not using GFWL. Replace if needed.
-        !!! tip ""
-            You can move files from the :material-folder:==plugins== to the game folder for convenience.
-        !!! warning "If using ZolikaPatch..."
-            Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
+    !!! warning "Compatibility"
+        Official support doesn't allow to work with GFWL. Install the mod first, then apply [this fork](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
+    * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
+    * Download the latest release.
+    * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
+    * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` if not using GFWL. Replace if needed.
+    !!! tip ""
+        You can move files from the :material-folder:==plugins== to the game folder for convenience.
+    !!! warning "If using ZolikaPatch..."
+        Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
-            - BuildingAlphaFix
-            - EmissiveLerpFix
-            - BorderlessWindowed
-            - CutsceneFixes
-            - HighFPSBikePhysicsFix
-            - OutOfCommissionFix
-            - SkipIntro
-            - SkipMenu
-        !!! tip "If you want to play GFWL..."
-            Apply [this fork](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
-    === "Zolika1351's fork"
-        !!! warning "Notice"
-            This fork, nor any other Zolika1351's mods will not be updated anymore. See [this post](https://zolika1351.pages.dev/posts/saying-goodbye) for context.
-
-            It is provided only in the case you want to use Zolika1351's Extra Options. Use the Official version otherwise.
-        * Go to the Zolika1351's fork of FusionFix [Releases](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/releases/).
-        * Download the latest release.
-        * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.preCE.zip` into the game folder.
+        - BuildingAlphaFix
+        - EmissiveLerpFix
+        - BorderlessWindowed
+        - CutsceneFixes
+        - HighFPSBikePhysicsFix
+        - OutOfCommissionFix
+        - SkipIntro
+        - SkipMenu
 === "1.2.0.59"
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.
