@@ -39,7 +39,7 @@ description: Методы оптимизации вашей установки G
 ## Setup Utility
 Используя эту программу можете настроить DXVK и [параметры запуска](../additional-setup/#_2) полуавтоматически. При этом автоматически проверяется железо и необходимые параметры, а также учитываются установленные моды.
 !!! info "Использование"
-    - [Скачайте приложение](https://github.com/SandeMC/GTAIVSetupUtilityWPF/releases).
+    - [Скачайте приложение](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases).
     - Запустите его и следуйте инструкциям в приложении (или просто нажмите `Install DXVK` и `Setup launch options` и больше ничего не трогайте).
     - Если возникнут какие-либо проблемы, [сообщите об этом на сервере Discord](contact-me.md). Вы также можете попробовать использовать старую [Python версию](https://github.com/SandeMC/GTAIVSetupUtility/releases).
 
