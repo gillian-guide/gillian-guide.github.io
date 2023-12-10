@@ -52,10 +52,16 @@ The classic multiplayer method, the one that started it all. And the one that is
     * See the next part for activation.
 ???+ tip "Activation"
     We now have several ways to activate the game.
-    === "Buying another GFWL game"
-        Unironically, this is the easiest way. Don't worry - you can refund the game later, so no money is wasted. I recommend `FlatOut: Ultimate Carnage`, but any other GFWL game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) will do.
+    === "Buying a GFWL key or game"
+        One of the ways to activate the game is to own a GFWL key. Although you'll share it with a lot of other people - it'll still be "yours", so to say.
 
-        <iframe src="https://store.steampowered.com/widget/12360/943/" frameborder="0" width="646" height="190"></iframe>
+        First, check if you already own any game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - you may already own one of these games - check if their CD Key works for you.
+
+        After you've made sure you don't have one already, you can look for a GFWL key on some marketplaces or such. Or, you can buy one of these two Steam games, that are the only ones that still sell a GFWL key as of December 2023. That might change in the future. Don't worry, you can refund the game after you've acquired the key.
+
+        <iframe src="https://store.steampowered.com/widget/32420/" frameborder="0" width="646" height="190"></iframe>
+
+        <iframe src="https://store.steampowered.com/widget/10460/" frameborder="0" width="646" height="190"></iframe>
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random GFWL keys online"
@@ -74,7 +80,7 @@ The classic multiplayer method, the one that started it all. And the one that is
         * ==Quick Match== allows to join a random existing lobby of a *specific* gamemode.
         * ==Custom Match== allows to find an existing lobby of *any* gamemode.
         * ==Create Match== allows to create a lobby yourself.
-    
+
     If you're looking for people to play with, visit this Discord server:
 
     [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
