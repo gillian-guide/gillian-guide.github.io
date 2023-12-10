@@ -14,7 +14,6 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back).
     - Taxi rides can occasionally crash the game on 1.0.8.0.
     - .NET dependencies do not work on Linux.
-    - Missing NPC on Three Leaf Clover.
 
 ??? info "I'm using the Rockstar Games Launcher"
     After downgrading or using the drag-and-drop archive for 1.0.8.0, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
