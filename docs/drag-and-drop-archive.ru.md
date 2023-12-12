@@ -25,7 +25,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[10.12.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[12.12.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -52,7 +52,7 @@ description: Полноценный готовый архив для игры в
 		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[10.12.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[10.12.2023](#_6)** + хотфикс
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -192,6 +192,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 12.12.2023 - Теперь точно исправлен. Это не хотфикс, т.к. тут оказывается были не те файлы от Characters Fixes.
 	* 10.12.2023 - Исправлен пропавший NPC в Three Leaf Clover. Обновлен FusionFix.
 	* 27.11.2023 - Обновлены FusionFix, Various Fixes и Console Visuals.
 	* 03.11.2023 (хотфикс) - Исправлена проблема с даунгрейдом, исправлено некорректное название папки (удалите папку :material-folder:==xlive==), отключены несовместимые и лишние опции из :material-file-cog:`ZolikaPatch.ini`.
@@ -231,6 +232,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
   	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 12.12.2023 - Исправлен краш при загрузке TBoGT (добавьте `DISABLE_FILE common:/data/newchar.ide` в :material-folder:==/update/TBoGT/`content.dat`==)
 	* 10.12.2023 - Исправлен пропавший NPC в Three Leaf Clover. Обновлен FusionFix.
 	* 27.11.2023 - Обновлены FusionFix, Various Fixes и Console Visuals.
 	* 01.11.2023 - Обновлен FusionFix. Добавлен Higher Resolution Miscellaneous Pack. Удалены некоторые аддоны Console Visuals, перемещены в дополнительные моды.

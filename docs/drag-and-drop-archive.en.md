@@ -25,7 +25,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[10.12.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[12.12.2023](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -52,7 +52,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[10.12.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[10.12.2023](#changelog)** + hotfix
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -191,6 +191,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.0.8.0"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 12.12.2023 - *Actually* fix it this time. Not a hotfix because I apparently was missing Characters Fixes files.
 	* 10.12.2023 - Fixed the missing NPC in Three Leaf Clover mission. Updated FusionFix.
 	* 27.11.2023 - Updated FusionFix, Various Fixes and Console Visuals.
 	* 03.11.2023 (hotfix) - Fixed an issue with downgrading, fixed incorrect folder name (remove the :material-folder:==xlive== folder), disabled the incompatible and redundant options from :material-file-cog:`ZolikaPatch.ini`.
@@ -230,6 +231,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.2.0.59"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 12.12.2023 (hotfix) - Fixed TBoGT crash on load (add `DISABLE_FILE common:/data/newchar.ide` to :material-folder:==/update/TBoGT/`content.dat`==)
 	* 10.12.2023 - Fixed the missing NPC in Three Leaf Clover mission. Updated FusionFix.
 	* 27.11.2023 - Updated FusionFix, Various Fixes and Console Visuals.
 	* 01.11.2023 - Updated FusionFix. Added Higher Resolution Miscellaneous Pack. Removed some Console Visuals addons, moved to Additional Mods.
