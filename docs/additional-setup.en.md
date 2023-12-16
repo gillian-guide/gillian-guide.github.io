@@ -83,7 +83,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 
 ??? info "Console Settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
-| Setting | Optimal Setting | Console Setting | Description |
+| Setting | Optimal Setting | Console Setting | Description | 
 | :-----: | :-------------: | :-----------: | :---------: |
 | Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
 | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
@@ -95,7 +95,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 | Texture Filter Quality | Anisotropic 16x | Tri-Linear | This setting controls texture filtering. |
 | View Distance | Between 21 and 70 | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. Setting it above 70 is known to cause instability and artifacts, as well as a negative impact on framerate. Use [FusionFix](essential-modding/fusionfix.md) to fix the artifacts caused by this option. |
 | Detail Distance | Between 10 and 70 | 10 | This setting controls the secondary LOD render distance for props detail. Setting it above 70 is known to cause instability and artifacts. Use [FusionFix](essential-modding/fusionfix.md) to fix the artifacts caused by this option. |
-| Vehicle Density | Below 85 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
+| Vehicle Density | Below 70 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
 | Definition | On | Off | ==Skip this if you're using [FusionFix](essential-modding/fusionfix.md).==<br>This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred image on PC and effects that simply do not scale up in resolution - due to that, either keep this option On and lose the effects or install [FusionFix](essential-modding/fusionfix.md) and see the next options instead. Can be quickly toggled by pressing ++p++ button.</br> |
 | VSync | Off | On | This setting controls the vertical synchronization. ==We'll use the one bundled with [DXVK](optimization.md) instead, as it has much better framepacing.== |
 | Shadow Filter | PCSS or Softest | ? | This setting softens the shadows and closer to real-life behaviour (when using PCSS). PCSS can tank your performance. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
