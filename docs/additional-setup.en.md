@@ -83,7 +83,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 
 ??? info "Console Settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
-| Setting | Optimal Setting | Console Setting | Description | 
+| Setting | Optimal Setting | Console Setting | Description |
 | :-----: | :-------------: | :-----------: | :---------: |
 | Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
 | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
