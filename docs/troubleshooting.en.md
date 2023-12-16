@@ -40,6 +40,8 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Game performance is still poor"
     Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
 
+    Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
+
 ??? info "Load times got even longer"
     Remove ColAccel. It doesn't work properly for some people for some reason.
 
@@ -51,7 +53,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 ??? info "Game loads directly into the savegame on startup, no menu"
     You can hold ++lshift++ on boot for when you need the menu.
-    
+
     If you want to completely disable the feature off, open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
 
 ??? info "Game loads endlessly when loading saves | Constantly missing textures | Game shows wrong VRAM value in settings"
