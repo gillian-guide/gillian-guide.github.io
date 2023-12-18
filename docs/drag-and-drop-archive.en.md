@@ -25,7 +25,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[12.12.2023](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[18.12.2023](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -52,7 +52,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[10.12.2023](#changelog)** + hotfix
+	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[18.12.2023](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -79,7 +79,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [ZolikaPatch IV~7.65~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
 	| [IV Tweaker~2.43~ by Zolika1351](https://zolika1351.pages.dev/mods/ivtweaker)| Main modloader in the pack, also allows to increase limits for other mods. |
 	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
-	| [FusionFix~2.2~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods. |
+	| [FusionFix~2.3~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods. |
 	| [Various Fixes~1.7~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Console Visuals~1.5~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Only Fusion Console Vegetation is included. See Additional Mods for more.</br> |
 	| [Trilogy Characters Fixes by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
@@ -94,7 +94,6 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
 	| [More Visible Interiors by Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Makes interiors more visible on the outside. |
 	| [Higher Resolution Miscellaneous Pack~1.0~ by Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Higher resolution textures for a lot of secondary assets. |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
 	| [Project Thunder by ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Adds a highly customizable thunder effect to the Lighting weather. |
 	| [VAmbience by ItsClockAndre](https://gtaforums.com/topic/981402-vambience/) | Adds highly customizable ambient sounds of distant vehicles and shooting, akin to ones in GTA V. |
@@ -114,14 +113,13 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Luis' Bag Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Fixes missing normal and specular textures on Luis' bag, improves texture quality. |
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
 	| [GTA Online QUB3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
-	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Reduced Traffic Screech (Audio Tweak) by GladiTek](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 === "1.2.0.59"
 	| Mod | Details |
 	| :-: | :-----: |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234?tab=files)</br> |
-	| [FusionFix~2.2~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods.</br> |
+	| [FusionFix~2.3~ by ThirteenAG, Tomasak and others](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods.</br> |
 	| [Various Fixes~1.70~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Console Visuals~1.5~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Only Fusion Console Vegetation and Console Select Menu are included. See Additional Mods for more.</br> |
 	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves.<br>Addon Used: Niko's Original GTAIV Hair</br> |
@@ -133,7 +131,6 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Restored Trees Position by Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Restores several trees that were only present in the beta version. |
 	| [More Visible Interiors by Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Makes interiors more visible on the outside. |
 	| [Higher Resolution Miscellaneous Pack~1.0~ by Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Higher resolution textures for a lot of secondary assets. |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI upscaling for road textures, as well as generated normal and specular maps. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Upscaled and ported vehicle textures from GTA V and Max Payne 3. |
 	| [Improved Weapon Spec by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071652002)| Higher resolution specular maps for weapons. |
@@ -152,7 +149,6 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Johnny's Shoe Texture Fix by 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Fixes missing normal and specular textures on Johnny's shoes. |
 	| [GTA Online QUB3D Background by Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Ported QUB3D background (without the grid) from GTA Online. |
 	| [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | Fixes lower resolution backgrounds in EFLC's main menus. |
-	| [Xbox One/Series S+X Buttons by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| More modern textures for the controller buttons. |
 	| [Reduced Traffic Screech (Audio Tweak) by GladiTek](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu by Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| High resolution textures of radio logos. |
 
@@ -171,8 +167,6 @@ These mods are not included by default, but do not require any additional steps 
 	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/19VffQ6h_6NKR1k6CLDV610DDei7RwK_5/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
 	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a faster and more intuitive one - however, it can be uncomfortable for some people and it also ==unlocks all clothing in the game from the start==.<br>Installation: Extract :material-file:`WardrobeMod.asi` into the game folder.</br> |
 	| [IV-Presence by ItsClockAndre](https://gtaforums.com/topic/975850-iv-presence/) | Adds a Discord Rich Presence.<br>Installation: From the archive, extract :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` from :material-folder:==For GTA IV 1070 and 1080== into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br>|
-	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: In :material-folder:==modloader== edit :material-file-edit:`modloader.ini` to change `DualshockButtons=1` to `0` at the beginning of the file, and `XboxButtons=0` to `1`.</br> |
-	| [Dualsense button textures by COZlerCae](https://www.nexusmods.com/gta4/mods/286)| Replaces the Xbox 360 button textures with Dualsense buttons. <br>Installation: In :material-folder:==modloader== edit :material-file-edit:`modloader.ini` to change `DualsenseButtons=1` to `0` at the beginning of the file, and `XboxButtons=0` to `1`.</br> |
 
 === "1.2.0.59"
 	| Mod | Details |
@@ -184,13 +178,12 @@ These mods are not included by default, but do not require any additional steps 
 	| [Aura by catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori](https://gtaforums.com/topic/989259-aura/) | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract into :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |
 	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
-	| [Dualshock 4 button textures by tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Replaces the Xbox 360 button textures with Dualshock 4 buttons.<br>Installation: in the :material-folder:==update/pc/textures==, replace :material-file:`360_buttons.wtd`.</br> |
-	| [Dualsense button textures by COZlerCae](https://www.nexusmods.com/gta4/mods/286)| Replaces the Xbox 360 button textures with Dualsense buttons. <br>Installation: in the :material-folder:==update/pc/textures==, replace :material-file:`360_buttons.wtd`.</br> |
 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 18.12.2023 - Updated FusionFix. Disabled Vanilla Road Texture Enhancement by DayL (temporarily if it doesn't solve the problem). Removed Dualshock, Dualsense and Xbox One/Series S+X Buttons mods (in favor of FusionFix's implementation).
 	* 12.12.2023 - *Actually* fix it this time. Not a hotfix because I apparently was missing Characters Fixes files.
 	* 10.12.2023 - Fixed the missing NPC in Three Leaf Clover mission. Updated FusionFix.
 	* 27.11.2023 - Updated FusionFix, Various Fixes and Console Visuals.
@@ -231,6 +224,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.2.0.59"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 18.12.2023 - Updated FusionFix. Removed Vanilla Road Texture Enhancement by DayL (temporarily if it doesn't solve the problem), Xbox One/Series S+X Buttons (in favor of FusionFix's implementation).
 	* 12.12.2023 (hotfix) - Fixed TBoGT crash on load (add `DISABLE_FILE common:/data/newchar.ide` to :material-folder:==/update/TBoGT/`content.dat`==)
 	* 10.12.2023 - Fixed the missing NPC in Three Leaf Clover mission. Updated FusionFix.
 	* 27.11.2023 - Updated FusionFix, Various Fixes and Console Visuals.

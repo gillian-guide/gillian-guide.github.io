@@ -35,7 +35,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [The Complete Liberty City](https://gtaforums.com/topic/935747-the-complete-liberty-city-gta-iv-eflc-map-mix/) | ElYisusKing | A massive project aimed to make EFLC and IV maps one by eliminating their differences. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [EFLC Vehicle Addon Pack](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag, Gaming with SG | Adds the EFLC vehicles to base IV. Requires [ZolikaPatch](../essential-modding/zolikapatch.md) and [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Higher Resolution Miscellaneous Pack](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Higher resolution textures for a lot of secondary assets. Requires a [modloader](modloading.md). |
-| [Vanilla Road and Vegetation Texture Enhancement](https://discord.gg/gZvZmFt2p7) | DayL | 2x AI upscaling for road and vegetation textures, as well as generated normal and specular maps. ==WIP==. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Vanilla Road and Vegetation Texture Enhancement](https://discord.gg/gZvZmFt2p7) | DayL | 2x AI upscaling for road and vegetation textures, as well as generated normal and specular maps. ==WIP, may cause streaming problems==. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Higher resolutions textures for all vehicles(some ported from Max Payne 3 and GTA V, some sourced from original sources). Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Hi-Res Characters](https://www.gtainside.com/en/gta4/mods/176255-hi-res-characters-update-v1-1-upscaled-mod/) | Primusideus | Upscaled and higher resolution character textures. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -71,10 +71,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | by GladiTek | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871) | Ash_735 | Replaces radio logos textures with higher resolutions ones. |
-| [Xbox One/Series S+X Buttons](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058) | Ash_735 | Replaces Xbox 360 button textures with Xbox One/Series ones. |
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
-| [Dualshock 4 Buttons](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html) | tehherb | Replaces Xbox 360 button textures with Dualshock 4 ones. |
-| [Dualsense Buttons](https://www.nexusmods.com/gta4/mods/286) | COZlerCae | Replaces Xbox 360 button textures with Dualsense ones. |
 
 ## Workshops
 These workshops might have some mods or tools you may be interested in!

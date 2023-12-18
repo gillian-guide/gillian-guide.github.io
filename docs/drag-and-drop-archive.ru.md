@@ -25,7 +25,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[12.12.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[18.12.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -52,7 +52,7 @@ description: Полноценный готовый архив для игры в
 		Отключайте моды по одному, чтобы увидеть виновника, редактируя :material-file-edit:`modloader.ini` в :material-folder:==modloader== или удаляя моды в :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[10.12.2023](#_6)** + хотфикс
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[18.12.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -79,7 +79,7 @@ description: Полноценный готовый архив для игры в
 	| [ZolikaPatch IV~7.65~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
 	| [IV Tweaker~2.43~ от Zolika1351](https://zolika1351.pages.dev/mods/ivtweaker)| Выступает основным модлоадером в сборке, а также позволяет увеличить лимиты для других модов. |
 	| [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
-	| [FusionFix~2.1~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
+	| [FusionFix~2.3~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
 	| [Various Fixes~1.70~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Console Visuals~1.5~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Включен только Fusion Console Vegetation. См. Дополнительные моды для других аддонов.</br> |
 	| [Trilogy Characters Fixes от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
@@ -94,7 +94,6 @@ description: Полноценный готовый архив для игры в
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
 	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
 	| [Higher Resolution Miscellaneous Pack~1.0~ от Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Текстуры более высокого разрешения для многих вторичных объектов. |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Project Thunder от ItsClockAndre](https://gtaforums.com/topic/982902-project-thunder/) | Добавляет настраиваемый эффект грозы в погоду Lighting. |
 	| [VAmbience от ItsClockAndre](https://gtaforums.com/topic/981402-vambience/) | Добавляет настраиваемые звуки отдаленных машин и стрельбы, аналогичные GTA V. |
@@ -114,14 +113,13 @@ description: Полноценный готовый архив для игры в
 	| [Luis' Bag Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на сумке Луиса, улучшено качество текстур. |
 	| [Johnny's Shoe Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на обуви Джонни. |
 	| [GTA Online QUB3D Background от Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Портированный фон QUB3D (без сетки) из GTA Online. |
-	| [Xbox One/Series S+X Buttons от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Более современные текстуры для кнопок контроллера. |
 	| [Reduced Traffic Screech (Audio Tweak) от GladiTek](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | Уменьшает шум от визга транспорта до приятного, более естественного уровня. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| Текстуры радиостанций в более высоком разрешении. |
 === "1.2.0.59"
 	| Мод | Описание |
 	| :-: | :------: |
 	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио. |
-	| [FusionFix~2.1~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и .</br> |
+	| [FusionFix~2.3~ от ThirteenAG, Tomasak и других](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и .</br> |
 	| [Various Fixes~1.70~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Console Visuals~1.5~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Включены только Fusion Console Vegetation и Console Select Menu. См. Дополнительные моды для других аддонов.</br> |
 	| [Trilogy Characters Fixes~2023-07-28~ от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/page/25/#comment-1072185890)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек.<br>Использованный аддон: Niko's Original GTAIV Hair</br> |
@@ -133,7 +131,6 @@ description: Полноценный готовый архив для игры в
 	| [Restored Trees Position от Attramet](https://gtaforums.com/topic/984591-restored-trees-position/) | Восстановлено несколько деревьев, которые присутствовали только в бета-версии. |
 	| [More Visible Interiors от Attramet](https://gtaforums.com/topic/974099-more-visible-interiors/) | Делает интерьеры более видимыми снаружи. |
 	| [Higher Resolution Miscellaneous Pack~1.0~ от Ash_735](https://www.nexusmods.com/gta4/mods/357/) | Текстуры более высокого разрешения для многих вторичных объектов. |
-	| [Vanilla Road Texture Enhancement by DayL](https://discord.gg/gZvZmFt2p7) | 2x AI апскейлинг для текстур дорог и растительности, а также сгенерированные карты нормалей и спекуляров. ==WIP==. |
 	| [Project Glass by DayL](https://discord.gg/gZvZmFt2p7) | Добавляет кубические отражения в большинство стекол в мире, чтобы они больше не выглядели как прозрачный пластик. ==WIP==. |
 	| [Vehicle Pack~2.0~ - 15th Anniversary Edition от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)| Улучшенные и портированные текстуры транспорта из GTA V и Max Payne 3. |
 	| [Dodgy Doc - Higher Quality от donnits](https://gtaforums.com/topic/974798-donnits-bakery/) | Текстуры более высокого разрешения для Dodgy Doc. |
@@ -151,7 +148,6 @@ description: Полноценный готовый архив для игры в
 	| [Johnny's Shoe Texture Fix от 6135](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | Исправлены недостающие карты нормалей и спекуляров текстуры на обуви Джонни. |
 	| [GTA Online QUB3D Background от Zolika1351](https://zolika1351.pages.dev/mods/ivqub3d)| Портированный фон QUB3D (без сетки) из GTA Online. |
 	| [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | Исправляет низкокачественные фоны главных меню в EFLC. |
-	| [Xbox One/Series S+X Buttons от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/page/4/#comment-1071669058)| Более современные текстуры для кнопок контроллера. |
 	| [Reduced Traffic Screech (Audio Tweak) от GladiTek](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | Уменьшает шум от визга транспорта до приятного, более естественного уровня. |
 	| [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871)| Текстуры радиостанций в более высоком разрешении. |
 	| [Improved Weapon Spec от Ash_735](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=107165200)| Текстуры спекулярных мапок для оружий в более высоком разрешении. |
@@ -172,8 +168,6 @@ description: Полноценный готовый архив для игры в
 	| [Enhanced Minor Characters от Datalvarezguy](https://drive.google.com/file/d/19VffQ6h_6NKR1k6CLDV610DDei7RwK_5/view?usp=sharing) | [Страница мода](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Заменяет ванильных педов в некоторых миссиях на авторское видение персонажей. <br>Установка: Распакуйте в папку с игрой.</br> |
 	| [Better Wardrobes от Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Заменяет неудобный шкаф на более приятный, однако некоторым он может оказаться неудобным а также ==мод разблокирует всю одежду с самого старта.==<br>Установка: Распакуйте :material-file:`WardrobeMod.asi` в папку с игрой.</br> |
 	| [IV-Presence от ItsClockAndre](https://gtaforums.com/topic/975850-iv-presence/) | Добавляет Discord Rich Presence.<br>Установка: Из архива, переносим :fontawesome-solid-gears:`discord-rpc.dll` и :material-file:`IVPresence.asi` из :material-folder:==For GTA IV 1070 and 1080== в папку с игрой. Если возникают проблемы, также распакуйте :material-file:`IVPresenceDependenciesChecker.exe` с его конфигом, запустите и посмотрите, каких зависимостей вам не хватает.</br>|
-	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: В :material-folder:==modloader== измените в :material-file-edit:`modloader.ini` `DualshockButtons=1` на `0` в начале файла, а `XboxButtons=0` на `1`</br> |
-	| [Текстуры кнопок Dualsense от COZlerCae](https://www.nexusmods.com/gta4/mods/286)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualsense.<br>Установка: В :material-folder:==modloader== измените в :material-file-edit:`modloader.ini` `DualsenseButtons=1` на `0` в начале файла, а `XboxButtons=0` на `1`</br> |
 
 === "1.2.0.59"
 	| Название мода | Детали |
@@ -185,13 +179,12 @@ description: Полноценный готовый архив для игры в
 	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале.<br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==.</br> |
 	| [Enhanced Minor Characters от Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Страница мода](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Заменяет ванильных педов в некоторых миссиях на авторское видение персонажей. <br>Установка: Распакуйте в папку с игрой.</br> |
-	| [Текстуры кнопок Dualshock 4 от tehherb](https://www.gtagaming.com/360-to-ps4-controller-icons-f30380.html)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualshock 4.<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br> |
-	| [Текстуры кнопок Dualsense от COZlerCae](https://www.nexusmods.com/gta4/mods/286)| Заменяет текстуры кнопок Xbox 360 на кнопки Dualsense<br>Установка: в :material-folder:==update/pc/textures==, замените :material-file:`360_buttons.wtd`</br>.
 
 ## Список изменений { data-search-exclude }
 === "1.0.8.0"
 	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 18.12.2023 - Обновлен FusionFix. Отключен Vanilla Road Texture Enhancement от DayL (временно если это не исправит проблему). Удалены Dualshock, Dualsense и Xbox One/Series S+X Buttons (в пользу FusionFix).
 	* 12.12.2023 - Теперь точно исправлен. Это не хотфикс, т.к. тут оказывается были не те файлы от Characters Fixes.
 	* 10.12.2023 - Исправлен пропавший NPC в Three Leaf Clover. Обновлен FusionFix.
 	* 27.11.2023 - Обновлены FusionFix, Various Fixes и Console Visuals.
@@ -232,6 +225,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
   	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 18.12.2023 - Обновлен FusionFix. Удален Vanilla Road Texture Enhancement от DayL (временно если это не исправит проблему). Удален One/Series S+X Buttons (в пользу FusionFix).
 	* 12.12.2023 - Исправлен краш при загрузке TBoGT (добавьте `DISABLE_FILE common:/data/newchar.ide` в :material-folder:==/update/TBoGT/`content.dat`==)
 	* 10.12.2023 - Исправлен пропавший NPC в Three Leaf Clover. Обновлен FusionFix.
 	* 27.11.2023 - Обновлены FusionFix, Various Fixes и Console Visuals.
