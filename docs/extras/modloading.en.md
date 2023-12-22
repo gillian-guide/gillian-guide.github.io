@@ -24,21 +24,21 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
             While you *can* get away with not compiling the separate files (if, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle), you'll ruin any compatibility with other mods. So please don't do that.
 
         1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](openiv.md).
-        - If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
-        - If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
-        2. Create a folder with the name of your mod in :material-folder:==update== (create the folder if it doesn't exist).
-        3. Drop your compiled `.img` files into that folder.
-        - If you had to go through 1.2, also create folders called :material-folder:==IV==, :material-folder:==TLAD== or :material-folder:==TBoGT== and drop the specific `.img` files there.
-        4. If you have multiple mods that replace similar files, you can set a priority by making sure it shows up higher when sorting by names, ascending. You can do that by adding a number or a symbol (such as !) before it's name.
+        2. If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
+        3. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
+        4. Create a folder with the name of your mod in :material-folder:==update== (create the folder if it doesn't exist).
+        5. Drop your compiled `.img` files into that folder.
+        6. If you had to go through 3., also create folders called :material-folder:==IV==, :material-folder:==TLAD== or :material-folder:==TBoGT== and drop the specific `.img` files there.
+        7. If you have multiple mods that replace similar files, you can set a priority by making sure it shows up higher when sorting by names, ascending. You can do that by adding a number or a symbol (such as !) before it's name.
 
     ??? "Installing mods with other kind of files"
         !!! warning "Note"
             By other kind of files I mean literally any replacement files that go into :material-folder:==pc==, :material-folder:==common==, :material-folder:==TLAD== or :material-folder:==TBoGT==. As long as they're not `.img` files.
 
             Placing the files in the mod folders won't work. At the time of writing this, at least.
-        1. Recreate the folder structure from the vanilla one in :material-folder:==update==.
-        2. Place the replacement files exactly as you would in vanilla, just do that in :material-folder:==update==.
-        3. If the two mods replace same files, use a comparison tool (I like to use [WinMerge](https://winmerge.org/)) to merge them.
+        2. Recreate the folder structure from the vanilla one in :material-folder:==update==.
+        3. Place the replacement files exactly as you would in vanilla, just do that in :material-folder:==update==.
+        4. If the two mods replace same files, use a comparison tool (I like to use [WinMerge](https://winmerge.org/)) to merge them.
 
     ??? warning "Expected folder structure"
         In this example, Mod 2 is supposed to be higher priority than Mod 1.
@@ -80,13 +80,13 @@ This modloader has a few advantages, such as being able to inject more files tha
             While you *can* get away with not compiling the separate files (if, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle), you'll ruin any compatibility with other mods. So please don't do that.
 
         1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](openiv.md).
-        - If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
-        - If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
-        - You can also omit this and use raw files.
-        2. Create a folder with the name of your mod in :material-folder:==modloader== (create the folder if it doesn't exist).
-        3. Drop your compiled `.img` files into that folder.
-        - If you had to go through 1.2, also create separate folders for IV, TLAD or TBoGT and drop the specific files there.
-        4. You can add :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` if you don't need the mod to load in any other DLC. Otherwise, edit :material-file-cog:`modloader.ini` for priority and when the mods should or should not load.
+        2. If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
+        3. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
+        4. You can also omit this and use raw files.
+        5. Create a folder with the name of your mod in :material-folder:==modloader== (create the folder if it doesn't exist).
+        6. Drop your compiled `.img` files into that folder.
+        7. If you had to go through 3., also create separate folders for IV, TLAD or TBoGT and drop the specific files there.
+        8. You can add :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` if you don't need the mod to load in any other DLC. Otherwise, edit :material-file-cog:`modloader.ini` for priority and when the mods should or should not load.
 
         ??? warning "Expected folder structure"
             * :material-folder:==GTAIV==\
