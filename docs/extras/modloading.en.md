@@ -16,7 +16,7 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
 
 ???+ info "Usage"
 
-    !!! "Installing mods packaged for Fusion Overloader"
+    !!! note "Installing mods packaged for Fusion Overloader"
         They're likely already packaged into an :material-folder:==update==. Just drop that folder into the root folder of the game.
 
     ??? "Installing mods with files that go into `.img` archives"
