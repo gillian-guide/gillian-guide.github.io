@@ -11,10 +11,10 @@ description: Это руководство было бы невозможно б
 За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
 ## Parallellines
-За их работу над [Shader Fixes Collection](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
+За их работу над [Fusion Shaders](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
 
 ## AssaultKnife47, RaphaelK12, robi29, \_CP_
-За прямую помощь в разработке [Shader Fixes Collection](essential-modding/fusionfix.md).
+За прямую помощь в разработке [Fusion Shaders](essential-modding/fusionfix.md).
 
 ## Tomasak и остальные члены Fusion Team
 За их работу над [FusionFix](essential-modding/fusionfix.md), а также вклад во многие другие моды сообщества.

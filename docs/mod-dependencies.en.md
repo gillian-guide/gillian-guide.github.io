@@ -36,7 +36,7 @@ This tool is used to load `.asi` mods (one of the most common types of GTA IV mo
     * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
 
 ??? tip "Modloading"
-    This tool can be used for modloading purposes. See [modloading](extras/modloading.md).
+    This tool can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
 
 ## ScriptHook
 !!! info ""

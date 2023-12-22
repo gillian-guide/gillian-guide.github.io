@@ -11,10 +11,10 @@ For their work on [ZolikaPatch](essential-modding/zolikapatch.md) and it's downg
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
 
 ## Parallellines
-For their work on [Shader Fixes Collection](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and contributing to [Various Fixes](extras/mods.md).
+For their work on [Fusion Shaders](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and contributing to [Various Fixes](extras/mods.md).
 
 ## AssaultKnife47, RaphaelK12, robi29, \_CP_
-For directly contributing to [Shader Fixes Collection](essential-modding/fusionfix.md).
+For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md).
 
 ## Tomasak & the rest of the Fusion Team
 For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.

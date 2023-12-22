@@ -2,25 +2,71 @@ title: Modloading
 description: Methods for injecting mods into your GTA IV installation to avoid replacing internal files
 
 # Modloading
-A lot of mods require replacing internal files with [OpenIV](openiv.md). We can get around this by using a modloader - or two!
+A lot of mods require replacing internal files with [OpenIV](openiv.md). We can get around this by using a modloader.
 
 ## What's the difference between them?
-While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0. UAL's, for example, can cover what IV Tweaker doesn't support.
-???+ question "Comparison"
-    | Advantages | IV Tweaker | UAL's |
-    | :--------: | :--------: | :---: |
-    | 1.0.8.0 and 1.0.7.0 support | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Complete Edition support | :material-cancel: | :material-checkbox-marked-circle: |
-    | Can inject .img files | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Can inject raw files without any .img itself | :material-checkbox-marked-circle: | :material-cancel: |
-    | Can inject other files without overriding | :material-checkbox-marked-circle: | :material-cancel: |
-    | Can override most files without affecting the originals | :material-cancel: | :material-checkbox-marked-circle: |
-    | A simple .ini for configuration | :material-checkbox-marked-circle: | :material-cancel: |
+While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0. Fusion Overloader, for example, can cover what IV Tweaker doesn't support. Personally, I prefer loading in the `.img` mods via IV Tweaker for ease of configuration and any other files via Fusion Overloader.
+
+## Fusion Overloader
+!!! warning "Compatibility"
+    Supports both the Complete Edition and 1.0.8.0/1.0.7.0 as long as the latest version of [FusionFix](../essential-modding/fusionfix.md) is installed.
+
+    Although it is possible to only install [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) (and latest [ZolikaPatch](../essential-modding/zolikapatch.md) on older patches) and omit FusionFix, you may be missing some extra features FusionFix implements for it.
+This modloader is not as robust as IV Tweaker, but can replace all kinds of files. It works by loading the files from the :material-folder:==update== *instead* of the main game files. avoiding removing the original files.
+
+???+ info "Usage"
+
+    !!! "Installing mods packaged for Fusion Overloader"
+        They're likely already packaged into an :material-folder:==update==. Just drop that folder into the root folder of the game.
+
+    ??? "Installing mods with files that go into `.img` archives"
+        !!! warning "Note"
+            While you *can* get away with not compiling the separate files (if, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle), you'll ruin any compatibility with other mods. So please don't do that.
+
+        1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](openiv.md).
+        1.1. If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
+        1.2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
+        2. Create a folder with the name of your mod in :material-folder:==update== (create the folder if it doesn't exist).
+        3. Drop your compiled `.img` files into that folder.
+        3.1. If you had to go through 1.2, also create folders called :material-folder:==IV==, :material-folder:==TLAD== or :material-folder:==TBoGT== and drop the specific `.img` files there.
+        4. If you have multiple mods that replace similar files, you can set a priority by making sure it shows up higher when sorting by names, ascending. You can do that by adding a number or a symbol (such as !) before it's name.
+
+    ??? "Installing mods with other kind of files"
+        !!! warning "Note"
+            By other kind of files I mean literally any replacement files that go into :material-folder:==pc==, :material-folder:==common==, :material-folder:==TLAD== or :material-folder:==TBoGT==. As long as they're not `.img` files.
+
+            Placing the files in the mod folders won't work. At the time of writing this, at least.
+        1. Recreate the folder structure from the vanilla one in :material-folder:==update==.
+        2. Place the replacement files exactly as you would in vanilla, just do that in :material-folder:==update==.
+        3. If the two mods replace same files, use a comparison tool (I like to use [WinMerge](https://winmerge.org/)) to merge them.
+
+    ??? warning "Expected folder structure"
+        In this example, Mod 2 is supposed to be higher priority than Mod 1.
+
+        * :material-folder:==GTAIV==\
+            * :material-folder:==update==\
+                * :material-folder:==1 Mod 2==\
+                    *  :material-file:`Mod2.ForEveryGame.img`
+                * :material-folder:==2 Mod 1==\
+                    *  :material-file:`Mod1.ForEveryGame.img`
+                    * :material-folder:==IV==\
+                        * :material-file:`Mod 1.IVOnly.img`
+                    * :material-folder:==TLAD==\
+                        * :material-file:`Mod 1.TLADOnly.img`
+                    * :material-folder:==TBoGT==\
+                        * :material-file:`Mod 2.TBoGTOnly.img`
+                * :material-folder:==common==\
+                    * :material-folder:==data==\
+                        * :material-file:`WeaponInfo.xml`
+                * :material-folder:==TLAD==\
+                    * :material-folder:==common==\
+                        * :material-folder:==data==\
+                            * :material-file:`WeaponInfo.xml`
 
 ## IV Tweaker
 !!! warning "Compatibility"
     Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](../downgrading.md) if using the Complete Edition.
-This modloader is superior to UAL's in many ways - especially the ability to merge different files and having a simple .ini file for configuration. It also allows to increase limits for various things - like VehicleBudget to avoid the taxi bug.
+This modloader has a few advantages, such as being able to inject more files than just `.img`'s while still having the originals intact. It also allows to increase limits.
 
 ???+ note "Installation"
     * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivtweaker)
@@ -30,23 +76,32 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
 ???+ info "Usage"
 
     ??? "Installing mods"
-        To install mods, create a folder with the name of your mod in :material-folder:==modloader==. Then create(with [OpenIV](openiv.md)) or place an `.img` (note: you can put raw files in instead without one) or other [supported files](https://zolika1351.pages.dev/mods/ivtweaker) in that folder. You can also leave a :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` to avoid bloating the config. ==Don't use subfolders. Use different folders for files that can be used for both IV and EFLC DLCs to avoid compatibility issues==.
-        ??? warning "Expected folder structure"
-            Improved Animations mod will be used for an example.
+        !!! warning "Note"
+            While you *can* get away with not compiling the separate files (if, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle), you'll ruin any compatibility with other mods. So please don't do that.
 
+        1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](openiv.md).
+        1.1. If the mod combines these files with vanilla game files and there's no way to get them separately, extract both the mod's `.img` and the vanilla `.img` and use any comparison tool (I like to use [WinMerge](https://winmerge.org/)) to find the differing files. Go back to 1. after you do that.
+        1.2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
+        1.3. You can also omit this and use raw files.
+        2. Create a folder with the name of your mod in :material-folder:==modloader== (create the folder if it doesn't exist).
+        3. Drop your compiled `.img` files into that folder.
+        3.1. If you had to go through 1.2, also create separate folders for IV, TLAD or TBoGT and drop the specific files there.
+        4. You can add :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` if you don't need the mod to load in any other DLC. Otherwise, edit :material-file-cog:`modloader.ini` for priority and when the mods should or should not load.
+
+        ??? warning "Expected folder structure"
             * :material-folder:==GTAIV==\
                 * :material-folder:==modloader==\
-                    * :material-folder:==IVImprovedAnimations==\
-                        * :material-file:`IVAnims.img`
+                    * :material-folder:==Mod1==\
+                        * :material-file:`IVAnims.ForEveryGame.img`
                         * :material-file:`WeaponInfo.xml`
-                    * :material-folder:==TLADImprovedAnimations==\
+                    * :material-folder:==Mod1.TLADOnly==\
                         * :material-file:`TLADOnly`
                         * :material-file:`TLADAnims.img`
                         * :material-file:`WeaponInfo.xml`
-                    * :material-folder:==TBoGTImprovedAnimations==\
+                    * :material-folder:==Mod1.TBoGTOnly==\
                         * :material-file:`TBoGTOnly`
                         * :material-file:`TBoGTAnims.img`
-                            
+
     ??? "Configuring the modloader"
         To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==. Make sure you set the correct priority so you don't have unwanted mods overriding other mods(higher number - higher priority). Make sure mods that should be be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are for TBoGT are disabled for TLAD (Ep1), and mods that are for TLAD are disabled for TBoGT(Ep2). ==This isn't necessary if you left :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or :material-file:`TBoGTOnly` files.== If you have issues - experiment with disabling mods.
         ??? warning "Expected configuration"
@@ -75,43 +130,5 @@ This modloader is superior to UAL's in many ways - especially the ability to mer
             ```
     ??? "Increasing the limits"
         To increase the limits, edit :material-file-cog:`IVTweaker.ini` - you may want to do this if you install mods that, for example, change vehicle textures as you may encounter the taxi bug.
-
-## Ultimate ASI Loader
-!!! warning ""
-    See [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) for installation.
-!!! warning "Compatibility"
-    Supports the Complete Edition. Can support 1.0.8.0/1.0.7.0 by using latest [ZolikaPatch](../essential-modding/zolikapatch.md).
-This modloader is not as robust as IV Tweaker, but can replace all kinds of files.
-
-???+ info "Usage"
-
-    ??? "Installing mods"
-        * For `.img` mods, create a folder with the name of your mod in :material-folder:==update==. Then create (with [OpenIV](openiv.md)) or place an `.img` in that folder. ==If your mod has files that can be used for both IV and EFLC DLCs, create :material-folder:`IV`, :material-folder:`TLAD` and :material-folder:`TBoGT` subfolders and place the .img files separately to avoid compatibility issues==.
-
-        * For mods that replace other files, create an identical folder structure to the game's in :material-folder:==update== for the replacement files and place the replacement files in their respective folders. ==Don't use the mod folders.==
-        ??? warning "Expected folder structure"
-            Improved Animations mod will be used for an example.
-
-            * :material-folder:==GTAIV==\
-                * :material-folder:==update==\
-                    * :material-folder:==ImprovedAnimations==\
-                        * :material-folder:==IV==\
-                            * :material-file:`IVAnims.img`
-                        * :material-folder:==TLAD==\
-                            * :material-file:`TLADAnims.img`
-                        * :material-folder:==TBoGT==\
-                            * :material-file:`TBoGTAnims.img`
-                    * :material-folder:==common==\
-                        * :material-folder:==data==\
-                            * :material-file:`WeaponInfo.xml`
-                    * :material-folder:==TLAD==\
-                        * :material-folder:==common==\
-                            * :material-folder:==data==\
-                                * :material-file:`WeaponInfo.xml`
-
-    ??? "Configuring the modloader"
-        If you want to set a priority, put a number in front of the mod folder name. Lower number - higher priority.
-
-        I don't know of any other way to configure the modloader. [Contact me](../contact-me.md) if you know a way to.
 
 [:material-page-first:Previous page <br>OpenIV</br>](openiv.md){ .md-button } [Next page:material-page-last: <br>Mods</br>](mods.md){ .md-button .md-button--primary }
