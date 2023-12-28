@@ -18,12 +18,14 @@ Note: Boosty is a Russian company.
 
 [:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
-## Me
-I'd, of course, prefer if you sent donations to any other modders listed above rather than me - but I would be ultimately happy if you sent me a tip for all the time I spent making this website and everything else I'm associated with. I've been working on it for over 2 years, and I'm still going to update it actively as long as there's things to update. Also, keep in mind that hosting the website takes absolutely no money at the moment thanks to GitHub, aswell as the fact it doesn't make me any money as I don't have any ads. You can buy me a lot, actually. A dollar can buy me two little coffee cups :D. ==Note: I can't set up any other payment methods at the moment. This would send the tip directly to my debit.==
+## Me (Gillian)
+I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
-[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }
+==Note: I'll prefer a donation to monobank, as that'll eat the least amount of money and also you can use Google Pay to pay for that. As second option, please choose Ko-Fi! For a direct PayPal donation link, [contact me](contact-me.md) instead.==
+
+[:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/gillianmc){ .md-button .md-button--primary } [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }
 
 ## In case I missed you
-If you are mentioned on [credits](credits.md) and have a donation link but it's not here, [contact me!](contact-me.md)
+If you are mentioned on [credits](credits.md) (including other pages) and have a donation link but it's not here, [contact me!](contact-me.md)
 
 [:material-page-first:Previous page <br>Credits</br>](credits.md){ .md-button } [Next page:material-page-last: <br>Troubleshooting</br>](troubleshooting.md){ .md-button .md-button--primary }
