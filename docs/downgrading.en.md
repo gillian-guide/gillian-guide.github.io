@@ -14,7 +14,7 @@ Go through each big section to complete the downgrading or only the [Downgrading
     3. 1.0.4.0 is an older retail patch with full ENB compatibility, as well as old shadow algorithm - considered better by some of the community. A lot of things listed on the guide won't work with 1.0.4.0 however - and I don't provide support for it.
 
 ### Which downgrader to choose?
-It depends vaguely on your goals. If you want something as simple as a drag&drop archive - go with Zolika1351's. If you want something more in-depth - go with ItsClockAndre's.
+It depends vaguely on your goals. If you want something as simple as a drag&drop archive - go with mine or Zolika1351's. If you want something more in-depth - go with ItsClockAndre's.
 
 ???+ question "Comparison"
     * :material-plus-minus: means "Partially" or "Not as good".
