@@ -20,7 +20,6 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
     * Disable `Enable Shader Pre-caching` in `Settings` - `Downloads` on Steam.
     * If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
     * If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values. If it still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`.
-    * You can also add `-managed` for better performance, but your game may crash more often, especially with the `-nomemrestrict` option.
 
 ???+ warning "When running on Linux..."
     Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.

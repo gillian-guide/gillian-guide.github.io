@@ -19,16 +19,32 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
 ???+ question "Сравнение"
     * :material-plus-minus: означает "Частично" или "Не так хорошо".
 
-    | Преимущества | от Zolika1351 | от ItsClockAndre |
-    | :----------: | :-----------: | :--------------: |
-    | Даунгрейд до 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
-    | Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-cancel: | :material-checkbox-marked-circle: |
-    | Включен даунгрейд радио | :material-cancel: | :material-checkbox-marked-circle: |
+    | Преимущества | от Gillian | от Zolika1351 | от ItsClockAndre |
+    | :----------: | :--------: | :-----------: | :--------------: |
+    | Даунгрейд до 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-cancel: | :material-checkbox-marked-circle: |
+    | Простота | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Размер | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-checkbox-marked-circle: | :material-cancel: | :material-checkbox-marked-circle: |
+    | Включен даунгрейд радио | :material-plus-minus: | :material-cancel: | :material-checkbox-marked-circle: |
 
-=== "Даунгрейдер от Zolika1351 (ZolikaPatch)"
+=== "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
+    Я сделал свой собственный даунгрейдер для своих целей. Этот даунгрейдер не то чтобы заменяет остальные два - это просто моя альтернатива. Однако у него есть несколько преимуществ - а именно попытка поддержать моды в актуальном состоянии и не разрешает делать "тупые", по логике, даунгрейды. Вы также можете просто открыть его, выбрать папку и нажать `Downgrade`, не переключая ничего другого.
+
+    ???+ note "Использование"
+        * Перейдите на страницу [релизов](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
+        * Скачайте :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
+        * Распакуйте архив в любую удобную папку.
+        * Откройте программу.
+        * Выберите папку с игрой.
+        * Переключите все, что желаете. Сойдет и по умолчанию, но вы можете хотеть отключить GFWL.
+        * Нажмите `Backup`, если хотите иметь резервную копию. Она будет сохранена в :material-folder:==backup== в папке с игрой.
+        * Нажмите `Install redistributables`, чтобы загрузить и установить Visual C++, DirectX и GFWL.
+        * Нажмите `Downgrade`, чтобы, ну, сделать даунгрейд.
+
+        Инструмент будет зависать при использовании `Downgrade` или `Install redistributables`, это нормально. Если только он не закрывается. Тогда не нормально - создайте GitHub Issue с логом.
+
+=== "[Даунгрейдер от Zolika1351 (ZolikaPatch)](https://zolika1351.pages.dev/mods/ivpatch)"
     Этот даунгрейдер очень маленький по размеру и заменяет минимальное количество файлов(что отдаляет этот даунгрейд от настоящей дисковой версии), но при этом не содержит ни даунгрейд радио, ни способа даунгрейда до версии 1.0.4.0. Он автоматически устанавливает все зависимости и даунгрейдит уже установленные моды. Однако он совершенно не совместим с [Games for Windows - LIVE](../multiplayer/#games-for-windows-live).
 
     ???+ note "Установка"
@@ -45,7 +61,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
             * Распакуйте :material-zip-box:`IV_Downgrade_1070_vxx.zip` в папку с игрой, заменив все, если потребуется.
             * Запустите :material-file-download:`vcredist_x86.exe` и дайте ему установиться.
 
-=== "Даунгрейдер от ItsClockAndre"
+=== "[Даунгрейдер от ItsClockAndre](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     Этот даунгрейдер работает в онлайн-режиме и загружает только то, что вы выбрали для загрузки. Он заменяет больше файлов, чем даунгрейдер от Zolika1351, что усложняет восстановление установки, если вы не сделали резервную копию, но это также делает данный даунгрейдер более близким к настоящей дисковой версии. Этот даунгрейдер может включать устаревшие моды. В этом даунгрейдере также есть возможность понизить версию до 1.0.4.0.
 
     ???+ note "Установка"

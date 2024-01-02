@@ -19,33 +19,48 @@ It depends vaguely on your goals. If you want something as simple as a drag&drop
 ???+ question "Comparison"
     * :material-plus-minus: means "Partially" or "Not as good".
 
-    | Advantages | Zolika1351's | ItsClockAndre's |
-    | :--------: | :----------: | :-------------: |
-    | Downgrading to 1.0.8.0 and 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
-    | Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-cancel: | :material-checkbox-marked-circle: |
-    | Radio downgrader as a part of downgrading | :material-cancel: | :material-checkbox-marked-circle: |
+    | Advantages | Gillian's | Zolika1351's | ItsClockAndre's |
+    | :--------: | :-------: | :----------: | :-------------: |
+    | Downgrading to 1.0.8.0 and 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Downgrading to 1.0.4.0 | :material-cancel: | :material-cancel: | :material-checkbox-marked-circle: |
+    | Simplicity | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Lightweight | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-checkbox-marked-circle: | :material-cancel: | :material-checkbox-marked-circle: |
+    | Radio downgrading | :material-plus-minus: | :material-cancel: | :material-checkbox-marked-circle: |
 
-=== "Zolika1351's Downgrader (ZolikaPatch)"
+=== "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
+    I've made my own downgrader for my own purposes. I don't intend this to be a replacement to the other two, nor in any way necessarily superior - simply my own alternative. Though, it does offer a few benefits - it attempts to keep the mods up-to-date and doesn't let you do "stupid" downgrades with the toggles logic. You can also just open it, select your folder and press `Downgrade` without toggling anything else.
+
+    ???+ note "Usage"
+        * Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
+        * Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
+        * Unpack the archive in any desired folder.
+        * Open the tool.
+        * Select your game folder.
+        * Toggle anything if your heart desires to. Defaults are fine, but you may want to disable the GFWL toggle.
+        * Press `Backup` if you want to have a backup. It will be stored in :material-folder:==backup== in your game folder.
+        * Press `Install redistributables` to download and install Visual C++, DirectX and GFWL redistributables.
+        * Press `Downgrade` to, well, downgrade.
+
+        Tool will hang when using `Downgrade` or `Install redistributables`, this is normal. Unless it closes. Then it's not - submit a GitHub Issue with the log.
+
+=== "[Zolika1351's Downgrader (ZolikaPatch)](https://zolika1351.pages.dev/mods/ivpatch)"
     This downgrader is very lightweight and replaces a minimal amount of files (which strays this downgrade from a true retail version), but also doesn't bundle a radio downgrader or a way to downgrade to 1.0.4.0. It automatically handles all dependencies and downgrades the mods you already had installed. It is not compatible at all with [Games for Windows - LIVE](../multiplayer/#games-for-windows-live), however.
 
     ???+ note "Installation"
-        * Create an antivirus exclusion for your game folder (optional, but highly recommended).
         * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
         * Scroll to the bottom of the page and download the latest version.
         * Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
         * You will be prompted to downgrade when opening the game, press Yes. It'll automatically handle everything.
         ??? note "Downgrading to 1.0.7.0"
             This tool is only intended to downgrade to 1.0.8.0. For 1.0.7.0, instead, follow these instructions:
-            
+
             * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu/downgrading).
-            * Scroll to the bottom and download the 1.0.7.0 archive. 
+            * Scroll to the bottom and download the 1.0.7.0 archive.
             * Extract the contents of the :material-zip-box:`IV_Downgrade_1070_vxx.zip` into the game folder, replacing everything if prompted.
             * Run :material-file-download:`vcredist_x86.exe` and let it install.
 
-=== "ItsClockAndre's Downgrader"
+=== "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may bundle outdated files. This downgrader also has an option to downgrade to 1.0.4.0.
 
     ???+ note "Installation"

@@ -12,7 +12,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
     !!! warning "Compatibility"
-        Official support doesn't allow to work with GFWL. Install the mod first, then apply [this fork](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
+        Official support doesn't allow to work with GFWL. Install the mod first, then apply [GFWL patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
@@ -20,6 +20,8 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     !!! tip ""
         You can move files from the :material-folder:==plugins== to the game folder for convenience.
     !!! warning "If using ZolikaPatch..."
+        Install the [GFWL patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL).
+
         Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
         - BuildingAlphaFix
