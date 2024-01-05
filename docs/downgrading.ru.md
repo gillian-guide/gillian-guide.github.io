@@ -2,7 +2,7 @@ title: Даунгрейд
 description: Методы даунгрейдинга GTA IV с Complete Edition
 
 # Даунгрейд
-Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks и [IV Tweaker](../extras/modloading/#iv-tweaker). 
+Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает гораздо меньшее количество модов, и в основном не поддерживает [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks и [IV Tweaker](../extras/modloading/#iv-tweaker).
 
 Пройдитесь по каждому большому разделу, чтобы совершить полный даунгрейд, или только по разделу [Даунгрейд радио](#_4), если вы заинтересованы только в этом.
 
@@ -14,19 +14,19 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
     3. 1.0.4.0 - это более старый патч с полной совместимостью с ENB, а также со старым алгоритмом теней, который, по мнению некоторых людей в коммьюнити, лучше. Ондако, многие перечисленные в руководстве моды и инструменты не работают на 1.0.4.0 - и я не поддерживаю эту версию.
 
 ### Какой даунгрейдер выбрать?
-Это зависит от ваших целей. Если вам нужно что-то простое, как распаковка архива - сойдет мой или от Zolika1351. Если нужно что-то с большим количеством опций - выбирайте даунгрейдер от ItsClockAndre.
+Это зависит от ваших целей. Если вам нужно что-то простое, как нажатие двух кнопок - сойдет мой. Если нужно что-то с большим количеством опций - выбирайте даунгрейдер от ItsClockAndre.
 
 ???+ question "Сравнение"
     * :material-plus-minus: означает "Частично" или "Не так хорошо".
 
-    | Преимущества | от Gillian | от Zolika1351 | от ItsClockAndre |
-    | :----------: | :--------: | :-----------: | :--------------: |
-    | Даунгрейд до 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-cancel: | :material-checkbox-marked-circle: |
-    | Простота | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Размер | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-checkbox-marked-circle: | :material-cancel: | :material-checkbox-marked-circle: |
-    | Включен даунгрейд радио | :material-plus-minus: | :material-cancel: | :material-checkbox-marked-circle: |
+    | Преимущества | от Gillian | от ItsClockAndre |
+    | :----------: | :--------: | :--------------: |
+    | Даунгрейд до 1.0.8.0 и 1.0.7.0 | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Даунгрейд до 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
+    | Простота | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Размер | :material-checkbox-marked-circle: | :material-plus-minus: |
+    | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
+    | Включен даунгрейд радио | :material-plus-minus: | :material-checkbox-marked-circle: |
 
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     Я сделал свой собственный даунгрейдер для своих целей. Этот даунгрейдер не то чтобы заменяет остальные два - это просто моя альтернатива. Однако у него есть несколько преимуществ - а именно попытка поддержать моды в актуальном состоянии и не разрешает делать "тупые", по логике, даунгрейды. Вы также можете просто открыть его, выбрать папку и нажать `Downgrade`, не переключая ничего другого.
