@@ -222,6 +222,7 @@ These mods are not included by default, but do not require any additional steps 
 	* 26.06.2023 - Created the archive.
 === "1.2.0.59"
 	The archive is updated as frequently as mods are, below is the list of changes:
+	
 	* 04.01.2024 - - Repackaged most mods - should solve a few issues and make less unnecessary changes. Removed Improved Weapon Spec in favor of Higher Resolution Miscellaneous Pack. Added Restored Pedestrians, Various Pedestrians Actions. Updated Radio Downgrader, FusionFix, Project2DFX, Xbox Rain Droplets, Various Fixes, More Visible Interiors, Restored Trees Position.
 	* 18.12.2023 - Updated FusionFix. Removed Vanilla Road Texture Enhancement by DayL (temporarily if it doesn't solve the problem), Xbox One/Series S+X Buttons (in favor of FusionFix's implementation).
 	* 12.12.2023 (hotfix) - Fixed TBoGT crash on load (add `DISABLE_FILE common:/data/newchar.ide` to :material-folder:==/update/TBoGT/`content.dat`==)
