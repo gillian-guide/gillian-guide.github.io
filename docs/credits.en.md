@@ -5,10 +5,10 @@ description: This guide wouldn't be possible without all these amazing people!
 This guide wouldn't be possible without all these amazing people!
 
 ## Zolika1351
-For their work on [ZolikaPatch](essential-modding/zolikapatch.md) and it's downgrading tool, [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping many other modders(a bunch of mods [here](extras/mods.md) wouldn't be possible without him!), light assist with the guide and more! This author has a [donation link](support.md).
+For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping other modders, light assist with the guide and more!
 
 ## ThirteenAG
-For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
+For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
 
 ## Parallellines
 For their work on [Fusion Shaders](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and contributing to [Various Fixes](extras/mods.md).
@@ -16,7 +16,7 @@ For their work on [Fusion Shaders](essential-modding/fusionfix.md), [Console Vis
 ## AssaultKnife47, RaphaelK12, robi29, \_CP_
 For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md).
 
-## Tomasak & the rest of the Fusion Team
+## Fusion Team
 For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.
 
 ## ItsClockAndre

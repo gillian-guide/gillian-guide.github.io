@@ -5,17 +5,7 @@ description: Если вы хотите поддержать всех людей
 
 Без [авторов](credits.md), у нас не было бы ни этого руководства, ни всех этих замечательных инструментов и модов. Так почему бы не поддержать их материально? Я стараюсь предоставить все доступные ссылки на пожертвования для всех [авторов](credits.md).
 
-## Zolika1351
-
-[:simple-patreon: Patreon](https://www.patreon.com/zolika1351){ .md-button .md-button--primary }
-
-## ThirteenAG
-Примечание: Boosty - российская компания.
-
-[:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
-
 ## ItsClockAndre
-
 [:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
 ## Я (Gillian)

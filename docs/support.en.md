@@ -5,17 +5,7 @@ description: If you wish to support the amazing people that made this guide poss
 
 Without the people listed in [credits](credits.md) we wouldn't have this guide, nor all these amazing tools and mods. So why not support them? I'm going to provide all available donation links for all people mentioned in the [credits](credits.md).
 
-## Zolika1351
-
-[:simple-patreon: Patreon](https://www.patreon.com/zolika1351){ .md-button .md-button--primary }
-
-## ThirteenAG
-Note: Boosty is a Russian company.
-
-[:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=77JMVFE8N42PE){ .md-button .md-button--primary } [Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
-
 ## ItsClockAndre
-
 [:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
 ## Me (Gillian)
