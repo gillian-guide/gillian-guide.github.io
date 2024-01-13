@@ -38,7 +38,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Also, check for [GPU driver updates](../optimization/#drivers).
 
 ??? info "Game performance is still poor"
-    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used.
+    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used. Don't forget to disable `Shader Pre-caching` in :material-steam:Steam `Settings` - `Downloads` tab if using DXVK.
 
     Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
 
@@ -46,7 +46,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Remove ColAccel. It doesn't work properly for some people for some reason.
 
 ??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS such as arcades being broken"
-    Install [FusionFix](essential-modding/fusionfix.md) and set the `FPS limiter` in Settings - Graphics to 60 FPS.
+    Install [FusionFix](essential-modding/fusionfix.md).
 
 ??? info "Softlock on TLAD - Shifting Weight"
     Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
@@ -69,12 +69,13 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
 
 ??? info "RMN60 error on launch"
-    Reinstall [ZolikaPatch](essential-modding/zolikapatch.md). Your antivirus is likely at fault - disable it or add the game folder to exceptions.
+    Install [ZolikaPatch](essential-modding/zolikapatch.md).
 
 ??? info "Game crashes immediately upon booting | Won't even boot"
     * Reboot your PC.
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
+    * If using ZolikaPatch and FusionFix together, see the incompatible options [here](essential-modding/fusionfix.md).
     * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     * Make sure MSI Afterburner and/or RivaTuner Statistics and any other software of this sort is not running - overlays mess the game up on boot.
     * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) (and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).

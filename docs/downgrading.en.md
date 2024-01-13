@@ -2,15 +2,15 @@ title: Downgrading
 description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches
 
 # Downgrading
-You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a much smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and [IV Tweaker](../extras/modloading/#iv-tweaker). 
+You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and other script mods (ScriptHookDotNet mods are possible).
 
-Go through each big section to complete the downgrading or only the [Downgrading the radio](#downgrading-the-radio) section if you're only interested in doing that.
+Go through each big section to complete the downgrading or only [Downgrading the radio](#downgrading-the-radio) section if you're not interested in downgrading the game.
 
 ## Downgrading the game
 ### Notes
 !!! info ""
-	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). ==The amount of supported mods is also much more limited in this version - most mods are built for 1.0.8.0 and 1.0.7.0.==
-	2. 1.0.8.0 is the latest retail patch, with ZolikaPatch and multiplayer support. ==This version is better for mod compatibility.==
+	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). ==The amount of supported mods is also more limited in this version - most mods made before 2020 are built for 1.0.8.0 and 1.0.7.0.==
+	2. 1.0.8.0 is the latest retail patch, with ZolikaPatch and multiplayer support. ==This version is best for mod compatibility.==
     3. 1.0.4.0 is an older retail patch with full ENB compatibility, as well as old shadow algorithm - considered better by some of the community. A lot of things listed on the guide won't work with 1.0.4.0 however - and I don't provide support for it.
 
 ### Which downgrader to choose?

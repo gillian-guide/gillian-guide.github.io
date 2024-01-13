@@ -44,7 +44,7 @@ Using this tool you can set up DXVK and [Launch Options](../additional-setup/#la
     - If any issues occur, [report it on the discord server](contact-me.md). You can also try using the deprecated [Python version](https://github.com/SandeMC/GTAIVSetupUtility/releases).
 
 ## DXVK
-Currently the only good solution for improving game's performance. 
+Currently the only good solution for improving game's performance.
 
 !!! warning "Information"
     * DXVK mainly improves CPU performance through better drawcall handling - the ones the game abuses so much. There is a chance that DXVK will not improve performance for you if you're GPU-bound instead.
@@ -52,8 +52,8 @@ Currently the only good solution for improving game's performance.
     * For Linux users using Proton, only apply [configuration](#configuration), since Proton already uses DXVK.
 !!! warning "Prerequisites"
     * Make sure your [drivers](#drivers) are up-to-date.
-    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z")'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs. 
-    * Intel iGPU's only support the Legacy version `1.10.1`.
+    * Make sure your PC meets the [DXVK requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") or at least the [Legacy DXVK Requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - preferably the recommended versions. Most 2015 and newer GPUs should support the normal version, and 2012-2014 GPUs should support the legacy version, but you can use [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z")'s Advanced - Vulkan tab to check for yourself. The Legacy version will have less performance and may have more bugs.
+    * Some Intel iGPU's only support the Legacy version `1.10.1`.
     * Disable `Shader Pre-caching` in :material-steam:Steam `Settings` - `Downloads` tab.
 
 ??? warning "ENB Support"

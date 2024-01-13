@@ -26,12 +26,17 @@ description: Один из важных модов для вашей устан�
 
         - BuildingAlphaFix
         - EmissiveLerpFix
+        - BikePhoneAnimsFix
         - BorderlessWindowed
         - CutsceneFixes
         - HighFPSBikePhysicsFix
+        - HighFPSSpeedupFix
+        - ReversingLightFix
         - OutOfCommissionFix
         - SkipIntro
         - SkipMenu
+
+        Учтите, что это не полностью отключает функционал - подобный уже присутствует в FusionFix.
 === "1.2.0.59"
     * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
     * Скачайте последнюю версию.

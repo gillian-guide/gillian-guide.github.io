@@ -20,18 +20,21 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     !!! tip ""
         You can move files from the :material-folder:==plugins== to the game folder for convenience.
     !!! warning "If using ZolikaPatch..."
-        Install the [GFWL patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL).
-
         Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
         - BuildingAlphaFix
         - EmissiveLerpFix
+        - BikePhoneAnimsFix
         - BorderlessWindowed
         - CutsceneFixes
         - HighFPSBikePhysicsFix
+        - HighFPSSpeedupFix
+        - ReversingLightFix
         - OutOfCommissionFix
         - SkipIntro
         - SkipMenu
+
+        Note that this doesn't break or actually disable anything, as these features are reimplemented by FusionFix.
 === "1.2.0.59"
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.

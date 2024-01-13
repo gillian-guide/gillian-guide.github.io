@@ -7,7 +7,7 @@ Whether you're here after using the [drag-and-drop archive](drag-and-drop-archiv
 ## Launch Options
 ???+ note "How to set the Launch Options?"
     There are two ways to:
-    
+
     1. For Complete Edition, go to the game's Properties menu in :material-steam:Steam and set them there;
     2. For retail versions, create a :material-file-cog:`commandline.txt` in the game folder and edit it.
 ???+ tip "Setup Utility"
@@ -97,9 +97,9 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 | Vehicle Density | Below 70 | 33 | This setting controls the traffic density. Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges. |
 | Definition | On | Off | ==Skip this if you're using [FusionFix](essential-modding/fusionfix.md).==<br>This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred image on PC and effects that simply do not scale up in resolution - due to that, either keep this option On and lose the effects or install [FusionFix](essential-modding/fusionfix.md) and see the next options instead. Can be quickly toggled by pressing ++p++ button.</br> |
 | VSync | Off | On | This setting controls the vertical synchronization. ==We'll use the one bundled with [DXVK](optimization.md) instead, as it has much better framepacing.== |
-| Shadow Filter | PCSS or Softest | ? | This setting softens the shadows and closer to real-life behaviour (when using PCSS). PCSS can tank your performance. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
+| Shadow Filter | Preference | ? | This setting softens the shadows. PCSS makes them behavire more alike to real-life, but can tank your performance. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | Console Shadows | On | On | This setting makes shadows behave more console-like - you'll lose the car headlight shadows, but instead the car will have shadows under in-direct light sources (such as light poles). <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
-| FXAA | On | On | This setting controls FXAA (a simple method of Anti-Aliasing). <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
+| Antialiasing | SMAA | SSAA 2x on Xbox 360; QAA on PlayStation 3 | This setting controls various methods of anti-aliasing. You can also enable SSAA 2x in `Settings` - `Game`, but keep in mind that it would tank performance in the same way doubling your resolution would.<br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | FPS Limiter | 60 | 30 | This setting changes the FPS limit. Recommended to set to 60 to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues), although not necessary and the story can be beaten above 60. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | Motion Blur | Preference | On | This setting controls the motion blur effect. <br>==Only available in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | Bloom | On | On | This setting controls bloom. <br>==Only available in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).==</br> |
@@ -111,7 +111,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 | Definition | Extra | Classic | Not to be confused with the vanilla Definition setting - however, this one is closer to what it should've been from the start. This setting smoothes out stippled and dithered objects. <br>==Only available in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 
 ??? question "What is :material-file-cog:`stream.ini`?"
-    Other guides often suggest editing :material-file-cog:`stream.ini` to change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is probably a placebo.
+    Other guides often suggest editing :material-file-cog:`stream.ini` to change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is likely a placebo.
 
 You can stop here if all you wanted was to improve your performance, however I'd advise going up to install essential mods for best experience.
 
