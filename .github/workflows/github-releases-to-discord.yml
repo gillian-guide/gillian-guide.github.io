@@ -14,4 +14,5 @@ jobs:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           color: "2105893"
           username: "Guide & Archive Updates"
-          avatar_url: "https://github.com/gillian-guide/gillian-guide.github.io/blob/main/docs/assets/logo.png?raw=true"
+          avatar_url: "https://github.com/gillian-guide/gillian-guide.github.io/blob/main/docs/assets/iv-logo-favicon.png?raw=true"
+          reduce_headings: true
