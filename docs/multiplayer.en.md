@@ -91,6 +91,10 @@ The classic multiplayer method, the one that started it all. And the one that is
     * UDP: `3074`, `80`, `88`
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
+
+!!! warning "Page restructure"
+    The rest of this page requires restructuring due to outdated or inaccurate information.
+
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
