@@ -10,8 +10,9 @@ This project aims to fix or improve a large amount of map issues and textures. Y
 * Make sure you have [FusionFix](fusionfix.md) installed.
 * Go to the [Google Drive folder](https://drive.google.com/drive/folders/1nLq3uiw1XFW5lrIwdSLuk2ZhpEWzdLw0).
 * Download the :material-folder:==update== from `Installation through Fusion Overloader`.
-* Extract the folder into the game folder. Replace files if prompted.
+* Extract the folder (not it's contents) into the game folder. Replace files if prompted.
 * You may also install some things from the `Optional Content`, but that will require you to use [OpenIV](../extras/openiv.md) to add the files to the existing `.img` file.
+
 ???+ question "Other installation methods"
     You can also go through with the manual or auto-installation, but it's frankly more unnecessary effort and harder to make to work with other mods than using this.
 

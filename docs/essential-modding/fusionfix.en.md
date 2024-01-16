@@ -12,7 +12,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
     !!! warning "Compatibility"
-        Official support may hinder the GFWL experience. Install the mod first, then apply [GFWL patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
+        Official support may hinder the GFWL experience. If you want to use GFWL, install the mod first, then apply [GFWL patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) ontop.
     * Go to the [Releases](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases) page.
     * Download the latest release.
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.

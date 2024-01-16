@@ -1,5 +1,5 @@
 title: ZolikaPatch
-description: One of the must-have mods for your downgraded GTA IV install that fixes a lot of things physics, multiplayer and crash-related
+description: One of the must-have mods for your downgraded GTA IV install that fixes a lot of things physics, multiplayer and crashes
 
 # ZolikaPatch
 !!! warning "Compatibility"
