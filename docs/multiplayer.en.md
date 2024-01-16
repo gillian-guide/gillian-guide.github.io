@@ -96,7 +96,7 @@ The classic multiplayer method, the one that started it all. And the one that is
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
 
-    GTA Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are not allowed. If you want to have Shader Fixes, you can use [this outdated version](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) - but it lacks a lot of things from the latest versions.
+    GTA Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are not allowed. If you want to have Shader Fixes, you can use [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) or [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - but they lack a lot of things from the latest versions.
 Second most popular multiplayer option, as it's the best way to experience GTA IV multiplayer without messing with GFWL while still having many of it's things intact.
 ### Usage
 ???+ info "Installation"
