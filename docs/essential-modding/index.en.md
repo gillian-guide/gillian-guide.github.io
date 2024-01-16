@@ -6,4 +6,4 @@ You'll find mods that I think are essential to any GTA IV installation, along wi
 
 Everything in this section requires [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).
 
-[:material-page-first:Previous page <br>Mod Dependencies</br>](../mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Mod Dependencies</br>](../mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button .md-button--primary }

@@ -97,8 +97,12 @@ nav:
   - "mod-dependencies.md"
   - Essential Modding:
     - "essential-modding/index.md"
-    - "essential-modding/zolikapatch.md"
     - "essential-modding/fusionfix.md"
+    - "essential-modding/zolikapatch.md"
+    - "essential-modding/variousfixes.md"
+    - "essential-modding/libertytweaks.md"
+    - "essential-modding/charactersfixes.md"
+    - "essential-modding/consolevisuals.md"
   - Extras:
     - "extras/index.md"
     - "multiplayer.md"

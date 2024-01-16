@@ -1,14 +1,11 @@
 title: ZolikaPatch
-description: One of the must-have mods for your GTA IV install
+description: One of the must-have mods for your downgraded GTA IV install that fixes a lot of things physics, multiplayer and crash-related
 
 # ZolikaPatch
 !!! warning "Compatibility"
-    This mod is not compatible with the Complete Edition. ZolikaPatch can downgrade for you.
+    This mod is not compatible with the Complete Edition. Skip this page if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../multiplayer.md).
 
 This mod aims to fix & improve various things in GTA IV, as well as greatly improve the [multiplayer](../multiplayer.md) experience. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
-
-!!! warning "Notice"
-    This mod, nor any other Zolika1351's mods will not be updated anymore. See [this post](https://zolika1351.pages.dev/posts/saying-goodbye) for context.
 
 ## Installation { data-search-exclude }
 * Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
@@ -37,4 +34,4 @@ This mod aims to fix & improve various things in GTA IV, as well as greatly impr
 ## Configuration
 Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options already have descriptions.
 
-[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>Various Fixes</br>](variousfixes.md){ .md-button .md-button--primary }
