@@ -16,4 +16,4 @@ This project aims to improve various aspects of the game and it's general qualit
 ???+ question "Why does this mod use IV-SDK .NET and not ScriptHookDotNet?"
     ScriptHookDotNet is an outdated and unmaintained API with a lot of issues (performance impact, rain issues) that are not going to be fixed. IV-SDK .NET is a new API built on Zolika1351's IV-SDK that is meant to supersede ScriptHookDotNet without it's issues.
 
-[:material-page-first:Previous page <br>Various Fixes</br>](variousfixes.md){ .md-button } [Next page:material-page-last: <br>Characters Fixes</br>](characterfixes.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Various Fixes</br>](variousfixes.md){ .md-button } [Next page:material-page-last: <br>Characters Fixes</br>](charactersfixes.md){ .md-button .md-button--primary }
