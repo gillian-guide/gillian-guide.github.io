@@ -17,7 +17,17 @@ If you don't want to manually mod your game, you can choose an archive depending
 	* It is recommended that you start the game with a new save file after installing the archive, but you can continue to play on existing save files - you will just encounter minor issues (such as secondary objects being where they shouldn't be).
 
 !!! warning "Performance"
-	**This archive does NOT provide best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. Feel free to play with the graphics settings, however - one of the new toggles may be your fix.**
+	**This archive does NOT provide best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. Feel free to play with the graphics settings, however - following options increase the performance impact:**
+    - SSAA 2x
+    - Shadow Filter (PCSS)
+    - Shadow Quality
+    - Night Shadows
+    - Depth of Field
+    - Distant Blur
+    - Motion Blur
+    - View/Detail Distance
+    - Reflection Quality
+    - Console Shadows
 
 !!! warning "Notice"
     This section does not reflect my personal views on importance of the mods or my stance towards modders. I'm merely attempting to include the best and compatible, issue-free vanilla-friendly mods.

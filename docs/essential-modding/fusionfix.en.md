@@ -44,6 +44,19 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 !!! warning "Updating"
     If you're updating the mod, do not extract :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. Just take note if there are any new options that differ from your existing ones, carry them over in that case.
 
+!!! tip "Performance impact"
+    By itself, FusionFix does not impact performance. However, several options *can* increase the performance impact - change the options if you want to minimize the impact. Options are sorted by the more impacting options and descending.
+    - SSAA 2x
+    - Shadow Filter (PCSS)
+    - Shadow Quality
+    - Night Shadows
+    - Depth of Field
+    - Distant Blur
+    - Motion Blur
+    - View/Detail Distance
+    - Reflection Quality
+    - Console Shadows
+
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
 
