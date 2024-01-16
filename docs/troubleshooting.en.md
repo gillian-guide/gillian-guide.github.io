@@ -11,11 +11,11 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     - Broken LOD's on mission replays in TBoGT (did not attempt to reproduce).
     - Broken LOD's during long gameplay periods; additionally, the game can get hardlocked when you try to start a mission in that state - temporary solution is to reload a save.
     - Cutscenes freeze the game if the game is out-of-focus for too long.
-    - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back).
+    - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
     - Taxi rides can occasionally crash the game on 1.0.8.0.
     - .NET dependencies do not work on Linux.
 
-??? info "I'm using the Rockstar Games Launcher"
+??? info "I'm using the Rockstar Games Launcher and my files get constantly replaced"
     After downgrading or using the drag-and-drop archive for 1.0.8.0, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
 
     Otherwise, if you want to use CE, avoid file replacements.
@@ -33,7 +33,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * `-height 1080`
     * `-refreshrate 60`
 
-    If it still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`.
+    If it still doesn't help, add `d3d9.forceAspectRatio = 16:9` (or your aspect ratio) to :material-file-cog:`dxvk.conf`.
 
     Also, check for [GPU driver updates](../optimization/#drivers).
 
@@ -42,11 +42,10 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
     Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
 
-??? info "Load times got even longer"
-    Remove ColAccel. It doesn't work properly for some people for some reason.
+    Try changing the graphics settings, specifically: Shadow Quality, Night Shadows, View/Detail Distance, Shadow Filter, Console Shadows, Depth of Field, Motion Blur, SSAA 2x. These have a considerable impact on performance.
 
 ??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS such as arcades being broken"
-    Install [FusionFix](essential-modding/fusionfix.md).
+    Install [FusionFix](essential-modding/fusionfix.md). Some issues can only be omitted by setting a 60 FPS lock in `Settings` - `Graphics`.
 
 ??? info "Softlock on TLAD - Shifting Weight"
     Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
@@ -55,6 +54,10 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     You can hold ++lshift++ on boot for when you need the menu.
 
     If you want to completely disable the feature off, open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
+
+??? info "Load times are too long"
+    * Remove ColAccel.
+    * Remove `-managed` [launch option](../additional-setup/#launch-options).
 
 ??? info "Game loads endlessly when loading saves | Constantly missing textures | Game shows wrong VRAM value in settings"
     Set the `-availablevidmem` [launch option](../additional-setup/#launch-options) (with a value of up to 3072.0).
@@ -68,14 +71,17 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info ":material-steam:Steam Achievements don't work after downgrading"
     You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
 
+??? info "GFWL Achievements don't work after downgrading"
+    Remove :material-file:`SteamAchivements.asi` - it's either one or the other.
+
 ??? info "RMN60 error on launch"
-    Install [ZolikaPatch](essential-modding/zolikapatch.md).
+    Occurs on downgraded versions. Install [ZolikaPatch](essential-modding/zolikapatch.md).
 
 ??? info "Game crashes immediately upon booting | Won't even boot"
-    * Reboot your PC.
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
     * If using ZolikaPatch and FusionFix together, see the incompatible options [here](essential-modding/fusionfix.md).
+    * Reboot your PC.
     * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     * Make sure MSI Afterburner and/or RivaTuner Statistics and any other software of this sort is not running - overlays mess the game up on boot.
     * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) (and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
@@ -88,7 +94,9 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.
 
 ??? info "Game randomly crashes mid-game"
-    One of your mods is unstable. Don't install too many mods.
+    * If using ZolikaPatch and FusionFix together, see the incompatible options [here](essential-modding/fusionfix.md).
+    * Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`.
+    * One of your mods is unstable. Don't install too many mods.
 
 ??? info "Game is using the wrong GPU (NVIDIA laptop)"
     Go to the NVIDIA Control Panel, 3D settings, add :material-file:`gtaiv.exe` and select `Max Performance` in `Power Plan Mode`.
