@@ -32,7 +32,7 @@ For their work on [ScriptHook](../mod-dependencies/#scripthook).
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
 ## Multiplayer clients developers
-Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive!
+Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive! The GTA Connected developers have a [donation link](support.md).
 
 ## DXVK Contributors
 DXVK wouldn't be as great as it is currently without [all these people](https://github.com/doitsujin/dxvk/graphs/contributors)!

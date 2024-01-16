@@ -8,6 +8,9 @@ Without the people listed in [credits](credits.md) we wouldn't have this guide, 
 ## ItsClockAndre
 [:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
+## Jack Powell (GTA Connected)
+[:simple-patreon: Patreon](https://www.patreon.com/jack9267) { .md-button .md-button--primary }
+
 ## Me (Gillian)
 I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 

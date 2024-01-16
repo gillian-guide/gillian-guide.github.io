@@ -92,13 +92,12 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 
-!!! warning "Page restructure"
-    The rest of this page requires restructuring due to outdated or inaccurate information.
-
 ## Grand Theft Auto Connected
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
-Second most popular multiplayer option, as it's one of the best ways to experience GTA IV multiplayer without messing with GFWL.
+
+    GTA Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are not allowed. If you want to have Shader Fixes, you can use [this outdated version](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) - but it lacks a lot of things from the latest versions.
+Second most popular multiplayer option, as it's the best way to experience GTA IV multiplayer without messing with GFWL while still having many of it's things intact.
 ### Usage
 ???+ info "Installation"
     * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
@@ -110,20 +109,26 @@ Second most popular multiplayer option, as it's one of the best ways to experien
     * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as you wish.
 ???+ tip "Joining servers"
     Once you're done with the configuration, it's as simple as double-clicking on any server in the list. You'll be presented with the game's main menu - just hit Play.
-??? tip "Setting up a server"
-    !!! warning ""
-        Only do any of this if you're experienced with hosting servers.
-    * Download the server from the [GTA Connected](https://gtaconnected.com/downloads/) website.
-    * Extract the `GTAC-Server-Winxx-x.x.x.zip` to a folder of your choice.
-    * Configure the :material-file-cog:`server.xml` as needed. Use [this page](https://wiki.gtaconnected.com/ServerConfiguration) for instructions.
-    * Run :material-file:`Server.exe` or the :material-file:`Server` if your server is on Linux.
+
+[:material-web: GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
+
+## HappinessMP
+!!! warning "Compatibility"
+    This method is only compatible with the Complete Edition and does not support any mods at the moment - even Ultimate ASI Loader.
+This client is somewhat similar to GTA Connected in essence, as you can host your own servers with your own scripts, but it aims to be compatible with the Complete Edition and requires Social Club to function rather than 1.0.8.0/1.0.7.0. It also lacks any of the official Rockstar gamemodes.
+### Usage
+???+ info "Installation"
+    * Go to the [HappinessMP](https://happinessmp.net/) website.
+    * Click the ==Download== button.
+    * Install the :material-file-download:`HappinessMP.exe`.
+???+ tip "Playing"
+    Set your nickname and chat key in the Settings. After that, just click on any server you want in the server to join.
+
+[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary }
+
 
 ## Upcoming clients
 These clients are currently in development and are not available for play yet. They'll receive their own full-fledged sections when they're freely available for play. Support their development if you can!
-### HappinessMP
-This client aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. It will require the Complete Edition and rely on Social Club to function.
-
-[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary }
 
 ### Liberty City Online
 This client also aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. However, it will require the 1.0.8.0 and 1.0.7.0 patches instead.
