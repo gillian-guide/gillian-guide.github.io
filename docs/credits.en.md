@@ -11,7 +11,7 @@ For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
 
 ## Parallellines
-For their work on [Fusion Shaders](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) and contributing to [Various Fixes](extras/mods.md).
+For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Console Visuals](extras/mods.md) and [Various Fixes](extras/mods.md).
 
 ## AssaultKnife47, RaphaelK12, robi29, \_CP_
 For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md).

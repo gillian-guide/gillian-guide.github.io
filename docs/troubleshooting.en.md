@@ -42,7 +42,17 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
     Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
 
-    Try changing the graphics settings, specifically: Shadow Quality, Night Shadows, View/Detail Distance, Shadow Filter, Console Shadows, Depth of Field, Motion Blur, SSAA 2x. These have a considerable impact on performance.
+    Try lowering the graphics settings, specifically:
+    - SSAA 2x
+    - Shadow Filter (PCSS)
+    - Shadow Quality
+    - Night Shadows
+    - Depth of Field
+    - Distant Blur
+    - Motion Blur
+    - View/Detail Distance
+    - Reflection Quality
+    - Console Shadows
 
 ??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS such as arcades being broken"
     Install [FusionFix](essential-modding/fusionfix.md). Some issues can only be omitted by setting a 60 FPS lock in `Settings` - `Graphics`.
@@ -71,7 +81,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info ":material-steam:Steam Achievements don't work after downgrading"
     You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
 
-??? info "GFWL Achievements don't work after downgrading"
+??? info "GFWL Achievements don't work"
     Remove :material-file:`SteamAchivements.asi` - it's either one or the other.
 
 ??? info "RMN60 error on launch"

@@ -11,7 +11,7 @@ description: Это руководство было бы невозможно б
 За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md).
 
 ## Parallellines
-За их работу над [Fusion Shaders](essential-modding/fusionfix.md), [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
+За их работу над [Fusion Shaders](essential-modding/fusionfix.md) и помощью с [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
 
 ## AssaultKnife47, RaphaelK12, robi29, \_CP_
 За прямую помощь в разработке [Fusion Shaders](essential-modding/fusionfix.md).
@@ -32,7 +32,7 @@ description: Это руководство было бы невозможно б
 За их работу над [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
 ## Разработчики клиентов для мультиплеера
-Всем, кто вносит свой вклад в создание многопользовательских клиентов, спасибо за то, что вы поддерживаете мультиплеер GTA IV!
+Всем, кто вносит свой вклад в создание многопользовательских клиентов, спасибо за то, что вы поддерживаете мультиплеер GTA IV! У разработчиков GTA Connected есть [ссылка на пожертвования](support.md).
 
 ## Разработчики DXVK
 Без [всех этих людей](https://github.com/doitsujin/dxvk/graphs/contributors) DXVK не был бы таким отличным, как сейчас!

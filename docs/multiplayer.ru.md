@@ -93,7 +93,9 @@ description: Познакомьтесь с мультиплеером GTA IV!
     Если вы не можете выполнить проброс портов, используйте вместо этого VPN-сервис. Я рекомендую [Mullvad VPN](https://mullvad.net/en) (мне за это не платят).
 ## Grand Theft Auto Connected
 !!! warning "Совместимость"
-    Данный метод совместим только с патчами 1.0.6.0, 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition.
+    Данный клиент совместим только с патчами 1.0.6.0, 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition.
+
+    Из модов GTA Connected поддерживает только ZolikaPatch и ZMenuIV - другие моды не разрешены. Если вы хотите Fusion Shaders, используйте [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) или [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - но в них нету множество исправлений, что добавили в последних версиях.
 Второй самый популярный метод игры в мультиплеер, так как это один из лучших способов сыграть в мультиплеер GTA IV, не трогая GFWL.
 ### Использование
 ???+ info "Установка"
@@ -106,20 +108,25 @@ description: Познакомьтесь с мультиплеером GTA IV!
     * В окне Настройки - Настройки игры, установите путь к вашей установке GTA IV. Вы также можете выставить другие настройки по желанию.
 ???+ tip "Вход на сервера"
     После завершения настройки достаточно дважды щелкнуть на любом сервере в списке. Появится главное меню игры - просто нажмите Играть.
-??? tip "Создание сервера"
-    !!! warning ""
-        Выполняйте все эти действия только в том случае, если у вас есть опыт работы с серверами.
-    * Скачайте последнюю версию сервера с сайта [GTA Connected](https://gtaconnected.com/downloads/).
-    * Распакуйте `GTAC-Server-Winxx-x.x.x.zip` в папку на выбор.
-    * Настройте :material-file-cog:`server.xml` как необходимо. Используйте [эту страницу](https://wiki.gtaconnected.com/ServerConfiguration) для инструкций.
-    * Запустите :material-file:`Server.exe` или :material-file:`Server` если ваш сервер на Linux.
+
+[:material-web: Сайт GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: Сервер GTAConnected в Discord](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
+
+## HappinessMP
+!!! warning "Совместимость"
+    Этот клиент совместим только с Complete Edition и не поддерживает никаких модов - даже Ultimate ASI Loader.
+Этот клиент отчасти похож на GTA Connected, так как вы можете хостить свои сервера со своими скриптами, но метит он на совместимость с Complete Edition и Social Club, а не 1.0.8.0/1.0.7.0. На данный момент там также нету оффициальных режимов от Rockstar.
+### Использование
+???+ info "Установка"
+    * Перейдите на вебсайт [HappinessMP](https://happinessmp.net/).
+    * Нажмите на ==Download==.
+    * Установите :material-file-download:`HappinessMP.exe`.
+???+ tip "Игра"
+    Установите ваш никнейм и кнопку для чата в настройках. После этого, просто нажмите на любой желаемый сервер - и вы в игре.
+
+[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary }
 
 ## Будущие клиенты
 Эти клиенты находятся в стадии разработки и пока недоступны для игры. Они получат свои собственные полноценные разделы, когда будут свободно доступны для игры. Поддержите их разработку, если можете!
-### HappinessMP
-Этот клиент призван обеспечить мультиплеер аналогичный [SA:MP](https://www.sa-mp.com/), а также поддержку оригинальных режимов игры, таких как Deathmatch. Для его работы потребуется Complete Edition и Social Club.
-
-[:simple-discord: Сервер HappinessMP в Discord](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary } [:material-web: Сайт HappinessMP](https://happinessmp.net/){ .md-button .md-button--primary }
 
 ### Liberty City Online
 Этот клиент также призван обеспечить мультиплеер аналогичный [SA:MP](https://www.sa-mp.com/), а также поддержку оригинальных режимов игры, таких как Deathmatch. Однако этот требует патчи 1.0.8.0 и 1.0.7.0.
