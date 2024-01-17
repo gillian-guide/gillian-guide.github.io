@@ -9,7 +9,7 @@ description: Если вы хотите поддержать всех людей
 [:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
 
 ## Jack Powell (GTA Connected)
-[:simple-patreon: Patreon](https://www.patreon.com/jack9267) { .md-button .md-button--primary }
+[:simple-patreon: Patreon](https://www.patreon.com/jack9267){ .md-button .md-button--primary }
 
 ## Я (Gillian)
 Я работал над этим руководством более 2 лет (включая время работы над Steam-версией) и буду очень признателен за любую поддержку! Каждый пожертвовавший *будет* упомянут на этой (или другой) странице. Не забывайте поддерживать и других моддеров!
