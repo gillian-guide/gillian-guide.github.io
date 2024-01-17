@@ -4,32 +4,50 @@ description: Это руководство было бы невозможно б
 # Авторы
 Это руководство было бы невозможно без всех этих замечательных людей!
 
-## Zolika1351
-За их работу над [ZolikaPatch](essential-modding/zolikapatch.md) и включенным даунгрейдером, [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) и других модов перечисленных в [модах](extras/mods.md), помощь другим моддерам, оказание легкой помощь в составлении руководства и многое другое!
-
 ## ThirteenAG
 За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md).
 
 ## Parallellines
-За их работу над [Fusion Shaders](essential-modding/fusionfix.md) и помощью с [Console Visuals](extras/mods.md) и [Various Fixes](extras/mods.md).
+За их работу над [Fusion Shaders](essential-modding/fusionfix.md) и помощью с [Various Fixes](extras/mods.md) и [Console Visuals](essential-modding/consolevisuals.md).
 
-## AssaultKnife47, RaphaelK12, robi29, \_CP_
+## AssaultKnife47, RaphaelK12, robi29.
 За прямую помощь в разработке [Fusion Shaders](essential-modding/fusionfix.md).
 
-## Fusion Team
-За их работу над [FusionFix](essential-modding/fusionfix.md), а также вклад во многие другие моды сообщества.
+## Attramet
+За их работу над [Various Fixes](essential-modding/variousfixes.md) и другими [модами](extras/mods.md).
+
+## \_CP_
+За прямую помощь в разработке [Fusion Shaders](essential-modding/fusionfix.md) и [Various Fixes](essential-modding/variousfixes.md).
+
+## Ash_735
+За их [моды](extra/mods.md) и прямую помощь в разработке [Various Fixes](essential-modding/variousfixes.md), а также большое количество исправлений текстур этой игры.
+
+## Valentyn_L, MikhailRock, vavrinko, Tomasak, brokensymmetry, Magic_Al, Philips_27, Olanov, Panzermann11
+За прямую помощь в разработке [Various Fixes](essential-modding/variousfixes.md) и других [модов](extras/mods.md).
+
+## Остальная часть Fusion Team
+За их работу над [FusionFix](essential-modding/fusionfix.md), [Console Visuals](essential-modding/consolevisuals.md) а также вклад во многие другие моды сообщества.
+
+## Zolika1351
+За их работу над [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](../extras/modloading/#iv-tweaker),  [ZMenuIV](../extras/trainers/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK на котором построен IV-SDK .NET и других модов перечисленных в [модах](extras/mods.md), помощь другим моддерам, оказание легкой помощь в составлении руководства и многое другое!
+
+## catsmackaroo
+За разработку [Liberty Tweaks](essential-modding/libertytweaks.md) и других модов в [модах](extras/mods.md).
 
 ## ItsClockAndre
-За их работу над [даунгрейдером](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
+За их работу над [даунгрейдером](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [Libety Tweaks](essential-modding/libertytweaks.md), [лаунчером](extras/launcher.md) и других модов перечисленных в [модах](extras/mods.md). У этого автора есть [ссылка на пожертвования](support.md).
 
-## Shvab, разработчики OpenIV, команда FiveM, и другие
-За их работу над инструментами для моддинга. Без них все эти моды были бы невозможны.
+## TheYoshiPunch
+За их работу над [Trilogy Characters Fixes](essential-modding/charactersfixes.md) и прямой помощи разработке [Various Fixes](essential-modding/variousfixes.md).
 
-## HazardX
-За их работу над [ScriptHook](../mod-dependencies/#scripthook).
+## (Japan) GTA Love
+За их оригинальную работу над [Trilogy Characters Fixes](essential-modding/charactersfixes.md).
 
 ## const96b
 За их работу над [Liberty's Legacy](../extras/trainers/#libertys-legacy).
+
+## Shvab, разработчики OpenIV, команда Cfx.re, aru, HazardX и другие
+За их работу над инструментами для моддинга. Без них все эти моды были бы невозможны.
 
 ## Разработчики клиентов для мультиплеера
 Всем, кто вносит свой вклад в создание многопользовательских клиентов, спасибо за то, что вы поддерживаете мультиплеер GTA IV! У разработчиков GTA Connected есть [ссылка на пожертвования](support.md).

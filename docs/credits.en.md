@@ -8,7 +8,7 @@ This guide wouldn't be possible without all these amazing people!
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
 
 ## Parallellines
-For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Console Visuals](essential-modding/consolevisuals.md) and [Various Fixes](essential-modding/variousfixes.md).
+For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Various Fixes](essential-modding/variousfixes.md) and [Console Visuals](essential-modding/consolevisuals.md).
 
 ## AssaultKnife47, RaphaelK12, robi29
 For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md).
@@ -19,11 +19,12 @@ For working on [Various Fixes](essential-modding/variousfixes.md) and many other
 ## \_CP_
 For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md) and [Various Fixes](essential-modding/variousfixes.md).
 
+## Ash_735
+For his [mods](extras/mods.md) and directly contributing to [Various Fixes](essential-modding/variousfixes.md) aswell as making a big contribution to fixing this game's textures.
+
+
 ## Valentyn_L, MikhailRock, vavrinko, Tomasak, brokensymmetry, Magic_Al, Philips_27, Olanov, Panzermann11
 For directly contributing to [Various Fixes](essential-modding/variousfixes.md) and other [mods](extras/mods.md).
-
-## Ash_735
-For directly contributing to [Various Fixes](essential-modding/variousfixes.md) and his [mods](extras/mods.md) aswell as making a big contributing to fixing this game's textures.
 
 ## The rest of Fusion Team
 For their work on [FusionFix](essential-modding/fusionfix.md) and [Console Visuals](essential-modding/consolevisuals.md) aswell as contributing to a lot of other mods in the community.
