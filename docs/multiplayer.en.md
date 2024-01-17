@@ -2,11 +2,11 @@ title: Multiplayer
 description: Experience GTA IV Multiplayer!
 
 # Multiplayer
-GTA IV had an amazing multiplayer... and it still does! At least for people who [downgrade](downgrading.md), as Rockstar Games has removed the multiplayer from the Complete Edition. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
+GTA IV had an amazing multiplayer... and it still does! Rockstar Games has removed the multiplayer from the Complete Edition, but there's HappinessMP for CE, and you can always [downgrade](downgrading.md) to have the original experience. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
 !!! warning ""
-    Current multiplayer methods require [downgrading](downgrading.md).
+    Most multiplayer methods require [downgrading](downgrading.md).
 
-    It's extremely recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`. [ItsClockAndre's Downgrader](downgrading.md) already takes care of that if you chose to configure your install for GFWL.
+    It's recommended to have [ZolikaPatch](essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`.
 
     Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
 
@@ -18,7 +18,7 @@ GTA IV had an amazing multiplayer... and it still does! At least for people who 
 
 ## Games for Windows - LIVE
 !!! note ""
-    This section also includes steps to configure GFWL for non-mulitplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
+    This section also includes steps to configure GFWL for non-multiplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
 !!! warning "Compatibility"
     This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](downgrading.md) if using the Complete Edition.
 The classic multiplayer method, the one that started it all. And the one that is obnoxiously annoying to set up. Most communities stick to it at the moment.
@@ -129,6 +129,11 @@ This client is somewhat similar to GTA Connected in essence, as you can host you
 
 ## Upcoming clients
 These clients are currently in development and are not available for play yet. They'll receive their own full-fledged sections when they're freely available for play. Support their development if you can!
+
+### XLiveLessNess
+This project aims to be a replacement for GFWL. It technically works, but at the same time I couldn't get a lobby with more than just two players working with it just yet. Download the release, drop the files to the game folder, press HOME in-game, set your nickname, check the checkmarks and set the broadcast address to `glitchyscripts.com:1100`. Use the LAN function in-game instead of LIVE.
+
+[:material-gitlab: GitLab](https://gitlab.com/GlitchyScripts/xlivelessness){ .md-button .md-button--primary }
 
 ### Liberty City Online
 This client also aims to provide a highly flexible multiplayer experience, similar to [SA:MP](https://www.sa-mp.com/), along with support for original game modes such as Deathmatch. However, it will require the 1.0.8.0 and 1.0.7.0 patches instead.
