@@ -65,7 +65,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [GTA Online QUB3D Background](https://zolika1351.pages.dev/mods/ivqub3d) | Zolika1351 | Ports the QUB3D background from GTA V. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Traffic Cops: Back in the Tollbooths](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/) | Olanov | Simple script mod that replaces the tollbooth cop peds with traffic cops. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence. |
-| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | by GladiTek | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871) | Ash_735 | Replaces radio logos textures with higher resolutions ones. |
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
 

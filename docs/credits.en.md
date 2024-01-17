@@ -4,32 +4,50 @@ description: This guide wouldn't be possible without all these amazing people!
 # Credits
 This guide wouldn't be possible without all these amazing people!
 
-## Zolika1351
-For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [ported FusionFix](essential-modding/fusionfix.md), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements) and other mods listed in [mods](extras/mods.md), helping other modders, light assist with the guide and more!
-
 ## ThirteenAG
 For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
 
 ## Parallellines
-For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Console Visuals](extras/mods.md) and [Various Fixes](extras/mods.md).
+For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Console Visuals](essential-modding/consolevisuals.md) and [Various Fixes](essential-modding/variousfixes.md).
 
-## AssaultKnife47, RaphaelK12, robi29, \_CP_
+## AssaultKnife47, RaphaelK12, robi29
 For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md).
 
-## Fusion Team
-For their work on [FusionFix](essential-modding/fusionfix.md), aswell as contributing to a lot of other mods in the community.
+## Attramet
+For working on [Various Fixes](essential-modding/variousfixes.md) and many other [mods](extras/mods.md).
+
+## \_CP_
+For directly contributing to [Fusion Shaders](essential-modding/fusionfix.md) and [Various Fixes](essential-modding/variousfixes.md).
+
+## Valentyn_L, MikhailRock, vavrinko, Tomasak, brokensymmetry, Magic_Al, Philips_27, Olanov, Panzermann11
+For directly contributing to [Various Fixes](essential-modding/variousfixes.md) and other [mods](extras/mods.md).
+
+## Ash_735
+For directly contributing to [Various Fixes](essential-modding/variousfixes.md) and his [mods](extras/mods.md) aswell as making a big contributing to fixing this game's textures.
+
+## The rest of Fusion Team
+For their work on [FusionFix](essential-modding/fusionfix.md) and [Console Visuals](essential-modding/consolevisuals.md) aswell as contributing to a lot of other mods in the community.
+
+## Zolika1351
+For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK which is what IV-SDK .NET is built off and other mods listed in [mods](extras/mods.md), helping other modders, light assist with the guide and more!
+
+## catsmackaroo
+For making [Liberty Tweaks](essential-modding/libertytweaks.md) and other mods in [mods](extras/mods.md).
 
 ## ItsClockAndre
-For their work on the [Downgrader Tool](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [IV Tweaker](../extras/modloading/#iv-tweaker), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
+For their work on the [Downgrader Tool](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [Libety Tweaks](essential-modding/libertytweaks.md), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
 
-## Shvab, OpenIV developers, FiveM team, and more
-For their work on modding tools. All those mods wouldn't be possible without them.
+## TheYoshiPunch
+For their work on [Trilogy Characters Fixes](essential-modding/charactersfixes.md) and contributing to [Various Fixes](essential-modding/variousfixes.md).
 
-## HazardX
-For their work on [ScriptHook](../mod-dependencies/#scripthook).
+## (Japan) GTA Love
+For their original work on [Trilogy Characters Fixes](essential-modding/charactersfixes.md).
 
 ## const96b
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
+
+## Shvab, OpenIV developers, Cfx.re team, aru, HazardX and more
+For their work on modding tools. All those mods wouldn't be possible without them.
 
 ## Multiplayer clients developers
 Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive! The GTA Connected developers have a [donation link](support.md).
