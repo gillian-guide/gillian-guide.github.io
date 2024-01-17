@@ -6,6 +6,9 @@ description: Один из неплохих желаемых модов для �
     Этот мод работает с любой версией которая совместима с [FusionFix](fusionfix.md).
 Этот проект направлен на портирование консольного визуала на ПК.
 
+## Демонстрация { data-search-exclude }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuXVYUGJ45Y?si=gjuLgquNDoHyJeLq&amp;start=394" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Установка { data-search-exclude }
 * Убедитесь, что у вас установлен [FusionFix](fusionfix.md).
 * Скачайте последнюю версию нажав на `Download` в [теме на GTAForums](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/).

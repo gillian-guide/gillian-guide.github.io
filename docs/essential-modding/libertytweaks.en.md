@@ -6,6 +6,11 @@ description: One of the nice mods to have for your GTA IV install that improves 
     This mod only supports 1.0.7.0/1.0.8.0 at the moment, but Complete Edition support is considered.
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums thread](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
+## Showcase { data-search-exclude }
+![Liberty Tweaks - Overtaking fix](https://media.giphy.com/media/612lWEiuUnPgn6KD98/giphy.gif) ![Liberty Tweaks - Brake Lights Fix](https://media.giphy.com/media/3IOojdksuttI94tytB/giphy.gif)
+
+![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif) ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif)
+
 ## Installation { data-search-exclude }
 * Install [IV-SDK .NET and Clonk's Coding Library](../../mod-dependencies/#iv-sdk-net).
 * In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.

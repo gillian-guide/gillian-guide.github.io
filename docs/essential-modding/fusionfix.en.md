@@ -9,6 +9,9 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
 ???+ info "Shader Fixes"
     This project aims to fix and restore broken and missing shaders on the PC port (everything from [here](https://libertycity-ru.translate.goog/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=pt-BR) and more). You can read the changelog [here](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
 
+## Showcase { data-search-exclude }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuXVYUGJ45Y?si=gjuLgquNDoHyJeLq&amp;start=132" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Installation { data-search-exclude }
 === "1.0.8.0"
     !!! warning "Compatibility"

@@ -50,6 +50,9 @@ For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 ## Shvab, OpenIV developers, Cfx.re team, aru, HazardX and more
 For their work on modding tools. All those mods wouldn't be possible without them.
 
+## TJGM
+For making useful and up-to-date guides on YouTube, which are used for showcasing on some pages.
+
 ## Multiplayer clients developers
 Anyone who's contributing to the multiplayer clients - thank you for keeping GTA IV multiplayer alive! The GTA Connected developers have a [donation link](support.md).
 

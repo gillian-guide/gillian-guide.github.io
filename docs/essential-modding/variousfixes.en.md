@@ -4,7 +4,9 @@ description: One of the must-have mods for your GTA IV install that fixes a lot 
 # Various Fixes
 !!! warning "Compatibility"
     This mod can work with any patch.
-This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums thread](https://gtaforums.com/topic/975211-various-fixes/).
+This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums thread](https://gtaforums.com/topic/975211-various-fixes/) - it's large.
+
+![Various Fixes](https://imgur.com/lW6AEQU.png)
 
 ## Installation { data-search-exclude }
 * Make sure you have [FusionFix](fusionfix.md) installed.

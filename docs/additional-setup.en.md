@@ -78,11 +78,11 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 ## Optimal Game Settings
 ![GTA IV Settings](assets/gta4settings.jpg){: style="height:25%;width:25%"; align=right}
 !!! note ""
-    These settings are optimal for most people. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to increase them, but don't blame me for the issues.
+    These settings are optimal for mid-end hardware. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to increase them, but don't blame me for the issues.
 
 ??? info "Console Settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
-| Setting | Optimal Setting | Console Setting | Description | 
+| Setting | Optimal Setting | Console Setting | Description |
 | :-----: | :-------------: | :-----------: | :---------: |
 | Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
 | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
@@ -98,7 +98,7 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 | Definition | On | Off | ==Skip this if you're using [FusionFix](essential-modding/fusionfix.md).==<br>This setting controls depth of field and motion blur - however, it is also known to cause problems with blurred image on PC and effects that simply do not scale up in resolution - due to that, either keep this option On and lose the effects or install [FusionFix](essential-modding/fusionfix.md) and see the next options instead. Can be quickly toggled by pressing ++p++ button.</br> |
 | VSync | Off | On | This setting controls the vertical synchronization. ==We'll use the one bundled with [DXVK](optimization.md) instead, as it has much better framepacing.== |
 | Shadow Filter | Preference | ? | This setting softens the shadows. PCSS makes them behave more alike to real-life shadows, but can tank your performance. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Console Shadows | On | On | This setting makes shadows behave more console-like - you'll lose the car headlight shadows, but instead the car will have shadows under in-direct light sources (such as light poles). <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
+| Console Shadows | Preference | On | This setting makes shadows behave more console-like - you'll lose the car headlight shadows, but instead the car will have shadows under in-direct light sources (such as light poles). <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | Antialiasing | SMAA | SSAA 2x on Xbox 360; QAA on PlayStation 3 | This setting controls various methods of anti-aliasing. You can also enable SSAA 2x in `Settings` - `Game`, but keep in mind that it would tank performance in the same way doubling your resolution would.<br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | FPS Limiter | 60 | 30 | This setting changes the FPS limit. Recommended to set to 60 to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues), although not necessary and the story can be beaten above 60. <br>==Only available when using [FusionFix](essential-modding/fusionfix.md).==</br> |
 | Motion Blur | Preference | On | This setting controls the motion blur effect. <br>==Only available in `Settings` - `Display` when using [FusionFix](essential-modding/fusionfix.md).==</br> |

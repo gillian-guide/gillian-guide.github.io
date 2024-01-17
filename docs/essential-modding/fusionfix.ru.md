@@ -9,6 +9,9 @@ description: Один из важных модов для вашей устан�
 ???+ info "Shader Fixes"
     Этот проект направлен на исправление и восстановление сломанных и отсутствующих шейдеров на PC-порте (все [отсюда](https://uk.libertycity.net/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html) и даже больше). Вы можете прочитать список изменений [здесь](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
 
+## Демонстрация { data-search-exclude }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuXVYUGJ45Y?si=gjuLgquNDoHyJeLq&amp;start=132" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Установка { data-search-exclude }
 === "1.0.8.0"
     !!! warning "Совместимость"

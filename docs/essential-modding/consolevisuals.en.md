@@ -6,6 +6,9 @@ description: One of the nice mods to have for your GTA IV install that brings th
     This mod can work with any patch that works with [FusionFix](fusionfix.md).
 This project aims port console visuals to the PC version.
 
+## Showcase { data-search-exclude }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UuXVYUGJ45Y?si=gjuLgquNDoHyJeLq&amp;start=394" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Installation { data-search-exclude }
 * Make sure you have [FusionFix](fusionfix.md) installed.
 * Download the latest release by pressing on the `Download` button on the [GTAForums thread](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/).
