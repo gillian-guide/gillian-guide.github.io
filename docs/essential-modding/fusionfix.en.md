@@ -20,8 +20,6 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     * Download the latest release.
     * Extract :material-zip-box:`GTAIV.EFLC.FusionFix.zip` into the game folder.
     * Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` if downgraded and not using GFWL. Replace if needed.
-    !!! tip ""
-        You can move files from the :material-folder:==plugins== to the game folder for convenience.
     !!! warning "If using ZolikaPatch..."
         Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
