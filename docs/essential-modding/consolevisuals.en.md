@@ -14,4 +14,4 @@ This project aims port console visuals to the PC version.
 * Download the latest release by pressing on the `Download` button on the [GTAForums thread](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/).
 * Go to the `CE (Automatic installation...)` folder and pick the addons you want to have. Extract the contents of the desired folders into the game folder.
 
-[:material-page-first:Previous page <br>Trilogy Characters Fixes</br>](charactersfixes.md){ .md-button } [Next page:material-page-last: <br>Multiplayer</br>](../multiplayer.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Trilogy Characters Fixes</br>](charactersfixes.md){ .md-button } [Next page:material-page-last: <br>Project2DFX</br>](project2dfx.md){ .md-button .md-button--primary }

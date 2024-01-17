@@ -5,7 +5,7 @@ description: This guide wouldn't be possible without all these amazing people!
 This guide wouldn't be possible without all these amazing people!
 
 ## ThirteenAG
-For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods.md).
+For their work on [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader), [Project2DFX](essential-modding/project2dfx.md) and other mods listed in [mods](extras/mods.md).
 
 ## Parallellines
 For their work on [Fusion Shaders](essential-modding/fusionfix.md) and contributing to [Various Fixes](essential-modding/variousfixes.md) and [Console Visuals](essential-modding/consolevisuals.md).

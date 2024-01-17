@@ -5,7 +5,7 @@ description: Это руководство было бы невозможно б
 Это руководство было бы невозможно без всех этих замечательных людей!
 
 ## ThirteenAG
-За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) и других модов перечисленных в [модах](extras/mods.md).
+За их работу над [FusionFix](essential-modding/fusionfix.md), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader), [Project2DFX](essential-modding/project2dfx.md) и других модов перечисленных в [модах](extras/mods.md).
 
 ## Parallellines
 За их работу над [Fusion Shaders](essential-modding/fusionfix.md) и помощью с [Various Fixes](extras/mods.md) и [Console Visuals](essential-modding/consolevisuals.md).
