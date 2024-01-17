@@ -7,7 +7,10 @@ description: Один из неплохих желаемых модов для �
 Этот проект направлен на улучшение некоторых аспектов игры. Вы можете посмотреть функционал в [теме на GTAForums](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 ## Демонстрация { data-search-exclude }
-![Liberty Tweaks - Overtaking fix](https://media.giphy.com/media/612lWEiuUnPgn6KD98/giphy.gif){: style="height:50%;width:50%";} ![Liberty Tweaks - Brake Lights Fix](https://media.giphy.com/media/3IOojdksuttI94tytB/giphy.gif){: style="height:50%;width:50%";}
+![Liberty Tweaks - Overtaking fix](https://media.giphy.com/media/612lWEiuUnPgn6KD98/giphy.gif){: style="height:50%;width:50%"; align=left} ![Liberty Tweaks - Brake Lights Fix](https://media.giphy.com/media/3IOojdksuttI94tytB/giphy.gif){: style="height:50%;width:50%"; align=right}
+
+![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif){: style="height:50%;width:50%"; align=left} ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif){: style="height:50%;width:50%"; align=right}
+
 
 ![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif){: style="height:50%;width:50%";} ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif){: style="height:50%;width:50%";}
 ## Установка { data-search-exclude }
