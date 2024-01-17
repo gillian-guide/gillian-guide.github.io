@@ -18,6 +18,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 !!! warning "Performance"
 	**This archive does NOT provide best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. Feel free to play with the graphics settings, however - following options increase the performance impact:**
+
     - SSAA 2x
     - Shadow Filter (PCSS)
     - Shadow Quality

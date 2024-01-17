@@ -43,6 +43,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
 
     Try lowering the graphics settings, specifically:
+
     - SSAA 2x
     - Shadow Filter (PCSS)
     - Shadow Quality
