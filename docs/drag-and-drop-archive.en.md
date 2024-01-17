@@ -50,7 +50,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		In addition, I will not support any additional modifications to the files other than the instructions already listed.
 	???+ info "Updating"
-		If you're updating after installing the archive instead, delete :material-folder:==update== and :material-folder:==modloader== from the game folder first.
+		If you're updating after installing the archive instead, delete :material-folder:==update== and :material-folder:==modloader== (if exists) from the game folder first.
 	??? warning "My game doesn't boot"
 		Install :material-file-download:`vcredist_x86.exe` from the :material-folder:==Redist==.
 
@@ -60,7 +60,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	??? warning "My game is behaving strangely | My game is crashing randomly"
 		See [troubleshooting](troubleshooting.md).
 
-		Disable mods one by one to see the culprit by editing :material-file-edit:`modloader.ini` in :material-folder:==modloader== or deleting mods in :material-folder:==update==.
+		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==.
 
 === "1.2.0.59"
 	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[13.01.2024](#changelog)**
@@ -173,7 +173,7 @@ These mods are not included by default, but do not require any additional steps 
 	| [HQ Map by Alkimical](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract into the game folder.</br> |
 	| [Aura by catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori](https://gtaforums.com/topic/989259-aura/) | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract into :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |
-	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/19VffQ6h_6NKR1k6CLDV610DDei7RwK_5/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
+	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
 	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a faster and more intuitive one - however, it can be uncomfortable for some people and it also ==unlocks all clothing in the game from the start==.<br>Installation: Extract :material-file:`WardrobeMod.asi` into the game folder.</br> |
 	| [IV-Presence by ItsClockAndre](https://gtaforums.com/topic/975850-iv-presence/) | Adds a Discord Rich Presence.<br>Installation: From the archive, extract :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` from :material-folder:==For GTA IV 1070 and 1080== into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br>|
 
