@@ -11,10 +11,12 @@ This project improves distant lights at night.
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
+    * Make sure you have [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) installed.
     * Download the [v4.3 release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/download/v0.0/IV.Project2DFXv4.3.zip).
     * Extract :material-zip-box:`IV.Project2DFXv4.3` into the game folder or the :material-folder:==plugins==.
     * Edit :material-file-cog:`IVLodLights.ini` if you're not fully satisfied.
 === "1.2.0.59"
+    * Make sure you have [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) installed.
     * Go to the [Release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) page.
     * Download :material-zip-box:`IV.Project2DFX.zip`.
     * Extract :material-zip-box:`IV.Project2DFX.zip` into the game folder or the :material-folder:==plugins==.
