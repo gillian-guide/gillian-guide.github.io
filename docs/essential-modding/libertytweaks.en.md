@@ -7,9 +7,11 @@ description: One of the nice mods to have for your GTA IV install that improves 
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums thread](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 ## Showcase { data-search-exclude }
-![Liberty Tweaks - Overtaking fix](https://media.giphy.com/media/612lWEiuUnPgn6KD98/giphy.gif){: style="height:50%;width:50%"; align=left} ![Liberty Tweaks - Brake Lights Fix](https://media.giphy.com/media/3IOojdksuttI94tytB/giphy.gif){: style="height:50%;width:50%"; align=right}
+<iframe src="https://giphy.com/embed/612lWEiuUnPgn6KD98" width="50%" height="50%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/3IOojdksuttI94tytB" width="50%" height="50%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif){: style="height:50%;width:50%"; align=left} ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif){: style="height:50%;width:50%"; align=right}
+<iframe src="https://giphy.com/embed/9WkHpgdodMMkVwSxQK" width="50%" height="50%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/gJsHuySiJtuM4odkNF" width="50%" height="50%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Installation { data-search-exclude }
 * Install [IV-SDK .NET and Clonk's Coding Library](../../mod-dependencies/#iv-sdk-net).
