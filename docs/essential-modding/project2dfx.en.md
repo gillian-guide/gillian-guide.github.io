@@ -7,7 +7,8 @@ description: One of the nice mods to have for your GTA IV install that improves 
 This project improves distant lights at night.
 
 ## Showcase { data-search-exclude }
-![Project2DFX](https://cloud.githubusercontent.com/assets/4904157/17226189/d29cbfe2-5510-11e6-8283-44a50963d3db.jpeg)
+![Project2DFX - Extra Sunny](assets/project2dfxextrasunny.png){: style="height:40%;width:40%";}
+![Project2DFX - Sunny](assets/project2dfxsunny.png){: style="height:40%;width:40%";}
 
 ## Installation { data-search-exclude }
 === "1.0.8.0"
