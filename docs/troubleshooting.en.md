@@ -8,8 +8,6 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     I know about these issues, no need to report them to me, unless you know a solution.
 
     - After you get drunk, the lighting is flickering for some period.
-    - Broken LOD's on mission replays in TBoGT (did not attempt to reproduce).
-    - Broken LOD's during long gameplay periods; additionally, the game can get hardlocked when you try to start a mission in that state - temporary solution is to reload a save.
     - Cutscenes freeze the game if the game is out-of-focus for too long.
     - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
     - Taxi rides can occasionally crash the game on 1.0.8.0.
@@ -87,6 +85,9 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 ??? info "RMN60 error on launch"
     Occurs on downgraded versions. Install [ZolikaPatch](essential-modding/zolikapatch.md).
+
+??? info "Broken LOD's during long gameplay periods"
+    Tone down the amount of texture mods you're using - especially stuff like road textures and other things that are loaded all the time.
 
 ??? info "Game crashes immediately upon booting | Won't even boot"
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
