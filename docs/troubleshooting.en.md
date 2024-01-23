@@ -77,11 +77,10 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Asi Loader Error | Other Visual C++ issues"
     Install [prerequisites](index.md).
 
-??? info ":material-steam:Steam Achievements don't work after downgrading"
-    You have probably set up your install to be [GFWL](../multiplayer/#games-for-windows-live)-compatible - the script will not work in this case.
-
 ??? info "GFWL Achievements don't work"
     Remove :material-file:`SteamAchivements.asi` - it's either one or the other.
+
+    Also disable `TryToSkipAllErrors` and `VSyncFix` in :material-file-cog:`ZolikaPatch.ini`.
 
 ??? info "RMN60 error on launch"
     Occurs on downgraded versions. Install [ZolikaPatch](essential-modding/zolikapatch.md).
