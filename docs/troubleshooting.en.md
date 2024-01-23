@@ -77,7 +77,10 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Asi Loader Error | Other Visual C++ issues"
     Install [prerequisites](index.md).
 
-??? info "GFWL Achievements don't work"
+??? info ":material-steam:Steam achievements disappeared after downgrading"
+    Install [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
+
+??? info "GFWL achievements don't work"
     Remove :material-file:`SteamAchivements.asi` - it's either one or the other.
 
     Also disable `TryToSkipAllErrors` and `VSyncFix` in :material-file-cog:`ZolikaPatch.ini`.
