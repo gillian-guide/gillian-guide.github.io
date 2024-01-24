@@ -1,7 +1,7 @@
 title: FusionFix & Shader Fixes
 description: One of the must-have mods for your GTA IV install that fixes a lot of things graphics and physics related
 
-# FusionFix & Shader Fixes
+# [FusionFix & Shader Fixes](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 !!! warning "Compatibility"
     This mod is only officially supported on the Complete Edition, but with taking several things in account, you can also use it with the 1.0.8.0 and 1.0.7.0 patches.
 This project aims to fix or address some issues in Grand Theft Auto IV. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog). It also bundles [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) with toggles to many of it's options.

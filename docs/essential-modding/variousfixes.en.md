@@ -1,7 +1,7 @@
 title: Various Fixes
 description: One of the must-have mods for your GTA IV install that fixes a lot of map and texture issues
 
-# Various Fixes
+# [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
 !!! warning "Compatibility"
     This mod can work with any patch.
 This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums thread](https://gtaforums.com/topic/975211-various-fixes/) - it's large.

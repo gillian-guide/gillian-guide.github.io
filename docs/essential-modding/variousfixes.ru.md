@@ -1,7 +1,7 @@
 title: Various Fixes
 description: Один из важных модов для вашей установки GTA IV исправляющих множество проблем с картой и текстурами
 
-# Various Fixes
+# [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
 !!! warning "Совместимость"
     Этот мод работает со всеми версиями.
 Этот проект направлен на исправление или улучшение большого количества проблем с картой и текстурами. Вы можете посмотреть список изменений в [теме на GTAForums](https://gtaforums.com/topic/975211-various-fixes/) - он огромен.

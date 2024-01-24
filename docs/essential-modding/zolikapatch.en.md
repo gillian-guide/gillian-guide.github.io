@@ -1,7 +1,7 @@
 title: ZolikaPatch
 description: One of the must-have mods for your downgraded GTA IV install that fixes a lot of things physics, multiplayer and crashes
 
-# ZolikaPatch
+# [ZolikaPatch](https://zolika1351.pages.dev/mods/ivpatch)
 !!! warning "Compatibility"
     This mod is not compatible with the Complete Edition. Skip this page if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../multiplayer.md).
 

@@ -1,7 +1,7 @@
 title: Project2DFX
 description: One of the nice mods to have for your GTA IV install that improves distant lights at night
 
-# Project2DFX
+# [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 !!! warning "Compatibility"
     Latest version only supports Complete Edition, but there's an older version with support for 1.0.8.0/1.0.7.0.
 This project improves distant lights at night.

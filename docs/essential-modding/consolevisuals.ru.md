@@ -1,7 +1,7 @@
 title: Console Visuals
 description: Один из неплохих желаемых модов для вашей установки GTA IV который делает игру более похожей на консольную версию
 
-# Console Visuals
+# [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 !!! warning "Совместимость"
     Этот мод работает с любой версией которая совместима с [FusionFix](fusionfix.md).
 Этот проект направлен на портирование консольного визуала на ПК.

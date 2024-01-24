@@ -20,6 +20,7 @@ I've been working on this guide for way over 2 years (including the timespan I w
 
 ### Supporters
 These people made my life a tad bit easier with their contribution, which in total sums up to 7$ as of December 2023:
+
 - cammy
 - ShadowSorcery
 

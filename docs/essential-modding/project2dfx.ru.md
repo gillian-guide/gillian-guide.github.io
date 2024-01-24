@@ -1,7 +1,7 @@
 title: Project2DFX
 description: Один из неплохих желаемых модов для вашей установки GTA IV улучшающий дальнее освещение ночью
 
-# Project2DFX
+# [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 !!! warning "Совместимость"
     Последняя версия поддерживает только Complete Edition, но есть и старая версия с поддержкой 1.0.8.0/1.0.7.0.
 Этот мод улучшает дальнее освещение ночью.

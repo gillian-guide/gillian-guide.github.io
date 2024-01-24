@@ -7,7 +7,7 @@ A lot of mods require replacing internal files with [OpenIV](openiv.md). We can 
 ## What's the difference between them?
 While they are different in some ways, you can still use both if you're running 1.0.8.0 or 1.0.7.0. Fusion Overloader, for example, can cover what IV Tweaker doesn't support. Personally, I prefer loading in the `.img` mods via IV Tweaker for ease of configuration and any other files via Fusion Overloader.
 
-## Fusion Overloader
+## [Fusion Overloader](../essential-modding/fusionfix.md)
 !!! warning "Compatibility"
     Supports both the Complete Edition and 1.0.8.0/1.0.7.0 as long as the latest version of [FusionFix](../essential-modding/fusionfix.md) is installed.
 
@@ -63,7 +63,7 @@ This modloader is not as robust as IV Tweaker, but can replace all kinds of file
                         * :material-folder:==data==\
                             * :material-file:`WeaponInfo.xml`
 
-## IV Tweaker
+## [IV Tweaker](https://zolika1351.pages.dev/mods/ivtweaker)
 !!! warning "Compatibility"
     Supports 1.0.8.0 and 1.0.7.0 only. [Downgrade](../downgrading.md) if using the Complete Edition.
 This modloader has a few advantages, such as being able to inject more files than just `.img`'s while still having the originals intact. It also allows to increase limits.

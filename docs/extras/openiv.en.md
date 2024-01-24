@@ -1,11 +1,11 @@
 title: OpenIV
 description: Learn the basics to the powerful tool to mod GTA IV known as OpenIV!
 
-# OpenIV
+# [OpenIV](https://openiv.com/)
 OpenIV is a powerful tool for modifying, creating and extracting internal files. It can be used to create `.img` and `.rpf` files, which can be useful for [modloading](modloading.md) or mod creation. You may also, very rarely, come across mods packaged in `.oiv` - this tool allows you to install them as well.
 
 ## Installation { data-search-exclude }
-* Download the [installer](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/) (official website is down at the moment, this is a safe reupload; don't get scammed by the `.org` and the likes).
+* Download the [installer](https://openiv.com/).
 * Install :material-file-download:`OpenIVSetup.exe`.
 ## Usage
 * Open OpenIV.
@@ -22,7 +22,7 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
         This might be useful for you if you're making a mod or trying to pack a mod for a [modloader](modloading.md).
     Click `File` - `Create Archive` and choose the type of the archive you need. After that, choose the directory where you want to save the archive and add and modify the files as you wish - changes are automatically saved.
 
-# SparkIV
+# [SparkIV](https://github.com/ahmed605/SparkIV)
 ???+ "What's SparkIV?"
     SparkIV is an open source alternative to OpenIV. It's not as robust as OpenIV, but it does almost the same thing. I won't provide any usage or installation instructions, but feel free to [check it out yourself](https://github.com/ahmed605/SparkIV).
 

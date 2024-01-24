@@ -1,7 +1,7 @@
 title: Liberty Tweaks
 description: Один из неплохих желаемых модов для вашей установки GTA IV улучшающих несколько аспектов игры
 
-# Liberty Tweaks
+# [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/)
 !!! warning "Совместимость"
     Этот мод на данный момент поддерживает только 1.0.8.0/1.0.7.0, но поддержка Complete Edition в планах.
 Этот проект направлен на улучшение некоторых аспектов игры. Вы можете посмотреть функционал в [теме на GTAForums](https://gtaforums.com/topic/991160-liberty-tweaks/).

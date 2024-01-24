@@ -92,7 +92,7 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 
-## Grand Theft Auto Connected
+## [Grand Theft Auto Connected](https://gtaconnected.com/downloads/)
 !!! warning "Compatibility"
     This client is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
 
@@ -112,7 +112,7 @@ Second most popular multiplayer option, as it's the best way to experience GTA I
 
 [:material-web: GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
-## HappinessMP
+## [HappinessMP](https://happinessmp.net/)
 !!! warning "Compatibility"
     This client is only compatible with the Complete Edition and does not support any mods at the moment - even Ultimate ASI Loader.
 This client is somewhat similar to GTA Connected in essence, as you can host your own servers with your own scripts, but it aims to be compatible with the Complete Edition and requires Social Club to function rather than 1.0.8.0/1.0.7.0. It also lacks any of the official Rockstar gamemodes.

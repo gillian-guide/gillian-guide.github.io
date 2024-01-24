@@ -1,7 +1,7 @@
 title: Liberty Tweaks
 description: One of the nice mods to have for your GTA IV install that improves various aspects of the game
 
-# Liberty Tweaks
+# [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/)
 !!! warning "Compatibility"
     This mod only supports 1.0.7.0/1.0.8.0 at the moment, but Complete Edition support is considered.
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums thread](https://gtaforums.com/topic/991160-liberty-tweaks/).

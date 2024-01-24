@@ -1,7 +1,7 @@
 title: Console Visuals
 description: One of the nice mods to have for your GTA IV install that brings the PC version closer to the console look
 
-# Console Visuals
+# [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 !!! warning "Compatibility"
     This mod can work with any patch that works with [FusionFix](fusionfix.md).
 This project aims port console visuals to the PC version.

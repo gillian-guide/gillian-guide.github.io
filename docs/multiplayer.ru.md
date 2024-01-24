@@ -91,7 +91,7 @@ description: Познакомьтесь с мультиплеером GTA IV!
     * UDP: `3074`, `80`, `88`
 
     Если вы не можете выполнить проброс портов, используйте вместо этого VPN-сервис. Я рекомендую [Mullvad VPN](https://mullvad.net/en) (мне за это не платят).
-## Grand Theft Auto Connected
+## [Grand Theft Auto Connected](https://gtaconnected.com/downloads/)
 !!! warning "Совместимость"
     Данный клиент совместим только с патчами 1.0.6.0, 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition.
 
@@ -111,7 +111,7 @@ description: Познакомьтесь с мультиплеером GTA IV!
 
 [:material-web: Сайт GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: Сервер GTAConnected в Discord](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
-## HappinessMP
+## [HappinessMP](https://happinessmp.net/)
 !!! warning "Совместимость"
     Этот клиент совместим только с Complete Edition и не поддерживает никаких модов - даже Ultimate ASI Loader.
 Этот клиент отчасти похож на GTA Connected, так как вы можете хостить свои сервера со своими скриптами, но метит он на совместимость с Complete Edition и Social Club, а не 1.0.8.0/1.0.7.0. На данный момент там также нету оффициальных режимов от Rockstar.

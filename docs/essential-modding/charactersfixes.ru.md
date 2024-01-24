@@ -1,7 +1,7 @@
 title: Trilogy Characters Fixes
 description: Один из неплохих желаемых модов для вашей установки GTA IV улучшающих соответствие персонажей между IV и EFLC
 
-# Trilogy Characters Fixes
+# [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)
 !!! warning "Совместимость"
     Этот мод может работать с любой версией. Однако количество замененных файлов может вызвать конфликты с другими модами, включая [FusionFix](fusionfix.md).
 Этот проект направлен на исправление несоответствий персонажей между GTA IV и EFLC. Вы можете посмотреть список изменений в [теме на GTAForums](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) - он довольно большой.

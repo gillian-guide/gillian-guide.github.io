@@ -2,8 +2,8 @@ title: Trainers
 description: Add extra features to your GTA IV experience - for whatever reason you may need them!
 
 # Trainers
-Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them.
-## ZMenuIV
+Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](../multiplayer.md), but make sure your server allows them first.
+## [ZMenuIV](https://zolika1351.pages.dev/mods/ivmenu)
 !!! warning "Compatibility"
     This trainer is not compatible with the Complete Edition. [Downgrade](../downgrading.md) if using the Complete Edition.
 The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod for streamers and fun. And... Goldsrc physics...? Bhopping is fun, I guess.
@@ -76,7 +76,7 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
             * ++i++++j++++k++++l++ for navigation. ++enter++ to accept, ++backslash++ to go back.
             * ++w++++a++++s++++d++ for horizontal airbreak control, ++space++ for going up and ++lshift++ for going down.
 
-## Liberty's Legacy
+## [Liberty's Legacy](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)
 !!! warning "Compatibility"
     This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
 This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing with the Complete Edition.
@@ -92,7 +92,7 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
     
     Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key you want to bind.
 
-## Simple Native Trainer
+## [Simple Native Trainer](https://gtaforums.com/topic/392973-ivrel-simple-trainer-for-gtaiv/)
 !!! warning "Compatibility"
     This trainer is compatible with all patches.
 This trainer is less robust than the other two, but.. some people would want it, I guess.

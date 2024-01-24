@@ -1,7 +1,7 @@
 title: FusionFix & Shader Fixes
 description: Один из важных модов для вашей установки GTA IV который исправляет множество проблем с графикой и физикой
 
-# FusionFix & Shader Fixes
+# [FusionFix & Shader Fixes](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 !!! warning "Совместимость"
     Этот мод официально поддерживает только Complete Edition, но учитывая некоторые вещи вы можете использовать его и с патчами 1.0.8.0 и 1.0.7.0.
 Данный проект направлен на исправление или устранение некоторых проблем в Grand Theft Auto IV. Вы можете прочитать список изменений [здесь](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). Также в состав входит [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) с переключателями для его опций.
