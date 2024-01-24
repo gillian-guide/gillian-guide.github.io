@@ -36,7 +36,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[13.01.2024](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[14.01.2024](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -63,7 +63,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[13.01.2024](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[14.01.2024](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -169,7 +169,8 @@ These mods are not included by default, but do not require any additional steps 
 	| :-: | :-----: |
 	| Liberty Tweaks options |`Improved AI` and `Remove Weapons on Death` have been disabled - you can toggle them back in :material-file-cog:`LibertyTweaks.ini` located in :material-folder:==IVSDKDotNet\scripts\\==. You can also tweak your FOV in there, aswell as change keybinds for quicksaving and holstering weapons (++f9++ and ++h++ by default) |
 	| [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Installation: Extract the desired parts into the game folder. Plugins will not work on 1.0.8.0.</br> |
-	[Enhanced Snow Mod Repack](https://drive.google.com/file/d/11PFXrFnvB8JEKVajseL2GIWRd6MdLBBy/view?usp=drive_link) | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled for Fusion Overloader with my own custom tweaks.<br>Installation: Backup :material-folder:==update==. Extract :material-folder:==update== to the game folder, replace files when prompted. Disable/remove FusionFix's `GTATrees.img`, Console Visuals' `FusionConsolevegetation.img` and road textures. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
+	| [AssaultKifle47's Snow Mod](https://github.com/akifle47/Snow/releases/latest) | A lightweight snow mod based on shaders rather than textures. |
+	| [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled as addons for AssaultKifle47's Snow Mod. |
 	| [HQ Map by Alkimical](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract into the game folder.</br> |
 	| [Aura by catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori](https://gtaforums.com/topic/989259-aura/) | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract into :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |

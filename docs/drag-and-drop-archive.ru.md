@@ -36,7 +36,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[13.01.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[14.01.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -63,7 +63,7 @@ description: Полноценный готовый архив для игры в
 		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[13.01.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[14.01.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -171,7 +171,8 @@ description: Полноценный готовый архив для игры в
 	| [Оффициальный руссификатор (текст) от 1C SoftClub](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link)| Установка: распаковываем в папку с игрой, в Settings - Display - Language смените язык на Русский. |
 	| Настройки Liberty Tweaks | `Improved AI`(Улучшенный ИИ) и `Remove Weapons on Death`(Удаление оружий при смерти) были отключены - их можно вернуть в :material-file-cog:`LibertyTweaks.ini`, расположенном в :material-folder:==IVSDKDotNet\scripts==. Там же можно настроить FOV, а также изменить привязки клавиш для быстрого сохранения и убирания оружия в кобуру (по умолчанию ++f9++ и ++h++). |
 	| [Аддоны Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Установка: Распакуйте нужные части в папку с игрой. Плагины не будут работать с 1.0.8.0.</br> |
-	[Enhanced Snow Mod Repack](https://drive.google.com/file/d/11PFXrFnvB8JEKVajseL2GIWRd6MdLBBy/view?usp=drive_link) | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) собранные для Fusion Overloader с личными твиками.<br>Установка: Создайте бэкап :material-folder:==update==. Распакуйте :material-folder:==update== в папку с игрой с заменой файлов. Отключите/удалите `GTATrees.img` от FusionFix, `FusionConsolevegetation.img` от Console Visuals и текстуры дорог. Поставьте Screen Filter на `TBoGT`. Не играйте в DLC.</br> |
+	| [AssaultKifle47's Snow Mod](https://github.com/akifle47/Snow/releases/latest) | Мод на снег небольшого размера использующий шейдеры, а не текстуры. |
+	| [Аддоны для Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) собраны в ввиде аддонов для AssaultKifle47's Snow Mod. |
 	| [HQ Map от Alkimical](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | Карта высокого разрешения для мониторов с разрешением 1440p и 4K (на мониторах с разрешением 1080p и ниже карта может выглядеть хуже). <br>Установка: Распакуйте в папку с игрой.</br> |
 	| [Aura от catsmackaroo, Nastyyaboi, ItsClockAndre и cubabori](https://gtaforums.com/topic/989259-aura/) | Графический мод, построенный на ванильном визуале.<br>Установка: Извлеките установленные файлы в :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc от pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Еще один Timecyc мод, построенный на ванильном визуале. <br>Установка: Извлеките :material-folder:==Main Files\\pc\\== в :material-folder:==update==. |
