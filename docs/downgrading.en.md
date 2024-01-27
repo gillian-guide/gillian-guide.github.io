@@ -11,7 +11,7 @@ Go through each big section to complete the downgrading or only [Downgrading the
 !!! info ""
 	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). ==The amount of supported mods is also more limited in this version - most mods made before 2020 are built for 1.0.8.0 and 1.0.7.0.==
 	2. 1.0.8.0 is the latest retail patch, with ZolikaPatch and multiplayer support. ==This version is best for mod compatibility.==
-    3. 1.0.4.0 is an older retail patch with full ENB compatibility, as well as old shadow algorithm - considered better by some of the community. A lot of things listed on the guide won't work with 1.0.4.0 however - and I don't provide support for it.
+    3. 1.0.4.0 is an older retail patch with full ENB compatibility, as well as old shadow algorithm - considered better by some of the community. A lot of things listed on the guide won't work with 1.0.4.0 however - and I don't provide support for it. ==On linux, if using NVIDIA and not using the NVK driver, you may experience some issues with this version or it's mods.==
 
 ### Which downgrader to choose?
 It depends vaguely on your goals. If you want something as simple as pressing two buttons - go with mine. If you want something more in-depth - go with ItsClockAndre's.

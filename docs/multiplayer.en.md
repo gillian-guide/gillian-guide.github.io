@@ -20,7 +20,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 !!! note ""
     This section also includes steps to configure GFWL for non-multiplayer use too, if you came here from other pages. Just skip the "Joining/Creating Lobbies" part.
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](downgrading.md) if using the Complete Edition.
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](downgrading.md) if using the Complete Edition. ==Wine does not implement support for GFWL, so this method is not possible on Linux.==
 The classic multiplayer method, the one that started it all. And the one that is obnoxiously annoying to set up. Most communities stick to it at the moment.
 
 ### Usage
