@@ -30,6 +30,19 @@ If you don't want to manually mod your game, you can choose an archive depending
     - Reflection Quality
     - Console Shadows
 
+!!! tip "Recommended requirements"
+	Your PC must meet these requirements to be able to enjoy this archive in it's entirety, utilizing the optimal settings and playing at **1080p60** with minimal framepacing issues:
+
+	| Hardware | Recommended          | Alternative           |
+	| :------: | :------------------: | :-------------------: |
+	| OS       | Windows 10/11        | Linux                 |
+	| CPU      | Intel Core i5-6600k  | Ryzen 3 2200G         |
+	| GPU      | GTX 980/1060         | RX580, Intel Arc A310 |
+	| RAM      | 8GB                  |                       |
+	| Storage  | 30GB                 |                       |
+
+	If your PC does not meet these requirements, you may have to lower your graphics settings and have a subpar experience - worst case scenario, you'll be stuck with poor performance.
+
 !!! warning "Notice"
     This section does not reflect my personal views on importance of the mods or my stance towards modders. I'm merely attempting to include the best and compatible, issue-free vanilla-friendly mods.
 
@@ -44,7 +57,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		If you are using the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version, do not start the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced.
 
-		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-file:`IVSDKDotNet` as DotNet does not work on latest Proton.
+		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-file:`IVSDKDotNet` as DotNet does not work on latest Proton. ==If using NVIDIA and not using the NVK driver, install the 1.2 archive instead.==
 
 		Other installation methods are not supported.
 
