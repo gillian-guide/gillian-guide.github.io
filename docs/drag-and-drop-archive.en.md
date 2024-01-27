@@ -5,6 +5,10 @@ description: A complete ready-to-play drag-and-drop archive for your desired GTA
 If you don't want to manually mod your game, you can choose an archive depending on the version you want - be it 1.2.0.59 or 1.0.8.0(a downgrader is included if you're using the [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version). You can compare the modlist between the versions [below](#modlist) - ==1.0.8.0 has a lot more notable improvements, keep that in mind==.
 
 ### Notes { data-search-exclude }
+
+!!! warning "Notice"
+    This section does not reflect my personal views on importance of the mods or my stance towards modders. I'm merely attempting to include the best and compatible, issue-free vanilla-friendly mods.
+
 !!! info ""
 	1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). ==The amount of supported mods is also much more limited in this version - most older mods are built for 1.0.8.0 and 1.0.7.0==.
 	2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) support and a lot more notable mods. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. ==This version is better for mod compatibility==.
@@ -14,9 +18,9 @@ If you don't want to manually mod your game, you can choose an archive depending
 	* Make sure you follow the [prerequisites](index.md) (except for required space).
 	* Make sure latest [drivers](../optimization/#drivers) are installed.
 	* Make sure the game folder is a completely clean, fresh installation with no leftovers (:material-steam:Steam does not remove leftovers).
-	* It is recommended that you start the game with a new save file after installing the archive, but you can continue to play on existing save files - you will just encounter minor issues (such as secondary objects being where they shouldn't be).
+	* It is recommended that you start the game with a new save file after installing the archive, but you can continue to play on existing save files - you may just encounter minor issues (such as secondary objects being where they shouldn't be).
 
-!!! warning "Performance"
+???+ warning "Performance"
 	**This archive does NOT provide best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience. If you want the best performance - mod the game manually. Feel free to play with the graphics settings, however - following options increase the performance impact:**
 
     - SSAA 2x
@@ -30,7 +34,7 @@ If you don't want to manually mod your game, you can choose an archive depending
     - Reflection Quality
     - Console Shadows
 
-!!! tip "Recommended requirements"
+???+ tip "Recommended requirements"
 	Your PC must meet these requirements to be able to enjoy this archive in it's entirety, utilizing the optimal settings and playing at **1080p60** with minimal framepacing issues:
 
 	| Hardware | Recommended          | Alternative           |
@@ -42,9 +46,6 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| Storage  | 30GB                 |                       |
 
 	If your PC does not meet these requirements, you may have to lower your graphics settings and have a subpar experience - worst case scenario, you'll be stuck with poor performance.
-
-!!! warning "Notice"
-    This section does not reflect my personal views on importance of the mods or my stance towards modders. I'm merely attempting to include the best and compatible, issue-free vanilla-friendly mods.
 
 ## Installation { data-search-exclude }
 
