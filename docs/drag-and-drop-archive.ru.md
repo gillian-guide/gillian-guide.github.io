@@ -207,6 +207,7 @@ description: Полноценный готовый архив для игры в
 === "1.0.8.0"
 	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 28.01.2024 - Обновлен FusionFix.
 	* 14.01.2024 - Обновлен FusionFix.
 	* 13.01.2024 - Обновлен FusionFix. Исправлены проблемы с анимациями оружий. Исправлена проблема с шапками и очками в IV. Удалено больше дублированных файлов из Minor Mods. Отключено больше проблематичных настроек из ZolikaPatch.
 	* 04.01.2024 - Перепаковано большинство модов - это должно решить несколько проблем и создавать меньше ненужных изменений. Удален IV Tweaker в пользу Fusion Overloader - на один инжектор меньше, что, по идее, лучше для стабильности. Удален Improved Weapon Spec в пользу Higher Resolution Miscellaneous Pack. Обновлены Radio Downgrader, FusionFix, Various Fixes, More Visible Interiors, Restored Trees Position, Restored Pedestrians, Various Pedestrians Actions.
@@ -252,6 +253,7 @@ description: Полноценный готовый архив для игры в
 === "1.2.0.59"
   	Архив обновляется по мере обновлений модов, ниже приведен список его изменений:
 
+	* 28.01.2024 - Обновлен FusionFix.
 	* 14.01.2024 - Обновлен FusionFix.
 	* 13.01.2024 - Обновлен FusionFix. Исправлены проблемы с анимациями оружий. Исправлена проблема с шапками и очками в IV. Удалено больше дублированных файлов из Minor Mods.
 	* 04.01.2024 - Перепаковано большинство модов - это должно решить несколько проблем и создавать меньше ненужных изменений. Удален Improved Weapon Spec в пользу Higher Resolution Miscellaneous Pack. Добавлены Restored Pedestrians, Various Pedestrians Actions. Обновлены Radio Downgrader, FusionFix, Project2DFX, Xbox Rain Droplets, Various Fixes, More Visible Interiors, Restored Trees Position.

@@ -206,6 +206,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.0.8.0"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 28.01.2024 - Updated FusionFix.
 	* 14.01.2024 - Updated FusionFix.
 	* 13.01.2024 - Updated FusionFix. Fixed weapon animation issues. Fixed broken head wearables in base IV. Removed more duped files from Minor Mods. Disabled more problematic ZolikaPatch options.
 	* 04.01.2024 - Repackaged most mods - should solve a few issues and make less unnecessary changes. Retired IV Tweaker in favor of Fusion Overloader - one less injectable is, imo, better for the stability. Removed Improved Weapon Spec in favor of Higher Resolution Miscellaneous Pack. Updated Radio Downgrader, FusionFix, Various Fixes, More Visible Interiors, Restored Trees Position, Restored Pedestrians, Various Pedestrians Actions.
@@ -251,6 +252,7 @@ These mods are not included by default, but do not require any additional steps 
 === "1.2.0.59"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 28.01.2024 - Updated FusionFix.
 	* 14.01.2024 - Updated FusionFix.
 	* 13.01.2024 - Updated FusionFix. Fixed weapon animation issues. Fixed broken head wearables in base IV. Removed more duped files from Minor Mods.
 	* 04.01.2024 - Repackaged most mods - should solve a few issues and make less unnecessary changes. Removed Improved Weapon Spec in favor of Higher Resolution Miscellaneous Pack. Added Restored Pedestrians, Various Pedestrians Actions. Updated Radio Downgrader, FusionFix, Project2DFX, Xbox Rain Droplets, Various Fixes, More Visible Interiors, Restored Trees Position.
