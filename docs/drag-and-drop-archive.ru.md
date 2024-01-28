@@ -49,7 +49,7 @@ description: Полноценный готовый архив для игры в
 ## Установка { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[14.01.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[28.01.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -76,7 +76,7 @@ description: Полноценный готовый архив для игры в
 		Отключайте моды по одному, чтобы увидеть виновника, удаляя моды в :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[14.01.2023](#_6)**
+	[:material-download-circle: Скачать](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Последнее обновление: **[28.01.2023](#_6)**
 
 	Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder:==GTAIV==, а не :material-folder:==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
 	!!! warning "Предупреждения"
@@ -103,7 +103,7 @@ description: Полноценный готовый архив для игры в
 	| [ZolikaPatch IV~7.65~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
 	| [IV Tweaker~2.43~ от Zolika1351](https://zolika1351.pages.dev/mods/ivtweaker)| Выступает основным модлоадером в сборке, а также позволяет увеличить лимиты для других модов. |
 	| [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
-	| [FusionFix~2.4.8~ от ThirteenAG и других в команде Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
+	| [FusionFix~2.5.3~ от ThirteenAG и других в команде Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
 	| [Various Fixes~1.8.1~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Console Visuals~1.5~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Включен только Fusion Console Vegetation. См. Дополнительные моды для других аддонов.</br> |
 	| [Trilogy Characters Fixes от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/?do=findComment&comment=1072334770)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек. |
@@ -142,7 +142,7 @@ description: Полноценный готовый архив для игры в
 	| Мод | Описание |
 	| :-: | :------: |
 	| [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived)</br> |
-	| [FusionFix~2.4.8~ от ThirteenAG и других в команде Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и .</br> |
+	| [FusionFix~2.5.3~ от ThirteenAG и других в команде Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Главный мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader)<br>Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и .</br> |
 	| [Various Fixes~1.8.1~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 	| [Console Visuals~1.5~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Включены только Fusion Console Vegetation и Console Select Menu. См. Дополнительные моды для других аддонов.</br> |
 	| [Trilogy Characters Fixes от TheYoshiPunch, (Japan) GTA Love, DizCo12, JohnnyK NeverDie и других](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/?do=findComment&comment=1072334770)| Крупный сборник фиксов для несостыковок между появлениями персонажей в IV и EFLC - плюс, несколько фиксов просто для моделек. |

@@ -50,7 +50,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[14.01.2024](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[28.01.2024](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -77,7 +77,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 		Disable mods one by one to see the culprit by deleting mods in :material-folder:==update==.
 
 === "1.2.0.59"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[14.01.2024](#changelog)**
+	[:material-download-circle: Download](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[28.01.2024](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). ==After installation, launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -103,7 +103,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived)</br> |
 	| [ZolikaPatch IV~7.65~ by Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| First main mod in the pack: adds a lot of fixes and improvements - and the game won't boot without it. |
 	| [Steam Achievements~v2~ by Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Allows you to get :material-steam:Steam achievements on older patches. |
-	| [FusionFix~2.4.8~ by ThirteenAG and Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods. |
+	| [FusionFix~2.5.3~ by ThirteenAG and Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Second main mod in the pack: it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods. |
 	| [Various Fixes~1.8.1~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Console Visuals~1.5~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Only Fusion Console Vegetation is included. See Additional Mods for more.</br> |
 	| [Trilogy Characters Fixes by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/?do=findComment&comment=1072334770)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves. |
@@ -142,7 +142,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| Mod | Details |
 	| :-: | :-----: |
 	| [Radio Downgrader by Tomasak and others](http://downgraders.rockstarvision.com/)| A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived)</br> |
-	| [FusionFix~2.4.8~ by ThirteenAG and everybody else in the Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods.</br> |
+	| [FusionFix~2.5.3~ by ThirteenAG and everybody else in the Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| The main mod of the pack, it contains a lot of fixes, improvements, new settings and also acts as a modloader together with [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).<br>Includes [Shader Fixes Collection by Parallellines0451 and others](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) and a couple of other mods.</br> |
 	| [Various Fixes~1.8.1~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Console Visuals~1.5~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Only Fusion Console Vegetation and Console Select Menu are included. See Additional Mods for more.</br> |
 	| [Trilogy Characters Fixes~2023-07-28~ by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/?do=findComment&comment=1072334770)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves. |
