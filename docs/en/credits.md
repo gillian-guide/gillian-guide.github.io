@@ -33,7 +33,7 @@ For their work on [FusionFix](essential-modding/fusionfix.md) and [Console Visua
 For their work on [ZolikaPatch](essential-modding/zolikapatch.md), [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK which is what IV-SDK .NET is built off and other mods listed in [mods](extras/mods.md), helping other modders, light assist with the guide and more!
 
 ## catsmackaroo
-For making [Liberty Tweaks](essential-modding/libertytweaks.md) and other mods in [mods](extras/mods.md).
+For making [Liberty Tweaks](essential-modding/libertytweaks.md) and other [mods](extras/mods.md).
 
 ## ItsClockAndre
 For their work on the [Downgrader Tool](downgrading.md), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [Libety Tweaks](essential-modding/libertytweaks.md), [Launcher](extras/launcher.md) and other mods listed in [mods](extras/mods.md). This author has a [donation link](support.md).
