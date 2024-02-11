@@ -126,9 +126,6 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/gillian-guide/gillian-guide.github.io/
-      name: Contribute
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zwmsQqExbQ
       name: My Discord server
