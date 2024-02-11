@@ -1,6 +1,11 @@
 site_name: Gillian's GTA IV Modding Guide
 site_url: https://gillian-guide.github.io/
-copyright: Copyright &copy; 2023. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. You can contribute - press the GitHub button to the right.
+copyright: >
+  Copyright &copy; 2021 - 2024 Gillian. This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive.
+  <a href="#__consent">Change cookie settings</a>
+repo_url: https://github.com/gillian-guide/gillian-guide.github.io
+repo_name: gillian-guide/gillian-guide.github.io
+edit_uri: edit/main/docs/
 
 plugins:
   - i18n:
@@ -17,31 +22,43 @@ plugins:
           name: Русский
       reconfigure_material: true
       reconfigure_search: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-authors
   - search
   - glightbox
   - social
-        
+  - privacy
+
 theme:
   name: material
   palette:
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-auto
         name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
   logo: assets/logo-horizontal.webp
   favicon: assets/iv-logo-favicon.webp
+  icon:
+    repo: fontawesome/brands/github
   features:
     - toc.integrate
     - navigation.expand
@@ -50,8 +67,11 @@ theme:
     - content.tabs.link
     - content.tooltips
     - content.code.copy
-    - content.code.annotate 
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
     - search.share
+    - content.action.edit
 
 markdown_extensions:
   - toc:
@@ -117,7 +137,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gillian-guide/gillian-guide.github.io/
-      name: Contribute to the guide
+      name: Contribute
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zwmsQqExbQ
       name: My Discord server
@@ -126,8 +146,7 @@ extra:
     property: G-RSQFR3F839
   consent:
     title: Cookie consent
-    description: >- 
-      I use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of my guide and whether users
-      find what they're searching for. With your consent, you're helping me to
-      make my guide better.
+    description: >-
+      This site uses cookies for Google Analytics,
+      which are used to recognize your repeated visits and preferences.
+      They are not mandatory and you can disable it if you wish so.

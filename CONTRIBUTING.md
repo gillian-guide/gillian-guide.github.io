@@ -44,7 +44,7 @@ For clarity, adhere to the default [markdown rules](https://github.com/markdownl
 - When including an emoji in a title, you might encounter the [MD051 - Link fragments should be valid](https://github.com/DavidAnson/markdownlint/blob/main/doc/md051.md#md051---link-fragments-should-be-valid) error. To resolve this, simply exclude the emoji from your link. For example: `#-my-car` would target `🚗 My Car`.
 
 Furthermore, this project also uses [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n/) for multi-language support. All the suggested changes must include a Russian version of the page alongside the English one (by creating `file.en.md` and a `file.ru.md` together). If you're unable to translate the page yourself, create a Draft Pull Request and request for somebody else to translate your page.
-- If you wish to add a new language, translate *all* the `markdown` files and follow the documentation on the i18n repository. However, please, before that, create a Pull Request converting the suffix docs structure to the [folder docs structure](https://ultrabug.github.io/mkdocs-static-i18n/getting-started/quick-start/#the-folder-docs-structure).
+- If you wish to add a new language, create a new folder with your language code, copy the files from the other folders, translate *all* the `markdown` files and follow the documentation on the i18n repository.
 
 ## 🌍 Pull Request Process
 
