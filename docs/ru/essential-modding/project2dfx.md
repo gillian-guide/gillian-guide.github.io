@@ -7,8 +7,8 @@ description: Один из неплохих желаемых модов для �
 Этот мод улучшает дальнее освещение ночью.
 
 ## Демонстрация { data-search-exclude }
-![Project2DFX - Extra Sunny](assets/project2dfxextrasunny.png){: style="height:40%;width:40%";}
-![Project2DFX - Sunny](assets/project2dfxsunny.png){: style="height:40%;width:40%";}
+![Project2DFX - Extra Sunny](../../assets/project2dfxextrasunny.webp){: style="height:40%;width:40%";}
+![Project2DFX - Sunny](../../assets/project2dfxsunny.webp){: style="height:40%;width:40%";}
 
 ## Установите { data-search-exclude }
 === "1.0.8.0"

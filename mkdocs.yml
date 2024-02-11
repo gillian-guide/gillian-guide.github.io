@@ -40,8 +40,8 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-  logo: assets/logo-horizontal.png
-  favicon: assets/iv-logo-favicon.png
+  logo: assets/logo-horizontal.webp
+  favicon: assets/iv-logo-favicon.webp
   features:
     - toc.integrate
     - navigation.expand
