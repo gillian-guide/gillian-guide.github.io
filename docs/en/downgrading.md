@@ -29,7 +29,7 @@ It depends vaguely on your goals. If you want something as simple as pressing tw
     | Radio downgrading | :material-plus-minus: | :material-checkbox-marked-circle: |
 
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
-    I've made my own downgrader for my own purposes. I don't intend this to be a replacement to the other two, nor in any way necessarily superior - simply my own alternative. Though, it does offer a few benefits - it attempts to keep the mods up-to-date and doesn't let you do "stupid" downgrades with the toggles logic. You can also just open it, select your folder and press `Downgrade` without toggling anything else.
+    I've made my own downgrader for my own purposes. I don't intend this to be a replacement to Clonk's, nor in any way necessarily superior - simply my own alternative. Though, it does offer a few benefits - it attempts to keep the mods up-to-date and doesn't let you do "stupid" downgrades with the toggles logic. You can also just open it, select your folder and press `Downgrade` without toggling anything else.
 
     ???+ note "Usage"
         * Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
@@ -41,8 +41,6 @@ It depends vaguely on your goals. If you want something as simple as pressing tw
         * Press `Backup` if you want to have a backup. It will be stored in :material-folder:==backup== in your game folder.
         * Press `Install redistributables` to download and install Visual C++, DirectX and GFWL redistributables.
         * Press `Downgrade` to, well, downgrade.
-
-        Tool will hang when using `Downgrade` or `Install redistributables`, this is normal. Unless it closes. Then it's not - submit a GitHub Issue with the log.
 
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may bundle outdated files. This downgrader also has an option to downgrade to 1.0.4.0.
