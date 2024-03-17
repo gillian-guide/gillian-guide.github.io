@@ -58,7 +58,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 
 		If you are using the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version, do not start the game from the launcher itself, use :material-file:`PlayGTAIV.exe` instead - otherwise the game files will be replaced.
 
-		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-file:`IVSDKDotNet` as DotNet does not work on latest Proton. ==If using NVIDIA and not using the NVK driver, install the 1.2 archive instead.==
+		If using Linux, add `WINEDLLOVERRIDES="xlive=n,b" %command%` to launch options. Also, remove files starting with :material-file:`IVSDKDotNet` as DotNet does not work on latest Proton.
 
 		Other installation methods are not supported.
 

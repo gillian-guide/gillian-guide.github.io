@@ -57,7 +57,7 @@ description: Полноценный готовый архив для игры в
 
 		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 
-		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент. ==Если вы используете NVIDIA но не драйвер NVK, используйте архив для 1.2.==
+		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
 
 		Какой-либо другой способ установки не поддерживается.
 
