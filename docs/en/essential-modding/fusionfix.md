@@ -62,7 +62,7 @@ This project aims to fix or address some issues in Grand Theft Auto IV. You can 
     - Console Shadows
 
 !!! tip "Modloading"
-    This mod can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
+    This mod can be used for modloading purposes. See [modloading](../../extras/modloading.md) for more details.
 
 ## Configuration
 You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog:`GTAIV.EFLC.FusionFix.cfg` if you need to edit the file outside of the game for some reason. See [the list of non-ingame options](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix?tab=readme-ov-file#details) if you need to tweak them.
