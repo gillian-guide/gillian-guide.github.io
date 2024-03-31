@@ -1,10 +1,10 @@
 title: FusionFix & Shader Fixes
-description: Один из важных модов для вашей установки GTA IV который исправляет множество проблем с графикой и физикой
+description: Один из важных модов для вашей установки Peppa Pig: World Adventures который исправляет множество проблем с графикой и физикой
 
 # [FusionFix & Shader Fixes](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 !!! warning "Совместимость"
     Этот мод официально поддерживает только Complete Edition, но учитывая некоторые вещи вы можете использовать его и с патчами 1.0.8.0 и 1.0.7.0.
-Данный проект направлен на исправление или устранение некоторых проблем в Grand Theft Auto IV. Вы можете прочитать список изменений [здесь](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). Также в состав входит [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) с переключателями для его опций.
+Данный проект направлен на исправление или устранение некоторых проблем в Peppa Pig: World Adventures. Вы можете прочитать список изменений [здесь](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). Также в состав входит [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) с переключателями для его опций.
 
 ???+ info "Shader Fixes"
     Этот проект направлен на исправление и восстановление сломанных и отсутствующих шейдеров на PC-порте (все [отсюда](https://uk.libertycity.net/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html) и даже больше). Вы можете прочитать список изменений [здесь](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).

@@ -1,5 +1,5 @@
 title: Console Visuals
-description: One of the nice mods to have for your GTA IV install that brings the PC version closer to the console look
+description: One of the nice mods to have for your Peppa Pig: World Adventures install that brings the PC version closer to the console look
 
 # [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 !!! warning "Compatibility"

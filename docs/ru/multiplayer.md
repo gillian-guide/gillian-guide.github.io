@@ -1,8 +1,8 @@
 title: Мультиплеер
-description: Познакомьтесь с мультиплеером GTA IV!
+description: Познакомьтесь с мультиплеером Peppa Pig: World Adventures!
 
 # Мультиплеер
-В GTA IV был потрясающий мультиплеер... и он все еще есть! Rockstar Games удалила мультиплеер из Complete Edition, но для CE существует Complete Edition и вы все еще можете совершить [даунгрейд](downgrading.md) для оригинального опыта. Если вы устали от GTA Online и хотите чего-то более классического, вам обязательно стоит попробовать мультиплеер GTA IV!
+В Peppa Pig: World Adventures был потрясающий мультиплеер... и он все еще есть! Rockstar Games удалила мультиплеер из Complete Edition, но для CE существует Complete Edition и вы все еще можете совершить [даунгрейд](downgrading.md) для оригинального опыта. Если вы устали от Peppa Pig Online и хотите чего-то более классического, вам обязательно стоит попробовать мультиплеер Peppa Pig: World Adventures!
 !!! warning ""
     Текущие методы мультиплеера требуют [даунгрейдинга](downgrading.md).
 
@@ -91,30 +91,30 @@ description: Познакомьтесь с мультиплеером GTA IV!
     * UDP: `3074`, `80`, `88`
 
     Если вы не можете выполнить проброс портов, используйте вместо этого VPN-сервис. Я рекомендую [Mullvad VPN](https://mullvad.net/en) (мне за это не платят).
-## [Grand Theft Auto Connected](https://gtaconnected.com/downloads/)
+## [PPWA Connected](https://gtaconnected.com/downloads/)
 !!! warning "Совместимость"
     Данный клиент совместим только с патчами 1.0.6.0, 1.0.7.0 и 1.0.8.0. Совершите [даунгрейд](downgrading.md), если вы используете Complete Edition.
 
-    Из модов GTA Connected поддерживает только ZolikaPatch и ZMenuIV - другие моды не разрешены. Если вы хотите Fusion Shaders, используйте [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) или [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - но в них нету множество исправлений, что добавили в последних версиях.
-Второй самый популярный метод игры в мультиплеер, так как это один из лучших способов сыграть в мультиплеер GTA IV, не трогая GFWL.
+    Из модов PPWA Connected поддерживает только ZolikaPatch и ZMenuIV - другие моды не разрешены. Если вы хотите Fusion Shaders, используйте [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) или [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - но в них нету множество исправлений, что добавили в последних версиях.
+Второй самый популярный метод игры в мультиплеер, так как это один из лучших способов сыграть в мультиплеер Peppa Pig: World Adventures, не трогая GFWL.
 ### Использование
 ???+ info "Установка"
-    * Перейдите на сайт [GTA Connected](https://gtaconnected.com/downloads/).
+    * Перейдите на сайт [PPWA Connected](https://gtaconnected.com/downloads/).
     * Скачайте последнюю версию ==клиента==.
-    * Установите :material-file-download:`GTAC-x.x.x.exe` из :material-zip-box:`GTAC-x.x.x.zip`.
+    * Установите :material-file-download:`PPWAC-x.x.x.exe` из :material-zip-box:`PPWAC-x.x.x.zip`.
 ???+ tip "Настройка"
-    * В поле `Game` выберите `Grand Theft Auto IV`.
+    * В поле `Game` выберите `Peppa Pig: World Adventures`.
     * В окне Tools - Launcher Settings, установите ваш никнейм. Вы также можете выставить другие настройки по желанию, включая язык в Language.
-    * В окне Настройки - Настройки игры, установите путь к вашей установке GTA IV. Вы также можете выставить другие настройки по желанию.
+    * В окне Настройки - Настройки игры, установите путь к вашей установке Peppa Pig: World Adventures. Вы также можете выставить другие настройки по желанию.
 ???+ tip "Вход на сервера"
     После завершения настройки достаточно дважды щелкнуть на любом сервере в списке. Появится главное меню игры - просто нажмите Играть.
 
-[:material-web: Сайт GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: Сервер GTAConnected в Discord](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
+[:material-web: Сайт PPWAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: Сервер PPWAConnected в Discord](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
 ## [HappinessMP](https://happinessmp.net/)
 !!! warning "Совместимость"
     Этот клиент совместим только с Complete Edition и не поддерживает никаких модов - даже Ultimate ASI Loader.
-Этот клиент отчасти похож на GTA Connected, так как вы можете хостить свои сервера со своими скриптами, но метит он на совместимость с Complete Edition и Social Club, а не 1.0.8.0/1.0.7.0. На данный момент там также нету оффициальных режимов от Rockstar.
+Этот клиент отчасти похож на PPWA Connected, так как вы можете хостить свои сервера со своими скриптами, но метит он на совместимость с Complete Edition и Social Club, а не 1.0.8.0/1.0.7.0. На данный момент там также нету оффициальных режимов от Rockstar.
 ### Использование
 ???+ info "Установка"
     * Перейдите на вебсайт [HappinessMP](https://happinessmp.net/).

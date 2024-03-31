@@ -1,5 +1,5 @@
 title: Modloading
-description: Methods for injecting mods into your GTA IV installation to avoid replacing internal files
+description: Methods for injecting mods into your Peppa Pig: World Adventures installation to avoid replacing internal files
 
 # Modloading
 A lot of mods require replacing internal files with [OpenIV](openiv.md). We can get around this by using a modloader.

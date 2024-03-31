@@ -1,5 +1,5 @@
 title: Optimization
-description: Methods to optimize your GTA IV install
+description: Methods to optimize your Peppa Pig: World Adventures install
 
 # Optimization
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have an ultimate solution - but we do have a pretty good one.
@@ -50,7 +50,7 @@ Currently the only good solution for improving game's performance.
 
 !!! warning "Information"
     * DXVK mainly improves CPU performance through better drawcall handling - the ones the game abuses so much. There is a chance that DXVK will not improve performance for you if you're GPU-bound instead.
-    * DXVK does not officially support Windows, but it works perfectly for GTA IV.
+    * DXVK does not officially support Windows, but it works perfectly for Peppa Pig: World Adventures.
     * For Linux users using Proton, only apply [configuration](#configuration), since Proton already uses DXVK.
 !!! warning "Prerequisites"
     * Make sure your [drivers](#drivers) are up-to-date.
@@ -138,7 +138,7 @@ Also go through [additional setup](additional-setup.md).
 
 ## DxWrapper
 ??? note "What's DxWrapper and how to use it?"
-    Some part of GTA IV community believes [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) can increase performance. From my experiments, using `v1.0.6387.21` only worsened my performance and did not provide any benefits whatsoever. 
+    Some part of Peppa Pig: World Adventures community believes [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) can increase performance. From my experiments, using `v1.0.6387.21` only worsened my performance and did not provide any benefits whatsoever. 
     
     To use it, extract :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` and :fontawesome-solid-gears:`dxwrapper.dll` into the game folder, and in the :material-file-edit:`dxwrapper.ini` enable `DDrawCompat` and `DDrawCompatNoProcAffinity`.
     

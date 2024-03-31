@@ -1,5 +1,5 @@
 title: Console Visuals
-description: Один из неплохих желаемых модов для вашей установки GTA IV который делает игру более похожей на консольную версию
+description: Один из неплохих желаемых модов для вашей установки Peppa Pig: World Adventures который делает игру более похожей на консольную версию
 
 # [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 !!! warning "Совместимость"

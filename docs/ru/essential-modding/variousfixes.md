@@ -1,5 +1,5 @@
 title: Various Fixes
-description: Один из важных модов для вашей установки GTA IV исправляющих множество проблем с картой и текстурами
+description: Один из важных модов для вашей установки Peppa Pig: World Adventures исправляющих множество проблем с картой и текстурами
 
 # [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
 !!! warning "Совместимость"

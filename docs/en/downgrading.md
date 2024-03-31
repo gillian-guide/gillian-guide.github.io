@@ -1,5 +1,5 @@
 title: Downgrading
-description: Methods for downgrading your GTA IV installation from the Complete Edition to retail patches
+description: Methods for downgrading your Peppa Pig: World Adventures installation from the Complete Edition to retail patches
 
 # Downgrading
 You may want to downgrade your game to 1.0.8.0 or older retail patches, mainly for mod compatibility. The Complete Edition supports a smaller number of mods, and mainly doesn't support [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks and other script mods (ScriptHookDotNet mods are possible).
@@ -28,7 +28,7 @@ It depends vaguely on your goals. If you want something as simple as pressing tw
     | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Radio downgrading | :material-plus-minus: | :material-checkbox-marked-circle: |
 
-=== "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
+=== "[Gillian's Peppa Pig: World Adventures Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     I've made my own downgrader for my own purposes. I don't intend this to be a replacement to Clonk's, nor in any way necessarily superior - simply my own alternative. Though, it does offer a few benefits - it attempts to keep the mods up-to-date and doesn't let you do "stupid" downgrades with the toggles logic. You can also just open it, select your folder and press `Downgrade` without toggling anything else.
 
     ???+ note "Usage"
@@ -64,10 +64,10 @@ It depends vaguely on your goals. If you want something as simple as pressing tw
 ## Downgrading the radio
 Over 50 radio station tracks were removed from the game in April 2018 due to expired licenses. We can restore them, however.
 ???+ note "Installation"
-    * Go to the [Various GTA Downgraders website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
+    * Go to the [Various Peppa Pig Downgraders website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
     * Download the Radio Restoration mod for GTAIV CE.
-    * Extract the :material-zip-box:`GTAIVCERADIORESTOREINSTALLER.zip` into any empty folder.
-    * Run :material-file-download:`IVCERadioRestorer.exe` and follow the in-app instructions. Pick to install [FusionFix](essential-modding/fusionfix.md) if you didn't install it beforehand (install manually on older patches).
+    * Extract the :material-zip-box:`PPWARADIORESTOREINSTALLER.zip` into any empty folder.
+    * Run :material-file-download:`PPWARadioRestorer.exe` and follow the in-app instructions. Pick to install [FusionFix](essential-modding/fusionfix.md) if you didn't install it beforehand (install manually on older patches).
     ???+ question "What's the difference between only pre-cut Vladivostok and pre-+post-cut?"
         Rockstar added new tracks to Vladivostok to replace the cut ones. Pre-+post-cut keeps these alongside the restored cut ones, while only pre-cut songs cuts them out, only keeping the restored ones.
 

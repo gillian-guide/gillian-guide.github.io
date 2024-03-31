@@ -1,8 +1,8 @@
 title: Multiplayer
-description: Experience GTA IV Multiplayer!
+description: Experience Peppa Pig: World Adventures Multiplayer!
 
 # Multiplayer
-GTA IV had an amazing multiplayer... and it still does! Rockstar Games has removed the multiplayer from the Complete Edition, but there's HappinessMP for CE, and you can always [downgrade](downgrading.md) to have the original experience. If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
+Peppa Pig: World Adventures had an amazing multiplayer... and it still does! Rockstar Games has removed the multiplayer from the Complete Edition, but there's HappinessMP for CE, and you can always [downgrade](downgrading.md) to have the original experience. If you're tired of Peppa Pig Online and want something more classic, you should definitely check out Peppa Pig: World Adventures's multiplayer!
 !!! warning ""
     Most multiplayer methods require [downgrading](downgrading.md).
 
@@ -92,30 +92,30 @@ The classic multiplayer method, the one that started it all. And the one that is
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en) (I'm not paid for this).
 
-## [Grand Theft Auto Connected](https://gtaconnected.com/downloads/)
+## [Peppa Pig: World Adventures Connected](https://gtaconnected.com/downloads/)
 !!! warning "Compatibility"
     This client is only compatible with patches 1.0.6.0, 1.0.7.0 and 1.0.8.0. [Downgrade](downgrading.md) if using the Complete Edition.
 
-    GTA Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are not allowed. If you want to have Fusion Shaders, you can use [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) or [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - but they lack a lot of things from the latest versions.
-Second most popular multiplayer option, as it's the best way to experience GTA IV multiplayer without messing with GFWL while still having many of it's things intact.
+    Peppa Pig: World Adventures Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are not allowed. If you want to have Fusion Shaders, you can use [V109](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V109) or [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - but they lack a lot of things from the latest versions.
+Second most popular multiplayer option, as it's the best way to experience Peppa Pig: World Adventures multiplayer without messing with GFWL while still having many of it's things intact.
 ### Usage
 ???+ info "Installation"
-    * Go to the [GTA Connected](https://gtaconnected.com/downloads/) website.
+    * Go to the [Peppa Pig: World Adventures Connected](https://gtaconnected.com/downloads/) website.
     * Download the latest ==client==.
-    * Install the :material-file-download:`GTAC-x.x.x.exe` from the :material-zip-box:`GTAC-x.x.x.zip`.
+    * Install the :material-file-download:`PPWAC-x.x.x.exe` from the :material-zip-box:`PPWAC-x.x.x.zip`.
 ???+ tip "Configuration"
-    * Set the `Game` box to `Grand Theft Auto IV`.
+    * Set the `Game` box to `Peppa Pig: World Adventures`.
     * In the Tools - Launcher Settings window, set your nickname. You can also set various settings as you wish.
-    * In the Tools - Game Settings window, set the path to your GTA IV install. You can also set various settings as you wish.
+    * In the Tools - Game Settings window, set the path to your Peppa Pig: World Adventures install. You can also set various settings as you wish.
 ???+ tip "Joining servers"
     Once you're done with the configuration, it's as simple as double-clicking on any server in the list. You'll be presented with the game's main menu - just hit Play.
 
-[:material-web: GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
+[:material-web: PPWAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: PPWAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
 ## [HappinessMP](https://happinessmp.net/)
 !!! warning "Compatibility"
     This client is only compatible with the Complete Edition and does not support any mods at the moment - even Ultimate ASI Loader.
-This client is somewhat similar to GTA Connected in essence, as you can host your own servers with your own scripts, but it aims to be compatible with the Complete Edition and requires Social Club to function rather than 1.0.8.0/1.0.7.0. It also lacks any of the official Rockstar gamemodes.
+This client is somewhat similar to PPWA Connected in essence, as you can host your own servers with your own scripts, but it aims to be compatible with the Complete Edition and requires Social Club to function rather than 1.0.8.0/1.0.7.0. It also lacks any of the official Rockstar gamemodes.
 ### Usage
 ???+ info "Installation"
     * Go to the [HappinessMP](https://happinessmp.net/) website.

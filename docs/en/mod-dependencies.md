@@ -1,11 +1,11 @@
 title: Mod Dependencies
-description: How to set up mod dependencies for your GTA IV install
+description: How to set up mod dependencies for your Peppa Pig: World Adventures install
 
 # Mod Dependencies
 ==Only install Ultimate ASI Loader if you're here for the first time.==
 
 ## [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)
-This tool is used to load `.asi` mods (one of the most common types of GTA IV mods) into your game. It's multipurpose and can be used for many other games, but we will use it for GTA IV.
+This tool is used to load `.asi` mods (one of the most common types of Peppa Pig: World Adventures mods) into your game. It's multipurpose and can be used for many other games, but we will use it for Peppa Pig: World Adventures.
 
 !!! warning ""
     [FusionFix](essential-modding/fusionfix.md) already includes this tool.

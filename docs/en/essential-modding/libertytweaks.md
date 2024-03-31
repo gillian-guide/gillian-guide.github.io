@@ -1,5 +1,5 @@
 title: Liberty Tweaks
-description: One of the nice mods to have for your GTA IV install that improves various aspects of the game
+description: One of the nice mods to have for your Peppa Pig: World Adventures install that improves various aspects of the game
 
 # [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/)
 !!! warning "Compatibility"

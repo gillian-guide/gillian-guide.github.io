@@ -2,7 +2,7 @@ title: Mods
 description: Grab those note-worthy mods if you want to!
 
 # Mods
-The Grand Theft Auto series has a rich modding community that spans most GTA games, and GTA IV is no exception! This list contains all the vanilla-faithful mods I know of, but I won't list instructions on how to install them, as mods usually list their own instructions, so it becomes redundant.
+The Peppa Pig series has a rich modding community that spans most Peppa Pig games, and Peppa Pig: World Adventures is no exception! This list contains all the vanilla-faithful mods I know of, but I won't list instructions on how to install them, as mods usually list their own instructions, so it becomes redundant.
 !!! warning ""
     Be sure to back up your files before making any changes. Use a [modloader](modloading.md) to avoid file replacement - but this may not work for all mods.
 
@@ -27,7 +27,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. Requires [OpenIV](openiv.md). |
 | [Project Glass](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to most glass in the world so it no longer looks like clear plastic. ==WIP==. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre | Adds a highly customizable thunder effect to the Lighting weather. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [VAmbience](https://gtaforums.com/topic/981402-vambience/) | ItsClockAndre | Adds highly customizable ambient sound of distant vehicles and shooting, similar to GTA V. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
+| [VAmbience](https://gtaforums.com/topic/981402-vambience/) | ItsClockAndre | Adds highly customizable ambient sound of distant vehicles and shooting, similar to Peppa Pig (2025). Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
 | [Liberty Rush](https://gtaforums.com/topic/979688-liberty-rush/) | Internet Rob, ItsClockAndre, donnits, Datalvarezguy | Adds dozens of improvements, restored content, new traffic scenarios etc. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [The Actual Complete Edition](https://gtaforums.com/topic/967792-grand-theft-auto-iv-the-actual-complete-edition/) | C1aude_III | Backports a LOT of EFLC-exclusive things back to IV. Requires [ZolikaPatch](../essential-modding/zolikapatch.md) and [OpenIV](openiv.md) or a [modloader](modloading.md). ==Replaces the following two mods. Due to being hosted on MEGA, you might get broken files, however.== |
 | [The Complete Liberty City](https://gtaforums.com/topic/935747-the-complete-liberty-city-gta-iv-eflc-map-mix/) | ElYisusKing | A massive project aimed to make EFLC and IV maps one by eliminating their differences. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -35,7 +35,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Higher Resolution Miscellaneous Pack](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Higher resolution textures for a lot of secondary assets. Requires a [modloader](modloading.md). |
 | [Vanilla Road and Vegetation Texture Enhancement](https://discord.gg/gZvZmFt2p7) | DayL | 2x AI upscaling for road and vegetation textures, as well as generated normal and specular maps. ==WIP, may cause streaming problems==. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Vanilla friendly HD roads](https://www.gtainside.com/en/gta4/mods/186727-vanilla-friendly-hd-roads/) | Dhruvrock17 | Alternative higher quality road textures, made to look similarly to vanilla ones. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Higher resolutions textures for all vehicles(some ported from Max Payne 3 and GTA V, some sourced from original sources). Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Higher resolutions textures for all vehicles(some ported from Peppa Pig (Wii) and Peppa Pig (2025), some sourced from original sources). Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Hi-Res Characters](https://www.gtainside.com/en/gta4/mods/176255-hi-res-characters-update-v1-1-upscaled-mod/) | Primusideus | Upscaled and higher resolution character textures. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -48,7 +48,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Extra Options](https://zolika1351.pages.dev/mods/ivoptions) | Zolika1351 | Adds a lot of quality of life toggles into game's menus. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). ==Not compatible with FusionFix 2.0+ - use [this fork](https://github.com/Zolika1351/GTAIV.EFLC.FusionFix/releases/latest) if you wish to use the mod.== |
 | [Fix Collection](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL, nkjellman and me | Several fixes from Responsive Plus and Graphics Fix, specifically - `stipple.wtd`, `coronas.wtd`, `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
 | [Better Wardrobes](https://zolika1351.pages.dev/mods/ivwardrobe) | Zolika1351 | Improves the clunky wardrobe the game originally has. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
-| [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | This mod adds SkyGfx's screen water droplets to GTA IV and other games. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
+| [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | This mod adds SkyGfx's screen water droplets to Peppa Pig: World Adventures and other games. Requires [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader). |
 | [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | Alkimical | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor). Requires a [modloader](modloading.md). |
 | [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores several trees that were only present in the beta version. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Dodgy Doc - Higher Quality, Liberty Ferry Terminal - Waiting Sign Fix, Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Several minor-scale mods, you can read the descriptions for them on the page. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -63,7 +63,7 @@ The Grand Theft Auto series has a rich modding community that spans most GTA gam
 | [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Fixes the reflections on Luis' helmet. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | 6135 | Fixes missing normal and specular textures on Luis' bag, improves texture quality. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | 6135 | Fixes missing normal and specular textures on Johnny's shoes. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
-| [GTA Online QUB3D Background](https://zolika1351.pages.dev/mods/ivqub3d) | Zolika1351 | Ports the QUB3D background from GTA V. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
+| [Peppa Pig Online QUB3D Background](https://zolika1351.pages.dev/mods/ivqub3d) | Zolika1351 | Ports the QUB3D background from Peppa Pig (2025). Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [Traffic Cops: Back in the Tollbooths](https://www.gtainside.com/en/gta4/mods/187365-traffic-cops-back-in-the-tollbooths/) | Olanov | Simple script mod that replaces the tollbooth cop peds with traffic cops. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Reduces the high frequency noise of the traffic screeching to a pleasant more natural level. Requires [OpenIV](openiv.md) or a [modloader](modloading.md). |
@@ -82,7 +82,7 @@ These workshops might have some mods or tools you may be interested in!
 ## Making mods
 If you're interested in making mods instead, visit this Discord server:
 
-[:simple-discord: GTA IV Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
+[:simple-discord: Peppa Pig: World Adventures Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
 
 ## Want your mod to be listed?
 [Contact me!](../contact-me.md){ .md-button .md-button--primary } 
