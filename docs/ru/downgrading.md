@@ -1,5 +1,5 @@
 title: Даунгрейд
-description: Методы даунгрейдинга Peppa Pig: World Adventures
+description: Методы даунгрейдинга GTA IV с Complete Edition
 
 # Даунгрейд
 Вы можете совершить даунгрейд до 1.0.8.0 или более ранних патчей, в основном для совместимости с модами. Complete Edition поддерживает меньшее количество модов, и в основном не поддерживает [ZolikaPatch](essential-modding/zolikapatch.md), Liberty Tweaks и другие скриптовые моды (моды на ScriptHookDotNet допустимы).
@@ -28,7 +28,7 @@ description: Методы даунгрейдинга Peppa Pig: World Adventures
     | Дополнительная поддержка [GFWL](../multiplayer/#games-for-windows-live) | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
     | Включен даунгрейд радио | :material-plus-minus: | :material-checkbox-marked-circle: |
 
-=== "[Gillian's Peppa Pig: World Adventures Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
+=== "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     Я сделал свой собственный даунгрейдер для своих целей. Этот даунгрейдер не то чтобы заменяет тот от Clonk'а - это просто моя альтернатива. Однако у него есть несколько преимуществ - а именно попытка поддержать моды в актуальном состоянии и не разрешает делать "тупые", по логике, даунгрейды. Вы также можете просто открыть его, выбрать папку и нажать `Downgrade`, не переключая ничего другого.
 
     ???+ note "Использование"
@@ -81,10 +81,10 @@ description: Методы даунгрейдинга Peppa Pig: World Adventures
 ## Даунгрейд радио
 Более 50 треков радиостанций были удалены из игры в апреле 2018 года из-за просроченных лицензий. Однако мы можем их восстановить.
 ???+ note "Установка"
-    * Перейдите на сайт [Various Peppa Pig Downgraders](http://downgraders.rockstarvision.com/) и прокрутите страницу до конца.
-    * Скачайте Radio Restoration mod for PPWA.
-    * Распакуйте :material-zip-box:`PPWARADIORESTOREINSTALLER.zip` в любую пустую папку.
-    * Запустите :material-file-download:`PPWARadioRestorer.exe` и следуйте инструкциям в приложении. Поставьте галочку на установку [FusionFix](essential-modding/fusionfix.md) если вы его не установили заранее (на старых версиях установите вручную).
+    * Перейдите на сайт [Various GTA Downgraders](http://downgraders.rockstarvision.com/) и прокрутите страницу до конца.
+    * Скачайте Radio Restoration mod for GTAIV CE.
+    * Распакуйте :material-zip-box:`GTAIVCERADIORESTOREINSTALLER.zip` в любую пустую папку.
+    * Запустите :material-file-download:`IVCERadioRestorer.exe` и следуйте инструкциям в приложении. Поставьте галочку на установку [FusionFix](essential-modding/fusionfix.md) если вы его не установили заранее (на старых версиях установите вручную).
     ???+ question "В чем разница между pre-cut Vladivostok и pre-+post-cut?"
         Rockstar добавили на Владивосток новые треки взамен вырезанных. pre-+post-cut сохраняет их вместе с восстановленными вырезанными, а pre-cut вырезает их, оставляя только восстановленные.
     ???+ tip "Аддоны"

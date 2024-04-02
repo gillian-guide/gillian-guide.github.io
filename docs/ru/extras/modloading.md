@@ -1,5 +1,5 @@
 title: Модлоадинг
-description: Методы установки модов в Peppa Pig: World Adventures, позволяющие избежать замены внутренних файлов
+description: Методы установки модов в GTA IV, позволяющие избежать замены внутренних файлов
 
 # Модлоадинг
 Большинство модов требуют замены внутренних файлов с помощью [OpenIV](openiv.md). Мы можем обойти это, используя модлоадер - или два!
@@ -130,4 +130,4 @@ description: Методы установки модов в Peppa Pig: World Adve
     ??? "Увеличение лимитов"
         Чтобы увеличить лимиты, отредактируйте :material-file-cog:`IVTweaker.ini` - это может понадобиться, если вы устанавливаете моды, например, изменяющие текстуры транспортных средств, так как вы можете столкнуться с такси-багом.
 
-[:material-page-first:Предыдущая страница <br>ButchThePig</br>](openiv.md){ .md-button } [Следующая страница:material-page-last: <br>Моды</br>](mods.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>OpenIV</br>](openiv.md){ .md-button } [Следующая страница:material-page-last: <br>Моды</br>](mods.md){ .md-button .md-button--primary }

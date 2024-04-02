@@ -1,5 +1,5 @@
 title: Project2DFX
-description: Один из неплохих желаемых модов для вашей установки Peppa Pig: World Adventures улучшающий дальнее освещение ночью
+description: Один из неплохих желаемых модов для вашей установки GTA IV улучшающий дальнее освещение ночью
 
 # [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 !!! warning "Совместимость"

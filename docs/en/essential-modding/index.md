@@ -1,8 +1,8 @@
 title: Essential Modding
-description: Get must-have mods for your Peppa Pig: World Adventures install
+description: Get must-have mods for your GTA IV install
 
 # What's in this section?
-You'll find mods that I think are essential to any Peppa Pig: World Adventures installation, along with instructions on how to install and configure them.
+You'll find mods that I think are essential to any GTA IV installation, along with instructions on how to install and configure them. 
 
 Everything in this section requires [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).
 

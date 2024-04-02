@@ -1,5 +1,5 @@
 title: Project2DFX
-description: One of the nice mods to have for your Peppa Pig: World Adventures install that improves distant lights at night
+description: One of the nice mods to have for your GTA IV install that improves distant lights at night
 
 # [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 !!! warning "Compatibility"

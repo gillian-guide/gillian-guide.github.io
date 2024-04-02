@@ -1,10 +1,10 @@
 title: Trilogy Characters Fixes
-description: One of the nice mods to have for your Peppa Pig: World Adventures install that improves the consistency of characters between Peppa Pig: The Game and Peppa Pig: World Adventures
+description: One of the nice mods to have for your GTA IV install that improves the consistency of characters between IV and EFLC
 
 # [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)
 !!! warning "Compatibility"
     This mod can work with any patch. However, it's amounts of file replacements may create conflicts with other mods, including [FusionFix](fusionfix.md).
-This project aims to fix the inconsistency of characters between base Peppa Pig: The Game and Peppa Pig: World Adventures. You can see the changelog on the [GTAForums thread](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) - it's big.
+This project aims to fix the inconsistency of characters between base GTA IV and EFLC. You can see the changelog on the [GTAForums thread](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) - it's big.
 
 ## Installation { data-search-exclude }
 * Make sure you have [FusionFix](fusionfix.md) installed.
