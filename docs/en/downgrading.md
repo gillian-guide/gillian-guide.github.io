@@ -38,9 +38,7 @@ It depends vaguely on your goals. If you want something as simple as pressing tw
         * Open the tool.
         * Select your game folder.
         * Toggle anything if your heart desires to. Defaults are fine, but you may want to disable the GFWL toggle.
-        * Press `Backup` if you want to have a backup. It will be stored in :material-folder:==backup== in your game folder.
-        * Press `Install redistributables` to download and install Visual C++, DirectX and GFWL redistributables.
-        * Press `Downgrade` to, well, downgrade.
+        * Press `Downgrade` to, well, downgrade. It will automatically download and install everything.
 
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may bundle outdated files. This downgrader also has an option to downgrade to 1.0.4.0.
