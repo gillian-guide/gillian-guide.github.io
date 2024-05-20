@@ -50,7 +50,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 ## Installation { data-search-exclude }
 
 === "1.0.8.0"
-	[:material-download-circle: Download](https://drive.google.com/file/d/1d2JSdnjORPXDXosyiYYZfiPYJ4OhMRKQ/view?usp=sharing){ .md-button .md-button--primary }  Last updated: **[09.03.2024](#changelog)**
+	[:material-download-circle: Download](https://www.mediafire.com/file/cx6dct4npfqtc5z/1.0_archive.7z/file){ .md-button .md-button--primary }  Last updated: **[21.05.2024](#changelog)**
 
 	Download the archive and then simply extract the contents into your game folder (:material-folder:==GTAIV==, not :material-folder:==Grand Theft Auto IV==). The archive already includes a downgrader, you don't need to downgrade on your own. ==After installation launch :material-file-download:`GTAIVSetupUtilityWPF.exe` and go through the setup== and check [additional mods](#additional-mods). For optimal game settings, see [this page](https://gillian-guide.github.io/additional-setup/#optimal-game-settings).
 	!!! warning
@@ -107,7 +107,7 @@ If you don't want to manually mod your game, you can choose an archive depending
 	| [Various Fixes~1.8.1~ by Attramet and others](https://gtaforums.com/topic/975211-various-fixes/)| A large collection of fixes of various scale - mostly broken map textures. |
 	| [Console Visuals~1.6~ by nastyyaboi and others](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Collection of ported assets from the console version. <br>Only Fusion Console Vegetation is included. See Additional Mods for more.</br> |
 	| [Trilogy Characters Fixes by TheYoshiPunch, (Japan) GTA Love, DiZco12, JohnnyK NeverDie, and others](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/?do=findComment&comment=1072334770)| A large collection of fixes for inconsistencies between character appearances in IV and EFLC - plus, a few fixes just for the models themselves. |
-	| [Liberty Tweaks~1.4~ by The Westside Minions & The GTA IV Modding Community](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. ==This mod allows to quicksave using ++f9++ key. It also allows to holster weapons using the ++h++ key.== |
+	| [Liberty Tweaks~1.4.1~ by catsmackaroo, ItsClockAndre and others](https://gtaforums.com/topic/991160-liberty-tweaks/)| A highly configurable quality-of-life mod. ==This mod allows to quicksave using ++f9++ key and has a lot of various features - if you don't like some, configure them in `IVSDKDotNet\scripts\LibertyTweaks.ini`== |
 	| [Improved Animations Pack~1.3~ by B Dawg](https://gtaforums.com/topic/958625-improved-animations-pack/)| Fixes some weapon animation issues such as delayed fire. |
 	| [IV Fixes and Improvements by Zolika1351 and others](https://gtaforums.com/topic/909155-iv-fixes-improvements/)| A collection of minor fixes and improvements - see the changelog on the page.<br>Only the old `.img` improvements are used - and some are cut due to their precendece in Various Fixes and other mods.</br> |
 	| [Fix Collection by iiCriminnaaL, nkjellman and me](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | Several fixes from Responsive Plus and Graphics Fix, specifically - `carcols.dat`, `cargrp.dat` and files related to rain splash effects. My work in this is just bundling them separately. |
@@ -187,7 +187,6 @@ These mods are not included by default, but do not require any additional steps 
 	| [HQ Map by Alkimical](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract into the game folder.</br> |
 	| [Aura by catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori](https://gtaforums.com/topic/989259-aura/) | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract into :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |
-	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
 	| [Better Wardrobes by Zolika1351](https://zolika1351.pages.dev/mods/ivwardrobe)| Replaces the clunky wardrobe with a faster and more intuitive one - however, it can be uncomfortable for some people and it also ==unlocks all clothing in the game from the start==.<br>Installation: Extract :material-file:`WardrobeMod.asi` into the game folder.</br> |
 	| [IV-Presence by ItsClockAndre](https://gtaforums.com/topic/975850-iv-presence/) | Adds a Discord Rich Presence.<br>Installation: From the archive, extract :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` from :material-folder:==For GTA IV 1070 and 1080== into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br>|
 
@@ -199,12 +198,12 @@ These mods are not included by default, but do not require any additional steps 
 	| [HQ Map by Alkimical](https://www.nexusmods.com/gta4/mods/356?tab=description&BH=0) | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract into the game folder.</br> |
 	| [Aura by catsmackaroo, Nastyyaboi, ItsClockAndre and cubabori](https://gtaforums.com/topic/989259-aura/) | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract into :material-folder:==update==.</br> |
 	| [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |
-	| [Enhanced Minor Characters by Datalvarezguy](https://drive.google.com/file/d/1gYIa6nVtoMj1ijksjagONA1KS5X2MpSj/view?usp=sharing) | [Original mod page](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/). Replaces vanilla peds in some missions with author's visions for the characters.<br>Installation: Extract into the game folder.</br> |
 
 ## Changelog { data-search-exclude }
 === "1.0.8.0"
 	The archive is updated as frequently as mods are, below is the list of changes:
 
+	* 21.05.2024 - Reuploaded the archive to Mediafire because Google is a bitch. Updated IVSDKDotNet and Liberty Tweaks (slightly reconfigured it aswell).
 	* 09.03.2024 - Updated More Visible Interiors, Liberty Tweaks (fixes crashes when entering/exiting a vehicle). Removed Project2DFX due to breaking with fixed coronas on 1.0.8.0. Removed any fixes for Three Leaf Clover due to constantly breaking. Fixed the issue where the game wouldn't launch.
 	* 07.03.2024 - Updated FusionFix, Liberty Tweaks, Console Visuals, Higher Resolution Misc Pack.
 	* 28.01.2024 - Updated FusionFix.
