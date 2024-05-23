@@ -64,6 +64,12 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
     If you want to completely disable the feature off, open :material-file-cog:`GTAIV.EFLC.FusionFix.ini` and change `SkipMenu` to `0` (or go to Settings - Game and change `Skip Menu` to Off). If the problem persists, open the :material-file-cog:`ZolikaPatch.ini` and change the setting there.
 
+??? info "Cannot access internet cafe computers or interact with entertainment assets (pool, bowling)"
+    You can do one of the following:
+
+    * Start a new game and forget about your existing save.
+    * Remove `LibertyTweaks` files from :material-folder:==IVSDKDotNet\scripts== (if you don't use `IVSDKDotNet` for anything else, you can remove all files and folders relating to it from the game folder aswell).
+
 ??? info "Load times are too long"
     * Remove ColAccel.
     * Remove `-managed` [launch option](../additional-setup/#launch-options).
