@@ -133,9 +133,4 @@ description: Познакомьтесь с мультиплеером GTA IV!
 
 [:material-gitlab: GitLab](https://gitlab.com/GlitchyScripts/xlivelessness){ .md-button .md-button--primary }
 
-### Liberty City Online
-Этот клиент также призван обеспечить мультиплеер аналогичный [SA:MP](https://www.sa-mp.com/), а также поддержку оригинальных режимов игры, таких как Deathmatch. Однако этот требует патчи 1.0.8.0 и 1.0.7.0.
-
-[:material-web: Сайт Liberty City Online](https://lc-online.net/){ .md-button .md-button--primary }
-
 [:material-page-first:Предыдущая страница <br>Дополнительно</br>](extras/index.md){ .md-button } [Следующая страница:material-page-last: <br>Трейнеры</br>](extras/trainers.md){ .md-button .md-button--primary }
