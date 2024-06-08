@@ -4,7 +4,7 @@ description: Полноценный готовый архив для игры в
 # Готовый архив { data-search-exclude }
 Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Вы можете сравнить список модов [ниже](#_4) - 1.0.8.0 имеет больше значимых модов, имейте это ввиду.
 
-### Примечания { data-search-exclude }.
+### Примечания { data-search-exclude }
 !!! warning "Примечание"
     Этот раздел не отражает моего личного мнения о важности модов или моей позиции по отношению к моддерам. Я просто пытаюсь включить в него лучшие и совместимые с ванилью моды, не вызывающие проблем.
 
@@ -55,7 +55,7 @@ description: Полноценный готовый архив для игры в
 	!!! warning "Предупреждения"
 		Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
 
-		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), не загружайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
+		Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), ==удалите :material-file:`SteamAchievements.asi`== а также не запускайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 
 		Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
 
