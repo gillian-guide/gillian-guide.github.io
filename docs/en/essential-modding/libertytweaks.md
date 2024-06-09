@@ -7,7 +7,7 @@ description: One of the nice mods to have for your GTA IV install that improves 
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums thread](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 ## Showcase { data-search-exclude }
-![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif){: style="height:50%;width:50%";} ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif){: style="height:50%;width:50%";}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnbC1-kv8q0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Installation { data-search-exclude }
 * Install [IV-SDK .NET and Clonk's Coding Library](../../mod-dependencies/#iv-sdk-net).
