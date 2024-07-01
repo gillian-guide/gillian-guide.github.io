@@ -7,7 +7,7 @@ description: Один из неплохих желаемых модов для �
 Этот проект направлен на улучшение некоторых аспектов игры. Вы можете посмотреть функционал в [теме на GTAForums](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 ## Демонстрация { data-search-exclude }
-![Liberty Tweaks - Weapon Magazines](https://media.giphy.com/media/9WkHpgdodMMkVwSxQK/giphy.gif){: style="height:50%;width:50%";} ![Liberty Tweaks - Quicksaves](https://media.giphy.com/media/gJsHuySiJtuM4odkNF/giphy.gif){: style="height:50%;width:50%";}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnbC1-kv8q0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Установка { data-search-exclude }
 * Установите [IV-SDK .NET и Clonk's Coding Library](../../mod-dependencies/#iv-sdk-net).
