@@ -118,9 +118,7 @@ nav:
     - "extras/modloading.md"
     - "extras/mods.md"
   - "troubleshooting.md"
-  - Credits:
-    - "credits/index.md"
-    - "credits/support.md"
+  - "credits.md"
 
 extra:
   social:
