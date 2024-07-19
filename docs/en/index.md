@@ -54,10 +54,14 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 
      [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
 
+- A **list of known issues and solutions**:
+
+     [Next page:material-page-last: <br>Troubleshooting</br>](troubleshooting.md){ .md-button .md-button--primary }
+
+- My **Discord server** for support and discussion (you may be denied in support if you breach one of the conditions above):
+
+     [:simple-discord: Discord Server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
+
 </div>
 
 If you are **only interested in something specific**, use the navigation bar to the left to pick your page of interest.
-
-## Support
-
-Got questions or encountered a problem? This guide has a [Troubleshooting](troubleshooting) page and a [Discord server](https://discord.gg/zwmsQqExbQ) for support and general discussion.
