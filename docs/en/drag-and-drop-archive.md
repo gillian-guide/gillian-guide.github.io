@@ -183,13 +183,11 @@ These mods are not included by default, but do not require any additional steps 
     | [Improved Vanilla Timecyc by pidarasnahui516](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder:==Main Files\\pc\\== into :material-folder:==update==.</br> |
 
 ## Changelog { data-search-exclude }
-!!! info "Latest version"
-    === "1.0.8.0"
+
+=== "1.0.8.0"
+    !!! info "Latest version"
         - 21.05.2024 - Reuploaded the archive to Mediafire because Google is a bitch. Updated IVSDKDotNet and Liberty Tweaks (slightly reconfigured it aswell).
-    === "1.2.0.59"
-        - 09.03.2024 - Updated More Visible Interiors, Xbox Rain Droplets. Removed any fixes for Three Leaf Clover due to constantly breaking.
-??? quote "Old changes"
-    === "1.0.8.0"
+    ??? quote "Old changes"
         - 09.03.2024 - Updated More Visible Interiors, Liberty Tweaks (fixes crashes when entering/exiting a vehicle). Removed Project2DFX due to breaking with fixed coronas on 1.0.8.0. Removed any fixes for Three Leaf Clover due to constantly breaking. Fixed the issue where the game wouldn't launch.
         - 07.03.2024 - Updated FusionFix, Liberty Tweaks, Console Visuals, Higher Resolution Misc Pack.
         - 28.01.2024 - Updated FusionFix.
@@ -235,7 +233,10 @@ These mods are not included by default, but do not require any additional steps 
         - 01.07.2023 - Updated Shader Fixes, repacked some mods.
         - 30.06.2023 - Updated Shader Fixes.
         - 26.06.2023 - Created the archive.
-    === "1.2.0.59"
+=== "1.2.0.59"
+    !!! info "Latest version"
+        - 09.03.2024 - Updated More Visible Interiors, Xbox Rain Droplets. Removed any fixes for Three Leaf Clover due to constantly breaking.
+    ??? quote "Old changes"
         - 07.03.2024 - Updated FusionFix, Console Visuals, Higher Resolution Misc Pack.
         - 28.01.2024 - Updated FusionFix.
         - 14.01.2024 - Updated FusionFix.
