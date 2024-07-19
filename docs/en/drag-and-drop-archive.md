@@ -7,10 +7,6 @@ The Drag-and-Drop Archive (also known as Gillian's Modpack) is a complete ready-
 
 ## Notes { data-search-exclude }
 
-!!! info ""
-    1. 1.2.0.59 is the Complete Edition, also known as the latest [:material-steam:Steam](https://store.steampowered.com/app/12210/) or [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv) version. It removes support for multiplayer and Games for Windows - LIVE, while adding the Rockstar Games Launcher (and it's DRM) and the Social Club overlay (with it's achievements). ==The amount of supported mods is also much more limited in this version - most older mods are built for 1.0.8.0 and 1.0.7.0==.
-    2. 1.0.8.0 is the latest retail patch, with [ZolikaPatch](essential-modding/zolikapatch.md) support and a lot more notable mods. However, this drag-and-drop archive does NOT include any support for Games for Windows - LIVE whatsoever. See the [downgrading](downgrading.md) and [multiplayer](multiplayer.md) sections instead. ==This version is better for mod compatibility==.
-
 !!! warning ""
     - I can't update the archive too frequently myself - check out the pages to see if the mods, especially the ones ontop, got any updates.
     - Make sure you follow the [prerequisites](index.md).
