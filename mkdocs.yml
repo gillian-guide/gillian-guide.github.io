@@ -46,10 +46,12 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-  logo: assets/logo-horizontal.webp
+  logo: assets/logo-no-modding.webp
   favicon: assets/iv-logo-favicon.webp
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      quote: material/clipboard-text
   features:
     - toc.integrate
     - navigation.expand
@@ -96,6 +98,7 @@ markdown_extensions:
 
 nav:
   - "index.md"
+  - "preparation.md"
   - "drag-and-drop-archive.md"
   - "optimization.md"
   - "additional-setup.md"
