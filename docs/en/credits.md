@@ -118,7 +118,7 @@ These people made my life a tad bit easier with their monetary contribution:
 - Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) for providing this great environment for writing a guide.
 - [GitHub Pages](https://pages.github.com/) for providing a free hosting and domain, allowing the site to be hosted completely free and not require any ads or donations.
--Rockstar Games and Rockstar North for making the game.
+- Rockstar Games and Rockstar North for making the game.
 
 ## And everyone else
 
