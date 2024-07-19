@@ -3,39 +3,61 @@ description: Introduction to Gillian's GTA IV Modding Guide
 
 # Introduction
 
-Welcome to Gillian's Grand Theft Auto IV Modding Guide.
+!!! quote ""
+    This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves.
 
-This is a centralized, all-in-one guide. It includes steps for [optimizing](optimization.md), [tweaking](additional-setup.md), [fixing, improving](essential-modding/index.md) the game, [experiencing multiplayer](multiplayer.md) and [more](extras/index.md)!
+## Overview
+
+**Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
+
+This guide aims to provide the best vanilla-faithful experience for GTA IV, but is not limited to that. It's meant to be accessible to everyone and to be able to help anyone who has their own specifics on how they want to experience the game - be it creating the best singleplayer experience, creating the best environment for manual modding, playing multiplayer, getting the best performance, or something else.
 
 !!! note ""
-    This guide aims to be as unbiased as possible, trying to only provide relevant information to modding GTA IV. Any listed mods or information do not reflect my personal stance towards anybody and I'd prefer if this guide was unaffected by personal views.
+    This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
 
-!!! warning ""
-    This guide is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves. 
+    However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
 
 ## Prerequisites
+
 !!! warning ""
-    - In order for this guide to be useful to you, please make sure that the following requirements are met:
-        * A PC running Windows 10/11 or any up-to-date Linux distribution suited for gaming.
-        * You **must** own the game on [:material-steam:Steam](https://store.steampowered.com/app/12210/) or the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions are not supported. Retail versions with 1.0.8.0 are not supported, but should work as long as you get rid of the DRM.
-        * Your PC must at least meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Requirements on PCGW - copied from Steam"). For a pleasant experience, however, it should also meet [DXVK's requirements](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK's GitHub Wiki") (ignore Linux requirements such as Wine if you're running Windows; older GPUs may meet the 1.10.3 requirements instead).
-        * The game should not be located in :material-folder:`C:\Program Files` or :material-folder:`C:\Program Files (x86)` to avoid permission issues. ==This is irrelevant for :material-steam:Steam users.==
-        * Make sure you have enough free space on your drive (the base game takes about 22GB, a backup will take just as much, plus count in all the modding you'd do - reserve at least 70GB counting the game too).
-        * You need to have an archivator installed. I recommend [7-Zip](https://www.7-zip.org/ "Official 7-Zip website").
-        * Make sure you have the game's prerequisites installed (they're already taken care of by :material-steam:Steam and the Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Microsoft's official redistributables") and [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
+    In order for this guide to be useful to you, **please make sure the following prerequisites are met.**
 
-## Gameplay Demo
-Your game will look and play roughly like this after finishing the modding (a severely outdated [drag-and-drop archive](drag-and-drop-archive.md) has been used for these videos - up-to-date version will provide even better results).
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lARlDyPLLtA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    **^^If they are not, I will be reluctant to help you if something goes wrong - and one of the additional requirements is to read everything as is and don't skip anything.^^**
 
-## catsmackaroo's Guide
-catsmackaroo's *old* guide was the motivation behind making the original guide. My guide has evolved long since, and now catsmackaroo plans to do a new series of videos introducing people to modding IV partially based off my guide. Here's the first part of it:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AhPr0WAqNv8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **You must own the game on [:material-steam:Steam](https://store.steampowered.com/app/12210/) or the [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
+- **Operating system:** Your PC **should be running Windows 10 or 11 or any up-to-date Linux distribution suited for gaming**. Older Windows versions may work, but I will not provide support for them. ARM64 systems have not been tested.
+- **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Game requirements on PCGW - copied from Steam")**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
 
-## Sections
-If you have no need for the in-depth tutorials, you can simply install the [drag-and-drop archive](drag-and-drop-archive.md) and you are ready to go.
+    | Hardware     | Recommended         | Alternative                             |
+    | :----------: | :-----------------: | :-------------------------------------: |
+    | **OS**       | Windows 10/11       | Linux                                   |
+    | **CPU**      | Intel Core i5-6600k | Ryzen 3 2200G                           |
+    | **GPU**      | GTX 970/1050Ti      | RX580, Intel Arc A310                   |
+    | **RAM**      | 8GB                 |                                         |
+    | **Storage**  | 30GB (Ideally SSD)  | If manually modding, ~70 GB for backups |
 
-Otherwise, start with [optimization](optimization.md).
+- **Software:**
+    - You need to have an archivator installed. I recommend **[NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r?rtc=1&hl=en-us&gl=us)** or **[7-Zip](https://www.7-zip.org/ "Official 7-Zip website")**.
+    - It is highly recommended to **[update your GPU drivers](optimization/#drivers)**.
+    - Make sure you have the game's prerequisites installed - [Microsoft Visual C++ Redistributables](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/ "VC++ Runtimes All-in-One") (extract and run :material-file-download:`install_all.bat`) and [Microsoft DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables"). ==Usually, they are already installed if using :material-steam:Steam or the Rockstar Games Launcher.==
+- **The game should not be located in :material-folder:`C:\Program Files` or :material-folder:`C:\Program Files (x86)` to avoid permission issues.** ==This is irrelevant for :material-steam:Steam users.==
 
-[Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary } [Next page:material-page-last: <br>Credits</br>](credits.md){ .md-button .md-button--primary }
+## Navigation
+
+<div class="grid cards" markdown>
+
+- If you have **no need for the in-depth guides and only want the best singleplayer-only campaign experience:**
+
+     [Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary }
+
+- If you wish to go through the guide **step-by-step** yourself, start with optimization:
+
+     [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
+
+</div>
+
+If you are **only interested in something specific**, use the navigation bar to the left to pick your page of interest.
+
+## Support
+
+Got questions or encountered a problem? This guide has a [Troubleshooting](troubleshooting) page and a [Discord server](https://discord.gg/zwmsQqExbQ) for support and general discussion.

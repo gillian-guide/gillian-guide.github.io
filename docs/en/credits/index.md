@@ -2,6 +2,7 @@ title: Credits
 description: This guide wouldn't be possible without all these amazing people!
 
 # Credits
+
 This guide wouldn't be possible without all these amazing people!
 
 ## ThirteenAG

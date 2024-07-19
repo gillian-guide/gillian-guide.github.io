@@ -95,12 +95,7 @@ markdown_extensions:
 
 
 nav:
-  - Introduction:
-    - "index.md"
-    - "credits.md"
-    - "support.md"
-    - "troubleshooting.md"
-    - "contact-me.md"
+  - "index.md"
   - "drag-and-drop-archive.md"
   - "optimization.md"
   - "additional-setup.md"
@@ -111,10 +106,9 @@ nav:
     - "essential-modding/fusionfix.md"
     - "essential-modding/zolikapatch.md"
     - "essential-modding/variousfixes.md"
-    - "essential-modding/libertytweaks.md"
     - "essential-modding/charactersfixes.md"
     - "essential-modding/consolevisuals.md"
-    - "essential-modding/project2dfx.md"
+    - "essential-modding/libertytweaks.md"
   - Extras:
     - "extras/index.md"
     - "multiplayer.md"
@@ -123,6 +117,10 @@ nav:
     - "extras/openiv.md"
     - "extras/modloading.md"
     - "extras/mods.md"
+  - "troubleshooting.md"
+  - Credits:
+    - "credits/index.md"
+    - "credits/support.md"
 
 extra:
   social:
