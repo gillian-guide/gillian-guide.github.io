@@ -45,8 +45,8 @@ It is highly recommended to have latest drivers installed for best performance a
 ## Terminology
 
 - **Game**, **Installation** or **Root folder** typically refers to the location where :material-file:`GTAIV.exe` is located, which is at:
-    - :material-steam:**Steam**: :material-folder:==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
-    - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder:==Rockstar Games\Grand Theft Auto IV==
+    - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
+    - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **CE** or **Complete Edition** refers to the latest official version of the game, **1.2.0.59**.
 - **Retail version** normally refers to a disc version of a game, but this guide is referring to the pre-CE version of the game, **1.0.8.0**.
 - **EFLC** refers to the "Episodes from Liberty City".
@@ -73,6 +73,7 @@ This is the latest version of the game, which you normally receive when installi
         :material-minus-box: Compatibility with old mods is not guaranteed. While some mods work, there are some that do not. They are not critical to fixing the game, though.<br>
         :material-minus-box: Official multiplayer is removed and third-party experience is limited.<br>
         :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
+        :material-minus-box: No support for GFWL (Xbox Live) achievements.
 
 ### Retail version (1.0.8.0)
 
@@ -90,7 +91,7 @@ This is the version of the game that existed before the Complete Edition. ==This
         :material-minus-box: Limited compatibility with FusionFix, which will reduce how many fixes you actually get.<br>
         :material-minus-box: To make multiplayer work, you have to set up GFWL, which is a lot of hassle. Although a third-party alternative exists.<br>
         :material-minus-box: EFLC support can only be achieved through mods.<br>
-        :material-minus-box: Steam Achievements (which can only be achieved with mods) and GFWL achievements do not work at the same time. No support for Social Club achievements.<br>
+        :material-minus-box: Steam Achievements support can only be achieved with mods, which also disable GFWL achievements. No support for Social Club achievements.<br>
         :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
 
 ## Modding the game
@@ -98,7 +99,7 @@ This is the version of the game that existed before the Complete Edition. ==This
 !!! warning ""
     **If you had previously modded the game or installed a modpack, it is highly recommended that you first uninstall the game from your launcher, then delete any leftovers that stayed in the root folder.**
 
-    **The game should not be located in :material-folder:`Desktop` or :material-folder:`Documents` or other default system folders to avoid issues.** If not using :material-steam:Steam, it should also not be located in :material-folder:`C:\Program Files` or :material-folder:`C:\Program Files (x86)`.
+    **The game should not be located in :material-folder:`Desktop` or :material-folder:`Documents` or other default system folders to avoid issues.** If not using :material-steam:Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
 
 <div class="grid cards" markdown>
 
