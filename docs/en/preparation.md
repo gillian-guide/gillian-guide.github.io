@@ -42,11 +42,12 @@ It is highly recommended to have latest drivers installed for best performance a
         - Press `Download now` and open the downloaded executable.
         - Follow the displayed instructions to install the drivers. Ignore warnings about OEM drivers.
 
-## Terminology
+## Terminology and tips
 
 - **Game**, **Installation** or **Root folder** typically refers to the location where :material-file:`GTAIV.exe` is located, which is at:
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
+- **When told to extract a folder**, extract the folder itself, not the contents unless told otherwise.
 - **CE** or **Complete Edition** refers to the latest official version of the game, **1.2.0.59**.
 - **Retail version** normally refers to a disc version of a game, but this guide is referring to the pre-CE version of the game, **1.0.8.0**.
 - **EFLC** refers to the "Episodes from Liberty City".
@@ -96,10 +97,11 @@ This is the version of the game that existed before the Complete Edition. ==This
 
 ## Modding the game
 
-!!! warning ""
-    **If you had previously modded the game or installed a modpack, it is highly recommended that you first uninstall the game from your launcher, then delete any leftovers that stayed in the root folder.**
+!!! warning "Game installation"
+    - **If you had previously modded the game or installed a modpack, it is highly recommended that you first uninstall the game from your launcher, then delete any leftovers that stayed in the root folder, as launchers don't remove those.**
+    - **The game should not be located in :material-folder:`Desktop` or :material-folder:`Documents` or other default system folders to avoid issues.** If not using :material-steam: Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
 
-    **The game should not be located in :material-folder:`Desktop` or :material-folder:`Documents` or other default system folders to avoid issues.** If not using :material-steam:Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
+If the above is met, continue with one of the following pages:
 
 <div class="grid cards" markdown>
 

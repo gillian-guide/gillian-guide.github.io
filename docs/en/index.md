@@ -22,11 +22,13 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 ## Prerequisites
 
 !!! warning ""
-    In order for this guide to be useful to you, **please make sure the following prerequisites are met.**
+    In order for this guide to be useful to you, and for you to be eligible for support later, **please make sure the following prerequisites are met, aswell as my additional requirements:**
 
-    **^^If they are not, I will be reluctant to help you if something goes wrong - and one of the additional requirements is to read everything as is and don't skip anything.^^**
+    - Read everything as is and don't skip anything.
+    - Avoid using other guides unless they are mentioned in this one. If something is mentioned in other guides but not here, it is most likely not useful here.
+    - I do not provide support for ENBs or graphical enhancements (i.e. ICEnhancer). You're on your own for those.
 
-- **You must own the game on [:material-steam:Steam](https://store.steampowered.com/app/12210/) or the [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
+- **You must own the game on [:material-steam: Steam](https://store.steampowered.com/app/12210/) or the [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
 - **Operating system:** Your PC **should be running Windows 10 or 11 or any up-to-date Linux distribution suited for gaming**. Older Windows versions may work, but I will not provide support for them. ARM64 systems have not been tested.
 - **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Game requirements on PCGW - copied from Steam")**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
 
