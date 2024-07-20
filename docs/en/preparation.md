@@ -109,8 +109,8 @@ If the above is met, continue with one of the following pages:
 
      [Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary }
 
-- If you wish to go through the guide **step-by-step** yourself, start with optimization:
+- If you wish to go through the guide **step-by-step** yourself, start with downgrading:
 
-     [Next page:material-page-last: <br>Optimization</br>](optimization.md){ .md-button .md-button--primary }
+     [Next page:material-page-last: <br>Downgrading</br>](downgrading/index.md){ .md-button .md-button--primary }
 
 </div>

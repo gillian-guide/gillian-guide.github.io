@@ -40,6 +40,7 @@ TBA
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
         - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.**
         - When in-game, **apply [optional game settings](additional-setup.md/#optimal-game-settings)**.
+        - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
     !!! info "Updating"
@@ -67,6 +68,7 @@ TBA
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
         - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`**.
         - When in-game, **apply [optional game settings](additional-setup.md/#optimal-game-settings)**.
+        - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - If you want **more mods, check out [additional mods](#additional-mods)**.
         - **If using Linux**, **remove files/folders starting with `IVSDKDotNet`**.
     !!! info "Updating"

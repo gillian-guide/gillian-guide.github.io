@@ -100,9 +100,12 @@ nav:
   - "index.md"
   - "preparation.md"
   - "drag-and-drop-archive.md"
+  - Downgrading:
+    - "downgrading/index.md"
+    - "downgrading/downgrading-the-radio.md"
+    - "downgrading/downgrading-the-game.md"
   - "optimization.md"
   - "additional-setup.md"
-  - "downgrading.md"
   - "mod-dependencies.md"
   - Essential Modding:
     - "essential-modding/index.md"
