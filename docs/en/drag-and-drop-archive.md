@@ -136,9 +136,9 @@ All mods in the following list are present in both archives with identical versi
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | High resolution textures of radio logos. |
 
-### Different mods
+### Separate mods
 
-The mods or their specific versions in the following list are present in only one of the archives.
+The mods or their specific versions in the following list are present in only one of the archives due to incompatibility with the other version.
 
 === "1.2.0.59"
     | Mod | Developers | Details |
@@ -157,6 +157,7 @@ The mods or their specific versions in the following list are present in only on
 ## Additional Mods { data-search-exclude }
 
 These mods are not included by default, but are easy to install ontop of the archive. Any other mods not mentioned in this list are not supported.
+
 === "1.2.0.59"
     | Mod | Developers | Details |
     | :-: | :--------: | :-----: |
