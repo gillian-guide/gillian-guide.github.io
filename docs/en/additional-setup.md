@@ -31,7 +31,7 @@ If you're here after installing DXVK instead, start with the **launch options**:
     5. Don't forget to enable `Borderless` in FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later. **If you don't plan to install either of the mods, remove `-windowed`.**
 === "1.2.0.59"
     1. Right click the game in your library, press `Properties...`.
-    2. In the `Launch options` field, paste the following line: `-norestrictions -nomemrestrict -windowed -managed`
+    2. In the `Launch options` field, paste the following line: `-norestrictions -nomemrestrict -windowed -managed`.
     3. Don't forget to enable `Borderless` in FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later. **If you don't plan to install either of the mods, remove `-windowed`.**
 
 ???+ warning "If using DXVK..."
@@ -46,7 +46,7 @@ If you're here after installing DXVK instead, start with the **launch options**:
     Add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to Steam Launch options.
 
 !!! danger "But other guides use more options!"
-    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC couldn't handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
+    ^^Don't use them^^. They might have helped back in 2009 when the average customer PC couldn't handle some basic features, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 
 ??? abstract "Full list of available launch options"
     You can use these options for intensive tweaking or debugging.
