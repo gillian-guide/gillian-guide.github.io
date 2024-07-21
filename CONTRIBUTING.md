@@ -1,52 +1,54 @@
-# 📖 Contributing to Gillian's GTA IV Modding Guide
+# Contributing to Gillian's GTA IV Modding Guide
 
-First and foremost, thank you for considering a contribution to Gillian's GTA IV Modding Guide! 🎉 Your knowledge, expertise, and dedication will help us enhance this guide, benefiting the entire modding community.
+First and foremost, thank you for considering a contribution to Gillian's GTA IV Modding Guide! Your knowledge, expertise, and dedication will help us enhance this guide, benefiting the entire modding community.
 
-## 🚀 Getting Started
+## Getting Started
 
 Before diving in, here's a summary of what you should know:
 
 ### Table of Contents
 
-- [🐛 Reporting Bugs and Issues](#-reporting-bugs-and-issues)
-- [✨ Suggesting Enhancements](#-suggesting-enhancements)
-- To start developing this guide, refer to:
-  - [📜 Coding Style Guide](#-coding-style-guide)
-  - [🌍 Pull Request Process](#-pull-request-process)
-  - [🌀 Setting Up Your Local Development Environment](.github/docs/setting-up-your-local-development-environment.md)
-  - [🔧 Tools & Resources](.github/docs/tools-and-resources.md)
+- [Reporting bugs and issues](#reporting-bugs-and-issues)
+- [Suggesting enhancements](#suggesting-enhancements)
+- To contribute yourself, refer to:
+    - [Coding style guide](#coding-style-guide)
+    - [Pull Request process](#pull-request-process)
+    - [Setting up your local development environment](.github/docs/setting-up-your-local-development-environment.md)
+    - [Tools & Resources](.github/docs/tools-and-resources.md)
 
 ---
 
-## 🐛 Reporting Bugs and Issues
+## Reporting bugs and Issues
 
 If you've identified a bug or issue:
 
-1. **Check Existing Issues**: Before creating a new issue, please check [existing issues](https://github.com/gillian-guide/gillian-guide.github.io/issues) to avoid duplicates. Also, check on the [Discord server](https://discord.gg/zwmsQqExbQ), and don't forget to consult the [Troubleshooting page](https://gillian-guide.github.io/troubleshooting/) beforehand.
-2. **Create a New Issue**: If your bug hasn't been reported, open a [new issue on GitHub](https://github.com/gillian-guide/gillian-guide.github.io/issues/new) or create a ticket on the [Discord server](https://discord.gg/zwmsQqExbQ), providing as much detail as possible.
+1. **Check existing issues**: Before creating a new issue, please check [existing issues](https://github.com/gillian-guide/gillian-guide.github.io/issues) to avoid duplicates. Also, check if it was reported on the [Discord server](https://discord.gg/zwmsQqExbQ).
+2. **Create a new issue**: If your issue hasn't been reported, open a [new issue on GitHub](https://github.com/gillian-guide/gillian-guide.github.io/issues/new) or create a ticket on the [Discord server](https://discord.gg/zwmsQqExbQ), providing as much detail as possible.
 
-## ✨ Suggesting Enhancements
+## Suggesting enhancements
 
-We are always looking for ways to improve. If you have a suggestion:
+I'm always looking for ways to improve the guide. If you have a suggestion:
 
-1. **Open a Discussion or Issue**: Share your ideas on the [Discord server](https://discord.gg/zwmsQqExbQ).
+1. **Suggest it on the Discord server**: Share your ideas on the [Discord server](https://discord.gg/zwmsQqExbQ).
 2. **Provide Details**: Ensure your proposal is detailed, explaining both the benefits and any potential challenges.
 
-## 📜 Coding Style Guide
+## Coding style guide
 
 This project uses [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), a framework that converts `markdown` files into a static documentation website. Learn more about [markdown](https://www.markdownguide.org/).
 
-For clarity, adhere to the default [markdown rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md). The [🔧 Tools & Resources](.github/docs/tools-and-resources.md) can assist you.
+For clarity, adhere to the default [markdown rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md). The [Tools & Resources](.github/docs/tools-and-resources.md) can assist you.
 
-- Some of these rules can be bypassed in the `.markdownlint.json` file, but only when absolutely necessary. Here is the complete list of currently disabled rules:
-  - [MD013 - Line length](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md)
-  - [MD033 - Inline HTML](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md#md033---inline-html)
-- When including an emoji in a title, you might encounter the [MD051 - Link fragments should be valid](https://github.com/DavidAnson/markdownlint/blob/main/doc/md051.md#md051---link-fragments-should-be-valid) error. To resolve this, simply exclude the emoji from your link. For example: `#-my-car` would target `🚗 My Car`.
+- Some of these rules can be bypassed in the `.markdownlint.json` file, but only when absolutely necessary. Here is the complete list of currently changed rules:
+    - [MD007 - Unordered list indentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/md007.md): Changed to 4 due to Material requiring it for some styling.
+    - [MD013 - Line length](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md): Disabled due to Material handling it automatically.
+    - [MD033 - Inline HTML](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md): `<div>` and `<br>` were allowed due to Material requiring divs for grid cards and occasionally requiring to force a newline to preserve styling.
+    - [MD041 - First line in a file should be a top-level heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md041.md): Disabled due to Material requiring the title and description be the top item in the file.
+    - [MD046 - First line in a file should be a top-level heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md046.md): Changed to fenced rather than indented to be able to highlight the language.
 
-Furthermore, this project also uses [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n/) for multi-language support. All the suggested changes must include a Russian version of the page alongside the English one (by creating `file.en.md` and a `file.ru.md` together). If you're unable to translate the page yourself, create a Draft Pull Request and request for somebody else to translate your page.
-- If you wish to add a new language, create a new folder with your language code, copy the files from the other folders, translate *all* the `markdown` files and follow the documentation on the i18n repository.
+Furthermore, this project also uses [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n/) for multi-language support. All the suggested changes must include a Russian version of the page alongside the English one. If you're unable to translate the page yourself, create a Draft Pull Request and request for somebody else to translate your page.
+    - If you wish to add a new language, create a new folder with your language code, copy the files from the other folders, translate *all* the `markdown` files and follow the documentation on the i18n repository.
 
-## 🌍 Pull Request Process
+## Pull Request process
 
 If you're ready to contribute:
 
