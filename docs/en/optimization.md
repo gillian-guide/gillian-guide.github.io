@@ -27,7 +27,7 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 
 ## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
 
-Using this tool you can set up DXVK and [Launch Options](../additional-setup.md/#launch-options) easily and automatically.
+Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically.
 
 !!! warning ""
     - You should re-run the tool if you downgrade or install FusionFix and/or ZolikaPatch later.
