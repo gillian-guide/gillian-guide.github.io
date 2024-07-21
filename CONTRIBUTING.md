@@ -41,12 +41,13 @@ For clarity, adhere to the default [markdown rules](https://github.com/markdownl
 - Some of these rules can be bypassed in the `.markdownlint.json` file, but only when absolutely necessary. Here is the complete list of currently changed rules:
     - [MD007 - Unordered list indentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/md007.md): Changed to 4 due to Material requiring it for some styling.
     - [MD013 - Line length](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md): Disabled due to Material handling it automatically.
-    - [MD033 - Inline HTML](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md): `<div>` and `<br>` were allowed due to Material requiring divs for grid cards and occasionally requiring to force a newline to preserve styling.
+    - [MD033 - Inline HTML](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md): `<div>` was allowed due to Material requiring divs for grid cards. `<br>` is allowed to occasionally requiring to force a newline without creating spacing. `<a>` is allowed for the `README.md`.
     - [MD041 - First line in a file should be a top-level heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md041.md): Disabled due to Material requiring the title and description be the top item in the file.
-    - [MD046 - First line in a file should be a top-level heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md046.md): Changed to fenced rather than indented to be able to highlight the language.
+    - [MD046 - Code block style](https://github.com/DavidAnson/markdownlint/blob/main/doc/md046.md): Changed to fenced rather than indented to be able to highlight the language.
 
 Furthermore, this project also uses [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n/) for multi-language support. All the suggested changes must include a Russian version of the page alongside the English one. If you're unable to translate the page yourself, create a Draft Pull Request and request for somebody else to translate your page.
-    - If you wish to add a new language, create a new folder with your language code, copy the files from the other folders, translate *all* the `markdown` files and follow the documentation on the i18n repository.
+
+- If you wish to add a new language, create a new folder with your language code, copy the files from the other folders, translate *all* the `markdown` files and follow the documentation on the i18n repository.
 
 ## Pull Request process
 
