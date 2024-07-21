@@ -1,36 +1,57 @@
 title: Additional Setup
-description: Additional setup for your GTA IV installation - after performing the optimization or the drag-and-drop archive
+description: Setting up launch options and optimal graphics settings
 
 # Additional Setup
-Whether you're here after using the [drag-and-drop archive](drag-and-drop-archive.md) or performing the [optimization](optimization.md), we still need to do some setup for the best experience.
 
-## Launch Options
-???+ note "How to set the Launch Options?"
-    There are two ways to:
+<div class="grid cards" markdown>
 
-    1. For Complete Edition, go to the game's Properties menu in :material-steam:Steam and set them there;
-    2. For retail versions, create a :material-file-cog:`commandline.txt` in the game folder and edit it.
-???+ tip "Setup Utility"
-     [Automatic setup utility](../optimization/#setup-utility) can set up the launch options semi-automatically.
+- If you're here after installing the archive, **skip to optimal graphics settings**:
 
-The only options you need to set are: `-norestrictions -nomemrestrict`. All options with values should have a space between the option and the value.
+    [Optimal graphics settings:material-page-last:](#optimal-game-settings){ .md-button .md-button--primary }
 
-???+ warning "When using DXVK or drag-and-drop archive..."
-    * Add `-windowed` to use borderless fullscreen for better stability. Make sure `BorderlessWindowed` is enabled in :material-file-cog:`ZolikaPatch.ini` or/and :material-file-cog:`GTAIV.EFLC.FusionFix.ini` for this to work.
-    * Disable `Enable Shader Pre-caching` in `Settings` - `Downloads` on Steam.
-    * If the game doesn't show the correct amount of VRAM in the graphics settings (e.g. 512MB), add `-availablevidmem` with the amount of video memory of your GPU with a `.0` after it - up to `3072.0`.
-    * If the game doesn't allow you to use the correct resolution/refresh rate, add `-width`, `-height` and `-refreshrate` with your monitor's native values. If it still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`.
+</div>
 
-???+ warning "When running on Linux..."
-    Perform a [DLL override](https://cookieplmonster.github.io/setup-instructions/#proton-wine) to use either :fontawesome-solid-gears:`dinput8.dll` or :fontawesome-solid-gears:`xlive.dll`.
+If you're here after installing DXVK instead, start with the **launch options**:
+
+## Launch options
+
+!!! tip "Setup Utility"
+    The [Setup Utility](../optimization.md/#setup-utility-automatic-installation) can set up the launch options automatically for you.
+
+=== "1.0.8.0"
+    1. In the game folder, create a :material-file-cog:`commandline.txt` file.
+    2. Open the file.
+    3. Insert the following lines to it:
+    ```
+    -norestrictions
+    -nomemrestrict
+    -windowed
+    -managed
+    ```
+    5. Don't forget to enable `Borderless` in FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later. **If you don't plan to install either of the mods, remove `-windowed`.**
+=== "1.2.0.59"
+    1. Right click the game in your library, press `Properties...`.
+    2. In the `Launch options` field, paste the following line: `-norestrictions -nomemrestrict -windowed -managed`
+    3. Don't forget to enable `Borderless` in FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later. **If you don't plan to install either of the mods, remove `-windowed`.**
+
+???+ warning "If using DXVK..."
+    - Remove `-managed`.
+    - Add `-availablevidmem 3072.0` to the list of options
+        - Replace the value for `availablevidmem` with your VRAM values in MBs if you have less than 3GB of VRAM. Don't make it higher, though.
+    - If the game doesn't allow you to use the correct resolution/refresh rate in the graphics settings, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+        - If that still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`.
+    - Make sure you disabled `Enable Shader Pre-caching` in `Settings` - `Downloads` on :material-steam: Steam.
+
+!!! warning "If using Linux..."
+    Add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to Steam Launch options.
 
 !!! danger "But other guides use more options!"
     ^^Don't use them^^. They might have helped back in 2009 when the average customer PC couldn't handle precaching and other stuff, but nowadays these options just make things worse or act as a pure placebo. Only add options if a [mod](extras/mods.md) says to add one.
 
-??? abstract "Full list of launch options"
-    You can use these options for tweaking, debugging and playing around. The list is taken from the [PCGW page](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
+??? abstract "Full list of available launch options"
+    You can use these options for intensive tweaking or debugging.
 
-    | Option | Description | 
+    | Option | Description |
     | -----: | :---------- |
     | -help | Lists the available commands. |
     | -adapter | Uses the specified screen adapter. |
@@ -75,16 +96,16 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
     | -windowed | Forces windowed mode. |
     | -width | Sets the horizontal resolution. |
 
-## Optimal Game Settings
-![GTA IV Settings](../assets/gta4settings.webp){: style="height:25%;width:25%"; align=right}
-!!! note ""
-    These settings are optimal for mid-end hardware. If your PC is weaker - feel free to lower them. If your PC is stronger - feel free to increase them, but don't blame me for the issues.
+## Optimal game settings
 
-??? info "Console Settings"
+!!! note ""
+    These settings are targetted for the [recommended spec sheet hardware](index.md/#prerequisites).
+
+??? info "Console settings"
     These settings were set on console versions of the game, and the game is most optimized for them. They are included for having a complete list.
-| Setting | Optimal Setting | Console Setting | Description |
-| :-----: | :-------------: | :-----------: | :---------: |
-| Video Mode | Your native resolution(max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+| Setting | Optimal setting | Console setting | Description |
+| :-----: | :-------------: | :-------------: | :---------: |
+| Video Mode | Your native resolution (max option, usually) | 1280x720 on Xbox 360; 1152x640 on PlayStation 3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
 | Aspect Ratio | Auto | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
 | Texture Quality | High | Medium | This setting controls the resolution of all textures. |
 | Reflection Resolution | Very High | Medium | This setting controls the resolution of reflections (excluding water reflections). |
@@ -113,6 +134,6 @@ The only options you need to set are: `-norestrictions -nomemrestrict`. All opti
 ??? question "What is :material-file-cog:`stream.ini`?"
     Other guides often suggest editing :material-file-cog:`stream.ini` to change the values in there from `2048000` to `4096000`. From [PCGW users' observations](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), as well as my own - this provides no benefit whatsoever and is likely a placebo.
 
-You can stop here if all you wanted was to improve your performance, however I'd advise going up to install essential mods for best experience.
+You can stop here if all you wanted was to improve your performance, however I'd advise going further to **install essential mods for best experience**.
 
-[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Downgrading</br>](downgrading.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }

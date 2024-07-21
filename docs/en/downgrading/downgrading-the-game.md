@@ -68,7 +68,7 @@ This version is not going to be useful in the scope of the guide, but since it i
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
-    !!! note "Usage"
+    !!! info "Usage"
         1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
         2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
         3. Unpack the archive in any empty folder.
@@ -80,7 +80,7 @@ This version is not going to be useful in the scope of the guide, but since it i
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.
 
-    !!! note "Usage"
+    !!! info "Usage"
         1. Create an antivirus exclusion for your game folder.
         2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
         3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
