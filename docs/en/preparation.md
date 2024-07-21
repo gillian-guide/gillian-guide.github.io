@@ -47,7 +47,7 @@ It is highly recommended to have latest drivers installed for best performance a
 - **Game**, **Installation** or **Root folder** typically refers to the location where :material-file:`GTAIV.exe` is located, which is at:
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
-- **When told to extract a folder**, extract the folder itself, not the contents unless told otherwise.
+- **When told to extract a folder**, extract the folder itself, not the contents (unless told otherwise).
 - **CE** or **Complete Edition** refers to the latest official version of the game, **1.2.0.59**.
 - **Retail version** normally refers to a disc version of a game, but this guide is referring to the pre-CE version of the game, **1.0.8.0**.
 - **EFLC** refers to the "Episodes from Liberty City".
@@ -66,10 +66,10 @@ If the above is met, continue with one of the following pages:
 
 - If you have **no need for the in-depth guides and only want the best singleplayer-only campaign experience:**
 
-     [Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Drag-and-Drop Archive</br>](drag-and-drop-archive.md){ .md-button .md-button--primary }
 
 - If you wish to go through the guide **step-by-step** yourself, start with downgrading:
 
-     [Next page:material-page-last: <br>Downgrading</br>](downgrading/index.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Downgrading</br>](downgrading/index.md){ .md-button .md-button--primary }
 
 </div>

@@ -6,7 +6,7 @@ description: A complete ready-to-play modpack for the best singleplayer-only GTA
 The Drag-and-Drop Archive (also known as Gillian's Modpack) is a complete ready-to-play modpack for the best singleplayer-only GTA IV campaign experience. All you have to do to install it is just drop the files into the game folder and do a few extras - thus the name.
 
 !!! warning ""
-    Make sure the **prerequisites** are met and **preparation** was done. If you missed one of the steps, you may encounter issues using this archive and won't receive support.
+    Make sure the **prerequisites are met** and **preparation was done**. If you missed one of the steps, you may encounter issues using this archive and won't receive support.
 
     [:material-page-first:Introduction: Prerequisites</br>](index.md/#prerequisites){ .md-button } [:material-page-first:Preparation</br>](preparation.md){ .md-button }
 
@@ -39,7 +39,6 @@ TBA
     6. You are ready to play!
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
         - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.**
-        - When in-game, **apply [optional game settings](additional-setup.md/#optimal-game-settings)**.
         - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
@@ -67,7 +66,6 @@ TBA
     6. You are ready to play!
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
         - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`**.
-        - When in-game, **apply [optional game settings](additional-setup.md/#optimal-game-settings)**.
         - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - If you want **more mods, check out [additional mods](#additional-mods)**.
         - **If using Linux**, **remove files/folders starting with `IVSDKDotNet`**.
@@ -88,11 +86,11 @@ TBA
 
 - After installing the archive, **apply optimal graphics settings**:
 
-     [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
 
-- **If using Linux, also apply Launch Options manually**:
+- **If using Linux,** also apply Launch Options manually:
 
-     [Next page:material-page-last: <br>Additional Setup: Launch options</br>](additional-setup.md/#launch-options){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Additional Setup: Launch options</br>](additional-setup.md/#launch-options){ .md-button .md-button--primary }
 
 </div>
 
@@ -467,5 +465,3 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated Shader Fixes.
         - 26.06.2023:
             - Created the archive.
-
-</div>

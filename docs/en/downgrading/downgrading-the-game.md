@@ -3,63 +3,113 @@ description: Downgrading the game version and the savefiles back to the retail v
 
 # Downgrading the game
 
-## Downgrading process
+## Game versions
 
-??? question "Which downgrader to choose"
-    It depends vaguely on your goals. If you want something as simple as pressing two buttons - go with mine. If you want something more in-depth - go with ItsClockAndre's.
+### Complete Edition (1.2.0.59)
 
-    * :material-plus-minus: means "Partially" or "Not as good".
+This is the latest version of the game, which you normally receive when installing the game on :material-steam:Steam or :simple-rockstargames: Rockstar Games Launcher. ==This version should be preferred if you want the **best singleplayer campaign experience.**==
 
-    | Advantages | Gillian's | ItsClockAndre's |
-    | :--------: | :-------: | :-------------: |
-    | Downgrading to 1.0.8.0 and 1.0.7.0 | :material-checkbox-marked-circle: |  :material-checkbox-marked-circle: |
-    | Downgrading to 1.0.4.0 | :material-cancel: | :material-checkbox-marked-circle: |
-    | Simplicity | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Lightweight | :material-checkbox-marked-circle: | :material-plus-minus: |
-    | Optional [GFWL](../multiplayer/#games-for-windows-live) support | :material-checkbox-marked-circle: | :material-checkbox-marked-circle: |
-    | Radio downgrading | :material-plus-minus: | :material-checkbox-marked-circle: |
+??? quote "Pros and cons"
+    !!! success ""
+        :material-plus-box: It works out of the box. No modifications are required to launch the game.<br>
+        :material-plus-box: Best support for modern mods made after 2020, such as FusionFix. This ensures getting the most fixes possible when modding.<br>
+        :material-plus-box: Includes EFLC.<br>
+        :material-plus-box: Supports Steam and Social Club Achievements out of the box.
+
+    !!! danger ""
+        :material-minus-box: Rockstar Games Launcher and it's DRM is required, which can be considered bloat for multiple reasons: the game launches for a minute longer and it does not provide anything but achievements to the game, to name two.<br>
+        :material-minus-box: Compatibility with old mods is not guaranteed. While some mods work, there are some that do not. They are not critical to fixing the game, though.<br>
+        :material-minus-box: Official multiplayer is removed and third-party experience is limited.<br>
+        :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
+        :material-minus-box: No support for GFWL (Xbox Live) achievements.
+
+### Retail version (1.0.8.0)
+
+This is the version of the game that existed before the Complete Edition. ==This version should only be preferred if you want to **play the multiplayer**, use  **specific mods** you have in mind that don't support CE or want to **play without DRM.**==
+
+??? quote "Pros and cons"
+    !!! success ""
+        :material-plus-box: Supports official multiplayer.<br>
+        :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
+        :material-plus-box: Best support for old mods made before 2020. If you don't know any yourself, don't consider this a point worth noting.<br>
+        :material-plus-box: Supports a few more QoL mods Complete Edition doesn't, such as Liberty Tweaks.<br>
+        :material-plus-box: Supports GFWL (Xbox Live) achievements, but at the cost of Steam Achievements.
+
+    !!! danger ""
+        :material-minus-box: Limited compatibility with FusionFix, which will reduce how many fixes you actually get.<br>
+        :material-minus-box: To make multiplayer work, you have to set up GFWL, which is a lot of hassle. Although a third-party alternative exists.<br>
+        :material-minus-box: EFLC support can only be achieved through mods.<br>
+        :material-minus-box: Steam Achievements support can only be achieved with mods, which also disable GFWL achievements. No support for Social Club achievements.<br>
+        :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
+
+### Retail version (1.0.4.0)
+
+This version is not going to be useful in the scope of the guide, but since it is a popular version in the community, it should be mentioned - and explained why won't we use it. ==This version should only be preferred for **graphical mods**, which receive no support on this guide.==
+
+??? quote "Pros and cons"
+    !!! success ""
+        :material-plus-box: Best support for graphical mods.<br>
+        :material-plus-box: Slightly better average FPS.<br>
+        :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
+        :material-plus-box: Supports GFWL (Xbox Live) achievements.
+
+    !!! danger ""
+        :material-minus-box: Little to none mod support.<br>
+        :material-minus-box: Awful framepacing.<br>
+        :material-minus-box: No EFLC support.<br>
+        :material-minus-box: No support for Steam or Social Club achievements.
+
+## Downgrading instructions
+
+!!! question "Which downgrader to choose?"
+    - Use ItsClockAndre's if you want to downgrade to 1.0.4.0 or if you have issues with mine.
+    - Use mine for every other case.
 
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
-    I've made my own downgrader for my own purposes. I don't intend this to be a replacement to Clonk's, nor in any way necessarily superior - simply my own alternative. Though, it does offer a few benefits - it attempts to keep the mods up-to-date and doesn't let you do "stupid" downgrades with the toggles logic. You can also just open it, select your folder and press `Downgrade` without toggling anything else.
+    I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
-    ???+ note "Usage"
-        - Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
-        - Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
-        - Unpack the archive in any desired folder.
-        - Open the tool.
-        - Select your game folder.
-        - Toggle anything if your heart desires to. Defaults are fine, but you may want to disable the GFWL toggle.
-        - Press `Downgrade` to, well, downgrade. It will automatically download and install everything.
+    !!! note "Usage"
+        1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
+        2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
+        3. Unpack the archive in any empty folder.
+        4. Open `GTAIVDowngradeUtilityWPF.exe`.
+        5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
+        6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
+            - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
 
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
-    This downgrader is online-based and only downloads what you choose to download. It replaces more files than Zolika1351's downgrader, making it harder to restore an installation if you haven't made a backup, but it also makes this downgrader closer to a true retail version. This downgrader may bundle outdated files. This downgrader also has an option to downgrade to 1.0.4.0.
+    This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.
 
-    ???+ note "Installation"
-        - Create an antivirus exclusion for your game folder (optional, but highly recommended).
-        - Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
-        - Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved:==administrator rights==.
-        ??? info "Offline mode"
-            You can set up downgrader up for offline use instead. Download the files from [here](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) and extract them into the :material-folder:==Downgrader\\Data\\Temp==. Run :material-file:`LaunchInOfflineMode.exe` instead.
-        - Follow the instructions in the application. Be sure to read the warnings at mod selection.
-        - If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the `xliveless` mod is enabled.
-        !!! info ""
-            If you somehow missed this step, set up [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) to get rid of GFWL.
+    !!! note "Usage"
+        1. Create an antivirus exclusion for your game folder.
+        2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
+        3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
+        4. Follow the instructions in the application. Be sure to read the warnings at mod selection.
+        5. If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the **xliveless** component is enabled.
+        !!! quote ""
+            If you somehow missed step 5 and now unable to launch the game, set up [Ultimate ASI Loader](../mod-dependencies.md/#ultimate-asi-loader) to get rid of GFWL manually.
 
 !!! warning ""
-    [Launch options](additional-setup.md) need to be moved to :material-file-cog:`commandline.txt` after downgrading.
-
-    After downgrading, always launch the game using :material-file:`PlayGTAIV.exe` or `Play` button on Steam. Additionally, your game folder can be moved elsewhere if you desire so.
+    - After downgrading, always launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
+    - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher**.
+    - If you already had some [launch options](additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
+    - Your game folder can also now be moved elsewhere if you desire so.
 
 ## Downgrading the savefile
 
-If you've already started playing on the Complete Edition, you may want to downgrade your savefile to retail version.
+If you've already started playing on the Complete Edition (1.2.0.59), you may want to downgrade your savefile.
 
-???+ note "Instructions"
-    - First, locate your savefiles in :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\\==. They're named :material-file:`SGTAxxx`.
-    - Upload the one you want to convert to [GTASnP](https://gtasnp.com/).
-    - Expand the `Modifications` tab.
-    - Pick `1.0.8.0 IV / 1.1.3.0 EFLC and older` in `Downgrade Version`.
-    - Pick the slot you want to save your savefile as. You'll download your converted savefile.
-    - Place it at :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
+### Instructions
 
-[:material-page-first:Previous page <br>Additional Setup</br>](additional-setup.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }
+1. First, locate your savefiles in :material-folder: ==Documents\Rockstar Games\GTA IV\Profiles\\(id)\\==. They're named in this format: :material-file:`SGTAxxx`.
+2. Upload the one you want to convert to [GTASnP](https://gtasnp.com/).
+3. Expand the `Modifications` tab.
+4. Pick `1.0.8.0 IV / 1.1.3.0 EFLC and older` in `Downgrade Version`.
+5. Pick the slot you want to save your savefile as. You'll download your converted savefile.
+6. Place it at :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
+
+## Navigation
+
+Proceed with optimization after you are done with downgrading:
+
+[:material-page-first:Previous page <br>Downgrading the radio</br>](downgrading-the-radio.md){ .md-button } [Next page:material-page-last: <br>Optimization</br>](../optimization.md){ .md-button .md-button--primary }

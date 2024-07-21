@@ -45,11 +45,11 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 
 - Go to **preparation** to get ready to mod the game and start using the guide:
 
-     [Next page:material-page-last: <br>Preparation</br>](preparation.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Preparation</br>](preparation.md){ .md-button .md-button--primary }
 
 - My **Discord server** for support and discussion (you may not receive support from me if you violate any of the above conditions):
 
-     [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
+    [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
 </div>
 

@@ -66,6 +66,7 @@ theme:
     - search.share
     - content.action.edit
 
+
 markdown_extensions:
   - toc:
       permalink: "#"
