@@ -107,7 +107,6 @@ nav:
     - "downgrading/downgrading-the-game.md"
   - "optimization.md"
   - "additional-setup.md"
-  - "mod-dependencies.md"
   - Essential Modding:
     - "essential-modding/index.md"
     - "essential-modding/fusionfix.md"
@@ -118,14 +117,16 @@ nav:
     - "essential-modding/libertytweaks.md"
   - Extras:
     - "extras/index.md"
-    - "multiplayer.md"
+    - "extras/multiplayer.md"
     - "extras/trainers.md"
     - "extras/launcher.md"
     - "extras/openiv.md"
     - "extras/modloading.md"
     - "extras/mods.md"
-  - "troubleshooting.md"
-  - "credits.md"
+  - Resources:
+    - "resources/mod-dependencies.md"
+    - "resources/troubleshooting.md"
+    - "resources/credits.md"
 
 extra:
   social:
