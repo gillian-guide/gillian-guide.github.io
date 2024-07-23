@@ -38,7 +38,7 @@ TBA
         - **Something else**: Right click on the game shortcut, click `Properties` and paste the contents at the end of the `Target` field.
     6. You are ready to play!
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
-        - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.**
+        - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.
         - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
@@ -67,7 +67,7 @@ TBA
         - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`**.
         - Make sure to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - If you want **more mods, check out [additional mods](#additional-mods)**.
-        - **If using Linux**, **remove files/folders starting with `IVSDKDotNet`**.
+        - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files starting with :material-file:`IVSDKDotNet`).
     !!! info "Updating"
         If you're updating the archive, delete :material-folder: ==update== and :material-folder: ==modloader== folders (if exists) from the game folder first and check if the [latest update](#changelog) removed any :material-file:`.asi` mods - if it did, remove them manually aswell.
     ??? bug "The game doesn't boot"

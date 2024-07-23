@@ -34,7 +34,8 @@ description: Why can't all the mods use UAL it would make everyone's life easier
 ## [ScriptHookDotNet](https://github.com/HazardX/gta4_scripthookdotnet/)
 
 !!! warning "Compatibility"
-    Compatible with all game versions, although with caveats - see notes below.
+    - Compatible with all game versions.
+    - See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) if running Linux.
 
 ScriptHookDotNet is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net).
 
@@ -63,9 +64,10 @@ ScriptHookDotNet is used to run scripts written in any .NET language. Not to be 
 ## [IV-SDK .NET](https://gtaforums.com/topic/986510-iv-sdk-net/)
 
 !!! warning "Compatibility"
-    Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](../downgrading/downgrading-the-game.md) if using Complete Edition.
+    - Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](../downgrading/downgrading-the-game.md) if using Complete Edition.
+    - See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) if running Linux.
 
-This tool is used to run scripts written in any .NET language. Not to be confused with [ScriptHookDotNet](#scripthookdotnet).
+IV-SDK .NET is used to run scripts written in any .NET language. Not to be confused with [ScriptHookDotNet](#scripthookdotnet).
 
 <h3>Installation</h3>
 
@@ -81,3 +83,25 @@ This tool is used to run scripts written in any .NET language. Not to be confuse
     * Go to the [Releases](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest) page.
     * Download :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
     * Extract the archive into the game folder.
+
+## Getting ScriptHookDotNet and IV-SDK .NET to work on Linux
+
+By default, neither of those two will run on Linux. That can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - Google it.
+
+<h3>Instructions</h3>
+
+1. Set up Proton-GE.
+2. Go to Proton-GE's gamefixes directory (location's different if using Flatpak):
+
+    ```text
+    ~/.local/share/Steam/compatibilitytools.d/GE-Proton9-10/protonfixes/gamefixes-steam/
+    ```
+
+3. Open `12210.py` in a text editor and add the following line at the end of the file:
+
+    ```text
+    util.protontricks('dotnet472')
+    ```
+
+4. Force the game to use Proton-GE.
+5. Run the game and wait until .NET installs (may take from 5 to 30 minutes).

@@ -26,22 +26,26 @@ If you're here after anything else (including installing the archive on Linux), 
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
         - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
     2. Paste the following:
-        ```
+
+        ```text
         -norestrictions -nomemrestrict -windowed -managed
         ```
+
     3. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix.
         - **If you don't plan to install FusionFix, remove `-windowed`.**
 === "1.0.8.0"
     1. In the game folder, create a :material-file-cog:`commandline.txt` file.
     2. Open the file.
     3. Insert the following lines to it:
-    ```
+
+    ```text
     -norestrictions
     -nomemrestrict
     -windowed
     -managed
     ```
-    5. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later.
+
+    4. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later.
         - **If you don't plan to install either of the mods, remove `-windowed`.**
 
 ???+ warning "If using DXVK..."
