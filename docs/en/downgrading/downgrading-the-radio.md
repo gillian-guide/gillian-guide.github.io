@@ -6,7 +6,7 @@ description: Downgrading the radio back to how it should be.
 !!! warning ""
     If you had downgraded the game earlier, this downgrader will not work.
 
-## Instructions
+<h2>Instructions</h2>
 
 1. Go to the [**Various GTA Downgraders** website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
 2. Download the **Radio Restoration mod for GTAIV CE**.
@@ -16,7 +16,7 @@ description: Downgrading the radio back to how it should be.
 ???+ question "What's the difference between only pre-cut Vladivostok and pre-cut plus post-cut?"
     Rockstar added new tracks to the Vladivostok radio station to replace the cut ones. pre-cut plus post-cut keeps the new tracks alongside the restored cut ones, while only pre-cut songs cuts the new ones out, only keeping the restored ones.
 
-## Navigation
+<h2>Navigation</h2>
 
 <div class="grid cards" markdown>
 

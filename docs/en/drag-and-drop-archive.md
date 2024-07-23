@@ -50,7 +50,6 @@ TBA
         Disable mods one by one to see the culprit by deleting folders/files :material-folder: ==update== or the :material-file:`.asi` files.
 
 === "1.0.8.0"
-
     Last updated: **[21.05.2024](#changelog)**
 
     !!! danger ""

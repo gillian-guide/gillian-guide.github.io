@@ -68,31 +68,28 @@ description: Downgrading the game version and the savefiles back to the retail v
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
-    !!! info "Usage"
-        1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
-        2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
-        3. Unpack the archive in any empty folder.
-        4. Open `GTAIVDowngradeUtilityWPF.exe`.
-        5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
-        6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
-            - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
+    1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
+    2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
+    3. Unpack the archive in any empty folder.
+    4. Open `GTAIVDowngradeUtilityWPF.exe`.
+    5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
+    6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
+        - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
 
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.
 
-    !!! info "Usage"
-        1. Create an antivirus exclusion for your game folder.
-        2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
-        3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
-        4. Follow the instructions in the application. Be sure to read the warnings at mod selection.
-        5. If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the **xliveless** component is enabled.
-        !!! quote ""
-            If you somehow missed step 5 and now unable to launch the game, set up [Ultimate ASI Loader](../mod-dependencies.md/#ultimate-asi-loader) to get rid of GFWL manually.
+    1. Create an antivirus exclusion for your game folder. Don't worry, the tool is safe.
+    2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
+    3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
+    4. Follow the instructions in the application. Be sure to read the warnings at mod selection.
+    5. If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the **xliveless** component is enabled.
+        - If you somehow missed step 5 and now unable to launch the game, set up [Ultimate ASI Loader](../mod-dependencies.md/#ultimate-asi-loader) to get rid of GFWL manually.
 
 !!! warning ""
     - After downgrading, always launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
     - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher**.
-    - If you already had some [launch options](additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
+    - If you already had some [launch options](../additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
     - Your game folder can also now be moved elsewhere if you desire so.
 
 ## Downgrading the savefile
