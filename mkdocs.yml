@@ -12,14 +12,13 @@ plugins:
       docs_structure: folder
       fallback_to_default: true
       languages:
-        - build: true
+        - locale: en
           default: true
-          locale: en
           name: English
-        - build: true
-          default: false
-          locale: ru
+          build: true
+        - locale: ru
           name: Русский
+          build: true
       reconfigure_material: true
       reconfigure_search: true
   - search
@@ -29,6 +28,7 @@ plugins:
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -65,7 +65,7 @@ theme:
     - search.highlight
     - search.share
     - content.action.edit
-
+    - announce.dismiss
 
 markdown_extensions:
   - toc:
@@ -75,6 +75,7 @@ markdown_extensions:
   - tables
   - attr_list
   - def_list
+  - abbr
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.highlight
@@ -95,6 +96,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
 
 nav:

@@ -90,7 +90,7 @@ description: Downgrading the game version and the savefiles back to the retail v
     - If you already had some [launch options](../additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
     - Your game folder can also now be moved elsewhere if you desire so.
 
-???+ question "Games for Windows Live"
+???+ question "Games for Windows LIVE"
     If you wish to play the official multiplayer or get Xbox Live achievements, enable GFWL support when downgrading, and, after downgrading, refer to [this page](../../extras/multiplayer.md/#games-for-windows-live) to set GFWL up.
 
     Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :material-file:`dinput8.dll` to :material-file:`xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.

@@ -214,6 +214,6 @@ If you're here after anything else (including installing the archive on Linux), 
 
 - If you came here after installing the archive, **congratulations - you are done here!**
 
-- If you are going through the guide manually step-by-step, continue with **Mod Dependencies**.
+- If you are going through the guide manually step-by-step, continue with **Essential Modding**.
 
-[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Mod Dependencies</br>](mod-dependencies.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](../essential-modding/index.md){ .md-button .md-button--primary }

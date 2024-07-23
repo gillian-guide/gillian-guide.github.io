@@ -48,11 +48,7 @@ It is highly recommended to have latest drivers installed for best performance a
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **When told to extract a folder**, extract the folder itself, not the contents (unless told otherwise).
-- **CE** or **Complete Edition** refers to the latest official version of the game, **1.2.0.59**.
-- **Retail version** normally refers to a disc version of a game, but this guide is referring to the pre-CE version of the game, **1.0.8.0**.
-- **EFLC** refers to the "Episodes from Liberty City".
-- **UAL**, **ASI Loader**, :material-file:`dinput8.dll` typically refer to **Ultimate ASI Loader** which is used to load :material-file:`*.asi` mods.
-- **GFWL** is an abbreviation for **Games for Windows Live**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in CE.
+- **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in CE.
 
 ## Modding the game
 
