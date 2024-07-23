@@ -20,6 +20,17 @@ If you're here after anything else (including installing the archive on Linux), 
 
 ### Manual instructions
 
+=== "1.2.0.59"
+    1. Find the location for the game properties:
+        - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and locate the `Launch options` field.
+        - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
+        - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
+    2. Paste the following:
+        ```
+        -norestrictions -nomemrestrict -windowed -managed
+        ```
+    3. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix.
+        - **If you don't plan to install FusionFix, remove `-windowed`.**
 === "1.0.8.0"
     1. In the game folder, create a :material-file-cog:`commandline.txt` file.
     2. Open the file.
@@ -32,17 +43,6 @@ If you're here after anything else (including installing the archive on Linux), 
     ```
     5. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later.
         - **If you don't plan to install either of the mods, remove `-windowed`.**
-=== "1.2.0.59"
-    1. Find the location for the game properties:
-        - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and locate the `Launch options` field.
-        - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
-        - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
-    2. Paste the following:
-        ```
-        -norestrictions -nomemrestrict -windowed -managed
-        ```
-    3. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix.
-        - **If you don't plan to install FusionFix, remove `-windowed`.**
 
 ???+ warning "If using DXVK..."
     - Remove `-managed`.
@@ -52,9 +52,6 @@ If you're here after anything else (including installing the archive on Linux), 
     - If the game doesn't allow you to use the correct resolution/refresh rate in the graphics settings, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
         - If that still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`. Change `16:9` with your *[exact](https://stevewadsworth.github.io/calculateAspectRatio/)* aspect ratio if you don't use a 16:9 monitor.
     - If using Windows, make sure you disabled `Enable Shader Pre-caching` in `Settings` - `Downloads` on :material-steam: Steam.
-
-!!! warning "If using Linux..."
-    Add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to the list of options.
 
 ??? abstract "Full list of available launch options"
     You can use these options for intensive tweaking or debugging.

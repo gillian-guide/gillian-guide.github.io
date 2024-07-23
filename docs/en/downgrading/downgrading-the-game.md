@@ -83,14 +83,17 @@ description: Downgrading the game version and the savefiles back to the retail v
     2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
     3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
     4. Follow the instructions in the application. Be sure to read the warnings at mod selection.
-    5. If setting up for GFWL support, see [multiplayer](../multiplayer/#games-for-windows-live). If not, make sure the **xliveless** component is enabled.
-        - If you somehow missed step 5 and now unable to launch the game, set up [Ultimate ASI Loader](../mod-dependencies.md/#ultimate-asi-loader) to get rid of GFWL manually.
 
 !!! warning ""
     - After downgrading, always launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
     - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher**.
     - If you already had some [launch options](../additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
     - Your game folder can also now be moved elsewhere if you desire so.
+
+???+ question "Games for Windows Live"
+    If you wish to play the official multiplayer or get Xbox Live achievements, enable GFWL support when downgrading, and, after downgrading, refer to [this page](../../extras/multiplayer.md/#games-for-windows-live) to set GFWL up.
+
+    Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :material-file:`dinput8.dll` to :material-file:`xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.
 
 ## Downgrading the savefile
 
