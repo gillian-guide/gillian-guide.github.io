@@ -5,14 +5,6 @@ description: Everything about DXVK for GTA IV
 
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have a one-for-all solution - but that doesn't mean we can't make things better.
 
-## Prerequisites and info
-
-!!! warning ""
-    - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
-    - Disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
-    - If you are a Linux user, skip to [configuration](#configuration), since Proton already uses DXVK.
-    - DXVK does not officially support Windows. This doesn't mean that you can't use it on Windows, though.
-
 ## What is DXVK?
 
 [DXVK](https://github.com/doitsujin/dxvk) is a translation layer that converts DirectX API calls to Vulkan.
@@ -25,21 +17,29 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
     Under right conditions, though, you can expect something comparable to this benchmark:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
 
-## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
-
-Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically.
+## Prerequisites
 
 !!! warning ""
-    - You should re-run the tool if you downgrade or install FusionFix and/or ZolikaPatch later.
-    - You cannot, nor should you, use the tool on Linux.
-!!! info "Usage"
-    1. [Download the latest version](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
-    2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
-    3. Press `Open`, select the game folder.
-    4. Press `Install DXVK` and `Setup launch options` in sequence.
-        - If experienced, you can manually configure the options. There is usually no need to, though.
+    - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
+    - IF using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
+    - If you are a Linux user, skip to [configuration](#configuration), since Proton already uses DXVK.
 
-    If any issues occur, [report it on the discord server](../index.md/#).
+## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
+
+Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtilityWPF?tab=readme-ov-file#features).
+
+!!! info ""
+    - You should re-run the tool **if you downgrade or install FusionFix and/or ZolikaPatch later.**
+    - You cannot, nor should you, use the tool on Linux.
+
+### Usage
+
+1. [Download the latest version](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
+2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
+3. Press `Open`, select the game folder.
+4. Press `Install DXVK` and `Setup launch options` in sequence.
+    - If experienced, you can manually configure the options. There is usually no need to, though.
+    - If any issues occur, [report it on the discord server](../index.md/#navigation).
 
 After using the tool, you can freely skip to optimal game settings:
 
@@ -58,11 +58,12 @@ After using the tool, you can freely skip to optimal game settings:
 
         If you're don't fall under the list, check the Legacy tab. **This list only applies to Windows.**
 
-    !!! info "Installation"
-        1. Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
-            - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
-        2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==
-        3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    <h3>Instructions</h3>
+
+    1. Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
+        - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
+    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==
+    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 === "Legacy"
     ???+ warning "Requirements"
         - You can use this version if your GPU is:
@@ -73,11 +74,12 @@ After using the tool, you can freely skip to optimal game settings:
 
         If you're don't fall under the list, you can not use DXVK. **This list only applies to Windows.**
 
-    !!! info "Installation"
-        1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) and download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
-            - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
-        2. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
-        3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    <h3>Instructions</h3>
+
+    1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) and download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
+        - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
+    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
     The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11.
