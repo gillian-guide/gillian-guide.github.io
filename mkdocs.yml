@@ -116,9 +116,7 @@ nav:
     - "essential-modding/fusionfix.md"
     - "essential-modding/zolikapatch.md"
     - "essential-modding/variousfixes.md"
-    - "essential-modding/charactersfixes.md"
-    - "essential-modding/consolevisuals.md"
-    - "essential-modding/libertytweaks.md"
+  - "enhancements.md"
   - Extras:
     - "extras/index.md"
     - "extras/multiplayer.md"

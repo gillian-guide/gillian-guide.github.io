@@ -1,7 +1,7 @@
 {
   "MD007": { "indent": 4 },
   "MD013": false,
-  "MD033": { "allowed_elements":["a", "br", "div", "h2", "h3"] },
+  "MD033": { "allowed_elements":["a", "br", "div", "h2", "h3", "iframe"] },
   "MD041": false,
   "MD046": false
 }
