@@ -9,11 +9,11 @@ description: Graphics fixes, but even more than just that!
     Support for non-CE versions may be axed at any time and the developers don't provide any support for them.
 This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog).
 
-## Demo { data-search-exclude }
+<h2>Demo</h2>
 
 TBA
 
-## Installation { data-search-exclude }
+<h2>Installation</h2>
 
 === "1.2.0.59"
     1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
@@ -34,7 +34,7 @@ TBA
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [modloading](../../extras/modloading.md/#fusion-overloader) for more details.
 
-## Configuration
+<h2>Configuration</h2>
 
 Most of options are available in the in-game settings.
 

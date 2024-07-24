@@ -5,7 +5,7 @@ description: One of the must-have mods for your GTA IV install that fixes a lot 
 
 This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums page](https://gtaforums.com/topic/975211-various-fixes/).
 
-## Installation { data-search-exclude }
+<h2>Installation</h2>
 
 1. Make sure you have installed [FusionFix](fusionfix.md).
 2. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1nLq3uiw1XFW5lrIwdSLuk2ZhpEWzdLw0).

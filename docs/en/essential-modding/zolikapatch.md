@@ -8,7 +8,7 @@ description: Some fixes for your downgraded copy, mainly for enjoying multiplaye
 
 This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
-## Installation { data-search-exclude }
+<h2>Installation</h2>
 
 1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
 2. Scroll to the bottom of the page and download the latest version.
