@@ -27,9 +27,9 @@ TBA
     5. Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` if not using GFWL. Replace if needed.
 
     !!! tip "If using GFWL..."
-        Apply the [GFWL Patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
+        Apply this [patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
 
-        If **only playing multiplayer**, consider the multiplayer-only [GFWLMin Patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
+        If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
 
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [modloading](../../extras/modloading.md/#fusion-overloader) for more details.

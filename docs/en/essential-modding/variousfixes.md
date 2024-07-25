@@ -16,4 +16,4 @@ This project aims to fix or improve a large amount of map issues and textures. Y
 ???+ question "Other installation methods"
     You can also go through with the manual or auto-installation, but it's frankly more unnecessary effort and harder to make to work with other mods than using this.
 
-[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Liberty Tweaks</br>](libertytweaks.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Recommended Enhancements</br>](../../enhancements.md){ .md-button .md-button--primary }

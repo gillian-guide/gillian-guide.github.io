@@ -14,8 +14,6 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 2. Scroll to the bottom of the page and download the latest version.
 3. Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
 
-!!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
-    This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
 !!! warning "If using FusionFix..."
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
@@ -32,6 +30,9 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
     - SkipMenu
 
     Note that this doesn't break or actually disable anything, as these features are reimplemented by FusionFix.
+
+!!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
+    This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
 
 ## Configuration
 

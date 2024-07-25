@@ -3,44 +3,31 @@ description: And now, we can make our game perfect!
 
 # Recommended Enhancements
 
-Following mods are not essential to playing the game, but they're highly recommended to have a good experience.
+Following mods are not essential to playing the game, but they're highly recommended to have a good experience or a good enough base for your own modpack.
 
 !!! warning ""
     [Ultimate ASI Loader](../resources/mod-dependencies.md/#ultimate-asi-loader) and [FusionFix](../essential-modding/fusionfix.md) are required for most mods. **This page will assume you have both installed and will not remind you of it.**
 
-## Installation (exemplrary for all mods)
-
-1. Press on the title for the mod to visit the page.
-2. Download the mod (either find the `Download` button or download the archive on GitHub Releases)
-3. Find and extract the :material-folder: ==update== folder.
-    - Consult the included :material-file:`README.txt` or listed instructions on the page if you have trouble.
-    - If instructions are different, they are listed separately.
+    Keep in mind there is a recommended load order at the bottom.
 
 ## [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 
 This project ports select console visuals to the PC version.
 
-## Improved Animations Pack
-
 <h3>Installation</h3>
 
-TBA
-
-## IV Fixes and Improvements
-
-<h3>Installation</h3>
-
-TBA
-
-## Higher Resolution Miscellaneous Pack
-
-<h3>Installation</h3>
-
-TBA
+1. Go to the [GTAForums page](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/).
+2. Press `Download`.
+3. Open the :material-zip-box:`CE` archive and the :material-folder: ==CE (Automatic installation, Latest Version of FusionFix is Required)== folder inside of it.
+4. Pick which part of the mod you want to install, open the corresponding folder and extract the folder(s) inside to the game folder. Replace files if prompt.
 
 ## [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)
 
 This project aims to fix the inconsistency of characters between base GTA IV and EFLC. You can see the changelog on the [GTAForums page](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/).
+
+<h3>Installation</h3>
+
+TBA (current official version for FusionFix sucks)
 
 ## [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/)
 
@@ -75,29 +62,15 @@ This mod improves distant lights at night.
 
 ## Xbox Rain Droplets
 
-<h3>Installation</h3>
-
-TBA
-
-## Project Glass
+This mod adds nice water droplets on the screen.
 
 <h3>Installation</h3>
 
 TBA
 
-## Project Thunder
+## Higher Resolution Miscellaneous Pack
 
-<h3>Installation</h3>
-
-TBA
-
-## VAmbience
-
-<h3>Installation</h3>
-
-TBA
-
-## Higher Res Radio Logos
+This mod improves the texture quality of minor assets.
 
 <h3>Installation</h3>
 
@@ -105,11 +78,47 @@ TBA
 
 ## Vehicle Pack
 
+This mod improves the texture quality of *all* vehicles in the game.
+
+<h3>Installation</h3>
+
+TBA
+
+## Project Glass
+
+This mod adds cubemap reflections to what otherwise is just transparent glass.
+
+<h3>Installation</h3>
+
+TBA
+
+## Project Thunder
+
+This mod improves how thunder appears in-game, with actual lighting and improved atmosphere.
+
+<h3>Installation</h3>
+
+TBA
+
+## VAmbience
+
+This mod adds background noise to the game, such as driving and shooting, alike to GTA V. Highly customizable.
+
 <h3>Installation</h3>
 
 TBA
 
 ## Resized Blista Compact
+
+This mod fixes the Blista Compact model and resizes it to match the real life counterpart (Honda CR-X).
+
+<h3>Installation</h3>
+
+TBA
+
+## IV Fixes and Improvements
+
+This mod fixes select map models.
 
 <h3>Installation</h3>
 
@@ -117,11 +126,15 @@ TBA
 
 ## Player Outfit Texture Fixes
 
+This mod fixes green-ish textures on some character models.
+
 <h3>Installation</h3>
 
 TBA
 
 ## Fixed Suit Display in Perseus
+
+This mod fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayer.
 
 <h3>Installation</h3>
 
@@ -129,17 +142,15 @@ TBA
 
 ## Default pistol iron sight fix
 
+This mod fixes an oversight in the pistol's model where the iron sight doesn't make any sense.
+
 <h3>Installation</h3>
 
 TBA
 
 ## Luis' Helmet Reflections Fix + Luis' Bag Texture Fix + Johnny's Shoe Texture Fix
 
-<h3>Installation</h3>
-
-TBA
-
-## `carcols` and `cargrp` Fixes
+These mods add missing normal and specular maps to the EFLC player models.
 
 <h3>Installation</h3>
 
@@ -147,17 +158,31 @@ TBA
 
 ## Dodgy Doc - Higher Quality + Liberty Ferry Terminal - Waiting Sign Fix + Sugar Chomps - Separate Signs
 
+These mods by donnits fix minor issues on the map and give a better texture to the Dodgy Doc.
+
+<h3>Installation</h3>
+
+TBA
+
+## `carcols` and `cargrp` Fixes
+
+These fixes allow some cars to spawn in locations where they logically should be, but due to some oversight, are not.
+
 <h3>Installation</h3>
 
 TBA
 
 ## Reduced Trafic Screech (Audio Tweak)
 
+This mod changes the pitch of the traffic screech in Algonquin to match the real-life levels you'd usually hear in Times Square.
+
 <h3>Installation</h3>
 
 TBA
 
-## IV Bikers in Episodes voice sets fix
+## Higher Res Radio Logos
+
+This mod increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game.
 
 <h3>Installation</h3>
 
@@ -165,12 +190,16 @@ TBA
 
 ## Menu Art Fix
 
-<h3>Installation</h3>
-
-TBA
-
-## IV-Presence
+This mod fixes the lower-resolution backgrounds in EFLC menus.
 
 <h3>Installation</h3>
 
 TBA
+
+## Recommended load order
+
+Please use the following load order (the number before the folder names) after installing the mods above:
+
+TBA
+
+[:material-page-first:Previous page <br>Essential Modding</br>](../essential-modding/index.md){ .md-button } [Next page:material-page-last: <br>Extras</br>](../extras/index.md){ .md-button .md-button--primary }
