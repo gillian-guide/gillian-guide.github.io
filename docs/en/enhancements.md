@@ -108,6 +108,38 @@ This mod adds cubemap reflections to what otherwise is just transparent glass.
 
 TBA
 
+## Restored Trees Position
+
+This mod restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns.
+
+<h3>Installation</h3>
+
+TBA
+
+## Restored Pedestrians & Restored Pedestrians Clothes
+
+Restored Pedestrians restores pedestrians that were either unused or only present in the betas. Restored Pedestrians Clothes does the same, but with clothing variation.
+
+<h3>Installation</h3>
+
+TBA
+
+## Various Pedestrian Actions
+
+ This mod adds, corrects and completes unfinished actions for pedestrians.
+
+<h3>Installation</h3>
+
+TBA
+
+## Resized Blista Compact
+
+This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
+
+<h3>Installation</h3>
+
+TBA
+
 ## Project Thunder
 
 This mod improves how thunder appears in-game, with actual lighting and improved atmosphere.
@@ -119,14 +151,6 @@ TBA
 ## VAmbience
 
 This mod adds background noise to the game, such as driving and shooting, alike to GTA V. Highly customizable.
-
-<h3>Installation</h3>
-
-TBA
-
-## Resized Blista Compact
-
-This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
 
 <h3>Installation</h3>
 
