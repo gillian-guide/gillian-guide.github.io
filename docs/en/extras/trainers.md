@@ -10,6 +10,8 @@ Trainers are essentially modmenus that add a lot of fun and useful options. They
 
     Also please pick one - don't install both at once.
 
+---
+
 ## [ZMenuIV](https://zolika1351.pages.dev/mods/ivmenu)
 
 !!! warning "Compatibility"
@@ -89,6 +91,8 @@ Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change exis
     - ++i++++j++++k++++l++ for navigation. ++enter++ to accept, ++backslash++ to go back.
     - ++w++++a++++s++++d++ for horizontal airbreak control, ++space++ for going up and ++lshift++ for going down.
 
+---
+
 ## [Liberty's Legacy](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)
 
 !!! info "Compatibility"
@@ -110,6 +114,8 @@ The default controls are:
 - Arrow keys or D-Pad for navigation. ++enter++ or A|Cross to accept, ++backspace++ or B|Circle to go back.
 
 Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key you want to bind.
+
+---
 
 <h2>Navigation</h2>
 

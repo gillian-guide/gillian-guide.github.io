@@ -5,6 +5,8 @@ description: Hello? Anybody there?
 
 GTA IV had an amazing multiplayer... and it still does! Rockstar Games has removed the multiplayer from the Complete Edition, but there are still plenty of ways to play even the official multiplayer (which, no, is not shut down). If you're tired of GTA Online and want something more classic, you should definitely check out GTA IV's multiplayer!
 
+---
+
 ## Prerequisites and info
 
 - It's recommended to have [ZolikaPatch](../../essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`.
@@ -13,6 +15,8 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 - Additionally, you may want to have [ZMenuIV](trainers.md/#ZMenuIV) for the ability to create and participate in custom gamemodes.
 - You can also use [this](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
 - **Avoid using overhaul, addition or replacement mods**. They will put you, or others, at disadvantage and create instability.
+
+---
 
 ## Games for Windows LIVE
 
@@ -25,6 +29,8 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 
 The one and only official multiplayer method. And to that end, it's also the one that's most annoying to set up. If you don't want the hassle, check out [GTAConnected](#grand-theft-auto-connected) first.
 
+---
+
 ### Installation
 
 !!! note ""
@@ -36,6 +42,8 @@ The one and only official multiplayer method. And to that end, it's also the one
 4. Install :material-file-download:`gfwllivesetup.exe`.
 !!! question "What's the Marketplace?"
     While you do get the Marketplace, don't bother opening it or trying to make it work. Marketplace is not functional, but still must be installed for GFWL itself to work.
+
+---
 
 ### Signing in
 
@@ -82,6 +90,8 @@ The one and only official multiplayer method. And to that end, it's also the one
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game (again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!
 
+---
+
 ### Joining/Creating Lobbies
 
 Either use the in-game phone's `Multiplayer` - `LIVE` - `Player Match` option to join or create a lobby, or add friends in the ++home++ overlay and join their lobbies instead.
@@ -105,6 +115,8 @@ If you're looking for people to play with, visit this Discord server:
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en).
 
     Alternatively, give up. Seriously, just give up and try other methods - some people are just stuck with the kickbug with no way to fight it.
+
+---
 
 ## [Grand Theft Auto Connected](https://gtaconnected.com/downloads/)
 
@@ -130,6 +142,8 @@ Second most popular multiplayer option, as it's the best way to experience GTA I
 
 [:material-web: GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
+---
+
 ## [HappinessMP](https://happinessmp.net/)
 
 !!! warning "Compatibility"
@@ -149,15 +163,21 @@ This client is somewhat similar to GTA Connected in essence, as you can host you
 
 [:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary } [:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary }
 
+---
+
 ## Upcoming clients
 
 These clients are currently in development and are not available for play yet. They'll receive their own full-fledged sections when they're freely available for play. Support their development if you can!
+
+---
 
 ### XLiveLessNess
 
 This project aims to be a replacement for GFWL. It technically works, but at the same time I couldn't get a lobby with more than just two players working with it just yet. Download the release, drop the files to the game folder, press HOME in-game, set your nickname, check the checkmarks and set the broadcast address to `glitchyscripts.com:1100`. Use the LAN function in-game instead of LIVE.
 
 [:material-gitlab: GitLab](https://gitlab.com/GlitchyScripts/xlivelessness){ .md-button .md-button--primary }
+
+---
 
 ## Navigation
 

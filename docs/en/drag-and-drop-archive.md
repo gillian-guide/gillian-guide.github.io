@@ -10,9 +10,13 @@ The Drag-and-Drop Archive (also known as Gillian's Modpack) is a complete ready-
 
     [:material-page-first:Introduction: Prerequisites</br>](index.md/#prerequisites){ .md-button } [:material-page-first:Preparation</br>](preparation.md){ .md-button }
 
+---
+
 ## Demo
 
 TBA
+
+---
 
 ## Installation { data-search-exclude }
 
@@ -22,13 +26,13 @@ TBA
 === "1.2.0.59"
     Last updated: **[09.03.2024](#changelog)**
 
-    !!! danger ""
+    !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
     1. [Download the archive](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing).
-    2. Extract the contents of :material-zip-box:`1.2 archive` into the game folder (the one that includes `GTAIV.exe`) using your archivator of choice.
+    2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes `GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
     5. Press `Install DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
@@ -44,21 +48,23 @@ TBA
 
     !!! info "Updating"
         If you're updating the archive, delete :material-folder: ==update== and :material-folder: ==modloader== folders (if exists) from the game folder first and check if the [latest update](#changelog) removed any :material-file:`.asi` mods - if it did, remove them manually aswell.
-    ??? bug "The game doesn't boot | The game is behaving strangely | The game is crashing randomly "
+    ??? bug "The game doesn't boot | The game is behaving strangely | The game is crashing randomly"
         See [troubleshooting](troubleshooting.md).
 
         Disable mods one by one to see the culprit by deleting folders/files :material-folder: ==update== or the :material-file:`.asi` files.
 
+        Report the issue on the [Discord server](../index.md/#navigation).
+
 === "1.0.8.0"
     Last updated: **[21.05.2024](#changelog)**
 
-    !!! danger ""
+    !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options).
 
     1. [Download the archive](https://www.mediafire.com/file/cx6dct4npfqtc5z/1.0_archive.7z/file).
-    2. Extract the contents of :material-zip-box:`1.0 archive` into the game folder (the one that includes `GTAIV.exe`) using your archivator of choice.
+    2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes `GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
     5. Press `Install DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
@@ -81,6 +87,10 @@ TBA
 
         Disable mods one by one to see the culprit by deleting folders/files :material-folder: ==update== or the :material-file:`.asi` files.
 
+        Report the issue on the [Discord server](../index.md/#navigation).
+
+---
+
 ## Navigation
 
 <div class="grid cards" markdown>
@@ -94,6 +104,8 @@ TBA
     [Next page:material-page-last: <br>Additional Setup: Launch options</br>](additional-setup.md/#launch-options){ .md-button .md-button--primary }
 
 </div>
+
+---
 
 ## Modlist { data-search-exclude }
 
@@ -137,7 +149,7 @@ All mods in the following list are present in both archives with identical versi
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes lower resolution backgrounds in EFLC's main menus. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | High resolution textures of radio logos. |
 
-### Separate mods
+### Separate mods { data-search-exclude }
 
 The mods or their specific versions in the following list are present in only one of the archives due to incompatibility with the other version.
 
@@ -154,6 +166,8 @@ The mods or their specific versions in the following list are present in only on
     | [Steam Achievements~v2~](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam:Steam achievements on older patches. |
     | [Liberty Tweaks~1.4.1~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClockAndre and others | A highly configurable quality-of-life mod. ==This mod allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`== |
     | [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
+
+---
 
 ## Additional Mods { data-search-exclude }
 
@@ -178,6 +192,8 @@ These mods are not included by default, but are easy to install ontop of the arc
     | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract the archive into :material-folder: ==update==.</br> |
     | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder: ==Main Files\\pc\\== folder from the archive into :material-folder: ==update==.</br> |
     | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br>|
+
+---
 
 ## Changelog { data-search-exclude }
 

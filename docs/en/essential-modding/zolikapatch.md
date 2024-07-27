@@ -8,6 +8,8 @@ description: Some fixes for your downgraded copy, mainly for enjoying multiplaye
 
 This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
+---
+
 <h2>Installation</h2>
 
 1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
@@ -16,6 +18,8 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
     - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
 
 !!! warning "If using FusionFix..."
+    **This is already taken care of by Setup Utility.**
+
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
     - BuildingAlphaFix
@@ -35,9 +39,13 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 !!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
     This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
 
+---
+
 <h2>Configuration</h2>
 
 Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options have explanations next to them.
+
+---
 
 <h2>Navigation</h2>
 

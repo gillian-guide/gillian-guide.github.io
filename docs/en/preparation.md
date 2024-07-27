@@ -5,6 +5,8 @@ description: Getting ready for playing and modding GTA IV
 
 To mod the game, we first need to get your system ready for modding and install the game. We will also go over basic instructions, terminology and mod dependencies you may need later.
 
+---
+
 ## Enabling File Extensions
 
 Not seeing file extensions can cause some confusion when looking at all the files you need to use when modding. File extensions are not turned on by default in Windows, so if you haven't turned them on yet - do it now:
@@ -14,6 +16,8 @@ Not seeing file extensions can cause some confusion when looking at all the file
 3. Hover the mouse over **Show** section and enable **File name extensions** from the submenu.
 ![File name extensions in Explorer](assets/fileextensions.webp){: style="height:60%;width:60%";}
 
+---
+
 ## Software
 
 Some software should be installed before you can play and mod the game:
@@ -21,6 +25,8 @@ Some software should be installed before you can play and mod the game:
 - You need to have an archivator installed. I recommend **[NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r?rtc=1&hl=en-us&gl=us)** or **[7-Zip](https://www.7-zip.org/ "Official 7-Zip website")**.
 - [Microsoft Visual C++ Redistributables](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/ "VC++ Runtimes All-in-One") (extract and run :material-file-download:`install_all.bat`).
 - [Microsoft DirectX 9 (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
+
+---
 
 ## Drivers
 
@@ -42,6 +48,8 @@ It is highly recommended to have latest drivers installed for best performance a
         - Press `Download now` and open the downloaded executable.
         - Follow the displayed instructions to install the drivers. Ignore warnings about OEM drivers.
 
+---
+
 ## Terminology and tips
 
 - **Game**, **Installation** or **Root folder** typically refers to the location where :material-file:`GTAIV.exe` is located, which is at:
@@ -49,6 +57,8 @@ It is highly recommended to have latest drivers installed for best performance a
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **When told to extract a folder**, extract the folder itself, not the contents (unless told otherwise).
 - **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in CE.
+
+---
 
 ## Modding the game
 

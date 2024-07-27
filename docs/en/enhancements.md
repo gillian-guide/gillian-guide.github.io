@@ -10,6 +10,8 @@ Following mods are not essential to playing the game, but they're highly recomme
 
     Keep in mind there is a recommended load order at the bottom.
 
+---
+
 ## [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
 
 This project ports select console visuals to the PC version.
@@ -21,6 +23,8 @@ This project ports select console visuals to the PC version.
 3. Open the :material-zip-box:`CE` archive and the :material-folder: ==CE (Automatic installation, Latest Version of FusionFix is Required)== folder inside of it.
 4. Pick which part of the mod you want to install, open the corresponding folder and extract the folder(s) inside to the game folder. Replace files if prompt.
 
+---
+
 ## [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/)
 
 This project aims to fix the inconsistency of characters between base GTA IV and EFLC. You can see the changelog on the [GTAForums page](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/).
@@ -28,6 +32,8 @@ This project aims to fix the inconsistency of characters between base GTA IV and
 <h3>Installation</h3>
 
 TBA (current official version for FusionFix sucks)
+
+---
 
 ## [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/)
 
@@ -43,6 +49,8 @@ This project aims to improve various aspects of the game and it's general qualit
 4. Download the :material-zip-box:`LibertyTweaksx.x.zip`.
 5. Extract the contents of :material-folder: ==1. Install== into the game folder. Replace files if prompted.
 6. Configure :material-file-cog:`IVSDKDotNet/scripts/LibertyTweaks.ini` as you wish.
+
+---
 
 ## [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 
@@ -60,6 +68,8 @@ This mod improves distant lights at night.
     3. Extract the archive into the game folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
 
+---
+
 ## Xbox Rain Droplets
 
 This mod adds nice water droplets on the screen.
@@ -67,6 +77,8 @@ This mod adds nice water droplets on the screen.
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## Higher Resolution Miscellaneous Pack
 
@@ -76,6 +88,8 @@ This mod improves the texture quality of minor assets.
 
 TBA
 
+---
+
 ## Vehicle Pack
 
 This mod improves the texture quality of *all* vehicles in the game.
@@ -83,6 +97,8 @@ This mod improves the texture quality of *all* vehicles in the game.
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## Higher Res Radio Logos
 
@@ -92,6 +108,8 @@ This mod increases the quality of UI radio icons, as they are highly inconsisten
 
 TBA
 
+---
+
 ## More Visible Interiors
 
 Makes interiors more visible from the outside, although comes with a downside of potential pop-in.
@@ -99,6 +117,8 @@ Makes interiors more visible from the outside, although comes with a downside of
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## Project Glass
 
@@ -108,6 +128,8 @@ This mod adds cubemap reflections to what otherwise is just transparent glass.
 
 TBA
 
+---
+
 ## Restored Trees Position
 
 This mod restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns.
@@ -115,6 +137,8 @@ This mod restores trees that were present in the betas but removed in the final 
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## Restored Pedestrians & Restored Pedestrians Clothes
 
@@ -124,6 +148,8 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 
 TBA
 
+---
+
 ## Various Pedestrian Actions
 
  This mod adds, corrects and completes unfinished actions for pedestrians.
@@ -131,6 +157,8 @@ TBA
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## Resized Blista Compact
 
@@ -140,6 +168,8 @@ This mod resizes the Blista Compact to match the real life counterpart (Honda CR
 
 TBA
 
+---
+
 ## Project Thunder
 
 This mod improves how thunder appears in-game, with actual lighting and improved atmosphere.
@@ -147,6 +177,8 @@ This mod improves how thunder appears in-game, with actual lighting and improved
 <h3>Installation</h3>
 
 TBA
+
+---
 
 ## VAmbience
 
@@ -156,11 +188,15 @@ This mod adds background noise to the game, such as driving and shooting, alike 
 
 TBA
 
+---
+
 ## Recommended load order
 
 Please use the following load order (the number before the folder names) after installing the mods above:
 
 TBA
+
+---
 
 ## Navigation
 

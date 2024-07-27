@@ -5,6 +5,8 @@ description: One of the must-have mods for your GTA IV install that fixes a lot 
 
 This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums page](https://gtaforums.com/topic/975211-various-fixes/).
 
+---
+
 <h2>Installation</h2>
 
 1. Make sure you have installed [FusionFix](fusionfix.md).
@@ -15,6 +17,8 @@ This project aims to fix or improve a large amount of map issues and textures. Y
 
 ???+ question "Other installation methods"
     You can also go through with the manual or auto-installation, but it's frankly more unnecessary effort and harder to make to work with other mods than using this.
+
+---
 
 <h2>Navigation</h2>
 

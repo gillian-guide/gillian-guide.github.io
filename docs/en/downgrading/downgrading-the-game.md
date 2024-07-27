@@ -5,6 +5,8 @@ description: Downgrading the game version and the savefiles back to the retail v
 
 ## Game versions
 
+The following is information about two versions we will focus on and their differences. 1.0.4.0 is for informational purposes only - we will not use it in the scope of this guide.
+
 ???+ info "Complete Edition (1.2.0.59)"
 
     This is the latest version of the game, which you normally receive when installing the game on :material-steam:Steam or :simple-rockstargames: Rockstar Games Launcher. ==This version should be preferred if you want the **best singleplayer campaign experience.**==
@@ -59,6 +61,8 @@ description: Downgrading the game version and the savefiles back to the retail v
             :material-minus-box: No EFLC support.<br>
             :material-minus-box: No support for Steam or Social Club achievements.
 
+---
+
 ## Downgrading instructions
 
 !!! question "Which downgrader to choose?"
@@ -70,8 +74,8 @@ description: Downgrading the game version and the savefiles back to the retail v
 
     1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
     2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
-    3. Unpack the archive in any empty folder.
-    4. Open `GTAIVDowngradeUtilityWPF.exe`.
+    3. Extract the archive into any empty folder.
+    4. Open :material-file:`GTAIVDowngradeUtilityWPF.exe`.
     5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
     6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
         - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
@@ -95,6 +99,11 @@ description: Downgrading the game version and the savefiles back to the retail v
 
     Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :material-file:`dinput8.dll` to :material-file:`xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.
 
+!!! info "Setup Utility"
+    If you happened to come back here later after already using the Setup Utility on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages, consider re-running it.
+
+---
+
 ## Downgrading the savefile
 
 If you've already started playing on the Complete Edition (1.2.0.59), you may want to downgrade your savefile.
@@ -108,8 +117,10 @@ If you've already started playing on the Complete Edition (1.2.0.59), you may wa
 5. Pick the slot you want to save your savefile as. You'll download your converted savefile.
 6. Place it at :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
+---
+
 ## Navigation
 
 Proceed with optimization after you are done with downgrading:
 
-[:material-page-first:Previous page <br>Downgrading the radio</br>](downgrading-the-radio.md){ .md-button } [Next page:material-page-last: <br>Optimization</br>](../optimization.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Downgrading</br>](index.md){ .md-button } [Next page:material-page-last: <br>Optimization</br>](../optimization.md){ .md-button .md-button--primary }

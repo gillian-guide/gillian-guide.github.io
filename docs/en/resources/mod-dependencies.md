@@ -3,6 +3,8 @@ description: Why can't all the mods use UAL it would make everyone's life easier
 
 # Mod Dependencies
 
+---
+
 ## [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)
 
  UAL is used to load `.asi` mods (one of the most common types of GTA IV mods) into the game. It's multipurpose and can be used for many other games, but we will use it for GTA IV.
@@ -30,6 +32,8 @@ description: Why can't all the mods use UAL it would make everyone's life easier
 
 !!! tip "Modloading"
     Ultimate ASI Loader can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
+
+---
 
 ## [ScriptHookDotNet](https://github.com/HazardX/gta4_scripthookdotnet/)
 
@@ -61,6 +65,8 @@ ScriptHookDotNet is used to run scripts written in any .NET language. Not to be 
     2. Download :material-zip-box:`scripthookdotnet_v1_7_1_7a.zip`.
     3. Extract the archive into the game folder.
 
+---
+
 ## [IV-SDK .NET](https://gtaforums.com/topic/986510-iv-sdk-net/)
 
 !!! warning "Compatibility"
@@ -83,6 +89,8 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
     * Go to the [Releases](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest) page.
     * Download :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
     * Extract the archive into the game folder.
+
+---
 
 ## Getting ScriptHookDotNet and IV-SDK .NET to work on Linux
 

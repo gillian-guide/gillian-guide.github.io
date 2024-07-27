@@ -5,6 +5,8 @@ description: Everything about DXVK for GTA IV
 
 We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have a one-for-all solution - but that doesn't mean we can't make things better.
 
+---
+
 ## What is DXVK?
 
 [DXVK](https://github.com/doitsujin/dxvk) is a translation layer that converts DirectX API calls to Vulkan.
@@ -17,12 +19,16 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
     Under right conditions, though, you can expect something comparable to this benchmark:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
 
+---
+
 ## Prerequisites
 
 !!! warning ""
     - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
     - IF using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
     - If you are a Linux user, skip to [configuration](#configuration), since Proton already uses DXVK.
+
+---
 
 ## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
 
@@ -45,6 +51,8 @@ After using the tool, you can freely skip to optimal game settings:
 
 [Next page:material-page-last: <br>Additional Setup: Optimal game settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
 
+---
+
 ## Manual installation { data-search-exclude }
 
 === "Latest"
@@ -57,6 +65,8 @@ After using the tool, you can freely skip to optimal game settings:
             - **Mac**: An Intel Mac with support for Vulkan 1.3 (check manually by opening the command prompt and typing `vulkaninfo`).
 
         If you're don't fall under the list, check the Legacy tab. **This list only applies to Windows.**
+
+    ---
 
     <h3>Instructions</h3>
 
@@ -73,6 +83,8 @@ After using the tool, you can freely skip to optimal game settings:
             - **Mac**: An Intel Mac with support for Vulkan 1.1 (check manually by opening the command prompt and typing `vulkaninfo`).
 
         If you're don't fall under the list, you can not use DXVK. **This list only applies to Windows.**
+
+    ---
 
     <h3>Instructions</h3>
 
@@ -98,6 +110,8 @@ After using the tool, you can freely skip to optimal game settings:
 
     See [troubleshooting](troubleshooting.md).
 
+---
+
 ### Configuration
 
 Create a :material-file-cog:`dxvk.conf` file in the game folder and add following lines to the file with any text editor:
@@ -120,6 +134,8 @@ dxvk.gplAsyncCache = true
 ```
 
 For more in-depth configuration, you can see the full list of available options [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
+
+---
 
 ## Navigation
 

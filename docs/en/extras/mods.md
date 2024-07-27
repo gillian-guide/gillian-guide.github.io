@@ -10,6 +10,8 @@ To finish this guide off, I will give a list of more mods that couldn't find the
     - Use a [modloader](modloading.md) to avoid file replacements when asked to do so.
     - I'm only listing these mods - I don't intend for people to actually install all of them together. Pick what to install yourself.
 
+---
+
 ## List of mods (larger-scale)
 
 | Mod | Developer(s) | Details |
@@ -50,11 +52,15 @@ These workshops might have some mods or tools you may be interested in!
 
 [:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button}
 
+---
+
 ## Making mods
 
 If you're interested in making mods yourself, visit this Discord server:
 
 [:simple-discord: GTA IV Modding](https://discord.gg/p6RU4xJ){ .md-button .md-button--primary }
+
+---
 
 ## Want some mod to be listed?
 
@@ -62,11 +68,15 @@ Mention it on the Mod Suggestions thread on my Discord server:
 
 [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
+---
+
 ## Afterword
 
 Thanks for using **my** guide for modding GTA IV!
 
 I sincerely hope that I have helped you achieve the perfect state of the game. This guide takes some time to maintain, and it couldn't have been done without all the great mods, so please consider [chipping in for some authors](../../resources/credits.md).
+
+---
 
 ## Navigation
 

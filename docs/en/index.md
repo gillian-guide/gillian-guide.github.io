@@ -8,6 +8,8 @@ description: Welcome to Gillian's GTA IV Modding Guide
 !!! quote ""
     This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves.
 
+---
+
 ## Overview
 
 **Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
@@ -18,6 +20,8 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
     This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
 
     However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
+
+---
 
 ## Prerequisites
 
@@ -39,6 +43,8 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
     | **RAM**      | 8GB                 |                                         |
     | **Storage**  | 30GB (Ideally SSD)  | If manually modding, ~70 GB for backups |
 
+---
+
 ## Navigation
 
 <div class="grid cards" markdown>
@@ -53,4 +59,4 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 
 </div>
 
-If you are **only interested in something specific**, use the navigation bar on the left to select the page you are interested in.
+If you are **only interested in something specific**, use the sidebar on the left to select the page you are interested in.

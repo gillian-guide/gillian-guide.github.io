@@ -11,7 +11,9 @@ description: Setting up launch options and optimal graphics settings
 
 </div>
 
-If you're here after anything else (including installing the archive on Linux), start with the **launch options**:
+If you're here after anything else (including installing the archive on Linux), start with the **launch options.**
+
+---
 
 ## Launch options
 
@@ -69,7 +71,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | -benchmark | Launches the game in Benchmark mode and then quits it. |
     | -detailquality | Sets the game's detail distance (0-99). |
     | -disableimposters | Turns off imposter rendering for vehicles. |
-    | -forcehighqualitymirrors | ? |
+    | -forcehighqualitymirrors | Unknown. |
     | -forcer2vb | Forces rendering to Vertex Buffer. |
     | -frameLimit | Sets the setting for V-Sync. |
     | -framelockinwindow | Forces framelock to work even in a window. |
@@ -104,6 +106,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | -viewdistance | Sets the game's view distance (0-99). |
     | -windowed | Forces windowed mode. |
     | -width | Sets the horizontal resolution. |
+
+---
 
 ## Optimal graphics settings
 
@@ -209,6 +213,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | Depth of Field | TBA | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
     | TreeFX | Console | This setting controls the behaviour of vegetation ambient occlusion. |
     | Definition | Classic | This setting controls how smooth the stippled and dithered objects look. |
+
+---
 
 ## Navigation
 

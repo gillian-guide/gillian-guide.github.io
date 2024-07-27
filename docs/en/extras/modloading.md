@@ -5,6 +5,8 @@ description: Phew, all original files are still there!
 
 A lot of mods require replacing game files with [OpenIV](openiv.md). We can get around this by using a modloader.
 
+---
+
 ## [Fusion Overloader](../../essential-modding/fusionfix.md)
 
 !!! warning "Compatibility"
@@ -16,11 +18,13 @@ This modloader works by loading the files from the :material-folder: ==update== 
 
 They're likely already packaged into an :material-folder: ==update== folder. Just drop that folder into the root folder of the game.
 
+---
+
 ### Installing mods with files that go into `.img` archives"
 
 Example: mod requires you to drop a file into the :material-file:`vehicles.img` file.
 
-!!! warning "For mods that provide a whole `.img` archive"
+!!! info "For mods that provide a whole `.img` archive"
     If, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle - you should only package that separate vehicle alone. While you *can* get away with not separating the modified files, you'll ruin compatibility with other mods. So please don't do that.
 
     If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
@@ -52,6 +56,8 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
                     * :material-folder: ==TBoGT==\
                         * :material-file:`Mod 1.TBoGTOnly.img`
 
+---
+
 ### Installing mods with other kind of files
 
 Example: mod requires you to modify :material-file:`gta.dat`.
@@ -79,6 +85,8 @@ Example 2: mod requires you to modify :material-file:`playerped.rpf`.
                     * :material-folder: ==data==\
                         * :material-file:`WeaponInfo.xml`
 
+---
+
 ## [IV Tweaker](https://zolika1351.pages.dev/mods/ivtweaker)
 
 !!! warning "Compatibility"
@@ -86,11 +94,15 @@ Example 2: mod requires you to modify :material-file:`playerped.rpf`.
 
 This modloader has a few advantages over Fusion Overloader, such as being able to inject more files than just `.img`'s while still having the originals intact. It also allows to increase limits.
 
+---
+
 ### Installation
 
 1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivtweaker)
 2. Scroll to the bottom and download the archive.
 3. Extract the :material-zip-box:`IVTweaker_vx.x.zip` archive into the game folder.
+
+---
 
 ### Installing mods
 
@@ -121,6 +133,8 @@ This modloader has a few advantages over Fusion Overloader, such as being able t
             * :material-folder: ==Mod1.TBoGTOnly==\
                 * :material-file:`TBoGTOnly`
                 * :material-file:`TBoGTAnims.img`
+
+---
 
 ### Configuring the modloader
 
@@ -159,6 +173,8 @@ To configure the modloader, edit :material-file-cog:`modloader.ini` in :material
     To increase the limits, edit :material-file-cog:`IVTweaker.ini`.
 
     You may want to do that if you install mods that, for example, change vehicle textures, since you should increase the vehicle budget limits for those.
+
+---
 
 ## Navigation
 
