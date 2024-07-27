@@ -9,7 +9,7 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 
     Frankly, I'd only recommend this launcher if you have no CE instances.
 
-## Installation
+<h2>Installation</h2>
 
 1. Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
 2. Download latest version. Read the notes on the page.
@@ -20,5 +20,7 @@ Let's say you have an instance for your modded version of GTA IV and an instance
     1. Move the launcher files to the game folder.
     2. Rename :material-file:`PlayGTAIV.exe` to something else.
     3. Rename :material-file:`GTAIVLauncher.exe` to `PlayGTAIV.exe` and :material-file-cog:`GTAIVLauncher.exe.config` to `PlayGTAIV.exe.config`.
+
+<h2>Navigation</h2>
 
 [:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }

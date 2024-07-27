@@ -42,4 +42,6 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
 3. Press :fontawesome-solid-shield-halved:`Edit mode` on top.
 4. Modify the files as you wish - changes are saved automatically.
 
+## Navigation
+
 [:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }

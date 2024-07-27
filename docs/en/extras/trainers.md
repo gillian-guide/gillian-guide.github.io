@@ -107,4 +107,6 @@ The default controls are:
 
 Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key you want to bind.
 
+<h2>Navigation</h2>
+
 [:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }

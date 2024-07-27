@@ -160,4 +160,6 @@ To configure the modloader, edit :material-file-cog:`modloader.ini` in :material
 
     You may want to do that if you install mods that, for example, change vehicle textures, since you should increase the vehicle budget limits for those.
 
+## Navigation
+
 [:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }

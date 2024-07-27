@@ -121,4 +121,6 @@ dxvk.gplAsyncCache = true
 
 For more in-depth configuration, you can see the full list of available options [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
 
-[:material-page-first:Previous page <br>Introduction</br>](index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }
+## Navigation
+
+[:material-page-first:Previous page <br>Downgrading</br>](../downgrading/index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }

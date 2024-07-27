@@ -17,7 +17,7 @@ TBA
 ## Installation { data-search-exclude }
 
 !!! question "Which game version to pick?"
-    The following selector is for the game version - see [here](preparation.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
+    The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
 === "1.2.0.59"
     Last updated: **[09.03.2024](#changelog)**
@@ -81,11 +81,13 @@ TBA
 
         Disable mods one by one to see the culprit by deleting folders/files :material-folder: ==update== or the :material-file:`.asi` files.
 
+## Navigation
+
 <div class="grid cards" markdown>
 
 - After installing the archive, **apply optimal graphics settings**:
 
-    [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-graphics-settings){ .md-button .md-button--primary }
 
 - **If using Linux,** also apply Launch Options manually:
 

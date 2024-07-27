@@ -100,7 +100,6 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
 
-
 nav:
   - "index.md"
   - "preparation.md"
@@ -115,7 +114,8 @@ nav:
     - "essential-modding/index.md"
     - "essential-modding/fusionfix.md"
     - "essential-modding/zolikapatch.md"
-    - "essential-modding/variousfixes.md"
+    - "essential-modding/various-fixes.md"
+    - "essential-modding/additional-fixes.md"
   - "enhancements.md"
   - Extras:
     - "extras/index.md"
@@ -141,6 +141,6 @@ extra:
   consent:
     title: Cookie consent
     description: >-
-      This site uses cookies for Google Analytics,
-      which are used to recognize your repeated visits and preferences.
-      They are not mandatory and you can disable it if you wish so.
+      This site uses Google Analytics cookies,
+      to recognize your repeated visits and preferences.
+      They are not mandatory and you can disable them if you wish.

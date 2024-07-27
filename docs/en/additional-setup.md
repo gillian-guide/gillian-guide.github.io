@@ -7,7 +7,7 @@ description: Setting up launch options and optimal graphics settings
 
 - If you're here after installing the archive on Windows, **skip to optimal graphics settings**:
 
-    [Optimal graphics settings:material-page-last:](#optimal-game-settings){ .md-button }
+    [Optimal graphics settings:material-page-last:](#optimal-graphics-settings){ .md-button }
 
 </div>
 
@@ -105,7 +105,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | -windowed | Forces windowed mode. |
     | -width | Sets the horizontal resolution. |
 
-## Optimal game settings
+## Optimal graphics settings
 
 !!! note ""
     Following settings are targetted for the [recommended spec sheet hardware](index.md/#prerequisites).

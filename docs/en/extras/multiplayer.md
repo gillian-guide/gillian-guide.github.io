@@ -152,4 +152,6 @@ This project aims to be a replacement for GFWL. It technically works, but at the
 
 [:material-gitlab: GitLab](https://gitlab.com/GlitchyScripts/xlivelessness){ .md-button .md-button--primary }
 
+## Navigation
+
 [:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }

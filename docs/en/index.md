@@ -53,4 +53,4 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 
 </div>
 
-If you are **only interested in something specific**, use the navigation bar to the left to pick your page of interest.
+If you are **only interested in something specific**, use the navigation bar on the left to select the page you are interested in.
