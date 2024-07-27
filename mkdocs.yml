@@ -133,8 +133,6 @@ extra:
   analytics:
     provider: google
     property: G-RSQFR3F839
-  ads:
-    provider: google
   consent:
     title: Cookie consent
     description: >-
