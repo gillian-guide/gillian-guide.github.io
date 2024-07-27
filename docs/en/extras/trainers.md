@@ -5,6 +5,11 @@ description: Dad, look, I can bhop in GTA IV!
 
 Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](multiplayer.md), but make sure your client/server allows them first.
 
+!!! warning ""
+    Both trainers require [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+
+    Also please pick one - don't install both at once.
+
 ## [ZMenuIV](https://zolika1351.pages.dev/mods/ivmenu)
 
 !!! warning "Compatibility"
@@ -13,10 +18,9 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
 
 <h3>Installation</h3>
 
-1. Ensure [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader) is installed.
-2. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
-3. Scroll to the bottom of the page and download the latest version.
-4. Extract :material-zip-box:`ZMenuIV_vx.zip` into the game folder
+1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
+2. Scroll to the bottom of the page and download the latest version.
+3. Extract :material-zip-box:`ZMenuIV_vx.zip` into the game folder
     - Do not extract :material-folder:`asi loader if not using xliveless`, :material-folder:`for developers`, :material-folder:`old version (has VR support)`, :material-folder:`parachute support(all into game folder)`. Read the :material-file:`readme.txt` for details on these folders.
 
 <h3>Usage</h3>
@@ -87,13 +91,13 @@ Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change exis
 
 ## [Liberty's Legacy](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)
 
-!!! warning "Compatibility"
+!!! info "Compatibility"
     This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
-This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features, especially if you're playing with the Complete Edition. It's also compatible with controllers.
+This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features. It's also the only one you can use with the Complete Edition, anyway. It's also compatible with controllers.
 
 <h3>Installation</h3>
 
-1. Get the latest [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader) and [ScriptHook](../../mod-dependencies/#scripthook).
+1. Install [ScriptHookDotNet](../../resources/mod-dependencies.md/#scripthookdotnet) if you hadn't done so yourself outside of the guide.
 2. Go to the [GTAForums page](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
 3. Download the latest version.
 4. Extract the :material-zip-box:`Liberty's Legacy Trainer xxx.zip` archive into the game folder.
@@ -109,4 +113,4 @@ Additional key bindings can be set by highlighting the desired option, pressing 
 
 <h2>Navigation</h2>
 
-[:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }
+[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }

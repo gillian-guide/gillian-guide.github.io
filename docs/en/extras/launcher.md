@@ -23,4 +23,4 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 
 <h2>Navigation</h2>
 
-[:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }
+[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }

@@ -1,9 +1,9 @@
 title: Extras
 description: A bunch of extra mods and applications for GTA IV
 
-# What's in this section?
+# Extras
 
-Everything else that doesn't fit into the sections before that, but can still be used for more extensive modding!
+This page has everything else that doesn't fit into earlier categories.
 
 ## Navigation
 

@@ -44,4 +44,4 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
 
 ## Navigation
 
-[:material-page-first:Previous page <br>Extras</br>](extras/index.md){ .md-button }
+[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }

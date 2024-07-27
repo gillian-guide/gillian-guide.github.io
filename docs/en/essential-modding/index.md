@@ -12,7 +12,7 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 
 <div class="grid cards" markdown>
 
-- **FusionFix** aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended for any IV install.^^
+- **FusionFix** aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended to install first.^^
 
     [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 

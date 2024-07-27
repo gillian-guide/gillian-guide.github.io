@@ -67,3 +67,7 @@ Mention it on the Mod Suggestions thread on my Discord server:
 Thanks for using **my** guide for modding GTA IV!
 
 I sincerely hope that I have helped you achieve the perfect state of the game. This guide takes some time to maintain, and it couldn't have been done without all the great mods, so please consider [chipping in for some authors](../../resources/credits.md).
+
+## Navigation
+
+[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }
