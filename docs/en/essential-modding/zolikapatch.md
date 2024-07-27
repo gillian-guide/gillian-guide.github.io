@@ -13,6 +13,7 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
 2. Scroll to the bottom of the page and download the latest version.
 3. Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
+    - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
 
 !!! warning "If using FusionFix..."
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
@@ -34,8 +35,10 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 !!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
     This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
 
-## Configuration
+<h2>Configuration</h2>
 
 Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options have explanations next to them.
 
-[:material-page-first:Previous page <br>FusionFix</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Various Fixes</br>](variousfixes.md){ .md-button .md-button--primary }
+<h2>Navigation</h2>
+
+[:material-page-first:Previous page <br>FusionFix</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }

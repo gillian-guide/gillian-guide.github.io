@@ -8,23 +8,26 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 !!! warning ""
     Every mod onwards requires [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
 
-## [FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
+## Navigation
 
-This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended for any IV install.^^
+<div class="grid cards" markdown>
 
-[Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+- **FusionFix** aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended for any IV install.^^
 
-## [ZolikaPatch](https://zolika1351.pages.dev/mods/ivpatch)
+    [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-!!! warning "Compatibility"
-    This mod is compatible with all downgraded versions, but not Complete Edition. Skip this mod if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../extras/multiplayer.md).
+- **ZolikaPatch** fixes or adresses some gameplay issues and **improves core multiplayer experience**. ^^Don't install unless your game is downgraded.^^
 
-This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** ^^Highly recommended for a downgraded install.^^
+    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
 
-[Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+- **Various Fixes** aims to fix or improve a large amount of **map issues and textures.**
 
-## [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
+    [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 
-This project aims to fix or improve a large amount of **map issues and textures.**
+- **Additional Fixes** is a list for all the **minor fixes** that don't make sense to be a whole separate page.
 
-[Next page:material-page-last: <br>Various Fixes</br>](variousfixes.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+
+</div>
+
+[:material-page-first:Previous page <br>Additional Setup</br>](../additional-setup.md){ .md-button }

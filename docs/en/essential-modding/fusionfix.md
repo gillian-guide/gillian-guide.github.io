@@ -19,12 +19,16 @@ TBA
     1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
     2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
     3. Extract the archive into the game folder.
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 === "1.0.8.0"
     1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
     2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
     3. Extract the archive into the game folder.
     4. Move the files out of the :material-folder: ==plugins== folder into the game folder.
-    5. Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` if not using GFWL. Replace if needed.
+        - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 
     !!! tip "If using GFWL..."
         Apply this [patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
@@ -40,4 +44,18 @@ Most of options are available in the in-game settings.
 
 You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog:`GTAIV.EFLC.FusionFix.cfg` if you need to edit the settings outside of the game for some reason. See [the list of non-ingame options](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix?tab=readme-ov-file#details) if you need to tweak them.
 
-[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button } [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+<h2>Navigation</h2>
+
+<div class="grid cards" markdown>
+
+- If your **game is downgraded**, continue with ZolikaPatch:
+
+    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+
+- If it isn't, continue with Various Fixes instead:
+
+    [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
+
+</div>
+
+[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button }
