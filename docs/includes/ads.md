@@ -1,0 +1,2 @@
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6732569974807702"
+     crossorigin="anonymous"></script>
