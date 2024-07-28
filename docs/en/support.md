@@ -14,9 +14,15 @@ Without the people listed in [credits](credits.md) we wouldn't have this guide, 
 ## Me (Gillian)
 I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
-==Note: I'll prefer a donation to monobank, as that'll eat the least amount of money and also you can use Google Pay to pay for that. As second option, please choose Ko-Fi! For a direct PayPal donation link, [contact me](contact-me.md) instead.==
+==monobank will send money to me directly==
 
-[:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/gillianmc){ .md-button .md-button--primary } [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }
+[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
+
+Crypto options, if you cannot send money directly or prefer anonimity:
+
+- BTC: 3J3SUrDtRj35LeWzJGhyxEzfm9unJ4VwkR
+- ETH: 0xc19628eCcF1CE224F56d70E49091b69D963754D6
+- Monero: 43jcwx69GxaTNTsUqrS97pWTEfG7wNAKPJ1LtGvdesYzHVxS2Qt2n7oXv667EB9NBFcx5XbT9FqRKJLb1khHQJoUD8d1AMu
 
 ### Supporters
 These people made my life a tad bit easier with their contribution, which in total sums up to 7$ as of December 2023:
