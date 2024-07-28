@@ -107,7 +107,7 @@ If you're looking for people to play with, visit this Discord server:
 [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
 
 ???+ info "Port Forwarding"
-    If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you may be having problems with automatic port forwarding (UPnP). Set up port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
+    If you are having problems connecting to lobbies (kickbug, joining an empty lobby), you have to do manual port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
 
     * TCP: `3074`, `80`, `88`
     * UDP: `3074`, `80`, `88`

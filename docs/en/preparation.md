@@ -66,6 +66,8 @@ It is highly recommended to have latest drivers installed for best performance a
     - **If you had previously modded the game or installed a modpack, it is highly recommended that you first uninstall the game from your launcher, then delete any leftovers that stayed in the root folder, as launchers don't remove those.**
     - **The game should not be located in :material-folder: `Desktop` or :material-folder: `Documents` or other default system folders to avoid issues.** If not using :material-steam: Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
 
+I recommend opening the [troubleshooting](../resources/troubleshooting.md) page on a separate tab to consult during the guide if you encounter issues.
+
 If the above is met, continue with one of the following pages:
 
 <div class="grid cards" markdown>

@@ -32,10 +32,10 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
     If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
 
 1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](openiv.md).
-2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other (i.e. a mod provides separate files for base IV and EFLC), compile a separate `.img` file for them.
+2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other (i.e. a mod provides separate files for base IV and EFLC), compile a separate `.img` file for each subgame.
 3. Create a folder with the name of your mod in the :material-folder: ==update== folder (create one in the game folder if it doesn't exist).
 4. Drop your compiled `.img` files into that folder.
-5. If you went through step 3, also create folders called :material-folder: ==IV==, :material-folder: ==TLAD== or :material-folder: ==TBoGT== and drop the specific `.img` files there.
+5. If you went through step 2, also create folders called :material-folder: ==IV==, :material-folder: ==TLAD== or :material-folder: ==TBoGT== and drop the separate `.img` files there.
 
 !!! tip "Priority"
     If you have multiple mods that replace same files and need a priority system, you can add a number or a symbol (such as !) before it's name.
@@ -64,7 +64,7 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
 
 Example: mod requires you to modify :material-file:`gta.dat`.
 
-Example 2: mod requires you to modify :material-file:`playerped.rpf`.
+Example 2: mod requires you to modify :material-file:`playerped.rpf` (copy the vanilla file over first and modify that).
 
 !!! note ""
     By other kind of files I mean literally any replacement files that go into :material-folder: ==pc==, :material-folder: ==common==, :material-folder: ==TLAD== or :material-folder: ==TBoGT==. As long as they're not `.img` files.

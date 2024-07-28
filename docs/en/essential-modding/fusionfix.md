@@ -11,13 +11,13 @@ This project aims to fix or address most **graphical and gameplay issues** and i
 
 ---
 
-<h2>Demo</h2>
+<h2>Demo</h2> <a id="Demo"></a>
 
 TBA
 
 ---
 
-<h2>Installation</h2>
+<h2>Installation</h2> <a id="Installation"></a>
 
 === "1.2.0.59"
     1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
@@ -44,7 +44,7 @@ TBA
 
 ---
 
-<h2>Configuration</h2>
+<h2>Configuration</h2> <a id="Configuration"></a>
 
 Most of options are available in the in-game settings.
 
@@ -52,7 +52,7 @@ You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog
 
 ---
 
-<h2>Navigation</h2>
+<h2>Navigation</h2> <a id="Navigation"></a>
 
 <div class="grid cards" markdown>
 

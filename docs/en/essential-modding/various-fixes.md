@@ -7,7 +7,7 @@ This project aims to fix or improve a large amount of map issues and textures. Y
 
 ---
 
-<h2>Installation</h2>
+<h2>Installation</h2> <a id="Installation"></a>
 
 1. Make sure you have installed [FusionFix](fusionfix.md).
 2. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1nLq3uiw1XFW5lrIwdSLuk2ZhpEWzdLw0).
@@ -17,6 +17,6 @@ This project aims to fix or improve a large amount of map issues and textures. Y
 
 ---
 
-<h2>Navigation</h2>
+<h2>Navigation</h2> <a id="Navigation"></a>
 
 [:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }

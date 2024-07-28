@@ -8,7 +8,7 @@ description: Downgrading the radio back to how it should be.
 
 ---
 
-<h2>Instructions</h2>
+<h2>Instructions</h2> <a id="Instructions"></a>
 
 1. Go to the [**Various GTA Downgraders** website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
 2. Download the **Radio Restoration mod for GTAIV CE**.
@@ -20,7 +20,7 @@ description: Downgrading the radio back to how it should be.
 
 ---
 
-<h2>Navigation</h2>
+<h2>Navigation</h2> <a id="Navigation"></a>
 
 <div class="grid cards" markdown>
 

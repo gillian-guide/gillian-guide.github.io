@@ -11,7 +11,7 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 
 ---
 
-<h2>Installation</h2>
+<h2>Installation</h2> <a id="Installation"></a>
 
 1. Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
 2. Download the latest version. Read the notes on the page.
@@ -26,6 +26,6 @@ Let's say you have an instance for your modded version of GTA IV and an instance
 
 ---
 
-<h2>Navigation</h2>
+<h2>Navigation</h2> <a id="Navigation"></a>
 
 [:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }

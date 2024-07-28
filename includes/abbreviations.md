@@ -9,5 +9,7 @@
 *[Complete Edition]: 1.2.0.59, a.k.a. Steam and RGL version
 *[CE]: Complete Edition, a.k.a. 1.2.0.59 or Steam and RGL version
 *[GFWL]: Games for Windows LIVE
+*[GTAC]: Grand Theft Auto Connected
+*[HMP]: HappinessMP
 *[EFLC]: Episodes from Liberty City
 *[UAL]: Ultimate ASI Loader
