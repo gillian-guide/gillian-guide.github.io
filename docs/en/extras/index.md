@@ -21,10 +21,6 @@ This page has everything else that doesn't fit into earlier categories.
 
     [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }
 
-- Instructions on using **OpenIV** for manual modding:
-
-    [Next page:material-page-last: <br>OpenIV</br>](openiv.md){ .md-button .md-button--primary }
-
 - Instructions for **modloading** to avoid replacing game files:
 
     [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }

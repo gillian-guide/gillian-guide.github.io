@@ -12,16 +12,6 @@ Following mods are fixes that I'd personally consider essential, as they don't h
 
 ---
 
-## IV Fixes and Improvements
-
-This mod fixes select map models.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
 ## Player Outfit Texture Fixes
 
 This mod fixes green-ish textures on some character models.

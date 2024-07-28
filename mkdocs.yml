@@ -122,11 +122,11 @@ nav:
     - "extras/multiplayer.md"
     - "extras/trainers.md"
     - "extras/launcher.md"
-    - "extras/openiv.md"
     - "extras/modloading.md"
     - "extras/mods.md"
   - Resources:
     - "resources/mod-dependencies.md"
+    - "resources/openiv.md"
     - "resources/troubleshooting.md"
     - "resources/credits.md"
 
