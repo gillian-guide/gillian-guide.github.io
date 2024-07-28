@@ -29,6 +29,7 @@ plugins:
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -63,7 +64,7 @@ theme:
     - search.highlight
     - search.share
     - content.action.edit
-  custom_dir: overrides
+    - announce.dismiss
 
 markdown_extensions:
   - toc:
