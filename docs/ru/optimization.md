@@ -1,148 +1,142 @@
-title: Оптимизация
-description: Методы оптимизации вашей установки GTA IV
+title: Optimization
+description: Everything about DXVK for GTA IV
 
-# Оптимизация
-Мы все знаем, насколько ужасной была оптимизация игры на момент выхода. К сожалению, у нас до сих пор нет идеального решения, но есть довольно хорошее.
+# Optimization
 
-## Драйвера
-Это может показаться очевидным, но многие люди не устанавливают драйверы, поэтому я считаю необходимым упомянуть об этом. Выберите производителя ГП (для дискретного ГП, а не интегрированного) и следуйте инструкциям только для этого производителя.
+We all know how horrible the optimization of the game was at release. Unfortunately, we still don't have a one-for-all solution - but that doesn't mean we can't make things better.
 
-=== "NVIDIA"
-    === "NVCleanstall"
-        !!! warning ""
-            Этот способ установки больше рекомендуется, так как позволяет установить только то, что необходимо, например, если вам не хотите GeForce Experience или телеметрия.
-        * Перейдите на [оффициальный сайт](https://www.techpowerup.com/nvcleanstall/).
-        * Скачайте последнюю версию.
-        * Запустите :material-file-download:`NVCleanstall_x.x.x.exe`.
-        * Выберите `Install best driver for my hardware`.
-        * Установите флажок на `Periodically check for driver updates in background` чтобы всегда иметь самые свежие драйверы.
-        * Выберите нужные/необходимые компоненты (если не уверены - нажмите `Recommended`, прочитайте описания модулей и переключите их при необходимости).
-        * После загрузки выберите необходимые опции (если не уверены - оставьте все как есть).
-        * Установите драйвер.
-    === "Оффициальные"
-        !!! warning ""
-            Этот метод устанавливает то, что вам, возможно, не нужно, например, телеметрию или GeForce Experience. Чтобы избежать этого, смотрите NVCleanstall.
-        * Перейдите на [оффициальный сайт](https://www.nvidia.com/ru-ru/geforce/drivers/).
-        * Установите GeForce Experience. Если драйвер нужен отдельно, выберите его в [поиске драйвера вручную](https://www.nvidia.com/Download/index.aspx?lang=ru-ru).
-        * Следуйте инструкциям для установки драйвера.
-=== "AMD"
-    * Перейдите на [оффициальный сайт](https://www.amd.com/en/support).
-    * Нажмите `Download Windows Drivers`. Если вы хотите выбрать драйвер вручную, воспользуйтесь приведенным ниже ручным поиском.
-    * Следуйте инструкциям для установки драйвера.
-    * Выберите драйвера `Optional` замисть `Recommended` для установки последней версии.
-    * Выберите `Minimal Install` замисть `Full Install` если вам не нужны дополнительные фунцкии приложения Adrenaline.
-=== "Intel"
-    * Перейдите на [оффициальный сайт](https://www.intel.com/content/www/us/en/download-center/home.html).
-    * Либо воспользуйтесь автоматическим инструментом для автоматического обнаружения и установки драйверов, либо просмотрите список видеодрайверов и установите нужный драйвер.
-    * Следуйте инструкциям для установки драйвера.
+---
 
-## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF)
-!!! tip
-    Используя эту утилиту можете настроить DXVK и [параметры запуска](../additional-setup/#_2) полуавтоматически не разбиравшись с "а как это настроить, а что это делает" и подобным. Вы можете пропустить сразу к [оптимальным настройкам графики](../additional-setup/#_3) после использования.
-!!! warning
-    Используйте утилиту заново после даунгрейда или установки FusionFix и/или ZolikaPatch.
-!!! info "Использование"
-    - [Скачайте последнюю версию утилиты](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
-    - Запустите ее и следуйте инструкциям в приложении (или просто нажмите `Install DXVK` и `Setup launch options` и больше ничего не трогайте).
-    - Если возникнут какие-либо проблемы, [сообщите об этом на сервере Discord](contact-me.md).
+## What is DXVK?
 
-## DXVK
-На данный момент это единственное хорошее решение для повышения производительности игры.
+[DXVK](https://github.com/doitsujin/dxvk) is a translation layer that converts DirectX API calls to Vulkan.
 
-!!! warning "Информация"
-    * DXVK в основном повышает производительность ЦП за счет лучшей обработки вызовов drawcall - тех самых, которыми так злоупотребляет игра. Есть вероятность, что DXVK не улучшит производительность, если у вас слабее ГП.
-    * DXVK официально не поддерживает Windows, но он прекрасно работает для GTA IV.
-    * Для пользователей Linux, использующих Proton, вам необходима только [настройка](#_5), поскольку Proton уже использует DXVK.
-!!! warning "Требования"
-    * Убедитесь, что у вас установлены последние [драйвера](#_2).
-    * Убедитесь, что ваш ПК соответствует [требованиям DXVK](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK GitHub Wiki") или хотя бы [требования DXVK Legacy](https://github.com/doitsujin/dxvk/wiki/Driver-support#dxvk-1103 "DXVK's GitHub Wiki") - предпочтительно рекомендуемым версиям. Большинство видеокарт 2014 года и новее должны поддерживать обычную версию, а видеокарты 2012 года и новее - Legacy версию, но вы можете использовать вкладку Advanced - Vulkan в [GPU-Z](https://www.techpowerup.com/download/gpu-z/ "TechPowerUp GPU-Z") чтобы проверить самостоятельно. Legacy версия имеет меньшую производительность и может содержать больше багов.
-    * Пользователи некоторых вариаций интегрированной графики от Intel возможно смогут установить только версию `1.10.1`.
-    * Отключите кэш шейдеров в :material-steam: Steam в `Настройки` - `Загрузки`.
+While it isn't a magic tool to improve performance and is more of a compatibility tool for Linux, the condition of GTA IV on PC allows it to improve performance for most - but not everyone - mainly by improving CPU performance through better drawcall handling.
 
-??? warning "Поддержка ENB"
-    DXVK официально не поддерживает ENB (и наоборот) и настоятельно не рекомендуется сообществом ENB. Тем не менее, он будет работать для более простых эффектов, но при этом следует ожидать проблем.
+??? question "What benefit can I expect from DXVK?"
+    It's hard to say, because DXVK's improvement can vary from device to device. **There is a chance that DXVK will not improve performance for you if you're GPU-bound.** So, the only answer is that you can expect *some* improvement if you are CPU-bound.
 
-    Не обращайте внимания, если не планируете использовать ENB.
+    Under right conditions, though, you can expect something comparable to this benchmark:
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
 
-### Какое улучшение мне ожидать?
-Сложно сказать, поскольку улучшение DXVK может варьироваться от устройства к устройству. Но для приблизительного сравнения можно воспользоваться моим сравнением:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+---
 
-### Установка { data-search-exclude }
-=== "Последняя версия"
-    !!! warning ""
-        * Используйте эту версию, если ваша видеокарта поддерживает последнюю версию. Убедитесь в этом, ознакомившись с предупреждением выше.
+## Prerequisites
 
-    - Инструкции:
-        * Перейдите на [релизы DXVK](https://github.com/doitsujin/dxvk/releases) и скачайте последнюю версию - :material-zip-box:`dxvk-x.x.tar.gz`.
-        !!! note ""
-            Вы также можете использовать [патч DXVK-gplasync](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) для более плавной игры на видеокартах AMD и Intel Arc, т.к. только у Nvidia есть прекомпиляция шейдеров на данный момент.
-        * После скачивания откройте архив и перейдите по :material-zip-box:==dxvk-x.x.tar\\dxvk-x.x\\x32\\==
-        * Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
-    
-    ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы в папке?"
-        Игра использует графический API Direct3D 9. Остальные dll предназначены для Direct3D 10 и Direct3D 11. 
+!!! warning ""
+    - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
+    - IF using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
+    - If you are a Linux user, skip to [configuration](#configuration), since Proton already uses DXVK.
 
-        Проще говоря, игра не будет использовать никакие другие файлы.
-    
-    ??? question "Почему :material-folder: ==x32==? У меня 64-битная система"
-        Ваша система в данном случае не имеет значения. Сама игра рассчитана на использование 32-битных библиотек, а не 64-битных.
+---
 
-        Проще говоря, игра не будет использовать файлы из :material-folder: ==x64==.
-    
-    ??? warning "Если у вас возникли проблемы..."
-        Используйте версию 2.2 или 2.0 - это последние версии, которые подтвержденно работают идеально.
-       
-        Если игра вообще не запускается, значит, ваша видеокарта не поддерживает последнюю версию. Вместо нее используйте версию Legacy.
+## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
 
-        Просмотрите [исправление проблем](troubleshooting.md).
-=== "Legacy версия"
-    !!! warning ""
-        * Используйте эту версию только в том случае, если ваша видеокарта поддерживает только Legacy версию. Убедитесь в этом, ознакомившись с предупреждением выше.
-        * Если вы используете интегрированную графику от Intel, используйте версию [1.10.1](https://github.com/doitsujin/dxvk/releases/tag/v1.10.1)([async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.1)).
+Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtilityWPF?tab=readme-ov-file#features).
 
-    - Инструкции:
-        * Перейдите на [релиз DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/v1.10.3) и скачайте :material-zip-box:`dxvk-1.10.3.tar.gz`.
-        !!! note ""
-            Вы также можете использовать [DXVK-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) для более плавной игры.
-        * После скачивания откройте архив и перейдите по :material-zip-box:==dxvk-1.10.3.tar_3\\dxvk-1.10.3\\x32\\==<br>Или :material-zip-box:==dxvk-async-1.10.3.tar_2\\dxvk-async-1.10.3\\x32\\==</br>
-        * Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
-    
-    ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы в папке?"
-        Игра использует графический API Direct3D 9. Остальные dll предназначены для Direct3D 10 и Direct3D 11. 
+!!! info ""
+    - You should re-run the tool **if you downgrade or install FusionFix and/or ZolikaPatch later.**
+    - You cannot, nor should you, use the tool on Linux.
 
-        Проще говоря, игра не будет использовать никакие другие файлы.
-    
-    ??? question "Почему :material-folder: ==x32==? У меня 64-битная система"
-        Ваша система в данном случае не имеет значения. Сама игра рассчитана на использование 32-битных библиотек, а не 64-битных.
+### Usage
 
-        Проще говоря, игра не будет использовать файлы из :material-folder: ==x64==.
-    
-    ??? warning "Если у вас возникли проблемы..."
-        Если игра вообще не запускается, значит ваша видеокарта не поддерживает DXVK.
+1. [Download the latest version](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
+2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
+3. Press `Open`, select the game folder. Follow the in-app instructions if any pop-ups appear.
+4. Press `Install DXVK` and `Setup launch options` in sequence.
+    - If experienced, you can manually configure the options. There is usually no need to, though.
+    - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
-        Просмотрите [исправление проблем](troubleshooting.md).
-### Настройка 
-Создайте в папке с игрой файл :material-file-cog:`dxvk.conf` и добавьте в него с помощью любого текстового редактора следующие строки (взято из [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#DXVK)):
-``` { .py }
-# maxFrameLatency используется для предотвращения или уменьшения случайных пропусков кадров и фризов. Эта опция устанавливает более строгую максимальную задержку кадров.
+After using the tool, you can freely skip to optimal game settings:
+
+[Next page:material-page-last: <br>Additional Setup: Optimal game settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
+
+---
+
+## Manual installation { data-search-exclude }
+
+=== "Latest"
+    ???+ warning "Requirements"
+        - Use this version if your GPU is:
+            - **NVIDIA**: A Maxwell (GeForce 800 series) GPU or newer, plus GTX 745, GTX 750 and GTX 750 Ti.
+                - GeForce 810M, GeForce 820M, GeForce 825M, GTX 870M, GTX 880M, GeForce 910M and GeForce 920M are not supported.
+            - **AMD**: A GCN4 (RX400 series and Vega series) (i)GPU or newer.
+            - **Intel**: A Skylake (6th generation Intel Core CPUs) iGPU or newer. All Arc GPUs are supported. Select iGPUs may be limited to Legacy.
+            - **Mac**: An Intel Mac with support for Vulkan 1.3 (check manually by opening the command prompt and typing `vulkaninfo`).
+
+        If you're don't fall under the list, check the Legacy tab. **This list only applies to Windows.**
+
+    ---
+
+    <h3>Instructions</h3>
+
+    1. Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
+        - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
+    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==
+    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+=== "Legacy"
+    ???+ warning "Requirements"
+        - You can use this version if your GPU is:
+            - **NVIDIA**: A Kepler (GeForce 600 series) GPU or newer.
+            - **AMD**: A GCN1 (Radeon HD 7700 series) (i)GPU or newer.
+            - **Intel**: A Skylake (6th generation Intel Core CPUs) iGPU or newer. Select iGPUs may be limited to DXVK 1.10.1.
+            - **Mac**: An Intel Mac with support for Vulkan 1.1 (check manually by opening the command prompt and typing `vulkaninfo`).
+
+        If you're don't fall under the list, you can not use DXVK. **This list only applies to Windows.**
+
+    ---
+
+    <h3>Instructions</h3>
+
+    1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) and download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
+        - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
+    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+
+??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
+    The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11.
+
+    In simpler words, the game will not use any other files.
+
+??? question "Why :material-folder: ==x32==? My system is 64-bit"
+    Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
+
+    In simpler words, the game will not use the files from :material-folder: ==x64==.
+
+??? warning "If you have problems..."
+    Try going down a version or two.
+
+    If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
+
+    See [troubleshooting](troubleshooting.md).
+
+---
+
+### Configuration
+
+Create a :material-file-cog:`dxvk.conf` file in the game folder and add following lines to the file with any text editor:
+
+``` { .cpp }
+# maxFrameLatency is used to avoid or reduce occasional frame skipping and stuttering. This option enforces a stricter maximum frame latency.
 d3d9.maxFrameLatency = 1
-# presentInterval используется для включения VSync. Мы будем использовать его в пользу игрового VSync. Так мы получим лучшую нагрузку на процессор.
+# presentInterval is used to enable VSync. We're going to use it in favor of game's VSync implementation. This gives us better CPU overhead.
 d3d9.presentInterval = 1
-# numBackBuffers может дополнительно улучшить стабильность FPS при использовании Vsync. Эта опция переопределяет количество обратных буферов для цепочки подкачки Vulkan.
+# numBackBuffers may further improve frametime stability while using Vsync. This option overrides back buffer count for the Vulkan swap chain.
 d3d9.numBackBuffers = 3
 ```
-Также добавьте `dxvk.enableAsync = true` если вы используете патч async и дополнительно `dxvk.gplAsyncCache = true` если используете патч gplasync.
-??? abstract "Полный список настроек DXVK"
-    Полный список можно посмотреть [здесь](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
-Также пройдите через [второстепенную настройку](additional-setup.md)
 
-## DxWrapper
-??? note "Что такое DxWrapper и как его использовать?"
-    Некоторая часть сообщества GTA IV считает, что [DxWrapper](https://github.com/elishacloud/dxwrapper/releases/) может увеличить производительность. Из моих экспериментов следует, что использование `v1.0.6387.21` только ухудшило производительность и не дало никаких преимуществ. 
-    
-    Чтобы использовать его, извлеките :material-file:`dxwrapper.asi`, :material-file-edit:`dxwrapper.ini` и :fontawesome-solid-gears:`dxwrapper.dll`, и в :material-file-edit:`dxwrapper.ini` включите `DDrawCompat` и `DDrawCompatNoProcAffinity`.
-    
-    Если вы сможете мне доказать мне с помощью чётких сравнений, что это *может* повысить производительность, [свяжитесь со мной](contact-me.md).
+If using `dxvk-async` or `dxvk-gplasync`, add the following lines to the same file:
 
-[:material-page-first:Предыдущая страница <br>Введение</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Второстепенная настройка</br>](additional-setup.md){ .md-button .md-button--primary }
+``` { .cpp }
+# Following options are used to enable async
+dxvk.enableAsync = true
+dxvk.gplAsyncCache = true
+```
+
+For more in-depth configuration, you can see the full list of available options [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
+
+---
+
+## Navigation
+
+[:material-page-first:Previous page <br>Downgrading</br>](../downgrading/index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }

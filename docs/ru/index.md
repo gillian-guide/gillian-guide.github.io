@@ -1,41 +1,62 @@
-title: Введение
-description: Введение к руководству по моддингу GTA IV от Gillian
+title: Introduction
+description: Welcome to Gillian's GTA IV Modding Guide
 
-# Введение
+# Introduction
 
-Добро пожаловать в руководство по моддингу Grand Theft Auto IV от Gillian.
+![Guide logo](assets/logo-horizontal.webp)
 
-Это централизованное, универсальное руководство. Оно включает в себя шаги по [оптимизации](optimization.md), [настройке](additional-setup.md), [исправлению, улучшению](essential-modding/index.md) игры, [знакомству с мультиплеером](multiplayer.md) и [многое другое](extras/index.md)!
+!!! quote ""
+    This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves.
+
+---
+
+## Overview
+
+**Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
+
+This guide aims to provide the best vanilla-faithful experience for GTA IV, but is not limited to that. It's meant to be accessible to everyone and to be able to help anyone who has their own specifics on how they want to experience the game - be it creating the best singleplayer experience, creating the best environment for manual modding, playing multiplayer, getting the best performance, or something else.
 
 !!! note ""
-    Данное руководство стремится быть как можно более объективным, стараясь предоставлять только актуальную информацию для моддинга GTA IV. Любые перечисленные моды или информация не отражают моей личной позиции по отношению к кому-либо, и я бы предпочел, чтобы это руководство не было подвержено влиянию личных взглядов. 
+    This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
+
+    However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
+
+---
+
+## Prerequisites
 
 !!! warning ""
-    Данное руководство не имеет отношения к Rockstar Games, Rockstar North или Take-Two Interactive. Выполнение действий, описанных в данном руководстве, может нарушить лицензионное соглашение с конечным пользователем (EULA) компании Rockstar, и если вы обратитесь в службу поддержки, они могут отказать вам в помощи по причине нарушения EULA. Я не являюсь автором ни одной из приведенных модификаций, поэтому о любых ошибках/недоработках следует сообщать самим разработчикам.
+    In order for this guide to be useful to you, and for you to be eligible for support later, **please make sure the following prerequisites are met, aswell as my additional requirements:**
 
-## Подготовка
-!!! warning ""
-    - Для того чтобы это руководство было вам полезно, пожалуйста, убедитесь, что соблюдены следующие требования:
-        * ПК с Windows 10/11 или актуальным дистрибутивом Linux настроенным для игр.
-        * Вы **должны** владеть игрой в [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Пиратские версии не поддерживаются. Дисковые версии с версией 1.0.8.0 не поддерживаются, но должны работать при условии, что вы избавитесь от DRM.
-        * Ваш ПК должен, по крайней мере, соответствовать [минимальным требованиям игры](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Требования на PCGW - скопировано из Steam"). Однако, ради плавной игры, он также должен встречать [требования DXVK](https://github.com/doitsujin/dxvk/wiki/Driver-support "DXVK на GitHub Wiki") (Если вы используете Windows, игнорируйте требования Linux - тот же Wine; более старые видеокарты могут соответствовать требованиям 1.10.3.).
-        * Папка с игрой должна быть где-угодно, но не в :material-folder: `C:\Program Files` и :material-folder: `C:\Program Files (x86)` чтобы избежать проблем с разрешениями. ==Для пользователей :material-steam: Steam это неактуально.==
-        * Убедитесь, что на вашем диске достаточно свободного места (базовая игра занимает около 22ГБ, резервная копия займет еще столько же, плюс учитывайте все моды, которые вы будете ставить, - зарезервируйте не менее 70ГБ, считая и игру).
-        * Необходим архиватор. Я рекомендую [7-Zip](https://www.7-zip.org/ "Официальный сайт 7-Zip").
-        * Убедитесь, что установлены следующие библиотеки (они уже устанавливаются в :material-steam: Steam и Rockstar Games Launcher) - [Visual C++ Redistributable for Visual Studio 2012 **x86**](https://www.microsoft.com/en-us/download/details.aspx?id=30679 "Официальные установщики от Microsoft") и [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Официальные установщики от Microsoft").
+    - Read everything as is and don't skip anything.
+    - Avoid using other guides unless they are mentioned in this one. If something is mentioned in other guides but not here, it is most likely not useful here.
+    - I do not provide support for ENBs or graphical enhancements (i.e. ICEnhancer). You're on your own for those.
 
-## Демонстрация геймплея
-После завершения моддинга ваша игра будет выглядеть и играть примерно так (для этих видео использовался устаревший [готовый архив](Drag-and-Drop-Archive.md) - актуальная версия даст результат еще лучше).
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0AxxVjDCi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lARlDyPLLtA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **You must own the game on [:material-steam: Steam](https://store.steampowered.com/app/12210/) or the [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
+- **Operating system:** Your PC **should be running Windows 10 or 11 or any up-to-date Linux distribution suited for gaming**. Older Windows versions may work, but I will not provide support for them. ARM64 systems have not been tested.
+- **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Game requirements on PCGW - copied from Steam")**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
 
-## Руководство от catsmackaroo
-*Старое* руководство catsmackaroo послужило стимулом для создания моего оригинального руководства. Мое руководство с того момента очень сильно увеличилось в размере, и теперь catsmackaroo планирует сделать новую серию видеороликов, знакомящих людей с моддингом IV, частично основанных на моем руководстве. Вот первая часть:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AhPr0WAqNv8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    | Hardware     | Recommended         | Alternative                             |
+    | :----------: | :-----------------: | :-------------------------------------: |
+    | **CPU**      | Intel Core i5-6600k | Ryzen 3 2200G                           |
+    | **GPU**      | GTX 970/1050Ti      | RX580, Intel Arc A310                   |
+    | **RAM**      | 8GB                 |                                         |
+    | **Storage**  | 30GB (Ideally SSD)  | If manually modding, ~70 GB for backups |
 
-## Разделы
-Если вам не нужны подробные руководства, вы можете просто установить архив [готовый архив](drag-and-drop-archive.md) и начать игру.
+---
 
-В другом случае, начните с [оптимизации](optimization.md).
+## Navigation
 
-[Следующая страница:material-page-last:<br>Готовый архив</br>](drag-and-drop-archive.md){ .md-button .md-button--primary } [Следующая страница:material-page-last: <br>Оптимизация</br>](optimization.md){ .md-button .md-button--primary } [Следующая страница:material-page-last: <br>Авторы</br>](credits.md){ .md-button .md-button--primary }
+<div class="grid cards" markdown>
+
+- Go to **preparation** to get ready to mod the game and start using the guide:
+
+    [Next page:material-page-last: <br>Preparation</br>](preparation.md){ .md-button .md-button--primary }
+
+- My **Discord server** for support and discussion (you may not receive support from me if you violate any of the above conditions):
+
+    [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
+
+</div>
+
+If you are **only interested in something specific**, use the sidebar on the left to select the page you are interested in.

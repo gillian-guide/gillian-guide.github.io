@@ -1,118 +1,225 @@
-title: Второстепенная настройка
-description: Второстепення настройка для вашей установки GTA IV - после выполнения оптимизации или установки готового архива
+title: Additional Setup
+description: Setting up launch options and optimal graphics settings
 
-# Второстепенная настройка
-Независимо от того, пришли ли вы сюда после использования [готового архива](drag-and-drop-archive.md) или после [оптимизации](optimization.md), нам все ещё необходимо выполнить второстепенную настройку для достижения наилучшего опыта игры.
+# Additional Setup
 
-## Параметры запуска
-???+ note "Как выставить параметры запуска?"
-    Есть два способа:
-    
-    1. Для Complete Edition, зайдите в меню Свойства игры в :material-steam: Steam и выставите их там;
-    2. Для старых версий, в папке с игрой :material-file-cog:`commandline.txt` и отредактируйте его.
-???+ tip "Автоматическое приложение для настройки"
-    Для полуавтоматизации настройки вы можете использовать [автоматическое приложение для настройки](../optimization/#setup-utility).
+<div class="grid cards" markdown>
 
-Единственные опции, что вы должны выставить: `-norestrictions -nomemrestrict`. Для значений с числом должен стоять пробел между значением и числом.
+- If you're here after installing the archive on Windows, **skip to optimal graphics settings**:
 
-???+ warning "При использовании DXVK или готового архива..."
-    * Добавьте `-windowed` для использования безграничного полноэкранного режима для большей стабильности. Убедитесь, что `BorderlessWindowed` включён в :material-file-cog:`ZolikaPatch.ini` и/или :material-file-cog:`GTAIV.EFLC.FusionFix.ini`.
-    * Отключите `Включить кэш шейдеров` в `Настройки` - `Загрузки` в Steam.
-    * Если в настройках графики игра не показывает нужного объема VRAM (например, 512 МБ), добавьте `-availablevidmem` с значением видеопамяти вашего ГП с `.0` в конце - до `3072.0`.
-    * Если игра не позволяет использовать правильное разрешение/частоту обновления, добавьте `-width`, `-height` и `-refreshrate` с "родными" значениями вашего монитора. Если проблема все ещё присутствует, добавьте `d3d9.forceAspectRatio = 16:9` в :material-file-cog:`dxvk.conf`.
+    [Optimal graphics settings:material-page-last:](#optimal-graphics-settings){ .md-button }
 
-???+ warning "При использовании Linux..."
-    Совершите [замену DLL](https://cookieplmonster.github.io/setup-instructions/#proton-wine) для использования :fontawesome-solid-gears:`dinput8.dll` или :fontawesome-solid-gears:`xlive.dll`.
+</div>
 
-!!! danger "Но в других гайдах используют больше настроек!"
-    ^^Не используйте их^^. Может быть, они и помогли бы в 2009 году, когда обычные пользовательские ПК не могли справиться с прекэшированием и прочим, но сейчас эти опции только ухудшают ситуацию или выступают в роли чистого плацебо. Если ваш [мод](extras/mods.md) требует какую-то настройку - добавляйте.
+If you're here after anything else (including installing the archive on Linux), start with the **launch options.**
 
-??? abstract "Полный список параметров запуска"
-    Эти опции можно использовать для настройки и отладки. Список взят из [PCGW](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Launch_options)
+---
 
-    | Настройка | Описание | 
-    | --------: | :------- |
-    | -help | Список доступных команд. |
-    | -adapter | Используется указанный адаптер экрана. |
-    | -autoconfig | Автоматически настраивает графические параметры в зависимости от характеристик компьютера. |
-    | -availablevidmem | Устанавливает объем доступной физической видеопамяти. |
-    | -benchmark | Запускает игру в режиме Benchmark и затем завершает ее. |
-    | -detailquality | Устанавливает глубину детализации игры (0-99). |
-    | -disableimposters | Отключает рендеринг ненастоящего траффика в далеке. |
-    | -forcehighqualitymirrors | ? |
-    | -forcer2vb | Принудительный рендеринг в Vertex Buffer. |
-    | -frameLimit | Устанавливает настройку для V-Sync. |
-    | -framelockinwindow | Заставляет framelock работать даже в окне. |
-    | -fullscreen | Заставляет полноэкранный режим. |
-    | -fullspecaudio | Принудительное использование высоко-качественного звука. |
-    | -gpucount | Позволяет вручную установить количество GPU, если запрос не выполняется. |
-    | -height | Устанавливает вертикальное разрешение. |
-    | -managed | Использует управляемые ресурсы времени выполнения D3D. |
-    | -memrestrict | Ограничивает объем доступной памяти, которую может использовать игра. |
-    | -minspecaudio | Принудительное использование низко-качественного звука. |
-    | -no_3GB | Отключает поддержку памяти 3 ГБ в 32-разрядных ОС, в которых установлено, что игры и приложения могут использовать такой объем памяти. |
-    | -noBlockOnLostFocus | Запрещает игре блокировать обновление окна при потере фокуса.  |
-    | -noprecache | Отключает предварительное кэширование ресурсов. |
-    | -nomemrestrict | Отключает ограничение памяти. |
-    | -nominimize | Отключает возможность восстановления игры из режима минимизации и изменения разрешения (уменьшает занимаемую системную память). |
-    | -norestrictions | Отключает ограничения на настройки графики. |
-    | -noswapdelay | Отключает задержку перед Present (отключает исправление hard present stalls). |
-    | -notimefix | Отключает Time Fix. |
-    | -novblank | Отключение вертикального бланкирования для V-Sync. |
-    | -percentvidmem | Процент видеопамяти, который должен быть доступен для игры. |
-    | -refreshrate | Устанавливает частоту обновления (установленные значения должны поддерживаться используемым монитором). |
-    | -reserve | Устанавливает объем памяти, который будет использоваться другими программами. |
-    | -reservedApp | Устанавливает объем памяти, который должен оставаться доступным в пространстве приложения. |
-    | -renderquality | Настраивает анизотропную фильтрацию (0-4). |
-    | -safemode | Устанавливает минимально возможные настройки графики игры. |
-    | -shadowdensity | Настраивает ночные тени (0-16). |
-    | -shadowquality | Устанавливает качество теней (0-4). |
-    | -stereo | Включает поддержку стереозвука. |
-    | -texturequality | Устанавливает качество текстур игры (0-2). |
-    | -unmanaged | Использует ресурсы, управляемые приложением. |
-    | -usedirectinput | Позволяет использовать поддержку DirectInput наряду с поддержкой XInput. |
-    | -viewdistance | Устанавливает расстояние обзора игры (0-99). |
-    | -windowed | Устанавливает оконный режим. |
-    | -width | Устанавливает разрешение по горизонтали. |
+## Launch options
 
-## Оптимальные настройки графики
-![Настройки GTA IV](../assets/gta4settings.webp){: style="height:25%;width:25%"; align=right}
+!!! tip "Setup Utility (**Windows only**)"
+    The [Setup Utility](../optimization.md/#setup-utility-automatic-installation) can set up the launch options automatically for you.
+
+### Manual instructions
+
+=== "1.2.0.59"
+    1. Find the location for the game properties:
+        - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and locate the `Launch options` field.
+        - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
+        - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
+    2. Paste the following:
+
+        ```text
+        -norestrictions -nomemrestrict -windowed -managed
+        ```
+
+    3. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix.
+        - **If you don't plan to install FusionFix, remove `-windowed`.**
+=== "1.0.8.0"
+    1. In the game folder, create a :material-file-cog:`commandline.txt` file.
+    2. Open the file.
+    3. Insert the following lines to it:
+
+    ```text
+    -norestrictions
+    -nomemrestrict
+    -windowed
+    -managed
+    ```
+
+    4. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later.
+        - **If you don't plan to install either of the mods, remove `-windowed`.**
+
+???+ warning "If using DXVK..."
+    - Remove `-managed`.
+    - Add `-availablevidmem 3072.0` to the list of options.
+        - Replace the value with your VRAM value in MBs if you have less than 3GB of VRAM. Don't make it higher, though.
+        - If using a version older than 1.0.8.0, this value is broken. Experiment manually to get as close to 3072 MB as possible.
+    - If the game doesn't allow you to use the correct resolution/refresh rate in the graphics settings, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
+        - If that still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`. Change `16:9` with your *[exact](https://stevewadsworth.github.io/calculateAspectRatio/)* aspect ratio if you don't use a 16:9 monitor.
+    - If using Windows, make sure you disabled `Enable Shader Pre-caching` in `Settings` - `Downloads` on :material-steam: Steam.
+
+??? abstract "Full list of available launch options"
+    You can use these options for intensive tweaking or debugging.
+
+    | Option | Description |
+    | -----: | :---------- |
+    | -help | Lists the available commands. |
+    | -adapter | Uses the specified screen adapter. |
+    | -autoconfig | Automatically adjusts the graphics settings depending on computer specifications. |
+    | -availablevidmem | Sets the amount of available physical video memory. |
+    | -benchmark | Launches the game in Benchmark mode and then quits it. |
+    | -detailquality | Sets the game's detail distance (0-99). |
+    | -disableimposters | Turns off imposter rendering for vehicles. |
+    | -forcehighqualitymirrors | Unknown. |
+    | -forcer2vb | Forces rendering to Vertex Buffer. |
+    | -frameLimit | Sets the setting for V-Sync. |
+    | -framelockinwindow | Forces framelock to work even in a window. |
+    | -fullscreen | Forces fullscreen mode. |
+    | -fullspecaudio | Forces high-end CPU audio footprint. |
+    | -gpucount | Allows to manually set the GPU count if query fails. |
+    | -height | Sets the vertical resolution. |
+    | -managed | Uses D3D runtime managed resources. |
+    | -memrestrict | Restricts the amount of available memory the game can use. |
+    | -minspecaudio | Forces low-end CPU audio footprint. |
+    | -no_3GB | Disables 3GB memory support on 32-bit OSes which have been set to allow games and applications to use that much memory. |
+    | -noBlockOnLostFocus | Prevents the game from blocking window updates during focus loss. |
+    | -noprecache | Disables precaching of resources. |
+    | -nomemrestrict | Disables memory restrictions. |
+    | -nominimize | Disables the ability to restore the game from minimize and altering resolutions (reduces system memory footprint). |
+    | -norestrictions | Disables restrictions on graphics settings. |
+    | -noswapdelay | Disables sleep delay before Present (disables the hard present stalls fix). |
+    | -notimefix | Disables Time Fix. |
+    | -novblank | Disables vertical blanking for V-Sync. |
+    | -percentvidmem | Percentage of video memory to be made available for the game. |
+    | -refreshrate | Sets the refresh rate (values set must be supported by the monitor used). |
+    | -reserve | Sets the amount of memory to be used by other programs. |
+    | -reservedApp | Sets the amount of memory to be left available within application space. |
+    | -renderquality | Adjusts anisotropic filtering (0-4). |
+    | -safemode | Sets the game's graphics to the lowest setting possible. |
+    | -shadowdensity | Adjusts night shadows (0-16). |
+    | -shadowquality | Sets the shadow quality (0-4). |
+    | -stereo | Enables stereo audio support. |
+    | -texturequality | Sets the game's texture quality (0-2). |
+    | -unmanaged | Uses application managed resources. |
+    | -usedirectinput | Allows DirectInput support alongside XInput support. |
+    | -viewdistance | Sets the game's view distance (0-99). |
+    | -windowed | Forces windowed mode. |
+    | -width | Sets the horizontal resolution. |
+
+---
+
+## Optimal graphics settings
+
 !!! note ""
-    Эти настройки оптимальны для средних ПК. Если ваш компьютер слабее - можете их понизить. Если ваш компьютер мощнее - можете их повышать, но не вините меня в возникших проблемах.
+    Following settings are targetted for the [recommended spec sheet hardware](index.md/#prerequisites).
 
-??? info "Консольные настройки"
-    Эти настройки были установлены на консольных версиях игры, и игра наиболее оптимизирована для них. Они включены ради полноценного списка.
-| Настройка | Оптимальная настройка | Консольная настройка | Описание |
-| :-------: | :-------------------: | :------------------: | :------: |
-| Видеорежим | Ваше сообственное разрешение (максимальное, обычно) | 1280x720 на Xbox 360; 1152x640 на PlayStation 3 | Эта настройка контролирует разрешение вашего монитора или, если установлен параметр запуска `-windowed`, размер игрового окна. |
-| Соотношение сторон | Авто | Авто | Этот параметр определяет соотношение сторон экрана относительно разрешения вашего монитора. |
-| Качество текстур | Высокое | Среднее | Эта настройка регулирует разрешение всех текстур. |
-| Разрешение отражений | Очень высокое | Среднее | Эта настройка регулирует разрешение отражений (кроме отражений в воде). |
-| Качество воды | Среднее | Среднее | Эта настройка регулирует плотность и интенсивность волн в воде и образцах воды, а также разрешение отражений в воде. Рекомендуется использовать Среднее, так как оно менее экстремально и более реалистично. ==С [FusionFix](essential-modding/fusionfix.md) изменяется только разрешение отражений.== |
-| Качество теней | Высокое | Среднее | Этот параметр регулирует разрешение и расстояние рендеринга теней. Среднее и низкое качество полагаются на статические тени больше, чем Высокое. Очень высокое потребляет потребляет много фпс и иногда может выглядеть не очень. |
-| Улучшенные ночные тени | Среднее или Очень высокое | Откл | Этот параметр определяет, сколько элементов локального света (например, фар автомобиля) могут отбрасывать тени. Каждый уровень качества добавляет 4 дополнительные карты теней. Эта настройка не влияет на разрешение динамических теней. [ZolikaPatch](essential-modding/zolikapatch.md) и [FusionFix](essential-modding/fusionfix.md) исправляют артефакты, возникающие при использовании этой настройки а также позволяют улучшить эту настройку, добавив динамические тени к большинству объектов. |
-| Качество фильтрации текстур | Анизотропная 16x | Трилинейная | Эта настройка управляет анизотропной фильтрацией. |
-| Дистанция обзора | Между 21 и 70 | 21 | Эта настройка контролирует основное расстояние рендеринга LOD для таких объектов, как здания и транспорт. Также контролирует расстояние рендеринга пропов. Установка значения выше 70 приводит к нестабильности и артефактам, а также негативно сказывается на FPS. Используйте [FusionFix](essential-modding/fusionfix.md) для исправления артефактов, возникающие при использовании этой настройки. |
-| Глубина детализации | Между 10 и 70 | 10 | Этот параметр управляет расстоянием вторичного рендеринга LOD для деталей в пропах. Установка значения выше 70 может привести к нестабильности и появлению артефактов. Используйте [FusionFix](essential-modding/fusionfix.md) для исправления артефактов, возникающие при использовании этой настройки. |
-| Транспортный поток | По предпочтению - желательно менее 70 | 33 | Этот параметр регулирует плотность движения. Слишком высокое значение может сделать вождение слишком надоедливым, особенно с нестабильным ИИ трафика, который может иногда создавать случайные заграждения даже на прямых дорогах и мостах. |
-| Глубина поля наблюдения | Вкл | Откл | ==Пропустите эту настройку если вы используете [FusionFix](essential-modding/fusionfix.md)==.<br>Эта настройка переключает глубину резкости и размытие в движении - однако, она также вызывает проблемы с размытой картинкой на ПК и эффектами, которые просто не масштабируются по разрешению - из-за этого либо оставьте опцию на Вкл и потеряйте эффекты, либо установите [FusionFix](essential-modding/fusionfix.md) и см. следующие настройки. Можно быстро переключать кнопкой ++p++.</br> |
-| Вертикальная синхронизация | Откл | Вкл |  Эта настройка управляет вертикальной синхронизацией. ==Мы будем использовать ту, которая поставляется [DXVK](optimization.md), поскольку она имеет гораздо лучшую синхронизацию кадров.== |
-| Shadow Filter | По предпочтению | ? | Эта настройка смягчает тени. PCSS приближает их к реальному поведению, но также очень плохо влияет на производительность. <br>==Доступно только при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Console Shadows | Предпочтение | Вкл | Эта настройка делает поведение теней более консольным - вы потеряете тени от фар автомобиля, но вместо этого автомобиль будет иметь тени от источников прямого света (например, фонари). <br>==Доступно только при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Antialiasing | SMAA | SSAA 2x on Xbox 360; QAA on PlayStation 3 | Эта настройка управляет разными методами сглаживания. Вы также можете включить SSAA 2x в `Настройки` - `Игра`. <br>==Доступно только при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| FPS Limiter | 60 | 30 | Рекомендуется установить значение на 60, чтобы избежать [проблем с таймингом](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues), хотя фактически не обязательно и сюжет можно пройти и без этого. <br>==Доступно только при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Motion Blur | По предпочтению | Вкл | Эта настройка управляет эффектом размытия в движении. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Bloom | Вкл | Вкл | Эта настройка управляет эффектом Bloom. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Console Gamma | Вкл | Вкл | Изменяет гамму для придания консольного вида. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Screen Filter | По умолчанию | По умолчанию | Позволяет переключать файл timecyc для соответствия различным фильтрам экрана (например, чтобы в IV были фильтры TBoGT и наоборот). <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Distant Blur | По предпочтению | Very High (?) | Эта настройка управляет уровнем размытия вдали от настройки Depth of Field. На ПК по умолчанию Среднее. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Depth of Field | Вкл | Вкл | Эта настройка управляет глубиной резкости. Сильно влияет на производительность. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| TreeFX | По предпочтению | Console | Этот параметр управляет поведением окклюзии растительности. Не используйте PC+ без кастомных модов на растительность. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
-| Definition | Extra | Classic | Не следует путать с ванильной настройкой глубины поля наблюдения - однако эта настройка ближе к тому, чем должна была быть с самого начала. Эта настройка сглаживает "сетчастые" обьекты. <br>==Доступно только в меню `Настройки` - `Экран` при использовании [FusionFix](essential-modding/fusionfix.md).==</br> |
+    If you came here from the archive, use the FusionFix tab.
 
-??? question "Что такое :material-file-cog:`stream.ini`?"
-    В других руководствах часто рекомендуют изменить в :material-file-cog:`stream.ini` значения с `2048000` на `4096000`. По [наблюдениям пользователей PCGW](https://www.pcgamingwiki.com/w/index.php?title=Topic:X1jmh4mc3t6mv3hv&topic_showPostId=xb5gbd4mggke2ets#flow-post-xb5gbd4mggke2ets), а также моими собственным - это не дает никакого эффекта и, скорее всего, является плацебо.
+=== "Vanilla"
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Video Mode | Your native resolution (max option, usually) | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+    | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
+    | Texture Quality | High | This setting controls the resolution of all textures. |
+    | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
+    | Water Quality | Medium | This setting controls the density and intensity of waves in the water and water samples, as well as the resolution of water reflections.<br>***Medium* is recommended as it is less extreme, more realistic and most similar to the intended look on the consoles.** |
+    | Shadow Quality | High | This setting controls the resolution and render distance of shadows.<br>**Medium** and **Low** rely too much on static shadows, making them look ugly.<br>***Very High* consumes too much performance for little gain and may appear broken at times.** |
+    | Night Shadows | Medium | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows.<br>**Setting it above *Medium* is known to create artifacts.** |
+    | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
+    | View Distance | Between 30 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *70* is known to cause instability and artifacts, as well as a negative impact on framerate.** |
+    | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* is known to cause instability and artifacts.** |
+    | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
+    | Definition | On<br>Off if playing at 1280x720 | This setting controls depth of field and motion blur (**Off** is enabled, **On** is disabled).<br>**If playing above 1280x720, *Off* ends up blurring the image on PC and effects simply do not scale up with resolution - due to that, keep it *On* unless you play at that resolution.**<br>Can be quickly toggled by pressing ++p++ button in-game.</br> |
+    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
+=== "FusionFix"
+    !!! warning ""
+        Following options require [FusionFix](../essential-modding/fusionfix.md).
 
-Если вы хотели лишь улучшить производительность то на этом можно и остановиться, однако я бы посоветовал добраться до установке важных модов для получения лучшего опыта игры.
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Video Mode | Your native resolution (max option, usually) | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+    | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
+    | Texture Quality | High | This setting controls the resolution of all textures. |
+    | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
+    | Water Quality | Very High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
+    | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**FusionFix reimplements shadows, so Very High are not that taxing anymore.** |
+    | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
+    | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
+    | View Distance | Between 30 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *70* with FusionFix gives little gains for the performance it takes.** |
+    | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* with FusionFix gives little gains for the performance it takes.** |
+    | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
+    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
+    | Shadow Filter | TBA | This setting controls how soft are the shadows. |
+    | Antialiasing | SMAA | This setting controls the anti-aliasing method. |
+    | FPS Limiter | 60 | This setting controls the FPS limit.<br>**Recommended to set to 60 to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues), although not necessary and the story can be beaten above 60. You also may want to lower it to 30 for some minigames.** |
 
-[:material-page-first:Предыдущая страница <br>Оптимизация</br>](optimization.md){ .md-button } [Следующая страница:material-page-last: <br>Даунгрейд</br>](downgrading.md){ .md-button .md-button--primary }
+    !!! note ""
+        Following options are located in the `Display` tab.
+
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Motion Blur | Preference | This setting controls the motion blur effect. |
+    | Bloom | On | This setting controls bloom. |
+    | Console Gamma | On | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so keep this *On*.** |
+    | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
+    | Depth of Field | Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
+    | TreeFX | Preference | This setting controls the behaviour of vegetation ambient occlusion.<br>**Don't use *PC+* unless using custom vegetation mods.** |
+    | Definition | Extra | This setting controls how smooth the stippled and dithered objects look. |
+
+    !!! note ""
+        Following options are located in the `Game` tab.
+
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Borderless | On if using `-windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `-windowed` launch option is applied. |
+    | Block on Focus Loss | Off | TBA |
+
+=== "Console-identical"
+    !!! info "What are these settings?"
+        These settings are identical to the console versions of the game.
+
+        I don't really recommend playing with these settings, so this list is more for referring to what settings are most authentic to the console version.
+
+    !!! warning ""
+        Following options require [FusionFix](../essential-modding/fusionfix.md).
+
+    | Setting | Console-identical setting | Description |
+    | :-----: | :-----------------------: | :---------: |
+    | Video Mode | 1280x720 on X360<br>1152x640 on PS3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+    | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
+    | Texture Quality | Medium | This setting controls the resolution of all textures. |
+    | Reflection Resolution | Medium | This setting controls the resolution of reflections (excluding water reflections). |
+    | Water Quality | Medium | This setting *only* controls the resolution of the water reflections when using FusionFix. |
+    | Shadow Quality | TBA | This setting controls the resolution and render distance of shadows. |
+    | Night Shadows | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
+    | Texture Filter Quality | Tri-Linear | This setting controls texture filtering. |
+    | View Distance | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
+    | Detail Distance | 10 | This setting controls the secondary LOD render distance for props detail. |
+    | Vehicle Density | 33 | This setting controls the traffic density. |
+    | Shadow Filter | TBA | This setting controls how soft are the shadows. |
+    | Antialiasing | N/A | This setting controls the anti-aliasing method.<br>The game used SSAA 2x on the Xbox 360 and QAA on the PS3, neither of which are avaialable on PC. |
+    | FPS Limiter | 30 | This setting controls the FPS limit. |
+
+    !!! note ""
+        Following options are located in the `Display` tab.
+
+    | Setting | Console-identical setting | Description |
+    | :-----: | :-----------------------: | :---------: |
+    | Motion Blur | On | This setting controls the motion blur effect. |
+    | Bloom | On | This setting controls bloom. |
+    | Console Gamma | On | This setting changes the gamma to match the console levels. |
+    | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
+    | Depth of Field | TBA | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
+    | TreeFX | Console | This setting controls the behaviour of vegetation ambient occlusion. |
+    | Definition | Classic | This setting controls how smooth the stippled and dithered objects look. |
+
+---
+
+## Navigation
+
+- If you came here after installing the archive, **congratulations - you are done here!**
+
+- If you are going through the guide manually step-by-step, continue with **Essential Modding**.
+
+[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](../essential-modding/index.md){ .md-button .md-button--primary }
