@@ -14,7 +14,7 @@ Without the people listed in [credits](credits.md) we wouldn't have this guide, 
 ## Me (Gillian)
 I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
-==monobank will send money to me directly==
+==Note: monobank will send money to me directly==
 
 [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
 
