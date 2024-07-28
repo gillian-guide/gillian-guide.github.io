@@ -1,20 +1,20 @@
-# 🔧 Tools & Resources
+# Tools & Resources
 
 This document provides a list of tools and resources to assist you in making high-quality contributions.
 
-## Choose a Reliable Text Editor
+## Choose a reliable text editor
 
 The tool you use to edit and create content is crucial. Choose one that suits your needs.
 
 If you're unsure, consider using [Visual Studio Code](https://code.visualstudio.com/).
 
-## Implement a Linter
+## Implement a linter
 
 To minimize errors, consider using a linter specifically for `markdown` files, such as [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
 
 > Note: The linter can utilize the `.markdownlint.json` file to observe any disabled or modified rules.
 
-## Utilize Helpful Tools & Extensions
+## Visual Studio Code extensions
 
 Here's a curated list of useful extensions for [Visual Studio Code](https://code.visualstudio.com/):
 
@@ -25,9 +25,11 @@ Here's a curated list of useful extensions for [Visual Studio Code](https://code
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Provides YAML file support.
 - [ms-vscode-remote.remote-wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): Enables usage with WSL.
 
+When you first open the project in **VSC**, you will be prompted to install these extensions automaticlaly.
+
 ## Useful Resources
 
-Below are some resources that you might find beneficial:
+Below are some resources that you might find useful for understanding the toolset:
 
 - [MkDocs](https://www.mkdocs.org/)
 - [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)

@@ -1,9 +1,33 @@
 title: Essential Modding
-description: Get must-have mods for your GTA IV install
+description: Must-have mods for GTA IV
 
-# What's in this section?
-You'll find mods that I think are essential to any GTA IV installation, along with instructions on how to install and configure them. 
+# Essential Modding
 
-Everything in this section requires [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader).
+In this category, you'll find mods that I think are essential to any GTA IV installation, along with instructions on how to install and configure them.
 
-[:material-page-first:Previous page <br>Mod Dependencies</br>](../mod-dependencies.md){ .md-button } [Next page:material-page-last: <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button .md-button--primary }
+!!! warning ""
+    Every mod onwards requires [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+
+## Navigation
+
+<div class="grid cards" markdown>
+
+- **FusionFix** aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended to install first.^^
+
+    [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+
+- **ZolikaPatch** fixes or adresses some gameplay issues and **improves core multiplayer experience**. ^^Don't install unless your game is downgraded.^^
+
+    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+
+- **Various Fixes** aims to fix or improve a large amount of **map issues and textures.**
+
+    [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
+
+- **Additional Fixes** is a list for all the **minor fixes** that don't make sense to be a whole separate page.
+
+    [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+
+</div>
+
+[:material-page-first:Previous page <br>Additional Setup</br>](../additional-setup.md){ .md-button }

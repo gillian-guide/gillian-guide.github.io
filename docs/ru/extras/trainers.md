@@ -12,7 +12,7 @@ description: Добавьте в GTA IV дополнительные функц�
     * Установите последний [Ultimate ASI Loader](../../mod-dependencies/#ultimate-asi-loader).
     * Перейдите на сайт [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
     * Прокрутите страницу до конца и скачайте последнюю версию.
-    * Распакуйте :material-zip-box:`ZMenuIV_vx.zip` в папку с игрой (исключая папки :material-folder:`asi loader if not using xliveless`, :material-folder:`for developers`, :material-folder:`old version (has VR support)`, :material-folder:`parachute support(all into game folder)`. Прочтите :material-file:`readme.txt` для деталей на эти папки).
+    * Распакуйте :material-zip-box:`ZMenuIV_vx.zip` в папку с игрой (исключая папки :material-folder: `asi loader if not using xliveless`, :material-folder: `for developers`, :material-folder: `old version (has VR support)`, :material-folder: `parachute support(all into game folder)`. Прочтите :material-file:`readme.txt` для деталей на эти папки).
     ??? question "Аддоны"
         Прочтите :material-file:`readme.txt` для деталей на аддоны.
 ???+ tip "Использование"

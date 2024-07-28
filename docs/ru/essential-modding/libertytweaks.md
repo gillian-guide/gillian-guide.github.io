@@ -14,7 +14,7 @@ description: Один из неплохих желаемых модов для �
 * В :material-file-cog:`IVSDKDotNet/config.ini` отключите `PauseExecutionWhenNotInFocus` чтобы избежать некоторых проблем.
 * Перейдите на последний [релиз](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
 * Скачайте :material-zip-box:`LibertyTweaksx.x.zip`.
-* Распакуйте содержимое :material-folder:==1. Install== в папку с игрой. Замените файлы если необходимо.
+* Распакуйте содержимое :material-folder: ==1. Install== в папку с игрой. Замените файлы если необходимо.
 * Настройте :material-file-cog:`IVSDKDotNet/scripts/LibertyTweaks.ini` по желании.
 
 ???+ question "Почему этот мод использует IV-SDK .NET а не ScriptHookDotNet?"
