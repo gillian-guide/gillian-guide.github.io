@@ -31,7 +31,168 @@ This project aims to fix the inconsistency of characters between base GTA IV and
 
 <h3>Installation</h3>
 
-TBA (current official version for FusionFix sucks)
+TBA (current official version for FusionFix is incorrectly packaged)
+
+---
+
+## [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
+
+This mod improves distant lights at night.
+
+<h3>Installation</h3>
+
+=== "1.2.0.59"
+    1. Go to the [Release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) page.
+    2. Download :material-zip-box:`IV.Project2DFX.zip`.
+    3. Extract the archive into the :material-folder: ==plugins== folder.
+        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
+=== "1.0.8.0"
+    !!! warning ""
+        Do not install if using FusionFix - this results in broken lights.
+
+    1. Download the [v4.3 release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/download/v0.0/IV.Project2DFXv4.3.zip).
+    2. Extract the :material-zip-box: `IV.Project2DFXv4.3` archive into the game folder.
+        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
+
+---
+
+## [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/)
+
+This mod adds nice water droplets on the screen.
+
+<h3>Installation</h3>
+
+=== "1.2.0.59"
+    1. Go to the [Release](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) page.
+    2. Download :material-zip-box:`GTAIV.XboxRainDroplets.zip`.
+    3. Extract the archive into the :material-folder: ==plugins== folder.
+        - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
+=== "1.0.8.0"
+    1. TBA
+    2. Extract the archive into the game folder.
+        - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
+
+---
+
+## [Higher Resolution Miscellaneous Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/6/#comment-1072246033)
+
+This mod improves the texture quality of minor assets.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/6/#comment-1072246033).
+2. Download the mod via the desired mirror.
+3. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Vehicle Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736)
+
+This mod improves the texture quality of *all* vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736).
+2. Download the `Complete Edition` version. All the 3 links are the same, so just download it once.
+3. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765)
+
+This mod increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765).
+2. Download `IV/Vanilla TBOGT style (MEGA)` and `TLAD style (MEGA)` via the desired mirror.
+    - If you want TBoGT icons to be styled, also download `New TBOGT style (MEGA)`.
+3. Put the files in :material-folder: ==GTAIV/**update**/pc/textures/==.
+
+---
+
+## [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/)
+
+Makes interiors more visible from the outside, although comes with a downside of potential pop-in.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/974099-more-visible-interiors/).
+2. Press `DOWNLOAD`.
+3. On Google Drive, download the :material-folder: ==Installation through Fusion Overloader== folder.
+4. Extract :material-folder: ==update== from the archive into the game folder.
+
+---
+
+## [Project Glass](https://discord.gg/gZvZmFt2p7)
+
+This mod adds cubemap reflections to what otherwise is just transparent glass.
+
+<h3>Installation</h3>
+
+1. Download this [archive](TBA).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/)
+
+This mod restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/984591-restored-trees-position/).
+2. Press `DOWNLOAD`.
+3. Download the archive.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Restored Pedestrians & Restored Pedestrians Clothes](https://gtaforums.com/topic/981864-restored-pedestrians/)
+
+Restored Pedestrians restores pedestrians that were either unused or only present in the betas. Restored Pedestrians Clothes does the same, but with clothing variation.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/981864-restored-pedestrians/).
+2. Press `DOWNLOAD`.
+3. Download the archive.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Various Pedestrian Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/)
+
+ This mod adds, corrects and completes unfinished actions for pedestrians.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/981864-restored-pedestrians/).
+2. Press `DOWNLOAD`.
+3. Download the archive.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Dodgy Doc - Higher Quality & GTA V decals](https://gtaforums.com/topic/974798-donnits-bakery/)
+
+These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart mission and faithfully ports some higher quality decals from GTA V.
+
+<h3>Installation</h3>
+
+1. Download this [archive](https://drive.google.com/file/d/1pEYBjV2mwfsQFKPbzwB6FEY-vSGn9hF3/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/)
+
+This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
+
+<h3>Installation</h3>
+
+1. Download this [archive](https://drive.google.com/file/d/1daADdNHljuJ1tJWDRr19bCYqg1lEgXc5/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -39,10 +200,11 @@ TBA (current official version for FusionFix sucks)
 
 !!! warning "Compatibility"
     - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
-    - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files starting with :material-file:`IVSDKDotNet`).
+    - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums page](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 <h3>Installation</h3>
+
 1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net).
 2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
 3. Go to the latest [Release](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
@@ -52,149 +214,51 @@ This project aims to improve various aspects of the game and it's general qualit
 
 ---
 
-## [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
+## [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/)
 
-This mod improves distant lights at night.
-
-<h3>Installation</h3>
-=== "1.2.0.59"
-    1. Go to the [Release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) page.
-    2. Download :material-zip-box:`IV.Project2DFX.zip`.
-    3. Extract the archive into the :material-folder: ==plugins== folder.
-        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
-=== "1.0.8.0"
-    1. Go to the [v4.3 release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/download/v0.0/IV.Project2DFXv4.3.zip).
-    2. Download :material-zip-box: `IV.Project2DFXv4.3`.
-    3. Extract the archive into the game folder.
-        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
-
----
-
-## Xbox Rain Droplets
-
-This mod adds nice water droplets on the screen.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Higher Resolution Miscellaneous Pack
-
-This mod improves the texture quality of minor assets.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Vehicle Pack
-
-This mod improves the texture quality of *all* vehicles in the game.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Higher Res Radio Logos
-
-This mod increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## More Visible Interiors
-
-Makes interiors more visible from the outside, although comes with a downside of potential pop-in.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Project Glass
-
-This mod adds cubemap reflections to what otherwise is just transparent glass.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Restored Trees Position
-
-This mod restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Restored Pedestrians & Restored Pedestrians Clothes
-
-Restored Pedestrians restores pedestrians that were either unused or only present in the betas. Restored Pedestrians Clothes does the same, but with clothing variation.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Various Pedestrian Actions
-
- This mod adds, corrects and completes unfinished actions for pedestrians.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Resized Blista Compact
-
-This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
-
-<h3>Installation</h3>
-
-TBA
-
----
-
-## Project Thunder
-
+!!! warning "Compatibility"
+    - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
+    - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
 This mod improves how thunder appears in-game, with actual lighting and improved atmosphere.
 
 <h3>Installation</h3>
 
-TBA
+1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net) if you hadn't already.
+2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
+3. Go to the latest [Release](https://github.com/ClonkAndre/ProjectThunderIV/releases/latest).
+4. Download the :material-zip-box:`ProjectThunder.vx.x.zip`.
+5. Extract the contents of :material-folder: ==Files for the main directory== into the game folder.
+    - **Do not extract the :material-folder: ==pc== folder** - rather, extract it to the :material-folder: ==update== folder instead.
+6. Extract the `RAIN` file into any empty folder.
+7. Copy the :material-file:`resident.rpf` archive from :material-folder: ==GTAIV/pc/audio/sfx/== to :material-folder: ==GTAIV/**update**/pc/audio/sfx/==.
+    - Skip this step if you installed "**Reduced Trafic Screech (Audio Tweak)**" previously.
+8. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+9. Using the file from the mod, replace the :material-file:`RAIN` file in the :material-folder: ==RESIDENT== folder inside the archive.
+10. Configure :material-file-cog:`IVSDKDotNet/scripts/ProjectThunderIV.ini` as you wish.
 
 ---
 
-## VAmbience
+## [VAmbience](https://gtaforums.com/topic/981402-vambience/)
 
 This mod adds background noise to the game, such as driving and shooting, alike to GTA V. Highly customizable.
 
 <h3>Installation</h3>
 
-TBA
+1. Go to the latest [Release](https://github.com/ClonkAndre/VAmbience/releases/latest) page.
+2. Download the :material-zip-box:`VAmbience.vx.x.zip`.
+3. Extract the archive into the game folder. Replace files if needed.
 
 ---
 
-## Recommended load order
+## Recommended load order and `.img` limits
 
 Please use the following load order (the number before the folder names) after installing the mods above:
 
 TBA
+
+You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
+
+You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings.
 
 ---
 

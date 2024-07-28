@@ -9,8 +9,9 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
 
 ## Installation
 
-1. Download the [installer](https://openiv.com/).
-2. Install :material-file-download:`OpenIVSetup.exe`.
+1. Go to the [official website](https://openiv.com/).
+2. Press on `Download now`.
+3. Install :material-file-download:`OpenIVSetup.exe`.
 
 ---
 

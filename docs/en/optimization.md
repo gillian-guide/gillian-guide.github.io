@@ -42,10 +42,10 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
 
 1. [Download the latest version](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
 2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
-3. Press `Open`, select the game folder.
+3. Press `Open`, select the game folder. Follow the in-app instructions if any pop-ups appear.
 4. Press `Install DXVK` and `Setup launch options` in sequence.
     - If experienced, you can manually configure the options. There is usually no need to, though.
-    - If any issues occur, [report it on the discord server](../index.md/#navigation).
+    - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
 After using the tool, you can freely skip to optimal game settings:
 
@@ -61,7 +61,7 @@ After using the tool, you can freely skip to optimal game settings:
             - **NVIDIA**: A Maxwell (GeForce 800 series) GPU or newer, plus GTX 745, GTX 750 and GTX 750 Ti.
                 - GeForce 810M, GeForce 820M, GeForce 825M, GTX 870M, GTX 880M, GeForce 910M and GeForce 920M are not supported.
             - **AMD**: A GCN4 (RX400 series and Vega series) (i)GPU or newer.
-            - **Intel**: A Skylake (6th generation Intel Core CPUs) iGPU or newer. All Arc GPUs are supported. Select iGPUs may be limited to Legacy 1.10.1.
+            - **Intel**: A Skylake (6th generation Intel Core CPUs) iGPU or newer. All Arc GPUs are supported. Select iGPUs may be limited to Legacy.
             - **Mac**: An Intel Mac with support for Vulkan 1.3 (check manually by opening the command prompt and typing `vulkaninfo`).
 
         If you're don't fall under the list, check the Legacy tab. **This list only applies to Windows.**

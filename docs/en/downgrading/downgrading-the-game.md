@@ -79,6 +79,7 @@ The following is information about two versions we will focus on and their diffe
     5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
     6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
         - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
+        - If any issues occur, [report them on the Discord server](../../index.md/#navigation).
 
 === "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.

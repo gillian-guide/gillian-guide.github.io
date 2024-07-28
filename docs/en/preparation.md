@@ -32,21 +32,20 @@ Some software should be installed before you can play and mod the game:
 
 It is highly recommended to have latest drivers installed for best performance and stability. Select your GPU vendor on the selector for instructions.
 
-!!! tip "Installing drivers"
-    === "NVIDIA"
-        - Go to the [official website](https://www.nvidia.com/en-us/software/nvidia-app/).
-        - Press `Download Beta` and open the downloaded executable.
-        - Follow the in-app instructions to install the driver.
-    === "AMD"
-        - Go to the [official website](https://www.amd.com/en/support).
-        - Press `Download Windows Drivers` and open the downloaded executable.
-        - Follow the in-app instructions to install the driver.
-            - Select `Optional` drivers over `Recommended` to get the latest drivers.
-            - Select `Minimal Install` over `Full Install` if you don't need the extra features of the Adrenaline app.
-    === "Intel"
-        - Go to the [official website](https://www.intel.com/content/www/us/en/support/detect.html).
-        - Press `Download now` and open the downloaded executable.
-        - Follow the displayed instructions to install the drivers. Ignore warnings about OEM drivers.
+=== "NVIDIA"
+    - Go to the [official website](https://www.nvidia.com/en-us/software/nvidia-app/).
+    - Press `Download Beta` and open the downloaded executable.
+    - Follow the in-app instructions to install the driver.
+=== "AMD"
+    - Go to the [official website](https://www.amd.com/en/support).
+    - Press `Download Windows Drivers` and open the downloaded executable.
+    - Follow the in-app instructions to install the driver.
+        - Select `Optional` drivers over `Recommended` to get the latest drivers.
+        - Select `Minimal Install` over `Full Install` if you don't need the extra features of the Adrenaline app.
+=== "Intel"
+    - Go to the [official website](https://www.intel.com/content/www/us/en/support/detect.html).
+    - Press `Download now` and open the downloaded executable.
+    - Follow the displayed instructions to install the drivers. Ignore warnings about OEM drivers.
 
 ---
 
