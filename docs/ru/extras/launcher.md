@@ -12,7 +12,7 @@ description: Используете несколько установок GTA IV
 * Распакуйте :material-zip-box:`GTAIVLauncher_vx.x.zip` в любую папку на выбор.
 * Откройте :material-file:`GTAIVLauncher.exe` :fontawesome-solid-shield-halved:==от имени администратора==.
 * Следуйте инструкциям в приложении для создания и настройки установок.
-???+ tip "Как запускать лаунчер из :material-steam:Steam"
+???+ tip "Как запускать лаунчер из :material-steam: Steam"
     * Переместите файлы лаунчера в папку с игрой.
     * Переименуйте :material-file:`PlayGTAIV.exe` во что-нибудь другое.
     * Переимунйте :material-file:`GTAIVLauncher.exe` в `PlayGTAIV.exe` и :material-file-cog:`GTAIVLauncher.exe.config` в `PlayGTAIV.exe.config`.

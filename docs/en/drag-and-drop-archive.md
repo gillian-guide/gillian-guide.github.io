@@ -163,7 +163,7 @@ The mods or their specific versions in the following list are present in only on
     | :-: | :--------: | :-----: |
     | Downgrade to 1.0.8.0 | Gillian (files belong to Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
     | [ZolikaPatch IV~7.65~](https://zolika1351.pages.dev/mods/ivpatch) | Zolika1351 | Adds a lot of minor fixes exclusive to 1.0.8.0. |
-    | [Steam Achievements~v2~](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam:Steam achievements on older patches. |
+    | [Steam Achievements~v2~](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on older patches. |
     | [Liberty Tweaks~1.4.1~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClockAndre and others | A highly configurable quality-of-life mod. ==This mod allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`== |
     | [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Add nice water droplets on the screen. ==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.== |
 

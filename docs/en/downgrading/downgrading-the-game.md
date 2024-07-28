@@ -9,7 +9,7 @@ The following is information about two versions we will focus on and their diffe
 
 ???+ info "Complete Edition (1.2.0.59)"
 
-    This is the latest version of the game, which you normally receive when installing the game on :material-steam:Steam or :simple-rockstargames: Rockstar Games Launcher. ==This version should be preferred if you want the **best singleplayer campaign experience.**==
+    This is the latest version of the game, which you normally receive when installing the game on :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher. ==This version should be preferred if you want the **best singleplayer campaign experience.**==
 
     ??? quote "Pros and cons"
         !!! success ""

@@ -2,21 +2,21 @@ title: Готовый архив
 description: Полноценный готовый архив для игры в желаемую версию GTA IV
 
 # Готовый архив { data-search-exclude }
-Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Вы можете сравнить список модов [ниже](#_4) - 1.0.8.0 имеет больше значимых модов, имейте это ввиду.
+Вы можете выбрать архив в зависимости от желаемой версии - будь то 1.2.0.59 или 1.0.8.0(если вы используете версию [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), то в архив также входит даунгрейдер). Вы можете сравнить список модов [ниже](#_4) - 1.0.8.0 имеет больше значимых модов, имейте это ввиду.
 
 ### Примечания { data-search-exclude }
 !!! warning "Примечание"
     Этот раздел не отражает моего личного мнения о важности модов или моей позиции по отношению к моддерам. Я просто пытаюсь включить в него лучшие и совместимые с ванилью моды, не вызывающие проблем.
 
 !!! info ""
-    1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). ==Количество поддерживаемых модов в этой версии также значительно ограничено - большинство старых модов создано для версий 1.0.8.0 и 1.0.7.0==.
+    1. 1.2.0.59 это Complete Edition, т.е. последняя версия в [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). В нем убрана поддержка мультиплеера и Games for Windows - LIVE, при этом добавлены Rockstar Games Launcher (с его DRM) и оверлей Social Club (с его достижениями). ==Количество поддерживаемых модов в этой версии также значительно ограничено - большинство старых модов создано для версий 1.0.8.0 и 1.0.7.0==.
     2. 1.0.8.0 является последним патчем для дисковой/старой версии, с поддержкой ZolikaPatch и много других значимых модов. Но, этот архив НЕ поддерживает какую-либо поддержку для Games for Windows - LIVE. Если вы хотите мультиплеер, перейдите к пунктам [даунгрейд](downgrading.md) и [мультиплеер](multiplayer.md). ==Эта версия имеет намного лучше совместимость с модами==.
 
 !!! warning ""
     * Я сам не могу слишком часто обновлять архив - загляните на страницы и посмотрите, не было ли обновлений у модов, особенно у тех, что наверху.
     * Убедитесь, что прошли через всю [подготовку](index.md) (кроме необходимого места на диске).
     * Убедитесь, что установлены последние [драйвера](../optimization/#_2).
-    * Убедитесь, что папка с игрой чистая и без лишних модов (:material-steam:Steam не удаляет старые моды).
+    * Убедитесь, что папка с игрой чистая и без лишних модов (:material-steam: Steam не удаляет старые моды).
     * После установки архива рекомендуется начать игру с нового файла сохранения, но можно продолжать играть и с существующими файлами сохранения - просто возникнут небольшие проблемы (например, второстепенные объекты окажутся там, где их не должно быть).
 
 ???+ warning "Производительность"
@@ -53,7 +53,7 @@ description: Полноценный готовый архив для игры в
 
     Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder: ==GTAIV==, а не :material-folder: ==Grand Theft Auto IV==). В архив уже включен даунгрейдер. ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
     !!! warning "Предупреждения"
-        Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
+        Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
 
         Если вы используете версию [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv), ==удалите :material-file:`SteamAchievements.asi`== а также не запускайте игру из самого лаунчера, а используйте :material-file:`PlayGTAIV.exe` - в противном случае файлы игры будут заменены.
 
@@ -80,7 +80,7 @@ description: Полноценный готовый архив для игры в
 
     Скачайте архив и просто распакуйте его содержимое в папку с игрой (:material-folder: ==GTAIV==, а не :material-folder: ==Grand Theft Auto IV==). ==После установки запустите :material-file-download:`GTAIVSetupUtilityWPF.exe` и пройдите через установку== и просмотрите [дополнительные моды](#_5). Для оптимальных настроек графики, см. [эту страницу](https://gillian-guide.github.io/ru/additional-setup/#_3).
     !!! warning "Предупреждения"
-        Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam:Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
+        Архив должен быть установлен поверх чистой, без модов установке Complete Edition из [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv).
 
         Если вы используете Linux, добавьте `WINEDLLOVERRIDES="xlive=n,b" %command%` в параметры запуска. Также удалите файлы, которые начинаются на :material-file:`IVSDKDotNet` - DotNet не работает на Proton должным образом на данный момент.
 
@@ -101,7 +101,7 @@ description: Полноценный готовый архив для игры в
     | Даунгрейд до 1.0.8.0 | Простой даунгрейд до 1.0.8.0 без замены большинства файлов. |
     | [Radio Downgrader от Tomasak и других](http://downgraders.rockstarvision.com/)| Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived)</br> |
     | [ZolikaPatch IV~7.65~ от Zolika1351](https://zolika1351.pages.dev/mods/ivpatch)| Первый основной мод в сборке: добавляет множество фиксов и исправлений - а также без него не запустится игра. |
-    | [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam:Steam |
+    | [Steam Achievements~v2~ от Zolika1351](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/)| Позволяет получать достижения в :material-steam: Steam |
     | [FusionFix~2.5.6~ от ThirteenAG и других в команде Fusion Team](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/)| Второй основной мод сборки, в котором куча исправлений, новых настроек и также выступает в качестве модлоадера вместе с [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader). Включает [Shader Fixes Collection by Parallellines0451 и других](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) и несколько других модов. |
     | [Various Fixes~1.8.1~ от Attramet и других](https://gtaforums.com/topic/975211-various-fixes/)| Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
     | [Console Visuals~1.6~ от nastyyaboi и других](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition)| Сборник портированных ассетов с консольной версии.<br>Включен только Fusion Console Vegetation. См. Дополнительные моды для других аддонов.</br> |

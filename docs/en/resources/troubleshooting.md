@@ -36,7 +36,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Also, check for [GPU driver updates](../optimization/#drivers).
 
 ??? info "Game performance is still poor"
-    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used. Don't forget to disable `Shader Pre-caching` in :material-steam:Steam `Settings` - `Downloads` tab if using DXVK.
+    Make sure that [DXVK](optimization.md) is installed correctly, and that the [optimal game settings](../additional-setup/#optimal-game-settings) are used. Don't forget to disable `Shader Pre-caching` in :material-steam: Steam `Settings` - `Downloads` tab if using DXVK.
 
     Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
 
@@ -83,7 +83,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 ??? info "Asi Loader Error | Other Visual C++ issues"
     Install [prerequisites](index.md).
 
-??? info ":material-steam:Steam achievements disappeared after downgrading"
+??? info ":material-steam: Steam achievements disappeared after downgrading"
     Install [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
 
 ??? info "GFWL achievements don't work"
@@ -99,7 +99,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 ??? info "Game crashes immediately upon booting | Won't even boot"
     * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder: ==plugins== and the game folder. The game won't start in this case.
-    * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
+    * Only launch from :material-steam: Steam or using :material-file:`PlayGTAIV.exe`.
     * If using ZolikaPatch and FusionFix together, see the incompatible options [here](essential-modding/fusionfix.md).
     * Reboot your PC.
     * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder: ==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
