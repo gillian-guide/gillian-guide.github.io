@@ -43,7 +43,7 @@ TBA (current official version for FusionFix sucks)
 This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums page](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 <h3>Installation</h3>
-1. Install [IV-SDK .NET and Clonk's Coding Library](../mod-dependencies/#iv-sdk-net).
+1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net).
 2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
 3. Go to the latest [Release](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
 4. Download the :material-zip-box:`LibertyTweaksx.x.zip`.

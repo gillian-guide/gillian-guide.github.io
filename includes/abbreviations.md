@@ -1,4 +1,5 @@
 *[1.0.8.0]: The main retail (downgraded) version used by this guide
+*[1.0.7.0]: An alternative retail (downgraded) version, has no advantages over 1.0.8.0
 *[1.0.4.0]: An alternative retail (downgraded) version used for graphical mods
 *[Retail version]: An older (usually downgraded) version
 *[1.2.0.59]: Complete Edition, a.k.a. Steam and RGL version

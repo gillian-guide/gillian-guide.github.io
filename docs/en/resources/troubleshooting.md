@@ -68,7 +68,7 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     You can do one of the following:
 
     * Start a new game and forget about your existing save.
-    * Remove `LibertyTweaks` files from :material-folder:==IVSDKDotNet\scripts== (if you don't use `IVSDKDotNet` for anything else, you can remove all files and folders relating to it from the game folder aswell).
+    * Remove `LibertyTweaks` files from :material-folder: ==IVSDKDotNet\scripts== (if you don't use `IVSDKDotNet` for anything else, you can remove all files and folders relating to it from the game folder aswell).
 
 ??? info "Load times are too long"
     * Remove ColAccel.
@@ -98,11 +98,11 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
     Tone down the amount of texture mods you're using - especially stuff like road textures and other things that are loaded all the time.
 
 ??? info "Game crashes immediately upon booting | Won't even boot"
-    * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder:==plugins== and the game folder. The game won't start in this case.
+    * Make sure you don't have any duplicate mods - for example, you may have left [FusionFix](essential-modding/fusionfix.md) in both the :material-folder: ==plugins== and the game folder. The game won't start in this case.
     * Only launch from :material-steam:Steam or using :material-file:`PlayGTAIV.exe`.
     * If using ZolikaPatch and FusionFix together, see the incompatible options [here](essential-modding/fusionfix.md).
     * Reboot your PC.
-    * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder:==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
+    * If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder: ==C:/Users/(PC Name)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     * Make sure MSI Afterburner and/or RivaTuner Statistics and any other software of this sort is not running - overlays mess the game up on boot.
     * Install [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) (and set it up to get rid of GFWL) and [ZolikaPatch](essential-modding/zolikapatch.md).
     * If the problem persists, try deleting or disabling each mod to see which one is causing the problem.

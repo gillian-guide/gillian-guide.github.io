@@ -23,26 +23,23 @@ The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod
 1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
 2. Scroll to the bottom of the page and download the latest version.
 3. Extract :material-zip-box:`ZMenuIV_vx.zip` into the game folder
-    - Do not extract :material-folder:`asi loader if not using xliveless`, :material-folder:`for developers`, :material-folder:`old version (has VR support)`, :material-folder:`parachute support(all into game folder)`. Read the :material-file:`readme.txt` for details on these folders.
+    - Do not extract :material-folder: `asi loader if not using xliveless`, :material-folder: `for developers`, :material-folder: `old version (has VR support)`, :material-folder: `parachute support(all into game folder)`. Read the :material-file:`readme.txt` for details on these folders.
 
 <h3>Usage</h3>
 
-The default controls are:
+The default hotkeys are:
 
 - ++f7++ to toggle menu.
-- ++num8++, ++num2++, ++num4++, ++num6++ for navigation. ++num5++ to accept, ++num0++ to go back.
+- ++num8++, ++num2++, ++num4++, ++num6++ for navigation, ++num5++ to accept, ++num0++ to go back.
 - ++right-control+num1++ to fix the car.
 - ++right-control+num2++ to flip the car.
 - ++bracket-right++ (hold) to speed the car up.
-- ++f6++ for Airbreak(noclip).
-- ++right-control++ for Special God 1.
-- ++f1++ for Special God 2.
+- ++f6++ for Airbreak (noclip).
 - ++0++ for Always God Mode.
 - ++bracket-left++ for Never Wanted.
 - ++semicolon++ for Unlimited Ammo.
 - ++equal++ for Collision.
 - ++minus++ for Resurrect.
-- ++single-quote++ for Forward Through Door.
 - ++m++ for Ragdoll.
 
 You can add your own custom keybinds that can combine multiple options together. To do so, enable `Custom Keybind Creator` in `Trainer Settings`, highlight the desired option and press ++left-control+enter++ to set the keybind up.
@@ -95,7 +92,7 @@ Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change exis
 
 ## [Liberty's Legacy](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)
 
-!!! info "Compatibility"
+!!! warning "Compatibility"
     This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
 This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features. It's also the only one you can use with the Complete Edition, anyway. It's also compatible with controllers.
 
@@ -108,10 +105,15 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
 
 <h3>Usage</h3>
 
-The default controls are:
+The default hotkeys on keyboard&mouse are:
 
-- ++f11++ or RB+X|R1+Square to toggle menu.
-- Arrow keys or D-Pad for navigation. ++enter++ or A|Cross to accept, ++backspace++ or B|Circle to go back.
+- ++f11++ to toggle menu.
+- Arrow keys for navigation, ++enter++ to accept, ++backspace++ to go back.
+
+The controller binds ones are:
+
+- RB+X or R1+Square on controllers.
+- D-Pad for navigation, A or Cross to accept, B or Circle to go back.
 
 Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key you want to bind.
 

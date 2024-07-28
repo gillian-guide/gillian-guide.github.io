@@ -98,10 +98,10 @@ After using the tool, you can freely skip to optimal game settings:
 
     In simpler words, the game will not use any other files.
 
-??? question "Why :material-folder:==x32==? My system is 64-bit"
+??? question "Why :material-folder: ==x32==? My system is 64-bit"
     Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
 
-    In simpler words, the game will not use the files from :material-folder:==x64==.
+    In simpler words, the game will not use the files from :material-folder: ==x64==.
 
 ??? warning "If you have problems..."
     Try going down a version or two.

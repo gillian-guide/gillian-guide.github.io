@@ -64,7 +64,7 @@ It is highly recommended to have latest drivers installed for best performance a
 
 !!! warning "Game installation"
     - **If you had previously modded the game or installed a modpack, it is highly recommended that you first uninstall the game from your launcher, then delete any leftovers that stayed in the root folder, as launchers don't remove those.**
-    - **The game should not be located in :material-folder:`Desktop` or :material-folder:`Documents` or other default system folders to avoid issues.** If not using :material-steam: Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
+    - **The game should not be located in :material-folder: `Desktop` or :material-folder: `Documents` or other default system folders to avoid issues.** If not using :material-steam: Steam, it should also not be located in :material-folder: ==C:\Program Files== or :material-folder: ==C:\Program Files (x86)==.
 
 If the above is met, continue with one of the following pages:
 

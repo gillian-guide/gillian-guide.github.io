@@ -23,7 +23,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 !!! note ""
     This section also includes steps to configure GFWL for non-multiplayer use too. If you came here for that, just skip the "Joining/Creating Lobbies" section.
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](../downgrading.md) if using the Complete Edition.
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](../../downgrading/downgrading.md) if using the Complete Edition.
 
     Wine does not implement support for GFWL, so this method is not possible on Linux.
 
@@ -140,7 +140,7 @@ Second most popular multiplayer option, as it's the best way to experience GTA I
 7. In the `Tools` - Game Settings window, set the path to your GTA IV install. You can also set various settings as you wish.
 8. To join servers, simply double click on any server on the list.
 
-[:material-web: GTAConnected website](https://gtaconnected.com/){ .md-button .md-button--primary } [:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
+[:simple-discord: GTAConnected Discord Server](https://discord.gg/YSyasDa){ .md-button .md-button--primary }
 
 ---
 
@@ -155,13 +155,13 @@ This client is somewhat similar to GTA Connected in essence, as you can host you
 ### Installation and usage
 
 1. Go to the [HappinessMP](https://happinessmp.net/) website.
-2. Click the ==Download== button.
+2. Press the **Download** button.
 3. Install :material-file-download:`HappinessMP.exe`.
 4. Open the client.
 5. In the settings, set your nickname.
-6. To join servers, simple click on any server on the list.
+6. To join servers, simply click on any server on the list.
 
-[:material-web: HappinessMP's website](https://happinessmp.net/){ .md-button .md-button--primary } [:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary }
+[:simple-discord: HappinessMP Discord Server](https://discord.gg/U6w3Yu8jkt){ .md-button .md-button--primary }
 
 ---
 

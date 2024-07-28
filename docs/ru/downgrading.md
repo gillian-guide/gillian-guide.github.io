@@ -65,7 +65,7 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
         * Зайдите на [страницу на GTAForums](https://gtaforums.com/topic/976691-gta-iv-downgrader/) и скачайте последнюю версию.
         * Распаковать архив, запустить :material-file:`IVDowngrader.exe`. с :fontawesome-solid-shield-halved:==правами администратора==.
         ??? info "Автономный режим"
-            Вы можете настроить даунгрейдер для работы в автономном режиме. Скачайте файлы [отсюда](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) и распакуйте их в :material-folder:==Downgrader\\Data\\Temp==. Запускайте :material-file:`LaunchInOfflineMode.exe`.
+            Вы можете настроить даунгрейдер для работы в автономном режиме. Скачайте файлы [отсюда](https://mega.nz/folder/Fn0Q3LhY#_0t1VZQFuQX22lMxRZNB1A) и распакуйте их в :material-folder: ==Downgrader\\Data\\Temp==. Запускайте :material-file:`LaunchInOfflineMode.exe`.
         * Следуйте инструкциям в приложении. Обязательно прочитайте предупреждения при выборе модов.
         * При настройке на поддержку GFWL обязательно проверьте [эту страницу](../multiplayer/#games-for-windows-live). Если нет, убедитесь, что мод `xliveless` включен.
         !!! info ""
@@ -95,12 +95,12 @@ description: Методы даунгрейдинга GTA IV с Complete Edition
 Если вы уже начали играть на Complete Edition, то, возможно, вам захочется понизить свой файл сохранения до старых версий.
 
 ???+ note "Инструкции"
-    * Сначала найдите свои сохранения в :material-folder:==Documents\Rockstar Games\GTA IV\Profiles\(id)\\==. Они называются :material-file:`SGTAxxx`.
+    * Сначала найдите свои сохранения в :material-folder: ==Documents\Rockstar Games\GTA IV\Profiles\(id)\\==. Они называются :material-file:`SGTAxxx`.
     * Загрузите тот, который вы хотите конвертировать на [GTASnP](https://gtasnp.com/).
     * Разверните вкладку `Modifications`.
     * Выберите `1.0.8.0 IV / 1.1.3.0 EFLC and older` в `Downgrade Version`.
     * Выберите слот, в который вы хотите сохранить свой файл сохранения. У вас должно загрузиться конвертированное сохранение.
-    * Расположите его в :material-folder:==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
+    * Расположите его в :material-folder: ==C:\Users\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
 ## Руссификатор
 После даунгрейдинга, у вас не будет русского языка. Скачайте [оффициальный руссификатор](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link) и распакуйте его в папку с игрой. У вас должны быть установлены [Ultimate ASI Loader](../extras/modloading/#ultimate-asi-loader) и [ZolikaPatch](essential-modding/zolikapatch.md).

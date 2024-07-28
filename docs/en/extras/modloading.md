@@ -14,6 +14,8 @@ A lot of mods require replacing game files with [OpenIV](openiv.md). We can get 
 
 This modloader works by loading the files from the :material-folder: ==update== folder *instead* of the main game files, avoiding replacing the original files.
 
+---
+
 ### Installing mods packaged for Fusion Overloader
 
 They're likely already packaged into an :material-folder: ==update== folder. Just drop that folder into the root folder of the game.
@@ -33,7 +35,7 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
 2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other (i.e. a mod provides separate files for base IV and EFLC), compile a separate `.img` file for them.
 3. Create a folder with the name of your mod in the :material-folder: ==update== folder (create one in the game folder if it doesn't exist).
 4. Drop your compiled `.img` files into that folder.
-5. If you went through step 3, also create folders called :material-folder:==IV==, :material-folder:==TLAD== or :material-folder:==TBoGT== and drop the specific `.img` files there.
+5. If you went through step 3, also create folders called :material-folder: ==IV==, :material-folder: ==TLAD== or :material-folder: ==TBoGT== and drop the specific `.img` files there.
 
 !!! tip "Priority"
     If you have multiple mods that replace same files and need a priority system, you can add a number or a symbol (such as !) before it's name.
@@ -138,7 +140,7 @@ This modloader has a few advantages over Fusion Overloader, such as being able t
 
 ### Configuring the modloader
 
-To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder:==modloader==.
+To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder: ==modloader==.
 
 - Make sure you set the correct priority so you don't have unwanted mods overriding other mods (higher number - higher priority).
 - Make sure mods that should *only* be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are *only* for TBoGT are disabled for TLAD (Ep1), and mods that are *only* for TLAD are disabled for TBoGT(Ep2).

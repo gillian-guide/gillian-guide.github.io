@@ -3,7 +3,7 @@ description: Graphics fixes, but even more than just that!
 
 # [FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 
-!!! note "Compatibility"
+!!! warning "Compatibility"
     This mod is only officially supported on the Complete Edition, but with taking several things in account, you can also use it with 1.0.8.0.
 
     Support for non-CE versions may be axed at any time and the developers don't provide any support for them.
@@ -40,7 +40,7 @@ TBA
         If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
 
 !!! tip "Modloading"
-    This mod can be used for modloading purposes. See [modloading](../../extras/modloading.md/#fusion-overloader) for more details.
+    This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
 
 ---
 
