@@ -98,16 +98,18 @@ This mod improves the texture quality of *all* vehicles in the game. Some textur
 
 ---
 
-## [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765)
+## [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765) & [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871)
 
 This mod increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game.
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765).
+1. Go to the [GTAForums page for Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071559765).
 2. Download `IV/Vanilla TBOGT style (MEGA)` and `TLAD style (MEGA)` via the desired mirror.
     - If you want TBoGT icons to be styled, also download `New TBOGT style (MEGA)`.
-3. Put the files in :material-folder: ==GTAIV/**update**/pc/textures/==.
+3. Go to the [GTAForums page for Higher Res Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871).
+4. Press on `Right Here (MEGA)` to download.
+5. Extract both archives in :material-folder: ==GTAIV/**update**/pc/textures/==.
 
 ---
 

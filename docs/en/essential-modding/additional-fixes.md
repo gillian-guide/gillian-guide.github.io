@@ -54,7 +54,7 @@ This mod fixes an incorrect suit in Perseus, as you end up buying a different on
 
 ---
 
-## [Default pistol iron sight fix](https://www.nexusmods.com/gta4/mods/15)
+## [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15)
 
 This mod fixes an oversight in the pistol's model where the iron sight doesn't make any sense.
 

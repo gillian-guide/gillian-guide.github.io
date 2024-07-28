@@ -1,75 +1,135 @@
-title: Credits
+title: Credits & Donation links
 description: This guide wouldn't be possible without all these amazing people!
 
-# Credits
+# Credits & Donation links
 
 This guide wouldn't be possible without all these amazing people!
 
 ## ThirteenAG
 
-For their work on [FusionFix](essential-modding/fusionfix), [Ultimate ASI Loader](../mod-dependencies/#ultimate-asi-loader) and other mods listed in [mods](extras/mods).
+For their work on [FusionFix](../../essential-modding/fusionfix.md), [Ultimate ASI Loader](mod-dependencies.md/#ultimate-asi-loader), [Project2DFX](../../enhancements.md/#project2dfx) and [Xbox Rain Droplets](../../enhancements.md/#xbox-rain-droplets).
 
 [:simple-kofi: Ko-Fi](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://paypal.me/SergeyP13){ .md-button .md-button--primary } [:simple-boosty: Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
 
 ## Parallellines
 
-For their work on [Fusion Shaders](essential-modding/fusionfix) and contributing to [Various Fixes](essential-modding/variousfixes) and [Console Visuals](essential-modding/consolevisuals).
+For their work on [Fusion Shaders](../../essential-modding/fusionfix.md) and directly contributing to [Various Fixes](../../essential-modding/various-fixes.md) and [Console Visuals](../../enhancements.md/#console-visuals).
 
-## AssaultKnife47, RaphaelK12, robi29
+## AssaultKifle47
 
-For directly contributing to [Fusion Shaders](essential-modding/fusionfix).
+For directly contributing to [Fusion Shaders](../../essential-modding/fusionfix.md) and [FusionFix](../../essential-modding/fusionfix.md) and their work on other [mods](../../extras/mods.md).
+
+## RaphaelK12
+
+For directly contributing to [Fusion Shaders](../../essential-modding/fusionfix.md) and [FusionFix](../../essential-modding/fusionfix.md).
+
+## Tomasak
+
+For directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and [Console Visuals](../../enhancements.md/#console-visuals).
+
+## Valentyn_L
+
+For directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and their work on other [mods](../../extras/mods.md).
+
+## Magic_Al and the rest of Fusion Team
+
+For directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
 
 ## Attramet
 
-For working on [Various Fixes](essential-modding/variousfixes) and many other [mods](extras/mods).
+For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/##restored-pedestrians-restored-pedestrians-clothes) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
 
 ## \_CP_
 
-For directly contributing to [Fusion Shaders](essential-modding/fusionfix) and [Various Fixes](essential-modding/variousfixes).
+For directly contributing to [Fusion Shaders](../../essential-modding/fusionfix.md) and [Various Fixes](../../essential-modding/various-fixes.md).
 
 ## Ash_735
 
-For his [mods](extras/mods) and directly contributing to [Various Fixes](essential-modding/variousfixes) aswell as making a big contribution to fixing this game's textures.
+For their work on [Higher Resolution Miscellaneous Pack](../../enhancements.md/#higher-resolution-miscellaneous-pack), [Vehicle Pack](../../enhancements.md/#vehicle-pack), [Player Outfit Texture Fixes](../../essential-modding/additional-fixes.md/#player-outfit-texture-fixes) and [Higher Res Radio Logos](../../enhancements.md/#higher-res-radio-logos-in-game-higher-res-radio-logos-menu) and directly contributing to [Various Fixes](../../essential-modding/various-fixes.md) and [Console Visuals](../../enhancements.md/#console-visuals).
 
-## Valentyn_L, MikhailRock, vavrinko, Tomasak, brokensymmetry, Magic_Al, Philips_27, Olanov, Panzermann11
+[:simple-kofi: Ko-Fi](https://ko-fi.com/ash_735){ .md-button .md-button--primary } [:simple-cashapp: CashApp](https://cash.app/%C2%A3AshR735){ .md-button .md-button--primary }
 
-For directly contributing to [Various Fixes](essential-modding/variousfixes) and other [mods](extras/mods).
+## brokensymmetry
 
-## The rest of Fusion Team
+For directly contributing to [Various Fixes](../../essential-modding/various-fixes.md) and [Console Visuals](../../enhancements.md/#console-visuals).
 
-For their work on [FusionFix](essential-modding/fusionfix) and [Console Visuals](essential-modding/consolevisuals) aswell as contributing to a lot of other mods in the community.
+## MikhailRock, vavrinko, Philips_27, Olanov, Panzermann11
+
+For directly contributing to [Various Fixes](../../essential-modding/various-fixes.md).
+
+## nastyyaboi
+
+For directly contributing to [Console Visuals](../../enhancements.md/#console-visuals) and other [mods](../../extras/mods.md).
+
+## _AG
+
+For directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
 
 ## Zolika1351
 
-For their work on [ZolikaPatch](essential-modding/zolikapatch), [IV Tweaker](../extras/modloading/#iv-tweaker), [ZMenuIV](../extras/trainers/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK which is what IV-SDK .NET is built off and other mods listed in [mods](extras/mods), helping other modders, light assist with the guide and more!
-
-## catsmackaroo
-
-For making [Liberty Tweaks](essential-modding/libertytweaks) and other [mods](extras/mods).
+For their work on [ZolikaPatch](../../essential-modding/zolikapatch.md), [IV Tweaker](../../extras/modloading.md/#iv-tweaker), [ZMenuIV](../../extras/trainers.md/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK which is what [IV-SDK .NET](mod-dependencies.md/#iv-sdk-net) is built off and other mods listed in [mods](../../extras/mods.md), helping other modders, light assist with the guide and more!
 
 ## ItsClockAndre
 
-For their work on the [Downgrader Tool](downgrading), [IV-SDK .NET, Clonk's Coding Library](../mod-dependencies/#iv-sdk-net), [Libety Tweaks](essential-modding/libertytweaks), [Launcher](extras/launcher) and other mods listed in [mods](extras/mods). This author has a [donation link](support).
+For their work on the [Downgrader Tool](../../downgrading/downgrading-the-game.md), [IV-SDK .NET, Clonk's Coding Library](../../resources/mod-dependencies.md/#iv-sdk-net), [Libety Tweaks](../../enhancements.md/#liberty-tweaks), [Launcher](../../extras/launcher.md), [Project Thunder](../../enhancements.md/#project-thunder), [VAmbience](../../enhancements.md/#vambience) and other [mods](../../extras/mods.md).
+
+[:simple-patreon: Patreon](https://www.patreon.com/itsclonkandre?fan_landing=true){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/itsclonkandre){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://www.paypal.com/paypalme/ItsClonkAndre){ .md-button .md-button--primary }
+
+## catsmackaroo
+
+For their work on [Liberty Tweaks](../../enhancements.md/#liberty-tweaks) and other [mods](../../extras/mods.md).
 
 ## TheYoshiPunch
 
-For their work on [Trilogy Characters Fixes](essential-modding/charactersfixes) and contributing to [Various Fixes](essential-modding/variousfixes).
+For their work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-characters-fixes) and contributing to [Various Fixes](../../essential-modding/various-fixes.md).
 
 ## (Japan) GTA Love
 
-For their original work on [Trilogy Characters Fixes](essential-modding/charactersfixes).
+For their original work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-characters-fixes).
+
+## DayL
+
+For their work on [Project Glass](../../enhancements.md/#project-glass).
+
+## iiCriminnaaL
+
+For their work on [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/), which was used for [`cargrp.dat` and `carcols.dat` Fixes](../../essential-modding/additional-fixes.md/#responsive-plus-cargrpdat-and-carcolsdat-fixes) and other [mods](../../extras/mods.md) and directly contributing to [Player Outfit Texture Fixes](../../essential-modding/additional-fixes.md/#player-outfit-texture-fixes).
+
+## donnits
+
+For their work on [Liberty Ferry Terminal - Waiting Sign Fix](../../essential-modding/additional-fixes.md/##liberty-ferry-terminal-waiting-sign-fix-sugar-chomps-separate-signs), [Sugar Chomps - Separate Signs](../../essential-modding/additional-fixes.md/##liberty-ferry-terminal-waiting-sign-fix-sugar-chomps-separate-signs), [Dodgy Doc - Higher Quality](../../enhancements.md/#dodgy-doc-higher-quality-gta-v-decals) and [GTA V decals](../../enhancements.md#dodgy-doc-higher-quality-gta-v-decals)
+
+## 6135
+
+For their work on [Luis' Helmet Reflections Fix](../../essential-modding/additional-fixes.md/#luis-helmet-reflections-fix), [Luis' Bag Texture Fix](../../essential-modding/additional-fixes.md/#luis-bag-texture-fix) and [Johnny's Shoe Texture Fix](../../essential-modding/additional-fixes.md/#johnnys-shoe-texture-fix).
+
+## Thundersmacker
+
+For their work on [Resized Blista Compact](../../enhancements.md/#resized-blista-compact).
+
+## B Dawg
+
+For their work on [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix).
+
+## GladiTek
+
+For their work on [Reduced Trafic Screech (Audio Tweak)](../../essential-modding/additional-fixes.md/#reduced-trafic-screech-audio-tweak).
+
+## _ys
+
+For their work on [Fixed Suit Display in Perseus](../../essential-modding/additional-fixes.md/#fixed-suit-display-in-perseus) and [Menu Art Fix](../../essential-modding/additional-fixes.md/#menu-art-fix).
+
+## grasscid
+
+For their work on [Default Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#default-pistol-iron-sight-fix).
 
 ## const96b
 
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
-## Shvab, OpenIV developers, Cfx.re team, aru, HazardX and more
+## Shvab, OpenIV developers, Cfx.re team, aru, HazardX and others
 
 For their work on modding tools. All those mods wouldn't be possible without them.
-
-## TJGM
-
-For making useful and up-to-date guides on YouTube, which are used for showcasing on some pages.
 
 ## Jack Powell
 
@@ -87,21 +147,29 @@ DXVK wouldn't be as great as it is currently without [all these people](https://
 
 ## Mod Creators
 
-Their names are already listed next to their contributions in [mods](extras/mods), they have done a lot too! I really respect all the modders whose mods I've listed.
+Their names are already listed next to their contributions in [mods](../../extras/mods.md), they have done a lot too!
 
 ## Discord Communities
 
 The communities of these discord servers helped me a lot with this guide:
 
-[:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Zolika1351's Zone](https://discord.gg/KTxxZcNxCc){ .md-button .md-button--primary } [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
+[:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
 ## Me (Gillian)
 
 I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
+I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature.
+
 ==Note: monobank will send the money to me directly.==
 
 [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
+
+Crypto options, if you cannot send money directly or prefer anonimity:
+
+- BTC: 3J3SUrDtRj35LeWzJGhyxEzfm9unJ4VwkR
+- ETH: 0xc19628eCcF1CE224F56d70E49091b69D963754D6
+- Monero: 43jcwx69GxaTNTsUqrS97pWTEfG7wNAKPJ1LtGvdesYzHVxS2Qt2n7oXv667EB9NBFcx5XbT9FqRKJLb1khHQJoUD8d1AMu
 
 ### Supporters
 
@@ -113,6 +181,7 @@ These people made my life a tad bit easier with their monetary contribution:
 ## Special Thanks
 
 - [Kreato](https://github.com/kreatoo) for his help to set up this website and heavily assisting the development of [Setup Utility](../optimization/#setup-utility) - check out his stuff if you like Linux tinkering.
+- [Henrygame3](https://github.com/henrygame3) for his help as a designer during restructuring the guide.
 - [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
 - Steam Community for actively supporting me during the making of the original guide on Steam.
 - Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.
