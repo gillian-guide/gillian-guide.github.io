@@ -1,62 +1,62 @@
-title: Introduction
-description: Welcome to Gillian's GTA IV Modding Guide
+title: Введение
+description: Добро пожаловать на руководстве по моддингу Grand Theft Auto IV от Gillian
 
-# Introduction
+# Введение
 
 ![Guide logo](assets/logo-horizontal.webp)
 
 !!! quote ""
-    This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of any of the following modifications, so any bugs/crashes/errors should be reported to the developers themselves.
+    Этот сайт не связан с Rockstar Games, Rockstar North или Take-Two Interactive. Выполнение шагов, описанных в этом руководстве, может нарушить лицензионное соглашение с конечным пользователем (EULA) Rockstar, и если вы обратитесь в службу поддержки, они могут отказать вам в помощи из-за нарушения EULA. Я не являюсь автором ни одной из следующих модификаций, поэтому о любых багах/недочетах/ошибках следует сообщать самим разработчикам.
 
 ---
 
-## Overview
+## Обзор
 
-**Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
+**Добро пожаловать на руководстве по моддингу Grand Theft Auto IV от Gillian, централизованное и модульное руководство по моддингу «все в одном».**
 
-This guide aims to provide the best vanilla-faithful experience for GTA IV, but is not limited to that. It's meant to be accessible to everyone and to be able to help anyone who has their own specifics on how they want to experience the game - be it creating the best singleplayer experience, creating the best environment for manual modding, playing multiplayer, getting the best performance, or something else.
+Это руководство направлено на создание наилучшего ванильного-плюс опыта для GTA IV, но не ограничивается этим. Оно рассчитано на доступность для всех и помощи каждому, у кого есть свои требования к игре - будь то создание наилучшей сборки для сюжетки, создание условий для своей сборки, игра в мультиплеер, достижение наилучшей производительности или что-то еще.
 
 !!! note ""
-    This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
+    Это руководство стремится быть как можно более объективным, и старается предоставить только актуальную информацию для моддинга GTA IV. Все перечисленные моды и информация не отражают моего личного мнения о ком-либо, и я бы предпочел, чтобы это руководство не было склонно к предвзятым личным взглядам.
 
-    However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
+    Тем не менее, здесь действует одно строгое правило: **все упомянутые модификации должны сохранять оригинальное восприятие игры**.
 
 ---
 
-## Prerequisites
+## Предварительные требования
 
 !!! warning ""
-    In order for this guide to be useful to you, and for you to be eligible for support later, **please make sure the following prerequisites are met, aswell as my additional requirements:**
+    Чтобы это руководство было полезным для вас и чтобы вы могли получить поддержку в дальнейшем, **убедитесь, что соблюдены следующие требования, а также мои дополнительные требования:**.
 
-    - Read everything as is and don't skip anything.
-    - Avoid using other guides unless they are mentioned in this one. If something is mentioned in other guides but not here, it is most likely not useful here.
-    - I do not provide support for ENBs or graphical enhancements (i.e. ICEnhancer). You're on your own for those.
+    - Читайте все как есть и ничего не пропускайте.
+    - Не используйте другие руководства, если они не упомянуты в этом. Если что-то упоминается в других руководствах, но не здесь, то, скорее всего, тут оно будет вам без толку.
+    - Я не предоставляю помощь с использованием ENB и других графических улучшений (например, ICEnhancer). С ними вы сам-на-сам.
 
-- **You must own the game on [:material-steam: Steam](https://store.steampowered.com/app/12210/) or the [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
-- **Operating system:** Your PC **should be running Windows 10 or 11 or any up-to-date Linux distribution suited for gaming**. Older Windows versions may work, but I will not provide support for them. ARM64 systems have not been tested.
-- **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Game requirements on PCGW - copied from Steam")**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
+- **Вы должны владеть игрой в [:material-steam: Steam](https://store.steampowered.com/app/12210/) или [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Пиратские версии не получат гарантированной поддержки от меня в случае возникновения проблем.** Другие версии могут работать, но я не даю никаких гарантий, и я не буду оказывать поддержку в случае возникновения проблем.
+- **Операционная система:** Ваш ПК **должен быть на Windows 10 или 11 или любом современном дистрибутиве Linux, подходящего для игр**. Более старые версии Windows могут и работать, но я не буду оказывать им поддержку. Системы ARM64 не тестировались.
+- **Железо:** Ваш ПК **должен соответствовать [минимальным требованиям игры](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Требования к игре на PCGW - скопировано из Steam")**. Для **лучших впечатлений он также должен соответствовать моим личным рекомендациям, приведенным ниже**, которые обеспечивают приятный игровой процесс с модами при разрешении Full HD и частоте экрана 60 Гц. Масштабируйте вручную под свои нужды:
 
-    | Hardware     | Recommended         | Alternative                             |
-    | :----------: | :-----------------: | :-------------------------------------: |
-    | **CPU**      | Intel Core i5-6600k | Ryzen 3 2200G                           |
-    | **GPU**      | GTX 970/1050Ti      | RX580, Intel Arc A310                   |
-    | **RAM**      | 8GB                 |                                         |
-    | **Storage**  | 30GB (Ideally SSD)  | If manually modding, ~70 GB for backups |
+    | Железо             | Рекомендуется        | Альтернатива                                  |
+    | :----------------: | :------------------: | :-------------------------------------------: |
+    | **ЦП**             | Intel Core i5-6600k  | Ryzen 3 2200G                                 |
+    | **ГП**             | GTX 970/1050Ti       | RX580, Intel Arc A310                         |
+    | **ОЗУ**            | 8 ГБ                 |                                               |
+    | **Место на диске** | 30 ГБ (В идеале SSD) | Если ставите моды вручную, ~70 ГБ для бэкапов |
 
 ---
 
-## Navigation
+## Навигация
 
 <div class="grid cards" markdown>
 
-- Go to **preparation** to get ready to mod the game and start using the guide:
+- Переходите к **подготовке** чтобы подготовиться к моддингу игры и начать использовать руководство:
 
-    [Next page:material-page-last: <br>Preparation</br>](preparation.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Подготовка</br>](preparation.md){ .md-button .md-button--primary }
 
-- My **Discord server** for support and discussion (you may not receive support from me if you violate any of the above conditions):
+- Мой **сервер в Discord** для поддержки и обсуждений (вы не получите от меня поддержку, если нарушите любое из вышеперечисленных условий):
 
-    [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
+    [:simple-discord: Мой сервер в Discord](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
 </div>
 
-If you are **only interested in something specific**, use the sidebar on the left to select the page you are interested in.
+Если вас **интересует только что-то конкретное**, воспользуйтесь боковой панелью слева, чтобы выбрать интересующую вас страницу.

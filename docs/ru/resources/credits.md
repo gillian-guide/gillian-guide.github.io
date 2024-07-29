@@ -193,4 +193,4 @@ These people made my life a tad bit easier with their monetary contribution:
 
 Everyone else who helped me set up this guide, motivated me to keep going or even just shared this guide to your friends - thank you!
 
-If you think you should be listed separately and I missed you by mistake, [let me know on the Discord Server](index/#navigation) or [GitHub Issues](https://github.com/gillian-guide/gillian-guide.github.io/issues).
+If you think you should be listed separately and I missed you by mistake, [let me know on the Discord Server](../../index.md/#navigation) or [GitHub Issues](https://github.com/gillian-guide/gillian-guide.github.io/issues).
