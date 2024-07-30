@@ -115,7 +115,7 @@ This mod increases the quality of UI radio icons, as they are highly inconsisten
 
 ## [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/)
 
-Makes interiors more visible from the outside, although comes with a downside of potential pop-in.
+This mod makes interiors more visible from the outside, although comes with a downside of potential pop-in.
 
 <h3>Installation</h3>
 
@@ -203,7 +203,7 @@ This mod resizes the Blista Compact to match the real life counterpart (Honda CR
 !!! warning "Compatibility"
     - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
     - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
-This project aims to improve various aspects of the game and it's general quality of life. You can see the features on the [GTAForums page](https://gtaforums.com/topic/991160-liberty-tweaks/).
+This project aims to improve various aspects of the game and it's general Quality of Life. You can see the features on the [GTAForums page](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 <h3>Installation</h3>
 
@@ -242,13 +242,14 @@ This mod improves how thunder appears in-game, with actual lighting and improved
 
 ## [VAmbience](https://gtaforums.com/topic/981402-vambience/)
 
-This mod adds background noise to the game, such as driving and shooting, alike to GTA V. Highly customizable.
+This mod adds background noise to the game, such as driving and shooting, alike to GTA V.
 
 <h3>Installation</h3>
 
 1. Go to the latest [Release](https://github.com/ClonkAndre/VAmbience/releases/latest) page.
 2. Download the :material-zip-box:`VAmbience.vx.x.zip`.
 3. Extract the archive into the game folder. Replace files if needed.
+4. Configure :material-file-cog:`VAmbience.ini` as you wish.
 
 ---
 

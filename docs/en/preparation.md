@@ -22,9 +22,9 @@ Not seeing file extensions can cause some confusion when looking at all the file
 
 Some software should be installed before you can play and mod the game:
 
-- You need to have an archivator installed. I recommend **[NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r?rtc=1&hl=en-us&gl=us)** or **[7-Zip](https://www.7-zip.org/ "Official 7-Zip website")**.
-- [Microsoft Visual C++ Redistributables](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/ "VC++ Runtimes All-in-One") (extract and run :material-file-download:`install_all.bat`).
-- [Microsoft DirectX 9 (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft's official redistributables").
+- You need to have an archivator installed. I recommend **[NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r?rtc=1&hl=en-us&gl=us)** or **[7-Zip](https://www.7-zip.org)**.
+- [Microsoft Visual C++ Redistributables](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (extract the archive and run :material-file-download:`install_all.bat`).
+- [Microsoft DirectX 9 (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109).
 
 ---
 
@@ -41,7 +41,7 @@ It is highly recommended to have latest drivers installed for best performance a
     - Press `Download Windows Drivers` and open the downloaded executable.
     - Follow the in-app instructions to install the driver.
         - Select `Optional` drivers over `Recommended` to get the latest drivers.
-        - Select `Minimal Install` over `Full Install` if you don't need the extra features of the Adrenaline app.
+        - Select `Minimal Install` over `Full Install` if you don't need the extra features of the Adrenalin app.
 === "Intel"
     - Go to the [official website](https://www.intel.com/content/www/us/en/support/detect.html).
     - Press `Download now` and open the downloaded executable.
@@ -55,7 +55,7 @@ It is highly recommended to have latest drivers installed for best performance a
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **When told to extract a folder**, extract the folder itself, not the contents (unless told otherwise).
-- **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in CE.
+- **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in Complete Edition.
 
 ---
 
