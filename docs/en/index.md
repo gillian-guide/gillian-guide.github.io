@@ -34,7 +34,7 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
 
 - **You must own the game on [:material-steam: Steam](https://store.steampowered.com/app/12210/) or the [:simple-rockstargames: Rockstar Games Launcher](https://store.rockstargames.com/game/buy-grand-theft-auto-iv). Pirated versions will not receive guaranteed support from me if any problems occur.** Other versions may work, but no guarantee is given, nor will I provide support if any problems occur.
 - **Operating system:** Your PC **should be running Windows 10 or 11 or any up-to-date Linux distribution suited for gaming**. Older Windows versions may work, but I will not provide support for them. ARM64 systems have not been tested.
-- **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements "Game requirements on PCGW - copied from Steam")**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
+- **Hardware:** Your PC **must meet the [minimum requirements of the game](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#System_requirements)**. For the **best experience, it should also meet my personal recommended spec sheet below** which ensures pleasant gameplay with mods at Full HD resolution and 60Hz screen. Scale manually for your own needs:
 
     | Hardware    | Recommended         | Alternative                             |
     | :---------: | :-----------------: | :-------------------------------------: |
