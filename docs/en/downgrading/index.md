@@ -1,5 +1,5 @@
 title: Downgrading
-description: Downgrading either radio or the game version back to the retail version - or both.
+description: Downgrading the radio and/or the game version back to the retail version.
 
 # Downgrading
 
