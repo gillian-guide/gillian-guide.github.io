@@ -14,7 +14,7 @@ description: Why can't all the mods use UAL it would make everyone's life easier
 
 <h3>Installation</h3>
 
-1. Go to the [Releases](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest) page.
+1. Go to the [Releases page](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest).
 2. Download :material-zip-box: `Ultimate-ASI-Loader.zip` (**not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`**).
 3. Extract the archive into the game folder.
 
@@ -77,7 +77,7 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
 <h3>Installation</h3>
 
-1. Go to the [Releases](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest) page.
+1. Go to the [Releases page](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest).
 2. Download :material-zip-box:`IV-SDK.NET.vx_x_x.zip`.
 3. Extract the archive into the game folder.
 
@@ -86,7 +86,7 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
     <h4>Installation</h4>
 
-    * Go to the [Releases](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest) page.
+    * Go to the [Releases page](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest).
     * Download :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
     * Extract the archive into the game folder.
 

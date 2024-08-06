@@ -1,127 +1,124 @@
-title: Downgrading the game
-description: Downgrading the game version and the savefiles back to the retail version.
+title: Даунгрейдинг игры
+description: Даунгрейдинг игры и сохранения обратно на старую версию.
 
-# Downgrading the game
+# Даунгрединг игры
 
-## Game versions
+## Версии игры
 
-The following is information about two versions we will focus on and their differences. 1.0.4.0 is for informational purposes only - we will not use it in the scope of this guide.
+Ниже приведена информация о двух версиях, на которых мы остановимся, и их различиях. Версия 1.0.4.0 числится лишь в информационных целей - мы не будем использовать ее в рамках данного руководства.
 
 ???+ info "Complete Edition (1.2.0.59)"
 
-    This is the latest version of the game, which you normally receive when installing the game on :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher. ==This version should be preferred if you want the **best singleplayer campaign experience.**==
+    Это новейшая версия игры, которую вы обычно получаете при установке игры на :material-steam: Steam или :simple-rockstargames: Rockstar Games Launcher. ==Эту версию следует предпочесть, если вы хотите получить **лучшие впечатления от сюжетки.**==
 
-    ??? quote "Pros and cons"
+    ??? quote "Плюсы и минусы"
         !!! success ""
-            :material-plus-box: It works out of the box. No modifications are required to launch the game.<br>
-            :material-plus-box: Best support for modern mods made after 2020, such as FusionFix. This ensures getting the most fixes possible when modding.<br>
-            :material-plus-box: Includes EFLC.<br>
-            :material-plus-box: Supports Steam and Social Club Achievements out of the box.
+            :material-plus-box: Работает из коробки. Не требуются модификации для работы игры.<br>
+            :material-plus-box: Лучшая поддержка для современных модов, созданных после 2020 года - таких как FusionFix. Это гарантирует получение максимального количества фиксов при моддинге.<br>
+            :material-plus-box: Включает EFLC.<br>
+            :material-plus-box: Поддерживает достижения Steam и Social Club из коробки.
 
         !!! danger ""
-            :material-minus-box: Rockstar Games Launcher and it's DRM is required, which can be considered bloat for multiple reasons: the game launches for a minute longer and it does not provide anything but achievements to the game, to name two.<br>
-            :material-minus-box: Compatibility with old mods is not guaranteed. While some mods work, there are some that do not. They are not critical to fixing the game, though.<br>
-            :material-minus-box: Official multiplayer is removed and third-party experience is limited.<br>
-            :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
-            :material-minus-box: No support for GFWL (Xbox Live) achievements.
+            :material-minus-box: Требует Rockstar Games Launcher и его DRM, который можно считать лишним по нескольким причинам: игра запускается на минуту дольше и не дает ничего, кроме достижений, и это только две причины.<br>
+            :material-minus-box: Совместимость со старыми модами не гарантируется. Некоторые моды работают, но есть и такие, которые не работают. Однако они не являются обязательными для исправления игры.<br>
+            :material-minus-box: Вырезан официальный мультиплеер, а сторонние клиенты ограничены.<br>
+            :material-minus-box: Нет поддержки для достижений GFWL (Xbox Live).
 
-???+ info "Retail version (1.0.8.0)"
+???+ info "Розничная версия (1.0.8.0)"
 
-    This is the version of the game that existed before the Complete Edition. ==This version should only be preferred if you want to **play the multiplayer**, use  **specific mods** you have in mind that don't support CE or want to **play without DRM.**==
+    Это версия игры, существовавшая до выхода Complete Edition. ==Эту версию стоит предпочесть только в том случае, если вы хотите **играть в мультиплеер**, ставить **конкретные моды**, которые не поддерживают CE, или хотите **играть без DRM.**==.
 
-    ??? quote "Pros and cons"
+    ??? quote "Плюсы и минусы"
         !!! success ""
-            :material-plus-box: Supports official multiplayer.<br>
-            :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
-            :material-plus-box: Best support for old mods made before 2020. If you don't know any yourself, don't consider this a point worth noting.<br>
-            :material-plus-box: Supports a few more QoL mods Complete Edition doesn't, such as Liberty Tweaks.<br>
-            :material-plus-box: Supports GFWL (Xbox Live) achievements, but at the cost of Steam Achievements.
+            :material-plus-box: Поддерживает официальный мультиплеер.<br>
+            :material-plus-box: DRM может быть убран, что делает эту версию одной из тех, в которую можно играть без DRM.<br>
+            :material-plus-box: Лучшая поддержка для старых модов, созданных до 2020 года, таких как Liberty Tweaks. Если вы сами не знаете ни одного, не считайте это особенным плюсом.<br>
+            :material-plus-box: Поддерживает достижения GFWL (Xbox Live), но ценой достижений Steam.
 
         !!! danger ""
-            :material-minus-box: Limited compatibility with FusionFix, which will reduce how many fixes you actually get.<br>
-            :material-minus-box: To make multiplayer work, you have to set up GFWL, which is a lot of hassle. Although a third-party alternative exists.<br>
-            :material-minus-box: EFLC support can only be achieved through mods.<br>
-            :material-minus-box: Steam Achievements support can only be achieved with mods, which also disable GFWL achievements. No support for Social Club achievements.<br>
-            :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
+            :material-minus-box: Ограниченная совместимость с FusionFix, что уменьшит количество доступных исправлений.<br>
+            :material-minus-box: Для мультиплеера, вам нужно установить и настроить GFWL, что является еще той морокой. Хотя существует сторонная альтернатива.<br>
+            :material-minus-box: Поддержка EFLC доступна только через моды.<br>
+            :material-minus-box: Поддержка достижений Steam доступна только через моды, которые также отключают достижения GFWL. Также нет поддержки для достижений Social Club.<br>
 
-??? info "Retail version (1.0.4.0)"
+??? info "Розничная версия (1.0.4.0)"
 
-    This version is not going to be useful in the scope of the guide, but since it is a popular version in the community, it should be mentioned - and explained why won't we use it. ==This version should only be preferred for **graphical mods**, which receive no support on this guide.==
+    Эта версия не будет полезна в рамках этого руководства, но поскольку она популярна в сообществе, ее следует упомянуть - и объяснить, почему мы не будем ее использовать. ==Эту версию следует предпочесть только для **графических модов**, которые не используются в этом руководстве.==
 
-    ??? quote "Pros and cons"
+    ??? quote "Плюсы и минусы"
         !!! success ""
-            :material-plus-box: Best support for graphical mods.<br>
-            :material-plus-box: Slightly better average FPS.<br>
-            :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
-            :material-plus-box: Supports GFWL (Xbox Live) achievements.
+            :material-plus-box: Лучшая поддержка графических модов.<br>
+            :material-plus-box: Немного лучше средний FPS.<br>
+            :material-plus-box: DRM может быть убран, что делает эту версию одной из тех, в которую можно играть без DRM.<br>
+            :material-plus-box: Поддерживает достижения GFWL (Xbox Live).
 
         !!! danger ""
-            :material-minus-box: Little to none mod support.<br>
-            :material-minus-box: Awful framepacing.<br>
-            :material-minus-box: No EFLC support.<br>
-            :material-minus-box: No support for Steam or Social Club achievements.
+            :material-minus-box: Никакущая поддержка модов.<br>
+            :material-minus-box: Ужасный фреймпейсинг (стабильность производительности).<br>
+            :material-minus-box: Нет поддержки EFLC.<br>
+            :material-minus-box: Нет поддержки достижений Steam или Social Club.
 
 ---
 
-## Downgrading instructions
+## Инструкции для даунгрейдинга
 
-!!! question "Which downgrader to choose?"
-    - Use ItsClockAndre's if you want to downgrade to 1.0.4.0 or if you have issues with mine.
-    - Use mine for every other case.
+!!! question "Какой даунгрейдер выбрать?"
+    - Используйте даунгрейдер от ItsClockAndre если вы хотите сделать даунгрейд до 1.0.4.0 или если у вас проблемы с моим.
+    - Для других случаев, используйте мой.
 
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
-    I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
+    Я сделал свой собственный даунгрейдер для своих целей в качестве альтернативы даунгрейдеру от ItsClockAndre. Этот даунгрейдер мал по весу и не позволяет делать "сломанные" даунгрейды независимо от того, какой способ даунгрейда вы выбрали, поэтому я рекомендую его.
 
-    1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
-    2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
-    3. Extract the archive into any empty folder.
-    4. Open :material-file:`GTAIVDowngradeUtilityWPF.exe`.
-    5. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
-    6. Press `Downgrade` to downgrade the game. It will automatically download and install everything.
-        - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
-        - If any issues occur, [report them on the Discord server](../../index.md/#navigation).
+    1. Перейдите на [страницу релизов](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
+    2. Скачайте :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
+    3. Распакуйте архив в любую пустую папку.
+    4. Откройте :material-file:`GTAIVDowngradeUtilityWPF.exe`.
+    5. Нажмите `Open` и выберите папку с игрой. Следуйте инструкциям в приложении, если появятся всплывающие окна.
+    6. Нажмите `Downgrade` для даунгрейда игры. Программа автоматически загрузит и установит все необходимое.
+        - Если вы знаете что делаете, можете вручную поменять какие-либо переключатели. ^^Только используйте "Full downgrade" если вам абсолютно необходимы все оригинальные файлы^^
+        - Если появятся какие-либо проблемы, [сообщите о них на Discord сервере](../../index.md/#navigation).
 
-=== "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
-    This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.
+=== "[Даунгрейдер от ItsClockAndre](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
+    Этот даунгрейдер заменяет гораздо больше файлов, чем действительно нужно обычному пользователю, что может привести к несколько худшему состоянию игры в некоторых местах. В нем также есть возможность совершить даунгрейд до 1.0.4.0, чего нет в моем даунгрейдере. Кроме того, он позволяет делать несовместимые выборы, поэтому **внимательно читайте предупреждения**.
 
-    1. Create an antivirus exclusion for your game folder. Don't worry, the tool is safe.
-    2. Go to the [GTAForums page](https://gtaforums.com/topic/976691-gta-iv-downgrader/) and download the latest version.
-    3. Extract the archive, run :material-file:`IVDowngrader.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
-    4. Follow the instructions in the application. Be sure to read the warnings at mod selection.
+    1. Создайте исключение в антивирусе для папки с игрой. Не переживайте - софт безопасный.
+    2. Перейдите на [страницу GTAForums](https://gtaforums.com/topic/976691-gta-iv-downgrader/) и скачайте последнюю версию.
+    3. Распакуйте архив, запустите :material-file:`IVDowngrader.exe` с :fontawesome-solid-shield-halved: ==правами администратора==.
+    4. Следуйте инструкциям в приложении. Обязательно прочитайте предупреждения при выборе модов.
 
 !!! warning ""
-    - After downgrading, always launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
-    - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher**.
-    - If you already had some [launch options](../additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
-    - Your game folder can also now be moved elsewhere if you desire so.
+    - После даунгрейда, всегда запускайте игру через :material-steam: Steam или `PlayGTAIV.exe`.
+    - Если вы используете :simple-rockstargames: Rockstar Games Launcher, **не запускайте игру из-под лаунчера**.
+    - Если у вас уже были [параметры запуска](../additional-setup.md/#_2), их необходимо переместить в :material-file-cog:`commandline.txt` после даунгрейда.
+    - При желании, вы теперь можете переместить папку с игрой куда-угодно.
 
-???+ question "Games for Windows LIVE"
-    If you wish to play the official multiplayer or get Xbox Live achievements, enable GFWL support when downgrading, and, after downgrading, refer to [this page](../../extras/multiplayer.md/#games-for-windows-live) to set GFWL up.
+???+ question "Games for Windows - LIVE"
+    Если вы захотите поиграть в официальный мультиплеер или получить достижения в Xbox Live, включите поддержку GFWL при даунгрейдинге и, после даунгрейда, обратитесь к [этой странице](../../extras/multiplayer.md/#games-for-windows-live) для настройки GFWL.
 
-    Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :material-file:`dinput8.dll` to :material-file:`xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.
+    Не включайте эту настройку если вы не хотите ни того, ни другого - вы лишь усложните себе работу. Если вы включили ее случайно, переименуйте :fontawesome-solid-gears:`dinput8.dll` на `xlive.dll`. Если у вас нет этого файла - установите [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) вручную.
 
 !!! info "Setup Utility"
-    If you happened to come back here later after already using the Setup Utility on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages, consider re-running it.
+    Если вы вернулись сюда после того, как уже использовали Setup Utility на страницах [оптимизации](../../optimization.md) или [дополнительной настройки](../../additional-setup.md), используйте утилиту заново.
 
 ---
 
-## Downgrading the savefile
+## Даунгрейд сохранения
 
-If you've already started playing on the Complete Edition (1.2.0.59), you may want to downgrade your savefile.
+Если вы уже начали играть на Complete Edition, то, скорее всего, вам захочется также сделать даунгрейд сохранения для совместимости с старой версией.
 
-### Instructions
+### Инструкции
 
-1. First, locate your savefiles in :material-folder: ==Documents\Rockstar Games\GTA IV\Profiles\\(id)\\==. They're named in this format: :material-file:`SGTAxxx`.
-2. Upload the one you want to convert to [GTASnP](https://gtasnp.com/).
-3. Expand the `Modifications` tab.
-4. Pick `1.0.8.0 IV / 1.1.3.0 EFLC and older` in `Downgrade Version`.
-5. Pick the slot you want to save your savefile as. You'll download your converted savefile.
-6. Place it at :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
+1. Сначала найдите свои сохранения в :material-folder: ==Documents\Rockstar Games\GTA IV\Profiles\\(id)\\==. Они названы в этом формате: :material-file:`SGTAxxx`.
+2. Загрузите тот, который вы хотите конвертировать на [GTASnP](https://gtasnp.com/).
+3. Разверните вкладку `Modifications`.
+4. В `Downgrade Version` выберите `1.0.8.0 IV / 1.1.3.0 EFLC and older`.
+5. Выберите слот, в который вы хотите сохранить свой файл сохранения. У вас должно загрузиться конвертированное сохранение.
+6. Переместите его в :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
 ---
 
-## Navigation
+## Навигация
 
-Proceed with optimization after you are done with downgrading:
+После даунгрейдинга, продолжите с оптимизацией:
 
-[:material-page-first:Previous page <br>Downgrading</br>](index.md){ .md-button } [Next page:material-page-last: <br>Optimization</br>](../optimization.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдущая страница <br>Даунгрейдинг</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>Оптимизация</br>](../optimization.md){ .md-button .md-button--primary }

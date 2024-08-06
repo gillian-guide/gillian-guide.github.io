@@ -22,7 +22,6 @@ The following is information about two versions we will focus on and their diffe
             :material-minus-box: Rockstar Games Launcher and it's DRM is required, which can be considered bloat for multiple reasons: the game launches for a minute longer and it does not provide anything but achievements to the game, to name two.<br>
             :material-minus-box: Compatibility with old mods is not guaranteed. While some mods work, there are some that do not. They are not critical to fixing the game, though.<br>
             :material-minus-box: Official multiplayer is removed and third-party experience is limited.<br>
-            :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
             :material-minus-box: No support for GFWL (Xbox Live) achievements.
 
 ???+ info "Retail version (1.0.8.0)"
@@ -32,9 +31,8 @@ The following is information about two versions we will focus on and their diffe
     ??? quote "Pros and cons"
         !!! success ""
             :material-plus-box: Supports official multiplayer.<br>
-            :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
-            :material-plus-box: Best support for old mods made before 2020. If you don't know any yourself, don't consider this a point worth noting.<br>
-            :material-plus-box: Supports a few more QoL mods Complete Edition doesn't, such as Liberty Tweaks.<br>
+            :material-plus-box: DRM can be removed, making this version capable of DRM-free play.<br>
+            :material-plus-box: Best support for old mods made before 2020, such as Liberty Tweaks. If you don't know any yourself, don't consider this a point worth noting.<br>
             :material-plus-box: Supports GFWL (Xbox Live) achievements, but at the cost of Steam Achievements.
 
         !!! danger ""
@@ -42,7 +40,6 @@ The following is information about two versions we will focus on and their diffe
             :material-minus-box: To make multiplayer work, you have to set up GFWL, which is a lot of hassle. Although a third-party alternative exists.<br>
             :material-minus-box: EFLC support can only be achieved through mods.<br>
             :material-minus-box: Steam Achievements support can only be achieved with mods, which also disable GFWL achievements. No support for Social Club achievements.<br>
-            :material-minus-box: Some songs were removed from the radio due to licensing. They can be restored with mods.
 
 ??? info "Retail version (1.0.4.0)"
 
@@ -52,7 +49,7 @@ The following is information about two versions we will focus on and their diffe
         !!! success ""
             :material-plus-box: Best support for graphical mods.<br>
             :material-plus-box: Slightly better average FPS.<br>
-            :material-plus-box: DRM can be removed, making this the only version capable of DRM-free play.<br>
+            :material-plus-box: DRM can be removed, making this version capable of DRM-free play.<br>
             :material-plus-box: Supports GFWL (Xbox Live) achievements.
 
         !!! danger ""
@@ -72,7 +69,7 @@ The following is information about two versions we will focus on and their diffe
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
-    1. Go to the [Releases](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest) page.
+    1. Go to the [Releases page](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
     2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
     3. Extract the archive into any empty folder.
     4. Open :material-file:`GTAIVDowngradeUtilityWPF.exe`.
@@ -92,13 +89,13 @@ The following is information about two versions we will focus on and their diffe
 !!! warning ""
     - After downgrading, always launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
     - If using the :simple-rockstargames: Rockstar Games Launcher, **do not launch the game via the launcher**.
-    - If you already had some [launch options](../additional-setup.md), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
+    - If you already had some [launch options](../additional-setup.md/#launch-options), they have to be moved to :material-file-cog:`commandline.txt` after downgrading.
     - Your game folder can also now be moved elsewhere if you desire so.
 
-???+ question "Games for Windows LIVE"
-    If you wish to play the official multiplayer or get Xbox Live achievements, enable GFWL support when downgrading, and, after downgrading, refer to [this page](../../extras/multiplayer.md/#games-for-windows-live) to set GFWL up.
+???+ question "Games for Windows - LIVE"
+    If you wish to play the official multiplayer or get Xbox Live achievements, enable GFWL support when downgrading and, after downgrading, refer to [this page](../../extras/multiplayer.md/#games-for-windows-live) to set GFWL up.
 
-    Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :material-file:`dinput8.dll` to :material-file:`xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.
+    Don't enable the option if you don't want either though - you will make things harder for yourself. If you had accidentally enabled it, rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`. If you don't have that file - install [Ultimate ASI Loader](../../resources/mod-dependencies/#ultimate-asi-loader) manually.
 
 !!! info "Setup Utility"
     If you happened to come back here later after already using the Setup Utility on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages, consider re-running it.
@@ -107,7 +104,7 @@ The following is information about two versions we will focus on and their diffe
 
 ## Downgrading the savefile
 
-If you've already started playing on the Complete Edition (1.2.0.59), you may want to downgrade your savefile.
+If you've already started playing on the Complete Edition, you may want to downgrade your savefile.
 
 ### Instructions
 
@@ -116,7 +113,7 @@ If you've already started playing on the Complete Edition (1.2.0.59), you may wa
 3. Expand the `Modifications` tab.
 4. Pick `1.0.8.0 IV / 1.1.3.0 EFLC and older` in `Downgrade Version`.
 5. Pick the slot you want to save your savefile as. You'll download your converted savefile.
-6. Place it at :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
+6. Move it to :material-folder: ==C:\Users\\(user)\AppData\Local\Rockstar Games\GTA IV\savegames\user_(id)\\==.
 
 ---
 

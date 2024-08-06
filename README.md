@@ -10,4 +10,4 @@ If you notice some issues (typos, incorrect or outdated info) with the guide, re
 
 Interested in contributing on your own? Check out [Contributing to Gillian's GTA IV Modding Guide](CONTRIBUTING.md).
 
-You can see updates to the guide in an organized way on the [Releases](https://github.com/gillian-guide/gillian-guide.github.io/releases) page.
+You can see updates to the guide in an organized way on the [Releases page](https://github.com/gillian-guide/gillian-guide.github.io/releases).

@@ -171,7 +171,7 @@ I know about these issues, no need to report them to me, unless you know a solut
     Restart the game.
 
 ??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
-    - Make sure you have `-windowed` in your :material-file:`commandline.txt`.
+    - Make sure you have `-windowed` in your :material-file-cog:`commandline.txt`.
     - Enable `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
         - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` instead.
 
@@ -184,6 +184,10 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info "Error code: 0x80151906 in GFWL"
     Xbox LIVE servers are likely down at the moment, try again later.
+
+??? info "GFWL overlay doesn't appear"
+    - You are using XLiveless (:fontawesome-solid-gears:`xlive.dll`). Rename the file to `dinput8.dll`.
+    - GFWL files are missing. You need :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` and `GTAIV.exe.cat`.
 
 ??? info "Getting kicked by the anticheat in GTAC"
     Your files are likely modified - make sure you're using a clean copy from :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher.

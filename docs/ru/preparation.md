@@ -57,7 +57,7 @@ To mod the game, we first need to get your system ready for modding and install 
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **Когда говорится распаковать папку**, распаковывайте именно папку, а не ее содержимое (если не сказано обратное).
-- **GFWL** это аббревиатура для **Games for Windows LIVE**. GFWL это проприетарный сервис от Microsoft, который обеспечивает мультиплеер и DRM. **XLiveless** (иногда известный как :material-file:`xlive.dll`) удаляет из игры GFWL. GFWL не используется в Complete Edition.
+- **GFWL** это аббревиатура для **Games for Windows LIVE**. GFWL это проприетарный сервис от Microsoft, который обеспечивает мультиплеер и DRM. **XLiveless** (иногда известный как :fontawesome-solid-gears:`xlive.dll`) удаляет из игры GFWL. GFWL не используется в Complete Edition.
 
 ---
 

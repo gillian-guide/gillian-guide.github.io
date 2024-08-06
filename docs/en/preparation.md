@@ -55,7 +55,7 @@ It is highly recommended to have latest drivers installed for best performance a
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **When told to extract a folder**, extract the folder itself, not the contents (unless told otherwise).
-- **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :material-file:`xlive.dll`) removes GFWL. GFWL is not used in Complete Edition.
+- **GFWL** is an abbreviation for **Games for Windows LIVE**. GFWL is a proprietary service made by Microsoft, which allows for multiplayer and DRM protection. **XLiveless** (sometimes known as :fontawesome-solid-gears:`xlive.dll`) removes GFWL. GFWL is not used in Complete Edition.
 
 ---
 

@@ -119,6 +119,6 @@ Additional key bindings can be set by highlighting the desired option, pressing 
 
 ---
 
-<h2>Navigation</h2> <a id="Navigation"></a>
+## Navigation
 
 [:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }
