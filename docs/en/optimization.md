@@ -25,8 +25,8 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 
 !!! warning ""
     - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
-    - IF using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
-    - If you are a Linux user, skip to [configuration](#configuration), since Proton already uses DXVK.
+    - If using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
+    - If using Linux, skip to [configuration](#configuration), since Proton already uses DXVK.
 
 ---
 
@@ -40,16 +40,17 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
 
 ### Usage
 
-1. [Download the latest version](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
-2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
-3. Press `Open`, select the game folder. Follow the in-app instructions if any pop-ups appear.
-4. Press `Install DXVK` and `Setup launch options` in sequence.
+1. Go to the [Releases page](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
+2. Download :material-file-download:`GTAIVSetupUtilityWPF.exe`.
+3. Run the tool.
+4. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
+5. Press `Install DXVK` and `Setup launch options` in sequence.
     - If experienced, you can manually configure the options. There is usually no need to, though.
     - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
-After using the tool, you can freely skip to optimal game settings:
+After using the tool, you can freely skip to optimal graphics settings:
 
-[Next page:material-page-last: <br>Additional Setup: Optimal game settings</br>](additional-setup.md/#optimal-game-settings){ .md-button .md-button--primary }
+[Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-graphics-settings){ .md-button .md-button--primary }
 
 ---
 
@@ -72,7 +73,7 @@ After using the tool, you can freely skip to optimal game settings:
 
     1. Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
         - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
-    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==
+    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==.
     3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 === "Legacy"
     ???+ warning "Requirements"
@@ -94,21 +95,21 @@ After using the tool, you can freely skip to optimal game settings:
     3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
-    The game uses the Direct3D 9 graphics API. The other dll's are for Direct3D 10 and Direct3D 11.
+    The game uses the Direct3D 9 graphics API. The other `dll`'s are for Direct3D 10 and Direct3D 11.
 
     In simpler words, the game will not use any other files.
 
 ??? question "Why :material-folder: ==x32==? My system is 64-bit"
     Your system is irrelevant in this case. The game itself is designed to use 32-bit libraries, not 64-bit ones.
 
-    In simpler words, the game will not use the files from :material-folder: ==x64==.
+    In simpler words, the game will not use the files from the :material-folder: ==x64== folder.
 
 ??? warning "If you have problems..."
     Try going down a version or two.
 
     If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 
-    See [troubleshooting](troubleshooting.md).
+    See [troubleshooting](../resources/troubleshooting.md).
 
 ---
 
@@ -138,5 +139,7 @@ For more in-depth configuration, you can see the full list of available options 
 ---
 
 ## Navigation
+
+After performing optimization, you should continue off with additional setup to finish optimizing the game.
 
 [:material-page-first:Previous page <br>Downgrading</br>](../downgrading/index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }
