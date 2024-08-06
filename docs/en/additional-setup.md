@@ -5,7 +5,7 @@ description: Setting up launch options and optimal graphics settings
 
 <div class="grid cards" markdown>
 
-- If you're here after installing the archive on Windows, **skip to optimal graphics settings**:
+- If you're here after installing the archive or using the Setup Utility on Windows, **skip to optimal graphics settings**:
 
     [Optimal graphics settings:material-page-last:](#optimal-graphics-settings){ .md-button }
 

@@ -1,30 +1,30 @@
-title: Additional Setup
-description: Setting up launch options and optimal graphics settings
+title: Второстепенная настройка
+description: Настройка параметров запуска и оптимальных настроек графики
 
-# Additional Setup
+# Второстепенная настройка
 
 <div class="grid cards" markdown>
 
-- If you're here after installing the archive on Windows, **skip to optimal graphics settings**:
+- Если вы попали сюда после установки готового архива или использования Setup Utility на Windows, **перейдите к оптимальным настройкам графики**:
 
-    [Optimal graphics settings:material-page-last:](#optimal-graphics-settings){ .md-button }
+    [Оптимальные настройки графики:material-page-last:](#_4){ .md-button }
 
 </div>
 
-If you're here after anything else (including installing the archive on Linux), start with the **launch options.**
+Если же вы попали сюда после чего-либо другого (включая установку архива на Linux), начните с **параметров запуска.**
 
 ---
 
-## Launch options
+## Параметры запуска
 
-!!! tip "Setup Utility (**Windows only**)"
-    The [Setup Utility](../optimization.md/#setup-utility-automatic-installation) can set up the launch options automatically for you.
+!!! tip "Setup Utility (**Только для Windows**)"
+    [Setup Utility](../optimization.md/#setup-utility-automatic-installation) может автоматически настроить параметры запуска за вас.
 
-### Manual instructions
+### Ручная настройка
 
 === "1.2.0.59"
-    1. Find the location for the game properties:
-        - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and locate the `Launch options` field.
+    1. Найдите параметры запуска для игры:
+        - **:material-steam: Steam**: Нажмите правой кнопкой по игре в библиотеке, нажмите `Свойства` и найдите поле `Параметры запуска`.
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
         - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
     2. Paste the following:
