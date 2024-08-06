@@ -1,7 +1,7 @@
-title: Даунгрейдинг
-description: Даунгрейдинг радио и/или игры обратно на старую версию.
+title: Downgrading
+description: Downgrading the radio and/or the game version back to the retail version.
 
-# Даунгрейдинг
+# Downgrading
 
 !!! warning ""
     Make sure the **prerequisites are met** and **preparation was done**. If you missed one of the steps, you may encounter issues when following the guide and won't receive support. This will not be repeated later.

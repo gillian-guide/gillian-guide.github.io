@@ -29,6 +29,10 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Error RMN60 on launch"
     Occurs on downgraded versions. Install [ZolikaPatch](../../essential-modding/zolikapatch.md) (your antivirus may have removed it, aswell).
 
+??? info "Error "SecuLauncher: failed to start application [2000]" on launch"
+    - Make sure you installed the [prerequisite software](../../preparation.md#software).
+    - Run :material-file:`PlayGTAIV.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
+
 ??? info "Game doesn't even show up"
     - Make sure you don't have any duplicate mods - for example, you may have left FusionFix in both the :material-folder: ==plugins== folder and the game folder. The game won't start in this case.
     - Reboot your PC.
@@ -146,9 +150,9 @@ I know about these issues, no need to report them to me, unless you know a solut
 ### Multiplayer issues
 
 ??? info ""Unable to connect to game session", "Unable to join a game you were kicked from" or joining an empty lobby in GFWL"
-    You were either actually banned by the host, or you're experiencing what's known as kickbug.
+    You were either actually kicked by the host, or you're experiencing what's known as kickbug.
 
-    If you're indeed experiencing kickbug, you have to do manual port forwarding for the following ports in your router's settings (look online for instructions for your specific router or ISP, or contact your ISP):
+    If you're indeed experiencing kickbug, you have to do manual port forwarding for the following ports in your router's settings and your system's firewall (look online for instructions for your specific router or ISP, or contact your ISP):
 
     * TCP: `3074`, `80`, `88`
     * UDP: `3074`, `80`, `88`
@@ -159,6 +163,27 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info ""This session no longer exists" in GFWL"
     The license key you're using is also used by somebody else who's already in the lobby. Log out and find yourself a different key or re-run the keygen.
+
+??? info "The game asks to sign in to Social Club in GFWL"
+    You need [ZolikaPatch](../../essential-modding/zolikapatch.md).
+
+??? info ""The downloadable content required for this autoload is not available" in GFWL"
+    Restart the game.
+
+??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
+    - Make sure you have `-windowed` in your :material-file:`commandline.txt`.
+    - Enable `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
+        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` instead.
+
+??? info ""The profile could not be signed in to LIVE" in GFWL"
+    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account.
+    - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
+
+??? info "Error code: 0x8007065b in GFWL"
+    Only known solution is to use another account to sign in.
+
+??? info "Error code: 0x80151906 in GFWL"
+    Xbox LIVE servers are likely down at the moment, try again later.
 
 ??? info "Getting kicked by the anticheat in GTAC"
     Your files are likely modified - make sure you're using a clean copy from :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher.

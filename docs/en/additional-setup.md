@@ -131,7 +131,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* is known to cause instability and artifacts.** |
     | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
     | Definition | On<br>Off if playing at 1280x720 | This setting controls depth of field and motion blur (**Off** is enabled, **On** is disabled).<br>**If playing above 1280x720, *Off* ends up blurring the image on PC and effects simply do not scale up with resolution - due to that, keep it *On* unless you play at that resolution.**<br>Can be quickly toggled by pressing ++p++ button in-game.</br> |
-    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
+    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation. ==Also add `d3d9.maxFrameRate = 60` to :material-file:`dxvk.conf` or limit framerate with other methods you know to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112).==** [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
 === "FusionFix"
     !!! warning ""
         Following options require [FusionFix](../essential-modding/fusionfix.md).
@@ -152,7 +152,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
     | Shadow Filter | TBA | This setting controls how soft are the shadows. |
     | Antialiasing | SMAA | This setting controls the anti-aliasing method. |
-    | FPS Limiter | 60 | This setting controls the FPS limit.<br>**Recommended to set to 60 to avoid [timing-related issues](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV#Timing-related_issues), although not necessary and the story can be beaten above 60. You also may want to lower it to 30 for some minigames.** |
+    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.** [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
 
     !!! note ""
         Following options are located in the `Display` tab.

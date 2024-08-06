@@ -31,6 +31,8 @@ The one and only official multiplayer method. And to that end, it's also the one
 
 ---
 
+<a id="gfwl-install"></a>
+
 ### Installation
 
 !!! note ""
