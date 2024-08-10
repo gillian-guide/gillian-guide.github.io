@@ -138,7 +138,7 @@ If you're here after anything else (including installing the archive on Linux), 
 
     | Setting | Optimal setting | Description |
     | :-----: | :-------------: | :---------: |
-    | Video Mode | Your native resolution (max option, usually) | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+    | Video Mode | Your native resolution (max option, usually) | This setting controls your monitor resolution or, if `Windowed` is enabled, the size of the game window. |
     | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
     | Texture Quality | High | This setting controls the resolution of all textures. |
     | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
@@ -146,13 +146,15 @@ If you're here after anything else (including installing the archive on Linux), 
     | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**FusionFix reimplements shadows, so Very High are not that taxing anymore.** |
     | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
     | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
-    | View Distance | Between 30 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *70* with FusionFix gives little gains for the performance it takes.** |
-    | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* with FusionFix gives little gains for the performance it takes.** |
+    | View Distance | 25<br>Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *25* causes pop-in and above *70* has diminishing results.** |
+    | Detail Distance | 31<br>Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *31* causes pop-in and above *70* has diminishing results.** |
     | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
     | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
-    | Shadow Filter | TBA | This setting controls how soft are the shadows. |
-    | Antialiasing | SMAA | This setting controls the anti-aliasing method. |
+    | Sun Shafts | Preference | This setting controls custom-implemented godrays. |
+    | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
     | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.** [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
+    | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
+    | Lamppost Shadows | Preference | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance.
 
     !!! note ""
         Following options are located in the `Display` tab.
@@ -161,19 +163,20 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-------------: | :---------: |
     | Motion Blur | Preference | This setting controls the motion blur effect. |
     | Bloom | On | This setting controls bloom. |
-    | Console Gamma | On | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so keep this *On*.** |
+    | Console Gamma | Preference | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Depth of Field | Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | TreeFX | Preference | This setting controls the behaviour of vegetation ambient occlusion.<br>**Don't use *PC+* unless using custom vegetation mods.** |
-    | Definition | Extra | This setting controls how smooth the stippled and dithered objects look. |
+    | TreeFX | Preference | This setting controls the vegetation's ambient occlusion. |
+    | Definition | On | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
     !!! note ""
         Following options are located in the `Game` tab.
 
     | Setting | Optimal setting | Description |
     | :-----: | :-------------: | :---------: |
-    | Borderless | On if using `-windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `-windowed` launch option is applied. |
-    | Block on Focus Loss | Off | TBA |
+    | Windowed | On | This setting controls whether game is in Exclusive Fullscreen mode or (Borderless) Windowed.<br>Borderless is generally more recommended than Exclusive Fullscreen for multitasking purposes. |
+    | Windowed Borderless | On if using `Windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `Windowed` setting is **On**. |
+    | Pause Game on Focus Loss | Preference | This setting controls whether or not the game will be paused when the window loses focus (alt-tabbing). |
 
 === "Console-identical"
     !!! info "What are these settings?"
@@ -186,20 +189,22 @@ If you're here after anything else (including installing the archive on Linux), 
 
     | Setting | Console-identical setting | Description |
     | :-----: | :-----------------------: | :---------: |
-    | Video Mode | 1280x720 on X360<br>1152x640 on PS3 | This setting controls your monitor resolution or, if the `-windowed` launch option is set, the size of the game window. |
+    | Video Mode | 1280x720 on X360<br>1152x640 on PS3 | This setting controls your monitor resolution or, if `Windowed` is enabled, the size of the game window. |
     | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
     | Texture Quality | Medium | This setting controls the resolution of all textures. |
     | Reflection Resolution | Medium | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Medium | This setting *only* controls the resolution of the water reflections when using FusionFix. |
-    | Shadow Quality | TBA | This setting controls the resolution and render distance of shadows. |
+    | Shadow Quality | Medium (?) | This setting controls the resolution and render distance of shadows. |
     | Night Shadows | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
     | Texture Filter Quality | Tri-Linear | This setting controls texture filtering. |
     | View Distance | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
     | Detail Distance | 10 | This setting controls the secondary LOD render distance for props detail. |
     | Vehicle Density | 33 | This setting controls the traffic density. |
-    | Shadow Filter | TBA | This setting controls how soft are the shadows. |
-    | Antialiasing | N/A | This setting controls the anti-aliasing method.<br>The game used SSAA 2x on the Xbox 360 and QAA on the PS3, neither of which are avaialable on PC. |
+    | Sun Shafts | Off | This setting controls custom-implemented godrays. |
+    | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
     | FPS Limiter | 30 | This setting controls the FPS limit. |
+    | FOV | Default (lowest) | This setting controls the game FOV in increments from the game's default value. |
+    | Lamppost Shadows | On | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance.
 
     !!! note ""
         Following options are located in the `Display` tab.
@@ -208,11 +213,11 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-----------------------: | :---------: |
     | Motion Blur | On | This setting controls the motion blur effect. |
     | Bloom | On | This setting controls bloom. |
-    | Console Gamma | On | This setting changes the gamma to match the console levels. |
+    | Console Gamma | Preference | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
-    | Depth of Field | TBA | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | TreeFX | Console | This setting controls the behaviour of vegetation ambient occlusion. |
-    | Definition | Classic | This setting controls how smooth the stippled and dithered objects look. |
+    | Depth of Field | Very High (?) | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
+    | TreeFX | Console | This setting controls the vegetation's ambient occlusion. |
+    | Definition | On (?) | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
 ---
 
