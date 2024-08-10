@@ -33,6 +33,7 @@ TBA
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
+        - **Do not expect support if attempting to install any more mods that aren't from [additional mods](#additional-mods) - you will likely be denied.**
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
@@ -59,6 +60,7 @@ TBA
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
+        - **Do not expect support if attempting to install any more mods that aren't from [additional mods](#additional-mods) - you will likely be denied.**
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options).
 
