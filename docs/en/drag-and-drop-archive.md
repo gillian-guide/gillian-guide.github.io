@@ -20,6 +20,11 @@ TBA
 
 ## Installation { data-search-exclude }
 
+!!! warning "The modpacks are outdated!"
+    The modpacks are, currently, heavily outdated.
+
+    Hold out for an update in the coming days/weeks!
+
 !!! question "Which game version to pick?"
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
