@@ -39,7 +39,7 @@ This guide aims to provide the best vanilla-faithful experience for GTA IV, but 
     | Hardware    | Recommended         | Alternative                             |
     | :---------: | :-----------------: | :-------------------------------------: |
     | **CPU**     | Intel Core i5-6600k | Ryzen 3 2200G                           |
-    | **GPU**     | GTX 970/1050Ti      | RX580, Intel Arc A310                   |
+    | **GPU**     | GTX 980/1060        | RX580, Intel Arc A310                   |
     | **RAM**     | 8 GB                |                                         |
     | **Storage** | 30 GB (Ideally SSD) | If manually modding, ~70 GB for backups |
 
