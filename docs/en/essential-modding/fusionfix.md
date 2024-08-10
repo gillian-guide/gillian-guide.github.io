@@ -26,6 +26,8 @@ TBA
         - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 === "1.0.8.0"
+    !!! info "Missing fixes"
+        Installing FusionFix on 1.0.8.0 compromises on some fixes, and you won't receive any official support from Fusion Team shall any issues arise. Keep that in mind.
     1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
     2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
     3. Extract the archive into the game folder.
