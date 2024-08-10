@@ -20,7 +20,7 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 <a id="incompatible-options"></a>
 
 !!! warning "If using FusionFix..."
-    **This is already taken care of by Setup Utility.**
+    {--**This is already taken care of by Setup Utility.**--}
 
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
@@ -28,11 +28,30 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
     - EmissiveLerpFix
     - BikePhoneAnimsFix
     - BorderlessWindowed
+    - BuildingAlphaFix
+    - BuildingDynamicShadows
+    - CarDynamicShadowFix
+    - CarPartsShadowFix
     - CutsceneFixes
+    - DoNotPauseOnMinimize
+    - DualVehicleHeadlights
+    - EmissiveLerpFix
+    - EpisodicVehicleSupport
+    - EpisodicWeaponSupport
+    - ForceCarHeadlightShadows
+    - ForceDynamicShadowsEverywhere
+    - ForceShadowsOnObjects
     - HighFPSBikePhysicsFix
     - HighFPSSpeedupFix
-    - ReversingLightFix
+    - HighQualityReflections
+    - ImprovedShaderStreaming
+    - MouseFix
+    - NewMemorySystem
+    - NoLiveryLimit
     - OutOfCommissionFix
+    - PoliceEpisodicWeaponSupport
+    - RemoveBoundingBoxCulling
+    - ReversingLightFix
     - SkipIntro
     - SkipMenu
 

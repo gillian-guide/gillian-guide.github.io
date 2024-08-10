@@ -20,24 +20,32 @@ TBA
 <h2>Installation</h2> <a id="installation"></a>
 
 === "1.2.0.59"
-    1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
+    1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
     2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
     3. Extract the archive into the game folder.
         - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 === "1.0.8.0"
-    1. Go to the latest [release](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest) page.
+    1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
     2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
     3. Extract the archive into the game folder.
     4. Move the files out of the :material-folder: ==plugins== folder into the game folder.
         - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
-        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+        - {--Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.--}
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 
     !!! tip "If using GFWL..."
+        Press "Continue" on the warning.
+
+        Text below is outdated, please wait for an update!
+
+        {--
+
         Apply this [patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
 
         If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
+
+        --}
 
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.

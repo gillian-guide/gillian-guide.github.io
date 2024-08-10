@@ -42,7 +42,7 @@ This mod improves distant lights at night.
 <h3>Installation</h3>
 
 === "1.2.0.59"
-    1. Go to the [Release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) page.
+    1. Go to the [release page](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv).
     2. Download :material-zip-box:`IV.Project2DFX.zip`.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
@@ -63,14 +63,19 @@ This mod adds nice water droplets on the screen.
 <h3>Installation</h3>
 
 === "1.2.0.59"
-    1. Go to the [Release](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) page.
+    1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
     2. Download :material-zip-box:`GTAIV.XboxRainDroplets.zip`.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
 === "1.0.8.0"
-    1. TBA
+    Outdated, will be added later
+
+    {--
+    1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
     2. Extract the archive into the game folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
+
+    --}
 
 ---
 
@@ -132,8 +137,8 @@ This mod adds cubemap reflections to what otherwise is just transparent glass.
 
 <h3>Installation</h3>
 
-1. Download this [archive](TBA).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Download this [archive](https://mega.nz/file/tRYjjZqA#74gLAQiNWBh-FSIkOUNm9Fm8gFGAtOOz5cFnwHFFdNk).
+2. Extract the :material-folder: ==update== folder from the :material-folder: ==Files== folder from the archive into the game folder.
 
 ---
 
@@ -246,7 +251,7 @@ This mod adds background noise to the game, such as driving and shooting, alike 
 
 <h3>Installation</h3>
 
-1. Go to the latest [Release](https://github.com/ClonkAndre/VAmbience/releases/latest) page.
+1. Go to the latest [release page](https://github.com/ClonkAndre/VAmbience/releases/latest).
 2. Download the :material-zip-box:`VAmbience.vx.x.zip`.
 3. Extract the archive into the game folder. Replace files if needed.
 4. Configure :material-file-cog:`VAmbience.ini` as you wish.

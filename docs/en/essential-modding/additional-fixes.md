@@ -84,7 +84,13 @@ This mod fixes the IV Bikers voicelines in EFLC.
 1. Go to the [GTAForums page](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/).
 2. Press the **Download** link.
 3. Extract the :material-file:`BYeah.dat16` file to :material-folder: ==GTAIV/TLAD/pc/audio/config/==.
-4. TBA
+4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==GTAIV/update/TLAD/== folder and an :material-file:`e2_audio.xml` file in :material-folder: ==GTAIV/update/TboGT/==:
+
+```text
+    <game content="ascii">platform:/audio/config/BYeah.dat</game>
+```
+
+- If the **radio was not downgraded by the guide**, copy the same-named files from the vanilla :material-folder: ==GTAIV/update/TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
 
 ---
 
