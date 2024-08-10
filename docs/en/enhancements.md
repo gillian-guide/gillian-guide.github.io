@@ -68,9 +68,10 @@ This mod adds nice water droplets on the screen.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
 === "1.0.8.0"
-    Outdated, will be added later
+    Info below is outdated, will be updated later
 
     {--
+
     1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
     2. Extract the archive into the game folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.

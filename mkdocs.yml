@@ -80,6 +80,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
