@@ -1,37 +1,73 @@
 title: ZolikaPatch
-description: Один из важных модов для вашей установки GTA IV исправляющих множество проблем с физикой, мультиплеером и крашами
+description: Some fixes for your downgraded copy, mainly for enjoying multiplayer.
 
 # [ZolikaPatch](https://zolika1351.pages.dev/mods/ivpatch)
-!!! warning "Совместимость"
-    Этот мод не совместим с Complete Edition. Пропустите эту страницу если не хотите совершать даунгрейд - улучшения относительно незначимы если вы не планируете играть в [мультиплеере](../multiplayer.md).
 
-Этот мод призван исправить и улучшить различные вещи в GTA IV, а также значительно улучшить опыт [мультиплеера](../multiplayer.md). Вы можете прочитать список изменений [здесь](https://zolika1351.pages.dev/mods/ivpatch).
+!!! warning "Compatibility"
+    This mod is compatible with all downgraded versions, but not Complete Edition. Skip this mod if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../extras/multiplayer.md).
 
-## Установка { data-search-exclude }
-* Перейдите на сайт [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
-* Прокрутите страницу до конца и скачайте последнюю версию.
-* Распакуйте :material-zip-box:`ZolikaPatch_vx_x.zip` в папку с игрой.
-* Если вас просят совершить даунгрейд при открытии игры, нажмите Да. Мод автоматически сделает все за вас.
-???+ question "Что такое :material-file:`GFWLProtectionDisabler2019.asi`?"
-    Этот мод необходим для предотвращения блокировки `.asi` модов при использовании [GFWL](../../multiplayer/#games-for-windows-live).
-!!! warning "Если используете FusionFix..."
-    Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
+This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
+
+---
+
+<h2>Installation</h2> <a id="installation"></a>
+
+1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
+2. Scroll to the bottom of the page and download the latest version.
+3. Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
+    - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+
+<a id="incompatible-options"></a>
+
+!!! warning "If using FusionFix..."
+    {--**This is already taken care of by Setup Utility.**--}
+
+    Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
     - BuildingAlphaFix
     - EmissiveLerpFix
     - BikePhoneAnimsFix
     - BorderlessWindowed
+    - BuildingAlphaFix
+    - BuildingDynamicShadows
+    - CarDynamicShadowFix
+    - CarPartsShadowFix
     - CutsceneFixes
+    - DoNotPauseOnMinimize
+    - DualVehicleHeadlights
+    - EmissiveLerpFix
+    - EpisodicVehicleSupport
+    - EpisodicWeaponSupport
+    - ForceCarHeadlightShadows
+    - ForceDynamicShadowsEverywhere
+    - ForceShadowsOnObjects
     - HighFPSBikePhysicsFix
     - HighFPSSpeedupFix
-    - ReversingLightFix
+    - HighQualityReflections
+    - ImprovedShaderStreaming
+    - MouseFix
+    - NewMemorySystem
+    - NoLiveryLimit
     - OutOfCommissionFix
+    - PoliceEpisodicWeaponSupport
+    - RemoveBoundingBoxCulling
+    - ReversingLightFix
     - SkipIntro
     - SkipMenu
 
-    Учтите, что это не полностью отключает функционал - подобный уже присутствует в FusionFix.
+    Note that this doesn't break or actually disable anything, as these features are reimplemented by FusionFix.
 
-## Настройка
-Откройте :material-file-cog:`ZolikaPatch.ini` и настройте файл по необходимости. Все опции уже имеют описания.
+!!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
+    This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
 
-[:material-page-first:Предыдущая страница <br>FusionFix & Shader Fixes</br>](fusionfix.md){ .md-button } [Следующая страница:material-page-last: <br>Various Fixes</br>](variousfixes.md){ .md-button .md-button--primary }
+---
+
+<h2>Configuration</h2> <a id="configuration"></a>
+
+Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options have explanations next to them.
+
+---
+
+<h2>Navigation</h2> <a id="navigation"></a>
+
+[:material-page-first:Previous page <br>FusionFix</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }

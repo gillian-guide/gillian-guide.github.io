@@ -1,70 +1,77 @@
-title: FusionFix & Shader Fixes
-description: Один из важных модов для вашей установки GTA IV который исправляет множество проблем с графикой и физикой
+title: FusionFix
+description: Graphics fixes, but even more than just that!
 
-# [FusionFix & Shader Fixes](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
-!!! warning "Совместимость"
-    Этот мод официально поддерживает только Complete Edition, но учитывая некоторые вещи вы можете использовать его и с патчами 1.0.8.0 и 1.0.7.0.
-Данный проект направлен на исправление или устранение некоторых проблем в Grand Theft Auto IV. Вы можете прочитать список изменений [здесь](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/blob/master/readme.md). Также в состав входит [Shader Fixes](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection) с переключателями для его опций.
+# [FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 
-???+ info "Shader Fixes"
-    Этот проект направлен на исправление и восстановление сломанных и отсутствующих шейдеров на PC-порте (все [отсюда](https://uk.libertycity.net/gta-4/articles/4346-gta-iv-complete-edition-xbox-protiv-pc.html) и даже больше). Вы можете прочитать список изменений [здесь](https://github.com/Parallellines0451/GTAIV.ShaderFixesCollection/blob/main/README.md#feature-list).
+!!! warning "Compatibility"
+    This mod is only officially supported on the Complete Edition, but with taking several things in account, you can also use it with 1.0.8.0.
 
-## Демонстрация { data-search-exclude }
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UuXVYUGJ45Y?si=gjuLgquNDoHyJeLq&amp;start=132" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    Support for non-CE versions may be axed at any time and the developers don't provide any support for them.
+This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog).
 
-## Установка { data-search-exclude }
-=== "1.0.8.0"
-    !!! warning "Совместимость"
-        Оффициальная поддержка может помешать использованию GFWL. Сначала установите мод, после чего примените наверх [GFWL Patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL) если используете GFWL.
-    * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/).
-    * Скачайте последнюю версию.
-    * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
-    * Переименуйте :fontawesome-solid-gears:`dinput8.dll` в `xlive.dll` если даунгрейдились и не используете GFWL. По надобности, замените.
-    !!! warning "Если используете ZolikaPatch..."
-        Установите [GFWL Patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL).
+---
 
-        Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие опции:
+<h2>Demo</h2> <a id="demo"></a>
 
-        - BuildingAlphaFix
-        - EmissiveLerpFix
-        - BikePhoneAnimsFix
-        - BorderlessWindowed
-        - CutsceneFixes
-        - HighFPSBikePhysicsFix
-        - HighFPSSpeedupFix
-        - ReversingLightFix
-        - OutOfCommissionFix
-        - SkipIntro
-        - SkipMenu
+TBA
 
-        Учтите, что это не полностью отключает функционал - подобный уже присутствует в FusionFix.
+---
+
+<h2>Installation</h2> <a id="installation"></a>
+
 === "1.2.0.59"
-    * Перейдите на страницу [релизов](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix).
-    * Скачайте последнюю версию.
-    * Распакуйте :material-zip-box:`GTAIV.EFLC.FusionFix.zip` в папку с игрой.
-    !!! tip ""
-        Для удобства можно переместить файлы из :material-folder:==plugins== в папку с игрой.
-!!! warning "Обновление"
-    Если вы обновляете мод, не распаковывайте :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. Вместо этого обратите внимаение, есть ли какие-нибудь новые опции отличаются от существующих, перенесите их в этом случае.
+    1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
+    2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
+    3. Extract the archive into the game folder.
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
+=== "1.0.8.0"
+    1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
+    2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
+    3. Extract the archive into the game folder.
+    4. Move the files out of the :material-folder: ==plugins== folder into the game folder.
+        - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
+        - {--Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.--}
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 
-!!! tip "Влияние на производительность"
-    Сам по себе, FusionFix не влияет на производительность. Но, несколько новых опций *могут* увеличить само влияние - понизьте настройки ниже если вы хотите увеличить производительность:
+    !!! tip "If using GFWL..."
+        Press "Continue" on the warning.
 
-    - SSAA 2x
-    - Shadow Filter (PCSS)
-    - Качество теней
-    - Улучшенные ночные тени
-    - Depth of Field
-    - Distant Blur
-    - Motion Blur
-    - Дистанция обзора/глубина детализации
-    - Разрешение отражений
-    - Console Shadows
+        Text below is outdated, please wait for an update!
 
-!!! tip "Модлоадинг"
-    Этот мод может быть использован для целей модлоадинга. См. раздел [модлоадинг](../../extras/modloading.md).
+        {--
 
-## Настройка
-Вы можете отредактировать :material-file-cog:`GTAIV.EFLC.FusionFix.ini` или :material-file-cog:`GTAIV.EFLC.FusionFix.cfg`, если вам по какой-то причине нужно отредактировать файл вне игры. См. [список неигровых опций](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix?tab=readme-ov-file#details), если вам нужно их изменить.
+        Apply this [patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
 
-[:material-page-first:Предыдущая страница <br>Важные моды</br>](index.md){ .md-button } [Следующая страница:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+        If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
+
+        --}
+
+!!! tip "Modloading"
+    This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
+
+---
+
+<h2>Configuration</h2> <a id="configuration"></a>
+
+Most of options are available in the in-game settings.
+
+You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog:`GTAIV.EFLC.FusionFix.cfg` if you need to edit the settings outside of the game for some reason. See [the list of non-ingame options](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix?tab=readme-ov-file#details) if you need to tweak them.
+
+---
+
+<h2>Navigation</h2> <a id="navigation"></a>
+
+<div class="grid cards" markdown>
+
+- If your **game is downgraded**, continue with ZolikaPatch:
+
+    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+
+- If it isn't, continue with Various Fixes instead:
+
+    [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
+
+</div>
+
+[:material-page-first:Previous page <br>Essential Modding</br>](index.md){ .md-button }
