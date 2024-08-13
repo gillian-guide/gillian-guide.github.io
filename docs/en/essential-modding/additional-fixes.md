@@ -158,7 +158,7 @@ This mod changes the pitch of the traffic screech in Algonquin to match the real
 
 You may want to manually merge some `.img` mods together using [OpenIV](../../resources/openiv.md/#creating-archives) to avoid going over the limit.
 
-You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings.
+You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
 
 ---
 

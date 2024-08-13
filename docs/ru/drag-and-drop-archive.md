@@ -45,7 +45,7 @@ TBA
     6. После нажатия `Setup launch options` и `ОК` параметры запуска будут у вас в буфере обмена, поэтому сделайте одно из следующих действий:
         - **:material-steam: Steam**: Нажмите правой кнопкой мыши на игре в библиотеке, нажмите `Свойства...` и вставьте содержимое в поле `Параметры запуска`.
         - **:simple-rockstargames: Rockstar Games Launcher**: Откройте страницу с игрой в библиотеке, откройте настройки и вставьте содержимое в поле `Параметры запуска`.
-        - **Что-то другое**: Нажмите правой кнопкой мыши по ярлыку, нажмите `Свойства` и вставьте содержимое в конец поля `Цель`.
+        - **Ярлык**: Нажмите правой кнопкой мыши по ярлыку, нажмите `Свойства` и вставьте содержимое в конец поля `Цель`.
     6. Вы готовы к игре!
         - Запускайте игру через :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher или `PlayGTAIV.exe`.
         - **Если используете Linux**, добавьте `WINEDLLOVERRIDES="dinput8=n,b" %command%` к параметрам запуска.
@@ -189,7 +189,7 @@ TBA
     | [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | Valentyn_L | Карта высокого разрешения для мониторов с разрешением 1440p и 4K (на мониторах с разрешением 1080p и ниже карта может выглядеть хуже). <br>Установка: Распакуйте архив в папку с игрой.</br> |
     | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre и cubabori | Графический мод, построенный на ванильном визуале.<br>Installation: Установка: Распакуйте архив в папку :material-folder: ==update==.</br> |
     | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Еще один timecyc мод, построенный на ванильном визуале. <br>Установка: Распакуйте папку :material-folder: ==Main Files\\pc\\== из архива в папку :material-folder: ==update==.</br> |
-    | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Добавляет Discord Rich Presence (кастомный статус активности).<br>Installation: Откройте архив, в нем откройте папку material-folder: ==For GTA IV 1070 and 1080== и распакуйте файлы :fontawesome-solid-gears:`discord-rpc.dll` и :material-file:`IVPresence.asi` в папку с игрой. Если возникли проблемы, также распакуйте :material-file:`IVPresenceDependenciesChecker.exe` с его конфигом, запустите его и вы увидите, каких зависимостей вам не хватает.</br> |
+    | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Добавляет Discord Rich Presence (кастомный статус активности).<br>Installation: Откройте архив, в нем откройте папку :material-folder: ==For GTA IV 1070 and 1080== и распакуйте файлы :fontawesome-solid-gears:`discord-rpc.dll` и :material-file:`IVPresence.asi` в папку с игрой. Если возникли проблемы, также распакуйте :material-file:`IVPresenceDependenciesChecker.exe` с его конфигом, запустите его и вы увидите, каких зависимостей вам не хватает.</br> |
 
 ---
 

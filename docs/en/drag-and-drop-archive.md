@@ -45,7 +45,7 @@ TBA
     6. After pressing `Setup launch options` and pressing `OK` you will have launch options in your clipboard, so do one of the following:
         - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and paste the contents in the `Launch options` field.
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and paste the contents in the `Launcher arguments` field.
-        - **Something else**: Right click on the game shortcut, click `Properties` and paste the contents at the end of the `Target` field.
+        - **Shortcut**: Right click on the game shortcut, click `Properties` and paste the contents at the end of the `Target` field.
     6. You are ready to play!
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
         - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.
@@ -189,7 +189,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     | [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | Valentyn_L | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract the archive into the game folder.</br> |
     | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract the archive into the :material-folder: ==update== folder.</br> |
     | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder: ==Main Files\\pc\\== folder from the archive into the :material-folder: ==update== folder.</br> |
-    | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br> |
+    | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the :material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br> |
 
 ---
 
