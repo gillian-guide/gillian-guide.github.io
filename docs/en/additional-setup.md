@@ -26,35 +26,36 @@ If you're here after anything else (including installing the archive on Linux), 
     1. Find the location for the game properties:
         - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and locate the `Launch options` field.
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and locate the `Launcher arguments` field.
-        - **Windows shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
+        - **Shortcut**: Right click on the game shortcut, click `Properties` and locate the `Target` field.
     2. Paste the following:
 
         ```text
-        -norestrictions -nomemrestrict -windowed -managed
+        -norestrictions -nomemrestrict -managed
         ```
 
-    3. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix.
-        - **If you don't plan to install FusionFix, remove `-windowed`.**
+    3. If using **FusionFix**, enable `Windowed` and `Borderless Windowed` in `Settings` - `Game` in-game.
 === "1.0.8.0"
     1. In the game folder, create a :material-file-cog:`commandline.txt` file.
     2. Open the file.
     3. Insert the following lines to it:
 
-    ```text
-    -norestrictions
-    -nomemrestrict
-    -windowed
-    -managed
-    ```
+        ```text
+        -norestrictions
+        -nomemrestrict
+        -windowed
+        -managed
+        ```
 
-    4. Don't forget to enable `Borderless` in `Settings` - `Game` in-game if using FusionFix or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install later.
+    4. If using **FusionFix**, `-windowed` can be removed in favor of the mod's in-game toggle.
+    5. If using **FusionFix** and/or **ZolikaPatch**, enable `Borderless Windowed` in `Settings` - `Game` in-game or `BorderlessWindowed` in :material-file-cog:`ZolikaPatch.ini` depending on which of the two you install.
         - **If you don't plan to install either of the mods, remove `-windowed`.**
+        - If using both, only enable the option in **FusionFix**.
 
 ???+ warning "If using DXVK..."
     - Remove `-managed`.
     - Add `-availablevidmem 3072.0` to the list of options.
-        - Replace the value with your VRAM value in MBs if you have less than 3GB of VRAM. Don't make it higher, though.
-        - If using a version older than 1.0.8.0, this value is broken. Experiment manually to get as close to 3072 MB as possible.
+        - Replace the value with your VRAM value in MBs if you have less than 3 GB of VRAM. Don't make it higher, though.
+        - If using a version older than 1.0.8.0, this value is broken. Experiment manually to get as close to 3072 MB as possible (the value may looks something like 60.0, 80.0 etc).
     - If the game doesn't allow you to use the correct resolution/refresh rate in the graphics settings, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
         - If that still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`. Change `16:9` with your *[exact](https://stevewadsworth.github.io/calculateAspectRatio/)* aspect ratio if you don't use a 16:9 monitor.
     - If using Windows, make sure you disabled `Enable Shader Pre-caching` in `Settings` - `Downloads` on :material-steam: Steam.
@@ -123,15 +124,15 @@ If you're here after anything else (including installing the archive on Linux), 
     | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
     | Texture Quality | High | This setting controls the resolution of all textures. |
     | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
-    | Water Quality | Medium | This setting controls the density and intensity of waves in the water and water samples, as well as the resolution of water reflections.<br>***Medium* is recommended as it is less extreme, more realistic and most similar to the intended look on the consoles.** |
+    | Water Quality | Medium | This setting controls the density and intensity of waves in the water, aswell as the resolution of water reflections.<br>***Medium* is recommended as it is less extreme, more realistic and most similar to the intended look on the consoles.** |
     | Shadow Quality | High | This setting controls the resolution and render distance of shadows.<br>**Medium** and **Low** rely too much on static shadows, making them look ugly.<br>***Very High* consumes too much performance for little gain and may appear broken at times.** |
     | Night Shadows | Medium | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows.<br>**Setting it above *Medium* is known to create artifacts.** |
     | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
-    | View Distance | Between 30 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *70* is known to cause instability and artifacts, as well as a negative impact on framerate.** |
-    | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* is known to cause instability and artifacts.** |
-    | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
+    | View Distance | Between 21 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *21* causes pop-in, and above *70* is known to cause instability and artifacts, as well as a negative impact on framerate.** |
+    | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *10* causes pop-in, and above *70* is known to cause instability and artifacts.** |
+    | Vehicle Density | Below 70 | This setting controls the number of cars on the road.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
     | Definition | On<br>Off if playing at 1280x720 | This setting controls depth of field and motion blur (**Off** is enabled, **On** is disabled).<br>**If playing above 1280x720, *Off* ends up blurring the image on PC and effects simply do not scale up with resolution - due to that, keep it *On* unless you play at that resolution.**<br>Can be quickly toggled by pressing ++p++ button in-game.</br> |
-    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation. ==Also add `d3d9.maxFrameRate = 60` to :material-file:`dxvk.conf` or limit framerate with other methods you know to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112).==** [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
+    | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation. ==Also add `d3d9.maxFrameRate = 60` to :material-file:`dxvk.conf` or limit framerate with other methods you know to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112).==** AMD Frame Generation or [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
 === "FusionFix"
     !!! warning ""
         Following options require [FusionFix](../essential-modding/fusionfix.md).
@@ -143,18 +144,18 @@ If you're here after anything else (including installing the archive on Linux), 
     | Texture Quality | High | This setting controls the resolution of all textures. |
     | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Very High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
-    | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**FusionFix reimplements shadows, so Very High are not that taxing anymore.** |
+    | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**FusionFix reimplements shadows, so *Very High* is not that taxing anymore.** |
     | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
     | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
-    | View Distance | 25<br>Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *25* causes pop-in and above *70* has diminishing results.** |
-    | Detail Distance | 31<br>Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *31* causes pop-in and above *70* has diminishing results.** |
-    | Vehicle Density | Below 70 | This setting controls the traffic density.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
+    | View Distance | 25<br>Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *25* causes pop-in, and above *70* has diminishing results.** |
+    | Detail Distance | 31<br>Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *31* causes pop-in, and above *70* has diminishing results.** |
+    | Vehicle Density | Below 70 | This setting controls the number of cars on the road.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
     | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
     | Sun Shafts | Preference | This setting controls custom-implemented godrays. |
     | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
-    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.** [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
+    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.** AMD Frame Generation or [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
     | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
-    | Lamppost Shadows | Preference | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance.
+    | Lamppost Shadows | Preference | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance. |
 
     !!! note ""
         Following options are located in the `Display` tab.
@@ -166,7 +167,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Console Gamma | Preference | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Depth of Field | Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | TreeFX | Preference | This setting controls the vegetation's ambient occlusion. |
+    | Tree Lighting | Preference | This setting controls the vegetation's ambient occlusion. |
     | Definition | On | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
     !!! note ""
@@ -190,7 +191,6 @@ If you're here after anything else (including installing the archive on Linux), 
     | Setting | Console-identical setting | Description |
     | :-----: | :-----------------------: | :---------: |
     | Video Mode | 1280x720 on X360<br>1152x640 on PS3 | This setting controls your monitor resolution or, if `Windowed` is enabled, the size of the game window. |
-    | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
     | Texture Quality | Medium | This setting controls the resolution of all textures. |
     | Reflection Resolution | Medium | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Medium | This setting *only* controls the resolution of the water reflections when using FusionFix. |
@@ -199,12 +199,12 @@ If you're here after anything else (including installing the archive on Linux), 
     | Texture Filter Quality | Tri-Linear | This setting controls texture filtering. |
     | View Distance | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
     | Detail Distance | 10 | This setting controls the secondary LOD render distance for props detail. |
-    | Vehicle Density | 33 | This setting controls the traffic density. |
+    | Vehicle Density | 33 | This setting controls the number of cars on the road. |
     | Sun Shafts | Off | This setting controls custom-implemented godrays. |
-    | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
+    | Anti-aliasing | N/A | This setting controls the anti-aliasing method.<br>The game used SSAA 2x on the Xbox 360 and QAA on the PS3, neither of which are avaialable on PC. |
     | FPS Limiter | 30 | This setting controls the FPS limit. |
     | FOV | Default (lowest) | This setting controls the game FOV in increments from the game's default value. |
-    | Lamppost Shadows | On | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance.
+    | Lamppost Shadows | On | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance. |
 
     !!! note ""
         Following options are located in the `Display` tab.
@@ -213,11 +213,11 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-----------------------: | :---------: |
     | Motion Blur | On | This setting controls the motion blur effect. |
     | Bloom | On | This setting controls bloom. |
-    | Console Gamma | Preference | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
+    | Console Gamma | On | This setting changes the gamma to match the console levels. |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Depth of Field | Very High (?) | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | TreeFX | Console | This setting controls the vegetation's ambient occlusion. |
-    | Definition | On (?) | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
+    | Tree Lighting | Console | This setting controls the vegetation's ambient occlusion. |
+    | Definition | Off | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
 ---
 
