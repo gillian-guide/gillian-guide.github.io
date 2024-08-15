@@ -199,7 +199,7 @@ TBA
     !!! info "Последняя версия"
         - 15.08.2024:
             - Обновлены Radio Downgrader, FusionFix, Various Fixes (вручную собран из файлов репозитория), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Xbox Rain Droplets, Project2DFX и Setup Utility.
-            - Добавлены Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Добавлены Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fixed Carwash Price Text, donnits' GTA V fxdecals.
             - Удалены Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background и Fixed LCPD Buffalo.
             - Папка :material-folder: ==update== полностью перепакована во избежание лишних файлов.
     ??? quote "Старые изменения"
@@ -333,7 +333,7 @@ TBA
     !!! info "Последняя версия"
         - 15.08.2024:
             - Обновлены Radio Downgrader, FusionFix, Various Fixes (вручную собран из файлов репозитория), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Liberty Tweaks, Project Thunder и Setup Utility.
-            - Добавлены Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Добавлены Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fixed Carwash Price Text, donnits' GTA V fxdecals.
             - Удалены Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background и Fixed LCPD Buffalo.
             - Папка :material-folder: ==update== полностью перепакована во избежание лишних файлов.
     ??? quote "Старые изменения"

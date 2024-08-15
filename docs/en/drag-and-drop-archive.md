@@ -200,7 +200,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     !!! info "Latest version"
         - 15.08.2024:
             - Updated Radio Downgrader, FusionFix, Various Fixes (manually built using the repository's files), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Xbox Rain Droplets, Project2DFX and Setup Utility.
-            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fixed Carwash Price Text, donnits' GTA V fxdecals.
             - Removed Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background and Fixed LCPD Buffalo.
             - Fully repacked the :material-folder: ==update== folder to avoid redundancies and leftover files.
     ??? quote "Old changes"
@@ -334,7 +334,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     !!! info "Latest version"
         - 15.08.2024:
             - Updated Radio Downgrader, FusionFix, Various Fixes (manually built using the repository's files), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Liberty Tweaks, Project Thunder and Setup Utility.
-            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fixed Carwash Price Text, donnits' GTA V fxdecals.
             - Removed Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background and Fixed LCPD Buffalo.
             - Fully repacked the :material-folder: ==update== folder to avoid redundancies and leftover files.
     ??? quote "Old changes"
