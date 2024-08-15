@@ -31,7 +31,17 @@ This project aims to fix the inconsistency of characters between base GTA IV and
 
 <h3>Installation</h3>
 
-TBA (current official version for FusionFix is incorrectly packaged)
+1. Download this [archive](https://drive.google.com/file/d/1ZDp1pZZlLrxZAEtpTp7bvGKPTZ0Fckbu/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+3. Extract the other folders into any empty folder.
+4. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==pc/models/cdimages/== to :material-folder: ==**update**/pc/models/cdimages/==.
+5. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TBoGT/pc/models/cdimages/== to :material-folder: ==**update**/TBoGT/pc/models/cdimages/==.
+6. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TLAD/pc/models/cdimages/== to :material-folder: ==**update**/TLAD/pc/models/cdimages/==.
+    - Skip the above 3 steps if you had already done it earlier with other mods.
+7. Open the copied archives with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+8. Copy the files from :material-folder: ==IV - playerped.rpf== to the archive you copied in step 4.
+9. Copy the files from :material-folder: ==TBoGT - playerped.rpf== to the archive you copied in step 5.
+10. Copy the files from :material-folder: ==TLAD - playerped.rpf== to the archive you copied in step 6.
 
 ---
 
@@ -68,15 +78,9 @@ This mod adds nice water droplets on the screen.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
 === "1.0.8.0"
-    Info below is outdated, will be updated later
-
-    {--
-
-    1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
+    1. Download this [archive](https://drive.google.com/file/d/12BduhuqChrAfO_A32U1WeW4v0GCqF03S/view?usp=sharing) (is just an old version of the official mod).
     2. Extract the archive into the game folder.
         - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
-
-    --}
 
 ---
 
@@ -115,7 +119,20 @@ This mod increases the quality of UI radio icons, as they are highly inconsisten
     - If you want TBoGT icons to be styled, also download `New TBOGT style (MEGA)`.
 3. Go to the [GTAForums page for Higher Res Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871).
 4. Press on `Right Here (MEGA)` to download.
-5. Extract both archives in :material-folder: ==GTAIV/**update**/pc/textures/==.
+5. Extract both archives in :material-folder: ==**update**/pc/textures/==.
+
+---
+
+## [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456)
+
+This mod increases the resolution of the map in the pause menu and the minimap.
+
+<h3>Installation</h3>
+
+1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/456?tab=files).
+2. Download the latest main file.
+3. Open the downloaded archive.
+4. Extract the :material-folder: ==update== folder from the :material-folder: ==FusionOverloader Install== folder into the game folder.
 
 ---
 
@@ -193,6 +210,30 @@ These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart m
 
 ---
 
+## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/)
+
+These mods by Attramet fix some small inconsistencies that don't make much sense.
+
+<h3>Installation</h3>
+
+1. Download this [archive](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Fidelity Popcycle](https://www.nexusmods.com/gta4/mods/405?tab=description)
+
+A vanilla-friendly popcycle that makes the city life more varied and realistic.
+
+<h3>Installation</h3>
+
+1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/405?tab=files).
+2. Download the desired version of the mod (Potential Grim version has slightly more variety).
+3. Open the downloaded archive, locate the :material-folder: ==Fusion overloader install== folder in it.
+4. Extract the :material-folder: ==update== folder from that folder into the game folder.
+
+---
+
 ## [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/)
 
 This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
@@ -238,7 +279,7 @@ This mod improves how thunder appears in-game, with actual lighting and improved
 5. Extract the contents of :material-folder: ==Files for the main directory== into the game folder.
     - **Do not extract the :material-folder: ==pc== folder** - rather, extract it to the :material-folder: ==update== folder instead.
 6. Extract the `RAIN` file into any empty folder.
-7. Copy the :material-file:`resident.rpf` archive from :material-folder: ==GTAIV/pc/audio/sfx/== to :material-folder: ==GTAIV/**update**/pc/audio/sfx/==.
+7. Copy the :material-file:`resident.rpf` archive from :material-folder: ==pc/audio/sfx/== to :material-folder: ==**update**/pc/audio/sfx/==.
     - Skip this step if you installed "**Reduced Trafic Screech (Audio Tweak)**" previously.
 8. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 9. Using the file from the mod, replace the :material-file:`RAIN` file in the :material-folder: ==RESIDENT== folder inside the archive.
@@ -261,13 +302,23 @@ This mod adds background noise to the game, such as driving and shooting, alike 
 
 ## Recommended load order and `.img` limits
 
-Please use the following load order (the number before the folder names) after installing the mods above:
+Please use the following load order (put the number before the folder names) after installing the mods above:
 
-TBA
+1. Minor Mods (any other mod you don't see below is considered minor - thier order doesn't matter that much but they should be loaded on top)
+2. Restored Trees Position
+3. Restored Pedestrians
+4. Higher Resolution Miscellaneous Pack
+5. Vehicle Mods (Vehicle Pack, Resized Blista etc.)
+6. Characters Fixes
+7. Console Visuals
+8. Project Glass
+9. More Visible Interiors
+10. Various Fixes
+11. FusionFix (leave it at the default folder name for ease of updating)
 
 You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
 
-You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings.
+You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
 
 ---
 

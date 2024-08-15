@@ -71,7 +71,8 @@ This mod fixes the lower-resolution backgrounds in EFLC menus and removes the So
 
 <h3>Installation</h3>
 
-TBA (original download link got nuked)
+1. Download this [archive](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -83,14 +84,14 @@ This mod fixes the IV Bikers voicelines in EFLC.
 
 1. Go to the [GTAForums page](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/).
 2. Press the **Download** link.
-3. Extract the :material-file:`BYeah.dat16` file to :material-folder: ==GTAIV/TLAD/pc/audio/config/==.
-4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==GTAIV/update/TLAD/== folder and an :material-file:`e2_audio.xml` file in the :material-folder: ==GTAIV/update/TBoGT/ folder==:
+3. Extract the :material-file:`BYeah.dat16` file to :material-folder: ==**update**/TLAD/pc/audio/config/==.
+4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==**update**/TLAD/== folder and an :material-file:`e2_audio.xml` file in the :material-folder: ==**update**/TBoGT/ folder==:
 
 ```text
     <game content="ascii">platform:/audio/config/BYeah.dat</game>
 ```
 
-- If the **radio was not downgraded by the guide**, copy the same-named files from the vanilla :material-folder: ==GTAIV/TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
+- If the **radio was not downgraded by the guide or those filse are missing**, copy the same-named files from the vanilla :material-folder: ==TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
 
 ---
 
@@ -103,8 +104,8 @@ This mod fixes green-ish textures on some character models.
 1. Download this [archive](https://drive.google.com/file/d/1R--bkDVJIEk_ZzScJNuLQn7B6yCIuQwv/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 3. Extract the other folders into any empty folder.
-4. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/pc/models/cdimages/==.
-5. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
+4. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==pc/models/cdimages/== to :material-folder: ==**update**/pc/models/cdimages/==.
+5. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TBoGT/pc/models/cdimages/== to :material-folder: ==**update**/TBoGT/pc/models/cdimages/==.
 6. Open the copied archives with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 7. Copy the files from :material-folder: ==IV - playerped.rpf== to the archive you copied in step 4.
 8. Copy the files from :material-folder: ==TBoGT - playerped.rpf== to the archive you copied in step 5.
@@ -119,7 +120,7 @@ This mod adds missing normal and specular maps and improves texture quality on T
 
 1. Download the mod.
 2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
+3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TBoGT/pc/models/cdimages/== to :material-folder: ==**update**/TBoGT/pc/models/cdimages/==.
     - Skip this step if you had already done it earlier with other mods.
 4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 5. Using the files from the mod, replace the :material-file:`suse_002_u.wdr` and :material-file:`suse_002_a_uni.wdr` files in the archive.
@@ -134,7 +135,7 @@ This mod adds missing normal and specular maps to the TLAD player model's shoes.
 
 1. Download the mod.
 2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TLAD/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TLAD/pc/models/cdimages/==.
+3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TLAD/pc/models/cdimages/== to :material-folder: ==**update**/TLAD/pc/models/cdimages/==.
 4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 5. Using the file from the mod, replace the :material-file:`feet_000_u.wdr` file in the archive.
 
@@ -148,7 +149,7 @@ This mod changes the pitch of the traffic screech in Algonquin to match the real
 
 1. Download the mod.
 2. Extract the archive into any empty folder.
-3. Copy the :material-file:`resident.rpf` archive from :material-folder: ==GTAIV/pc/audio/sfx/== to :material-folder: ==GTAIV/**update**/pc/audio/sfx/==.
+3. Copy the :material-file:`resident.rpf` archive from :material-folder: ==pc/audio/sfx/== to :material-folder: ==**update**/pc/audio/sfx/==.
 4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 5. Using the file from the mod, replace the :material-file:`AMB_RESIDENT` file in the :material-folder: ==RESIDENT== folder inside the archive.
 

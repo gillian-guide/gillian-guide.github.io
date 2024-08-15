@@ -16,7 +16,7 @@ To mod the game, we first need to get your system ready for modding and install 
 1. Откройте **Проводник**
 2. Выберите вкладу **Вид** сверху
 3. Наведите мышку над секцией **Показывать** и включите  **Расширения файлов** из дополнительного меню.
-![Расширение файлов в проводнике](assets/fileextensions.webp){: style="height:60%;width:60%";} TBA
+![Расширение файлов в проводнике](assets/fileextensions.webp){: style="height:60%;width:60%";}
 
 ---
 

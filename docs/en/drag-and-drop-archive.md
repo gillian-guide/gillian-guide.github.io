@@ -20,16 +20,11 @@ TBA
 
 ## Installation { data-search-exclude }
 
-!!! warning "The modpacks are outdated!"
-    The modpacks are, currently, heavily outdated.
-
-    Hold out for an update in the coming days/weeks!
-
 !!! question "Which game version to pick?"
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
 === "1.2.0.59"
-    Last updated: **[09.03.2024](#changelog)**
+    Last updated: **[15.08.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -46,17 +41,18 @@ TBA
         - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and paste the contents in the `Launch options` field.
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and paste the contents in the `Launcher arguments` field.
         - **Shortcut**: Right click on the game shortcut, click `Properties` and paste the contents at the end of the `Target` field.
-    6. You are ready to play!
+    7. You are ready to play!
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
         - **If using Linux**, add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to launch options.
         - It's preferable to start **a new savefile**. Existing savefiles can work, but you may encounter issues.
+        - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
     !!! info "Updating"
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[21.05.2024](#changelog)**
+    Last updated: **[15.08.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -74,6 +70,7 @@ TBA
         - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`.
         - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`).
         - It's preferable to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
+        - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
     !!! info "Updating"
@@ -112,24 +109,23 @@ All mods in the following list are present in both archives with identical versi
 
 | Mod | Developer(s) | Details |
 | :-: | :--------: | :-----: |
-| [Radio Downgrader](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~2.5.6~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
-| [Various Fixes~1.8.1~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
-| [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
-| [Improved Animations Pack~1.3~](https://gtaforums.com/topic/958625-improved-animations-pack/) | B Dawg | Fixes some weapon animation issues, such as delayed fire. |
-| [IV Fixes and Improvements](https://gtaforums.com/topic/909155-iv-fixes-improvements/) | Zolika1351 and others | A collection of minor fixes and improvements - see the changelog on the page.<br>Only the old `.img` improvements are used - and some are cut due to their precendece in Various Fixes and other mods.</br> |
-| [`carcols` and `cargrp` Fixes](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL | Several files from [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) that fix some oversights in the original files that prevent some cars from spawning as intended. |
-| [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
-| [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
-| [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns. |
-| [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
+| [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [FusionFix~3.0.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
+| [Various Fixes~1.90-custom~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
+| [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
+| [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Clothing, Console Fences, Console Animations, Console Peds. See [Additional Mods](#additional-mods) for more.</br> |
+| [Restored Pedestrians~29.07.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
+| [Various Pedestrians Actions~04.09.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
+| [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns. |
+| [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
-| [Project Glass](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass.|
-| [Vehicle Pack~2.0~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
+| [Project Glass~19.03.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass.|
+| [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
+| [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
+| [`carcols` and `cargrp` Fixes](https://drive.google.com/file/d/13OgDDm0xakbdRONPlrnN5zRfshdAgwhd/view?usp=sharing) | iiCriminnaaL | Several files from [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) that fix some oversights in the original files that prevent some cars from spawning as intended. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Resizes the Blista Compact to match the real life counterpart (Honda CR-X).  |
-| [Fixed LCPD Buffalo](https://www.gtainside.com/en/gta4/cars/181342-fixed-lcpd-buffalo/) | Ooboy | Fixes the police Buffalo model and texture bugs. |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Fixes the IV Bikers voicelines in EFLC. |
@@ -139,8 +135,13 @@ All mods in the following list are present in both archives with identical versi
 | [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Fixes the bleak reflection on TBoGT player model's helmet. |
 | [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | 6135 | Adds missing normal and specular maps and improves texture quality on TBoGT player model's bag. |
 | [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | 6135 | Adds missing normal and specular maps to the TLAD player model's shoes. |
+| [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Replaces the Esperanto in Roman's Cab Depot with his own taxis. |
+| [Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Disables pedestrian reactions that don't make any sense. |
+| [Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Fixes incorrect hint for the price of the carwash for taxis. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Changes the pitch of the traffic screech in Algonquin to match the real-life levels you'd usually hear in Times Square. |
-| [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Fixes the lower-resolution backgrounds in EFLC menus and removes the Social Club text. |
+| [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Fixes the lower-resolution backgrounds in EFLC menus and removes the Social Club text. |
+| [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Replaces some decals with faithful higher resolution counterparts from GTA V. |
+| [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Increases the resolution of the map in the pause menu and the minimap. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
 ### Separate mods { data-search-exclude }
@@ -150,20 +151,19 @@ The mods or their specific versions in the following list are present in only on
 === "1.2.0.59"
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
-    | [Console Visuals~1.6~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Only Fusion Console Vegetation, Console Peds and Console Select Menu are included in the archive. See [Additional Mods](#additional-mods) for more.</br> |
-    | [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) | ThirteenAG | Improves distant lights at night. <br>==Can be disabled by deleting the `IVLodLights` files in the :material-folder: `plugins` folder.==</br> |
-    | [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files in the :material-folder: `plugins` folder.==</br> |
+    | [Project2DFX~28.06.2024~](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) | ThirteenAG | Improves distant lights at night. <br>==Can be disabled by deleting the `IVLodLights` files in the :material-folder: `plugins` folder.==</br> |
+    | [Xbox Rain Droplets~17.07.2024~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files in the :material-folder: `plugins` folder.==</br> |
+    | [Console Select Menu](https://github.com/gennariarmando/iv-console-select-menu/) | _AG | Replaces the episode selector with a console-like menu which, in my opinion, looks better. <br>==Can be disabled by deleting the `ConsoleSelectMenuIV` files in the :material-folder: `plugins` folder.==</br> |
 === "1.0.8.0"
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
     | Downgrade to 1.0.8.0 | Gillian (files belong to Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
     | [ZolikaPatch IV~7.65~](https://zolika1351.pages.dev/mods/ivpatch) | Zolika1351 | Adds a lot of minor fixes exclusive to 1.0.8.0. |
-    | [Console Visuals~1.6~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Only Fusion Console Vegetation and Console Peds are included in the archive. See [Additional Mods](#additional-mods) for more.</br> |
-    | [Liberty Tweaks~1.4.1~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClockAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable.<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
-    | [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre | Improves how thunder appears in-game, with actual lighting and improved atmosphere. Highly configurable. |
-    | [VAmbience](https://gtaforums.com/topic/981402-vambience/) | ItsClockAndre | Adds background noise to the game, such as driving and shooting, alike to GTA V. Highly configurable. |
-    | [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen.<br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
-    | [Steam Achievements~v2~](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on older patches. |
+    | [Liberty Tweaks~1.5~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClockAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable.<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
+    | [Project Thunder~2.1~](https://gtaforums.com/topic/982902-project-thunder/) | ItsClockAndre | Improves how thunder appears in-game, with actual lighting and improved atmosphere. Highly configurable. |
+    | [VAmbience~1.0~](https://gtaforums.com/topic/981402-vambience/) | ItsClockAndre | Adds background noise to the game, such as driving and shooting, alike to GTA V. Highly configurable. |
+    | [Xbox Rain Droplets](https://drive.google.com/file/d/12BduhuqChrAfO_A32U1WeW4v0GCqF03S/view?usp=drive_link) | ThirteenAG | Adds nice water droplets on the screen.<br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
+    | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on older patches. |
 
 ---
 
@@ -174,19 +174,20 @@ These mods are not included by default, but are easy to install ontop of the arc
 === "1.2.0.59"
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
-    | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo and others | This project ports select console visuals to the PC version. <br>Installation: Extract the desired addons into the game folder.</br> |
-    [Enhanced Snow Mod Repack](https://drive.google.com/file/d/11PFXrFnvB8JEKVajseL2GIWRd6MdLBBy/view?usp=drive_link) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Lover of Winter, Straysify, gdanbo, Attramet and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled for Fusion Overloader with my own custom tweaks.<br>Installation: Backup the :material-folder: ==update== folder. Extract the :material-folder: ==update== folder from the archive into the game folder, replacing files when prompted. Disable/remove FusionFix's `GTATrees.img` and Console Visuals' `FusionConsolevegetation.img`. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
-    | [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | Valentyn_L | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract the archive into the game folder.</br> |
+    | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo and others | This project ports select console visuals to the PC version. <br>Installation: Download and extract the desired addons into the game folder.</br> |
+    | Snow Mode | ThirteenAG & Fusion Team | To enable the Snow Mode, type `7665550100` on the phone. To disable, type `2665550100`. |
+    | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Lover of Winter, Straysify, gdanbo, Attramet and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled as addons for AssaultKifle47's Snow Mod.<br>Installation: Backup the :material-folder: ==update== folder. Extract the :material-folder: ==update== folder from the archive into the game folder, replacing files when prompted. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
+    | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
     | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract the archive into the :material-folder: ==update== folder.</br> |
     | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder: ==Main Files\\pc\\== folder from the archive into the :material-folder: ==update== folder.</br> |
 === "1.0.8.0"
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
     | Liberty Tweaks options | catsmackaroo, ItsClockAndre and others | Features many options that severely change the gameplay - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: ==IVSDKDotNet\scripts\\==. |
-    | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Collection of ported assets from the console version. <br>Installation: Extract the desired addons into the game folder. Plugins will not work on 1.0.8.0.</br> |
-    | [Snow Mod](https://github.com/akifle47/Snow/releases/latest) | AssaultKifle47 | A lightweight snow mod based on shaders rather than textures. |
-    | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Lover of Winter, Straysify, gdanbo, Attramet and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled as addons for AssaultKifle47's Snow Mod.<br>Installation: Backup the :material-folder: ==update== folder. Extract the :material-folder: ==update== folder from the archive into the game folder, replacing files when prompted. Disable/remove FusionFix's `GTATrees.img` and Console Visuals' `FusionConsolevegetation.img`. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
-    | [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | Valentyn_L | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor).<br>Installation: Extract the archive into the game folder.</br> |
+    | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Collection of ported assets from the console version. <br>Installation: Download and extract the desired addons into the game folder.</br> |
+    | Snow Mode | ThirteenAG & Fusion Team | To enable the Snow Mode, type `7665550100` on the phone. To disable, type `2665550100`. |
+    | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Lover of Winter, Straysify, gdanbo, Attramet and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled as addons for AssaultKifle47's Snow Mod.<br>Installation: Backup the :material-folder: ==update== folder. Extract the :material-folder: ==update== folder from the archive into the game folder, replacing files when prompted. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
+    | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
     | [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look.<br>Installation: Extract the archive into the :material-folder: ==update== folder.</br> |
     | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod.<br>Installation: Extract the :material-folder: ==Main Files\\pc\\== folder from the archive into the :material-folder: ==update== folder.</br> |
     | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the :material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br> |
@@ -197,10 +198,15 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 15.08.2024:
+            - Updated Radio Downgrader, FusionFix, Various Fixes (manually built using the repository's files), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Xbox Rain Droplets, Project2DFX and Setup Utility.
+            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Removed Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background and Fixed LCPD Buffalo.
+            - Fully repacked the :material-folder: ==update== folder to avoid redundancies and leftover files.
+    ??? quote "Old changes"
         - 09.03.2024:
             - Updated More Visible Interiors, Xbox Rain Droplets.
             - *Actually* fixed Three Leaf Clover for once.
-    ??? quote "Old changes"
         - 07.03.2024:
             - Updated FusionFix, Console Visuals, Higher Resolution Misc Pack.
         - 28.01.2024:
@@ -326,10 +332,15 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 15.08.2024:
+            - Updated Radio Downgrader, FusionFix, Various Fixes (manually built using the repository's files), Console Visuals, Characters Fixes, Project Glass, Vehicle Pack, Liberty Tweaks, Project Thunder and Setup Utility.
+            - Added Fidelity Popcycle, UHD Vanilla Map and Radar, Replaced Esperanto by Roman's Taxi in Cab Depot, Fixed Pedestrian Reactions, Fxed Carwash Price Text, donnits' GTA V fxdecals.
+            - Removed Improved Animations Pack, IV Fixes and Improvements, GTA Online QUB3D Background and Fixed LCPD Buffalo.
+            - Fully repacked the :material-folder: ==update== folder to avoid redundancies and leftover files.
+    ??? quote "Old changes"
         - 21.05.2024:
             - Reuploaded the archive to Mediafire because Google is a bitch.
             - Updated IVSDKDotNet and Liberty Tweaks (slightly reconfigured it aswell).
-    ??? quote "Old changes"
         - 09.03.2024:
             - Updated More Visible Interiors, Liberty Tweaks (fixes crashes when entering/exiting a vehicle).
             - Removed Project2DFX due to breaking with fixed coronas on 1.0.8.0.

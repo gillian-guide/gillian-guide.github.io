@@ -71,7 +71,8 @@ description: Еще больше??
 
 <h3>Установка</h3>
 
-TBA (оригинальная ссылка пропала)
+1. Скачайте этот [архив](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
