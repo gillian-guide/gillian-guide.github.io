@@ -33,7 +33,7 @@ TBA
     3. Extract the archive into the game folder.
     4. Move the files out of the :material-folder: ==plugins== folder into the game folder (don't ask me why, this tends to improve stability).
         - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
-        - {--Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.--}
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
 
     !!! tip "If using GFWL..."

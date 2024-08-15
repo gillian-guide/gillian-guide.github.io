@@ -20,12 +20,10 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 <a id="incompatible-options"></a>
 
 !!! warning "If using FusionFix..."
-    {--**This is already taken care of by Setup Utility.**--}
+    **This is already taken care of by Setup Utility.**
 
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
-    - BuildingAlphaFix
-    - EmissiveLerpFix
     - BikePhoneAnimsFix
     - BorderlessWindowed
     - BuildingAlphaFix
