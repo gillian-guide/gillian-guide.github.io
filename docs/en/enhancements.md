@@ -210,17 +210,6 @@ These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart m
 
 ---
 
-## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/)
-
-These mods by Attramet fix some small inconsistencies that don't make much sense.
-
-<h3>Installation</h3>
-
-1. Download this [archive](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-
----
-
 ## [Fidelity Popcycle](https://www.nexusmods.com/gta4/mods/405?tab=description)
 
 A vanilla-friendly popcycle that makes the city life more varied and realistic.

@@ -27,17 +27,17 @@ For directly contributing to [Fusion Shaders](../../essential-modding/fusionfix.
 
 For directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and [Console Visuals](../../enhancements.md/#console-visuals).
 
-## Valentyn_L
-
-For directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and their work on other [mods](../../extras/mods.md).
-
 ## Magic_Al, sTc2201 and the rest of Fusion Team
 
 For directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
 
 ## Attramet
 
-For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/##restored-pedestrians-restored-pedestrians-clothes) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
+For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/#restored-pedestrians-restored-pedestrians-clothes), [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](../../essential-modding/additional-fixes.md/#replaced-esperanto-by-romans-taxi-in-cab-depot-fixed-pedestrian-reactions-fixed-carwash-price-text) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
+
+## Valentyn_L
+
+For their work on [UHD Vanilla Map and Radar](../../enhancements.md/#uhd-vanilla-map-and-radar) and directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and [Various Fixes](../../essential-modding/various-fixes.md) and their work on other [mods](../../extras/mods.md).
 
 ## \_CP_
 
@@ -102,6 +102,10 @@ For their work on [Liberty Ferry Terminal - Waiting Sign Fix](../../essential-mo
 ## 6135
 
 For their work on [Luis' Helmet Reflections Fix](../../essential-modding/additional-fixes.md/#luis-helmet-reflections-fix), [Luis' Bag Texture Fix](../../essential-modding/additional-fixes.md/#luis-bag-texture-fix) and [Johnny's Shoe Texture Fix](../../essential-modding/additional-fixes.md/#johnnys-shoe-texture-fix).
+
+## Chunk
+
+For their work on [Fidelity Popcycle](../../enhancements.md/#fidelity-popcycle).
 
 ## Thundersmacker
 

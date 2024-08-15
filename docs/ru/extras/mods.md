@@ -15,10 +15,11 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 ## List of mods (larger-scale)
 
 | Mod | Developer(s) | Details |
-| :-: | :-------: | :---------: |
-| [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod, building upon the vanilla look. |
+| :-: | :----------: | :-----: |
+| [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod. |
+| [Aura](https://gtaforums.com/topic/989259-aura/) | catsmackaroo, nastyyaboi, ItsClockAndre and cubabori | A vanilla+ graphics mod. |
 | [Improved Vanilla Timecyc](https://www.gtainside.com/gta4/mods/189357-improved-vanilla-timecyc-v1-1/) | pidarasnahui516 | Another vanilla+ timecyc mod. |
-| [AssaultKifle47's Snow Mod](https://github.com/akifle47/Snow/releases/latest) | AssaultKifle47 | A lightweight standalone snow mod based on shaders rather than textures.<br>==Only compatible with 1.0.8.0.== |
+| [AssaultKifle47's Snow Mod](https://github.com/akifle47/Snow/releases/latest) | AssaultKifle47 | A lightweight standalone snow mod based on shaders rather than textures if you can't use FusionFix's.<br>==Only compatible with 1.0.8.0.== |
 | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | jumbo0, gr8man, Jantsu92, Alisa Belucci: Flash, Lover of Winter, Attramet, Straysify, gdanbo and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled as addons for AssaultKifle47's Snow Mod. |
 | [Enhanced Snow Mod Repack](https://drive.google.com/file/d/11PFXrFnvB8JEKVajseL2GIWRd6MdLBBy/view?usp=drive_link)| jumbo0, gr8man, Jantsu92, Alisa Belucci: Flash, Lover of Winter, Attramet, Straysify, gdanbo and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled for Fusion Overloader with my own custom tweaks.<br>Installation: Backup :material-folder: ==update==. Extract :material-folder: ==update== to the game folder, replace files when prompted. Disable/remove FusionFix's `GTATrees.img`, Console Visuals' `FusionConsolevegetation.img` and road textures. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. |
@@ -34,7 +35,7 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 ## List of mods (smaller-scale)
 
 | Mod | Developer(s) | Details |
-| :-: | :-------: | :-----: |
+| :-: | :----------: | :-----: |
 | [Better Wardrobes](https://zolika1351.pages.dev/mods/ivwardrobe) | Zolika1351 | Improves the clunky wardrobe the game originally has - but unlocks all clothing from the start. |
 | [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | ValentynL | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor). |
 | [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores several trees that were only present in the beta version. |

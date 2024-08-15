@@ -21,6 +21,17 @@ This mod fixes the bleak reflection on TBoGT player model's helmet.
 
 ---
 
+## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/)
+
+These mods by Attramet fix some small inconsistencies that don't make much sense.
+
+<h3>Installation</h3>
+
+1. Download this [archive](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
 These mods by donnits fix minor issues on the map.
