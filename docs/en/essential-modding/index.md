@@ -16,11 +16,11 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 
     [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **ZolikaPatch** fixes or adresses some gameplay issues and **improves core multiplayer experience**. ^^Don't install unless your game is downgraded.^^
+- **ZolikaPatch** improves core multiplayer experience and is **considered essential for downgraded versions**. ^^Don't install unless your game is downgraded.^^
 
     [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
 
-- **Various Fixes** aims to fix or improve a large amount of **map issues and textures.**
+- **Various Fixes** aims to fix or improve a large amount of **map issues and textures**.
 
     [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 

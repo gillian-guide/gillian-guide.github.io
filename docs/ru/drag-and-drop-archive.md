@@ -93,7 +93,7 @@ TBA
 
 - После установки архива, **примените оптимальные настройки графики**:
 
-    [Следующая страница:material-page-last: <br>Второстепенная настройка: Оптимальные настройки графики</br>](additional-setup.md/#_4){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Второстепенная настройка: Оптимальные настройки графики</br>](additional-setup.md/#__tabbed_2_2){ .md-button .md-button--primary }
 
 - **Если используете Linux,** также примените параметры запуска вручную:
 
@@ -132,13 +132,13 @@ TBA
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Исправление голосовых линий байкеров из IV в EFLC. |
-| [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15) | grasscid | Исправляет ошибку в модели пистолета, где прицел не имеет смысла. |
+| [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15) | grasscid | Исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Исправление сломанной UV-карты на текстуре знака "Waiting Room". |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Редактирует UV-карту знака, чтобы включить в его неиспользуемую текстуру. |
-| [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Исправляет мрачное отражение на шлеме модели игрока в TBoGT. |
+| [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Исправляет поблекшие отражения на шлеме модели игрока в TBoGT. |
 | [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/) | 6135 | Добавляет недостающие карты нормалей и спекуляций и улучшает качество текстур на сумке модели игрока в TBoGT. |
 | [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | 6135 | Добавляет недостающие карты нормалей и спекуляций в обувь модели игрока в TLAD. |
-| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Измените уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. |
+| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. |
 | [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611) | _ys | Исправляет фоны с низким разрешением в меню EFLC и удаляет текст Social Club. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Повышает качество иконок радио на интерфейсе, так как они сильно не соответствуют другим частям интерфейса. |
 

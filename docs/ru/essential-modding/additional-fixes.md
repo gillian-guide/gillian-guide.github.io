@@ -1,167 +1,167 @@
-title: Additional Fixes (List)
-description: There's more??
+title: Дополнительные фиксы (список)
+description: Еще больше??
 
-# Additional Fixes (List)
+# Дополнительные фиксы (список)
 
-Following mods are fixes that I'd personally consider essential, as they don't have any downsides or incompatibilities to them.
+Следующие моды являются фиксами которые я бы посчитал обязательными, т.к. они не имеют каких-либо минусов или несовместимостей.
 
 !!! warning ""
-    [FusionFix](../essential-modding/fusionfix.md) is required for most mods. **This page will assume you have it installed and will not remind you of it.**
+    Для большинства модов требуется [FusionFix](../essential-modding/fusionfix.md). **Эта страница будет предполагать, что он у вас установлен и не будет об этом напоминать.**
 
 ---
 
 ## [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
 
-This mod fixes the bleak reflection on TBoGT player model's helmet.
+Этот мод исправляет поблекшие отражения на шлеме модели игрока в TBoGT.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/14uB8cRR7DXYXc4HPCxoGd3J78nc1zBK8/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Скачайте этот [архив](https://drive.google.com/file/d/14uB8cRR7DXYXc4HPCxoGd3J78nc1zBK8/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
-These mods by donnits fix minor issues on the map.
+Эти моды от donnits исправляют мелкие проблемы по карте.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1LnT29wamuxJp1Xo074b50IU8gLDJjRxL/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Скачайте этот [архив](https://drive.google.com/file/d/1LnT29wamuxJp1Xo074b50IU8gLDJjRxL/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
-## [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) - `cargrp.dat` and `carcols.dat` fixes
+## [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) - фиксы `cargrp.dat` и `carcols.dat`
 
-These fix some oversights in the original files that prevent some cars from spawning as intended.
+Эти фиксы исправляют некоторые недочеты в оригинальных файлах, из-за которых некоторые автомобили не спавнятся так, как положено.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1s0upbkeDpH9zJ03ELXrcOItMZw17xvVC/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Скачайте этот [архив](https://drive.google.com/file/d/1s0upbkeDpH9zJ03ELXrcOItMZw17xvVC/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
 ## [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/)
 
-This mod fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed.
+Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/19HKJfv_nwLJQxlkiQMnoNqRAymgwAElq/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Скачайте этот [архив](https://drive.google.com/file/d/19HKJfv_nwLJQxlkiQMnoNqRAymgwAElq/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
 ## [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15)
 
-This mod fixes an oversight in the pistol's model where the iron sight doesn't make any sense.
+Этот мод исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1xVV-towntlO8uZX5N1Ftt83zGljKIamf/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Скачайте этот [архив](https://drive.google.com/file/d/1xVV-towntlO8uZX5N1Ftt83zGljKIamf/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
 ## [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611)
 
-This mod fixes the lower-resolution backgrounds in EFLC menus and removes the Social Club text.
+Этот мод исправляет фоны с низким разрешением в меню EFLC и удаляет текст Social Club.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-TBA (original download link got nuked)
+TBA (оригинальная ссылка пропала)
 
 ---
 
 ## [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/)
 
-This mod fixes the IV Bikers voicelines in EFLC.
+Исправление голосовых линий байкеров из IV в EFLC.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/).
-2. Press the **Download** link.
-3. Extract the :material-file:`BYeah.dat16` file to :material-folder: ==GTAIV/TLAD/pc/audio/config/==.
-4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==GTAIV/update/TLAD/== folder and an :material-file:`e2_audio.xml` file in :material-folder: ==GTAIV/update/TboGT/==:
+1. Перейдите на [страницу GTAForums](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/).
+2. Нажмите на ссылку **Download**.
+3. Распакуйте файл :material-file:`BYeah.dat16` в :material-folder: ==GTAIV/TLAD/pc/audio/config/==.
+4. Если **радио было даунгрейднуто по руководству**, добавьте следующее после `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` в файле  :material-file:`e1_audio.xml` в папке :material-folder: ==GTAIV/update/TLAD/== и файле :material-file:`e2_audio.xml` в папке :material-folder: ==GTAIV/update/TBoGT/==:
 
 ```text
     <game content="ascii">platform:/audio/config/BYeah.dat</game>
 ```
 
-- If the **radio was not downgraded by the guide**, copy the same-named files from the vanilla :material-folder: ==GTAIV/update/TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
+- Если **радио не было даунгрейднуто по руководству**, скопируйте файлы с тем же названием из ванильных папок :material-folder: ==GTAIV/TLAD|TBoGT/== в папку :material-folder: ==update== и сделайте то же самое, что и выше.
 
 ---
 
 ## [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes)
 
-This mod fixes green-ish textures on some character models.
+Этот мод исправляет зеленоватые текстуры на некоторых моделях персонажей.
 
-<h3>Installation</h3>
+<h3>Устаноыка</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1R--bkDVJIEk_ZzScJNuLQn7B6yCIuQwv/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-3. Extract the other folders into any empty folder.
-4. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/pc/models/cdimages/==.
-5. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
-6. Open the copied archives with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-7. Copy the files from :material-folder: ==IV - playerped.rpf== to the archive you copied in step 4.
-8. Copy the files from :material-folder: ==TBoGT - playerped.rpf== to the archive you copied in step 5.
+1. Скачайте этот [архив](https://drive.google.com/file/d/1R--bkDVJIEk_ZzScJNuLQn7B6yCIuQwv/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== в папку с игрой.
+3. Другие папки распакуйте в любую пустую папку.
+4. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/pc/models/cdimages/==.
+5. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
+6. Скопированные архивы откройте с [OpenIV](../../resources/openiv.md/#_6).
+7. Скопируйте файлы из :material-folder: ==IV - playerped.rpf== в архив, который вы скопировали в этапе 4.
+8. Скопируйте файлы из :material-folder: ==TBoGT - playerped.rpf== в архив, который вы скопировали в этапе 5.
 
 ---
 
 ## [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/)
 
-This mod adds missing normal and specular maps and improves texture quality on TBoGT player model's bag.
+Этот мод добавляет недостающие карты нормалей и спекуляций и улучшает качество текстур на сумке модели игрока в TBoGT.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download the mod.
-2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
-    - Skip this step if you had already done it earlier with other mods.
-4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the files from the mod, replace the :material-file:`suse_002_u.wdr` and :material-file:`suse_002_a_uni.wdr` in the archive.
+1. Скачайте мод.
+2. Распакуйте архив в любую пустую папку.
+3. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
+    - Пропустите этот этап если вы уже это делали ранее с другими модами.
+4. Скопированный архив откройте с [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+5. Используя файлы из мода, замените файлы :material-file:`suse_002_u.wdr` и :material-file:`suse_002_a_uni.wdr` в архиве.
 
 ---
 
 ## [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
 
-This mod adds missing normal and specular maps to the TLAD player model's shoes.
+Этот мод добавляет недостающие карты нормалей и спекуляций в обувь модели игрока в TLAD.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download the mod.
-2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TLAD/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TLAD/pc/models/cdimages/==.
-4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the file from the mod, replace the :material-file:`feet_000_u.wdr` in the archive.
+1. Скачайте мод.
+2. Распакуйте архив в любую пустую папку.
+3. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/TLAD/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/TLAD/pc/models/cdimages/==.
+4. Скопированный архив откройте с [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+5. Используя файл из мода, замените файл :material-file:`feet_000_u.wdr` в архиве.
 
 ---
 
 ## [Reduced Trafic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/)
 
-This mod changes the pitch of the traffic screech in Algonquin to match the real-life levels you'd usually hear in Times Square.
+Этот мод изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Download the mod.
-2. Extract the archive into any empty folder.
-3. Copy the :material-file:`resident.rpf` archive from :material-folder: ==GTAIV/pc/audio/sfx/== to :material-folder: ==GTAIV/**update**/pc/audio/sfx/==.
-4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the file from the mod, replace the :material-file:`AMB_RESIDENT` file in the :material-folder: ==RESIDENT== folder inside the archive.
-
----
-
-## `.img` limits
-
-You may want to manually merge some `.img` mods together using [OpenIV](../../resources/openiv.md/#creating-archives) to avoid going over the limit.
-
-You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings.
+1. Скачайте мод.
+2. Распакуйте архив в любую пустую папку.
+3. Скопируйте архив :material-file:`resident.rpf` из :material-folder: ==GTAIV/pc/audio/sfx/== в :material-folder: ==GTAIV/**update**/pc/audio/sfx/==.
+4. Скопированный архив откройте с [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+5. Используя файл из мода, замените файл :material-file:`AMB_RESIDENT` в папке :material-folder: ==RESIDENT== внутри архива.
 
 ---
 
-## Navigation
+## Лимиты `.img`
 
-[:material-page-first:Previous page <br>Various Fixes</br>](various-fixes.md){ .md-button } [Next page:material-page-last: <br>Recommended Enhancements</br>](../../enhancements.md){ .md-button .md-button--primary }
+Вы, возможно, захотите вручную совместить несколько `.img` модов используя [OpenIV](../../resources/openiv.md/#_4) во избежание лимита.
+
+Вы можете увидеть, как близко вы к лимитам, если поставите `ExtraInfo` на `1` в конфиге FusionFix'а :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - это даст примерное значение внизу экрана в настройках - **но только на 1.2.0.58**. Если вы используете версию старее, вы можете увидеть, перешли ли вы лимит, зайдя в TBoGT и увидев, есть ли на дороге машины (если нету - вы перешли лимит и это знак совместить несколько модов вместе).
+
+---
+
+## Навигация
+
+[:material-page-first:Предыдущая страница <br>Various Fixes</br>](various-fixes.md){ .md-button } [Следующая страница:material-page-last: <br>Рекомендуемые улучшения</br>](../../enhancements.md){ .md-button .md-button--primary }

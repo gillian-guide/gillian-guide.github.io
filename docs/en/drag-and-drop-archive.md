@@ -94,7 +94,7 @@ TBA
 
 - After installing the archive, **apply optimal graphics settings**:
 
-    [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-graphics-settings){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#__tabbed_2_2){ .md-button .md-button--primary }
 
 - **If using Linux,** also apply Launch Options manually:
 

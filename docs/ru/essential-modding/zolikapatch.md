@@ -1,28 +1,29 @@
 title: ZolikaPatch
-description: Some fixes for your downgraded copy, mainly for enjoying multiplayer.
+description: Несколько исправлений для даунгрейднутых версий, в основном ради мультиплеера.
 
 # [ZolikaPatch](https://zolika1351.pages.dev/mods/ivpatch)
 
-!!! warning "Compatibility"
-    This mod is compatible with all downgraded versions, but not Complete Edition. Skip this mod if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../extras/multiplayer.md).
+!!! warning "Совместимость"
+    Этот мод совместим со всеми даунгрейднутыми версиями, но не Complete Edition. Пропустите этот мод если вы не собираетесь даунгрейдиться - его улучшения того не стоят если вы не играете в [мультиплеер](../extras/multiplayer.md).
 
-This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
+Этот проект **улучшает работоспособность мультиплеера и считается обязательным для даунгрейднутых версией**. Обо всех изменениях можете почитать [здесь](https://zolika1351.pages.dev/mods/ivpatch).
 
 ---
 
-<h2>Installation</h2> <a id="installation"></a>
+<h2>Установка</h2> <a id="_2"></a>
 
-1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
-2. Scroll to the bottom of the page and download the latest version.
-3. Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
-    - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+1. Перейдите на [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
+2. Прокрутите до конца страницы и скачайте последнюю версию.
+3. Распакуйте :material-zip-box:`ZolikaPatch_vx_x.zip` в папку с игрой.
+    - Рекомендуется заново использовать Setup Utility если вы использовали утилиту на страницах [оптимизации](../../optimization.md) или [второстепенной настройки](../../additional-setup.md).
 
 <a id="incompatible-options"></a>
 
-!!! warning "If using FusionFix..."
-    **This is already taken care of by the [Setup Utility](../../optimization.md/#setup-utility).**
+!!! warning "Если используется FusionFix..."
+    !!! tip "Setup Utility (**Только для Windows**)"
+        [Setup Utility](../optimization.md/#setup-utility-automatic-installation) может автоматически сделать все это за вас.
 
-    Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
+    Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие настройки:
 
     - BikePhoneAnimsFix
     - BorderlessWindowed
@@ -53,19 +54,19 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
     - SkipIntro
     - SkipMenu
 
-    Note that this doesn't break or actually disable anything, as these features are reimplemented by FusionFix.
+    Имейте ввиду, что это на самом деле не отключает и не ломает ничего, т.к. эти настройки уже встроены в FusionFix.
 
-!!! question "What's :material-file:`GFWLProtectionDisabler2019.asi`?"
-    This file is required to prevent GFWL from blocking :material-file:`.asi` mods.
-
----
-
-<h2>Configuration</h2> <a id="configuration"></a>
-
-Open :material-file-cog:`ZolikaPatch.ini` and configure the file as needed. All the options have explanations next to them.
+!!! question "Что за :material-file:`GFWLProtectionDisabler2019.asi`?"
+    Этот файл является обязательным для предотвращения GFWL от блокировки модов :material-file:`.asi`.
 
 ---
 
-<h2>Navigation</h2> <a id="navigation"></a>
+<h2>Настройка</h2> <a id="_3"></a>
 
-[:material-page-first:Previous page <br>FusionFix</br>](fusionfix.md){ .md-button } [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
+Откройте :material-file-cog:`ZolikaPatch.ini` и настройте файл по надобности. Все настройки имеют обьяснения рядом с ними.
+
+---
+
+<h2>Навигация</h2> <a id="_4"></a>
+
+[:material-page-first:Предыдущая страница <br>FusionFix</br>](fusionfix.md){ .md-button } [Следующая страница:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }

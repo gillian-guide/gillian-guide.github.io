@@ -7,7 +7,7 @@ description: Graphics fixes, but even more than just that!
     This mod is only officially supported on the Complete Edition, but with taking several things in account, you can also use it with 1.0.8.0.
 
     Support for non-CE versions may be axed at any time and the developers don't provide any support for them.
-This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. You can read the changelog [here](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog).
+This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. You can read the changelog on the [repository](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog).
 
 ---
 
@@ -21,10 +21,10 @@ TBA
 
 === "1.2.0.59"
     1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
-    2. Download :material-zip-box:`GTAIV.EFLC.FusionFix.zip`.
+    2. Download the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` archive.
     3. Extract the archive into the game folder.
         - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
-        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
 === "1.0.8.0"
     !!! info "Missing fixes"
         Installing FusionFix on 1.0.8.0 compromises on some fixes, and you won't receive any official support from Fusion Team shall any issues arise. Keep that in mind.
@@ -34,7 +34,7 @@ TBA
     4. Move the files out of the :material-folder: ==plugins== folder into the game folder (don't ask me why, this tends to improve stability).
         - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
         - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
-        - See the [optimal graphics settings for FusionFix](../../additional-setup.md#optimal-graphics-settings).
+        - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
 
     !!! tip "If using GFWL..."
         Press "Continue" on the warning.

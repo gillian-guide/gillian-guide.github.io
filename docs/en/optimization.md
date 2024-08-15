@@ -40,7 +40,7 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
 
 ### Usage
 
-1. Go to the [Releases page](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
+1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
 2. Download :material-file-download:`GTAIVSetupUtilityWPF.exe`.
 3. Run the tool.
 4. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
@@ -71,10 +71,11 @@ After using the tool, you can freely skip to optimal graphics settings:
 
     <h3>Instructions</h3>
 
-    1. Go to [DXVK Releases](https://github.com/doitsujin/dxvk/releases) and download the latest version - :material-zip-box:`dxvk-x.x.tar.gz`.
+    1. Go to the latest [release page](https://github.com/doitsujin/dxvk/releases/latest).
+    2. Download the :material-zip-box:`dxvk-x.x.tar.gz` archive.
         - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
-    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==.
-    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==.
+    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 === "Legacy"
     ???+ warning "Requirements"
         - You can use this version if your GPU is:
@@ -89,10 +90,11 @@ After using the tool, you can freely skip to optimal graphics settings:
 
     <h3>Instructions</h3>
 
-    1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) and download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
+    1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
+    2. Download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
         - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
-    2. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
-    3. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
     The game uses the Direct3D 9 graphics API. The other `dll`'s are for Direct3D 10 and Direct3D 11.

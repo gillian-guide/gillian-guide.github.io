@@ -40,7 +40,7 @@ description: Все про DXVK для GTA IV
 
 ### Использование
 
-1. Перейдите на [страницу релизов](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
+1. Перейдите на [страницу последнего релиза](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
 2. Скачайте :material-file-download:`GTAIVSetupUtilityWPF.exe`.
 3. Запустите программу.
 4. Нажмите `Open` и выберите вашу папку с игрой. Следуйте инструкциям в приложении, если появятся всплывающие окна.
@@ -71,10 +71,11 @@ description: Все про DXVK для GTA IV
 
     <h3>Инструкции</h3>
 
-    1. Перейдите к [релизам DXVK](https://github.com/doitsujin/dxvk/releases) и скачайте последнюю версию - :material-zip-box:`dxvk-x.x.tar.gz`.
+    1. Перейдите на [страницу последнего релиза](https://github.com/doitsujin/dxvk/releases).
+    2. Скачайте архив :material-zip-box:`dxvk-x.x.tar.gz`.
         - Если у вас ГП не от NVIDIA, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) может быть использован для замены фризов на графические проблемы - **обе проблемы временные.** ГП от NVIDIA не затронуты.
-    2. После скачивания, откройте архив и перейдите в папку ==dxvk-x.x\x32\\==.
-    3. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
+    3. После скачивания, откройте архив и перейдите в папку ==dxvk-x.x\x32\\==.
+    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
 === "Legacy"
     ???+ warning "Требования"
         - Вы можете использовать эту версию если ваш ГП:
@@ -89,7 +90,8 @@ description: Все про DXVK для GTA IV
 
     <h3>Инструкции</h3>
 
-    1. Перейдите к [релизу 1.10.3 DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) и скачайте архив :material-zip-box:`dxvk-async-1.10.3.tar.gz`.
+    1. Перейдите на [страницу релиза 1.10.3 DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
+    2. Скачайте архив :material-zip-box:`dxvk-async-1.10.3.tar.gz`.
         - Если вы хотите фризы замисть графических проблем, используйте [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) замисть async. ***обе проблемы временные.**
     2. После скачинваия, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
     3. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.

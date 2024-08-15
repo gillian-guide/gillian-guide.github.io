@@ -69,7 +69,7 @@ The following is information about two versions we will focus on and their diffe
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
     I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
-    1. Go to the [Releases page](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
+    1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
     2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
     3. Extract the archive into any empty folder.
     4. Open :material-file:`GTAIVDowngradeUtilityWPF.exe`.

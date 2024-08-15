@@ -1,33 +1,33 @@
-title: Essential Modding
-description: Must-have mods for GTA IV
+title: Обязательные моды
+description: Обязательные моды для GTA IV
 
-# Essential Modding
+# Обязательные моды
 
-In this category, you'll find mods that I think are essential to any GTA IV installation, along with instructions on how to install and configure them.
+В этой категории вы найдете моды, которые я считаю обязательными для любой установки GTA IV, вместе с инструкциями по их установке и настройке.
 
 !!! warning ""
-    Every mod onwards requires [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+    Каждый последующий мод требует [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
 
-## Navigation
+## Навигация
 
 <div class="grid cards" markdown>
 
-- **FusionFix** aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. ^^Highly recommended to install first.^^
+- **FusionFix** метит на исправление большинства **графических и геймплейных проблем** и добавляет новые настройки графики. ^^Настоятельно рекомендуется установить первым.^^
 
-    [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **ZolikaPatch** fixes or adresses some gameplay issues and **improves core multiplayer experience**. ^^Don't install unless your game is downgraded.^^
+- **ZolikaPatch** улучшает работоспособность мультиплеера и **считается обязательным для даунгрейднутых версией**. ^^Не устанавливайте, если не даунгрейдились.^^
 
-    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
 
-- **Various Fixes** aims to fix or improve a large amount of **map issues and textures.**
+- **Various Fixes** метит на исправление или улучшение большого количества **проблем с картой и текстурами**.
 
-    [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 
-- **Additional Fixes** is a list for all the **minor fixes** that don't make sense to be a whole separate page.
+- **Дополнительные фиксы** это список всех **мелких фиксов** которые не имеют смысла иметь каждую страницу по отдельности.
 
-    [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Дополнительные фиксы (список)</br>](additional-fixes.md){ .md-button .md-button--primary }
 
 </div>
 
-[:material-page-first:Previous page <br>Additional Setup</br>](../additional-setup.md){ .md-button }
+[:material-page-first:Предудыщая страница <br>Второстепенная настройка</br>](../additional-setup.md){ .md-button }

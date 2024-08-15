@@ -7,7 +7,7 @@ description: Setting up launch options and optimal graphics settings
 
 - If you're here after installing the archive or using the Setup Utility on Windows, **skip to optimal graphics settings**:
 
-    [Optimal graphics settings:material-page-last:](#optimal-graphics-settings){ .md-button }
+    [Optimal graphics settings:material-page-last:](#__tabbed_2_2){ .md-button }
 
 </div>
 

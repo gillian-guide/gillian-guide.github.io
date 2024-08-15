@@ -84,13 +84,13 @@ This mod fixes the IV Bikers voicelines in EFLC.
 1. Go to the [GTAForums page](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/).
 2. Press the **Download** link.
 3. Extract the :material-file:`BYeah.dat16` file to :material-folder: ==GTAIV/TLAD/pc/audio/config/==.
-4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==GTAIV/update/TLAD/== folder and an :material-file:`e2_audio.xml` file in :material-folder: ==GTAIV/update/TboGT/==:
+4. If the **radio was downgraded by the guide**, add the following after `<game content="ascii">ex:/pc/audio/config/epx_game.dat</game>` in the :material-file:`e1_audio.xml` file in the :material-folder: ==GTAIV/update/TLAD/== folder and an :material-file:`e2_audio.xml` file in the :material-folder: ==GTAIV/update/TBoGT/ folder==:
 
 ```text
     <game content="ascii">platform:/audio/config/BYeah.dat</game>
 ```
 
-- If the **radio was not downgraded by the guide**, copy the same-named files from the vanilla :material-folder: ==GTAIV/update/TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
+- If the **radio was not downgraded by the guide**, copy the same-named files from the vanilla :material-folder: ==GTAIV/TLAD|TBoGT/== folders to the :material-folder: ==update== folder and do the same steps as above.
 
 ---
 
@@ -122,7 +122,7 @@ This mod adds missing normal and specular maps and improves texture quality on T
 3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
     - Skip this step if you had already done it earlier with other mods.
 4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the files from the mod, replace the :material-file:`suse_002_u.wdr` and :material-file:`suse_002_a_uni.wdr` in the archive.
+5. Using the files from the mod, replace the :material-file:`suse_002_u.wdr` and :material-file:`suse_002_a_uni.wdr` files in the archive.
 
 ---
 
@@ -136,7 +136,7 @@ This mod adds missing normal and specular maps to the TLAD player model's shoes.
 2. Extract the archive into any empty folder.
 3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==GTAIV/TLAD/pc/models/cdimages/== to :material-folder: ==GTAIV/**update**/TLAD/pc/models/cdimages/==.
 4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the file from the mod, replace the :material-file:`feet_000_u.wdr` in the archive.
+5. Using the file from the mod, replace the :material-file:`feet_000_u.wdr` file in the archive.
 
 ---
 

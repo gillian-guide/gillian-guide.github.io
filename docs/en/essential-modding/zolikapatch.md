@@ -6,7 +6,7 @@ description: Some fixes for your downgraded copy, mainly for enjoying multiplaye
 !!! warning "Compatibility"
     This mod is compatible with all downgraded versions, but not Complete Edition. Skip this mod if you do not intend to downgrade - the improvements are negligible if you do not play the [multiplayer](../extras/multiplayer.md).
 
-This project aims to fix or address some **gameplay issues, aswell as improving core multiplayer experience.** You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
+This project **improves core multiplayer experience and is considered essential for downgraded versions**. You can read the changelog [here](https://zolika1351.pages.dev/mods/ivpatch).
 
 ---
 
@@ -20,7 +20,8 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 <a id="incompatible-options"></a>
 
 !!! warning "If using FusionFix..."
-    **This is already taken care of by the [Setup Utility](../../optimization.md/#setup-utility-automatic-installation).**
+    !!! tip "Setup Utility (**Windows only**)"
+        The [Setup Utility](../../optimization.md/#setup-utility-automatic-installation) can take care of this automatically for you.
 
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 

@@ -215,7 +215,7 @@ This project aims to improve various aspects of the game and it's general Qualit
 
 1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net).
 2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
-3. Go to the latest [Release](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
+3. Go to the latest [release page](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
 4. Download the :material-zip-box:`LibertyTweaksx.x.zip`.
 5. Extract the contents of :material-folder: ==1. Install== into the game folder. Replace files if prompted.
 6. Configure :material-file-cog:`IVSDKDotNet/scripts/LibertyTweaks.ini` as you wish.
@@ -233,7 +233,7 @@ This mod improves how thunder appears in-game, with actual lighting and improved
 
 1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net) if you hadn't already.
 2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
-3. Go to the latest [Release](https://github.com/ClonkAndre/ProjectThunderIV/releases/latest).
+3. Go to the latest [release page](https://github.com/ClonkAndre/ProjectThunderIV/releases/latest).
 4. Download the :material-zip-box:`ProjectThunder.vx.x.zip`.
 5. Extract the contents of :material-folder: ==Files for the main directory== into the game folder.
     - **Do not extract the :material-folder: ==pc== folder** - rather, extract it to the :material-folder: ==update== folder instead.

@@ -1,22 +1,22 @@
 title: Various Fixes
-description: One of the must-have mods for your GTA IV install that fixes a lot of map and texture issues
+description: Слишком много дырок.
 
 # [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
 
-This project aims to fix or improve a large amount of map issues and textures. You can see the changelog on the [GTAForums page](https://gtaforums.com/topic/975211-various-fixes/).
+Этот проект метит на исправление или улучшение большого количества **проблем с картой и текстурами.** Обо всех изменениях можете почитать на [странице GTAForums](https://gtaforums.com/topic/975211-various-fixes/).
 
 ---
 
-<h2>Installation</h2> <a id="installation"></a>
+<h2>Установка</h2> <a id="_2"></a>
 
-1. Make sure you have installed [FusionFix](fusionfix.md).
-2. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1nLq3uiw1XFW5lrIwdSLuk2ZhpEWzdLw0).
-3. Download the :material-zip-box:`Installation through Fusion Overloader.rar` archive.
-4. Extract the :material-folder: ==update== folder (not it's contents) into the game folder. Replace files if prompted.
-5. You can also install some extras from the :material-zip-box:`Optional Content.rar` archive. Use the :material-folder: ==Installation through Fusion Overloader== folder and do the same with the contents as step 4.
+1. Убедитесь, что у вас установлен [FusionFix](fusionfix.md).
+2. Перейдите на [папку Google Drive](https://drive.google.com/drive/folders/1nLq3uiw1XFW5lrIwdSLuk2ZhpEWzdLw0).
+3. Скачайте архив :material-zip-box:`Installation through Fusion Overloader.rar`.
+4. Распакуйте папку :material-folder: ==update== (не ее содержимое) в папку с игрой. Замените файлы если требуется.
+    - Вы также можете распаковать дополнительные части из архива :material-zip-box:`Optional Content.rar`. Используйте папку :material-folder: ==Installation through Fusion Overloader== и делайте тоже самое с ее содержимым, что и в этапе 4.
 
 ---
 
-<h2>Navigation</h2> <a id="navigation"></a>
+<h2>Навигация</h2> <a id="_3"></a>
 
-[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+[:material-page-first:Предыдудщая страница <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Следующая страница:material-page-last: <br>Дополнительные фиксы (список)</br>](additional-fixes.md){ .md-button .md-button--primary }
