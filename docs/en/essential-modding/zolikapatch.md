@@ -20,7 +20,7 @@ This project aims to fix or address some **gameplay issues, aswell as improving 
 <a id="incompatible-options"></a>
 
 !!! warning "If using FusionFix..."
-    **This is already taken care of by Setup Utility.**
+    **This is already taken care of by the [Setup Utility](../../optimization.md/#setup-utility-automatic-installation).**
 
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
