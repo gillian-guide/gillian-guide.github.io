@@ -64,7 +64,8 @@ TBA
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
     5. Нажмите `Install DXVK`, после чего `Setup launch options`. Не трогайте переключатели, если не знаете что делаете.
-    6. Вы готовы к игре!
+    6. Перейдите к :material-folder: ==IVSDKDotNet\scripts==, откройте :material-file-cog:`LibertyTweaks.ini` и выставьте `Verbose Logging` на `0`. (временный фикс)
+    7. Вы готовы к игре!
         - Запускайте игру через :material-steam: Steam или `PlayGTAIV.exe`.
         - **Если используете :simple-rockstargames: Rockstar Games Launcher**, не запускайте игру через лаунчер и удалите :material-file:`SteamAchievements.asi`.
         - **Если используете Linux**, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`).

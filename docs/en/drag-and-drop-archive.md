@@ -65,7 +65,8 @@ TBA
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
     5. Press `Install DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
-    6. You are ready to play!
+    6. Go to :material-folder: ==IVSDKDotNet\scripts==, open :material-file-cog:`LibertyTweaks.ini` and set `Verbose Logging` to `0`. (temporary hotfix)
+    7. You are ready to play!
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
         - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`.
         - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`).
