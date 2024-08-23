@@ -37,18 +37,10 @@ TBA
         - Просмотрите [оптимальные настройки графики для FusionFix](../../additional-setup.md#__tabbed_2_2).
         - **Не включайте `Check For Fusion Fix Updates`.**
 
-    !!! tip "Если используется GFWL..."
-        Нажмите "Continue" на предупреждении.
-
-        Текст ниже устаревший, ждите обновлений!
-
-        {--
-
+    !!! tip "Если используется GFWL для мультиплеера..."
         Примените этот [патч](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) наверх.
 
         Если планируется играть **только в мультиплеер**, подумайте об установки специального [патча только для мультиплеера](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) для улучшенной стабильности.
-
-        --}
 
 !!! tip "Модлоадинг"
     Этот мод может быть использован для модлоадинга. Смотрите [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) для подробностей.

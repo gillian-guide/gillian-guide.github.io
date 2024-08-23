@@ -37,18 +37,10 @@ TBA
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
         - **Do not enable `Check For Fusion Fix Updates`.**
 
-    !!! tip "If using GFWL..."
-        Press "Continue" on the warning.
-
-        Text below is outdated, please wait for an update!
-
-        {--
-
+    !!! tip "If using GFWL for multiplayer..."
         Apply this [patch](https://github.com/gillian-guide/GTAIV.EFLC.FusionFix-GFWL/releases/latest) on top.
 
         If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
-
-        --}
 
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
