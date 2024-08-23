@@ -138,7 +138,7 @@ TBA
 | [Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Отключает странные реакции пешеходов которые не имеют смысла. |
 | [Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Исправляет подсказку указывающую на неправильную цену мойки для такси. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. |
-| [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Исправляет фоны с низким разрешением в меню EFLC и удаляет текст Social Club. |
+| [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Исправляет фоны с низким разрешением в меню EFLC. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Изменяет некоторые декали на точно такие же, но в высшем разрешении, из GTA V. |
 | [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Увеличивает разрешение карты в меню и на миникарте. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Повышает качество иконок радио на интерфейсе, так как они сильно не соответствуют другим частям интерфейса. |

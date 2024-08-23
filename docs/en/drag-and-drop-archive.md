@@ -72,6 +72,7 @@ TBA
         - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`).
         - It's preferable to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
+        - **Do not enable `Check For Fusion Fix Updates`.**
         - If you want **more mods, check out [additional mods](#additional-mods)**.
 
     !!! info "Updating"
@@ -140,7 +141,7 @@ All mods in the following list are present in both archives with identical versi
 | [Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Disables pedestrian reactions that don't make any sense. |
 | [Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Fixes incorrect hint for the price of the carwash for taxis. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Changes the pitch of the traffic screech in Algonquin to match the real-life levels you'd usually hear in Times Square. |
-| [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Fixes the lower-resolution backgrounds in EFLC menus and removes the Social Club text. |
+| [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Fixes the lower-resolution backgrounds in EFLC menus. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Replaces some decals with faithful higher resolution counterparts from GTA V. |
 | [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Increases the resolution of the map in the pause menu and the minimap. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |

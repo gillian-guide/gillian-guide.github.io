@@ -78,7 +78,7 @@ This mod fixes an oversight in the pistol's model where the iron sight doesn't m
 
 ## [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611)
 
-This mod fixes the lower-resolution backgrounds in EFLC menus and removes the Social Club text.
+This mod fixes the lower-resolution backgrounds in EFLC menus.
 
 <h3>Installation</h3>
 

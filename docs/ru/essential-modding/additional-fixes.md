@@ -78,7 +78,7 @@ description: Еще больше??
 
 ## [Menu Art Fix](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072165611)
 
-Этот мод исправляет фоны с низким разрешением в меню EFLC и удаляет текст Social Club.
+Этот мод исправляет фоны с низким разрешением в меню EFLC.
 
 <h3>Установка</h3>
 

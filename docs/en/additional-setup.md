@@ -144,16 +144,17 @@ If you're here after anything else (including installing the archive on Linux), 
     | Texture Quality | High | This setting controls the resolution of all textures. |
     | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Very High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
-    | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**FusionFix reimplements shadows, so *Very High* is not that taxing anymore.** |
-    | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
+    | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**If the performance loss is too high, use *High* instead.**<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
     | View Distance | 25<br>Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *25* causes pop-in, and above *70* has diminishing results.** |
     | Detail Distance | 31<br>Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *31* causes pop-in, and above *70* has diminishing results.** |
     | Vehicle Density | Below 70<br>100 with a custom popcycle (archive) | This setting controls the number of cars on the road.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
     | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation.** |
-    | Sun Shafts | Preference | This setting controls custom-implemented godrays. |
+    | Shadow Filter | Preference | This setting controls how sharp the shadows look (as, in real life, shadows are pretty soft).<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Sun Shafts | Preference | This setting controls custom-implemented godrays.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
-    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.** AMD Fluid Motion Frames (if DXVK is used) or [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
+    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs. You may want to lower it to 30 for some minigames.**<br>AMD Fluid Motion Frames (if DXVK is used) or [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
     | Lamppost Shadows | Preference | This setting enables lamppost shadows at the cost of potential pop-in and reduced performance. |
 
@@ -167,7 +168,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | Console Gamma | Preference | This setting changes the gamma to match the console levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Depth of Field | Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | Tree Lighting | Preference | This setting controls the vegetation's ambient occlusion. |
+    | Tree Lighting | Preference | This setting controls the vegetation's ambient occlusion.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Tree Alpha | Preference | This setting controls the vegetation's "transparency".<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Definition | On | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
     !!! note ""
@@ -177,7 +179,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-------------: | :---------: |
     | Windowed | On | This setting controls whether game is in Exclusive Fullscreen mode or (Borderless) Windowed.<br>Borderless is generally more recommended than Exclusive Fullscreen for multitasking purposes. |
     | Windowed Borderless | On if using `Windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `Windowed` setting is **On**. |
-    | Pause Game on Focus Loss | Preference | This setting controls whether or not the game will be paused when the window loses focus (alt-tabbing). |
+    | Pause Game on Focus Loss | Off | This setting controls whether or not the game process will be locked when the window loses focus (alt-tabbing).<br>You should set this to **Off** to avoid potential crashes. |
 
 === "Console-identical"
     !!! info "What are these settings?"
@@ -217,6 +219,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Depth of Field | Very High (?) | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
     | Tree Lighting | Console | This setting controls the vegetation's ambient occlusion. |
+    | Tree Alpha | Console | This setting controls the vegetation's "transparency" |
     | Definition | Off | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
 
 ---

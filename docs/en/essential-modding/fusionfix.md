@@ -35,6 +35,7 @@ TBA
         - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
         - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
         - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
+        - **Do not enable `Check For Fusion Fix Updates`.**
 
     !!! tip "If using GFWL..."
         Press "Continue" on the warning.
