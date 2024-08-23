@@ -43,7 +43,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Game crashes immediately upon booting"
     - Try turning off RivaTuner Statistics (with MSI Afterburner if using that) or any other software of this sort - overlays can mess the game up on boot.
     - On a downgraded version, try installing [ZolikaPatch](../../essential-modding/zolikapatch.md) if you hadn't already.
-    - If you have downgraded to 1.0.4.0, delete :material-file-cog:`settings.cfg` in :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
+    - Try deleting `SETTINGS.cfg` from :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with injectable mods, so start there.
 
 ---

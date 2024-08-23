@@ -136,6 +136,17 @@ This mod increases the resolution of the map in the pause menu and the minimap.
 
 ---
 
+## [HD HUD and Reticle](https://www.nexusmods.com/gta4/mods/455)
+
+This mod increases the resolution of UI elements.
+
+1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/456?tab=files).
+2. Download the latest main file.
+3. Open the downloaded archive.
+4. Extract the :material-folder: ==update== folder from the :material-folder: ==FusionOverloader Install== folder into the game folder.
+
+---
+
 ## [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/)
 
 This mod makes interiors more visible from the outside, although comes with a downside of potential pop-in.
@@ -206,17 +217,6 @@ These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart m
 <h3>Installation</h3>
 
 1. Download this [archive](https://drive.google.com/file/d/1pEYBjV2mwfsQFKPbzwB6FEY-vSGn9hF3/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-
----
-
-## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/)
-
-These mods by Attramet fix some small inconsistencies that don't make much sense.
-
-<h3>Installation</h3>
-
-1. Download this [archive](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
@@ -304,7 +304,7 @@ This mod adds background noise to the game, such as driving and shooting, alike 
 
 Please use the following load order (put the number before the folder names) after installing the mods above:
 
-1. Minor Mods (any other mod you don't see below is considered minor - thier order doesn't matter that much but they should be loaded on top)
+1. Minor Mods (any other mod you don't see below is considered minor - their order doesn't matter that much but they should be loaded on top)
 2. Restored Trees Position
 3. Restored Pedestrians
 4. Higher Resolution Miscellaneous Pack
