@@ -147,6 +147,15 @@ This mod increases the resolution of UI elements.
 
 ---
 
+## [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing)
+
+Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT.
+
+1. Download this [archive](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
 ## [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/)
 
 This mod makes interiors more visible from the outside, although comes with a downside of potential pop-in.

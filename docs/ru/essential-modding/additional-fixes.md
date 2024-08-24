@@ -21,7 +21,7 @@ description: Еще больше??
 
 ---
 
-## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](https://gtaforums.com/topic/989680-attramets-workshop/)
+## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/)
 
 Эти моды от Attramet исправляют некоторые недочеты которые не имеют никакого смысла.
 
