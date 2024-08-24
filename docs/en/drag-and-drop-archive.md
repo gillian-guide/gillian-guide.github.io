@@ -337,11 +337,11 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
-    ??? quote "Old changes"
         - 24.08.2024:
             - Updated FusionFix.
             - Fixed missing Mallorie's body in the "Luck of the Irish" mission.
             - Added the pump shotgun gameplay and prop model from TLAD to IV and TBoGT.
+    ??? quote "Old changes"
         - 23.08.2024:
             - Updated FusionFix, Liberty Tweaks.
             - Added HD HUD and Reticle, `cargrp` fixes from RecklessGlue540.
