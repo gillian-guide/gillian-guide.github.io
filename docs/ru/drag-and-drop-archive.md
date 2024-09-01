@@ -109,8 +109,8 @@ TBA
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
 | [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.0.3~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
-| [Various Fixes~1.90-custom~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+| [FusionFix~3.0.5~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
+| [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Clothing, Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
 | [Restored Pedestrians~29.07.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
@@ -192,11 +192,14 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 01.09.2024:
+            - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
+            - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
+    ??? quote "Старые изменения"
         - 24.08.2024:
             - Обновлен FusionFix.
             - Исправлено пропавшее тело Мэллори в миссии "Ирландское счастье".
             - Добавлена геймплейная и проповая модель помпового дробовика из TLAD в IV и TBoGT.
-    ??? quote "Старые изменения"
         - 23.08.2024:
             - Обновлен FusionFix.
             - Добавлены HD HUD and Reticle, фиксы для `cargrp` от RecklessGlue540.
@@ -334,11 +337,14 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 01.09.2024:
+            - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
+            - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
+    ??? quote "Старые изменения"
         - 24.08.2024:
             - Обновлен FusionFix.
             - Исправлено пропавшее тело Мэллори в миссии "Ирландское счастье".
             - Добавлена геймплейная и проповая модель помпового дробовика из TLAD в IV и TBoGT.
-    ??? quote "Старые изменения"
         - 23.08.2024:
             - Обновлены FusionFix, Liberty Tweaks.
             - Добавлены HD HUD and Reticle, фиксы для `cargrp` от RecklessGlue540.
