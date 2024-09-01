@@ -145,7 +145,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Reflection Resolution | Very High | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Very High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
     | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**If the performance loss is too high, use *High* instead.**<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
-    | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows and the shadows' resolution.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
     | View Distance | 25<br>Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *25* causes pop-in, and above *70* has diminishing results.** |
     | Detail Distance | 31<br>Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *31* causes pop-in, and above *70* has diminishing results.** |
@@ -197,7 +197,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Reflection Resolution | Medium | This setting controls the resolution of reflections (excluding water reflections). |
     | Water Quality | Medium | This setting *only* controls the resolution of the water reflections when using FusionFix. |
     | Shadow Quality | Medium (?) | This setting controls the resolution and render distance of shadows. |
-    | Night Shadows | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows. |
+    | Night Shadows | Off | This setting controls how many local lights (e.g. car headlights) can cast shadows and the shadows' resolution. |
     | Texture Filter Quality | Tri-Linear | This setting controls texture filtering. |
     | View Distance | 21 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
     | Detail Distance | 10 | This setting controls the secondary LOD render distance for props detail. |
