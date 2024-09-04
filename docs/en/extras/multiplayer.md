@@ -9,7 +9,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 
 ## Prerequisites and info
 
-- It's recommended to have [ZolikaPatch](../../essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions and set `DoNotPauseOnMinimize` to `1`.
+- It's recommended to have [ZolikaPatch](../../essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
 - Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
     - It is also recommended to use the [GFWLMin patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability - ^^but it cuts out singleplayer features.^^
 - Additionally, you may want to have [ZMenuIV](trainers.md/#ZMenuIV) for the ability to create and participate in custom gamemodes.
@@ -41,7 +41,8 @@ The one and only official multiplayer method. And to that end, it's also the one
 1. Make sure you don't have outdated installations of `GFWL Marketplace` and `LIVE`. Remove them if you do.
 2. Download latest [Redistributables](https://community.pcgamingwiki.com/files/file/1012-microsoft-games-for-windows-live/).
 3. Extract the archive in any empty folder.
-4. Install :material-file-download:`gfwllivesetup.exe`.
+4. Run :material-file-download:`gfwllivesetup.exe` and go through the installation.
+5. Install the [Xbox App](https://apps.microsoft.com/detail/9mv0b5hzvk9z) and sign into the Xbox account in it. This is required for signing in later.
 !!! question "What's the Marketplace?"
     While you do get the Marketplace, don't bother opening it or trying to make it work. Marketplace is not functional, but still must be installed for GFWL itself to work.
 
@@ -52,8 +53,6 @@ The one and only official multiplayer method. And to that end, it's also the one
 !!! warning ""
     GFWL account is the same as a [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account. Create one if you don't already have one.
 
-    [Disable 2FA completely on the account](https://account.microsoft.com/security) to be able to sign in. You can turn it back on after you're signed in.
-
 1. Make sure you don't have :fontawesome-solid-gears:`xlive.dll` in the game folder - rename it to :fontawesome-solid-gears:`dinput8.dll` if you do.
 2. Open the game.
 3. Press the ++home++ key on your keyboard. You'll be met with the startup screen.
@@ -62,7 +61,8 @@ The one and only official multiplayer method. And to that end, it's also the one
 5. Uncheck `Save my e-mail address` and `Save my e-mail address and password`.
 6. Enter your [Microsoft](https://microsoft.com/account) or [Xbox](https://xbox.com/account) account credentials to sign in.
     - **Check `Sign me in automatically`**. This will allow you to re-enable 2FA on your account, aswell.
-7. Make yourself a cup of tea or do whatever you want for the next 5-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
+    - **If you have a password longer than 16 character or use 2FA,** go to [this website](https://account.live.com/proofs/AppPassword) and use the generated "App password" to sign in.
+7. Make yourself a cup of tea or do whatever you want for the next 2-10 minutes. I'm not kidding - it might take that long to log in. ==Don't think it's stuck - it's not.==
 8. The game will ask you for an activation key now:
 
 ???+ note "Activation"
@@ -75,17 +75,19 @@ The one and only official multiplayer method. And to that end, it's also the one
         After you've made sure you don't have one already, you can:
 
         - Look for a GFWL key on some marketplaces.
-        - Buy one of these two Steam games, which are the only ones still selling a GFWL key as of December 2023. This may change in the future. ==Don't worry, you can refund the game after you purchase the key.==
+        - Buy one of these Steam games, which are the only ones still selling a GFWL key as of December 2023. This may change in the future. ==Don't worry, you can refund the game after you purchase the key.==
 
         <iframe src="https://store.steampowered.com/widget/32420/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
 
         <iframe src="https://store.steampowered.com/widget/10460/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
 
+        <iframe src="https://store.steampowered.com/widget/20570/4025/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
+
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random keys online"
-        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. These two Discord servers might help you:
+        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. This Discord server might help you:
 
-        [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: Games For Windows Live Hub](https://discord.gg/d97u73k2TV){ .md-button .md-button--primary }
+        [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     === "RevIVal's community method"
         The channel with the activation method is `#gfwl-keys` (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
 
