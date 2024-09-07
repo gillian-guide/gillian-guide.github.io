@@ -161,6 +161,14 @@ I know about these issues, no need to report them to me, unless you know a solut
 
     Alternatively, give up. Seriously, just give up and try other multiplayer methods - some people are just stuck with the kickbug with no way to fight it.
 
+??? info ""Password contains special characters" or Error code: 0x80048821"
+    [Create a new app password](https://account.live.com/proofs/AppPassword) and use that to log in.
+
+??? info "GFWL overlay doesn't appear"
+    - You are using XLiveless (:fontawesome-solid-gears:`xlive.dll`). Rename the file to `dinput8.dll`.
+    - GFWL files are missing. You need :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` and `GTAIV.exe.cat`.
+    - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
+
 ??? info ""This session no longer exists" in GFWL"
     The license key you're using is also used by somebody else who's already in the lobby. Log out and find yourself a different key or re-run the keygen.
 
@@ -171,23 +179,24 @@ I know about these issues, no need to report them to me, unless you know a solut
     Restart the game.
 
 ??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
-    - Make sure you have `-windowed` in your :material-file-cog:`commandline.txt`.
-    - Enable `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
-        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` instead.
+    - Enable `Windowed`, `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
+        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
 
 ??? info ""The profile could not be signed in to LIVE" in GFWL"
-    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account.
     - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
+    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account.
 
 ??? info "Error code: 0x8007065b in GFWL"
     Only known solution is to use another account to sign in.
 
 ??? info "Error code: 0x80151906 in GFWL"
-    Xbox LIVE servers are likely down at the moment, try again later.
+    [Xbox LIVE servers are likely down at the moment](https://support.xbox.com/en-US/xbox-live-status), try again later.
 
-??? info "GFWL overlay doesn't appear"
-    - You are using XLiveless (:fontawesome-solid-gears:`xlive.dll`). Rename the file to `dinput8.dll`.
-    - GFWL files are missing. You need :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` and `GTAIV.exe.cat`.
+??? info "Error code: 0x8015403A in GFWL"
+    Try logging in on the [website](https://account.xbox.com/Account/Signin).
+
+??? info "Error code: 0x80150001 in GFWL"
+    GFWL only allows 100 friends maximum on the account. Reduce your number of friends on the account below 100, then try logging in again.
 
 ??? info "Getting kicked by the anticheat in GTAC"
     Your files are likely modified - make sure you're using a clean copy from :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher.
