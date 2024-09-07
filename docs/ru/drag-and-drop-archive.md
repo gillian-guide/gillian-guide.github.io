@@ -24,7 +24,7 @@ TBA
     Следующий переключитель относится к версии игры - базовые различия между ними смотрите [здесь](../downgrading/downgrading-the-game.md/#версии-игры). Моды в обоих архивах в основном идентичны, но **1.0.8.0 включает больше изменений в роде Quality of Life взамен на некоторые исправления в FusionFix и удаляет Rockstar Games Launcher, в то время как 1.2.0.59 считается более стабильным.**
 
 === "1.2.0.59"
-    Последний раз обновлено: **[24.08.2024](#_9)**
+    Последний раз обновлено: **[07.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -51,7 +51,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[24.08.2024](#_9)**
+    Последний раз обновлено: **[07.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -109,7 +109,7 @@ TBA
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
 | [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.0.5~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
+| [FusionFix~3.0.8~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
 | [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Clothing, Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
@@ -120,8 +120,10 @@ TBA
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
 | [Project Glass~19.03.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
 | [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
+| [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | Замена popcycle в духе оригинала который делает жизнь в городе более разнообразным и реалистичным. |
+| [Bullet Penetration~Minimal Edition~](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Позволяет пулям пробивать стекла так, как с лобовыми стеклами. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Улучшает текстуры мутного доктора в миссии "Имейте сердце". |
-| [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Улучшает качество модели и текстур для голубей. |
+| [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Улучшает модель и качество текстуры голубей. |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Уменьшение размера Blista Compact для соответствия реальному аналогу (Honda CR-X).  |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого. |
@@ -134,7 +136,7 @@ TBA
 | [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/) | 6135 | Добавляет недостающие карты нормалей и спекуляций в обувь модели игрока в TLAD. |
 | [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Заменяет Esperanto возле оффиса Романа на его же такси. |
 | [Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Отключает странные реакции пешеходов которые не имеют смысла. |
-| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. |
+| [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. ||
 | [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Исправляет фоны с низким разрешением в меню EFLC. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Изменяет некоторые декали на точно такие же, но в высшем разрешении, из GTA V. |
 | [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Увеличивает разрешение карты в меню и на миникарте. |
@@ -192,10 +194,14 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 07.09.2024:
+            - Обновлен FusionFix.
+            - Добавлен Bullet Penetration - Minimal Edition.
+            - Исправлен вылет в TLAD, который случался когда проезжаешь мимо таксопарка Романа.
+    ??? quote "Старые изменения"
         - 01.09.2024:
             - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
             - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
-    ??? quote "Старые изменения"
         - 24.08.2024:
             - Обновлен FusionFix.
             - Исправлено пропавшее тело Мэллори в миссии "Ирландское счастье".
@@ -337,10 +343,14 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 07.09.2024:
+            - Обновлены FusionFix, Liberty Tweaks.
+            - Добавлен Bullet Penetration - Minimal Edition.
+            - Исправлен вылет в TLAD, который случался когда проезжаешь мимо таксопарка Романа.
+    ??? quote "Старые изменения"
         - 01.09.2024:
             - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
             - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
-    ??? quote "Старые изменения"
         - 24.08.2024:
             - Обновлен FusionFix.
             - Исправлено пропавшее тело Мэллори в миссии "Ирландское счастье".

@@ -18,10 +18,9 @@ This project ports select console visuals to the PC version.
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/).
-2. Press `Download`.
-3. Open the :material-zip-box:`CE` archive and the :material-folder: ==CE (Automatic installation, Latest Version of FusionFix is Required)== folder inside of it.
-4. Pick which part of the mod you want to install, open the corresponding folder and extract the folder(s) inside to the game folder. Replace files if prompt.
+1. Go to the latest [release page](https://github.com/Tomasak/Console-Visuals/releases/tag/latest).
+2. Download the archives of parts you wish to install.
+3. Extract the :material-folder: ==update== folder from each archive into the game folder.
 
 ---
 
@@ -242,6 +241,17 @@ A vanilla-friendly popcycle that makes the city life more varied and realistic.
 4. Extract the :material-folder: ==update== folder from that folder into the game folder.
 
 ---
+
+## [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/)
+
+This mod allows bullets to penetrate glass like they do with car windshields.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/989496-bullet-penetration/).
+2. Press `Download`.
+3. Open the :material-zip-box:`Bullet Penetration.zip` archive and the :material-folder: ==Minimal Edition== folder inside of it.
+4. Extract the :material-folder:==common== folder into the :material-folder: ==update== folder.
 
 ## [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/)
 

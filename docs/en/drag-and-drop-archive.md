@@ -24,7 +24,7 @@ TBA
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
 === "1.2.0.59"
-    Last updated: **[01.09.2024](#changelog)**
+    Last updated: **[07.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -52,7 +52,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[01.09.2024](#changelog)**
+    Last updated: **[07.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -111,7 +111,7 @@ All mods in the following list are present in both archives with identical versi
 | Mod | Developer(s) | Details |
 | :-: | :--------: | :-----: |
 | [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.0.5~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
+| [FusionFix~3.0.8~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
 | [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Clothing, Console Fences, Console Animations, Console Peds. See [Additional Mods](#additional-mods) for more.</br> |
@@ -123,6 +123,7 @@ All mods in the following list are present in both archives with identical versi
 | [Project Glass~19.03.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass.|
 | [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
 | [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
+| [Bullet Penetration~Minimal Edition~](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Resizes the Blista Compact to match the real life counterpart (Honda CR-X).  |
@@ -195,10 +196,14 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 07.09.2024:
+            - Updated FusionFix.
+            - Added Bullet Penetration - Minimal Edition.
+            - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
+    ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
             - Temporarily removed :material-file:`hud.txd` due to game-breaking issues. Weird.
-    ??? quote "Old changes"
         - 24.08.2024:
             - Updated FusionFix.
             - Fixed missing Mallorie's body in the "Luck of the Irish" mission.
@@ -340,10 +345,14 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 07.09.2024:
+            - Updated FusionFix, Liberty Tweaks.
+            - Added Bullet Penetration - Minimal Edition.
+            - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
+    ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
             - Temporarily removed :material-file:`hud.txd` due to game-breaking issues. Weird.
-    ??? quote "Old changes"
         - 24.08.2024:
             - Updated FusionFix.
             - Fixed missing Mallorie's body in the "Luck of the Irish" mission.
