@@ -200,6 +200,7 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated FusionFix.
             - Added Bullet Penetration - Minimal Edition.
             - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
+            - Fixed Console Clothing.
     ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
@@ -349,6 +350,7 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated FusionFix, Liberty Tweaks.
             - Added Bullet Penetration - Minimal Edition.
             - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
+            - Fixed Console Clothing.
     ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
