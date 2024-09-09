@@ -70,7 +70,7 @@ The one and only official multiplayer method. And to that end, it's also the one
     === "Buying a key or game"
         One of the ways to activate the game is to own a GFWL key. Although you'll share it with a lot of other people - it'll still be "yours", so to say.
 
-        First, check if you already own any game with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - you may already own one of these games - check if their CD Key works for you.
+        First, check if you already own any game with [Legacy (5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - you may already own one of these games - check if their CD Key works for you.
 
         After you've made sure you don't have one already, you can:
 
@@ -85,7 +85,7 @@ The one and only official multiplayer method. And to that end, it's also the one
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random keys online"
-        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (Per-Title 5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. This Discord server might help you:
+        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. This Discord server might help you:
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     === "RevIVal's community method"
