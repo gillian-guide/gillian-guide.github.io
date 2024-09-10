@@ -205,6 +205,19 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 
 ---
 
+## [TV Restoration] (https://gtaforums.com/topic/977025-tv-restoration/)
+
+This mod restores in-game television programs by combining the best-quality video and audio tracks found in all releases of Grand Theft Auto IV and Episodes from Liberty City and restores a missing show to The Complete Edition.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/977025-tv-restoration/).
+2. Press `DOWNLOAD`.
+3. Download the archive.
+4. Extract the :material-folder: ==movies==, :material-folder: ==TBoGT== and :material-folder: ==TLAD== folders from the archive into the game folder.
+
+---
+
 ## [Various Pedestrian Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/)
 
  This mod adds, corrects and completes unfinished actions for pedestrians.
