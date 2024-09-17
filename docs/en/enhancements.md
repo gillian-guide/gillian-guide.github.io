@@ -83,15 +83,26 @@ This mod adds nice water droplets on the screen.
 
 ---
 
+## [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments)
+
+This mod fixes various issues with the weapon animations.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://drive.google.com/file/d/1fpd7qloIXDu6WhIl6NXAj5JCT1ilReW3/view?usp=sharing).
+2. Download the mod via the desired mirror.
+3. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
 ## [Higher Resolution Miscellaneous Pack](https://gtaforums.com/topic/887527-ash_735s-workshop/page/6/#comment-1072246033)
 
 This mod improves the texture quality of minor assets.
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/6/#comment-1072246033).
-2. Download the mod via the desired mirror.
-3. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Download this [archive](https://drive.google.com/file/d/1fpd7qloIXDu6WhIl6NXAj5JCT1ilReW3/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -119,19 +130,6 @@ This mod increases the quality of UI radio icons, as they are highly inconsisten
 3. Go to the [GTAForums page for Higher Res Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/page/3/#comment-1071512871).
 4. Press on `Right Here (MEGA)` to download.
 5. Extract both archives in :material-folder: ==**update**/pc/textures/==.
-
----
-
-## [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456)
-
-This mod increases the resolution of the map in the pause menu and the minimap.
-
-<h3>Installation</h3>
-
-1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/456?tab=files).
-2. Download the latest main file.
-3. Open the downloaded archive.
-4. Extract the :material-folder: ==update== folder from the :material-folder: ==FusionOverloader Install== folder into the game folder.
 
 ---
 

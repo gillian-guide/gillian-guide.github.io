@@ -33,11 +33,11 @@ For directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
 
 ## Attramet
 
-For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/#restored-pedestrians-restored-pedestrians-clothes), [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions & Fixed Carwash Price Text](../../essential-modding/additional-fixes.md/#replaced-esperanto-by-romans-taxi-in-cab-depot-fixed-pedestrian-reactions-fixed-carwash-price-text) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
+For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/#restored-pedestrians-restored-pedestrians-clothes), [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions](../../essential-modding/additional-fixes.md/#replaced-esperanto-by-romans-taxi-in-cab-depot-fixed-pedestrian-reactions) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
 
 ## Valentyn_L
 
-For their work on [UHD Vanilla Map and Radar](../../enhancements.md/#uhd-vanilla-map-and-radar) and directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and [Various Fixes](../../essential-modding/various-fixes.md) and their work on other [mods](../../extras/mods.md).
+For their work on [HD HUD and Reticle](../../enhancements.md/#hd-hud-and-reticle) and directly contributing to [FusionFix](../../essential-modding/fusionfix.md) and [Various Fixes](../../essential-modding/various-fixes.md) and their work on other [mods](../../extras/mods.md).
 
 ## \_CP_
 
@@ -113,7 +113,11 @@ For their work on [Resized Blista Compact](../../enhancements.md/#resized-blista
 
 ## B Dawg
 
-For their work on [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix).
+For their work on [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) and [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix).
+
+### C1aude_III
+
+For directly contributing to [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
 
 ## GladiTek
 
@@ -161,7 +165,7 @@ The communities of these discord servers helped me a lot with this guide:
 
 ## Me (Gillian)
 
-I've been working on this guide for way over 2 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
+I've been working on this guide for way over 3 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
 I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature.
 

@@ -24,7 +24,7 @@ TBA
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
 === "1.2.0.59"
-    Last updated: **[07.09.2024](#changelog)**
+    Last updated: **[17.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -52,7 +52,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[07.09.2024](#changelog)**
+    Last updated: **[17.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -110,13 +110,14 @@ All mods in the following list are present in both archives with identical versi
 
 | Mod | Developer(s) | Details |
 | :-: | :--------: | :-----: |
-| [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.0.8~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
+| [Radio Downgrader~31.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [FusionFix~3.1.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
 | [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Clothing, Console Fences, Console Animations, Console Peds. See [Additional Mods](#additional-mods) for more.</br> |
-| [Restored Pedestrians~29.07.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
-| [Various Pedestrians Actions~04.09.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
+| [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
+| [Restored Pedestrians~30.08.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
+| [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
 | [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns. |
 | [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
@@ -142,7 +143,6 @@ All mods in the following list are present in both archives with identical versi
 | [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Fixes the lower-resolution backgrounds in EFLC menus. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Replaces some decals with faithful higher resolution counterparts from GTA V. |
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, me, Ash_735 | Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT. |
-| [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Increases the resolution of the map in the pause menu and the minimap. |
 | [HD HUD and Reticle](https://www.nexusmods.com/gta4/mods/455) | Valentyn_L | Increases the resolution of UI elements. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
@@ -196,15 +196,22 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 17.09.2024:
+            - Updated FusionFix, Radio Downgrader, Restored Pedestrians.
+            - Actually include Various Pedestrian Actions this time, lol.
+            - Returned Improved Animations Pack.
+            - Removed Console Weapon Animations.
+            - Temporarily removed UHD Vanilla Map and Radar until crash issues are resolved.
+            - Fixed the crash in Marta Full of Grace mission (TLAD).
+            - Fixed the broken cop models in EFLC.
+    ??? quote "Old changes"
         - 07.09.2024:
             - Updated FusionFix.
             - Added Bullet Penetration - Minimal Edition.
             - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
             - Fixed Console Clothing.
-    ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
-            - Temporarily removed :material-file:`hud.txd` due to game-breaking issues. Weird.
         - 24.08.2024:
             - Updated FusionFix.
             - Fixed missing Mallorie's body in the "Luck of the Irish" mission.
@@ -346,12 +353,20 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 17.09.2024:
+            - Updated FusionFix, Radio Downgrader, Restored Pedestrians, Liberty Tweaks.
+            - Actually include Various Pedestrian Actions this time, lol.
+            - Returned Improved Animations Pack.
+            - Removed Console Weapon Animations.
+            - Temporarily removed UHD Vanilla Map and Radar until crash issues are resolved.
+            - Fixed the crash in Marta Full of Grace mission (TLAD).
+            - Fixed the broken cop models in EFLC.
+    ??? quote "Old changes"
         - 07.09.2024:
             - Updated FusionFix, Liberty Tweaks.
             - Added Bullet Penetration - Minimal Edition.
             - Fixed a crash in TLAD whenever passing by Roman's taxi depot.
             - Fixed Console Clothing.
-    ??? quote "Old changes"
         - 01.09.2024:
             - Updated FusionFix, Various Fixes (should've fixed some issues).
             - Temporarily removed :material-file:`hud.txd` due to game-breaking issues. Weird.

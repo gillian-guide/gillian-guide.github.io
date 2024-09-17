@@ -24,7 +24,7 @@ TBA
     Следующий переключитель относится к версии игры - базовые различия между ними смотрите [здесь](../downgrading/downgrading-the-game.md/#версии-игры). Моды в обоих архивах в основном идентичны, но **1.0.8.0 включает больше изменений в роде Quality of Life взамен на некоторые исправления в FusionFix и удаляет Rockstar Games Launcher, в то время как 1.2.0.59 считается более стабильным.**
 
 === "1.2.0.59"
-    Последний раз обновлено: **[07.09.2024](#_9)**
+    Последний раз обновлено: **[17.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -51,7 +51,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[07.09.2024](#_9)**
+    Последний раз обновлено: **[17.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -108,13 +108,14 @@ TBA
 
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
-| [Radio Downgrader~10.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.0.8~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
+| [Radio Downgrader~31.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [FusionFix~3.1.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
 | [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Clothing, Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
-| [Restored Pedestrians~29.07.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
-| [Various Pedestrians Actions~04.09.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и завершает недоделанные действия для пешеходов. |
+| [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg и C1aude_III | Исправляет разные проблемы с анимациями оружий. |
+| [Restored Pedestrians~30.08.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
+| [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и завершает недоделанные действия для пешеходов. |
 | [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает деревья, которые присутствовали в бета-версиях, но были вырезаны в финальном релизе - либо случайно, либо из-за проблем с производительностью. |
 | [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьер более заметными снаружи, хотя имеет недостаток в виде появления интерьеров на глазах. |
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
@@ -139,7 +140,6 @@ TBA
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. ||
 | [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Исправляет фоны с низким разрешением в меню EFLC. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Изменяет некоторые декали на точно такие же, но в высшем разрешении, из GTA V. |
-| [UHD Vanilla Map and Radar](https://www.nexusmods.com/gta4/mods/456) | Valentyn_L | Увеличивает разрешение карты в меню и на миникарте. |
 | [HD HUD and Reticle](https://www.nexusmods.com/gta4/mods/455) | Valentyn_L | Увеличивает разрешение элементов интерфейса. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Повышает качество иконок радио на интерфейсе, так как они сильно не соответствуют другим частям интерфейса. |
 
@@ -194,12 +194,20 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 17.09.2024:
+            - Обновлены FusionFix, Radio Downgrader, Restored Pedestrians.
+            - Теперь реально добавил Various Pedestrian Actions, лол.
+            - Вернул Improved Animations Pack.
+            - Удален Console Weapon Animations.
+            - Временно удален UHD Vanilla Map and Radar пока не будут исправлены краши.
+            - Исправлен краш в миссии Марта, благодати полная (Marta Full of Grace) (TLAD).
+            - Исправлены сломанные модели копов в EFLC.
+    ??? quote "Старые изменения"
         - 07.09.2024:
             - Обновлен FusionFix.
             - Добавлен Bullet Penetration - Minimal Edition.
             - Исправлен вылет в TLAD, который случался когда проезжаешь мимо таксопарка Романа.
             -  Исправлена консольная одежда.
-    ??? quote "Старые изменения"
         - 01.09.2024:
             - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
             - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
@@ -344,12 +352,20 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 17.09.2024:
+            - Обновлены FusionFix, Radio Downgrader, Restored Pedestrians, Liberty Tweaks.
+            - Теперь реально добавил Various Pedestrian Actions, лол.
+            - Вернул Improved Animations Pack.
+            - Удален Console Weapon Animations.
+            - Временно удален UHD Vanilla Map and Radar пока не будут исправлены краши.
+            - Исправлен краш в миссии Марта, благодати полная (Marta Full of Grace) (TLAD).
+            - Исправлены сломанные модели копов в EFLC.
+    ??? quote "Старые изменения"
         - 07.09.2024:
             - Обновлены FusionFix, Liberty Tweaks.
             - Добавлен Bullet Penetration - Minimal Edition.
             - Исправлен вылет в TLAD, который случался когда проезжаешь мимо таксопарка Романа.
             - Исправлена консольная одежда.
-    ??? quote "Старые изменения"
         - 01.09.2024:
             - Обновлены FusionFix, Various Fixes (должно исправить некоторые баги).
             - Временно удален :material-file:`hud.txd` из-за крашей. Странно.
