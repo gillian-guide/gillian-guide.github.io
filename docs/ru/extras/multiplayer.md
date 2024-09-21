@@ -129,7 +129,7 @@ If you're looking for people to play with, visit this Discord server:
 
     GTA Connected only supports ZolikaPatch and ZMenuIV out of mods - other mods are simply not loaded **(though, unless they replace game files, there's no need to remove them).**
 
-    If you want to have Fusion Shaders, you can use [V106](https://github.com/Parallellines0451/GTAIV.EFLC.FusionShaders/releases/tag/V106) - but this version lacks a lot of things from the latest versions present in FusionFix; it's still better than nothing, though. **Backup the :material-folder: ==shaders== folder before installing.**
+    If you want to have Fusion Shaders, you can use [V106](https://github.com/gillian-guide/GTAIVFullDowngradeAssets/releases/download/Base/ShaderFixes.zip) - but this version lacks a lot of things from the latest versions present in FusionFix; it's still better than nothing, though. **Backup the :material-folder: ==shaders== folder before installing.**
 
 Second most popular multiplayer option, as it's the best way to experience GTA IV multiplayer without messing with GFWL while still having many of things intact from the official multiplayer.
 
