@@ -65,13 +65,13 @@ description: Еще больше??
 
 ---
 
-## [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15)
+## [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing)
 
 Этот мод исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла.
 
 <h3>Установка</h3>
 
-1. Скачайте этот [архив](https://drive.google.com/file/d/1xVV-towntlO8uZX5N1Ftt83zGljKIamf/view?usp=sharing).
+1. Скачайте этот [архив](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---

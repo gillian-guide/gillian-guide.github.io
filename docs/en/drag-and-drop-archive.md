@@ -24,7 +24,7 @@ TBA
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable.**
 
 === "1.2.0.59"
-    Last updated: **[17.09.2024](#changelog)**
+    Last updated: **[25.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -52,7 +52,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[17.09.2024](#changelog)**
+    Last updated: **[25.09.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -110,9 +110,9 @@ All mods in the following list are present in both archives with identical versi
 
 | Mod | Developer(s) | Details |
 | :-: | :--------: | :-----: |
-| [Radio Downgrader~31.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.1.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
-| [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
+| [Radio Downgrader~31.08.2024~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [FusionFix~3.1.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
+| [Various Fixes~2.0.1~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Clothing, Console Fences, Console Animations, Console Peds. See [Additional Mods](#additional-mods) for more.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
@@ -131,7 +131,7 @@ All mods in the following list are present in both archives with identical versi
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Fixes the IV Bikers voicelines in EFLC. |
-| [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15) | grasscid | Fixes an oversight in the pistol's model where the iron sight doesn't make any sense. |
+| [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (me) | Fixes an oversight in the pistol's model where the iron sight doesn't make any sense. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Fixes broken UV map on "Waiting Room" sign texture. |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Edits the UV map on the sign to include an unused texture. |
 | [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Fixes the bleak reflection on TBoGT player model's helmet. |
@@ -196,6 +196,12 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 25.09.2024:
+            - Updated FusionFix, Various Fixes.
+            - Fixed broken HUD elements.
+            - Fixed Niko's hair.
+            - Remade the pistol sight.
+    ??? quote "Old changes"
         - 17.09.2024:
             - Updated FusionFix, Radio Downgrader, Restored Pedestrians.
             - Actually include Various Pedestrian Actions this time, lol.
@@ -204,7 +210,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Temporarily removed UHD Vanilla Map and Radar until crash issues are resolved.
             - Fixed the crash in Marta Full of Grace mission (TLAD).
             - Fixed the broken cop models in EFLC.
-    ??? quote "Old changes"
         - 07.09.2024:
             - Updated FusionFix.
             - Added Bullet Penetration - Minimal Edition.
@@ -353,6 +358,12 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 25.09.2024:
+            - Updated FusionFix, Various Fixes, Liberty Tweaks.
+            - Fixed broken HUD elements.
+            - Fixed Niko's hair.
+            - Remade the pistol sight.
+    ??? quote "Old changes"
         - 17.09.2024:
             - Updated FusionFix, Radio Downgrader, Restored Pedestrians, Liberty Tweaks.
             - Actually include Various Pedestrian Actions this time, lol.
@@ -361,7 +372,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Temporarily removed UHD Vanilla Map and Radar until crash issues are resolved.
             - Fixed the crash in Marta Full of Grace mission (TLAD).
             - Fixed the broken cop models in EFLC.
-    ??? quote "Old changes"
         - 07.09.2024:
             - Updated FusionFix, Liberty Tweaks.
             - Added Bullet Penetration - Minimal Edition.

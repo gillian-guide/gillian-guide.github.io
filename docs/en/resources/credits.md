@@ -127,10 +127,6 @@ For their work on [Reduced Trafic Screech (Audio Tweak)](../../essential-modding
 
 For their work on [Fixed Suit Display in Perseus](../../essential-modding/additional-fixes.md/#fixed-suit-display-in-perseus) and [Menu Art Fix](../../essential-modding/additional-fixes.md/#menu-art-fix).
 
-## grasscid
-
-For their work on [Default Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#default-pistol-iron-sight-fix).
-
 ## const96b
 
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
@@ -167,7 +163,7 @@ The communities of these discord servers helped me a lot with this guide:
 
 I've been working on this guide for way over 3 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
 
-I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature.
+I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature and made [Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#pistol-iron-sight-fix).
 
 ==Note: monobank will send the money to me directly.==
 

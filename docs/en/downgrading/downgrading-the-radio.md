@@ -10,9 +10,9 @@ description: Downgrading the radio back to how it should be.
 
 <h2>Instructions</h2> <a id="instructions"></a>
 
-1. Go to the [**Various GTA Downgraders** website](http://downgraders.rockstarvision.com/) and scroll to the bottom of the page.
-2. Download the **Radio Restoration mod for GTAIV CE**.
-3. Extract the :material-zip-box:`Radio Restoration Mod xx-xx-xx.rar` archive into any empty folder.
+1. Go to the latest [release page](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest).
+2. Download the :material-zip-box:`Radio.Restoration.Mod.xx-xx-xxxx.zip`.
+3. Extract the archive into into any empty folder.
 4. Run :material-file-download:`IVCERadioRestorer.exe` and follow the in-app instructions.
     - You can additionally install [this](https://www.nexusmods.com/gta4/mods/234/?tab=files&file_id=646) to partially restore the original TBoGT menu theme.
 

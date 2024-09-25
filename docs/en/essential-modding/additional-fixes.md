@@ -65,13 +65,13 @@ This mod fixes an incorrect suit in Perseus, as you end up buying a different on
 
 ---
 
-## [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15)
+## [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing)
 
 This mod fixes an oversight in the pistol's model where the iron sight doesn't make any sense.
 
 <h3>Installation</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1xVV-towntlO8uZX5N1Ftt83zGljKIamf/view?usp=sharing).
+1. Download this [archive](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---

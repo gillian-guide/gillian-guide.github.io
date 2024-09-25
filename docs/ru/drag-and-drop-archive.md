@@ -24,7 +24,7 @@ TBA
     Следующий переключитель относится к версии игры - базовые различия между ними смотрите [здесь](../downgrading/downgrading-the-game.md/#версии-игры). Моды в обоих архивах в основном идентичны, но **1.0.8.0 включает больше изменений в роде Quality of Life взамен на некоторые исправления в FusionFix и удаляет Rockstar Games Launcher, в то время как 1.2.0.59 считается более стабильным.**
 
 === "1.2.0.59"
-    Последний раз обновлено: **[17.09.2024](#_9)**
+    Последний раз обновлено: **[25.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -51,7 +51,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[17.09.2024](#_9)**
+    Последний раз обновлено: **[25.09.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -108,9 +108,9 @@ TBA
 
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
-| [Radio Downgrader~31.08.2024~](http://downgraders.rockstarvision.com/) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.1.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
-| [Various Fixes~2.0~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+| [Radio Downgrader~31.08.2024~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [FusionFix~3.1.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
+| [Various Fixes~2.0.1~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~05.07.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
 | [Console Visuals~1.7~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Clothing, Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg и C1aude_III | Исправляет разные проблемы с анимациями оружий. |
@@ -129,7 +129,7 @@ TBA
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Исправление голосовых линий байкеров из IV в EFLC. |
-| [Default Pistol Iron Sight Fix](https://www.nexusmods.com/gta4/mods/15) | grasscid | Исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла. |
+| [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (я) | Исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Исправление сломанной UV-карты на текстуре знака "Waiting Room". |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Редактирует UV-карту знака, чтобы включить в его неиспользуемую текстуру. |
 | [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/) | 6135 | Исправляет поблекшие отражения на шлеме модели игрока в TBoGT. |
@@ -194,6 +194,12 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 25.09.2024:
+            - Обновлены FusionFix, Various Fixes.
+            - Исправлены сломанные елементы HUDа.
+            - Исправлены волосы Нико.
+            - Вручную переделан прицел пистолета.
+    ??? quote "Старые изменения"
         - 17.09.2024:
             - Обновлены FusionFix, Radio Downgrader, Restored Pedestrians.
             - Теперь реально добавил Various Pedestrian Actions, лол.
@@ -202,7 +208,6 @@ TBA
             - Временно удален UHD Vanilla Map and Radar пока не будут исправлены краши.
             - Исправлен краш в миссии Марта, благодати полная (Marta Full of Grace) (TLAD).
             - Исправлены сломанные модели копов в EFLC.
-    ??? quote "Старые изменения"
         - 07.09.2024:
             - Обновлен FusionFix.
             - Добавлен Bullet Penetration - Minimal Edition.
@@ -352,6 +357,12 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 25.09.2024:
+            - Обновлены FusionFix, Various Fixes, Liberty Tweaks.
+            - Исправлены сломанные елементы HUDа.
+            - Исправлены волосы Нико.
+            - Вручную переделан прицел пистолета.
+    ??? quote "Старые изменения"
         - 17.09.2024:
             - Обновлены FusionFix, Radio Downgrader, Restored Pedestrians, Liberty Tweaks.
             - Теперь реально добавил Various Pedestrian Actions, лол.
@@ -360,7 +371,6 @@ TBA
             - Временно удален UHD Vanilla Map and Radar пока не будут исправлены краши.
             - Исправлен краш в миссии Марта, благодати полная (Marta Full of Grace) (TLAD).
             - Исправлены сломанные модели копов в EFLC.
-    ??? quote "Старые изменения"
         - 07.09.2024:
             - Обновлены FusionFix, Liberty Tweaks.
             - Добавлен Bullet Penetration - Minimal Edition.
