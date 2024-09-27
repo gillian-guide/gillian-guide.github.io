@@ -46,20 +46,13 @@ ScriptHookDotNet is used to run scripts written in any .NET language. Not to be 
 <h3>Installation</h3>
 
 === "1.2.0.59"
-    1. Go to the [v1.7.1.7b release](https://github.com/HazardX/gta4_scripthookdotnet/releases/tag/v1.7.1.7b).
-    2. Download :material-zip-box:`scripthookdotnet_v1_7_1_7b.zip`.
+    1. Go to the latest [release page](https://github.com/Tomasak/gta4_scripthookdotnet/releases).
+    2. Download :material-zip-box:`scripthookdotnet_vx_x_x_x.zip`.
     3. Extract the archive into the game folder.
-    4. Go to the [LCPDFR page](https://www.lcpdfr.com/downloads/gta4mods/g17media/26726-compatibility-patch-for-gta-iv-complete-edition/) for the Complete Edition compatibility patch.
-    5. Press **Download this file**.
-    6. Extract the :material-zip-box:`GTAIV_Complete_Edition_Fix_0_4.zip` archive into the game folder.
-=== "1.0.8.0"
+=== "1.0.8.0 to 1.0.5.0"
     1. Go to the [GTAForums page](https://gtaforums.com/topic/946154-release-gtaiv-net-scripthook-v1718-support-for-gta-iv-1080-and-eflc-1130-by-arinc9-zolika1351/).
-    2. Click on **DOWNLOAD the GTAIV .Net Script Hook for GTA IV** to downloading the archive.
+    2. Click on **DOWNLOAD the GTAIV .Net Script Hook for GTA IV** to download the archive.
     3. Extract the :material-zip-box:`scripthookdotnet_v1_7_1_8.zip` archive into the game folder.
-=== "1.0.7.0 to 1.0.5.0"
-    1. Go to the [v1.7.1.7b release](https://github.com/HazardX/gta4_scripthookdotnet/releases/tag/v1.7.1.7b).
-    2. Download :material-zip-box:`scripthookdotnet_v1_7_1_7b.zip`.
-    3. Extract the archive into the game folder.
 === "1.0.4.0 and older"
     1. Go to the [v1.7.1.7a release](https://github.com/HazardX/gta4_scripthookdotnet/releases/tag/v1.7.1.7a).
     2. Download :material-zip-box:`scripthookdotnet_v1_7_1_7a.zip`.
