@@ -53,7 +53,7 @@ ScriptHookDotNet is used to run scripts written in any .NET language. Not to be 
     1. Go to the [GTAForums page](https://gtaforums.com/topic/946154-release-gtaiv-net-scripthook-v1718-support-for-gta-iv-1080-and-eflc-1130-by-arinc9-zolika1351/).
     2. Click on **DOWNLOAD the GTAIV .Net Script Hook for GTA IV** to download the archive.
     3. Extract the :material-zip-box:`scripthookdotnet_v1_7_1_8.zip` archive into the game folder.
-=== "1.0.4.0 and older"
+=== "1.0.4.0 to 1.0.1.0"
     1. Go to the [v1.7.1.7a release](https://github.com/HazardX/gta4_scripthookdotnet/releases/tag/v1.7.1.7a).
     2. Download :material-zip-box:`scripthookdotnet_v1_7_1_7a.zip`.
     3. Extract the archive into the game folder.
