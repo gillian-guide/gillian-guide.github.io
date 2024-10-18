@@ -30,7 +30,7 @@ I know about these issues, no need to report them to me, unless you know a solut
     Occurs on downgraded versions. Install [ZolikaPatch](../../essential-modding/zolikapatch.md) (your antivirus may have removed it, aswell).
 
 ??? info "Error "SecuLauncher: failed to start application [2000]" on launch"
-    - Right click :material-file:`GTAIV.exe`, click **Properties**, switch to the **Compatibility** tab and untoggle **Run this program as an administrator**. If it's already unchecked, see the next solution.
+    - Right click :material-file:`GTAIV.exe`, click **Properties**, switch to the **Compatibility** tab and uncheck **Run this program as an administrator**. If it's already unchecked, see the next solution.
     - Make sure you installed the [prerequisite software](../../preparation.md#software).
     - If even that doesn't solve the issue, install [NET 3.5](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35-sp1).
 
@@ -162,9 +162,6 @@ I know about these issues, no need to report them to me, unless you know a solut
 
     Alternatively, give up. Seriously, just give up and try other multiplayer methods - some people are just stuck with the kickbug with no way to fight it.
 
-??? info ""Password contains special characters" or Error code: 0x80048821"
-    [Create a new app password](https://account.live.com/proofs/AppPassword) and use that to log in.
-
 ??? info "GFWL overlay doesn't appear"
     - You are using XLiveless (:fontawesome-solid-gears:`xlive.dll`). Rename the file to `dinput8.dll`.
     - GFWL files are missing. You need :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` and `GTAIV.exe.cat`.
@@ -184,8 +181,11 @@ I know about these issues, no need to report them to me, unless you know a solut
         - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
 
 ??? info ""The profile could not be signed in to LIVE" in GFWL"
+    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account you're trying to use for GFWL.
     - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
-    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account.
+
+??? info "Error code: 0x80048821 or "Password contains special characters" in GFWL"
+    [Create a new app password](https://account.live.com/proofs/AppPassword) and use that to log in.
 
 ??? info "Error code: 0x8007065b in GFWL"
     Only known solution is to use another account to sign in.
@@ -201,6 +201,8 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info "Getting kicked by the anticheat in GTAC"
     Your files are likely modified - make sure you're using a clean copy from :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher.
+
+    The only way to find out which file doesn't pass through is to ask somebody with access to server logs (normally, the owner).
 
 ---
 
