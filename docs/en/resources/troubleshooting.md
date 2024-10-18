@@ -30,8 +30,9 @@ I know about these issues, no need to report them to me, unless you know a solut
     Occurs on downgraded versions. Install [ZolikaPatch](../../essential-modding/zolikapatch.md) (your antivirus may have removed it, aswell).
 
 ??? info "Error "SecuLauncher: failed to start application [2000]" on launch"
+    - Right click :material-file:`GTAIV.exe`, click **Properties**, switch to the **Compatibility** tab and untoggle **Run this program as an administrator**. If it's already unchecked, see the next solution.
     - Make sure you installed the [prerequisite software](../../preparation.md#software).
-    - Run :material-file:`PlayGTAIV.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
+    - If even that doesn't solve the issue, install [NET 3.5](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35-sp1).
 
 ??? info "Game doesn't even show up"
     - Make sure you don't have any duplicate mods - for example, you may have left FusionFix in both the :material-folder: ==plugins== folder and the game folder. The game won't start in this case.
