@@ -9,9 +9,12 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
 
 ## Installation
 
-1. Go to the [official website](https://openiv.com/).
+1. Go to the [official website](https://openiv.com/) ([mirror if the official server is down](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/)).
 2. Press on `Download now`.
 3. Install :material-file-download:`OpenIVSetup.exe`.
+
+!!! tip ""
+    If the official website is down, an offline installer is available [here](https://community.pcgamingwiki.com/files/file/2710-openiv-version-41/).
 
 ---
 
