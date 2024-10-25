@@ -32,7 +32,7 @@ TBA
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру.
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://buzzheavier.com/f/GavvCGPpAAA) (3.63ГБ, MD5: `ca11ca8ee70c3e508fdcf959ccf11edb`).
+    1. [Скачайте архив](https://buzzheavier.com/f/GavvCGPpAAA) (3.63ГБ, SHA512: `b3cb9c8a88ec48f3de0071ce419f516e527fdcc3bdad2e962ac59327ff37447fdeea27a49951e5089d903e3b4df387b4a889de9749cbea4257a29646b8f0d9da`).
     2. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -59,7 +59,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер.
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://buzzheavier.com/f/Gavu_rBpAAA) (3.63ГБ, MD5: 01590051488849f6f7c0445b134b6d89).
+    1. [Скачайте архив](https://buzzheavier.com/f/Gavu_rBpAAA) (3.63ГБ, SHA512: `5f884a3c00ed9905c049752a0d58c1cdae60d0c0f69658f9d028a7dbfc554299d332d598a4b36b5d7fe0c302575fd0ee013ea56314c05ab4f86fa736ab142da5`).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
