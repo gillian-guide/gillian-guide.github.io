@@ -32,7 +32,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=sharing).
+    1. [Download the archive](https://buzzheavier.com/f/GavvCGPpAAA) (3.63GB, MD5: `ca11ca8ee70c3e508fdcf959ccf11edb`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
@@ -60,7 +60,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/cx6dct4npfqtc5z/1.0_archive.7z/file).
+    1. [Download the archive](https://buzzheavier.com/f/Gavu_rBpAAA) (3.63GB, MD5: 01590051488849f6f7c0445b134b6d89).
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
