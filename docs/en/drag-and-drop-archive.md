@@ -32,7 +32,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://buzzheavier.com/f/GavvCGPpAAA) (3.63GB, SHA512: `b3cb9c8a88ec48f3de0071ce419f516e527fdcc3bdad2e962ac59327ff37447fdeea27a49951e5089d903e3b4df387b4a889de9749cbea4257a29646b8f0d9da`).
+    1. [Download the archive](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=drive_link) (3.63GB, SHA512: `b3cb9c8a88ec48f3de0071ce419f516e527fdcc3bdad2e962ac59327ff37447fdeea27a49951e5089d903e3b4df387b4a889de9749cbea4257a29646b8f0d9da`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
@@ -60,7 +60,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://buzzheavier.com/f/Gavu_rBpAAA) (3.63GB, SHA512: `5f884a3c00ed9905c049752a0d58c1cdae60d0c0f69658f9d028a7dbfc554299d332d598a4b36b5d7fe0c302575fd0ee013ea56314c05ab4f86fa736ab142da5`).
+    1. [Download the archive](https://www.mediafire.com/file/cx6dct4npfqtc5z/1.0_archive.7z/file) (3.63GB, SHA512: `5f884a3c00ed9905c049752a0d58c1cdae60d0c0f69658f9d028a7dbfc554299d332d598a4b36b5d7fe0c302575fd0ee013ea56314c05ab4f86fa736ab142da5`).
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
