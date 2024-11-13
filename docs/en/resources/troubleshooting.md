@@ -11,11 +11,10 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 
 I know about these issues, no need to report them to me, unless you know a solution.
 
-- After you get drunk, the lighting is flickering for some period.
 - Cutscenes freeze the game up if the game is out-of-focus for too long.
 - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
-- Taxi rides can occasionally crash the game on 1.0.8.0.
 - Social Club achievements cannot be acquired on downgraded versions.
+- Night shadows are limited (intended to reduce bugs).
 
 ---
 
