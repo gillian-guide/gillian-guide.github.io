@@ -56,11 +56,9 @@ This mod improves distant lights at night.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
 === "1.0.8.0"
-    !!! warning ""
-        Do not install if using FusionFix - this results in broken lights.
-
-    1. Download the [v4.3 release](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/download/v0.0/IV.Project2DFXv4.3.zip).
-    2. Extract the :material-zip-box: `IV.Project2DFXv4.3` archive into the game folder.
+    1. Download the [release page](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest).
+    2. Download :material-zip-box:`IV.Project2DFX-PreCE.zip`.
+    3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
 
 ---
@@ -71,15 +69,10 @@ This mod adds nice water droplets on the screen.
 
 <h3>Installation</h3>
 
-=== "1.2.0.59"
-    1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
-    2. Download :material-zip-box:`GTAIV.XboxRainDroplets.zip`.
-    3. Extract the archive into the :material-folder: ==plugins== folder.
-        - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
-=== "1.0.8.0"
-    1. Download this [archive](https://drive.google.com/file/d/12BduhuqChrAfO_A32U1WeW4v0GCqF03S/view?usp=sharing) (is just an old version of the official mod).
-    2. Extract the archive into the game folder.
-        - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
+ 1. Go to the [release page](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv).
+ 2. Download :material-zip-box:`GTAIV.XboxRainDroplets.zip`.
+ 3. Extract the archive into the :material-folder: ==plugins== folder.
+     - Edit :material-file-cog:`GTAIV.XboxRainDroplets.ini` if you don't like the default settings.
 
 ---
 
@@ -89,8 +82,8 @@ This mod fixes various issues with the weapon animations.
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://drive.google.com/file/d/1fpd7qloIXDu6WhIl6NXAj5JCT1ilReW3/view?usp=sharing).
-2. Download the mod via the desired mirror.
+1. Go to the [GTAForums page](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
+2. Download the `Fusion Overloader version`.
 3. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
@@ -133,17 +126,6 @@ This mod increases the quality of UI radio icons, as they are highly inconsisten
 
 ---
 
-## [HD HUD and Reticle](https://www.nexusmods.com/gta4/mods/455)
-
-This mod increases the resolution of UI elements.
-
-1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/456?tab=files).
-2. Download the latest main file.
-3. Open the downloaded archive.
-4. Extract the :material-folder: ==update== folder from the :material-folder: ==FusionOverloader Install== folder into the game folder.
-
----
-
 ## [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing)
 
 Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT.
@@ -172,7 +154,7 @@ This mod adds cubemap reflections to what otherwise is just transparent glass.
 
 <h3>Installation</h3>
 
-1. Download this [archive](https://mega.nz/file/tRYjjZqA#74gLAQiNWBh-FSIkOUNm9Fm8gFGAtOOz5cFnwHFFdNk).
+1. Download this [archive](https://mega.nz/file/FNQWSTYD#lnDSIDLQIIgvgTInZm2DHT66M6kdC5wek2wAXgcRlLc).
 2. Extract the :material-folder: ==update== folder from the :material-folder: ==Files== folder from the archive into the game folder.
 
 ---
@@ -224,6 +206,18 @@ These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart m
 
 1. Download this [archive](https://drive.google.com/file/d/1pEYBjV2mwfsQFKPbzwB6FEY-vSGn9hF3/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [GTA V-like `visualSettings.dat`](https://drive.google.com/drive/folders/1n6dMxi5CdK6-4KV06ki_zbEi81NDDqrj)
+
+This mod changes some values of `visualSettings.dat` to be more similar to GTA V.
+
+<h3>Installation</h3>
+
+1. Download the [file](https://drive.google.com/file/d/1ISfKwOtZR-jBftQvm5t6--ilJEPRPUdR/view?usp=drive_link).
+2. Extract the file to :material-folder: ==update\common\data== and :material-folder: ==update\TBoGT\common\data== in the game folder.
+    - Optionally, restore rain specularity to `0.50` (with a text editor) if you don't like how the ground looks like hot glue during rain.
 
 ---
 
