@@ -171,9 +171,9 @@ I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tw
 
 Crypto options, if you cannot send money directly or prefer anonimity:
 
-- BTC: 3J3SUrDtRj35LeWzJGhyxEzfm9unJ4VwkR
-- ETH: 0xc19628eCcF1CE224F56d70E49091b69D963754D6
-- Monero: 43jcwx69GxaTNTsUqrS97pWTEfG7wNAKPJ1LtGvdesYzHVxS2Qt2n7oXv667EB9NBFcx5XbT9FqRKJLb1khHQJoUD8d1AMu
+- BTC: bc1qh72qjm3yxrkxkaarxqskrkxp5c4t2ldar5kef7
+- ETH: 0xa86252264878d342a0D29683e36F83f4a21eEEA2
+- USDT: TTrwmdEhEB84cBN2z4m36ZFgK4vHnXpKdG
 
 ### Supporters
 
