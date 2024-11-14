@@ -34,7 +34,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=drive_link) (3.73GB, SHA512: `1793ddf78569828124ba8f63a035997cd0b8079b57912fbb6def62c32322a67fb7af19faa7b8e4f86d342366c8176f0061c2427382714df5af4206be114d453a`).
+    1. [Download the archive](https://www.mediafire.com/file/iqc4ynuegyxry9d/1.2_archive.7z/file) (3.73GB, SHA512: `1793ddf78569828124ba8f63a035997cd0b8079b57912fbb6def62c32322a67fb7af19faa7b8e4f86d342366c8176f0061c2427382714df5af4206be114d453a`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.

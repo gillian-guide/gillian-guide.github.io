@@ -35,7 +35,7 @@ TBA
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру.
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://drive.google.com/file/d/1tMwlvFiTE1tNuq8C4v2MNoDVXlCbLfoY/view?usp=drive_link) (3.73ГБ, SHA512: `1793ddf78569828124ba8f63a035997cd0b8079b57912fbb6def62c32322a67fb7af19faa7b8e4f86d342366c8176f0061c2427382714df5af4206be114d453a`).
+    1. [Скачайте архив](https://www.mediafire.com/file/iqc4ynuegyxry9d/1.2_archive.7z/file) (3.73ГБ, SHA512: `1793ddf78569828124ba8f63a035997cd0b8079b57912fbb6def62c32322a67fb7af19faa7b8e4f86d342366c8176f0061c2427382714df5af4206be114d453a`).
     2. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
