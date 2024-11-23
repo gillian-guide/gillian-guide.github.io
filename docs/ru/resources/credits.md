@@ -187,6 +187,7 @@ These people made my life a tad bit easier with their monetary contribution:
 - ShadowSorcery
 - [akirataguchi115](https://github.com/akirataguchi115)
 - bb350
+- Thies
 
 ## Special Thanks
 
