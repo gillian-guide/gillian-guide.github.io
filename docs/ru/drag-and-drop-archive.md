@@ -54,7 +54,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[30.12.2024](#_9)**
+    Последний раз обновлено: **[31.12.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -62,7 +62,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер.
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/6fc3u9xv6jxyit6/1.0_archive.7z/file) (3.62ГБ, SHA512: `efb3253ff842768e82510f397c2ca4faca4603d51f4a57509b2f7ee5c35f3e154a01deca7448bb788504fee2399e4aa1e795bdb28e7c3960e8dfc0b3bb68a970`).
+    1. [Скачайте архив](https://www.mediafire.com/file/klrv42hwjiocl09/1.0_archive.7z/file) (3.62ГБ, SHA512: `5cc9e6671a03b1eee34028e9d3c6d611ace775b5e21be9319a13bb156ca7a2f9e6c56a893d00bbac7ab4b81485fbd78c1261f6c414bd58eb2b3ffda9c23fd263`).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -372,6 +372,9 @@ TBA
             - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets, Liberty Tweaks.
             - По-нормальному соеденен `peds.ide` из файлов Various Fixes, Trilogy Characters Fixes и Player Outfit Texture Fixes.
             - Удалены некоторые пофикшенные модели для катсцен из Trilogy Characters Fixes из-за сломанных волос.
+\        - 31.12.2024 (hotfix)
+            - Обновлены IV-SDK .NET и Liberty Tweaks.
+            - Удалены лишние файлы от Console Visuals.
     ??? quote "Старые изменения"
         - 13.11.2024:
             - Обновлены FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.

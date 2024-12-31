@@ -53,7 +53,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[30.12.2024](#changelog)**
+    Last updated: **[31.12.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -61,7 +61,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/6fc3u9xv6jxyit6/1.0_archive.7z/file) (3.62GB, SHA512: `efb3253ff842768e82510f397c2ca4faca4603d51f4a57509b2f7ee5c35f3e154a01deca7448bb788504fee2399e4aa1e795bdb28e7c3960e8dfc0b3bb68a970`).
+    1. [Download the archive](https://www.mediafire.com/file/klrv42hwjiocl09/1.0_archive.7z/file) (3.62GB, SHA512: `5cc9e6671a03b1eee34028e9d3c6d611ace775b5e21be9319a13bb156ca7a2f9e6c56a893d00bbac7ab4b81485fbd78c1261f6c414bd58eb2b3ffda9c23fd263`).
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
@@ -370,6 +370,9 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets, Liberty Tweaks.
             - Merged `peds.ide` properly with files from Various Fixes, Trilogy Characters Fixes and Player Outfit Texture Fixes.
             - Removed some fixed cutscene models from Trilogy Characters Fixes due to having broken hair.
+        - 31.12.2024 (hotfix)
+            - Updated IV-SDK .NET and Liberty Tweaks.
+            - Removed leftover Console Visuals files.
     ??? quote "Old changes"
         - 13.11.2024:
             - Updated FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Project Thunder.
