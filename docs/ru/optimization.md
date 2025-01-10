@@ -73,9 +73,13 @@ description: Все про DXVK для GTA IV
 
     1. Перейдите на [страницу последнего релиза](https://github.com/doitsujin/dxvk/releases).
     2. Скачайте архив :material-zip-box:`dxvk-x.x.tar.gz`.
-        - Если у вас ГП не от NVIDIA, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) может быть использован для замены фризов на графические проблемы - **обе проблемы временные.** ГП от NVIDIA не затронуты.
     3. После скачивания, откройте архив и перейдите в папку ==dxvk-x.x\x32\\==.
     4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
+
+    !!! question "Про патч `async`"
+        DXVK, начиная от версии 2.0, добавили поддержку Graphics Pipeline Library, который, в контексте GTA IV, полностью удаляет фризы при создании шейдеров если ваш ГП поддерживает GPL и Fast Linking.
+
+        Если у вас относительно современный ГП, эти фичи уже у вас должны быть, и если у вас нет частых микрофризов - они есть. **Если же у вас *есть* очень частые микрофризы на этой версии, проверьте, обновлены ли у вас драйвера, и если они обновлены, то используйте форк [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) для уменьшения количества микрофризов.**
 === "Legacy"
     ???+ warning "Требования"
         - Вы можете использовать эту версию если ваш ГП:
@@ -93,8 +97,8 @@ description: Все про DXVK для GTA IV
     1. Перейдите на [страницу релиза 1.10.3 DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
     2. Скачайте архив :material-zip-box:`dxvk-async-1.10.3.tar.gz`.
         - Если вы хотите фризы замисть графических проблем, используйте [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) замисть async. ***обе проблемы временные.**
-    2. После скачинваия, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
-    3. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
+    3. После скачинваия, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
 
 ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы из папки?"
     Игра использует графический API Direct3D 9. Другие `dll` для Direct3D 10 и Direct3D 11.

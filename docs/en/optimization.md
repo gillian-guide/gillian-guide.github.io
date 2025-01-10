@@ -73,9 +73,14 @@ After using the tool, you can freely skip to optimal graphics settings:
 
     1. Go to the latest [release page](https://github.com/doitsujin/dxvk/releases/latest).
     2. Download the :material-zip-box:`dxvk-x.x.tar.gz` archive.
-        - On non-NVIDIA GPUs, [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) can instead be used to replace stutter with graphical issues - **both issues are temporary.** NVIDIA GPUs are unaffected.
     3. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==.
     4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+
+    !!! question "About the `async` patch"
+        DXVK, from version 2.0 onwards, implemented Graphics Pipeline Library support, which, in the context of GTA IV, completely eliminates shader building stutter given the GPL and Fast Linking support from the GPU.
+
+        If using a modern GPU, those features should be there, and if you have no frequent stutter - it is there. **If you do, however, experience frequent stutter on this version, check if your drivers are up-to-date, and if they are, use the [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) fork to reduce stutter.**
+
 === "Legacy"
     ???+ warning "Requirements"
         - You can use this version if your GPU is:
@@ -91,8 +96,8 @@ After using the tool, you can freely skip to optimal graphics settings:
     <h3>Instructions</h3>
 
     1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
-    2. Download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
         - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
+    2. Download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
     3. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
     4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 
