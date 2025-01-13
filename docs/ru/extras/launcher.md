@@ -3,7 +3,7 @@ description: Do you really need that many installs?
 
 # [Launcher](https://gtaforums.com/topic/978788-gta-iv-launcher/)
 
-Let's say you have an instance for your modded version of GTA IV and an instance for the slightly modded GFWL version. Gets annoying to switch between folders, doesn't it? ItsClockAndre's launcher comes to the rescue!
+Let's say you have an instance for your modded version of GTA IV and an instance for the slightly modded GFWL version. Gets annoying to switch between folders, doesn't it? ItsClonkAndre's launcher comes to the rescue!
 !!! warning "Compatibility"
     This launcher is theoretically compatible with the Complete Edition instances, but it's very problematic. You have to start the instance first, then once the Rockstar Games Launcher is open, close the IV Launcher and click `Play on Steam`, which will open the launcher again - from there, start the instance again ==without== closing the Rockstar Games Launcher, and that should get you into the game.
 

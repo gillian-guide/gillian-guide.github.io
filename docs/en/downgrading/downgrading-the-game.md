@@ -63,11 +63,11 @@ The following is information about two versions we will focus on and their diffe
 ## Downgrading instructions
 
 !!! question "Which downgrader to choose?"
-    - Use ItsClockAndre's if you want to downgrade to 1.0.4.0 or if you have issues with mine.
+    - Use ItsClonkAndre's if you want to downgrade to 1.0.4.0 or if you have issues with mine.
     - Use mine for every other case.
 
 === "[Gillian's GTA IV Downgrade Utility](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF)"
-    I've made my own downgrader for my own purposes as an alternative to ItsClockAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
+    I've made my own downgrader for my own purposes as an alternative to ItsClonkAndre's. This downgrader is lightweight in core and doesn't let you do broken downgrades regardless of how you choose to downgrade, thus why I recommend it.
 
     1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVDowngradeUtilityWPF/releases/latest).
     2. Download :material-zip-box:`GTAIVDowngradeUtilityWPF.zip`.
@@ -78,7 +78,7 @@ The following is information about two versions we will focus on and their diffe
         - If you are experienced, feel free to change toggles manually. ^^Only use Full downgrading if you absolutely require all the original files.^^
         - If any issues occur, [report them on the Discord server](../../index.md/#navigation).
 
-=== "[ItsClockAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
+=== "[ItsClonkAndre's Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader/)"
     This downgrader replaces many more files than a typical user really needs, which may result in a slightly inferior experience. It also has an option to downgrade to 1.0.4.0, which my downgrader does not. It also allows you to make incompatible selections, so **read the warnings carefully**.
 
     1. Create an antivirus exclusion for your game folder. Don't worry, the tool is safe.

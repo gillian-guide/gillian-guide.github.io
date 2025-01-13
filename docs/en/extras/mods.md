@@ -20,7 +20,7 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for FusionFix's Snow Mode.<br>Installation instructions are in the archive's :material-file:`Readme.txt`.</br> |
 | [Enhanced Snow Mod Repack](https://drive.google.com/file/d/11PFXrFnvB8JEKVajseL2GIWRd6MdLBBy/view?usp=drive_link)| jumbo0, gr8man, Jantsu92, Alisa Belucci: Flash, Lover of Winter, Attramet, Straysify, gdanbo and Gillian | [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Realistic Winter Trees](https://www.gtainside.com/en/gta4/mods/177373-realistic-winter-trees/), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Beta Winter Pedestrians](https://gtaforums.com/topic/987173-beta-winter-pedestrians/) bundled for Fusion Overloader with my own custom tweaks.<br>Installation: Backup :material-folder: ==update==. Extract :material-folder: ==update== to the game folder, replace files when prompted. Disable/remove FusionFix's `GTATrees.img`, Console Visuals' `FusionConsolevegetation.img` and road textures. Set Screen Filter to `TBoGT`. Don't play DLC's.</br> |
 | [Project Birds](https://gtaforums.com/topic/980018-project-birds) | Internet Rob | Adds birds to the skies. |
-| [Liberty Rush](https://gtaforums.com/topic/979688-liberty-rush/) | Internet Rob, ItsClockAndre, donnits, Datalvarezguy | Adds dozens of improvements, restored content, new traffic scenarios etc. |
+| [Liberty Rush](https://gtaforums.com/topic/979688-liberty-rush/) | Internet Rob, ItsClonkAndre, donnits, Datalvarezguy | Adds dozens of improvements, restored content, new traffic scenarios etc. |
 | [The Actual Complete Edition](https://gtaforums.com/topic/967792-grand-theft-auto-iv-the-actual-complete-edition/) | C1aude_III | This projects puts huge effort at merging IV and EFLC from weapons, vehicles and assets to the whole map. ==Replaces the following two mods.== |
 | [The Complete Liberty City](https://gtaforums.com/topic/935747-the-complete-liberty-city-gta-iv-eflc-map-mix/) | ElYisusKing | A massive project aimed to merge EFLC and IV maps. |
 | [EFLC Vehicle Addon Pack](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag, Gaming with SG | Adds the EFLC vehicles to base IV. |
@@ -39,13 +39,13 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
 | [Outfit Enhancements](https://gtaforums.com/topic/908611-outfit-enhancements/) | iiCriminnaaL | Several simple enhancements for some clothing. |
 | [TV Restoration](https://gtaforums.com/topic/977025-tv-restoration/) | Attramet | Highest quality TV videos. |
-| [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClockAndre | Adds a Discord Rich Presence. |
+| [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Adds a Discord Rich Presence. |
 
 ## Workshops
 
 These workshops might have some mods or tools you may be interested in!
 
-[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button}  [ItsClockAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button}
+[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button}  [ItsClonkAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button}
 
 [Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 

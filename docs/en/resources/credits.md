@@ -73,7 +73,7 @@ For directly contributing to [Console Visuals](../../enhancements.md/#console-vi
 
 For their work on [ZolikaPatch](../../essential-modding/zolikapatch.md), [IV Tweaker](../../extras/modloading.md/#iv-tweaker), [ZMenuIV](../../extras/trainers.md/#zmenuiv), [Steam Achievements mod](https://zolika1351.pages.dev/mods/ivsteamachievements), IV-SDK which is what [IV-SDK .NET](mod-dependencies.md/#iv-sdk-net) is built off and other mods listed in [mods](../../extras/mods.md), helping other modders, light assist with the guide and more!
 
-## ItsClockAndre
+## ItsClonkAndre
 
 For their work on the [Downgrader Tool](../../downgrading/downgrading-the-game.md), [IV-SDK .NET, Clonk's Coding Library](../../resources/mod-dependencies.md/#iv-sdk-net), [Libety Tweaks](../../enhancements.md/#liberty-tweaks), [Launcher](../../extras/launcher.md), [Project Thunder](../../enhancements.md/#project-thunder), [VAmbience](../../enhancements.md/#vambience) and other [mods](../../extras/mods.md).
 
