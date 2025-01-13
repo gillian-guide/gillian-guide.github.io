@@ -94,10 +94,10 @@ description: Все про DXVK для GTA IV
 
     <h3>Инструкции</h3>
 
-    1. Перейдите на [страницу релиза 1.10.3 DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
-    2. Скачайте архив :material-zip-box:`dxvk-async-1.10.3.tar.gz`.
-        - Если вы хотите фризы замисть графических проблем, используйте [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) замисть async. ***обе проблемы временные.**
-    3. После скачинваия, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    1. Перейдите на [страницу последнего релиза DXVK-Sarek](https://github.com/pythonlover02/dxvk-Sarek/releases/latest).
+    2. Скачайте архив :material-zip-box:`dxvk-sarek-async-1.10.3.tar.gz`.
+        - Если вы испытываете проблемы с этим форком, можете использовать [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) или [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3).
+    3. После скачивания, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
     4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
 
 ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы из папки?"
@@ -138,6 +138,13 @@ d3d9.numBackBuffers = 3
 # Следующие опции используются для включения async
 dxvk.enableAsync = true
 dxvk.gplAsyncCache = true
+```
+
+Если вас не устраивает скорость компиляции шейдеров, добавьте следующие строки и измените значения под ваше значение потоков на ЦП:
+
+``` { .cpp }
+dxvk.numAsyncThreads = 4
+dxvk.numCompilerThreads = 4
 ```
 
 Для более детальной настройки вы можете посмотреть полный список доступных опций [здесь](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).

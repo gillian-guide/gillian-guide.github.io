@@ -95,10 +95,10 @@ After using the tool, you can freely skip to optimal graphics settings:
 
     <h3>Instructions</h3>
 
-    1. Go to the [1.10.3 release of DXVK-async](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
-        - If you would prefer stutter instead of graphical issues when building shaders, use [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead. **Both issues are temporary.**
-    2. Download the :material-zip-box:`dxvk-async-1.10.3.tar.gz` archive.
-    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-async-1.10.3\\x32\\==
+    1. Go to the latest [DXVK-Sarek release page](https://github.com/pythonlover02/dxvk-Sarek/releases/latest).
+        - If experiencing issues with this fork, you can also use [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) or [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead.
+    2. Download the :material-zip-box:`dxvk-sarek-async-1.10.x.tar.gz` archive.
+    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-sarek-async-1.10.3\\x32\\==
     4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
@@ -139,6 +139,13 @@ If using `dxvk-async` or `dxvk-gplasync`, add the following lines to the same fi
 # Following options are used to enable async
 dxvk.enableAsync = true
 dxvk.gplAsyncCache = true
+```
+
+If you're unhappy with shader compilation speed, add the following and configure manually to adjust for your CPU thread amount:
+
+``` { .cpp }
+dxvk.numAsyncThreads = 4
+dxvk.numCompilerThreads = 4
 ```
 
 For more in-depth configuration, you can see the full list of available options [here](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf).
