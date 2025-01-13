@@ -27,7 +27,7 @@ TBA
 
 
 === "1.2.0.59"
-    Последний раз обновлено: **[30.12.2024](#_9)**
+    Последний раз обновлено: **[13.01.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -35,7 +35,7 @@ TBA
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру.
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/zxt476xhqrhkn3e/1.2_archive.7z/file) (3.58ГБ, SHA512: `d45aef08b8e080673797198585ec19779d662053f9de362d5d544b701e4464562b9f8acfed8b0597d1d621104f0d0ddd3bb5a7c8bd1045c92a61b0d95ea97966`).
+    1. [Скачайте архив](https://www.mediafire.com/file/6fgjsg9stbkpuvu/1.2_archive.7z/file) (3.58ГБ, SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
     2. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -54,7 +54,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[31.12.2024](#_9)**
+    Последний раз обновлено: **[13.01.2024](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -62,7 +62,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер.
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/klrv42hwjiocl09/1.0_archive.7z/file) (3.62ГБ, SHA512: `5cc9e6671a03b1eee34028e9d3c6d611ace775b5e21be9319a13bb156ca7a2f9e6c56a893d00bbac7ab4b81485fbd78c1261f6c414bd58eb2b3ffda9c23fd263`).
+    1. [Скачайте архив](https://www.mediafire.com/file/j3xxngq2kcvb6s0/1.0_archive.7z/file) (3.62ГБ, SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -200,6 +200,9 @@ TBA
             - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets.
             - По-нормальному соеденен `peds.ide` из файлов Various Fixes, Trilogy Characters Fixes и Player Outfit Texture Fixes.
             - Удалены некоторые пофикшенные модели для катсцен из Trilogy Characters Fixes из-за сломанных волос.
+        -  13.01.2025 (хотфикс)
+            - Обновлен Setup Utility.
+            - Исправлена Мэллори.
     ??? quote "Старые изменения"
         - 13.11.2024:
             - Обновлены FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.
@@ -372,9 +375,12 @@ TBA
             - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets, Liberty Tweaks.
             - По-нормальному соеденен `peds.ide` из файлов Various Fixes, Trilogy Characters Fixes и Player Outfit Texture Fixes.
             - Удалены некоторые пофикшенные модели для катсцен из Trilogy Characters Fixes из-за сломанных волос.
-\        - 31.12.2024 (hotfix)
+\        - 31.12.2024 (хотфикс)
             - Обновлены IV-SDK .NET и Liberty Tweaks.
             - Удалены лишние файлы от Console Visuals.
+        -  13.01.2025 (хотфикс)
+            - Обновлены Liberty Tweaks, Setup Utility.
+            - Исправлена Мэллори.
     ??? quote "Старые изменения"
         - 13.11.2024:
             - Обновлены FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.

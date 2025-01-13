@@ -26,7 +26,7 @@ TBA
     My personal preference for a vanilla-faithful playthrough is the 1.2.0.59 archive, and 1.0.8.0 archive for a vanilla+ playthrough (a replay, maybe).
 
 === "1.2.0.59"
-    Last updated: **[30.12.2024](#changelog)**
+    Last updated: **[13.01.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -34,7 +34,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/zxt476xhqrhkn3e/1.2_archive.7z/file) (3.58GB, SHA512: `d45aef08b8e080673797198585ec19779d662053f9de362d5d544b701e4464562b9f8acfed8b0597d1d621104f0d0ddd3bb5a7c8bd1045c92a61b0d95ea97966`).
+    1. [Download the archive](https://www.mediafire.com/file/6fgjsg9stbkpuvu/1.2_archive.7z/file) (3.58GB, SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
@@ -53,7 +53,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[31.12.2024](#changelog)**
+    Last updated: **[13.01.2024](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -61,7 +61,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/klrv42hwjiocl09/1.0_archive.7z/file) (3.62GB, SHA512: `5cc9e6671a03b1eee34028e9d3c6d611ace775b5e21be9319a13bb156ca7a2f9e6c56a893d00bbac7ab4b81485fbd78c1261f6c414bd58eb2b3ffda9c23fd263`).
+    1. [Download the archive](https://www.mediafire.com/file/j3xxngq2kcvb6s0/1.0_archive.7z/file) (3.62GB, SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
@@ -199,6 +199,9 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets.
             - Merged `peds.ide` properly with files from Various Fixes, Trilogy Characters Fixes and Player Outfit Texture Fixes.
             - Removed some fixed cutscene models from Trilogy Characters Fixes due to having broken hair.
+        - 13.01.2025 (hotfix)
+            - Updated Setup Utility.
+            - Fixed Mallorie. Poor girl.
     ??? quote "Old changes"
         - 13.11.2024:
             - Updated FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.
@@ -373,6 +376,9 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 31.12.2024 (hotfix)
             - Updated IV-SDK .NET and Liberty Tweaks.
             - Removed leftover Console Visuals files.
+        - 13.01.2025 (hotfix)
+            - Updated Liberty Tweaks and Setup Utility.
+            - Fixed Mallorie. Poor girl.
     ??? quote "Old changes"
         - 13.11.2024:
             - Updated FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Project Thunder.
