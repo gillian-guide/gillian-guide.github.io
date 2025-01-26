@@ -27,7 +27,7 @@ TBA
 
 
 === "1.2.0.59"
-    Последний раз обновлено: **[13.01.2025](#_9)**
+    Последний раз обновлено: **[26.01.2025](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -35,7 +35,7 @@ TBA
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру.
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/6fgjsg9stbkpuvu/1.2_archive.7z/file) (3.58ГБ, SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
+    1. [Скачайте архив](https://www.mediafire.com/file/ijvoqfbhdhrq7nj/1.2_archive.7z/file) (3.63ГБ, SHA512: `fc0689facafe6119fe405895072889b4b1c0f77d2d10a21f0679e22cdf38817a39f6dfa0c12d9d06c6bc9bf114803d2cc3dd4a2e7e6458eb5021c2b47460b653`).
     2. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -46,7 +46,6 @@ TBA
         - **Ярлык**: Нажмите правой кнопкой мыши по ярлыку, нажмите `Свойства` и вставьте содержимое в конец поля `Цель`.
     7. Вы готовы к игре!
         - Запускайте игру через :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher или `PlayGTAIV.exe`.
-        - **Если используете Linux**, добавьте `WINEDLLOVERRIDES="dinput8=n,b" %command%` к параметрам запуска.
         - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы.
         - Выставьте настройку `Транспортный поток` на `100` для полноценного использования кастомного popcycle.
         - Если вы хотите **больше модов, просмотрите [дополнительные моды](#_8)**.
@@ -54,7 +53,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[13.01.2025](#_9)**
+    Последний раз обновлено: **[26.01.2025](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -62,7 +61,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер.
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/j3xxngq2kcvb6s0/1.0_archive.7z/file) (3.62ГБ, SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
+    1. [Скачайте архив](https://www.mediafire.com/file/u1l0tcm1qkdh3to/1.0_archive.7z/file) (3.67ГБ, SHA512: `12335d14df8f5f5d4b5e6211aab5409b325a634321bd2871d771a344be43eba69706d41104cb6535d905f0bdd36f9f0ca60f420b259cd3bbc27298f91224890d`).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -71,7 +70,7 @@ TBA
         - Запускайте игру через :material-steam: Steam или `PlayGTAIV.exe`.
         - **Если используете :simple-rockstargames: Rockstar Games Launcher**, не запускайте игру через лаунчер и удалите :material-file:`SteamAchievements.asi`.
         - Руссификатор доступен [ниже](#_8).
-        - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы. Также, если вы уже начали играть на 1.2.0.59, вам потребуется сделать [даунгрейд сохранения](../downgrading/downgrading-the-game.md/#_4).
+        - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы. Также, если вы уже начали играть на 1.2.0.59 и хотите продолжить игру на том же сохранении, вам потребуется сделать [даунгрейд сохранения](../downgrading/downgrading-the-game.md/#_4).
         -  Выставьте настройку `Транспортный поток` на `100` для полноценного использования кастомного popcycle.
         - Если вы хотите **больше модов, просмотрите [дополнительные моды](#_8)**.
 
@@ -117,14 +116,15 @@ TBA
 | [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
 | [Console Visuals~2.0~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg и C1aude_III | Исправляет разные проблемы с анимациями оружий. |
-| [Restored Pedestrians~05.10.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
+| [Restored Pedestrians~08.01.2025~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
 | [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и завершает недоделанные действия для пешеходов. |
 | [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает деревья, которые присутствовали в бета-версиях, но были вырезаны в финальном релизе - либо случайно, либо из-за проблем с производительностью. |
 | [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьер более заметными снаружи, хотя имеет недостаток в виде появления интерьеров на глазах. |
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
 | [Project Glass~26.11.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
 | [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
-| [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | Замена popcycle в духе оригинала который делает жизнь в городе более разнообразным и реалистичным. |
+| [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Добавляет больше разнообразия педов, исправляет некоторые особенности поведения педов и добавляет прогрессивные отношения между бандами. |
+| [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | Замена popcycle в духе оригинала который делает жизнь в городе более разнообразной и реалистичной. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Позволяет пулям пробивать стекла так, как с лобовыми стеклами. |
 | [Project2DFX~10.11.2024~](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) ([1.0.8.0](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest)) | ThirteenAG | Улучшает огни в далеке ночью. <br>==Можно отключить, удалив файлы `IVLodLights`.==</br> |
 | [Xbox Rain Droplets~23.12.2024~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
@@ -178,6 +178,7 @@ TBA
     | [Аддоны Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo и другие | Сборник портированных ассетов с консольной версии. <br>Установка: Распакуйте желаемые части в папку с игрой.</br> |
     | Чит на снег | ThirteenAG & Fusion Team | Для включения снега, введите `7665550100` на телефоне. Для отключения, введите `2665550100`. |
     | [Аддоны для "снежного режима"](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_,  Straysify, gdanbo, ThirteenAG и Gillian | Часть [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) собраны в ввиде аддонов для "снежного режима" выше.<br>Инструкции по установке находятся в :material-file:`Readme.txt` внутри архива.</br> |
+    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](../resources/openiv.md).
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | Мод timecyc, построенный на ванильном визуале.<br>Установка: Найдите папку :material-folder: ==Fusion overloader install== в архиве и распакуйте папку :material-folder: ==update== из-под нее в папку с игрой. Примените рекомендуемые настройки.</br> |
 === "1.0.8.0"
     | Мод | Разработчик(и) | Детали |
@@ -187,6 +188,7 @@ TBA
     | [Аддоны Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo и другие | Сборник портированных ассетов с консольной версии. <br>Установка: Распакуйте желаемые части в папку с игрой.</br> |
     | Чит на снег | ThirteenAG & Fusion Team | Для включения снега, введите `7665550100` на телефоне. Для отключения, введите `2665550100`. |
     | [Аддоны для "снежного режима"](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_,  Straysify, gdanbo, ThirteenAG и Gillian | Часть [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) собраны в ввиде аддонов для "снежного режима" выше.<br>Инструкции по установке находятся в :material-file:`Readme.txt` внутри архива.</br> |
+    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](../resources/openiv.md).
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | Мод timecyc, построенный на ванильном визуале.<br>Установка: Найдите папку :material-folder: ==Fusion overloader install== в архиве и распакуйте папку :material-folder: ==update== из-под нее в папку с игрой. Примените рекомендуемые настройки.</br> |
     | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Добавляет Discord Rich Presence (кастомный статус активности).<br>Installation: Откройте архив, в нем откройте папку :material-folder: ==For GTA IV 1070 and 1080== и распакуйте файлы :fontawesome-solid-gears:`discord-rpc.dll` и :material-file:`IVPresence.asi` в папку с игрой. Если возникли проблемы, также распакуйте :material-file:`IVPresenceDependenciesChecker.exe` с его конфигом, запустите его и вы увидите, каких зависимостей вам не хватает.</br> |
 
@@ -196,14 +198,18 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 26.01.2025
+            - Обновлены Restored Pedestrians, Ultimate ASI Loader, Setup Utility.
+            - Добавлен Potential Grim (возможно нестабилен хз).
+            - Ввостановлена обновленная модель Луиса в IV.
+    ??? quote "Старые изменения"
+        - 13.01.2025 (хотфикс)
+            - Обновлен Setup Utility.
+            - Исправлена Мэллори.
         - 30.12.2024
             - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets.
             - По-нормальному соеденен `peds.ide` из файлов Various Fixes, Trilogy Characters Fixes и Player Outfit Texture Fixes.
             - Удалены некоторые пофикшенные модели для катсцен из Trilogy Characters Fixes из-за сломанных волос.
-        -  13.01.2025 (хотфикс)
-            - Обновлен Setup Utility.
-            - Исправлена Мэллори.
-    ??? quote "Старые изменения"
         - 13.11.2024:
             - Обновлены FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.
             - Добавлен GTA V-like `visualSettings.dat`.
@@ -371,17 +377,21 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 26.01.2025
+            - Обновлены Restored Pedestrians, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
+            - Добавлен Potential Grim (возможно нестабилен хз).
+            - Ввостановлена обновленная модель Луиса в IV.
+    ??? quote "Старые изменения"
+        - 13.01.2025 (хотфикс)
+            - Обновлены Liberty Tweaks, Setup Utility.
+        - 31.12.2024 (хотфикс)
+            - Обновлены IV-SDK .NET и Liberty Tweaks.
+            - Удалены лишние файлы от Console Visuals.
         - 30.12.2024
             - Обновлены FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets, Liberty Tweaks.
             - По-нормальному соеденен `peds.ide` из файлов Various Fixes, Trilogy Characters Fixes и Player Outfit Texture Fixes.
             - Удалены некоторые пофикшенные модели для катсцен из Trilogy Characters Fixes из-за сломанных волос.
-\        - 31.12.2024 (хотфикс)
-            - Обновлены IV-SDK .NET и Liberty Tweaks.
-            - Удалены лишние файлы от Console Visuals.
-        -  13.01.2025 (хотфикс)
-            - Обновлены Liberty Tweaks, Setup Utility.
             - Исправлена Мэллори.
-    ??? quote "Старые изменения"
         - 13.11.2024:
             - Обновлены FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.
             - Добавлен GTA V-like `visualSettings.dat`.

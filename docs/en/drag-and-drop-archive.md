@@ -26,7 +26,7 @@ TBA
     My personal preference for a vanilla-faithful playthrough is the 1.2.0.59 archive, and 1.0.8.0 archive for a vanilla+ playthrough (a replay, maybe).
 
 === "1.2.0.59"
-    Last updated: **[13.01.2025](#changelog)**
+    Last updated: **[26.01.2025](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -34,7 +34,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/6fgjsg9stbkpuvu/1.2_archive.7z/file) (3.58GB, SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
+    1. [Download the archive](https://www.mediafire.com/file/ijvoqfbhdhrq7nj/1.2_archive.7z/file) (3.63GB, SHA512: `fc0689facafe6119fe405895072889b4b1c0f77d2d10a21f0679e22cdf38817a39f6dfa0c12d9d06c6bc9bf114803d2cc3dd4a2e7e6458eb5021c2b47460b653`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
@@ -53,7 +53,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[13.01.2025](#changelog)**
+    Last updated: **[26.01.2025](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -61,7 +61,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/j3xxngq2kcvb6s0/1.0_archive.7z/file) (3.62GB, SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
+    1. [Download the archive](https://www.mediafire.com/file/u1l0tcm1qkdh3to/1.0_archive.7z/file) (3.67GB, SHA512: `12335d14df8f5f5d4b5e6211aab5409b325a634321bd2871d771a344be43eba69706d41104cb6535d905f0bdd36f9f0ca60f420b259cd3bbc27298f91224890d`).
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
@@ -69,7 +69,7 @@ TBA
     6. You are ready to play!
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
         - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`.
-        - It's preferable to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
+        - It's preferable to start **a new savefile**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59 and want to keep playing on the same savefile, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
         - **Do not enable `Check For Fusion Fix Updates`.**
         - If you want **more mods, check out [additional mods](#additional-mods)**.
@@ -116,13 +116,14 @@ All mods in the following list are present in both archives with identical versi
 | [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
 | [Console Visuals~2.0~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Fences, Console Animations, Console Peds. See [Additional Mods](#additional-mods) for more.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
-| [Restored Pedestrians~05.10.2024~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
+| [Restored Pedestrians~08.01.2025~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
 | [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
 | [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores trees that were present in the betas but removed in the final release, either accidentally or due to performance concerns. |
 | [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
 | [Higher Resolution Miscellaneous Pack~2.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
 | [Project Glass~26.11.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass.|
 | [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
+| [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Adds more ped variety, corrects some ped behaviours and adds progressive gang relationships. |
 | [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
 | [Project2DFX~10.11.2024~](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) ([1.0.8.0](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest)) | ThirteenAG | Improves distant lights at night. <br>==Can be disabled by deleting the `IVLodLights` files.==</br> |
@@ -178,6 +179,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo and others | This project ports select console visuals to the PC version. <br>Installation: Download and extract the desired addons into the game folder.</br> |
     | Snow Mode | ThirteenAG & Fusion Team | To enable the Snow Mode, type `7665550100` on the phone. To disable, type `2665550100`. |
     | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for the above Snow Mode.<br>Installation instructions are in the archive's :material-file:`Readme.txt`.</br> |
+    | [Post-new game Potential Grim files](https://gtaforums.com/topic/945227-iveflc-potential-grim/#comments) | Lord Criminal | If you had already started the game and progressed a fair way, check `Additional options`>`Gang acquaintances` for post-new game files. You have to manually add them with [OpenIV](../resources/openiv.md).
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
 === "1.0.8.0"
     | Mod | Developer(s) | Details |
@@ -186,6 +188,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Collection of ported assets from the console version. <br>Installation: Download and extract the desired addons into the game folder.</br> |
     | Snow Mode | ThirteenAG & Fusion Team | To enable the Snow Mode, type `7665550100` on the phone. To disable, type `2665550100`. |
     | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for AssaultKifle47's Snow Mod.<br>Installation instructions are in the archive's `Reame.txt`.</br> |
+    | [Post-new game Potential Grim files](https://gtaforums.com/topic/945227-iveflc-potential-grim/#comments) | Lord Criminal | If you had already started the game and progressed a fair way, check `Additional options`>`Gang acquaintances` for post-new game files. You have to manually add them with [OpenIV](../resources/openiv.md).
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
     | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the :material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br> |
 
@@ -195,17 +198,21 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 26.01.2025
+            - Updated Restored Pedestrians, Ultimate ASI Loader, Setup Utility.
+            - Added Potential Grim (may or may not be unstable idk).
+            - Restored updated Luis model in IV.
+    ??? quote "Old changes"
+        - 13.01.2025 (hotfix)
+            - Updated Setup Utility.
+            - Fixed Mallorie. Poor girl.
         - 30.12.2024
             - Updated FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets.
             - Merged `peds.ide` properly with files from Various Fixes, Trilogy Characters Fixes and Player Outfit Texture Fixes.
             - Removed some fixed cutscene models from Trilogy Characters Fixes due to having broken hair.
-        - 13.01.2025 (hotfix)
-            - Updated Setup Utility.
-            - Fixed Mallorie. Poor girl.
-    ??? quote "Old changes"
         - 13.11.2024:
             - Updated FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets.
-            - Added GTA V-like `visualSettings.dat`.
+            - Added GTA V-like `visualSettings.dat` (with custom adjustments).
             - Removed HD HUD due to causing crash issues.
             - Removed Console Clothing cuz I can't be bothered to figure the priority out.
         - 25.09.2024:
@@ -369,21 +376,25 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 26.01.2025
+            - Updated Restored Pedestrians, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
+            - Added Potential Grim (may or may not be unstable idk).
+            - Restored updated Luis model in IV.
+    ??? quote "Old changes"
+        - 13.01.2025 (hotfix)
+            - Updated Liberty Tweaks and Setup Utility.
+            - Fixed Mallorie. Poor girl.
+        - 31.12.2024 (hotfix)
+            - Updated IV-SDK .NET and Liberty Tweaks.
+            - Removed leftover Console Visuals files.
         - 30.12.2024
             - Updated FusionFix, Trilogy Characters Fixes, Console Visuals, Higher Resolution Misc Pack, Project Glass, Project2DFX, Xbox Rain Droplets, Liberty Tweaks.
             - Merged `peds.ide` properly with files from Various Fixes, Trilogy Characters Fixes and Player Outfit Texture Fixes.
             - Removed some fixed cutscene models from Trilogy Characters Fixes due to having broken hair.
-        - 31.12.2024 (hotfix)
-            - Updated IV-SDK .NET and Liberty Tweaks.
-            - Removed leftover Console Visuals files.
-        - 13.01.2025 (hotfix)
-            - Updated Liberty Tweaks and Setup Utility.
-            - Fixed Mallorie. Poor girl.
-    ??? quote "Old changes"
         - 13.11.2024:
             - Updated FusionFix, Various Fixes, Restored Pedestrians, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Project Thunder.
             - Re-added Project2DFX.
-            - Added GTA V-like `visualSettings.dat`.
+            - Added GTA V-like `visualSettings.dat` (with custom adjustments).
             - Removed HD HUD due to causing crash issues.
             - Removed Console Clothing cuz I can't be bothered to figure the priority out.
         - 25.09.2024:
