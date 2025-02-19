@@ -95,7 +95,7 @@ By default, neither of those two will run on Linux. That can be fixed, however. 
 2. Go to Proton-GE's gamefixes directory (location's different if using Flatpak):
 
     ```text
-    ~/.local/share/Steam/compatibilitytools.d/GE-Proton9-10/protonfixes/gamefixes-steam/
+    ~/.local/share/Steam/compatibilitytools.d/GE-ProtonX-XX/protonfixes/gamefixes-steam/
     ```
 
 3. Open `12210.py` in a text editor and add the following line at the end of the file:
