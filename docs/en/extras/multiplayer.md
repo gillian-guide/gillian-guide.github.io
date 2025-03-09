@@ -75,13 +75,9 @@ The one and only official multiplayer method. And to that end, it's also the one
         After you've made sure you don't have one already, you can:
 
         - Look for a GFWL key on some marketplaces.
-        - Buy one of these Steam games, which are the only ones still selling a GFWL key as of December 2023. This may change in the future. ==Don't worry, you can refund the game after you purchase the key.==
-
-        <iframe src="https://store.steampowered.com/widget/32420/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
+        - Buy the following Steam game, which is the only one still selling a GFWL key as of February 2025. This may change in the future. ==Don't worry, you can refund the game after you purchase the key.==
 
         <iframe src="https://store.steampowered.com/widget/10460/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
-
-        <iframe src="https://store.steampowered.com/widget/20570/4025/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
     === "Trying out random keys online"
