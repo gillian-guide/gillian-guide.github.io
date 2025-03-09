@@ -34,7 +34,8 @@ TBA
         - Do not attempt to install this version on a downgraded copy.
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/ijvoqfbhdhrq7nj/1.2_archive.7z/file) (3.63GB, SHA512: `fc0689facafe6119fe405895072889b4b1c0f77d2d10a21f0679e22cdf38817a39f6dfa0c12d9d06c6bc9bf114803d2cc3dd4a2e7e6458eb5021c2b47460b653`).
+    1. [Download the archive](https://www.mediafire.com/file/ijvoqfbhdhrq7nj/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/he7c7bgwxqb4)) (3.63GB, SHA512: `fc0689facafe6119fe405895072889b4b1c0f77d2d10a21f0679e22cdf38817a39f6dfa0c12d9d06c6bc9bf114803d2cc3dd4a2e7e6458eb5021c2b47460b653`).
+       - [Old version](https://buzzheavier.com/bmk4z6nkiy9m) in case of stability issues (SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
     2. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Press `Open`, select the same game folder.
@@ -61,7 +62,8 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader.
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/u1l0tcm1qkdh3to/1.0_archive.7z/file) (3.67GB, SHA512: `12335d14df8f5f5d4b5e6211aab5409b325a634321bd2871d771a344be43eba69706d41104cb6535d905f0bdd36f9f0ca60f420b259cd3bbc27298f91224890d`).
+    1. [Download the archive](https://www.mediafire.com/file/u1l0tcm1qkdh3to/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/hclcsmatkqes)) (3.67GB, SHA512: `12335d14df8f5f5d4b5e6211aab5409b325a634321bd2871d771a344be43eba69706d41104cb6535d905f0bdd36f9f0ca60f420b259cd3bbc27298f91224890d`).
+        - [Old version](https://buzzheavier.com/g7ekab6z2jdh) in case of stability issues (SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`)
     2. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     3. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     4. Press `Open`, select the same game folder.
