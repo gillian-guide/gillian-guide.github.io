@@ -126,7 +126,7 @@ This mod fixes green-ish textures on some character models.
 
 ---
 
-## [TimeLoopFixIV~1.0~](https://github.com/LotsofEds/TimeLoopFixIV/)
+## [TimeLoopFixIV](https://github.com/LotsofEds/TimeLoopFixIV/)
 
 Fixes days of week not advancing correctly.
 

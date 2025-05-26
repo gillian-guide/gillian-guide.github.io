@@ -126,7 +126,7 @@ description: Еще больше??
 
 ---
 
-## [TimeLoopFixIV~1.0~](https://github.com/LotsofEds/TimeLoopFixIV/)
+## [TimeLoopFixIV](https://github.com/LotsofEds/TimeLoopFixIV/)
 
 Исправляет баги с переносом дней недели.
 

@@ -131,6 +131,10 @@ For their work on [Reduced Trafic Screech (Audio Tweak)](../../essential-modding
 
 For their work on [Fixed Suit Display in Perseus](../../essential-modding/additional-fixes.md/#fixed-suit-display-in-perseus) and [Menu Art Fix](../../essential-modding/additional-fixes.md/#menu-art-fix).
 
+## LotsofEds
+
+For their work on [TimeLoopFixIV](../../essential-modding/additional-fixes.md/#timeloopfixiv).
+
 ## const96b
 
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
