@@ -34,7 +34,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/o59sz961geosrk9/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/qbqs03sde0sf)) (3.69GB, SHA512: ~`6e47545febf18669b7b3470df00db2c286792826a2edd796083d0c59521b06dcc9f0ebb2f235d8aa92bc7e7610000f83e8fca896434a827882e9f120dd4419bd`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. [Download the archive](https://www.mediafire.com/file/o59sz961geosrk9/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/qbqs03sde0sf)) ~(3.69GB, SHA512: `6e47545febf18669b7b3470df00db2c286792826a2edd796083d0c59521b06dcc9f0ebb2f235d8aa92bc7e7610000f83e8fca896434a827882e9f120dd4419bd`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues ~(SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`)~.
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     3. Press `Open`, select the same game folder.
@@ -61,7 +61,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/ov18pn9h2fas7ar/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/ob2qlvcynspn)) (3.73GB, SHA512: ~`e0a9df8e757f7fd6b0aa2b19e9ef2d741e40f6936fea495a5fab7b20d9732f054d8f4f308b6458f85be86ded5bdc5d306bbd83f9b2055adf4723b534aa3a7a57`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues (SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
+    1. [Download the archive](https://www.mediafire.com/file/ov18pn9h2fas7ar/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/ob2qlvcynspn)) ~(3.73GB, SHA512: `e0a9df8e757f7fd6b0aa2b19e9ef2d741e40f6936fea495a5fab7b20d9732f054d8f4f308b6458f85be86ded5bdc5d306bbd83f9b2055adf4723b534aa3a7a57`)~. [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`)~
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`.
     3. Press `Open`, select the same game folder.
