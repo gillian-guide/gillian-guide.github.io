@@ -48,6 +48,31 @@ description: Все про DXVK для GTA IV
     - Если вы знаете что делаете, можете вручную поменять какие-либо переключатели. Обычно, в этом нет нужды.
     - Если появятся какие-либо проблемы, [сообщите о них на Discord сервере](../../index.md/#navigation).
 
+??? warning "Для пользователей 50-серии NVIDIA RTX"
+    В настоящее время игра не запускается при установленном DXVK с последними драйверами. Обход следующий:
+
+    1. Установите DXVK.
+    2. Временно удалите/переименуйте :fontawesome-solid-gears:'dinput8.dll' из папки с игрой.
+    3. Откройте командную строку от имени администратора и выполните следующую команду:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
+
+    4. Перезагрузите компьютер.
+    5. Перейдите на последнюю [страницу релиза](https://github.com/marekzajac97/nvgpucomp32_patch) нужного патча.
+    6. Скачайте файл :fontawesome-solid-gears:`nvgpucomp32.dll`. Убедитесь, что версия вашего драйвера совпадает с названием релиза.
+    7. В папке с игрой создайте папки с названиями :material-folder: ==PlayGTAIV.exe.local== и :material-folder: ==GTAIV.exe.local== и поместите скачанный файл в обе папки.
+    8. Запустите игру один раз.
+    9. Убедившись, что игра загрузилась, восстановите :fontawesome-solid-gears:`dinput8.dll` в папку с игрой.
+    10. Откройте командную строку от имени администратора и выполните следующую команду:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
+
+    При обновлении драйверов процедуру необходимо повторить (шаги 5-7 можно пропустить), пока NVIDIA не решит проблему.
+
 После использования тулзы, вы можете спокойно приступить к оптимальным настройкам графики:
 
 [Следующая страница:material-page-last: <br>Второстепенная настройка: Оптимальные настройки графики</br>](additional-setup.md/#_4){ .md-button .md-button--primary }
@@ -116,6 +141,28 @@ description: Все про DXVK для GTA IV
     Если игра вообще не запускайте, ваш ГП не поддерживает последнюю версию. Используйте замисть этой версии версию Legacy.
 
     Просмотрите [исправление проблем](../resources/troubleshooting.md).
+??? warning "Для пользователей 50-серии NVIDIA RTX"
+    В настоящее время игра не запускается при установленном DXVK с последними драйверами. Обход следующий:
+
+    1. Установите DXVK.
+    2. Временно удалите/переименуйте :fontawesome-solid-gears:'dinput8.dll' из папки с игрой.
+    3. Откройте командную строку от имени администратора и выполните следующую команду:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
+
+    4. Перезагрузите компьютер.
+    5. Перейдите на последнюю [страницу релиза](https://github.com/marekzajac97/nvgpucomp32_patch) нужного патча.
+    6. Скачайте файл :fontawesome-solid-gears:`nvgpucomp32.dll`. Убедитесь, что версия вашего драйвера совпадает с названием релиза.
+    7. В папке с игрой создайте папки с названиями :material-folder: ==PlayGTAIV.exe.local== и :material-folder: ==GTAIV.exe.local== и поместите скачанный файл в обе папки.
+    8. Запустите игру один раз.
+    9. Убедившись, что игра загрузилась, восстановите :fontawesome-solid-gears:`dinput8.dll` в папку с игрой.
+    10. Откройте командную строку от имени администратора и выполните следующую команду:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
 
 ---
 

@@ -100,7 +100,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | -safemode | Sets the game's graphics to the lowest setting possible. |
     | -shadowdensity | Adjusts night shadows (0-16). |
     | -shadowquality | Sets the shadow quality (0-4). |
-    | -stereo | Enables stereo audio support. |
+    | -stereo | Sets game to support stereo rendering mode. What it currently does is unknown, it may not be implemented at all. |
     | -texturequality | Sets the game's texture quality (0-2). |
     | -unmanaged | Uses application managed resources. |
     | -usedirectinput | Allows DirectInput support alongside XInput support. |

@@ -10,6 +10,9 @@ Following mods are not essential to playing the game, but they're highly recomme
 
     Keep in mind there is a recommended load order at the bottom.
 
+!!! warning "For Linux users"
+    When installing mods, be careful and take note when filenames have different casing (e.g. `weaponinfo.xml` and `weaponInfo.xml`). Make sure to merge them accordingly.
+
 ---
 
 ## [Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition/)
@@ -56,7 +59,7 @@ This mod improves distant lights at night.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
 === "1.0.8.0"
-    1. Download the [release page](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest).
+    1. Go to the [release page](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest).
     2. Download :material-zip-box:`IV.Project2DFX-PreCE.zip`.
     3. Extract the archive into the :material-folder: ==plugins== folder.
         - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
@@ -82,9 +85,8 @@ This mod fixes various issues with the weapon animations.
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
-2. Download the `Fusion Overloader version`.
-3. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Download this [archive](https://drive.google.com/file/d/1fpd7qloIXDu6WhIl6NXAj5JCT1ilReW3/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -94,8 +96,9 @@ This mod improves the texture quality of minor assets.
 
 <h3>Installation</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1fpd7qloIXDu6WhIl6NXAj5JCT1ilReW3/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/357?tab=files).
+2. Download the latest version.
+3. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -181,7 +184,7 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 1. Go to the [GTAForums page](https://gtaforums.com/topic/981864-restored-pedestrians/).
 2. Press `DOWNLOAD`.
 3. Download the archive.
-4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, Extract the :material-folder: ==update== folder from the archive into the game folder.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -191,10 +194,10 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 
 <h3>Installation</h3>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/981864-restored-pedestrians/).
+1. Go to the [GTAForums page](https://gtaforums.com/topic/976318-various-pedestrian-actions/).
 2. Press `DOWNLOAD`.
 3. Download the archive.
-4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, Extract the :material-folder: ==update== folder from the archive into the game folder.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 
@@ -231,6 +234,7 @@ A vanilla-friendly popcycle that makes the city life more varied and realistic.
 2. Download the desired version of the mod (Potential Grim version has slightly more variety).
 3. Open the downloaded archive, locate the :material-folder: ==Fusion overloader install== folder in it.
 4. Extract the :material-folder: ==update== folder from that folder into the game folder.
+5. In-game, set Vehicle Density to `100` for best effect.
 
 ---
 

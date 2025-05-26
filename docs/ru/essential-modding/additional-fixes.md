@@ -8,6 +8,9 @@ description: Еще больше??
 !!! warning ""
     Для большинства модов требуется [FusionFix](../essential-modding/fusionfix.md). **Эта страница будет предполагать, что он у вас установлен и не будет об этом напоминать.**
 
+!!! warning "Для пользователей Linux"
+    При установке модов будьте внимательны и обращайте внимание на то, что имена файлов имеют разный регистр (например, `weaponinfo.xml` и `weaponInfo.xml`). Не забудьте объедините их соответствующим образом.
+
 ---
 
 ## [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
@@ -110,7 +113,7 @@ description: Еще больше??
 
 Этот мод исправляет зеленоватые текстуры на некоторых моделях персонажей.
 
-<h3>Устаноыка</h3>
+<h3>Установка</h3>
 
 1. Скачайте этот [архив](https://drive.google.com/file/d/1R--bkDVJIEk_ZzScJNuLQn7B6yCIuQwv/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== в папку с игрой.
@@ -120,6 +123,18 @@ description: Еще больше??
 6. Скопированные архивы откройте с [OpenIV](../../resources/openiv.md/#_6).
 7. Скопируйте файлы из :material-folder: ==IV - playerped.rpf== в архив, который вы скопировали в этапе 4.
 8. Скопируйте файлы из :material-folder: ==TBoGT - playerped.rpf== в архив, который вы скопировали в этапе 5.
+
+---
+
+## [TimeLoopFixIV~1.0~](https://github.com/LotsofEds/TimeLoopFixIV/)
+
+Исправляет баги с переносом дней недели.
+
+<h3>Установка</h3>
+
+1. Установите [IV-SDK .NET](../resources/mod-dependencies.md/#iv-sdk-net) или [ScriptHookDotNet](../resources/mod-dependencies.md/#scripthookdotnet).
+2. Перейдите на последнюю [страницу релиза](https://github.com/LotsofEds/TimeLoopFixIV/releases/latest).
+3. Распакуйте :fontawesome-solid-gears:`TimeFix.net.dll` в :material-folder: ==scripts== или :material-folder:==IVSDKDotNet/scripts==.
 
 ---
 

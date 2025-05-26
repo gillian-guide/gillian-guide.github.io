@@ -27,25 +27,24 @@ TBA
 
 
 === "1.2.0.59"
-    Последний раз обновлено: **[26.01.2025](#_9)**
+    Последний раз обновлено: **[26.05.2025](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
         - **Не ожидайте поддержки если устанавливаете моды за пределами [дополнительных модов](#_8) - скорее всего, вы ее не получите.**
-        - Не пытайтесь установить эту версию на уже-даунгрейднутую игру.
+        - Не пытайтесь установить эту версию на уже-даунгрейднутую игру. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/ijvoqfbhdhrq7nj/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/he7c7bgwxqb4)) (3.63ГБ, SHA512: `fc0689facafe6119fe405895072889b4b1c0f77d2d10a21f0679e22cdf38817a39f6dfa0c12d9d06c6bc9bf114803d2cc3dd4a2e7e6458eb5021c2b47460b653`).
-       - [Старая версия](https://buzzheavier.com/bmk4z6nkiy9m) в случае нестабильности (SHA512: `ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`).
-    2. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
-    3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
-    4. Нажмите `Open`, выберите ту же папку с игрой.
-    5. Нажмите `Install DXVK`, после чего `Setup launch options`. Не трогайте переключатели, если не знаете что делаете.
-    6. После нажатия `Setup launch options` и `ОК` параметры запуска будут у вас в буфере обмена, поэтому сделайте одно из следующих действий:
+    1. [Скачайте архив](https://www.mediafire.com/file/o59sz961geosrk9/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/qbqs03sde0sf)) (3.69ГБ, SHA512: ~`6e47545febf18669b7b3470df00db2c286792826a2edd796083d0c59521b06dcc9f0ebb2f235d8aa92bc7e7610000f83e8fca896434a827882e9f120dd4419bd`~). [Старая версия](https://buzzheavier.com/rs3cvhph12oj) в случае нестабильности (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
+    2. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
+    3. Нажмите `Open`, выберите ту же папку с игрой.
+    4. Нажмите `Install DXVK`, после чего `Setup launch options`. Не трогайте переключатели, если не знаете что делаете.
+    5. После нажатия `Setup launch options` и `ОК` параметры запуска будут у вас в буфере обмена, поэтому сделайте одно из следующих действий:
         - **:material-steam: Steam**: Нажмите правой кнопкой мыши на игре в библиотеке, нажмите `Свойства...` и вставьте содержимое в поле `Параметры запуска`.
         - **:simple-rockstargames: Rockstar Games Launcher**: Откройте страницу с игрой в библиотеке, откройте настройки и вставьте содержимое в поле `Параметры запуска`.
         - **Ярлык**: Нажмите правой кнопкой мыши по ярлыку, нажмите `Свойства` и вставьте содержимое в конец поля `Цель`.
-    7. Вы готовы к игре!
+    6. Вы готовы к игре!
         - Запускайте игру через :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher или `PlayGTAIV.exe`.
         - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы.
         - Выставьте настройку `Транспортный поток` на `100` для полноценного использования кастомного popcycle.
@@ -54,16 +53,15 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[26.01.2025](#_9)**
+    Последний раз обновлено: **[26.05.2025](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
         - **Не ожидайте поддержки если устанавливаете моды за пределами [дополнительных модов](#_8) - скорее всего, вы ее не получите.**
-        - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер.
+        - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/u1l0tcm1qkdh3to/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/hclcsmatkqes)) (3.67ГБ, SHA512: `12335d14df8f5f5d4b5e6211aab5409b325a634321bd2871d771a344be43eba69706d41104cb6535d905f0bdd36f9f0ca60f420b259cd3bbc27298f91224890d`).
-        - [Старая версия](https://buzzheavier.com/g7ekab6z2jdh) в случае нестабильности (SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
+    1. [Скачайте архив](https://www.mediafire.com/file/ov18pn9h2fas7ar/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/ob2qlvcynspn)) (3.73ГБ, SHA512: `e0a9df8e757f7fd6b0aa2b19e9ef2d741e40f6936fea495a5fab7b20d9732f054d8f4f308b6458f85be86ded5bdc5d306bbd83f9b2055adf4723b534aa3a7a57`). [Старая версия](https://buzzheavier.com/ws97pulvf4my) в случае нестабильности (SHA512: `63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer).
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -112,24 +110,24 @@ TBA
 
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
-| [Radio Downgrader~31.08.2024~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
+| [Radio Downgrader~23.05.2025~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
 | [FusionFix~3.5.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера.<br>==Некоторые фиксы не присутствуют в версии для 1.0.8.0.==</br> |
 | [Various Fixes~2.0.2~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей в основной GTA IV и EFLC. |
-| [Console Visuals~2.0~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
+| [Console Visuals~2.0.1~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi и другие | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds, Console Vegetation. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg и C1aude_III | Исправляет разные проблемы с анимациями оружий. |
 | [Restored Pedestrians~08.01.2025~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. |
 | [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и завершает недоделанные действия для пешеходов. |
 | [Restored Trees Position~31.10.2023~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает деревья, которые присутствовали в бета-версиях, но были вырезаны в финальном релизе - либо случайно, либо из-за проблем с производительностью. |
 | [More Visible Interiors~29.02.2024~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьер более заметными снаружи, хотя имеет недостаток в виде появления интерьеров на глазах. |
 | [Higher Resolution Miscellaneous Pack~1.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
-| [Project Glass~26.11.2024~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
-| [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
+| [Project Glass~11.04.2025~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
+| [Vehicle Pack~2.1~ (половина разрешения)](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
 | [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Добавляет больше разнообразия педов, исправляет некоторые особенности поведения педов и добавляет прогрессивные отношения между бандами. |
 | [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | Замена popcycle в духе оригинала который делает жизнь в городе более разнообразной и реалистичной. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Позволяет пулям пробивать стекла так, как с лобовыми стеклами. |
 | [Project2DFX~10.11.2024~](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) ([1.0.8.0](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest)) | ThirteenAG | Улучшает огни в далеке ночью. <br>==Можно отключить, удалив файлы `IVLodLights`.==</br> |
-| [Xbox Rain Droplets~23.12.2024~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
+| [Xbox Rain Droplets~02.05.2025~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Улучшает текстуры мутного доктора в миссии "Имейте сердце". |
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Улучшает модель и качество текстуры голубей. |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Уменьшение размера Blista Compact для соответствия реальному аналогу (Honda CR-X).  |
@@ -163,9 +161,10 @@ TBA
     | :-: | :------------: | :----: |
     | Даунгрейд до 1.0.8.0 | Gillian (файлы пренадлежат Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
     | [ZolikaPatch IV~7.65~](https://zolika1351.pages.dev/mods/ivpatch) | Zolika1351 | Добавляет мелкие исправления исключительно для 1.0.8.0. |
-    | [Liberty Tweaks~1.6~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre и другие | Мод, нацелений на улучшение различных аспектов игры и ее общий Quality of Life. Много настроек.<br>==Позволяет быстро сохраняться на ++f9++ и имеет множество геймплейных фич - если вам не нравятся настройки по умолчанию, вы можете изенить все на свой вкус в файле :material-file-cog:`LibertyTweaks.ini` который находится в :material-folder: `IVSDKDotNet\scripts\`==</br> |
+    | [Liberty Tweaks~1.7~ (пре-релиз)](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre и другие | Мод, нацелений на улучшение различных аспектов игры и ее общий Quality of Life. Много настроек.<br>==Позволяет быстро сохраняться на ++f9++ и имеет множество геймплейных фич - если вам не нравятся настройки по умолчанию, вы можете изенить все на свой вкус в файле :material-file-cog:`LibertyTweaks.ini` который находится в :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [Project Thunder~2.2~](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Улучшает грозу, с улучшениями к освещению и атмосфере. Много настроек. |
     | [VAmbience~1.0~](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Добавляет в игру фоновый шум, например, езда автомобилей в дали или стрельба, как в GTA V. Много настроек. |
+    | [TimeLoopFixIV~1.0~](https://github.com/LotsofEds/TimeLoopFixIV/) | LotsofEds | Исправляет баги с переносом дней недели. |
     | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Позволяет получать достижения в :material-steam: Steam на старых патчах. |
 
 ---
@@ -200,11 +199,15 @@ TBA
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 26.05.2025
+            - Обновлены Radio Restoration, Project Glass, Xbox Rain Droplets, Ultimate ASI Loader, Setup Utility.
+            - Добавлен Console Vegetation.
+            - Попытка исправить проблемы с памятью (уменьшено разрешение текстур в Vehicle Pack, изменен бюджет транспорта, убран увеличенный бюджет педов)
+    ??? quote "Старые изменения"
         - 26.01.2025
             - Обновлены Restored Pedestrians, Ultimate ASI Loader, Setup Utility.
             - Добавлен Potential Grim (возможно нестабилен хз).
             - Ввостановлена обновленная модель Луиса в IV.
-    ??? quote "Старые изменения"
         - 13.01.2025 (хотфикс)
             - Обновлен Setup Utility.
             - Исправлена Мэллори.
@@ -379,6 +382,10 @@ TBA
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+        - 26.05.2025
+            - Обновлены Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
+            - Добавлены TimeLoopFixIV, Console Vegetation.
+            - Попытка исправить проблемы с памятью (уменьшено разрешение текстур в Vehicle Pack, изменен бюджет транспорта, убран увеличенный бюджет педов)
         - 26.01.2025
             - Обновлены Restored Pedestrians, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
             - Добавлен Potential Grim (возможно нестабилен хз).

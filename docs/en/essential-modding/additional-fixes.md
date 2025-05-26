@@ -8,6 +8,9 @@ Following mods are fixes that I'd personally consider essential, as they don't h
 !!! warning ""
     [FusionFix](../essential-modding/fusionfix.md) is required for most mods. **This page will assume you have it installed and will not remind you of it.**
 
+!!! warning "For Linux users"
+    When installing mods, be careful and take note when filenames have different casing (e.g. `weaponinfo.xml` and `weaponInfo.xml`). Make sure to merge them accordingly.
+
 ---
 
 ## [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
@@ -120,6 +123,18 @@ This mod fixes green-ish textures on some character models.
 6. Open the copied archives with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 7. Copy the files from :material-folder: ==IV - playerped.rpf== to the archive you copied in step 4.
 8. Copy the files from :material-folder: ==TBoGT - playerped.rpf== to the archive you copied in step 5.
+
+---
+
+## [TimeLoopFixIV~1.0~](https://github.com/LotsofEds/TimeLoopFixIV/)
+
+Fixes days of week not advancing correctly.
+
+<h3>Installation</h3>
+
+1. Install [IV-SDK .NET](../resources/mod-dependencies.md/#iv-sdk-net) or [ScriptHookDotNet](../resources/mod-dependencies.md/#scripthookdotnet).
+2. Go to the latest [Release page](https://github.com/LotsofEds/TimeLoopFixIV/releases/latest).
+3. Extract :fontawesome-solid-gears:`TimeFix.net.dll` into :material-folder: ==scripts== or :material-folder:==IVSDKDotNet/scripts==.
 
 ---
 

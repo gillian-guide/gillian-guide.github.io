@@ -48,6 +48,31 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
     - If experienced, you can manually configure the options. There is usually no need to, though.
     - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
+??? warning "For NVIDIA 50-series RTX GPU users"
+    Currently, the game will not launch with DXVK installed with latest drivers. The workaround is as follows:
+
+    1. Install DXVK.
+    2. Temporarily remove/rename :fontawesome-solid-gears:`dinput8.dll` from the game folder.
+    3. Open the command prompt as an administrator and run the following:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
+
+    4. Restart the PC.
+    5. Go to the latest [Release page](https://github.com/marekzajac97/nvgpucomp32_patch) of the required patch.
+    6. Download the :fontawesome-solid-gears:`nvgpucomp32.dll`. Make sure your driver version is the same as the release's name.
+    7. In the game folder, create folders called :material-folder: ==PlayGTAIV.exe.local== and :material-folder: ==GTAIV.exe.local== and put the downloaded file in both folders.
+    8. Launch the game once.
+    9.  Once ensured that the game loaded, restore :fontawesome-solid-gears:`dinput8.dll` to the game folder.
+    10. Open the command prompt as an administrator and run the following:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0`.
+        ```
+
+    If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
+
 After using the tool, you can freely skip to optimal graphics settings:
 
 [Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-graphics-settings){ .md-button .md-button--primary }
@@ -117,6 +142,30 @@ After using the tool, you can freely skip to optimal graphics settings:
     If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 
     See [troubleshooting](../resources/troubleshooting.md).
+??? warning "For NVIDIA 50-series RTX GPU users"
+    Currently, the game will not launch with DXVK installed with latest drivers. The workaround is as follows:
+
+    1. Install DXVK.
+    2. Temporarily remove/rename :fontawesome-solid-gears:`dinput8.dll` from the game folder.
+    3. Open the command prompt as an administrator and run the following:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`.
+        ```
+
+    4. Restart the PC.
+    5. Go to the latest [Release page](https://github.com/marekzajac97/nvgpucomp32_patch) of the required patch.
+    6. Download the :fontawesome-solid-gears:`nvgpucomp32.dll`. Make sure your driver version is the same as the release's name.
+    7. In the game folder, create folders called :material-folder: ==PlayGTAIV.exe.local== and :material-folder: ==GTAIV.exe.local== and put the downloaded file in both folders.
+    8. Launch the game once.
+    9.  Once ensured that the game loaded, restore :fontawesome-solid-gears:`dinput8.dll` to the game folder.
+    10. Open the command prompt as an administrator and run the following:
+
+        ```bash
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0`.
+        ```
+
+    If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
 
 ---
 
