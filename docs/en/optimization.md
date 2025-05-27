@@ -70,6 +70,7 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
         ```bash
         reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
         ```
+    11. Restart the PC again.
 
     If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
 
@@ -164,6 +165,7 @@ After using the tool, you can freely skip to optimal graphics settings:
         ```bash
         reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
         ```
+    11. Restart the PC again.
 
     If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
 
