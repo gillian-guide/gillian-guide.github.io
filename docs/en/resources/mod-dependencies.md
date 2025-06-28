@@ -87,22 +87,20 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
 ## Getting ScriptHookDotNet and IV-SDK .NET to work on Linux
 
-By default, neither of those two will run on Linux. That can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - Google it.
+By default, neither of those two will run on Linux. This can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - Google it.
 
 <h3>Instructions</h3>
 
-1. Set up Proton-GE.
-2. Go to Proton-GE's gamefixes directory (location's different if using Flatpak):
+1. Install [Protontricks](https://github.com/Matoking/protontricks)
+2. Open a terminal and run the following command to install .NET in the GTA IV prefix:
 
     ```text
-    ~/.local/share/Steam/compatibilitytools.d/GE-ProtonX-XX/protonfixes/gamefixes-steam/
+    protontricks 12210 -q dotnet472
     ```
+    - If you installed Protontricks through Flatpak, run this:
+        ```text
+        flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
+        ```
+3. Wait until .NET installs (may take from 5 to 30 minutes).
 
-3. Open `12210.py` in a text editor and add the following line at the end of the file:
-
-    ```text
-    util.protontricks('dotnet472')
-    ```
-
-4. Force the game to use Proton-GE.
-5. Run the game and wait until .NET installs (may take from 5 to 30 minutes).
+If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead.
