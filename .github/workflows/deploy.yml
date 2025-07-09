@@ -20,7 +20,10 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
+      - run: |
+          sudo apt-get update
+          sudo apt-get install --fix-missing -y \
+            libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
       - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-glightbox pillow cairosvg
       - run: mkdocs gh-deploy --force
 
