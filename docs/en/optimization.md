@@ -151,7 +151,7 @@ After using the tool, you can freely skip to optimal graphics settings:
     3. Open the command prompt as an administrator and run the following:
 
         ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1.
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1
         ```
 
     4. Restart the PC.
@@ -163,7 +163,7 @@ After using the tool, you can freely skip to optimal graphics settings:
     10. Open the command prompt as an administrator and run the following:
 
         ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0
         ```
     11. Restart the PC again.
 

@@ -150,7 +150,7 @@ description: Все про DXVK для GTA IV
     3. Откройте командную строку от имени администратора и выполните следующую команду:
 
         ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1.
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1
         ```
 
     4. Перезагрузите компьютер.
@@ -162,7 +162,7 @@ description: Все про DXVK для GTA IV
     10. Откройте командную строку от имени администратора и выполните следующую команду:
 
         ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0
         ```
     11. Перезагрузите компьютер еще раз.
 
