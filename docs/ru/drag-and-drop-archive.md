@@ -202,7 +202,6 @@ TBA
         - 09.07.2025
             - Обновлены Restored Pedestrians, Project2DFX, Setup Utility.
             - Добавлены EFLC Vehicle Addon Pack For GTA IV (только аддоны), Yes Way On The Subway.
-            - Откат Liberty Tweaks до 1.6 из-за стабильности.
             - Убраны кастомные изменения в Vehicle Pack изменен бюджет транспорта.
             - Исправлены сломанные занавески.
             - Исправлены неправильные текстуры на аксесуарах Луиса.
@@ -393,7 +392,7 @@ TBA
 === "1.0.8.0"
     !!! info "Последняя версия"
         - 09.07.2025
-            - Обновлены Restored Pedestrians, Project2DFX, Setup Utility.
+            - Обновлены Restored Pedestrians, Setup Utility.
             - Добавлены EFLC Vehicle Addon Pack For GTA IV (только аддоны), Yes Way On The Subway.
             - Откат Liberty Tweaks до 1.6 из-за стабильности.
             - Удален TimeLoopFix из-за присутствия такого-же исправления в Liberty Tweaks.

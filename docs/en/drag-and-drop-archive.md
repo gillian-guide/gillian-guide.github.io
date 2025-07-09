@@ -202,7 +202,6 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 09.07.2025
             - Updated Restored Pedestrians, Project2DFX, Setup Utility.
             - Added EFLC Vehicle Addon Pack For GTA IV (addons only), Yes Way On The Subway.
-            - Reverted Liberty Tweaks to 1.6 for stability reasons.
             - Reverted custom Vehicle Pack changes, changed vehicle budget.
             - Fixed the broken window curtains.
             - Fixed the broken accessories textures on Luis.
