@@ -24,13 +24,13 @@ description: Еще больше??
 
 ---
 
-## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/)
+## [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/)
 
-Эти моды от Attramet исправляют некоторые недочеты которые не имеют никакого смысла.
+Этот мод меняет Esperanto на парковке Романа на его же такси.
 
 <h3>Установка</h3>
 
-1. Скачайте этот [архив](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
+1. Скачайте этот [архив](https://drive.google.com/file/d/1OZYabBTvKV1U8f0_nYJTQChoyE2vep6B/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
@@ -126,15 +126,14 @@ description: Еще больше??
 
 ---
 
-## [TimeLoopFixIV](https://github.com/LotsofEds/TimeLoopFixIV/)
+## [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) - Fixed Infernus Exit Animations
 
-Исправляет баги с переносом дней недели.
+Изначально этот мод предназначался для добавления в GTA IV эксклюзивный транспорт из EFLC, но он также включает в себя несколько полезных аддонов, один из которых - исправленные анимации выхода из Infernus, поскольку в IV они выглядят сломанными.
 
 <h3>Установка</h3>
 
-1. Установите [IV-SDK .NET](../resources/mod-dependencies.md/#iv-sdk-net) или [ScriptHookDotNet](../resources/mod-dependencies.md/#scripthookdotnet).
-2. Перейдите на последнюю [страницу релиза](https://github.com/LotsofEds/TimeLoopFixIV/releases/latest).
-3. Распакуйте :fontawesome-solid-gears:`TimeFix.net.dll` в :material-folder: ==scripts== или :material-folder:==IVSDKDotNet/scripts==.
+1. Скачайте этот [архив](https://drive.google.com/file/d/1LTCbV15k9AjgeRa1ncinFXIPvfQRjVF2/view?usp=sharing).
+2. Распакуйте папку :material-folder: ==update== в папку с игрой.
 
 ---
 

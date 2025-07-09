@@ -47,6 +47,18 @@ This project aims to fix the inconsistency of characters between base GTA IV and
 
 ---
 
+## [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/)
+
+This mod adds EFLC-exclusive vehicles to GTA IV. It also includes a couple useful addons, of which you may want to install: Fixed Infernus Exit Animations, Lycans instead of Hellfuries for 'Frosting on the Cake', Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It'.
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736).
+2. Download the mod.
+3. Install the desired parts of the mod manually using [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+
+---
+
 ## [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
 
 This mod improves distant lights at night.
@@ -175,16 +187,16 @@ This mod restores trees that were present in the betas but removed in the final 
 
 ---
 
-## [Restored Pedestrians & Restored Pedestrians Clothes](https://gtaforums.com/topic/981864-restored-pedestrians/)
+## [Restored Pedestrians & Restored Pedestrians Assets](https://gtaforums.com/topic/981864-restored-pedestrians/)
 
-Restored Pedestrians restores pedestrians that were either unused or only present in the betas. Restored Pedestrians Clothes does the same, but with clothing variation.
+Restored Pedestrians restores pedestrians that were either unused or only present in the betas. Restored Pedestrians Assets restores unused/rarely used assets.
 
 <h3>Installation</h3>
 
 1. Go to the [GTAForums page](https://gtaforums.com/topic/981864-restored-pedestrians/).
 2. Press `DOWNLOAD`.
 3. Download the archive.
-4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder.
+4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder. There is also compatibility files for Potential Grim in :material-folder: ==Manual Insatllation==.
 
 ---
 
@@ -248,6 +260,19 @@ This mod allows bullets to penetrate glass like they do with car windshields.
 2. Press `Download`.
 3. Open the :material-zip-box:`Bullet Penetration.zip` archive and the :material-folder: ==Minimal Edition== folder inside of it.
 4. Extract the :material-folder:==common== folder into the :material-folder: ==update== folder.
+
+---
+
+## [Yes Way On The Subway](https://www.gtainside.com/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/)
+
+Removes invincibility from the target in the mission 'No Way On The Subway'.
+
+<h3>Installation</h3>
+
+1. Download this [archive](https://drive.google.com/file/d/1OJ8dnGUtH3xF1evE-AZFjL5fg2hW1GRy/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
 
 ## [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/)
 

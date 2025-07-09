@@ -23,7 +23,7 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 | [Liberty Rush](https://gtaforums.com/topic/979688-liberty-rush/) | Internet Rob, ItsClonkAndre, donnits, Datalvarezguy | Adds dozens of improvements, restored content, new traffic scenarios etc. |
 | [The Actual Complete Edition](https://gtaforums.com/topic/967792-grand-theft-auto-iv-the-actual-complete-edition/) | C1aude_III | This projects puts huge effort at merging IV and EFLC from weapons, vehicles and assets to the whole map. ==Replaces the following two mods.== |
 | [The Complete Liberty City](https://gtaforums.com/topic/935747-the-complete-liberty-city-gta-iv-eflc-map-mix/) | ElYisusKing | A massive project aimed to merge EFLC and IV maps. |
-| [EFLC Vehicle Addon Pack](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag, Gaming with SG | Adds the EFLC vehicles to base IV. |
+| [Liberty Alive](https://gtaforums.com/topic/992467-liberty-alive/#comments) | nabo45 | Adds a lot of interiors to the world. |
 | [Enhanced Minor Characters](https://gtaforums.com/topic/978737-grand-theft-auto-iv-enhanced-minor-characters/) | Datalvarezguy | Replaces vanilla peds in some missions with author's visions for the characters. |
 | [Hi-Res Characters](https://www.gtainside.com/en/gta4/mods/176255-hi-res-characters-update-v1-1-upscaled-mod/) | Primusideus | Upscaled and higher resolution character textures. |
 | [Potential Grim](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | iiCriminnaaL | Adds more danger to the streets of Liberty City and makes gangs play a bigger role in freeroam. |

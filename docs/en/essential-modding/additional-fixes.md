@@ -24,13 +24,13 @@ This mod fixes the bleak reflection on TBoGT player model's helmet.
 
 ---
 
-## [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions](https://gtaforums.com/topic/989680-attramets-workshop/)
+## [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/)
 
-These mods by Attramet fix some small inconsistencies that don't make much sense.
+This mod changes the Esperanto in Roman's Cab Depot to Roman's Taxi.
 
 <h3>Installation</h3>
 
-1. Download this [archive](https://drive.google.com/file/d/1AJr7hPMAXnKwclaKPjCzM6U9wsM4MoJY/view?usp=sharing).
+1. Download this [archive](https://drive.google.com/file/d/1OZYabBTvKV1U8f0_nYJTQChoyE2vep6B/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
@@ -126,15 +126,14 @@ This mod fixes green-ish textures on some character models.
 
 ---
 
-## [TimeLoopFixIV](https://github.com/LotsofEds/TimeLoopFixIV/)
+## [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) - Fixed Infernus Exit Animations
 
-Fixes days of week not advancing correctly.
+This mod originally intends to add EFLC-exclusive vehicles to GTA IV, but it also includes a couple useful addons, one of which is fixed infernus exit animations, as they look broken in IV.
 
 <h3>Installation</h3>
 
-1. Install [IV-SDK .NET](../resources/mod-dependencies.md/#iv-sdk-net) or [ScriptHookDotNet](../resources/mod-dependencies.md/#scripthookdotnet).
-2. Go to the latest [Release page](https://github.com/LotsofEds/TimeLoopFixIV/releases/latest).
-3. Extract :fontawesome-solid-gears:`TimeFix.net.dll` into :material-folder: ==scripts== or :material-folder:==IVSDKDotNet/scripts==.
+1. Download this [archive](https://drive.google.com/file/d/1LTCbV15k9AjgeRa1ncinFXIPvfQRjVF2/view?usp=sharing).
+2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
 

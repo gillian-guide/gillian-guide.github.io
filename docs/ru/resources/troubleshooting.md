@@ -14,7 +14,8 @@ I know about these issues, no need to report them to me, unless you know a solut
 - Cutscenes freeze the game up if the game is out-of-focus for too long.
 - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
 - Social Club achievements cannot be acquired on downgraded versions.
-- Night shadows are limited (intended to reduce bugs).
+- Night shadows are limited, including lack of headlight and lamppost shadows (intended to reduce bugs).
+- Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game.
 
 ---
 
@@ -41,7 +42,8 @@ I know about these issues, no need to report them to me, unless you know a solut
     - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with `.asi` mods, so start there.
 
 ??? info "Game crashes immediately upon booting"
-    - Try turning off RivaTuner Statistics (with MSI Afterburner if using that) or any other software of this sort - overlays can mess the game up on boot.
+    - Try turning off RivaTuner Statistics (with MSI Afterburner if using that), uninstalling Bandicam or any other software of this sort that does injections - overlays and injectors can mess with the game on boot.
+    - Try disabling Steam Overlay and/or Steam Input.
     - On a downgraded version, try installing [ZolikaPatch](../../essential-modding/zolikapatch.md) if you hadn't already.
     - Try deleting `SETTINGS.cfg` from :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with injectable mods, so start there.
@@ -69,6 +71,8 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Game shows wrong VRAM value in settings"
     Set the `-availablevidmem` [launch option](../../additional-setup.md/#launch-options) (with a value of up to 3072.0).
 
+    It is not recommended to go beyond 3072.0 due to potential unstability issues. Additionally, on verisons below 1.0.8.0 that number is arbitrary - try numbers like 60.0, 120.0 etc. to see what fits.
+
 ??? info "The game does not start in desired resolution and there is no option to increase it in the settings"
     Set these [launch options](../../additional-setup.md/#launch-options):
 
@@ -86,15 +90,17 @@ I know about these issues, no need to report them to me, unless you know a solut
 
     Also, check for [GPU driver updates](../../preparation.md/#drivers).
 
-??? info "Poor in-game performance"
-    - Make sure that [DXVK](../../optimization.md) is installed correctly.
+??? info "Poor in-game performance / Stuttering"
+    - Make sure that [DXVK](../../optimization.md) is installed correctly and with recommended settings (don't use async unless you don't have Fast Linking).
     - Try using [optimal game settings](../../additional-setup.md/#optimal-game-settings).
     - Make sure `Shader Pre-caching` is disabled in the :material-steam: Steam `Settings` - `Downloads` tab if using DXVK.
+    - Try disabling Steam Overlay and/or Steam Input.
     - Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
     - Try lowering the graphics settings, in particular:
         - Shadow Quality
         - Night Shadows
         - View/Detail Distance
+        - Shadow Filter
         - Depth of Field
         - Motion Blur
         - Reflection Quality

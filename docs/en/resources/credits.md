@@ -33,7 +33,7 @@ For directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
 
 ## Attramet
 
-For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/#restored-pedestrians-restored-pedestrians-clothes), [Replaced Esperanto by Roman's Taxi in Cab Depot & Fixed Pedestrian Reactions](../../essential-modding/additional-fixes.md/#replaced-esperanto-by-romans-taxi-in-cab-depot-fixed-pedestrian-reactions) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
+For their work on [Various Fixes](../../essential-modding/various-fixes.md), [More Visible Interiors](../../enhancements.md/#more-visible-interiors), [Restored Trees Position](../../enhancements.md/#restored-trees-position), [Restored Pedestrians](../../enhancements.md/#restored-pedestrians-restored-pedestrians-clothes), [Replaced Esperanto by Roman's Taxi in Cab Depot](../../essential-modding/additional-fixes.md/#replaced-esperanto-by-romans-taxi-in-cab-depot) and other [mods](../../extras/mods.md) and directly contributing to [Console Visuals](../../enhancements.md/#console-visuals).
 
 ## Magic_Al
 
@@ -91,6 +91,10 @@ For their work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-char
 
 For their original work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-characters-fixes).
 
+## 7urbo1ag, Gaming with SG, TheKillerDonuts
+
+For their work on [EFLC Vehicle Addon Pack](../../enhancements.md/#eflc-vehicle-addon-pack).
+
 ## DayL
 
 For their work on [Project Glass](../../enhancements.md/#project-glass).
@@ -117,11 +121,15 @@ For their work on [Resized Blista Compact](../../enhancements.md/#resized-blista
 
 ## B Dawg
 
-For their work on [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) and [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix).
+For their work on [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments), [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix) and contributing to [EFLC Vehicle Addon Pack](../../enhancements.md/#eflc-vehicle-addon-pack).
 
 ### C1aude_III
 
 For directly contributing to [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
+
+## LotsOfEds
+
+For their work on [Yes Way On The Subway](../../enhancements.md/#yes-way-on-the-subway).
 
 ## GladiTek
 
@@ -131,15 +139,11 @@ For their work on [Reduced Trafic Screech (Audio Tweak)](../../essential-modding
 
 For their work on [Fixed Suit Display in Perseus](../../essential-modding/additional-fixes.md/#fixed-suit-display-in-perseus) and [Menu Art Fix](../../essential-modding/additional-fixes.md/#menu-art-fix).
 
-## LotsofEds
-
-For their work on [TimeLoopFixIV](../../essential-modding/additional-fixes.md/#timeloopfixiv).
-
 ## const96b
 
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
 
-## Shvab, OpenIV developers, Cfx.re team, aru, HazardX and others
+## Shvab, OpenIV developers, AndrewMulti, Cfx.re team, aru, HazardX and others
 
 For their work on modding tools. All those mods wouldn't be possible without them.
 
