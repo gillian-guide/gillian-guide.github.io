@@ -382,7 +382,7 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Repacked mods in a more convenient format.
         - 01.07.2023:
             - Updated Shader Fixes.
-            - Repacked some old mods for             Fusion Overloader.
+            - Repacked some old mods for Fusion Overloader.
         - 30.06.2023:
             - Updated mods.
         - 27.06.2023:
