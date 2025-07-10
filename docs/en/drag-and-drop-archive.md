@@ -26,7 +26,7 @@ TBA
     My personal preference for a vanilla-faithful playthrough is the 1.2.0.59 archive, and 1.0.8.0 archive for a vanilla+ playthrough (a replay, maybe).
 
 === "1.2.0.59"
-    Last updated: **[09.07.2025 + hotfix](#changelog)**
+    Last updated: **[09.07.2025 + hotfixes](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -34,7 +34,7 @@ TBA
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options).
 
-    1. [Download the archive](https://www.mediafire.com/file/ajw7a2figowckjw/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/zyf0i2d7zas5)) (3.77GB, SHA512: ~`7c6bce0ae2e19d8b2cddf2adb1d69d346fbf320f7ca5a0805b4bd40d04f0a0f3e6ff298b029eae2a779111d97b38ed40286d6205c26d7a9b01d5cca0946cad5a`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. [Download the archive](hhttps://www.mediafire.com/file/t29lg2z9hfh3wrk/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/4e708gws1etd)) (3.77GB, SHA512: ~`4e7cab4283e1c16c5ddfbaf57bd529a622b6e1c4350e83f8b5acccd976593ac45352d449b848085c65b665094fce2eb357ba2dbf42f85d59cdbd5a07b280926c`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -53,7 +53,7 @@ TBA
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[09.07.2025 + hotfix](#changelog)**
+    Last updated: **[09.07.2025 + hotfixes](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -61,7 +61,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/e6lzggpy3pbrf5l/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/z2r9n3wb9v6m)) (3.81GB, SHA512: ~`5751f1b61b80fdd837c566c0a7e339275557740f1f98d7f27af8b95778e858a93b98472f240d5bbd2da38bfe388cae2458b8933bdb3619a8b101c8b437d73d19`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
+    1. [Download the archive](https://www.mediafire.com/file/sp4p1pgj6lkdzvj/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/r6l1drjpdwed)) (3.81GB, SHA512: ~`f1ff60014ede518e185ba0a59b423317b9455cf195f88709af3638a576f33cfb7370a35bd17c3ecde5a1ea4fea1ffcdc1c90fddff470326e51bdde7a9a540772`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -205,9 +205,12 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Reverted custom Vehicle Pack changes, changed vehicle budget.
             - Fixed the broken window curtains.
             - Fixed the broken accessories textures on Luis.
-        - Hotfix:
+        - Hotfix 1:
             - Fixed crash on launch (restore vanilla vehicles.ide and only change the Infernus line).
-            - Reverted GTA V-like visualSettings.dat behaviour of removing traffic lights illuminating the pavement.
+            - Reverted GTA V-like `visualSettings.dat` behaviour of removing traffic lights illuminating the pavement.
+        - Hotfix 2:
+            - Fixed being unable to hit peds (remove `pedpersonality.dat` from `update/common/data` and `update/TLAD/common/data`).
+            - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
     ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Ultimate ASI Loader, Setup Utility.
@@ -398,9 +401,12 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Reverted custom Vehicle Pack changes, changed vehicle budget.
             - Fixed the broken window curtains.
             - Fixed the broken accessories textures on Luis.
-        - Hotfix:
+        - Hotfix 1:
             - Fixed crash on launch (restore vanilla vehicles.ide and only change the Infernus line).
             - Reverted GTA V-like visualSettings.dat behaviour of removing traffic lights illuminating the pavement.
+        - Hotfix 2:
+            - Fixed being unable to hit peds (remove `pedpersonality.ide` from `update/common/data` and `update/TLAD/common/data`).
+            - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
     ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.

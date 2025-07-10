@@ -16,6 +16,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 - Social Club achievements cannot be acquired on downgraded versions.
 - Night shadows are limited, including lack of headlight and lamppost shadows (intended to reduce bugs).
 - Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game.
+- Car washes appear everywhere in the world arbitrarily after installing mods. The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
 
 ---
 

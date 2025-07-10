@@ -27,7 +27,7 @@ TBA
 
 
 === "1.2.0.59"
-    Последний раз обновлено: **[09.07.2025 + хотфикс](#_9)**
+    Последний раз обновлено: **[09.07.2025 + хотфиксы](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -35,7 +35,7 @@ TBA
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-6 и [примените параметры запуска вручную](additional-setup.md/#_2).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/ajw7a2figowckjw/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/zyf0i2d7zas5)) (3.69ГБ, SHA512: ~`6e47545febf18669b7b3470df00db2c286792826a2edd796083d0c59521b06dcc9f0ebb2f235d8aa92bc7e7610000f83e8fca896434a827882e9f120dd4419bd`~). [Старая версия](https://buzzheavier.com/rs3cvhph12oj) в случае нестабильности (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/t29lg2z9hfh3wrk/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/4e708gws1etd)) (3.69ГБ, SHA512: ~`4e7cab4283e1c16c5ddfbaf57bd529a622b6e1c4350e83f8b5acccd976593ac45352d449b848085c65b665094fce2eb357ba2dbf42f85d59cdbd5a07b280926c`~). [Старая версия](https://buzzheavier.com/rs3cvhph12oj) в случае нестабильности (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
     1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     2. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Open`, выберите ту же папку с игрой.
@@ -53,7 +53,7 @@ TBA
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "1.0.8.0"
-    Последний раз обновлено: **[09.07.2025 + хотфикс](#_9)**
+    Последний раз обновлено: **[09.07.2025 + хотфиксы](#_9)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -61,7 +61,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/e6lzggpy3pbrf5l/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/z2r9n3wb9v6m)) (3.73ГБ, SHA512: ~`e0a9df8e757f7fd6b0aa2b19e9ef2d741e40f6936fea495a5fab7b20d9732f054d8f4f308b6458f85be86ded5bdc5d306bbd83f9b2055adf4723b534aa3a7a57`~). [Старая версия](https://buzzheavier.com/ws97pulvf4my) в случае нестабильности (SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/sp4p1pgj6lkdzvj/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/r6l1drjpdwed)) (3.73ГБ, SHA512: ~`f1ff60014ede518e185ba0a59b423317b9455cf195f88709af3638a576f33cfb7370a35bd17c3ecde5a1ea4fea1ffcdc1c90fddff470326e51bdde7a9a540772`~). [Старая версия](https://buzzheavier.com/ws97pulvf4my) в случае нестабильности (SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -205,9 +205,12 @@ TBA
             - Убраны кастомные изменения в Vehicle Pack изменен бюджет транспорта.
             - Исправлены сломанные занавески.
             - Исправлены неправильные текстуры на аксесуарах Луиса.
-        - Хотфикс:
+        - Хотфикс 1:
             - Исправлен вылет при запуске (возвращен ванильный vehicles.ide и изменена только строчка с Infernus).
             - Убрано изменение из GTA V-like visualSettings.dat, которое убирало освещение от светофоров.
+        - Хотфикс 2:
+            - Исправлена невозможность ударить педов (удалите `pedpersonality.ide` из `update/common/data` и `update/TLAD/common/data`).
+            - Удален `move_rifle.wad` из `TBoGT.FusionFix.img` для исправления пропавшего звука ходьбы Луиса при беге с ружьем (спасибо Haxogone за нахождение исправления).
     ??? quote "Старые изменения"
         - 26.05.2025
             - Обновлены Radio Restoration, Project Glass, Xbox Rain Droplets, Ultimate ASI Loader, Setup Utility.
@@ -399,9 +402,12 @@ TBA
             - Убраны кастомные изменения в Vehicle Pack изменен бюджет транспорта.
             - Исправлены сломанные занавески.
             - Исправлены неправильные текстуры на аксесуарах Луиса.
-        - Хотфикс:
+        - Хотфикс 1:
             - Исправлен вылет при запуске (возвращен ванильный vehicles.ide и изменена только строчка с Infernus).
             - Убрано изменение из GTA V-like visualSettings.dat, которое убирало освещение от светофоров.
+        - Хотфикс 2:
+            - Исправлена невозможность ударить педов (удалите `pedpersonality.ide` из `update/common/data` и `update/TLAD/common/data`).
+            - Удален `move_rifle.wad` из `TBoGT.FusionFix.img` для исправления пропавшего звука ходьбы Луиса при беге с ружьем (спасибо Haxogone за нахождение исправления).
     ??? quote "Старые изменения"
         - 26.05.2025
             - Обновлены Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
