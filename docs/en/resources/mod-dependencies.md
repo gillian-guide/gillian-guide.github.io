@@ -94,15 +94,15 @@ By default, neither of those two will run on Linux. This can be fixed, however. 
 1. Install [Protontricks](https://github.com/Matoking/protontricks)
 2. Open a terminal and run the following command to install .NET in the GTA IV prefix:
 
-    ```text
+    ```bash
     protontricks 12210 -q dotnet472
     ```
 
     If you installed Protontricks through Flatpak, run this:
 
-        ```text
-        flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
-        ```
+    ```bash
+    flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
+    ```
 
 3. Wait until .NET installs (may take from 5 to 30 minutes).
 
