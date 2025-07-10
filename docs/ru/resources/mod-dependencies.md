@@ -14,7 +14,7 @@ description: Why can't all the mods use UAL it would make everyone's life easier
 
 <h3>Installation</h3>
 
-1. Go to the [Releases page](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest).
+1. Go to the latest [release page](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest).
 2. Download :material-zip-box: `Ultimate-ASI-Loader.zip` (**not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`**).
 3. Extract the archive into the game folder.
 
@@ -70,7 +70,7 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
 <h3>Installation</h3>
 
-1. Go to the [Releases page](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest).
+1. Go to the latest [release page](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest).
 2. Download :material-zip-box:`IV-SDK.NET.vx_x_x.zip`.
 3. Extract the archive into the game folder.
 
@@ -79,7 +79,7 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
     <h4>Installation</h4>
 
-    * Go to the [Releases page](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest).
+    * Go to the latest [release page](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest).
     * Download :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
     * Extract the archive into the game folder.
 
@@ -97,10 +97,13 @@ By default, neither of those two will run on Linux. This can be fixed, however. 
     ```text
     protontricks 12210 -q dotnet472
     ```
-    - If you installed Protontricks through Flatpak, run this:
+
+    If you installed Protontricks through Flatpak, run this:
+
         ```text
         flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
         ```
+
 3. Wait until .NET installs (may take from 5 to 30 minutes).
 
 If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead.

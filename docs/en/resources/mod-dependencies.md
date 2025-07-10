@@ -97,10 +97,13 @@ By default, neither of those two will run on Linux. This can be fixed, however. 
     ```text
     protontricks 12210 -q dotnet472
     ```
-    - If you installed Protontricks through Flatpak, run this:
+
+    If you installed Protontricks through Flatpak, run this:
+
         ```text
         flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
         ```
+
 3. Wait until .NET installs (may take from 5 to 30 minutes).
 
 If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead.
