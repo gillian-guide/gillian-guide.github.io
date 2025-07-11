@@ -34,7 +34,7 @@ To finish this guide off, I will give a list of more mods that couldn't find the
 | Mod | Developer(s) | Details |
 | :-: | :----------: | :-----: |
 | [Better Wardrobes](https://zolika1351.pages.dev/mods/ivwardrobe) | Zolika1351 | Improves the clunky wardrobe the game originally has - but unlocks all clothing from the start. |
-| [UHD Vanilla Map and Radar](https://nexusmods.com/gta4/mods/456) | ValentynL | A high-resolution map for 1440p and 4K monitor users (may not look great on a 1080p or lower resolution monitor). |
+| [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description) | Alkimical | A high resolution version of the pause menu map. Should only be used on 1440p and higher resolutions. |
 | [Restored Trees Position](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores several trees that were only present in the beta version. |
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
 | [Outfit Enhancements](https://gtaforums.com/topic/908611-outfit-enhancements/) | iiCriminnaaL | Several simple enhancements for some clothing. |
