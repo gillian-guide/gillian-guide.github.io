@@ -57,7 +57,7 @@ description: Графические исправления, и даже боль
     flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43
     ```
 
-3. Дождитесь установки DLL (может занять несколько минут).
+3. Дождитесь установки DirectX (может занять несколько минут).
 
 !!! tip "Модлоадинг"
     Этот мод может быть использован для модлоадинга. Смотрите [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) для подробностей.

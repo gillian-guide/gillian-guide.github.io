@@ -57,7 +57,7 @@ This project aims to fix or address most **graphical and gameplay issues** and i
     flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43
     ```
 
-3. Wait until the DLL installs (may take a few minutes).
+3. Wait until DirectX installs (may take a few minutes).
 
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
