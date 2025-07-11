@@ -12,9 +12,11 @@ The Drag-and-Drop Archive (also known as Gillian's Modpack) is a complete ready-
 
 ---
 
-## Demo
+## Review video
 
-TBA
+This video by catsmackaroo gives a short (albeit not full) overview of what to expect out of this modpack:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lzEbEIGlIRs?si=Jtml85bJD4rmE06i" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -61,7 +63,7 @@ TBA
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/sp4p1pgj6lkdzvj/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/r6l1drjpdwed)) (3.81GB, SHA512: ~`f1ff60014ede518e185ba0a59b423317b9455cf195f88709af3638a576f33cfb7370a35bd17c3ecde5a1ea4fea1ffcdc1c90fddff470326e51bdde7a9a540772`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
+    1. [Download the archive](https://www.mediafire.com/file/u6i1rrfsn4w7rpn/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/65d6pf6ahpbc)) (3.81GB, SHA512: ~`df68be502f012756fd09cf1f4e28b9167955eeaf16bb26784f15c493f22b43c6fc39e2c6bbb8233f476b710b080ad07f6c3193a57f2e0183c3a95296d43a92e2`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -407,6 +409,8 @@ These mods are not included by default, but are easy to install ontop of the arc
         - Hotfix 2:
             - Fixed being unable to hit peds (remove `pedpersonality.ide` from `update/common/data` and `update/TLAD/common/data`).
             - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
+        - Hotfix 3:
+            - Fixed bike deliveries arriving with broken bikes in TLAD (added bikes to excluded vehicles for Improved Crashes in Liberty Tweaks).
     ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.

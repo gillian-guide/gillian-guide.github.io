@@ -12,9 +12,11 @@ description: Полностью готовая к игре сборка для �
 
 ---
 
-## Демонстрация
+## Обзор
 
-TBA
+Это видео от catsmackaroo предоставляет короткий (хотя и не полный) обзор того, чего стоит ожидать от этой сборки:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lzEbEIGlIRs?si=Jtml85bJD4rmE06i" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -61,7 +63,7 @@ TBA
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5 и [примените параметры запуска вручную](additional-setup.md/#_2) а также просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks).
 
-    1. [Скачайте архив](https://www.mediafire.com/file/sp4p1pgj6lkdzvj/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/r6l1drjpdwed)) (3.73ГБ, SHA512: ~`f1ff60014ede518e185ba0a59b423317b9455cf195f88709af3638a576f33cfb7370a35bd17c3ecde5a1ea4fea1ffcdc1c90fddff470326e51bdde7a9a540772`~). [Старая версия](https://buzzheavier.com/ws97pulvf4my) в случае нестабильности (SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/u6i1rrfsn4w7rpn/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/65d6pf6ahpbc)) (3.73ГБ, SHA512: ~`df68be502f012756fd09cf1f4e28b9167955eeaf16bb26784f15c493f22b43c6fc39e2c6bbb8233f476b710b080ad07f6c3193a57f2e0183c3a95296d43a92e2`~). [Старая версия](https://buzzheavier.com/ws97pulvf4my) в случае нестабильности (SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     4. Нажмите `Open`, выберите ту же папку с игрой.
@@ -408,6 +410,8 @@ TBA
         - Хотфикс 2:
             - Исправлена невозможность ударить педов (удалите `pedpersonality.ide` из `update/common/data` и `update/TLAD/common/data`).
             - Удален `move_rifle.wad` из `TBoGT.FusionFix.img` для исправления пропавшего звука ходьбы Луиса при беге с ружьем (спасибо Haxogone за нахождение исправления).
+        - Хотфикс 3:
+            - Исправлены сломанные мотоциклы при доставке их в TLAD (мотоциклы добавлены в исключения Improved Crashes в Liberty Tweaks).
     ??? quote "Старые изменения"
         - 26.05.2025
             - Обновлены Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
