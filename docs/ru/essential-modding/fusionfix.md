@@ -42,6 +42,23 @@ description: Графические исправления, и даже боль
 
         Если планируется играть **только в мультиплеер**, подумайте об установки специального [патча только для мультиплеера](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) для улучшенной стабильности.
 
+<h3>Дополнительные действия для пользователей Linux</h3> <a id="ff-linux"></a>
+
+1. Установите [Protontricks](https://github.com/Matoking/protontricks)
+2. Откройте терминал и выполните следующую команду в префиксе GTA IV:
+
+    ```bash
+    protontricks 12210 -q d3dx9_43
+    ```
+
+    Если Protontricks установлен через Flatpak, выполните эту:
+
+    ```bash
+    flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43
+    ```
+
+3. Дождитесь установки DLL (может занять несколько минут).
+
 !!! tip "Модлоадинг"
     Этот мод может быть использован для модлоадинга. Смотрите [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) для подробностей.
 

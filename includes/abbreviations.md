@@ -13,3 +13,4 @@
 *[HMP]: HappinessMP
 *[EFLC]: Episodes from Liberty City
 *[UAL]: Ultimate ASI Loader
+*[Linux]: Steam Deck included

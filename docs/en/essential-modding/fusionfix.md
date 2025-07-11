@@ -42,6 +42,23 @@ This project aims to fix or address most **graphical and gameplay issues** and i
 
         If **only playing multiplayer**, consider the multiplayer-only [patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability instead.
 
+<h3>Additional steps for Linux users</h3> <a id="ff-linux"></a>
+
+1. Install [Protontricks](https://github.com/Matoking/protontricks)
+2. Open a terminal and run the following command in the GTA IV prefix:
+
+    ```bash
+    protontricks 12210 -q d3dx9_43
+    ```
+
+    If you installed Protontricks through Flatpak, run this:
+
+    ```bash
+    flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43
+    ```
+
+3. Wait until the DLL installs (may take a few minutes).
+
 !!! tip "Modloading"
     This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
 
