@@ -36,7 +36,7 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux).
 
-    1. [Download the archive](https://www.mediafire.com/file/t29lg2z9hfh3wrk/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/4e708gws1etd)) (3.77GB, SHA512: ~`4e7cab4283e1c16c5ddfbaf57bd529a622b6e1c4350e83f8b5acccd976593ac45352d449b848085c65b665094fce2eb357ba2dbf42f85d59cdbd5a07b280926c`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. [Download the archive](https://www.mediafire.com/file/26shk0ogto6prjh/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/j1o8jmf1s2dp)) (3.77GB, SHA512: ~`2b894dcf600712cb31a2f3ed9abf6894d1dca305ed0d5fcda1cd8e60cdf4f9a0bf1e0b5dff5de1e53800e532e13910c559152f67d04deda62d3d60a9c04d7135`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -63,7 +63,7 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/u6i1rrfsn4w7rpn/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/65d6pf6ahpbc)) (3.81GB, SHA512: ~`df68be502f012756fd09cf1f4e28b9167955eeaf16bb26784f15c493f22b43c6fc39e2c6bbb8233f476b710b080ad07f6c3193a57f2e0183c3a95296d43a92e2`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
+    1. [Download the archive](https://www.mediafire.com/file/npr1vkumgbey657/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/rs1765e0ohk3)) (3.81GB, SHA512: ~`d07c80e2b19029a4d3851161dbc74a06e9617d3be4cb188b2fe2a47969074f3f2907f8a988d34ff1b3da8ad789241b889d9ceb25d22e527cdf80118300fabe84`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -215,6 +215,8 @@ These mods are not included by default, but are easy to install ontop of the arc
         - Hotfix 2:
             - Fixed being unable to hit peds (remove `pedpersonality.dat` from `update/common/data` and `update/TLAD/common/data`).
             - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
+        - Hotfix 3:
+            - Fixed some cases of save corruption and crashes in random missions (remove `IG_Eugene` and `IG_Triad2` from `update/common/data/peds.ide`).
     ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Ultimate ASI Loader, Setup Utility.
@@ -413,6 +415,8 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
         - Hotfix 3:
             - Fixed bike deliveries arriving with broken bikes in TLAD (added bikes to excluded vehicles for Improved Crashes in Liberty Tweaks).
+        - Hotfix 4:
+            - Fixed some cases of save corruption and crashes in random missions (remove `IG_Eugene` and `IG_Triad2` from `update/common/data/peds.ide`).
     ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
