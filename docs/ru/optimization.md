@@ -40,39 +40,19 @@ description: Все про DXVK для GTA IV
 
 ### Использование
 
+!!! note "FusionFix"
+    Учтите, что FusionFix уже включает в себя DXVK по умолчанию и вы можете его включить в вкладке Graphics. Но вы все еще можете обновить DXVK вручную.
+
 1. Перейдите на [страницу последнего релиза](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
 2. Скачайте :material-file-download:`GTAIVSetupUtilityWPF.exe`.
 3. Запустите программу.
 4. Нажмите `Open` и выберите вашу папку с игрой. Следуйте инструкциям в приложении, если появятся всплывающие окна.
-5. Нажмите `Install DXVK` и `Setup launch options` в этой же последовательности.
+5. Нажмите `Install DXVK` (или `Update DXVK`) и `Setup launch options` в этой же последовательности.
     - Если вы знаете что делаете, можете вручную поменять какие-либо переключатели. Обычно, в этом нет нужды.
     - Если появятся какие-либо проблемы, [сообщите о них на Discord сервере](../../index.md/#navigation).
 
 ??? warning "Для пользователей 50-серии NVIDIA RTX"
-    В настоящее время игра не запускается при установленном DXVK с последними драйверами. Обход следующий:
-
-    1. Установите DXVK.
-    2. Временно удалите/переименуйте :fontawesome-solid-gears:'dinput8.dll' из папки с игрой.
-    3. Откройте командную строку от имени администратора и выполните следующую команду:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1.
-        ```
-
-    4. Перезагрузите компьютер.
-    5. Перейдите на последнюю [страницу релиза](https://github.com/marekzajac97/nvgpucomp32_patch) нужного патча.
-    6. Скачайте файл :fontawesome-solid-gears:`nvgpucomp32.dll`. Убедитесь, что версия вашего драйвера совпадает с названием релиза.
-    7. В папке с игрой создайте папки с названиями :material-folder: ==PlayGTAIV.exe.local== и :material-folder: ==GTAIV.exe.local== и поместите скачанный файл в обе папки.
-    8. Запустите игру один раз.
-    9. Убедившись, что игра загрузилась, восстановите :fontawesome-solid-gears:`dinput8.dll` в папку с игрой.
-    10. Откройте командную строку от имени администратора и выполните следующую команду:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
-        ```
-    11. Перезагрузите компьютер еще раз.
-
-    При обновлении драйверов процедуру необходимо повторить (шаги 5-7 можно пропустить), пока NVIDIA не решит проблему.
+    Убедитесь, что ваши драйвера обновлены. В течении несколькох месяцев, драйвера моментально вылетали для всех пользователей 50 серии. Это было исправлено в новых драйверах.
 
 После использования тулзы, вы можете спокойно приступить к оптимальным настройкам графики:
 
@@ -100,7 +80,7 @@ description: Все про DXVK для GTA IV
     1. Перейдите на [страницу последнего релиза](https://github.com/doitsujin/dxvk/releases).
     2. Скачайте архив :material-zip-box:`dxvk-x.x.tar.gz`.
     3. После скачивания, откройте архив и перейдите в папку ==dxvk-x.x\x32\\==.
-    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
+    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой. Если вы хотите сохранить возможность переключать API в настройках игры, сначала переименуйте файл в :fontawesome-solid-gears:`vulkan.dll`.
 
     !!! question "Про патч `async`"
         DXVK, начиная от версии 2.0, добавили поддержку Graphics Pipeline Library, который, в контексте GTA IV, полностью удаляет фризы при создании шейдеров если ваш ГП поддерживает GPL и Fast Linking.
@@ -124,7 +104,7 @@ description: Все про DXVK для GTA IV
     2. Скачайте архив :material-zip-box:`dxvk-sarek-async-1.10.3.tar.gz`.
         - Если вы испытываете проблемы с этим форком, можете использовать [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) или [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3).
     3. После скачивания, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
-    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой.
+    4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой. Если вы хотите сохранить возможность переключать API в настройках игры, сначала переименуйте файл в :fontawesome-solid-gears:`vulkan.dll`.
 
 ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы из папки?"
     Игра использует графический API Direct3D 9. Другие `dll` для Direct3D 10 и Direct3D 11.
@@ -142,29 +122,8 @@ description: Все про DXVK для GTA IV
     Если игра вообще не запускайте, ваш ГП не поддерживает последнюю версию. Используйте замисть этой версии версию Legacy.
 
     Просмотрите [исправление проблем](../resources/troubleshooting.md).
-??? warning "Для пользователей 50-серии NVIDIA RTX"
-    В настоящее время игра не запускается при установленном DXVK с последними драйверами. Обход следующий:
-
-    1. Установите DXVK.
-    2. Временно удалите/переименуйте :fontawesome-solid-gears:'dinput8.dll' из папки с игрой.
-    3. Откройте командную строку от имени администратора и выполните следующую команду:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1
-        ```
-
-    4. Перезагрузите компьютер.
-    5. Перейдите на последнюю [страницу релиза](https://github.com/marekzajac97/nvgpucomp32_patch) нужного патча.
-    6. Скачайте файл :fontawesome-solid-gears:`nvgpucomp32.dll`. Убедитесь, что версия вашего драйвера совпадает с названием релиза.
-    7. В папке с игрой создайте папки с названиями :material-folder: ==PlayGTAIV.exe.local== и :material-folder: ==GTAIV.exe.local== и поместите скачанный файл в обе папки.
-    8. Запустите игру один раз.
-    9. Убедившись, что игра загрузилась, восстановите :fontawesome-solid-gears:`dinput8.dll` в папку с игрой.
-    10. Откройте командную строку от имени администратора и выполните следующую команду:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0
-        ```
-    11. Перезагрузите компьютер еще раз.
+???+ warning "Для пользователей 50-серии NVIDIA RTX"
+    Убедитесь, что ваши драйвера обновлены. В течении несколькох месяцев, драйвера моментально вылетали для всех пользователей 50 серии. Это было исправлено в новых драйверах.
 
 ---
 

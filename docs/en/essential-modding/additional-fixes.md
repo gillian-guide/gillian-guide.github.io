@@ -35,6 +35,19 @@ This mod changes the Esperanto in Roman's Cab Depot to Roman's Taxi.
 
 ---
 
+## [Ultimate Train Swerving Fix](https://github.com/ClonkAndre/UltimateTrainSwervingFix)
+
+This mod fixes car swerving on the Algonquin bridge due to the trains below them. [More info about this bug](https://www.youtube.com/watch?v=8x0MuQbZSns).
+
+<h3>Installation</h3>
+
+1. Install [IV-SDK .NET](../../resources/mod-dependencies.md/#iv-sdk-net) if you haven't before.
+2. Go to the latest [release page](https://github.com/ClonkAndre/UltimateTrainSwervingFix/releases/latest).
+3. Download the :material-zip-box:`UltimateTrainSwervingFix.v1.0.zip`.
+4. Extract the contents of the archive into the game folder.
+
+---
+
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
 These mods by donnits fix minor issues on the map.
@@ -65,6 +78,28 @@ This mod fixes an incorrect suit in Perseus, as you end up buying a different on
 
 1. Download this [archive](https://drive.google.com/file/d/19HKJfv_nwLJQxlkiQMnoNqRAymgwAElq/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix)
+
+This mod fixes wrongly parked vehicles in Schottler area.
+
+<h3>Installation</h3>
+
+1. Download the [mod](https://www.moddb.com/mods/schottler-parked-vehicles-fix/downloads/schottler-parked-vehicles-fix).
+2. Extract the :material-folder: ==SchottlerParkedVehicleFix== folder from the archive into the :material-folder: ==update== folder.
+
+---
+
+## [TBoGT: Blade Fix](https://libertycity.net/files/gta-4/157446-tbogt-blade-fix.html)
+
+This mod restores missing Blade boat colors caused by a typo.
+
+<h3>Installation</h3>
+
+1. Download the [mod](https://libertycity.net/files/gta-4/157446-tbogt-blade-fix.html).
+2. Extract the :material-file:`carcols.dat` file into :material-folder: ==update\TBoGT\common\data==.
 
 ---
 

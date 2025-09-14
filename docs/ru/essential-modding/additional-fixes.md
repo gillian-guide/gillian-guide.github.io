@@ -35,6 +35,19 @@ description: Еще больше??
 
 ---
 
+## [Ultimate Train Swerving Fix](https://github.com/ClonkAndre/UltimateTrainSwervingFix)
+
+Этот мод исправляет неправильное движение транспорта на Алгонквинском мосту из-за поездов под ними. [Больше информации про этот баг](https://www.youtube.com/watch?v=8x0MuQbZSns).
+
+<h3>Установка</h3>
+
+1. Установите [IV-SDK .NET](../../resources/mod-dependencies.md/#iv-sdk-net) если он не был установлен до этого.
+2. Перейдите на страницу последнего [релиза](https://github.com/ClonkAndre/UltimateTrainSwervingFix/releases/latest).
+3. Скачайте :material-zip-box:`UltimateTrainSwervingFix.v1.0.zip`.
+4. Распакуйте архив в папку с игрой.
+
+---
+
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
 Эти моды от donnits исправляют мелкие проблемы по карте.
@@ -59,12 +72,34 @@ description: Еще больше??
 
 ## [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/)
 
-Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого.
+Этот мод исправляет отображение некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого.
 
 <h3>Установка</h3>
 
 1. Скачайте этот [архив](https://drive.google.com/file/d/19HKJfv_nwLJQxlkiQMnoNqRAymgwAElq/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
+
+---
+
+## [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix)
+
+Этот мод исправляет неправильно припаркованные автомоболи в районе Шоттлер.
+
+<h3>Установка</h3>
+
+1. Скачайте [мод](https://www.moddb.com/mods/schottler-parked-vehicles-fix/downloads/schottler-parked-vehicles-fix).
+2. Распакуйте папку :material-folder: ==SchottlerParkedVehicleFix== fиз архива в папку :material-folder: ==update==.
+
+---
+
+## [TBoGT: Blade Fix](https://libertycity.ru/files/gta-4/157446-tbogt-blade-fix.html)
+
+Этот мод ввостанавливает недостающие цвета Blade из-за опечатки.
+
+<h3>Установка</h3>
+
+1. Скачайте [мод](https://libertycity.ru/files/gta-4/157446-tbogt-blade-fix.html).
+2. Распакуйте файл :material-file:`carcols.dat` в :material-folder: ==update\TBoGT\common\data==.
 
 ---
 

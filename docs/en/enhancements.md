@@ -59,25 +59,6 @@ This mod adds EFLC-exclusive vehicles to GTA IV. It also includes a couple usefu
 
 ---
 
-## [Project2DFX](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/)
-
-This mod improves distant lights at night.
-
-<h3>Installation</h3>
-
-=== "1.2.0.59"
-    1. Go to the [release page](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv).
-    2. Download :material-zip-box:`IV.Project2DFX.zip`.
-    3. Extract the archive into the :material-folder: ==plugins== folder.
-        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
-=== "1.0.8.0"
-    1. Go to the [release page](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest).
-    2. Download :material-zip-box:`IV.Project2DFX-PreCE.zip`.
-    3. Extract the archive into the :material-folder: ==plugins== folder.
-        - Edit :material-file-cog:`IVLodLights.ini` if you don't like the default settings.
-
----
-
 ## [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/)
 
 This mod adds nice water droplets on the screen.
@@ -202,7 +183,7 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 
 ## [Various Pedestrian Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/)
 
- This mod adds, corrects and completes unfinished actions for pedestrians.
+This mod adds, corrects and completes unfinished actions for pedestrians.
 
 <h3>Installation</h3>
 
@@ -210,6 +191,32 @@ Restored Pedestrians restores pedestrians that were either unused or only presen
 2. Press `DOWNLOAD`.
 3. Download the archive.
 4. From the :material-folder: ==Installation through Fusion Overloader== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder.
+
+---
+
+## [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/)
+
+This mod restores the interior of the Bank of Liberty to the state, similar to the one seen in Trailer 1 (mainly, the ceiling has a Dome now).
+
+<h3>Installation</h3>
+
+1. Go to the [GTAForums page](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/).
+2. Press `DOWNLOAD`.
+3. Download the archive.
+4. From the :material-folder: ==Fusion Overloader Install== folder in the archive, extract the :material-folder: ==update== folder from the archive into the game folder.
+5. Optionally, you can do the same with :material-folder: ==Beta Bank Doors - Optional==.
+
+---
+
+## [Plane Flight Path Improvements](https://www.gtagaming.com/plane-flight-path-improvements-f33591.html)
+
+This mod makes the plane flight paths more realistic.
+
+<h3>Installation</h3>
+
+1. Go to the [mod page](https://www.gtagaming.com/plane-flight-path-improvements-f33591.html).
+2. Press on the link next to the `Download Link` text.
+3. Extract the files from the archive into :material-folder: ==update\common\data\paths==.
 
 ---
 

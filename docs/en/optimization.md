@@ -40,39 +40,19 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
 
 ### Usage
 
+!!! note "FusionFix"
+    Note that FusionFix already includes DXVK by default and you can toggle it on in the Graphics tab. However, you can still update DXVK manually.
+
 1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
 2. Download :material-file-download:`GTAIVSetupUtilityWPF.exe`.
 3. Run the tool.
 4. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
-5. Press `Install DXVK` and `Setup launch options` in sequence.
+5. Press `Install DXVK` (or `Update DXVK`) and `Setup launch options` in sequence.
     - If experienced, you can manually configure the options. There is usually no need to, though.
     - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
-??? warning "For NVIDIA 50-series RTX GPU users"
-    Currently, the game will not launch with DXVK installed with latest drivers. The workaround is as follows:
-
-    1. Install DXVK.
-    2. Temporarily remove/rename :fontawesome-solid-gears:`dinput8.dll` from the game folder.
-    3. Open the command prompt as an administrator and run the following:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1.
-        ```
-
-    4. Restart the PC.
-    5. Go to the latest [Release page](https://github.com/marekzajac97/nvgpucomp32_patch) of the required patch.
-    6. Download the :fontawesome-solid-gears:`nvgpucomp32.dll`. Make sure your driver version is the same as the release's name.
-    7. In the game folder, create folders called :material-folder: ==PlayGTAIV.exe.local== and :material-folder: ==GTAIV.exe.local== and put the downloaded file in both folders.
-    8. Launch the game once.
-    9.  Once ensured that the game loaded, restore :fontawesome-solid-gears:`dinput8.dll` to the game folder.
-    10. Open the command prompt as an administrator and run the following:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0.
-        ```
-    11. Restart the PC again.
-
-    If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
+???+ warning "For NVIDIA 50-series RTX GPU users"
+    Make sure your drivers are up-to-date. For several months, the drivers used to insta-crash all 50-series users. Latest drivers don't have that problem.
 
 After using the tool, you can freely skip to optimal graphics settings:
 
@@ -100,7 +80,7 @@ After using the tool, you can freely skip to optimal graphics settings:
     1. Go to the latest [release page](https://github.com/doitsujin/dxvk/releases/latest).
     2. Download the :material-zip-box:`dxvk-x.x.tar.gz` archive.
     3. After downloading, open the archive and navigate to :material-folder: ==dxvk-x.x\x32\\==.
-    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder. If you want to retain FusionFix's toggle functionality, rename the file to :fontawesome-solid-gears:`vulkan.dll` first.
 
     !!! question "About the `async` patch"
         DXVK, from version 2.0 onwards, implemented Graphics Pipeline Library support, which, in the context of GTA IV, completely eliminates shader building stutter given the GPL and Fast Linking support from the GPU.
@@ -125,7 +105,7 @@ After using the tool, you can freely skip to optimal graphics settings:
         - If experiencing issues with this fork, you can also use [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) or [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead.
     2. Download the :material-zip-box:`dxvk-sarek-async-1.10.x.tar.gz` archive.
     3. After downloading, open the archive and navigate to :material-folder: ==dxvk-sarek-async-1.10.3\\x32\\==
-    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder.
+    4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder. If you want to retain FusionFix's toggle functionality, rename the file to :fontawesome-solid-gears:`vulkan.dll` first.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"
     The game uses the Direct3D 9 graphics API. The other `dll`'s are for Direct3D 10 and Direct3D 11.
@@ -143,31 +123,8 @@ After using the tool, you can freely skip to optimal graphics settings:
     If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 
     See [troubleshooting](../resources/troubleshooting.md).
-??? warning "For NVIDIA 50-series RTX GPU users"
-    Currently, the game will not launch with DXVK installed with latest drivers. The workaround is as follows:
-
-    1. Install DXVK.
-    2. Temporarily remove/rename :fontawesome-solid-gears:`dinput8.dll` from the game folder.
-    3. Open the command prompt as an administrator and run the following:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1
-        ```
-
-    4. Restart the PC.
-    5. Go to the latest [Release page](https://github.com/marekzajac97/nvgpucomp32_patch) of the required patch.
-    6. Download the :fontawesome-solid-gears:`nvgpucomp32.dll`. Make sure your driver version is the same as the release's name.
-    7. In the game folder, create folders called :material-folder: ==PlayGTAIV.exe.local== and :material-folder: ==GTAIV.exe.local== and put the downloaded file in both folders.
-    8. Launch the game once.
-    9.  Once ensured that the game loaded, restore :fontawesome-solid-gears:`dinput8.dll` to the game folder.
-    10. Open the command prompt as an administrator and run the following:
-
-        ```bash
-        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 0
-        ```
-    11. Restart the PC again.
-
-    If updating drivers, the procedure has to be done again (steps 5-7 can be skipped) until NVIDIA resolves the issue.
+???+ warning "For NVIDIA 50-series RTX GPU users"
+    Make sure your drivers are up-to-date. For several months, the drivers used to insta-crash all 50-series users. Latest drivers don't have that problem.
 
 ---
 

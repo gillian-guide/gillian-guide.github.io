@@ -12,11 +12,11 @@ The Drag-and-Drop Archive (also known as Gillian's Modpack) is a complete ready-
 
 ---
 
-## Review video
+## Review videos
 
-This video by catsmackaroo gives a short (albeit not full) overview of what to expect out of this modpack:
+If you want to get familiar with the modpack before installing it, I recommend these two videos:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lzEbEIGlIRs?si=Jtml85bJD4rmE06i" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fvCPz3Fxj0w?si=l0kesCzM7bEDGDAX" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <iframe width="560" height="315" src="https://www.youtube.com/embed/lzEbEIGlIRs?si=Jtml85bJD4rmE06i" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -28,7 +28,7 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
     My personal preference for a vanilla-faithful playthrough is the 1.2.0.59 archive, and 1.0.8.0 archive for a vanilla+ playthrough (a replay, maybe).
 
 === "1.2.0.59"
-    Last updated: **[09.07.2025 + hotfixes](#changelog)**
+    Last updated: **[13.09.2025](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -40,13 +40,14 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
-    4. Press `Install DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
+    4. Press `Update DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
     5. After pressing `Setup launch options` and pressing `OK` you will have launch options in your clipboard, so do one of the following:
         - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and paste the contents in the `Launch options` field.
         - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and paste the contents in the `Launcher arguments` field.
         - **Shortcut**: Right click on the game shortcut, click `Properties` and paste the contents at the end of the `Target` field.
     6. You are ready to play!
         - Launch the game via :material-steam: Steam, :simple-rockstargames: Rockstar Games Launcher or the `PlayGTAIV.exe` executable.
+        - In the Graphics settings, change `Graphics API` to Vulkan. If the game crashes, delete :material-file:`d3d9.cfg` and don't touch this setting.
         - It's preferable to start **a new game**. Existing savefiles can work, but you may encounter issues.
         - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
         - If you want **more mods, check out [additional mods](#additional-mods)**.
@@ -55,7 +56,7 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[09.07.2025 + hotfixes](#changelog)**
+    Last updated: **[13.09.2025](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -63,14 +64,15 @@ This video by catsmackaroo gives a short (albeit not full) overview of what to e
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks)
 
-    1. [Download the archive](https://www.mediafire.com/file/npr1vkumgbey657/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/rs1765e0ohk3)) (3.81GB, SHA512: ~`d07c80e2b19029a4d3851161dbc74a06e9617d3be4cb188b2fe2a47969074f3f2907f8a988d34ff1b3da8ad789241b889d9ceb25d22e527cdf80118300fabe84`~). [Old version](https://buzzheavier.com/ws97pulvf4my) in case of stability issues ~(SHA512: ~`63787dbd6b99e163ba7f04be943e31b5df48e40e28ad988bad4b267c79f8ac85d75528c52c1ad7638d86ad9beddfbaeee8f63ad941b81ffcc7a00be517edf9cb`~)
+    1. [Download the archive](https://www.mediafire.com/file/dig8dfxy5hssyxz/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/w0kjnjdryek6)) (3.81GB, SHA512: ~`4e3cf69a3ae3fd31aeb3bdc9ba5f0b1ed794723430a49b15b9f3bc150adc3f12a00333bea8de75223cce950b84b905f7c7c627a0d599da403aa34bebb3de6b7d`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
-    4. Press `Install DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
+    4. Press `Update DXVK` and then `Setup launch options`. Don't touch the toggles unless you are confident in what you are doing.
     5. You are ready to play!
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
         - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`.
+        - In the Graphics settings, change `Graphics API` to Vulkan. If the game crashes, delete :material-file:`d3d9.cfg` and don't touch this setting.
         - It's preferable to start **a new game**. Existing savefiles can work, but you may encounter issues. Also, if you already started the game on 1.2.0.59 and want to keep playing on the same savefile, you have to [downgrade the savefile](../downgrading/downgrading-the-game.md/#downgrading-the-savefile).
         - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.
         - **Do not enable `Check For Fusion Fix Updates`.**
@@ -113,11 +115,11 @@ All mods in the following list are present in both archives with identical versi
 | Mod | Developer(s) | Details |
 | :-: | :--------: | :-----: |
 | [Radio Downgrader~23.05.2025~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~3.5.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes are missing in 1.0.8.0 support.==</br> |
+| [FusionFix~4.0.0~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader.<br>==Some fixes may be missing in 1.0.8.0 support.==</br> |
 | [Various Fixes~2.0.2~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
 | [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. |
 | [EFLC Vehicle Addon Pack For GTA IV~1.2~](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Lycans instead of Hellfuries for 'Frosting on the Cake', Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [Console Visuals~2.0.2~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Fences, Console Animations, Console Peds, Console Vegetation. See [Additional Mods](#additional-mods) for more.</br> |
+| [Console Visuals~2.0.2~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | nastyyaboi and others | Ports select console visuals to the PC version. <br>Included addons: Console Fences, Console Animations, Console Peds See [Additional Mods](#additional-mods) for more.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
 | [Restored Pedestrians~1.8~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
 | [Various Pedestrians Actions~04.11.2023~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
@@ -127,16 +129,19 @@ All mods in the following list are present in both archives with identical versi
 | [Project Glass~11.04.2025~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass.|
 | [Vehicle Pack~2.1~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
 | [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Adds more ped variety, corrects some ped behaviours and adds progressive gang relationships. |
-| [Fidelity Popcycle~14.02.2024~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
+| [Fidelity Popcycle~1.0~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
 | [Yes Way On The Subway](https://www.gtainside.com/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | EdEdEdEd | Removes invincibility from the target in the mission 'No Way On The Subway'. |
-| [Project2DFX~25.06.2025~](https://github.com/ThirteenAG/III.VC.SA.IV.Project2DFX/releases/tag/gtaiv) ([1.0.8.0](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest)) | ThirteenAG | Improves distant lights at night. <br>==Can be disabled by deleting the `IVLodLights` files.==</br> |
-| [Xbox Rain Droplets~02.05.2025~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
+| [Xbox Rain Droplets~21.08.2025~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
+| [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/) | Scott1 | Restores the interior of the Bank of Liberty to the state, similar to the one seen in Trailer 1 (mainly, the ceiling has a Dome now). |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
 | [High Quality Pigeons](https://www.gtainside.com/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
 | [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Resizes the Blista Compact to match the real life counterpart (Honda CR-X).  |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed. |
+| [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix) | Callistonian | Fixes wrongly parked vehicles in Schottler area. |
+| [TBoGT: Blade Fix](https://libertycity.ru/files/gta-4/157446-tbogt-blade-fix.html) | Niker Laykov | Restores missing Blade boat colors caused by a typo. |
+| [Plane Flight Path Improvements](https://www.gtagaming.com/plane-flight-path-improvements-f33591.html) | C4PT41N BOMB4RD | Makes the plane flight paths more realistic. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Fixes the IV Bikers voicelines in EFLC. |
 | [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (me) | Fixes an oversight in the pistol's model where the iron sight doesn't make any sense. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Fixes broken UV map on "Waiting Room" sign texture. |
@@ -148,7 +153,7 @@ All mods in the following list are present in both archives with identical versi
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Changes the pitch of the traffic screech in Algonquin to match the real-life levels you'd usually hear in Times Square. |
 | [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Fixes the lower-resolution backgrounds in EFLC menus. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Replaces some decals with faithful higher resolution counterparts from GTA V. |
-| [GTA V-like `visualSettings.dat`](https://drive.google.com/drive/folders/1n6dMxi5CdK6-4KV06ki_zbEi81NDDqrj) | MagicAl6244225 | Changes some values of `visualSettings.dat` to be more similar to GTA V. Increased rain specularity and removed illumination from traffic lights were excluded. |
+| [GTA V-like `visualSettings.dat`](https://drive.google.com/drive/folders/1n6dMxi5CdK6-4KV06ki_zbEi81NDDqrj) | MagicAl6244225 | Changes some values of `visualSettings.dat` to be more similar to GTA V - in particular, car headlights are more prominent and LOD values were increased. |
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, me, Ash_735 | Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
@@ -168,6 +173,7 @@ The mods or their specific versions in the following list are present in only on
     | [Liberty Tweaks~1.6~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable.<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [Project Thunder~2.2~](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Improves how thunder appears in-game, with actual lighting and improved atmosphere. Highly configurable. |
     | [VAmbience~1.0~](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Adds background noise to the game, such as driving and shooting, alike to GTA V. Highly configurable. |
+    | [Ultimate Train Swerving Fix~1.0~](https://github.com/ClonkAndre/UltimateTrainSwervingFix) | ItsClockAndre | Fixes car swerving on the Algonquin bridge due to the trains below them. |
     | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on older patches. |
 
 ---
@@ -203,6 +209,13 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 13.09.2025
+            - Updated FusionFix, Xbox Rain Droplets.
+            - Added Beta-Inspired Bank of Liberty, Schottler Parked Vehicles Fix, TBoGT Blade Fix, Plane Flight Path Improvements.
+            - Removed individual Project2DFX installation due to it's integration into FusionFix.
+            - Removed Console Vegetation (I use PC lighting anyway).
+            - Fixed crashing on the `Frosting on the Cake` mission.
+    ??? quote "Old changes"
         - 09.07.2025
             - Updated Restored Pedestrians, Project2DFX, Setup Utility.
             - Added EFLC Vehicle Addon Pack For GTA IV (addons only), Yes Way On The Subway.
@@ -217,7 +230,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Removed `move_rifle.wad` from `TBoGT.FusionFix.img` to fix Luis' feet not making sound when sprinting with a rifle (thanks to Haxogone for figuring this out).
         - Hotfix 3:
             - Fixed some cases of save corruption and crashes in random missions (remove `IG_Eugene` and `IG_Triad2` from `update/common/data/peds.ide`).
-    ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Ultimate ASI Loader, Setup Utility.
             - Added Console Vegetation.
@@ -399,6 +411,13 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 13.09.2025
+            - Updated FusionFix, Xbox Rain Droplets.
+            - Added Beta-Inspired Bank of Liberty, Schottler Parked Vehicles Fix, TBoGT Blade Fix, Plane Flight Path Improvements, Ultimate Train Swerving Fix.
+            - Removed individual Project2DFX installation due to it's integration into FusionFix.
+            - Removed Console Vegetation (I use PC lighting anyway).
+            - Fixed crashing on the `Frosting on the Cake` mission.
+    ??? quote "Old changes"
         - 09.07.2025
             - Updated Restored Pedestrians, Setup Utility.
             - Added EFLC Vehicle Addon Pack For GTA IV (addons only), Yes Way On The Subway.
@@ -417,7 +436,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Fixed bike deliveries arriving with broken bikes in TLAD (added bikes to excluded vehicles for Improved Crashes in Liberty Tweaks).
         - Hotfix 4:
             - Fixed some cases of save corruption and crashes in random missions (remove `IG_Eugene` and `IG_Triad2` from `update/common/data/peds.ide`).
-    ??? quote "Old changes"
         - 26.05.2025
             - Updated Radio Restoration, Project Glass, Xbox Rain Droplets, Liberty Tweaks, Ultimate ASI Loader, Setup Utility.
             - Added TimeLoopFixIV, Console Vegetation.

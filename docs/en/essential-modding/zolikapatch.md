@@ -25,6 +25,7 @@ This project **improves core multiplayer experience and is considered essential 
 
     Open :material-file-cog:`ZolikaPatch.ini` and disable the following options:
 
+    - BenchmarkFix
     - BikePhoneAnimsFix
     - BorderlessWindowed
     - BuildingAlphaFix
@@ -47,9 +48,12 @@ This project **improves core multiplayer experience and is considered essential 
     - MouseFix
     - NewMemorySystem
     - NoLiveryLimit
+    - NoLODLightHeightCutoff
     - OutOfCommissionFix
     - PoliceEpisodicWeaponSupport
     - RemoveBoundingBoxCulling
+    - RemoveUselessChecks
+    - RemoveSCOSignatureCheck
     - ReversingLightFix
     - SkipIntro
     - SkipMenu

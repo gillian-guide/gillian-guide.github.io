@@ -25,6 +25,7 @@ description: Несколько исправлений для даунгрейд
 
     Откройте :material-file-cog:`ZolikaPatch.ini` и отключите следующие настройки:
 
+    - BenchmarkFix
     - BikePhoneAnimsFix
     - BorderlessWindowed
     - BuildingAlphaFix
@@ -47,9 +48,12 @@ description: Несколько исправлений для даунгрейд
     - MouseFix
     - NewMemorySystem
     - NoLiveryLimit
+    - NoLODLightHeightCutoff
     - OutOfCommissionFix
     - PoliceEpisodicWeaponSupport
     - RemoveBoundingBoxCulling
+    - RemoveUselessChecks
+    - RemoveSCOSignatureCheck
     - ReversingLightFix
     - SkipIntro
     - SkipMenu
