@@ -13,7 +13,7 @@ Following mods are fixes that I'd personally consider essential, as they don't h
 
 ---
 
-## [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
+## [Luis' Helmet Reflections Fix](https://www.gtainside.de/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
 
 This mod fixes the bleak reflection on TBoGT player model's helmet.
 
@@ -172,7 +172,7 @@ This mod originally intends to add EFLC-exclusive vehicles to GTA IV, but it als
 
 ---
 
-## [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/)
+## [Luis' Bag Texture Fix](https://www.gtainside.de/en/gta4/skins/136118-luis-s-bag-texture-fix/)
 
 This mod adds missing normal and specular maps and improves texture quality on TBoGT player model's bag.
 
@@ -187,7 +187,7 @@ This mod adds missing normal and specular maps and improves texture quality on T
 
 ---
 
-## [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
+## [Johnny's Shoe Texture Fix](https://www.gtainside.de/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
 
 This mod adds missing normal and specular maps to the TLAD player model's shoes.
 

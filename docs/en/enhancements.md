@@ -270,7 +270,7 @@ This mod allows bullets to penetrate glass like they do with car windshields.
 
 ---
 
-## [Yes Way On The Subway](https://www.gtainside.com/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/)
+## [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/)
 
 Removes invincibility from the target in the mission 'No Way On The Subway'.
 
@@ -281,7 +281,7 @@ Removes invincibility from the target in the mission 'No Way On The Subway'.
 
 ---
 
-## [Resized Blista Compact](https://www.gtainside.com/en/gta4/cars/188730-resized-blista-compact/)
+## [Resized Blista Compact](https://www.gtainside.de/en/gta4/cars/188730-resized-blista-compact/)
 
 This mod resizes the Blista Compact to match the real life counterpart (Honda CR-X). It also fixes the base model, but that's taken care of by [FusionFix](../essential-modding/fusionfix.md) already.
 

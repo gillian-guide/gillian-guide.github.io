@@ -13,7 +13,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 - Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
     - It is also recommended to use the [GFWLMin patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability - ^^but it cuts out singleplayer features.^^
 - Additionally, you may want to have [ZMenuIV](trainers.md/#ZMenuIV) for the ability to create and participate in custom gamemodes.
-- You can also use [this](https://www.gtainside.com/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
+- You can also use [this](https://www.gtainside.de/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
 - **Avoid using overhaul, addition or replacement mods**. They will put you, or others, at disadvantage and create instability.
 
 ---

@@ -13,7 +13,7 @@ description: Еще больше??
 
 ---
 
-## [Luis' Helmet Reflections Fix](https://www.gtainside.com/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
+## [Luis' Helmet Reflections Fix](https://www.gtainside.de/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
 
 Этот мод исправляет поблекшие отражения на шлеме модели игрока в TBoGT.
 
@@ -172,7 +172,7 @@ description: Еще больше??
 
 ---
 
-## [Luis' Bag Texture Fix](https://www.gtainside.com/en/gta4/skins/136118-luis-s-bag-texture-fix/)
+## [Luis' Bag Texture Fix](https://www.gtainside.de/en/gta4/skins/136118-luis-s-bag-texture-fix/)
 
 Этот мод добавляет недостающие карты нормалей и спекуляций и улучшает качество текстур на сумке модели игрока в TBoGT.
 
@@ -187,7 +187,7 @@ description: Еще больше??
 
 ---
 
-## [Johnny's Shoe Texture Fix](https://www.gtainside.com/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
+## [Johnny's Shoe Texture Fix](https://www.gtainside.de/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
 
 Этот мод добавляет недостающие карты нормалей и спекуляций в обувь модели игрока в TLAD.
 
