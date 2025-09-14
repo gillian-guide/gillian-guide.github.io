@@ -36,7 +36,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux).
 
-    1. [Download the archive](https://www.mediafire.com/file/26shk0ogto6prjh/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/j1o8jmf1s2dp)) (3.77GB, SHA512: ~`2b894dcf600712cb31a2f3ed9abf6894d1dca305ed0d5fcda1cd8e60cdf4f9a0bf1e0b5dff5de1e53800e532e13910c559152f67d04deda62d3d60a9c04d7135`~). [Old version](https://buzzheavier.com/rs3cvhph12oj) in case of stability issues (SHA512: ~`ccf0a3eaa7987b504ec269a835d397b1913131136ad6129735013cb6268fd580d1350b9b37c695846f28cef145f85e03ed67987f528c65d389dae86cc92b923a`~).
+    1. [Download the archive](https://www.mediafire.com/file/ff6ik561h3drzsm/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/2pfhhnnq4n9v)) (3.83GB, SHA512: ~`0de591a9b0cf98480d50130028bde5405cbe1e206eb6e13e831f16641724a1badeb7c74e606d0ad8424356e128b2247b7aa8f7a97c742eb85f9d626b152fef25`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtilityWPF.exe`. It may require you to install [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -56,7 +56,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[13.09.2025](#changelog)**
+    Last updated: **[09.07.2025 + hotfixes](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -209,13 +209,6 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
-        - 13.09.2025
-            - Updated FusionFix, Xbox Rain Droplets.
-            - Added Beta-Inspired Bank of Liberty, Schottler Parked Vehicles Fix, TBoGT Blade Fix, Plane Flight Path Improvements.
-            - Removed individual Project2DFX installation due to it's integration into FusionFix.
-            - Removed Console Vegetation (I use PC lighting anyway).
-            - Fixed crashing on the `Frosting on the Cake` mission.
-    ??? quote "Old changes"
         - 09.07.2025
             - Updated Restored Pedestrians, Project2DFX, Setup Utility.
             - Added EFLC Vehicle Addon Pack For GTA IV (addons only), Yes Way On The Subway.
