@@ -56,7 +56,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "1.0.8.0"
-    Last updated: **[09.07.2025 + hotfixes](#changelog)**
+    Last updated: **[13.09.2025](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -209,6 +209,13 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 13.09.2025
+            - Updated FusionFix, Xbox Rain Droplets.
+            - Added Beta-Inspired Bank of Liberty, Schottler Parked Vehicles Fix, TBoGT Blade Fix, Plane Flight Path Improvements, Ultimate Train Swerving Fix.
+            - Removed individual Project2DFX installation due to it's integration into FusionFix.
+            - Removed Console Vegetation (I use PC lighting anyway).
+            - Fixed crashing on the `Frosting on the Cake` mission.
+    ??? quote "Old changes"
         - 09.07.2025
             - Updated Restored Pedestrians, Project2DFX, Setup Utility.
             - Added EFLC Vehicle Addon Pack For GTA IV (addons only), Yes Way On The Subway.

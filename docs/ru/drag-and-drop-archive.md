@@ -210,6 +210,13 @@ description: Полностью готовая к игре сборка для �
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+        - 13.09.2025
+            - Обновлены FusionFix, Xbox Rain Droplets.
+            - Добавлены Beta-Inspired Bank of Liberty, Schottler Parked Vehicles Fix, TBoGT Blade Fix, Plane Flight Path Improvements.
+            - Удален индивидуальный Project2DFX из-за его интеграции в FusionFix.
+            - Удален Console Vegetation (я все-равно использую ПКшное освещение).
+            - Исправлен вылет в миссии "Торт на миллион".
+    ??? quote "Старые изменения"
         - 09.07.2025
             - Обновлены Restored Pedestrians, Project2DFX, Setup Utility.
             - Добавлены EFLC Vehicle Addon Pack For GTA IV (только аддоны), Yes Way On The Subway.
