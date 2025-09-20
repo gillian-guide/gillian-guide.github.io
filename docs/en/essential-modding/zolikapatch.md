@@ -53,10 +53,10 @@ This project **improves core multiplayer experience and is considered essential 
     - PoliceEpisodicWeaponSupport
     - RemoveBoundingBoxCulling
     - RemoveUselessChecks
-    - RemoveSCOSignatureCheck
     - ReversingLightFix
     - SkipIntro
     - SkipMenu
+    - SCOSignatureFix
 
     Note that this doesn't break or actually disable anything, as these features are reimplemented by FusionFix.
 

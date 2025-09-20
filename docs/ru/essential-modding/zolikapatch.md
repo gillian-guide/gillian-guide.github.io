@@ -53,10 +53,10 @@ description: Несколько исправлений для даунгрейд
     - PoliceEpisodicWeaponSupport
     - RemoveBoundingBoxCulling
     - RemoveUselessChecks
-    - RemoveSCOSignatureCheck
     - ReversingLightFix
     - SkipIntro
     - SkipMenu
+    - SCOSignatureFix
 
     Имейте ввиду, что это на самом деле не отключает и не ломает ничего, т.к. эти настройки уже встроены в FusionFix.
 
