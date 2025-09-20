@@ -231,6 +231,17 @@ These mods by donnits improve the quality of the Dodgy Doc in the Have a Heart m
 
 ---
 
+## [TBoGT timecyc with DoF and Bloom](https://gtaforums.com/topic/934545-fusion-fix/page/149/#comment-1072589037)
+
+This mod enables DoF and Bloom in TBoGT (which are disabled by Rockstar's design).
+
+<h3>Installation</h3>
+
+1. Download the [file](https://drive.google.com/file/d/1keg7qvmoWfyfoGz7Z2H5dUL9_2VIzqt6/view).
+2. Extract the file to :material-folder: ==update\TBoGT\pc\data==.
+
+---
+
 ## [GTA V-like `visualSettings.dat`](https://drive.google.com/drive/folders/1n6dMxi5CdK6-4KV06ki_zbEi81NDDqrj)
 
 This mod changes some values of `visualSettings.dat` to be more similar to GTA V.

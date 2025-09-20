@@ -37,7 +37,7 @@ For their work on [Various Fixes](../../essential-modding/various-fixes.md), [Mo
 
 ## Magic_Al
 
-For their work on [GTA V-like `visualSettings.dat`](../../enhancements.md/#gta-v-like-visualsettingsdat) and directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
+For their work on [TBoGT timecyc with DoF and Bloom](../../enhancements.md/#tbogt-timecyc-with-dof-and-bloom), [GTA V-like `visualSettings.dat`](../../enhancements.md/#gta-v-like-visualsettingsdat) and directly contributing to [FusionFix](../../essential-modding/fusionfix.md).
 
 ## Valentyn_L
 

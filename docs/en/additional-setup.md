@@ -224,7 +224,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Setting | Console-identical setting | Description |
     | :-----: | :-----------------------: | :---------: |
     | FOV | Default (lowest) | This setting controls the game FOV in increments from the game's default value. |
-    | Definition | On | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
+    | Definition | Off | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
     | Console Gamma | On | This setting changes the gamma to match the Xbox 360 levels. |
     | Console Auto Exposure | On | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Very High (?) | This setting controls the intensity of the motion blur effect. |

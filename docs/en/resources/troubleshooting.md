@@ -15,8 +15,8 @@ I know about these issues, no need to report them to me, unless you know a solut
 - Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
 - Social Club achievements cannot be acquired on downgraded versions.
 - Night shadows are limited, including lack of headlight and lamppost shadows (intended to reduce bugs).
-- Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game.
-- Car washes appear everywhere in the world arbitrarily after installing mods. The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
+- Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game. *Possible solutions to increase available playtime: decrease resolution; decrease render distance sliders; remove launch options/`commandline.txt`, remove High Resolution Miscellaneous Pack, Project Glass and Vehicle Pack.*
+- Car washes appear everywhere in the world arbitrarily after installing mods (in particular, mods that change `.ide` and `.ipl` files or add something to the `.dat` ones). The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
 
 ---
 
