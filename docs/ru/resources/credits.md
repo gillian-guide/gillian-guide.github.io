@@ -5,6 +5,34 @@ description: This guide wouldn't be possible without all these amazing people!
 
 This guide wouldn't be possible without all these amazing people!
 
+## Me (Gillian)
+
+I've been working on this guide since 2021 and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. **Don't forget to support other modders below too!**
+
+I also directly contributed to [Liberty Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature and made [Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#pistol-iron-sight-fix).
+
+==Note: monobank will send the money to me directly, but if you can't use it - please try to use crypto before Patreon.==
+
+[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
+
+Crypto options:
+
+- BTC: bc1qh72qjm3yxrkxkaarxqskrkxp5c4t2ldar5kef7
+- ETH: 0xa86252264878d342a0D29683e36F83f4a21eEEA2
+- USDT: TTrwmdEhEB84cBN2z4m36ZFgK4vHnXpKdG
+
+### Supporters
+
+These people made my life a tad bit easier with their monetary contribution:
+
+- Thies
+- Arrant
+- ShadowSorcery
+- [Not AJ](https://www.youtube.com/@NotAJ)
+- [akirataguchi115](https://github.com/akirataguchi115)
+- cammy
+- bb350
+
 ## ThirteenAG
 
 For their work on [FusionFix](../../essential-modding/fusionfix.md), [Ultimate ASI Loader](mod-dependencies.md/#ultimate-asi-loader)    and [Xbox Rain Droplets](../../enhancements.md/#xbox-rain-droplets).
@@ -183,44 +211,18 @@ The communities of these discord servers helped me a lot with this guide:
 
 [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary } [:simple-discord: My Discord server](https://discord.gg/zwmsQqExbQ){ .md-button .md-button--primary }
 
-## Me (Gillian)
-
-I've been working on this guide for way over 3 years (including the timespan I worked on the Steam version) and I would greatly appreciate any support! Every person who donated *will* be mentioned on this (or some other) page. Don't forget to support other modders too!
-
-I also directly contributed to [Libety Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature and made [Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#pistol-iron-sight-fix).
-
-==Note: monobank will send the money to me directly.==
-
-[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
-
-Crypto options, if you cannot send money directly or prefer anonimity:
-
-- BTC: bc1qh72qjm3yxrkxkaarxqskrkxp5c4t2ldar5kef7
-- ETH: 0xa86252264878d342a0D29683e36F83f4a21eEEA2
-- USDT: TTrwmdEhEB84cBN2z4m36ZFgK4vHnXpKdG
-
-### Supporters
-
-These people made my life a tad bit easier with their monetary contribution:
-
-- cammy
-- ShadowSorcery
-- [akirataguchi115](https://github.com/akirataguchi115)
-- bb350
-- Thies
-
 ## Special Thanks
 
 - [Kreato](https://github.com/kreatoo) for his help to set up this website and heavily assisting the development of [Setup Utility](../optimization/#setup-utility) - check out his stuff if you like Linux tinkering.
 - [Henrygame3](https://github.com/henrygame3) for his help as a designer during restructuring the guide.
 - [Retro Renew](https://www.youtube.com/@RetroRenew) for his nice overview of my Drag-and-Drop Archive.
 - [TJGM](https://www.youtube.com/@TJGM) for his informative videos about GTA IV. While I personally never needed them, they're nice for informing other people.
+- [Not AJ](https://www.youtube.com/@NotAJ) for promoting my guide.
 - [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
 - Steam Community for actively supporting me during the making of the original guide on Steam.
 - Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) for providing this great environment for writing a guide.
 - [GitHub Pages](https://pages.github.com/) for providing a free hosting and domain, allowing the site to be hosted completely free and not require any ads or donations.
-- Rockstar Games and Rockstar North for making the game.
 
 ## And everyone else
 
