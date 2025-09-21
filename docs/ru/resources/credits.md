@@ -151,7 +151,7 @@ For their work on [Resized Blista Compact](../../enhancements.md/#resized-blista
 
 For their work on [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments), [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix) and contributing to [EFLC Vehicle Addon Pack](../../enhancements.md/#eflc-vehicle-addon-pack).
 
-### C1aude_III
+## C1aude_III
 
 For directly contributing to [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
 
