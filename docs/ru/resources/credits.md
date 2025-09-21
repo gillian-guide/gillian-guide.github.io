@@ -37,7 +37,7 @@ These people made my life a tad bit easier with their monetary contribution:
 
 For their work on [FusionFix](../../essential-modding/fusionfix.md), [Ultimate ASI Loader](mod-dependencies.md/#ultimate-asi-loader) and [Xbox Rain Droplets](../../enhancements.md/#xbox-rain-droplets).
 
-[:simple-github: GitHub Sponsor](https://github.com/sponsors/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://paypal.me/SergeyP13){ .md-button .md-button--primary } [:simple-boosty: Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
+[:simple-github: GitHub Sponsor](https://github.com/sponsors/ThirteenAG){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/thirteenag){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://patreon.com/ThirteenAG){ .md-button .md-button--primary } [:simple-paypal: PayPal](https://paypal.me/SergeyP13){ .md-button .md-button--primary } [:simple-boosty: Boosty](https://boosty.to/thirteenag/donate){ .md-button .md-button--primary }
 
 ## Parallellines
 
