@@ -308,16 +308,34 @@ This mod resizes the Blista Compact to match the real life counterpart (Honda CR
 !!! warning "Compatibility"
     - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
     - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
+
 This project aims to improve various aspects of the game and it's general Quality of Life. You can see the features on the [GTAForums page](https://gtaforums.com/topic/991160-liberty-tweaks/).
 
 <h3>Installation</h3>
 
 1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net).
-2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
-3. Go to the latest [release page](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
-4. Download the :material-zip-box:`LibertyTweaksx.x.zip`.
-5. Extract the contents of :material-folder: ==1. Install== into the game folder. Replace files if prompted.
-6. Configure :material-file-cog:`IVSDKDotNet/scripts/LibertyTweaks.ini` as you wish.
+2. Go to the latest [release page](https://github.com/catsmackaroo/LibertyTweaks/releases/latest).
+3. Download the :material-zip-box:`LibertyTweaksx.x.zip`.
+4. Extract the contents of :material-folder: ==1. Install== into the game folder. Replace files if prompted.
+5. Configure :material-file-cog:`IVSDKDotNet/scripts/LibertyTweaks.ini` as you wish.
+
+---
+
+## [BetterRaceIV](https://github.com/LotsofEds/BetterRaceIV)
+
+!!! warning "Compatibility"
+    - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
+    - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
+
+ This mod makes the racing AI opponents better at racing.
+
+ <h3>Installation</h3>
+
+1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net) if you hadn't already.
+2. Go to the latest [release page](https://github.com/LotsofEds/BetterRaceIV/releases/latest).
+3. Download the :material-zip-box:`BetterRacex.x.zip`.
+4. Extract the :material-folder: ==BetterRacex.x\IVSDKDotNet== folder into the game folder.
+5. Configure :material-file-cog:`IVSDKDotNet/scripts/BetterRace.ini` as you wish.
 
 ---
 
@@ -326,22 +344,22 @@ This project aims to improve various aspects of the game and it's general Qualit
 !!! warning "Compatibility"
     - This mod only supports 1.0.7.0/1.0.8.0 at the moment.
     - **If using Linux**, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux).
+
 This mod improves how thunder appears in-game, with actual lighting and improved atmosphere.
 
 <h3>Installation</h3>
 
 1. Install [IV-SDK .NET and Clonk's Coding Library](../resources/mod-dependencies.md/#iv-sdk-net) if you hadn't already.
-2. In :material-file-cog:`IVSDKDotNet/config.ini` disable `PauseExecutionWhenNotInFocus` to prevent some issues.
-3. Go to the latest [release page](https://github.com/ClonkAndre/ProjectThunderIV/releases/latest).
-4. Download the :material-zip-box:`ProjectThunder.vx.x.zip`.
-5. Extract the contents of :material-folder: ==Files for the main directory== into the game folder.
+2. Go to the latest [release page](https://github.com/ClonkAndre/ProjectThunderIV/releases/latest).
+3. Download the :material-zip-box:`ProjectThunder.vx.x.zip`.
+4. Extract the contents of :material-folder: ==Files for the main directory== into the game folder.
     - **Do not extract the :material-folder: ==pc== folder** - rather, extract it to the :material-folder: ==update== folder instead.
-6. Extract the `RAIN` file into any empty folder.
-7. Copy the :material-file:`resident.rpf` archive from :material-folder: ==pc/audio/sfx/== to :material-folder: ==**update**/pc/audio/sfx/==.
+5. Extract the `RAIN` file into any empty folder.
+6. Copy the :material-file:`resident.rpf` archive from :material-folder: ==pc/audio/sfx/== to :material-folder: ==**update**/pc/audio/sfx/==.
     - Skip this step if you installed "**Reduced Trafic Screech (Audio Tweak)**" previously.
-8. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-9. Using the file from the mod, replace the :material-file:`RAIN` file in the :material-folder: ==RESIDENT== folder inside the archive.
-10. Configure :material-file-cog:`IVSDKDotNet/scripts/ProjectThunderIV.ini` as you wish.
+7. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+8. Using the file from the mod, replace the :material-file:`RAIN` file in the :material-folder: ==RESIDENT== folder inside the archive.
+9. Configure :material-file-cog:`IVSDKDotNet/scripts/ProjectThunderIV.ini` as you wish.
 
 ---
 
@@ -371,8 +389,8 @@ Please use the following load order (put the number before the folder names) aft
 7. Console Visuals
 8. Project Glass
 9. More Visible Interiors
-10. Various Fixes
-11. FusionFix (leave it at the default folder name for ease of updating)
+10. FusionFix (leave it at the default folder name for ease of updating)
+11. Various Fixes (leave it at the default folder name to make it easier for managing with FusionFix)
 
 You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
 
