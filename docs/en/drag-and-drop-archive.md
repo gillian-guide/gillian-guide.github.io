@@ -432,6 +432,7 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Updated FusionFix, Various Fixes, Restored Trees Position, Xbox Rain Droplets, Liberty Tweaks.
             - Reinstalled More Visible Interiors to fix compatibility issues.
             - Fixed GTA V-like `visualSettings.dat` and TBoGT timecyc with DoF and Bloom not being applied in previous version.
+            - Removed Panoramic Towers LOD Fix due to it's inclusion in Various Fixes.
             - Added localization files from 1.0.8.0 to remove Social Club-related text.
     ??? quote "Old changes"
         - 05.10.2025
