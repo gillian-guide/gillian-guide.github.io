@@ -11,9 +11,9 @@ I've been working on this guide since 2021 and I would greatly appreciate any su
 
 I also directly contributed to [Liberty Tweaks](../../enhancements.md/#liberty-tweaks) with a minor feature and made [Pistol Iron Sight Fix](../../essential-modding/additional-fixes.md/#pistol-iron-sight-fix).
 
-==Note: monobank will send the money to me directly, but if you can't use it - please try to use crypto before Patreon.==
+==Notes: monobank will send the money to me directly. Open the PayPal link from mobile if you want it to work. Sending via Ko-Fi might put money on hold for near a month.==
 
-[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary } [:simple-patreon: Patreon](https://www.patreon.com/gillianmc){ .md-button .md-button--primary }
+[:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }  [:simple-paypal: PayPal](https://www.paypal.com/qrcodes/p2pqrc/MQUJK8UCEU2KS){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/gillianmc){ .md-button .md-button--primary }
 
 Crypto options:
 
