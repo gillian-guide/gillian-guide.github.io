@@ -3,6 +3,9 @@ description: There's more??
 
 # Additional Fixes (List)
 
+!!! warning "Actuality"
+    This, and the next sections of the guide have not been updated in a long while and a bunch of information relating to mods that had updates, became outdated. Use this list more as a reference to what mods to use, rather than their install steps.
+
 Following mods are fixes that I'd personally consider essential, as they don't have any downsides or incompatibilities to them.
 
 !!! warning ""
@@ -158,6 +161,37 @@ This mod fixes green-ish textures on some character models.
 6. Open the copied archives with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
 7. Copy the files from :material-folder: ==IV - playerped.rpf== to the archive you copied in step 4.
 8. Copy the files from :material-folder: ==TBoGT - playerped.rpf== to the archive you copied in step 5.
+
+---
+
+## [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773)
+
+This mod fixes the shading on track jacket textures to match the green track jacket.
+
+<h3>Installation</h3>
+
+1. Go to the [NexusMods Files page](https://www.nexusmods.com/gta4/mods/773?tab=files).
+2. Download the latest version.
+3. Extract the files from the desired folder into any empty folder.
+4. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==pc/models/cdimages/== to :material-folder: ==**update**/pc/models/cdimages/==.
+    - Skip this step if you had already done it earlier with other mods.
+5. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+6. Replace the files in the archive with the mod's.
+
+---
+
+## [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/)
+
+Fixes the hand texture seams in Niko's model.
+
+<h3>Installation</h3>
+
+1. Download the mod.
+2. Extract the files from the desired folder into any empty folder.
+3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==pc/models/cdimages/== to :material-folder: ==**update**/pc/models/cdimages/==.
+    - Skip this step if you had already done it earlier with other mods.
+4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+5. Replace the files in the archive with the mod's.
 
 ---
 

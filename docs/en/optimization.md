@@ -30,25 +30,26 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 
 ---
 
-## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Automatic installation)
+## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtility) (Automatic installation)
 
-Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtilityWPF?tab=readme-ov-file#features).
+Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
 
 !!! info ""
-    - You should re-run the tool **if you downgrade or install FusionFix and/or ZolikaPatch later.**
-    - You cannot, nor should you, use the tool on Linux.
+    - You should re-run the tool **if you downgrade and/or install FusionFix and/or ZolikaPatch later.**
+    - The tool is unnecessary on Linux, as DXVK is already used, but it can be used for other purposes if launched under Proton.
 
 ### Usage
 
 !!! note "FusionFix"
     Note that FusionFix already includes DXVK by default and you can toggle it on in the Graphics tab. However, you can still update DXVK manually.
 
-1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
-2. Download :material-file-download:`GTAIVSetupUtilityWPF.exe`.
+1. Go to the latest [release page](https://github.com/gillian-guide/GTAIVSetupUtility/releases/latest).
+2. Download :material-file-download:`GTAIVSetupUtility.exe`.
 3. Run the tool.
 4. Press `Open` and select your game folder. Follow the in-app instructions if any pop-ups appear.
-5. Press `Install DXVK` (or `Update DXVK`) and `Setup launch options` in sequence.
+5. Press `Install DXVK` and `Setup launch options` in sequence.
     - If experienced, you can manually configure the options. There is usually no need to, though.
+    - Updating DXVK can be done by pressing `Reinstall DXVK`.
     - If any issues occur, [report them on the Discord server](../index.md/#navigation).
 
 ???+ warning "For NVIDIA 50-series RTX GPU users"

@@ -167,7 +167,7 @@ For their work on [TBoGT: Blade Fix](../../essential-modding/additional-fixes.md
 
 For their work on [Plane Flight Path Improvements](../../enhancements.md/#plane-flight-path-improvements).
 
-## LotsOfEds
+## ServalEd
 
 For their work on [Yes Way On The Subway](../../enhancements.md/#yes-way-on-the-subway).
 

@@ -35,9 +35,12 @@ To mod the game, we first need to get your system ready for modding and install 
 Настоятельно рекомендуется установить последние версии драйверов для достижения максимальной производительности и стабильности. Выберите производителя вашей видеокарты на переключителе для инструкций.
 
 === "NVIDIA"
-    - Перейдите на [официальный сайт](https://www.nvidia.com/ru-ru/software/nvidia-app/).
-    - Нажмите на `Скачать бета-версию` и откройте загруженный файл.
+    - Перейдите на [официальный сайт](https://www.nvidia.com/en-us/software/nvidia-app/).
+    - Нажмите на `Download Now` и откройте загруженный файл.
+    - В приложении, перейдите на вкладку `Драйверы`.
+    - Нажмите `Скачать` сверху справа, после `Установить`.
     - Следуйте инструкциям в приложении, чтобы установить драйвер.
+        - Используйте `Экспресс установку`, если у вас нет своих пожеланий.
 === "AMD"
     - Перейдите на [официальный сайт](https://www.amd.com/en/support).
     - Нажмите на `Download Windows Drivers` и откройте загруженный файл.
@@ -57,7 +60,7 @@ To mod the game, we first need to get your system ready for modding and install 
     - :material-steam:**Steam**: :material-folder: ==Steam\steamapps\common\Grand Theft Auto IV\GTAIV==
     - :simple-rockstargames: **Rockstar Games Launcher**: :material-folder: ==Rockstar Games\Grand Theft Auto IV==
 - **Когда говорится распаковать папку**, распаковывайте именно папку, а не ее содержимое (если не сказано обратное).
-- **GFWL** это аббревиатура для **Games for Windows LIVE**. GFWL это проприетарный сервис от Microsoft, который обеспечивает мультиплеер и DRM. **XLiveless** (иногда известный как :fontawesome-solid-gears:`xlive.dll`) удаляет из игры GFWL. GFWL не используется в Complete Edition.
+- **GFWL** это аббревиатура для **Games for Windows LIVE**. GFWL это проприетарный сервис от Microsoft, который обеспечивает мультиплеер и DRM. **XLiveless** (иногда известный как :fontawesome-solid-gears:`xlive.dll`) удаляет из игры GFWL. GFWL не используется в Complete Edition, по этому GFWL всегда имеет в ввиду даунгрейднутую версию игры.
 
 ---
 

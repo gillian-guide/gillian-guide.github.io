@@ -3,6 +3,9 @@ description: Еще больше??
 
 # Дополнительные фиксы (список)
 
+!!! warning "Актуальность"
+    Этот и следующие разделы руководства давно не обновлялись, и большая часть информации, касающейся модов, которые были обновлены, устарела. Используйте этот список скорее в качестве списка модов, а не в качестве инструкции по их установке.
+
 Следующие моды являются фиксами которые я бы посчитал обязательными, т.к. они не имеют каких-либо минусов или несовместимостей.
 
 !!! warning ""
@@ -127,7 +130,7 @@ description: Еще больше??
 
 ## [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/)
 
-Исправление голосовых линий байкеров из IV в EFLC.
+Этот мод исправляет голосовых линий байкеров из IV в EFLC.
 
 <h3>Установка</h3>
 
@@ -158,6 +161,37 @@ description: Еще больше??
 6. Скопированные архивы откройте с [OpenIV](../../resources/openiv.md/#_6).
 7. Скопируйте файлы из :material-folder: ==IV - playerped.rpf== в архив, который вы скопировали в этапе 4.
 8. Скопируйте файлы из :material-folder: ==TBoGT - playerped.rpf== в архив, который вы скопировали в этапе 5.
+
+---
+
+## [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773)
+
+Этот мод исправляет тени на спортивной курте для соответсвия зеленой куртке.
+
+<h3>Установка</h3>
+
+1. Перейдите на страницу [NexusMods Files](https://www.nexusmods.com/gta4/mods/773?tab=files).
+2. Загрузите последнюю версию.
+3. Извлеките файлы из нужной папки в любую пустую папку.
+4. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==pc/models/cdimages/== в :material-folder: ==**update**/pc/models/cdimages/==.
+    - Пропустите этот шаг, если вы уже делали это ранее с другими модами.
+5. Откройте скопированный архив с помощью [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+6. Замените файлы в архиве файлами мода.
+
+---
+
+## [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/)
+
+Этот мод исправляет проблемы с текстурой руки Нико.
+
+<h3>Установка</h3>
+
+1. Загрузите мод.
+2. Извлеките файлы из нужной папки в любую пустую папку.
+3. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==pc/models/cdimages/== в :material-folder: ==**update**/pc/models/cdimages/==.
+    - Пропустите этот шаг, если вы уже делали это ранее с другими модами.
+4. Откройте скопированный архив с помощью [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
+5. Замените файлы в архиве файлами мода.
 
 ---
 

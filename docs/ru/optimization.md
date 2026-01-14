@@ -30,25 +30,26 @@ description: Все про DXVK для GTA IV
 
 ---
 
-## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtilityWPF) (Автоматическая установка)
+## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtility) (Автоматическая установка)
 
-С помощью этого софта вы можете установить DXVK и [параметры запуска](../additional-setup.md/#_2) автоматически и без особых усилий. Она также позаботится о совместимости между FusionFix, ZolikaPatch и другими особенностями - вы можете прочитать список фич [здесь](https://github.com/gillian-guide/GTAIVSetupUtilityWPF?tab=readme-ov-file#features).
+С помощью этой программы вы можете установить DXVK и [параметры запуска](../additional-setup.md/#_2) автоматически и без особых усилий. Она также позаботится о совместимости между FusionFix, ZolikaPatch и другими особенностями - вы можете прочитать подробный функционал [здесь](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
 
 !!! info ""
-    - Вы должны использовать тулзу заново **если вы позже совершите даунгрейд или установите FusionFix и/или ZolikaPatch.**
-    - Вы не можете, да и не должны, использовать эту тулзу на Linux.
+    - Вы должны использовать программа заново **если вы позже совершите даунгрейд и/ли установите FusionFix и/или ZolikaPatch.**
+    - Программа не нужна на Linux, т.к. DXVK уже используется, но вы можете использовать ее для других целей, запуская через Proton.
 
 ### Использование
 
 !!! note "FusionFix"
     Учтите, что FusionFix уже включает в себя DXVK по умолчанию и вы можете его включить в вкладке Graphics. Но вы все еще можете обновить DXVK вручную.
 
-1. Перейдите на [страницу последнего релиза](https://github.com/gillian-guide/GTAIVSetupUtilityWPF/releases/latest).
-2. Скачайте :material-file-download:`GTAIVSetupUtilityWPF.exe`.
+1. Перейдите на [страницу последнего релиза](https://github.com/gillian-guide/GTAIVSetupUtility/releases/latest).
+2. Скачайте :material-file-download:`GTAIVSetupUtility.exe`.
 3. Запустите программу.
-4. Нажмите `Open` и выберите вашу папку с игрой. Следуйте инструкциям в приложении, если появятся всплывающие окна.
-5. Нажмите `Install DXVK` (или `Update DXVK`) и `Setup launch options` в этой же последовательности.
+4. Нажмите `Открыть...` (`Open...`) и выберите вашу папку с игрой. Следуйте инструкциям в приложении, если появятся всплывающие окна.
+5. Нажмите `Установить DXVK` (`Install DXVK`) и после `Настроить параметры запуска` (`Setup launch options`) в этой же последовательности.
     - Если вы знаете что делаете, можете вручную поменять какие-либо переключатели. Обычно, в этом нет нужды.
+    - Обновить DXVK можно кнопкой `Переустановить DXVK` (`Reinstall DXVK`).
     - Если появятся какие-либо проблемы, [сообщите о них на Discord сервере](../../index.md/#navigation).
 
 ??? warning "Для пользователей 50-серии NVIDIA RTX"
