@@ -127,6 +127,7 @@ All mods in the following list are present in both archives with identical versi
 | [Restored Pedestrians~2.0~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. <br>Included addons: Scenario Pedestrians (only on CE), Restored Taxi Drivers, M_Y_Garbage, M_Y_Amirguard_01</br> |
 | [Various Pedestrians Actions~1.7~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
 | [Restored Vegetation~21.05.2026~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores vegetation that was present in the betas but removed in the final release, either as an oversight or due to performance concerns.<br>Included addon: Beta Tree Positions</br> |
+| [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Restores graffiti, which were completely cut out in the final build of the game. |
 | [More Visible Interiors~1.8~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
 | [Higher Resolution Miscellaneous Pack~2.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
 | [Project Glass~12.11.2025~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass. |
@@ -222,6 +223,7 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 27.05.2026
             - Updated FusionFix, Restored Pedestrians, Vehicle Pack, LibertyCityPlates, New game parameters for transport and traffic, Xbox Rain Droplets, Props Restoration.
             - Replaced Restored Trees Position with Restored Vegetation.
+            - Added Restored Graffiti.
             - Built Console Select Menu with the new libs, hopefully resolves some issues.
             - Removed Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix due to an identical fix being present in FusionFix.
     ??? quote "Old changes"
@@ -448,6 +450,7 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 27.05.2026
             - Updated FusionFix, Restored Pedestrians, Vehicle Pack, LibertyCityPlates, New game parameters for transport and traffic, Xbox Rain Droplets, Props Restoration.
             - Replaced Restored Trees Position with Restored Vegetation.
+            - Added Restored Graffiti.
             - Removed Luis' Helmet Reflections Fix, Luis' Bag Texture Fix, Johnny's Shoe Texture Fix, Ultimate Train Swerving Fix due to an identical fix being present in FusionFix.
     ??? quote "Old changes"
         - 13.01.2026
