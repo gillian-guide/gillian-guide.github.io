@@ -102,9 +102,9 @@ description: Все про DXVK для GTA IV
     <h3>Инструкции</h3>
 
     1. Перейдите на [страницу последнего релиза DXVK-Sarek](https://github.com/pythonlover02/dxvk-Sarek/releases/latest).
-    2. Скачайте архив :material-zip-box:`dxvk-sarek-async-1.10.3.tar.gz`.
-        - Если вы испытываете проблемы с этим форком, можете использовать [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) или [официальный DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3).
-    3. После скачивания, откройте архив и перейдите в папку :material-folder: ==dxvk-async-1.10.3\\x32\\==
+        - Если вы испытываете проблемы с этим форком, можете использовать [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3).
+    2. Скачайте архив :material-zip-box:`dxvk-sarek-dyasync-vx.x.x.tar.gz`.
+    3. После скачивания, откройте архив и перейдите в папку :material-folder: ==dxvk-sarek-dyasync-vx.x.x\\x32\\==
     4. Распакуйте :fontawesome-solid-gears:`d3d9.dll` в папку с игрой. Если вы хотите сохранить возможность переключать API в настройках игры, сначала переименуйте файл в :fontawesome-solid-gears:`vulkan.dll`.
 
 ??? question "Почему не :fontawesome-solid-gears:`dxgi.dll` или другие файлы из папки?"

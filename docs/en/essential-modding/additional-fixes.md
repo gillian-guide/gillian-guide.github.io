@@ -4,7 +4,7 @@ description: There's more??
 # Additional Fixes (List)
 
 !!! warning "Actuality"
-    This, and the next sections of the guide have not been updated in a long while and a bunch of information relating to mods that had updates, became outdated. Use this list more as a reference to what mods to use, rather than their install steps.
+    This, and the next sections of the guide have not been updated in a long while and is considered **legacy information**. A bunch of information relating to mods that had updates, became outdated. Use this list more as a reference to what mods you can use, rather than their install steps.
 
 Following mods are fixes that I'd personally consider essential, as they don't have any downsides or incompatibilities to them.
 
@@ -13,19 +13,6 @@ Following mods are fixes that I'd personally consider essential, as they don't h
 
 !!! warning "For Linux users"
     When installing mods, be careful and take note when filenames have different casing (e.g. `weaponinfo.xml` and `weaponInfo.xml`). Make sure to merge them accordingly.
-
----
-
-## [Luis' Helmet Reflections Fix](https://www.gtainside.de/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
-
-This mod fixes the bleak reflection on TBoGT player model's helmet.
-
-<h3>Installation</h3>
-
-1. Download this [archive](https://drive.google.com/file/d/14uB8cRR7DXYXc4HPCxoGd3J78nc1zBK8/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-
----
 
 ## [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/)
 
@@ -38,19 +25,6 @@ This mod changes the Esperanto in Roman's Cab Depot to Roman's Taxi.
 
 ---
 
-## [Ultimate Train Swerving Fix](https://github.com/ClonkAndre/UltimateTrainSwervingFix)
-
-This mod fixes car swerving on the Algonquin bridge due to the trains below them. [More info about this bug](https://www.youtube.com/watch?v=8x0MuQbZSns).
-
-<h3>Installation</h3>
-
-1. Install [IV-SDK .NET](../../resources/mod-dependencies.md/#iv-sdk-net) if you haven't before.
-2. Go to the latest [release page](https://github.com/ClonkAndre/UltimateTrainSwervingFix/releases/latest).
-3. Download the :material-zip-box:`UltimateTrainSwervingFix.v1.0.zip`.
-4. Extract the contents of the archive into the game folder.
-
----
-
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
 These mods by donnits fix minor issues on the map.
@@ -58,17 +32,6 @@ These mods by donnits fix minor issues on the map.
 <h3>Installation</h3>
 
 1. Download this [archive](https://drive.google.com/file/d/1LnT29wamuxJp1Xo074b50IU8gLDJjRxL/view?usp=sharing).
-2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-
----
-
-## [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) - `cargrp.dat` and `carcols.dat` fixes
-
-These fix some oversights in the original files that prevent some cars from spawning as intended.
-
-<h3>Installation</h3>
-
-1. Download this [archive](https://drive.google.com/file/d/1s0upbkeDpH9zJ03ELXrcOItMZw17xvVC/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
 
 ---
@@ -203,35 +166,6 @@ This mod originally intends to add EFLC-exclusive vehicles to GTA IV, but it als
 
 1. Download this [archive](https://drive.google.com/file/d/1LTCbV15k9AjgeRa1ncinFXIPvfQRjVF2/view?usp=sharing).
 2. Extract the :material-folder: ==update== folder from the archive into the game folder.
-
----
-
-## [Luis' Bag Texture Fix](https://www.gtainside.de/en/gta4/skins/136118-luis-s-bag-texture-fix/)
-
-This mod adds missing normal and specular maps and improves texture quality on TBoGT player model's bag.
-
-<h3>Installation</h3>
-
-1. Download the mod.
-2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TBoGT/pc/models/cdimages/== to :material-folder: ==**update**/TBoGT/pc/models/cdimages/==.
-    - Skip this step if you had already done it earlier with other mods.
-4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the files from the mod, replace the :material-file:`suse_002_u.wdr` and :material-file:`suse_002_a_uni.wdr` files in the archive.
-
----
-
-## [Johnny's Shoe Texture Fix](https://www.gtainside.de/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
-
-This mod adds missing normal and specular maps to the TLAD player model's shoes.
-
-<h3>Installation</h3>
-
-1. Download the mod.
-2. Extract the archive into any empty folder.
-3. Copy the :material-file:`playerped.rpf` archive from :material-folder: ==TLAD/pc/models/cdimages/== to :material-folder: ==**update**/TLAD/pc/models/cdimages/==.
-4. Open the copied archive with [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Using the file from the mod, replace the :material-file:`feet_000_u.wdr` file in the archive.
 
 ---
 

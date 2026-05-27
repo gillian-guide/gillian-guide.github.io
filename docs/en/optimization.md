@@ -84,7 +84,7 @@ After using the tool, you can freely skip to optimal graphics settings:
     4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder. If you want to retain FusionFix's toggle functionality, rename the file to :fontawesome-solid-gears:`vulkan.dll` first.
 
     !!! question "About the `async` patch"
-        DXVK, from version 2.0 onwards, implemented Graphics Pipeline Library support, which, in the context of GTA IV, completely eliminates shader building stutter given the GPL and Fast Linking support from the GPU.
+        DXVK, from version 2.0 onwards, implemented Graphics Pipeline Library support, which, in the context of GTA IV, completely eliminates shader building stutter, given the GPL and Fast Linking support from the GPU.
 
         If using a modern GPU, those features should be there, and if you have no frequent stutter - it is there. **If you do, however, experience frequent stutter on this version, check if your drivers are up-to-date, and if they are, use the [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) fork to reduce stutter.**
 
@@ -103,9 +103,9 @@ After using the tool, you can freely skip to optimal graphics settings:
     <h3>Instructions</h3>
 
     1. Go to the latest [DXVK-Sarek release page](https://github.com/pythonlover02/dxvk-Sarek/releases/latest).
-        - If experiencing issues with this fork, you can also use [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) or [official DXVK 1.10.3](https://github.com/doitsujin/dxvk/releases/tag/1.10.3) instead.
-    2. Download the :material-zip-box:`dxvk-sarek-async-1.10.x.tar.gz` archive.
-    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-sarek-async-1.10.3\\x32\\==
+        - If experiencing issues with this fork, you can also use [dxvk-async 1.10.3](https://github.com/Sporif/dxvk-async/releases/tag/1.10.3) instead.
+    2. Download the :material-zip-box:`dxvk-sarek-dyasync-vx.x.x.tar.gz` archive.
+    3. After downloading, open the archive and navigate to :material-folder: ==dxvk-sarek-dyasync-vx.x.x\\x32\\==
     4. Extract :fontawesome-solid-gears:`d3d9.dll` into the game folder. If you want to retain FusionFix's toggle functionality, rename the file to :fontawesome-solid-gears:`vulkan.dll` first.
 
 ??? question "Why not :fontawesome-solid-gears:`dxgi.dll` or other files in the folder?"

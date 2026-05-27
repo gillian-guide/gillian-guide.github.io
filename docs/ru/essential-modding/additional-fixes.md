@@ -4,7 +4,7 @@ description: Еще больше??
 # Дополнительные фиксы (список)
 
 !!! warning "Актуальность"
-    Этот и следующие разделы руководства давно не обновлялись, и большая часть информации, касающейся модов, которые были обновлены, устарела. Используйте этот список скорее в качестве списка модов, а не в качестве инструкции по их установке.
+    Этот и следующие разделы руководства давно не обновлялись и **считается устаревшими**. Большая часть информации, касающейся модов, которые были обновлены, устарела. Используйте этот список скорее в качестве списка модов, а не в качестве инструкции по их установке.
 
 Следующие моды являются фиксами которые я бы посчитал обязательными, т.к. они не имеют каких-либо минусов или несовместимостей.
 
@@ -13,17 +13,6 @@ description: Еще больше??
 
 !!! warning "Для пользователей Linux"
     При установке модов будьте внимательны и обращайте внимание на то, что имена файлов имеют разный регистр (например, `weaponinfo.xml` и `weaponInfo.xml`). Не забудьте объедините их соответствующим образом.
-
----
-
-## [Luis' Helmet Reflections Fix](https://www.gtainside.de/en/gta4/skins/125863-luis-s-helmet-reflections-fix/)
-
-Этот мод исправляет поблекшие отражения на шлеме модели игрока в TBoGT.
-
-<h3>Установка</h3>
-
-1. Скачайте этот [архив](https://drive.google.com/file/d/14uB8cRR7DXYXc4HPCxoGd3J78nc1zBK8/view?usp=sharing).
-2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
 
@@ -38,19 +27,6 @@ description: Еще больше??
 
 ---
 
-## [Ultimate Train Swerving Fix](https://github.com/ClonkAndre/UltimateTrainSwervingFix)
-
-Этот мод исправляет неправильное движение транспорта на Алгонквинском мосту из-за поездов под ними. [Больше информации про этот баг](https://www.youtube.com/watch?v=8x0MuQbZSns).
-
-<h3>Установка</h3>
-
-1. Установите [IV-SDK .NET](../../resources/mod-dependencies.md/#iv-sdk-net) если он не был установлен до этого.
-2. Перейдите на страницу последнего [релиза](https://github.com/ClonkAndre/UltimateTrainSwervingFix/releases/latest).
-3. Скачайте :material-zip-box:`UltimateTrainSwervingFix.v1.0.zip`.
-4. Распакуйте архив в папку с игрой.
-
----
-
 ## [Liberty Ferry Terminal - Waiting Sign Fix & Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/)
 
 Эти моды от donnits исправляют мелкие проблемы по карте.
@@ -58,17 +34,6 @@ description: Еще больше??
 <h3>Установка</h3>
 
 1. Скачайте этот [архив](https://drive.google.com/file/d/1LnT29wamuxJp1Xo074b50IU8gLDJjRxL/view?usp=sharing).
-2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
-
----
-
-## [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/) - фиксы `cargrp.dat` и `carcols.dat`
-
-Эти фиксы исправляют некоторые недочеты в оригинальных файлах, из-за которых некоторые автомобили не спавнятся так, как положено.
-
-<h3>Установка</h3>
-
-1. Скачайте этот [архив](https://drive.google.com/file/d/1s0upbkeDpH9zJ03ELXrcOItMZw17xvVC/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== из архива в папку с игрой.
 
 ---
@@ -203,35 +168,6 @@ description: Еще больше??
 
 1. Скачайте этот [архив](https://drive.google.com/file/d/1LTCbV15k9AjgeRa1ncinFXIPvfQRjVF2/view?usp=sharing).
 2. Распакуйте папку :material-folder: ==update== в папку с игрой.
-
----
-
-## [Luis' Bag Texture Fix](https://www.gtainside.de/en/gta4/skins/136118-luis-s-bag-texture-fix/)
-
-Этот мод добавляет недостающие карты нормалей и спекуляций и улучшает качество текстур на сумке модели игрока в TBoGT.
-
-<h3>Установка</h3>
-
-1. Скачайте мод.
-2. Распакуйте архив в любую пустую папку.
-3. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/TBoGT/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/TBoGT/pc/models/cdimages/==.
-    - Пропустите этот этап если вы уже это делали ранее с другими модами.
-4. Скопированный архив откройте с [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Используя файлы из мода, замените файлы :material-file:`suse_002_u.wdr` и :material-file:`suse_002_a_uni.wdr` в архиве.
-
----
-
-## [Johnny's Shoe Texture Fix](https://www.gtainside.de/en/gta4/skins/125196-johnny-s-shoe-texture-fix/)
-
-Этот мод добавляет недостающие карты нормалей и спекуляций в обувь модели игрока в TLAD.
-
-<h3>Установка</h3>
-
-1. Скачайте мод.
-2. Распакуйте архив в любую пустую папку.
-3. Скопируйте архив :material-file:`playerped.rpf` из :material-folder: ==GTAIV/TLAD/pc/models/cdimages/== в :material-folder: ==GTAIV/**update**/TLAD/pc/models/cdimages/==.
-4. Скопированный архив откройте с [OpenIV](../../resources/openiv.md/#editing-existing-archives-installing-mods-to-game-files).
-5. Используя файл из мода, замените файл :material-file:`feet_000_u.wdr` в архиве.
 
 ---
 
