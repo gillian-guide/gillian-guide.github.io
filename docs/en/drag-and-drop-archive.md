@@ -36,7 +36,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux).
 
-    1. [Download the archive](https://www.mediafire.com/file/yo0ecfdpr1rbvwe/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/5njpjfmr8esq)) (4.30GiB, SHA512: ~`515babb94b4b29bbd6a0f3bc1edbb84107b951c008c08373a79509629b4a4ebad44f9577701815f339ce024b16e4809452a4b5772bcd1c8edeb3eee928c37185`~).
+    1. [Download the archive](https://www.mediafire.com/file/yo0ecfdpr1rbvwe/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/5v3hc3w5a8ba)) (4.30GiB, SHA512: ~`515babb94b4b29bbd6a0f3bc1edbb84107b951c008c08373a79509629b4a4ebad44f9577701815f339ce024b16e4809452a4b5772bcd1c8edeb3eee928c37185`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open...`, select the same game folder.
@@ -66,7 +66,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks).
 
-    1. [Download the archive](https://www.mediafire.com/file/k7lyk8rzpdhwrqm/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/5acmemd6wubj)) (4.34GiB, SHA512: ~`000df6605a07d2987bd9d9ae888f2c36eec4c13cd4e11123ce7fe7cb5d08668591261443b003cdc318921c5e1a9435287e53d899e91f455eb56676ac2358db59`~).
+    1. [Download the archive](https://www.mediafire.com/file/k7lyk8rzpdhwrqm/1.0_archive.7z/file) ([mirror](-)) (4.34GiB, SHA512: ~`000df6605a07d2987bd9d9ae888f2c36eec4c13cd4e11123ce7fe7cb5d08668591261443b003cdc318921c5e1a9435287e53d899e91f455eb56676ac2358db59`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
