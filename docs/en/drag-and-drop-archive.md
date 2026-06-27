@@ -22,6 +22,11 @@ If you want to get familiar with the modpack before installing it, I recommend t
 
 ## Installation { data-search-exclude }
 
+!!! question "Is there anything simpler and easier to run?"
+    Yes, you can actually just install [FusionFix](../essential-modding/fusionfix.md) and [Various Fixes](../essential-modding/various-fixes.md) alone to fix, like, 90% of the game, with much better performance and stability.
+
+    You may then ask - "then what is the point of this modpack?" - and my answer would be mostly personal, really. This modpack is designed to include every community fix and basic enhancement that I found worthy to compile a personal, "ideal" and "definitive" experience with every nook and cranny fixed, but it may not necessarily be the best option for you if you don't have OCD about tiny issues, inconsistencies and unused content that you could be using or fixing. If you need any convincing, you could check Not AJ's video above that goes in-depth about what sets this modpack out from simply using the two mods above, but I can't force you to use this or consider this the best option. Suit yourself, as they say.
+
 !!! question "Which game version to pick?"
     The following selector is for the game version - see [here](../downgrading/downgrading-the-game.md/#game-versions) for their base differences. The mods in the archives are mostly identical, but **1.0.8.0 includes more Quality of Life changes at the cost of some fixes from FusionFix and removes the Rockstar Games Launcher DRM, while 1.2.0.59 is considered to be more stable and polished.**
 
