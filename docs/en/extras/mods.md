@@ -3,6 +3,9 @@ description: Even more?!
 
 # Mods
 
+!!! warning "Actuality"
+    This section of the guide has not been updated in a long while and a bunch of information relating to mods that had updates, became outdated.
+
 To finish this guide off, I will give a list of more mods that couldn't find their place in other parts of the guide due to their niche status, potential incompatibilites, or something else. I won't list instructions on how to install them, as mods usually list their own instructions, so it becomes redundant.
 
 !!! warning ""

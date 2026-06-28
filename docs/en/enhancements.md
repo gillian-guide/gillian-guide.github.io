@@ -4,7 +4,7 @@ description: And now, we can make our game perfect!
 # Recommended Enhancements
 
 !!! warning "Actuality"
-    This, and the next sections of the guide have not been updated in a long while and a bunch of information relating to mods that had updates, became outdated. Use this list more as a reference to what mods to use, rather than their install steps.
+    This section of the guide has not been updated in a long while and a bunch of information relating to mods that had updates, became outdated, as well as the list of mods itself is not up to date with the [Drag-and-Drop Archive page](../drag-and-drop-archive.md).
 
 Following mods are not essential to playing the game, but they're highly recommended to have a good experience or a good enough base for your own modpack.
 

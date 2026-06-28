@@ -4,7 +4,7 @@ description: There's more??
 # Additional Fixes (List)
 
 !!! warning "Actuality"
-    This, and the next sections of the guide have not been updated in a long while and is considered **legacy information**. A bunch of information relating to mods that had updates, became outdated. Use this list more as a reference to what mods you can use, rather than their install steps.
+    This section of the guide has not been updated in a long while and a bunch of information relating to mods that had updates, became outdated, as well as the list of mods itself is not up to date with the [Drag-and-Drop Archive page](../../drag-and-drop-archive.md).
 
 Following mods are fixes that I'd personally consider essential, as they don't have any downsides or incompatibilities to them.
 
