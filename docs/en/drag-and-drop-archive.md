@@ -33,7 +33,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
     My personal preference for a first-time vanilla-faithful playthrough is the Complete Edition archive, and the Vanilla+ modpack for a replay of the game, as it noticably changes the gameplay mechanics and balancing. Do note, however, that Vanilla+ is a lot more demanding on performance.
 
 === "Complete Edition (1.2.0.59)"
-    Last updated: **[27.06.2026](#changelog)**
+    Last updated: **[18.07.2026](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -41,7 +41,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux).
 
-    1. [Download the archive](https://www.mediafire.com/file/5l2gwxfzlek7s2w/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/ybzr6hf8pp5d)) (4.3GB, SHA512: ~`5daa906d38b56d0b96c1a8039095f6c93b13cc81cc4cd29e3120727319b2ba979df7b3ef67e7bee97dacd0158fd1802437bd651b35f96eb6873c1ab776c43e80`~).
+    1. [Download the archive](https://www.mediafire.com/file/82lnd2txyetcjl9/1.2_archive.7z/file) (no mirror yet) (4.3GB, SHA512: ~`5daa906d38b56d0b96c1a8039095f6c93b13cc81cc4cd29e3120727319b2ba979df7b3ef67e7bee97dacd0158fd1802437bd651b35f96eb6873c1ab776c43e80`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open...`, select the same game folder.
@@ -63,7 +63,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "Vanilla+ (1.0.8.0)"
-    Last updated: **[27.06.2026](#changelog)**
+    Last updated: **[18.07.2026](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -71,7 +71,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5 and [apply launch options manually](additional-setup.md/#launch-options). Also, [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks).
 
-    1. [Download the archive](https://www.mediafire.com/file/d59w0619y8ognw9/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/u6lx34cg6zzb)) (4.4GB, SHA512: ~`312d601b5be0360945576402c95d52791bc1b4df70202ddd37e37f98f163a255616fe75fcd98407b7e53f107b736cd2f7f421215424408a8219fb3aac7f1b061`~).
+    1. [Download the archive](https://www.mediafire.com/file/k34uswcwgxkyhf5/1.0_archive.7z/file) (без зеркала) (4.4GB, SHA512: ~`312d601b5be0360945576402c95d52791bc1b4df70202ddd37e37f98f163a255616fe75fcd98407b7e53f107b736cd2f7f421215424408a8219fb3aac7f1b061`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -137,7 +137,7 @@ All mods in the following list are present in both archives with identical versi
 | [Higher Resolution Miscellaneous Pack~2.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
 | [Project Glass~10.06.2026~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass. |
 | [Vehicle Pack~2.4~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
-| [LibertyCityPlates~1.2.6.2~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Makes license plates unique for every vehicle. |
+| [LibertyCityPlates~1.2.6.4~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Makes license plates unique for every vehicle. |
 | [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Adds more ped variety, corrects some ped behaviours and adds progressive gang relationships. Community addon used: [Optimized biker textures from Hardcore Lost MC by B Dawg](https://gtaforums.com/topic/945227-iveflc-potential-grim/?do=findComment&comment=1072426693). |
 | [Broker Bridge and Electric Wires Appearance Fix](https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/) | yarrabandi | Improved shaders for the Broker Bridge. |
 | [New game parameters for transport and traffic~2.2.5~](https://www.nexusmods.com/gta4/mods/616?tab=description) | Ushan27 | Increases and improves vehicle and ped variety in different regions. |
@@ -146,7 +146,7 @@ All mods in the following list are present in both archives with identical versi
 | [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Removes invincibility from the target in the mission 'No Way On The Subway'. |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Makes the 'Escuela of the Street' mission faster by making the driver ignore traffic laws. |
 | [Clean Getaway - Destination Fix](https://gtaforums.com/topic/989680-attramets-workshop/page/3/#comment-1072596471) | Attramet | Changes the destination on the mission 'Clean Getaway' to be more accurate to the dialogue. |
-| [Xbox Rain Droplets~16.06.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
+| [Xbox Rain Droplets~01.07.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
 | [Props Restoration~16.05.2026~](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Restores pre-release, beta and unused props to the map. |
 | [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/) | Scott1 | Restores the interior of the Bank of Liberty to the state, similar to the one seen in Trailer 1 (mainly, the ceiling has a Dome now). |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
@@ -234,6 +234,15 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 18.07.2026
+            - Updated Liberty City Plates, Restored Graffiti
+            - Implemented Pingwinek1234's hotfix:
+                - Fixed Ray Boccino lacking a torso (had a good run)
+                - Fixed TBoGT Brucie model in IV to actually be used
+                - Removed the Billy (prison) model from Potential Grim due to Characters Fixes having a higher quality texture
+                - Defragmented Project Glass and Potential Grim
+                - Other fixes I'm not aware of
+    ??? quote "Old changes"
         - 27.06.2026
             - Updated Console Visuals, More Visible Interiors, Project Glass, New game parameters for transport and traffic, Rescaled Blista Compact, Ultimate ASI Loader, Xbox Rain Droplets.
             - Added Ray Boccino Shirt Fix, Johnny K Eye Color V, Mitch The Cop TLAD Model (community addon), Puffer Jacket Logo, Broker Bridge and Electric Wires Appearance Fix, Optimized biker textures for Potential Grim (community addon).
@@ -243,7 +252,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Fixed Fidelity Popcycle to actually be used.
             - Fixed some file inconsistencies.
             - Changed FusionFix defaults to fix reflections.
-    ??? quote "Old changes"
         - 27.05.2026
             - Updated FusionFix, Restored Pedestrians, Vehicle Pack, LibertyCityPlates, New game parameters for transport and traffic, Xbox Rain Droplets, Props Restoration.
             - Replaced Restored Trees Position with Restored Vegetation.
@@ -470,6 +478,15 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 18.07.2026
+            - Updated Liberty City Plates, Restored Graffiti
+            - Implemented Pingwinek1234's hotfix:
+                - Fixed Ray Boccino lacking a torso (had a good run)
+                - Fixed TBoGT Brucie model in IV to actually be used
+                - Removed the Billy (prison) model from Potential Grim due to Characters Fixes having a higher quality texture
+                - Defragmented Project Glass and Potential Grim
+                - Other fixes I'm not aware of
+    ??? quote "Old changes"
         - 27.06.2026
             - Updated Console Visuals, More Visible Interiors, Project Glass, New game parameters for transport and traffic, Rescaled Blista Compact, Ultimate ASI Loader, Xbox Rain Droplets, Liberty Tweaks.
             - Added Ray Boccino Shirt Fix, Johnny K Eye Color V (community addon), Mitch The Cop TLAD Model (community addon), Brucie Kibbutz TBoGT Model for IV (community addon) Puffer Jacket Logo, Broker Bridge and Electric Wires Appearance Fix, Optimized biker textures for Potential Grim (community addon).
@@ -480,7 +497,6 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Disabled conflicting Liberty Tweaks options by default (Vehicle Tilt & Rotation, Personal Vehicles - Basic Vehicles, Reckless Drivers, Extended Weapon Pool).
             - Fixed some file inconsistencies.
             - Changed FusionFix defaults to fix reflections and always run.
-    ??? quote "Old changes"
         - 27.05.2026
             - Updated FusionFix, Restored Pedestrians, Vehicle Pack, LibertyCityPlates, New game parameters for transport and traffic, Xbox Rain Droplets, Props Restoration.
             - Replaced Restored Trees Position with Restored Vegetation.
