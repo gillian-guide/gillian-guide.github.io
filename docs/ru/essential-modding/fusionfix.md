@@ -51,7 +51,7 @@ description: Графические исправления, и даже боль
     protontricks 12210 -q d3dx9_43
     ```
 
-    Если Protontricks установлен через Flatpak, выполните эту:
+    Если Protontricks установлен через Flatpak (если у вас и Steam через Flatpak стоит), выполните эту:
 
     ```bash
     flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43

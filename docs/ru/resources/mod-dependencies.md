@@ -86,23 +86,28 @@ IV-SDK .NET is used to run scripts written in any .NET language. Not to be confu
 
 ## Getting ScriptHookDotNet and IV-SDK .NET to work on Linux
 
-By default, neither of those two will run on Linux. This can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - Google it.
+By default, neither of those two will run on Linux. This can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - look it up online.
 
 <h3>Instructions</h3>
 
-1. Install [Protontricks](https://github.com/Matoking/protontricks)
-2. Open a terminal and run the following command to install .NET in the GTA IV prefix:
+1. In the `Compatibility` tab of the game in :material-steam:Steam, temporarily change Proton version to one of Proton 4.11-4.13 versions
+2. Find your GTA IV's prefix folder, usually located at :material-folder: ==~/.steam/Steam/steamapps/compatdata/12210/pfx==, and delete it
+3. Launch the game once, you will get a Rockstar Games Launcher error, just close it, we only need this for the prefix folder to generate again
+4. Install [Protontricks](https://github.com/Matoking/protontricks) (If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead)
+5. Open a terminal and run the following command to install .NET in the GTA IV prefix:
 
     ```bash
     protontricks 12210 -q dotnet472
     ```
 
-    If you installed Protontricks through Flatpak, run this:
+    If you installed Protontricks through Flatpak (which you do if you're running Steam via Flatpak as well), run this instead:
 
     ```bash
     flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
     ```
 
-3. Wait until .NET installs (may take from 5 to 30 minutes).
+6. Wait until .NET installs (may take from 5 to 30 minutes)
+7. Change the game's Proton version back to your usual one (highly recommended to be using [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) which can improve stability and allows the use of Independence FM)
+8. When you launch the game, you may get some .NET errors, but the mods should be working fine.
 
-If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead.
+Credit goes to Roigo and minidrwho for figuring out the actual solution.

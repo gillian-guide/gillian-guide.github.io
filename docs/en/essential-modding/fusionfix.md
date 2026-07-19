@@ -51,7 +51,7 @@ This project aims to fix or address most **graphical and gameplay issues** and i
     protontricks 12210 -q d3dx9_43
     ```
 
-    If you installed Protontricks through Flatpak, run this:
+    If you installed Protontricks through Flatpak (which you do if you're running Steam via Flatpak as well), run this instead:, run this:
 
     ```bash
     flatpak run com.github.Matoking.protontricks 12210 -q d3dx9_43
