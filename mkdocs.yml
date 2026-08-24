@@ -116,15 +116,13 @@ nav:
     - "essential-modding/fusionfix.md"
     - "essential-modding/zolikapatch.md"
     - "essential-modding/various-fixes.md"
-    - "essential-modding/additional-fixes.md"
-  - "enhancements.md"
+  - "companion-mods.md"
   - Extras:
     - "extras/index.md"
     - "extras/multiplayer.md"
     - "extras/trainers.md"
     - "extras/launcher.md"
     - "extras/modloading.md"
-    - "extras/mods.md"
   - Resources:
     - "resources/mod-dependencies.md"
     - "resources/openiv.md"

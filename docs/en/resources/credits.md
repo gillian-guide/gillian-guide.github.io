@@ -29,6 +29,8 @@ These people made my life a tad bit easier with their monetary contribution:
 - Arrant
 - ShadowSorcery
 - [Not AJ](https://www.youtube.com/@NotAJ)
+- Psycho_Yuri_NL
+- mato787 / mr_hickey
 - [akirataguchi115](https://github.com/akirataguchi115)
 - cammy
 - bb350
@@ -115,70 +117,6 @@ For their work on [Liberty Tweaks](../../enhancements.md/#liberty-tweaks) and ot
 
 For their work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-characters-fixes) and contributing to [Various Fixes](../../essential-modding/various-fixes.md).
 
-## (Japan) GTA Love
-
-For their original work on [Trilogy Characters Fixes](../../enhancements.md/#trilogy-characters-fixes).
-
-## 7urbo1ag, Gaming with SG, TheKillerDonuts
-
-For their work on [EFLC Vehicle Addon Pack](../../enhancements.md/#eflc-vehicle-addon-pack).
-
-## DayL
-
-For their work on [Project Glass](../../enhancements.md/#project-glass).
-
-## iiCriminnaaL
-
-For their work on [Responsive Plus](https://gtaforums.com/topic/931069-iveflc-responsive-plus/), which was used for [`cargrp.dat` and `carcols.dat` Fixes](../../essential-modding/additional-fixes.md/#responsive-plus-cargrpdat-and-carcolsdat-fixes) and other [mods](../../extras/mods.md) and directly contributing to [Player Outfit Texture Fixes](../../essential-modding/additional-fixes.md/#player-outfit-texture-fixes).
-
-## donnits
-
-For their work on [Liberty Ferry Terminal - Waiting Sign Fix](../../essential-modding/additional-fixes.md/##liberty-ferry-terminal-waiting-sign-fix-sugar-chomps-separate-signs), [Sugar Chomps - Separate Signs](../../essential-modding/additional-fixes.md/##liberty-ferry-terminal-waiting-sign-fix-sugar-chomps-separate-signs), [Dodgy Doc - Higher Quality](../../enhancements.md/#dodgy-doc-higher-quality-gta-v-decals) and [GTA V decals](../../enhancements.md#dodgy-doc-higher-quality-gta-v-decals)
-
-## 6135
-
-For their work on [Luis' Helmet Reflections Fix](../../essential-modding/additional-fixes.md/#luis-helmet-reflections-fix), [Luis' Bag Texture Fix](../../essential-modding/additional-fixes.md/#luis-bag-texture-fix) and [Johnny's Shoe Texture Fix](../../essential-modding/additional-fixes.md/#johnnys-shoe-texture-fix).
-
-## Chunk
-
-For their work on [Fidelity Popcycle](../../enhancements.md/#fidelity-popcycle).
-
-## Thundersmacker
-
-For their work on [Resized Blista Compact](../../enhancements.md/#resized-blista-compact).
-
-## B Dawg
-
-For their work on [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments), [IV Bikers in Episodes voice sets fix](../../essential-modding/additional-fixes.md/#iv-bikers-in-episodes-voice-sets-fix) and contributing to [EFLC Vehicle Addon Pack](../../enhancements.md/#eflc-vehicle-addon-pack).
-
-## C1aude_III
-
-For directly contributing to [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments).
-
-## Callistonian
-
-For their work on [Schottler Parked Vehicles Fix](../../essential-modding/additional-fixes.md/#schottler-parked-vehicles-fix).
-
-## Nikey Laykov
-
-For their work on [TBoGT: Blade Fix](../../essential-modding/additional-fixes.md/#tbogt-blade-fix).
-
-## C4PT41N BOMB4RD
-
-For their work on [Plane Flight Path Improvements](../../enhancements.md/#plane-flight-path-improvements).
-
-## ServalEd
-
-For their work on [Yes Way On The Subway](../../enhancements.md/#yes-way-on-the-subway).
-
-## GladiTek
-
-For their work on [Reduced Trafic Screech (Audio Tweak)](../../essential-modding/additional-fixes.md/#reduced-trafic-screech-audio-tweak).
-
-## _ys
-
-For their work on [Fixed Suit Display in Perseus](../../essential-modding/additional-fixes.md/#fixed-suit-display-in-perseus) and [Menu Art Fix](../../essential-modding/additional-fixes.md/#menu-art-fix).
-
 ## const96b
 
 For their work on [Liberty's Legacy](../extras/trainers/#libertys-legacy).
@@ -203,7 +141,7 @@ DXVK wouldn't be as great as it is currently without [all these people](https://
 
 ## Mod Creators
 
-Their names are already listed next to their contributions in [mods](../../extras/mods.md), they have done a lot too!
+Their names are already listed next to their contributions in the guide, they have done a lot too! It's just too much work to maintain an up-to-date list of the mod authors alongside the mods I use, and it's easier to keep track of in a list. If you're a mod author of some significant mod on the list and wish to have a donation link visible, let me know on [my Discord server](https://discord.gg/zwmsQqExbQ).
 
 ## Discord Communities
 
@@ -216,8 +154,9 @@ The communities of these discord servers helped me a lot with this guide:
 - [Kreato](https://github.com/kreatoo) for his help to set up this website and heavily assisting the development of [Setup Utility](../optimization/#setup-utility) - check out his stuff if you like Linux tinkering.
 - [Henrygame3](https://github.com/henrygame3) for his help as a designer during restructuring the guide.
 - [Retro Renew](https://www.youtube.com/@RetroRenew) for his nice overview of my Drag-and-Drop Archive.
-- [TJGM](https://www.youtube.com/@TJGM) for his informative videos about GTA IV. While I personally never needed them, they're nice for informing other people.
 - [Not AJ](https://www.youtube.com/@NotAJ) for promoting my guide.
+- Pingwinek1234 and Dashii for help with the Drag-and-Drop Archive.
+- [TJGM](https://www.youtube.com/@TJGM) for his informative videos about GTA IV. While I personally never needed them, they're nice for informing other people.
 - [PCGW Community](https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_IV) for their contributions to the wiki, which helped me make this guide more complete (of course, I contributed as well).
 - Steam Community for actively supporting me during the making of the original guide on Steam.
 - Yilmaz, MauriceGS, Krooked_ and others from the [Grand Theft RevIVal Discord server](https://discord.gg/Wn5eCWGcpb) for providing information for the guide.

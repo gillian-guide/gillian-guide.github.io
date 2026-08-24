@@ -33,7 +33,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
     My personal preference for a first-time vanilla-faithful playthrough is the Complete Edition archive, and the Vanilla+ modpack for a replay of the game, as it noticably changes the gameplay mechanics and balancing. Do note, however, that Vanilla+ is a lot more demanding on performance.
 
 === "Complete Edition (1.2.0.59)"
-    Last updated: **[18.07.2026](#changelog)**
+    Last updated: **[23.08.2026](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -41,7 +41,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6, [apply launch options manually](additional-setup.md/#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
 
-    1. [Download the archive](https://www.mediafire.com/file/82lnd2txyetcjl9/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/ftdvvzcnmx5k)) (4.3GB, SHA512: ~`5daa906d38b56d0b96c1a8039095f6c93b13cc81cc4cd29e3120727319b2ba979df7b3ef67e7bee97dacd0158fd1802437bd651b35f96eb6873c1ab776c43e80`~).
+    1. [Download the archive](https://www.mediafire.com/file/ct4v55786md7s3b/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/zs85tgthuuar)) (4.5GB, SHA512: ~`e748431485a5aea2a6c2b7ee5bd51d9be75acc03c5bca01baa275809f62440337055d7547a11599b614a985b94034a9f6e82906479d7d3b4372ba753ae0551f5`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open...`, select the same game folder.
@@ -63,7 +63,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "Vanilla+ (1.0.8.0)"
-    Last updated: **[18.07.2026](#changelog)**
+    Last updated: **[23.08.2026](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -71,7 +71,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5, [apply launch options manually](additional-setup.md/#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](../essential-modding/fusionfix.md/#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](../resources/mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
 
-    1. [Download the archive](https://www.mediafire.com/file/k34uswcwgxkyhf5/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/exl9b9d94gag)) (4.4GB, SHA512: ~`312d601b5be0360945576402c95d52791bc1b4df70202ddd37e37f98f163a255616fe75fcd98407b7e53f107b736cd2f7f421215424408a8219fb3aac7f1b061`~).
+    1. [Download the archive](https://www.mediafire.com/file/g9u63zm18k8epm7/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/oqed866guafg)) (4.6GB, SHA512: ~`58e30fe21f15bacb9e2b946af57e86c8015867d998bb7ba9f8b2e9c546220dd1b86e33ef2993fec9fdea42ae1d8addd2b3b78d54e9b7d2f4091f28f2f56c9b8d`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -121,26 +121,27 @@ If you want to get familiar with the modpack before installing it, I recommend t
 All mods in the following list are present in both archives with identical versions:
 
 | Mod | Developer(s) | Details |
-| :-: | :--------: | :-----: |
+| :-: | :----------: | :-----: |
 | [Radio Downgrader~23.05.2025~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak and others | A simple-to-perform radio downgrade.<br>Addon used: Restored original TBoGT Menu Vocals.</br> |
 | [FusionFix~5.0.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team and others | The most essential mod: it contains a lot of fixes, improvements, new settings and also acts as a modloader. |
 | [Various Fixes~2.2~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet and others | A large collection of map fixes of various scale - mostly broken map textures. |
-| [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. Community addons used: [Johnny K Eye Color V by nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Mitch The Cop TLAD Model by Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Brucie Kibbutz TBoGT Model for IV by nipahtard](https://www.nexusmods.com/gta4/mods/988) |
+| [Trilogy Characters Fixes~15.12.2024-custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. Community addons used: [Mitch The Cop TLAD Model by Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Brucie Kibbutz TBoGT Model for IV by nipahtard](https://www.nexusmods.com/gta4/mods/988) |
 | [EFLC Vehicle Addon Pack For GTA IV~1.2~](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
 | [Console Visuals~2.1~](https://github.com/Tomasak/Console-Visuals/) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry and Parallellines | Ports select console visuals to the PC version. <br>Included addons: Console Fences, Console Animations, Console Peds, Console Vegetation. See [Additional Mods](#additional-mods) for more.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
 | [Restored Pedestrians~2.0~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. <br>Included addons: Scenario Pedestrians (only on CE), Restored Taxi Drivers, M_Y_Garbage, M_Y_Amirguard_01</br> |
 | [Various Pedestrians Actions~1.7~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
 | [Restored Vegetation~21.05.2026~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores vegetation that was present in the betas but removed in the final release, either as an oversight or due to performance concerns.<br>Included addon: Beta Tree Positions</br> |
+| [Grass and Procedural Props Fix~1.0~](https://www.nexusmods.com/gta4/mods/1230) | iammrmikeman | Fixes up the capacity for procedural grass and props so that it doesn't just disappear over some time of playing. |
 | [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Restores graffiti, which were completely cut out in the final build of the game. |
-| [More Visible Interiors~1.9~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
-| [Higher Resolution Miscellaneous Pack~2.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
+| [More Visible Interiors~2.0~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
+| [Higher Resolution Miscellaneous Pack~3.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
 | [Project Glass~10.06.2026~](https://discord.gg/gZvZmFt2p7) | DayL | Adds cubemap reflections to what otherwise is just transparent glass. |
-| [Vehicle Pack~2.4~](https://gtaforums.com/topic/887527-ash_735s-workshop/page/5/#comment-1072121736) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
-| [LibertyCityPlates~1.2.6.4~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Makes license plates unique for every vehicle. |
+| [Vehicle Pack~2.4~](https://www.nexusmods.com/gta4/mods/282?tab=files) | Ash_735 | Improves the texture quality of all vehicles in the game. Some textures are upscaled, some are taken from Max Payne 3 and GTA V. |
+| [LibertyCityPlates~1.2.6.4b~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Makes license plates unique for every vehicle. |
 | [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Adds more ped variety, corrects some ped behaviours and adds progressive gang relationships. Community addon used: [Optimized biker textures from Hardcore Lost MC by B Dawg](https://gtaforums.com/topic/945227-iveflc-potential-grim/?do=findComment&comment=1072426693). |
 | [Broker Bridge and Electric Wires Appearance Fix](https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/) | yarrabandi | Improved shaders for the Broker Bridge. |
-| [New game parameters for transport and traffic~2.2.5~](https://www.nexusmods.com/gta4/mods/616?tab=description) | Ushan27 | Increases and improves vehicle and ped variety in different regions. |
+| [New game parameters for transport and traffic~2.3.2~](https://www.nexusmods.com/gta4/mods/616?tab=description) | Ushan27 | Increases and improves vehicle and ped variety in different regions. |
 | [Fidelity Popcycle~1.0~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
 | [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Removes invincibility from the target in the mission 'No Way On The Subway'. |
@@ -149,18 +150,20 @@ All mods in the following list are present in both archives with identical versi
 | [Xbox Rain Droplets~01.07.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. <br>==Can be disabled by deleting the `GTAIV.XboxRainDroplets` files.==</br> |
 | [Props Restoration~16.05.2026~](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Restores pre-release, beta and unused props to the map. |
 | [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/) | Scott1 | Restores the interior of the Bank of Liberty to the state, similar to the one seen in Trailer 1 (mainly, the ceiling has a Dome now). |
+| [Johnny K Eye Color V~1.2~](https://www.nexusmods.com/gta4/mods/1110) | nipahtard | Better textures for Johnny in TLAD and TBoGT, ported from GTA V. |
+| [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Joni's model redone to match her artwork, because the in-game model is hideous. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
-| [High Quality Pigeons](https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. |
+| [High Quality Pigeons](https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. [Textures downscaled by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1538872350928408737). |
 | [Resized Blista Compact](https://www.gtainside.de/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Resizes the Blista Compact to match the real life counterpart (Honda CR-X). |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
+| [Restored Motorcycle Helmets](https://www.nexusmods.com/gta4/mods/1006?file_id=2604) | Attramet | Restores cut motorcycle helmets. [Merged with Project Glass and Characters Fixes by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1539243333136683099). |
 | [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773) | Niikowo | Fixes the shading on track jacket textures to match the green track jacket. |
 | [Improved Spyde Jacket](https://www.gtainside.com/en/gta4/skins/213587-improved-spyde-jacket/) | Lukakion | Improves the track jacket's model to be higher poly and fixes the normal maps. |
 | [Puffer Jacket Logo](https://www.nexusmods.com/gta4/mods/542) | erwasabo | Adds the missing logo to one of the Puffer jackets. |
-| [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/) | BrynnaDaRosa | Fixes the hand texture seams in Niko's model. |
+| [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/) | BrynnaDaRosa | Fixes the hand texture seams in Niko's model. Addons used: [TBoGT Niko In-Game Hands Fix](https://discord.com/channels/452421215076876288/461150059552178176/1535212054997241896), [TLAD Niko In-Game Hands Fix](https://discord.com/channels/1129805289307242577/1494424154097586206/1538900507618451587); both by Pingwinek1234 |
 | [Ray Boccino Shirt Fix](https://www.nexusmods.com/gta4/mods/959) | DeathWrench | Fixes Ray Boccino's poor textures. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed. |
 | [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix) | Callistonian | Fixes wrongly parked vehicles in Schottler area. |
-| [TBoGT: Blade Fix](https://libertycity.ru/files/gta-4/157446-tbogt-blade-fix.html) | Niker Laykov | Restores missing Blade boat colors caused by a typo. |
 | [Plane Flight Path Improvements](https://www.gtagaming.com/plane-flight-path-improvements-f33591.html) | C4PT41N BOMB4RD | Makes the plane flight paths more realistic. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Fixes the IV Bikers voicelines in EFLC. |
 | [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (me) | Fixes an oversight in the pistol's model where the iron sight doesn't make any sense. |
@@ -189,11 +192,12 @@ The mods or their specific versions in the following list are present in only on
     | :-: | :----------: | :-----: |
     | Downgrade to 1.0.8.0 | Gillian (files belong to Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
     | [ZolikaPatch IV~7.65~](https://zolika1351.pages.dev/mods/ivpatch) | Zolika1351 | Adds a few minor fixes exclusive to 1.0.8.0 and allows to load into EFLC with CE file structure. |
-    | [Liberty Tweaks~1.8beta~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable.<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
+    | [Liberty Tweaks~1.8beta~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable. Addon used: [Armored Cops with EFLC heads from Characters Fixes by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757)<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [BetterRaceIV~1.0~](https://github.com/LotsofEds/BetterRaceIV) | ServalEd | Makes the racing AI opponents better at racing. |
     | [Project Thunder~2.2.1~](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Improves how thunder appears in-game, with actual lighting and improved atmosphere. Highly configurable. |
     | [VAmbience~1.0~](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Adds background noise to the game, such as driving and shooting, alike to GTA V. Highly configurable. |
     | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on older patches. |
+    | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Fixes some issues related to ImGui and cloud rendering. |
 
 ---
 
@@ -205,13 +209,15 @@ These mods are not included by default, but are easy to install ontop of the arc
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
     | Alternative/vanilla popcycle | Ushan27 | If you don't like the default popcycle (density of vehicles depending on area, weather and time of day), you can try the alternative popcycle from the New game parameters for transport and traffic mod, or remove the modded popcycle altogether.<br>Installation: Rename :material-file:`popcycle.dat_alt` to :material-file:`popcycle.dat` in  :material-folder: ==update/common/data==, replacing the existing one, or remove :material-file:`popcycle.dat` to revert to vanilla state.</br>
+    | [Liberty Loadout](https://www.nexusmods.com/gta4/mods/1226) | Delusional94 | GTA V-like weapon and radio wheel.<br>Installation: drop the files in :material-folder: ==plugins== folder; configure as needed. |
+    | [Liberty Shoulder](https://www.nexusmods.com/gta4/mods/1229) | Delusional94 | Shoulder swapping without any extras.<br>Installation: drop the files in :material-folder: ==plugins== folder; configure as needed. |
     | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Adds detailed weapon animations to every animation. Not included by default due to aggressive changes that don't work ideally with other mods, but can absolutely be used if you want to. <br>Installation: Download the :material-file:`WeaponAnimations.asi` from the [latest release](https://github.com/ImpossibleEchoes/WeaponAnimations/releases), put in in the :material-folder: ==plugins== folder, then download the `Animated Weapons 3.0 (Fusion Overloader)` version of the mod from [NexusMods](https://www.nexusmods.com/gta4/mods/641?tab=files) and extract the :material-folder: ==AW3_Fusion_Overload\Weapon Animations 3.0\update== folder into the game folder. Rename :material-folder: ==1Weapon Animations== to ==0 Weapon Animations==.</br> |
     | [Console Visuals Addons](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo and others | This project ports select console visuals to the PC version. <br>Installation: Download and extract the desired addons into the game folder.</br> |
     | Seasonal events (Snow and Halloween) | ThirteenAG & Fusion Team | To enable or disable the Snow Mode, type `7665550100` on the phone. For Halloween, use `2665550100`. |
     | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for the above Snow Mode.<br>Installation instructions are in the archive's :material-file:`Readme.txt`.</br> |
     | [Post-new game Potential Grim files](https://gtaforums.com/topic/945227-iveflc-potential-grim/#comments) | Lord Criminal | If you had already started the game and progressed a fair way, check `Additional options`>`Gang acquaintances` for post-new game files. You have to manually add them with [OpenIV](../resources/openiv.md).
     | [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description) | Alkimical | A high resolution version of the pause menu map. Should only be used on 1440p and higher resolutions - doesn't look smooth on lower resolutions. |
-    | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page.<br>Installation: Download the main archive, extract the contents in :material-folder: ==update==. Also install :material-folder: ==Compatibility with LibertyCityPlates== from Optional content.
+    | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page.<br>Installation: Download the main archive, extract the contents in :material-folder: ==update==. Also install :material-folder: ==Compatibility with LibertyCityPlates== from Optional content. |
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
 === "1.0.8.0"
     | Mod | Developer(s) | Details |
@@ -224,7 +230,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for AssaultKifle47's Snow Mod.<br>Installation instructions are in the archive's `Readme.txt`.</br> |
     | [Post-new game Potential Grim files](https://gtaforums.com/topic/945227-iveflc-potential-grim/#comments) | Lord Criminal | If you had already started the game and progressed a fair way, check `Additional options`>`Gang acquaintances` for post-new game files. You have to manually add them with [OpenIV](../resources/openiv.md).
     | [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description) | Alkimical | A high resolution version of the pause menu map. Should only be used on 1440p and higher resolutions - doesn't look smooth on lower resolutions. |
-    | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page.<br>Installation: Download the main archive, extract the contents in :material-folder: ==update==. Also install :material-folder: ==Compatibility with LibertyCityPlates== from Optional content.
+    | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page.<br>Installation: Download the main archive, extract the contents in :material-folder: ==update==. Also install :material-folder: ==Compatibility with LibertyCityPlates== from Optional content. |
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | A vanilla+ timecycle mod.<br>Installation: Locate the :material-folder: ==Fusion overloader install== folder in the archive and extract the :material-folder: ==update== folder from it into the game folder. Apply recommended graphics options.</br> |
     | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Adds a Discord Rich Presence (custom activity status).<br>Installation: Open the archive, open the :material-folder: ==For GTA IV 1070 and 1080== folder in it and extract the :fontawesome-solid-gears:`discord-rpc.dll` and :material-file:`IVPresence.asi` files into the game folder. If you have issues, also extract :material-file:`IVPresenceDependenciesChecker.exe` with it's config, launch it and see what dependencies are you lacking.</br> |
 
@@ -234,6 +240,16 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "1.2.0.59"
     !!! info "Latest version"
+        - 23.08.2026
+            - Updated More Visible Interiors, Higher Resolution Miscellaneous Pack, LibertyCityPlates, New game parameters for transport and traffic, Johnny K Eye Color V, Brucie Kibbutz TBoGT Model for IV
+            - Added Grass and Procedural Props Fix, Restored Motorcycle Helmets, Artwork Joni, TBoGT and TLAD Niko In-Game Hands Fix
+            - Added Pingwinek1234's updates:
+                - Merged Project Glass, Restored Motorcycle Helmets, Character Fixes and Customizable Niko `player_p`
+                - Merged `peds.ide` and adjacent files that were missing in my version
+                - Optimized High Quality Pigeons textures
+                - Fixed `public_2.ide`
+            - (thanks to Dashii for collecting some of these updates to make it easier for me)
+    ??? quote "Old changes"
         - 18.07.2026
             - Updated Liberty City Plates, Restored Graffiti
             - Implemented Pingwinek1234's hotfix:
@@ -242,7 +258,6 @@ These mods are not included by default, but are easy to install ontop of the arc
                 - Removed the Billy (prison) model from Potential Grim due to Characters Fixes having a higher quality texture
                 - Defragmented Project Glass and Potential Grim
                 - Other fixes I'm not aware of
-    ??? quote "Old changes"
         - 27.06.2026
             - Updated Console Visuals, More Visible Interiors, Project Glass, New game parameters for transport and traffic, Rescaled Blista Compact, Ultimate ASI Loader, Xbox Rain Droplets.
             - Added Ray Boccino Shirt Fix, Johnny K Eye Color V, Mitch The Cop TLAD Model (community addon), Puffer Jacket Logo, Broker Bridge and Electric Wires Appearance Fix, Optimized biker textures for Potential Grim (community addon).
@@ -478,6 +493,17 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "1.0.8.0"
     !!! info "Latest version"
+        - 23.08.2026
+            - Updated Liberty Tweaks, More Visible Interiors, Higher Resolution Miscellaneous Pack, LibertyCityPlates, New game parameters for transport and traffic, Johnny K Eye Color V, Brucie Kibbutz TBoGT Model for IV
+            - Added Grass and Procedural Props Fix, Restored Motorcycle Helmets, Artwork Joni, TBoGT and TLAD Niko In-Game Hands Fix, CloudFixIV
+            - Added Pingwinek1234's updates:
+                - Merged Project Glass, Restored Motorcycle Helmets, Character Fixes and Customizable Niko `player_p`
+                - Merged `peds.ide` and adjacent files that were missing in my version
+                - Optimized High Quality Pigeons textures
+                - Fixed `public_2.ide`
+            - Re-enabled some Liberty Tweaks settings that should, allegedly, not cause issues anymore.
+            - (thanks to Dashii for collecting some of these updates to make it easier for me)
+    ??? quote "Old changes"
         - 18.07.2026
             - Updated Liberty City Plates, Restored Graffiti
             - Implemented Pingwinek1234's hotfix:
@@ -486,7 +512,6 @@ These mods are not included by default, but are easy to install ontop of the arc
                 - Removed the Billy (prison) model from Potential Grim due to Characters Fixes having a higher quality texture
                 - Defragmented Project Glass and Potential Grim
                 - Other fixes I'm not aware of
-    ??? quote "Old changes"
         - 27.06.2026
             - Updated Console Visuals, More Visible Interiors, Project Glass, New game parameters for transport and traffic, Rescaled Blista Compact, Ultimate ASI Loader, Xbox Rain Droplets, Liberty Tweaks.
             - Added Ray Boccino Shirt Fix, Johnny K Eye Color V (community addon), Mitch The Cop TLAD Model (community addon), Brucie Kibbutz TBoGT Model for IV (community addon) Puffer Jacket Logo, Broker Bridge and Electric Wires Appearance Fix, Optimized biker textures for Potential Grim (community addon).

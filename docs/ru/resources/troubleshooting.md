@@ -12,11 +12,11 @@ Anyone can have problems modding their favorite games, and GTA IV is extremely p
 I know about these issues, no need to report them to me, unless you know a solution.
 
 - Cutscenes freeze the game up if the game is out-of-focus for too long.
-- Car engine sounds occasionally appear and disappear (the solution involves bringing the taxi bug back - lower the traffic budget in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`).
 - Social Club achievements cannot be acquired on downgraded versions.
-- Night shadows are limited, including lack of headlight and lamppost shadows (intended to reduce bugs).
+- Night shadows are limited, including lack of headlight and lamppost shadows - not an actual issue, you can turn those back on in the `Game` tab.
 - Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game. *Possible solutions to increase available playtime: decrease resolution; decrease render distance sliders; remove launch options/`commandline.txt`, remove High Resolution Miscellaneous Pack, Project Glass and Vehicle Pack.*
 - Car washes appear everywhere in the world arbitrarily after installing mods (in particular, mods that change `.ide` and `.ipl` files or add something to the `.dat` ones). The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
+- Any arbitrary issues that don't get mentioned separately on the page are probably caused by Liberty Tweaks - try disabling some options. Known conflicting options in the past were: `Personal Vehicles`, `Dynamic Field of View`, `Reckless Drivers`, `Emergency Service Dispatches`, `Extended Weapon Pool`, `Improved Car Crashes`, `Vehicle Tilt & Rotation` `No Cursor Escape`, `Unused Hospital Respawn`.
 
 ---
 
@@ -151,6 +151,12 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "GFWL / Xbox Live achievements don't work"
     - Remove :material-file:`SteamAchivements.asi` - you can't use both at once.
     - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`ZolikaPatch.ini`.
+
+??? info "Reticle option is stuck on 'Basic'"
+    - Toggle `Dynamic Crosshair` off in the :material-file-cog:`LibertyTweaks.ini`.
+
+??? info "Unable to disable controller auto-aim"
+    - Toggle `San Andreas Styled Auto-Aim` off in the :material-file-cog:`LibertyTweaks.ini`.
 
 ---
 

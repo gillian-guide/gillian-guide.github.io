@@ -20,7 +20,7 @@ They're likely already packaged into an :material-folder: ==update== folder. Jus
 
 ---
 
-### Installing mods with files that go into `.img` archives"
+### Installing mods with files that go into `.img` archives
 
 Example: mod requires you to drop a file into the :material-file:`vehicles.img` file.
 

@@ -24,9 +24,9 @@ description: Обязательные моды для GTA IV
 
     [Следующая страница:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 
-- **Дополнительные фиксы** это список всех **мелких фиксов** которые не имеют смысла иметь каждую страницу по отдельности.
+- **Дополнительные моды** - список всех дополнительных модов которых можно использовать в сборке которые **не являются обязательными**.
 
-    [Следующая страница:material-page-last: <br>Дополнительные фиксы (список)</br>](additional-fixes.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Дополнительные моды</br>](../companion-mods.md){ .md-button .md-button--primary }
 
 </div>
 

@@ -16,6 +16,7 @@ This project **improves core multiplayer experience and is considered essential 
 2. Scroll to the bottom of the page and download the latest version.
 3. Extract :material-zip-box:`ZolikaPatch_vx_x.zip` into the game folder.
     - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
+    - Do **NOT** extract :material-file:`PlayGTAIV.exe` or :material-file:`IVMenuAPI.asi`. Remove the latter if you already did.
 
 <a id="incompatible-options"></a>
 

@@ -24,9 +24,9 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 
     [Next page:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 
-- **Additional Fixes** is a list for all the **minor fixes** that don't make sense to be a whole separate page.
+- **Companion Mods** is a list for all the adjacent mods that you can use in a modpack that **aren't "must-have"**.
 
-    [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>Companion Mods</br>](../companion-mods.md){ .md-button .md-button--primary }
 
 </div>
 

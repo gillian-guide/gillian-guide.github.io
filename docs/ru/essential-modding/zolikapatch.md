@@ -16,6 +16,7 @@ description: Несколько исправлений для даунгрейд
 2. Прокрутите до конца страницы и скачайте последнюю версию.
 3. Распакуйте :material-zip-box:`ZolikaPatch_vx_x.zip` в папку с игрой.
     - Рекомендуется заново использовать Setup Utility если вы использовали утилиту на страницах [оптимизации](../../optimization.md) или [второстепенной настройки](../../additional-setup.md).
+    - **НЕ** распаковывайте :material-file:`PlayGTAIV.exe` или :material-file:`IVMenuAPI.asi`. Удалите второе если уже распаковали.
 
 <a id="incompatible-options"></a>
 
