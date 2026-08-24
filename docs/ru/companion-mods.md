@@ -3,9 +3,6 @@ description: How many mods does this game have
 
 # Companion Mods
 
-!!! question "А где русский ёпта"
-    Следующие части гайда не будут переведены на русский из-за отсутствия желания и времени, хотя по желанию кто-нибудь может выпустить PR на гитхабе с переводом всех последующих частей. Сори.
-
 This page includes mods that are either fixes, enhancements, or whatever else - something that's not a huge must-have mod on it's own, but can be used to enhance the experience in one way or another. They're separated in 3 groups - [Fixes](#fixes), [Enhancements](#enhancements) and [Miscellaneous](#miscellaneous). Don't look for mods to add into the Drag-and-Drop Archive here - the archive already includes all the mods I deem needed, and the additional mods for it can be found [there](../drag-and-drop-archive.md/#additional-mods) as well.
 
 !!! warning ""
@@ -91,6 +88,7 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [TBoGT timecyc with DoF and Bloom](https://gtaforums.com/topic/934545-fusion-fix/page/149/#comment-1072589037) | Magic_Al | Enables DoF and Bloom in TBoGT (which are disabled by Rockstar's design). |
 | Increased LODs in `visualSettings.dat` | Gillian | Changes some values of `visualSettings.dat` to use GTA Vs LOD values. |
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, me, Ash_735 | Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT. |
+| [Fixed Combat Shotgun Icon](https://www.gtainside.com/gta4/mods/116711-fixed-combat-shotgun-icon) | DavSte | Changed Combat Shotgun icon to resemble the in-game model. I don't like because it looks too busy compared to other icons. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
 ## Miscellaneous

@@ -88,6 +88,7 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [TBoGT timecyc with DoF and Bloom](https://gtaforums.com/topic/934545-fusion-fix/page/149/#comment-1072589037) | Magic_Al | Enables DoF and Bloom in TBoGT (which are disabled by Rockstar's design). |
 | Increased LODs in `visualSettings.dat` | Gillian | Changes some values of `visualSettings.dat` to use GTA Vs LOD values. |
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, me, Ash_735 | Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT. |
+| [Fixed Combat Shotgun Icon](https://www.gtainside.com/gta4/mods/116711-fixed-combat-shotgun-icon) | DavSte | Changed Combat Shotgun icon to resemble the in-game model. I don't like because it looks too busy compared to other icons. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
 ## Miscellaneous
