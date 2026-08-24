@@ -93,6 +93,8 @@ These mods enhance some aspect of the game that already exists or just makes sen
 
 ## Miscellaneous
 
+These mods don't enhance or fix anything necessarily - they're mods that *will* alter the experience in some way or add on top of it. Some of these are really nice to have but just didn't feel like they were a fit for the previous two groups, so there's that.
+
 | Mod | Developer(s) | Details |
 | :-: | :----------: | :-----: |
 | [Console Visuals](https://github.com/Tomasak/Console-Visuals/) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry and Parallellines | Ports select console visuals to the PC version. |
@@ -153,7 +155,7 @@ You may want to manually merge some `.img` mods together using [OpenIV](../resou
 
 You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
 
-## Workshops
+<h3>Workshops</h3>
 
 These workshops might have some extra mods or tools you may be interested in:
 
@@ -165,7 +167,7 @@ These workshops might have some extra mods or tools you may be interested in:
 
 ---
 
-## Making mods
+<h3>Making mods</h3>
 
 If you're interested in making mods yourself, visit this Discord server:
 
@@ -173,7 +175,7 @@ If you're interested in making mods yourself, visit this Discord server:
 
 ---
 
-## Want some mod to be listed?
+<h3>Want some mod to be listed?</h3>
 
 Mention it on the Mod Suggestions thread on my Discord server:
 
@@ -193,6 +195,6 @@ Additional resources and tools can be found on the [Extras](../extras/index.md) 
 
 ---
 
-## Navigation
+<h3>Navigation</h3>
 
 [:material-page-first:Previous page <br>Essential Modding</br>](../essential-modding/index.md){ .md-button }
