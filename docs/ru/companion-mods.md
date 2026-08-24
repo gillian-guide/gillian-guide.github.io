@@ -110,6 +110,7 @@ These mods don't enhance or fix anything necessarily - they're mods that *will* 
 | [Console Select Menu](https://github.com/gennariarmando/iv-console-select-menu/) | _AG | Replaces the episode selector with a console-like menu which, in my opinion, looks better. **1.2.0.59 only**. [Manual build of a more up-to-date version](https://www.mediafire.com/file/1aiyfmcy74otkbj/ConsoleSelectMenuIV.asi/file). |
 | [Liberty Loadout](https://www.nexusmods.com/gta4/mods/1226) | Delusional94 | GTA V-like weapon and radio wheel. **1.2.0.59 only**. |
 | [Liberty Shoulder](https://www.nexusmods.com/gta4/mods/1229) | Delusional94 | Shoulder swapping without any extras. **1.2.0.59 only**. |
+| [Customizable Protagonists](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | A lot of new assets for the protagonists' wardrobes taken from NPCs, multiplayer, console and unreleased content. Can only be applied with a trainer or third party wardrobe implementations. |
 | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page. |
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
