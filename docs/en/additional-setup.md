@@ -202,7 +202,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Water Quality | High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
     | Shadow Quality | High | This setting controls the resolution and render distance of shadows.<br>**Set to *Medium* for a small FPS increase.**<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Night Shadows | High | This setting controls how many local lights (e.g. car headlights) can cast shadows and the shadows' resolution. **Turn off for a slight FPS increase.** <br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
-    | Texture Filter Quality | Anisotropic x4 | This setting controls texture filtering. |
+    | Texture Filter Quality | Anisotropic x16 | This setting controls texture filtering. |
     | View Distance | 25 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
     | Detail Distance | 31 | This setting controls the secondary LOD render distance for props detail. |
     | Vehicle Density | Below 50<br>100 with a custom popcycle (archive) | This setting controls the number of cars on the road.<br>**Setting it too high without any popcycle mods can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
