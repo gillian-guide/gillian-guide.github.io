@@ -25,15 +25,16 @@ This page includes mods that are either fixes, enhancements, or whatever else - 
 
     You should keep in mind, however, that not all the mods on the list are 100% compatible with each other. The intention is for *you* to pick what mods to use between the two conflicting ones, if they aren't merge-able (such as two different popcycle mods).
 
+---
+
 ## Fixes
 
 These mods fix some aspect of the game without adding or changing something drastically.
 
 | Mod | Developer(s) | Details |
 | :-: | :----------: | :-----: |
-| [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
 | [Grass and Procedural Props Fix](https://www.nexusmods.com/gta4/mods/1230) | iammrmikeman | Fixes up the capacity for procedural grass and props so that it doesn't just disappear over some time of playing. |
+| [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
 | [Broker Bridge and Electric Wires Appearance Fix](https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/) | yarrabandi | Improved shaders for the Broker Bridge. |
 | [Clean Getaway - Destination Fix](https://gtaforums.com/topic/989680-attramets-workshop/page/3/#comment-1072596471) | Attramet | Changes the destination on the mission 'Clean Getaway' to be more accurate to the dialogue. |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
@@ -47,8 +48,11 @@ These mods fix some aspect of the game without adding or changing something dras
 | [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (me) | Fixes an oversight in the pistol's model where the iron sight doesn't make any sense. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Fixes broken UV map on "Waiting Room" sign texture. |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Edits the UV map on the sign to include an unused texture. |
+| [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
 | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on **older patches**. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Fixes some issues related to ImGui and cloud rendering. **Only relevant to IVSDKDotNet users.** |
+
+---
 
 ## Enhancements
 
@@ -91,6 +95,8 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [Fixed Combat Shotgun Icon](https://www.gtainside.com/gta4/mods/116711-fixed-combat-shotgun-icon) | DavSte | Changed Combat Shotgun icon to resemble the in-game model. I don't like because it looks too busy compared to other icons. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
 
+---
+
 ## Miscellaneous
 
 These mods don't enhance or fix anything necessarily - they're mods that *will* alter the experience in some way or add on top of it. Some of these are really nice to have but just didn't feel like they were a fit for the previous two groups, so there's that.
@@ -118,6 +124,8 @@ These mods don't enhance or fix anything necessarily - they're mods that *will* 
 | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for FusionFix's Snow Mode. |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Adds a Discord Rich Presence (custom activity status). **1.0.8.0 only** |
 
+---
+
 The following mods are less recommended due to various degrees of instability, struggles of installation or personal distaste towards them (as in, they don't fully fit my vision of a vanilla-faithful GTA IV setup). If you like what you're seeing, however, you may attempt to install them.
 
 | Mod | Developer(s) | Details |
@@ -134,6 +142,8 @@ The following mods are less recommended due to various degrees of instability, s
 | [Hi-Res Characters](https://www.gtainside.de/en/gta4/mods/176255-hi-res-characters-update-v1-1-upscaled-mod/) | Primusideus | Upscaled and higher resolution character textures. |
 | [The Hardcore Lost MC](https://gtaforums.com/topic/908470-iveflc-the-hardcore-lost-mc/) | iiCriminnaaL | Enhances the TLAD experience, changes bikers' appearance and AI. |
 | [Outfit Enhancements](https://gtaforums.com/topic/908611-outfit-enhancements/) | iiCriminnaaL | Several simple enhancements for some clothing. |
+
+---
 
 ## Recommended load order and `.img` limits
 
@@ -154,6 +164,8 @@ Please use the following load order (put the number before the folder names) aft
 You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
 
 You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
+
+---
 
 <h3>Workshops</h3>
 
