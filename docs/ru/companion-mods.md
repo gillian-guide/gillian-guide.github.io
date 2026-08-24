@@ -19,7 +19,7 @@ This page includes mods that are either fixes, enhancements, or whatever else - 
 
     - Type 1: basic `.asi` mods that don't require a special mod loader: those go into a :material-folder: ==plugins== folder or simply into the root folder;
     - Type 2: mods packaged for Fusion Overloader. They come with an :material-folder: ==update== folder - you simply extract that into the game folder. However, if there's merge conflicts, you will have to manually merge those files using something like [WinMerge](https://winmerge.org/downloads/?lang=en);
-    - Type 3: mods made for :material-file:`playerped.rpf`. Installation instructions for these can be read on [this page](../../extras/modloading.md/#installing-mods-with-other-kind-of-files);
+    - Type 3: mods made for :material-file:`playerped.rpf`. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-other-kind-of-files);
     - Type 4: mods with loose files that are meant to go into an :material-file:`.img`. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-files-that-go-into-img-archives);
     - Type 5: mods with loose files that are meant to go into folders like :material-folder: ==common/data/==. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-other-kind-of-files);
     - Type 6: script mods that require a special mod loader (either ScriptHookDotNet or IVSDKDotNet): install the [required modloader](../resources/mod-dependencies.md/#scripthookdotnet), then the mod per installation instructions
