@@ -128,7 +128,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Water Quality | Medium | This setting controls the density and intensity of waves in the water, aswell as the resolution of water reflections.<br>***Medium* is recommended as it is less extreme, more realistic and most similar to the intended look on the consoles.** |
     | Shadow Quality | High | This setting controls the resolution and render distance of shadows.<br>**Medium** and **Low** rely too much on static shadows, making them look ugly.<br>***Very High* consumes too much performance for little gain and may appear broken at times.** |
     | Night Shadows | Medium | This setting controls how many local lights (e.g. car headlights) can cast shadows. Each quality level adds 4 additional shadow maps. This setting does not affect the resolution of dynamic shadows.<br>**Setting it above *Medium* is known to create artifacts.** |
-    | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
+    | Texture Filter Quality | Anisotropic x16 | This setting controls texture filtering. |
     | View Distance | Between 21 and 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *21* causes pop-in, and above *70* is known to cause instability and artifacts, as well as a negative impact on framerate.** |
     | Detail Distance | Between 10 and 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *10* causes pop-in, and above *70* is known to cause instability and artifacts.** |
     | Vehicle Density | Below 70 | This setting controls the number of cars on the road.<br>**Setting it too high can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
@@ -147,7 +147,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Water Quality | Very High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
     | Shadow Quality | Very High | This setting controls the resolution and render distance of shadows.<br>**If the performance loss is too high, use *High* instead.**<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
     | Night Shadows | Very High | This setting controls how many local lights (e.g. car headlights) can cast shadows and the shadows' resolution.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
-    | Texture Filter Quality | Anisotropic 16x | This setting controls texture filtering. |
+    | Texture Filter Quality | Anisotropic x16 | This setting controls texture filtering. |
     | View Distance | Up to 70 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props.<br>**Setting it above *70* has diminishing results.** |
     | Detail Distance | Up to 70 | This setting controls the secondary LOD render distance for props detail.<br>**Setting it above *70* has diminishing results.** |
     | Vehicle Density | Below 70<br>100 with a custom popcycle (archive) | This setting controls the number of cars on the road.<br>**Setting it too high without any popcycle mods can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
@@ -186,8 +186,63 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-------------: | :---------: |
     | Windowed | On | This setting controls whether game is in Exclusive Fullscreen mode or (Borderless) Windowed.<br>Borderless is generally more recommended than Exclusive Fullscreen for multitasking purposes. |
     | Windowed Borderless | On if using `Windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `Windowed` setting is **On**. |
-    | Pause Game on Focus Loss | Preference | This setting controls whether or not the game process will be locked when the window loses focus (alt-tabbing). |
+    | Pause Game on Focus Loss | Off | This setting controls whether or not the game process will be locked when the window loses focus (alt-tabbing).<br>Recommended to turn off to avoid potential crashes.  |
     | Extra Night Shadows | Preference<br>Off | This setting controls whether lampmpost and headlight shadows are enabled. Highly unstable, but if you miss the effect from vanilla IV you can turn it on. |
+
+=== "Steam Deck"
+    !!! info "What are these settings?"
+        These settings are adjusted for a Steam Deck or it's handheld PC equivalents, with a 800p 40-60 FPS target (tested on a Legion Go with SteamOS using the Balanced TDP mode by Not AJ)
+
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Video Mode | 1280x800 | This setting controls your monitor resolution or, if `Windowed` is enabled, the size of the game window. |
+    | Aspect Ratio | Auto | This setting controls the aspect ratio of the screen relative to the resolution of your monitor. |
+    | Texture Quality | High | This setting controls the resolution of all textures. |
+    | Reflection Resolution | High | This setting controls the resolution of reflections (excluding water reflections). |
+    | Water Quality | High | This setting *only* controls the resolution of the water reflections when using FusionFix. |
+    | Shadow Quality | High | This setting controls the resolution and render distance of shadows.<br>**Set to *Medium* for a small FPS increase.**<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Night Shadows | High | This setting controls how many local lights (e.g. car headlights) can cast shadows and the shadows' resolution. **Turn off for a slight FPS increase.** <br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Texture Filter Quality | Anisotropic x4 | This setting controls texture filtering. |
+    | View Distance | 25 | This setting controls the main LOD render distance for things like buildings and vehicles. Also affects the render distance for props. |
+    | Detail Distance | 31 | This setting controls the secondary LOD render distance for props detail. |
+    | Vehicle Density | Below 50<br>100 with a custom popcycle (archive) | This setting controls the number of cars on the road.<br>**Setting it too high without any popcycle mods can make driving too much of a hassle, especially with the unstable traffic AI, which can occasionally create random blocks even on straight roads and bridges.** |
+    | VSync | Off | This setting controls vertical synchronization. |
+    | FPS Limiter | 60<br>30 | This setting controls the FPS limit.<br>**Recommended to set to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112), although the story can be beaten above 60 if ignoring bugs.**<br>[Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. **If VRR is desired (and supported), set the limit to Custom and set the value to `-2` in the config file.** |
+    | Anti-aliasing | SMAA | This setting controls the anti-aliasing method. |
+    | Volumetric Fog | On<br>Preference | This setting controls custom-implemented volumetric fog that appears in distance, specific weathers and high heights. **Turn off for a slight FPS increase.**  |
+    | Sun Shafts | On<br>Preference | This setting controls custom-implemented godrays.<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Extended Sunlight Reach | Off<br>Preference | This setting controls the ability of sunlight to reach places it couldn't before. |
+    | Tone Mapping | On | This setting controls custom-implemented tone mapping, which fixes highlight clips (things being way too bright, to the point the game can't really show how bright). |
+    | Ambient Occlusion | Off | This setting controls custom-implemented ambient occlusion, which creates shadows on the parts of objects that intersect with other objects (such as walls and ground). May be performance-heavy. <br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Shadow Filter | Sharp<br>Preference | This setting controls how sharp the shadows look (as, in real life, shadows are pretty soft).<br>Further tuning available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+    | Graphics API | DirectX 9 | This setting controls the Graphics API used. Counter-intuitive, but you actually want to set this to DirectX 9 to let the system use DXVK on its own (if on Windows, use Vulkan) |
+
+    !!! note ""
+        Following options are located in the `Display` tab.
+
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
+    | Definition | Off | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. According to Not AJ, setting this to `On` makes the image too jagged. |
+    | Console Gamma | On<br>Preference | This setting changes the gamma to match the Xbox 360 levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
+    | Console Auto Exposure | Preference | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
+    | Motion Blur | Preference | This setting controls the intensity of the motion blur effect. |
+    | Depth of Field | Low<br>Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
+    | Tree Lighting | PC+<br>Preference | This setting controls the vegetation's ambient occlusion. If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting. |
+    | Tree Alpha | PC+<br>Preference | This setting controls the vegetation's "transparency". If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting.  |
+    | Bloom | On | This setting controls bloom. |
+    | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
+    | Distant Lights | Project2DFX | This setting controls whether the in-game's vanilla implementation of Distant Lights is used or integrated Project2DFX. <br>Further tuning for Project2DFX available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
+
+    !!! note ""
+        Following options are located in the `Game` tab.
+
+    | Setting | Optimal setting | Description |
+    | :-----: | :-------------: | :---------: |
+    | Windowed | On | This setting controls whether game is in Exclusive Fullscreen mode or (Borderless) Windowed.<br>Borderless is generally more recommended than Exclusive Fullscreen for multitasking purposes. |
+    | Windowed Borderless | On | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `Windowed` setting is **On**. |
+    | Pause Game on Focus Loss | Off | This setting controls whether or not the game process will be locked when the window loses focus (alt-tabbing).<br>Recommended to turn off to avoid potential crashes. |
+    | Extra Night Shadows | Off | This setting controls whether lampmpost and headlight shadows are enabled. Highly unstable, but if you miss the effect from vanilla IV you can turn it on. |
 
 === "Console-identical"
     !!! info "What are these settings?"
