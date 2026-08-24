@@ -3,6 +3,9 @@ description: How many mods does this game have
 
 # Companion Mods
 
+!!! question "А где русский ёпта"
+    Следующие части гайда не будут переведены на русский из-за отсутствия желания и времени, хотя по желанию кто-нибудь может выпустить PR на гитхабе с переводом всех последующих частей. Сори
+
 This page includes mods that are either fixes, enhancements, or whatever else - something that's not a huge must-have mod on it's own, but can be used to enhance the experience in one way or another. They're separated in 3 groups - [Fixes](#fixes), [Enhancements](#enhancements) and [Miscellaneous](#miscellaneous). Don't look for mods to add into the Drag-and-Drop Archive here - the archive already includes all the mods I deem needed, and the additional mods for it can be found [there](../drag-and-drop-archive.md/#additional-mods) as well.
 
 !!! warning ""
