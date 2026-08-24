@@ -142,5 +142,6 @@ extra:
     title: Cookie consent
     description: >-
       This site uses cookies for Google Analytics,
-      which are used to recognize your repeated visits and preferences.
-      They are not mandatory and you can disable it if you wish so.
+      which are used to recognize your repeated visits, the visited pages,
+      your preferences and basic browser information used only for global statistics purposes.
+      They are not mandatory and you can disable them if you wish to do  so.
