@@ -8,8 +8,10 @@ description: Welcome to Gillian's GTA IV Modding Guide
 !!! quote ""
     This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of most of the following modifications, attribution goes to them only unless specified otherwise.
 
-!!! note "Retirement notice"
-    **I'm retiring from updating the guide & the Drag-and-Drop Archives starting from 14th January, 2026.**
+!!! note "Semi-retirement notice"
+    September 2026 update: as much as I've wanted to retire, I've decided to not. Instead, I've decided to transition the website to minimal maintenance mode, thus collapsing a lot of extra information that's hard to update into a single, new page, called Companion Mods. As for the modpack updates, I've had two wonderful people - Pingwinek1234 and Dashii - helping me with the updates in the past months, thus you can consider them as sort-of my successors (though I still do the final steps). Basically, retirement is cancelled thanks to community, lol.
+
+    **The following was written on 14th January, 2026, and doesn't reflect today's situation, but I figured to keep it around:**
 
     It's been amazing to witness what this game's community has delivered over the past several years - especially Fusion Team. What originally inspired me to make this guide was catsmackaroo's guide back in 2021 - I originally translated it for the Russian audience, but eventually it grew into it's own guide. With the release of Console Visuals & Shader Fixes (later became a part of FusionFix), I've gotten incredibly motivated to deliver the best experience to everyone and made a modpack (where I later discovered how to use Fusion Overloader - mostly on my own). The goal was to deliver a maintained improved experience and to replace other, low quality modpacks.
 
