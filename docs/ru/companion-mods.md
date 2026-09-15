@@ -40,7 +40,8 @@ These mods fix some aspect of the game without adding or changing something dras
 | [Improved Animations Pack](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg and C1aude_III | Fixes various issues with the weapon animations. |
 | [Broker Bridge and Electric Wires Appearance Fix](https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/) | yarrabandi | Improved shaders for the Broker Bridge. |
 | [Clean Getaway - Destination Fix](https://gtaforums.com/topic/989680-attramets-workshop/page/3/#comment-1072596471) | Attramet | Changes the destination on the mission 'Clean Getaway' to be more accurate to the dialogue. |
-| [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. |
+| [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Fixes green-ish textures on some character models. A [patch made by Pingwinek1234](https://discord.com/channels/1129805289307242577/1548364567199875174) is available that swaps the textures of Black Modo Jacket Map Prop and three button jacket in ebony and [another patch by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1548369285519507586) that applies the improvements to Characters Fixes |
+| [Remove Luis Texture Compression](https://www.nexusmods.com/gta4/mods/1401?tab=description) | lettersandnumb192, B Dawg | Fixes green-ish texture on Luis' textures. |
 | [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773) | Niikowo | Fixes the shading on track jacket textures to match the green track jacket. |
 | [Puffer Jacket Logo](https://www.nexusmods.com/gta4/mods/542) | erwasabo | Adds the missing logo to one of the Puffer jackets. |
 | [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/) | BrynnaDaRosa | Fixes the hand texture seams in Niko's model. Addons used: [TBoGT Niko In-Game Hands Fix](https://discord.com/channels/452421215076876288/461150059552178176/1535212054997241896), [TLAD Niko In-Game Hands Fix](https://discord.com/channels/1129805289307242577/1494424154097586206/1538900507618451587); both by Pingwinek1234 |
@@ -65,6 +66,7 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | :-: | :----------: | :-----: |
 | [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable. **1.0.8.0 only.** Addon available: [Armored Cops with EFLC heads from Characters Fixes by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757)<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
 | [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. [Custom version with community fixes and community addons](https://www.mediafire.com/file/bo3uxpvozs6mgfx/7_Characters_Fixes.7z/file), which include: [Mitch The Cop TLAD Model by Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ by nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV by nipahtard](https://www.nexusmods.com/gta4/mods/988) |
+| [Story Characters Variety Animations](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Adds unique animations to story characters so they appear less monotone. Both optional patches applied. |
 | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Adds detailed weapon animations to every animation. **May conflict with other mods**. |
 | [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
 | [Higher Resolution Miscellaneous Pack](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Improves the texture quality of minor assets. |
@@ -81,7 +83,6 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
 | [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Removes invincibility from the target in the mission 'No Way On The Subway'. |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Makes the 'Escuela of the Street' mission faster by making the driver ignore traffic laws. |
-| [Johnny K Eye Color V](https://www.nexusmods.com/gta4/mods/1110) | nipahtard | Better textures for Johnny in TLAD and TBoGT, ported from GTA V. |
 | [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Joni's model redone to match her artwork, because the in-game model is hideous. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Improves the quality of the Dodgy Doc in the Have a Heart mission. |
 | [High Quality Pigeons](https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Improves the model and texture quality for pigeons. [Textures downscaled by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1538872350928408737). |
@@ -108,9 +109,9 @@ These mods don't enhance or fix anything necessarily - they're mods that *will* 
 | :-: | :----------: | :-----: |
 | [Console Visuals](https://github.com/Tomasak/Console-Visuals/) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry and Parallellines | Ports select console visuals to the PC version. |
 | [Console Select Menu](https://github.com/gennariarmando/iv-console-select-menu/) | _AG | Replaces the episode selector with a console-like menu which, in my opinion, looks better. **1.2.0.59 only**. [Manual build of a more up-to-date version](https://www.mediafire.com/file/1aiyfmcy74otkbj/ConsoleSelectMenuIV.asi/file). |
+| [Customizable Protagonists](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | A lot of new assets for the protagonists' wardrobes taken from NPCs, multiplayer, console and unreleased content. Can only be applied with a trainer or third party wardrobe implementations. |
 | [Liberty Loadout](https://www.nexusmods.com/gta4/mods/1226) | Delusional94 | GTA V-like weapon and radio wheel. **1.2.0.59 only**. |
 | [Liberty Shoulder](https://www.nexusmods.com/gta4/mods/1229) | Delusional94 | Shoulder swapping without any extras. **1.2.0.59 only**. |
-| [Customizable Protagonists](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | A lot of new assets for the protagonists' wardrobes taken from NPCs, multiplayer, console and unreleased content. Can only be applied with a trainer or third party wardrobe implementations. |
 | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Modified driving parameters to make driving feel more controllable without changing the system drastically. You can read the details on the page. |
 | [Restored Pedestrians](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Restores pedestrians that were either unused or only present in the betas. |
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
@@ -168,18 +169,6 @@ Please use the following load order (put the number before the folder names) aft
 You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
 
 You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
-
----
-
-## Workshops
-
-These workshops might have some extra mods or tools you may be interested in:
-
-[Attramet's Workshop](https://gtaforums.com/topic/989680-attramets-workshop/){ .md-button}  [ItsClonkAndre's](https://gtaforums.com/topic/988909-itsclonkandres-workshop/){ .md-button}
-
-[Zolika1351's Zone](https://zolika1351.pages.dev/){ .md-button} [Donnit's Bakery](https://gtaforums.com/topic/974798-donnits-bakery/){ .md-button}
-
-[:simple-discord: DayL's Modding Community](https://discord.gg/gZvZmFt2p7){ .md-button} [Internet Rob's](https://gtaforums.com/topic/984476-internet-robs-workshop){ .md-button}
 
 ---
 

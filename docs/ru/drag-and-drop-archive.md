@@ -41,7 +41,7 @@ description: Полностью готовая к игре сборка для �
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-6, [примените параметры запуска вручную](additional-setup.md/#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](../essential-modding/fusionfix.md/#ff-linux). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/exb0aqctm1ztv1j/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/6j8ge4kqcjoy)) (4.5GB, SHA512: ~`2c782c3506425e346ed32aff7760d624bf16c52385eb86b388ab6be0cb791b531175fee32d4b966b24024b757127a7a693947ec17f7a1311ba1d67af8af551b4`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/g1368b8rujc11x5/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/1bu6ow9t3kak)) (4.9GB, SHA512: ~`f48c088d5cd8d862668b2531140236d86a873e6bbb21180b48ebede031481b7fcd9660c6da2f81b951790d028f51b1d3cff4004aadf490cd34b223b527da3070`~).
     1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     2. Запустите :material-file-download:`GTAIVSetupUtility.exe`. В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -70,7 +70,7 @@ description: Полностью готовая к игре сборка для �
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5, [примените параметры запуска вручную](additional-setup.md/#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](../essential-modding/fusionfix.md/#ff-linux). Дополнительно, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/1sqqsqfkpw1mqaj/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/f0b5notgg8ty)) (4.5GB, SHA512: ~`b1099d95b4162f7b58e486ce6c6cd03048967d9459b839c7cbbe44fd98ace3ebd9c456e532f8a06240b45cf06d303182469b80d4f8d5ab1d49829ddf8e47b0eb`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/rpo3cq0melcm57u/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/sxghevt64mfp)) (4.9GB, SHA512: ~`810d1c87475bc3d7bc8c9fafcc5dcc392275e8b0990e176b4067583dbfa51e922fe15ebc2cad2b96ae0b7ae46e05d0138ab56c0e50dd64175bcfd4725e88e8c9`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -124,7 +124,7 @@ description: Полностью готовая к игре сборка для �
 | :-: | :------------: | :----: |
 | [Radio Downgrader~23.05.2025~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
 | [FusionFix~5.0.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера. |
-| [Various Fixes~2.2~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+| [Various Fixes~2.3~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
 | [Trilogy Characters Fixes~custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей между основной GTA IV и EFLC. Использованные фанатские аддоны: [Mitch The Cop TLAD Model от Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ от nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV от nipahtard](https://www.nexusmods.com/gta4/mods/988) |
 | [EFLC Vehicle Addon Pack For GTA IV~1.2~](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ТОЛЬКО АДДОНЫ**: Направлено на дополнительное исправление несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
 | [Console Visuals~2.1c~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry и Parallellines | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds, Console Vegetation. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
@@ -134,7 +134,7 @@ description: Полностью готовая к игре сборка для �
 | [Restored Vegetation~21.05.2026~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает растительность, которая присутствовали в бета-версиях, но была вырезана в финальном релизе - либо случайно, либо из-за проблем с производительностью.<br>Включенный аддон: Beta Tree Positions</br> |
 | [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Восстанавливает граффити, которые были полностью вырезаны из фильного состояния игры. |
 | [More Visible Interiors~2.0~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьер более заметными снаружи, хотя имеет недостаток в виде появления интерьеров на глазах. |
-| [Higher Resolution Miscellaneous Pack~3.0~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
+| [Higher Resolution Miscellaneous Pack~3.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
 | [Project Glass~10.06.2026~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
 | [Vehicle Pack~2.4~](https://www.nexusmods.com/gta4/mods/282?tab=files) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
 | [LibertyCityPlates~1.2.6.4b~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Делает номерной знак уникальным для каждой машины. |
@@ -146,14 +146,16 @@ description: Полностью готовая к игре сборка для �
 | [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Снимает неуязвимость с цели в миссии "Нет пути на метро". |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Делает миссию 'Эскуэла улиц' быстрее, выкинув ПДД из головы водителя. |
 | [Clean Getaway - Destination Fix](https://gtaforums.com/topic/989680-attramets-workshop/page/3/#comment-1072596471) | Attramet | Изменяет назначение в миссии 'Чистое бегство' на то, что указано в диалоге. |
-| [Xbox Rain Droplets~01.07.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
+| [Xbox Rain Droplets~01.09.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
 | [Props Restoration~16.05.2026~](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Ввостанавливает пре-релизные, бета и неиспользованые пропы на карту. |
 | [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/) | Scott1 | Ввостанавливает интерьер Банка Либерти до состояния, которое можно было увидеть в Трейлере 1 (главная деталь - у здания теперь есть купол на потолке). |
 | [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Модель Джони (не путать с Джонни) переделанная для сходства с ее 2д артом, т.к. игровая модель ужасная. [Текстуры из Characters Fixes добавлены Pingwinek1234'ом](https://discord.com/channels/1129805289307242577/1494424154097586206/1541387694398246992). |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Улучшает текстуры мутного доктора в миссии "Имейте сердце". [Текстуры из Characters Fixes добавлены Pingwinek1234'ом](https://discord.com/channels/1129805289307242577/1494424154097586206/1541456029353508904). |
 | [High Quality Pigeons](https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Улучшает модель и качество текстуры голубей. [Оптимизированные текстуры от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1538872350928408737). |
 | [Resized Blista Compact](https://www.gtainside.de/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Уменьшение размера Blista Compact для соответствия реальному аналогу (Honda CR-X). |
-| [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. |
+| [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. Включен [патч от Pingwinek1234](https://discord.com/channels/1129805289307242577/1548364567199875174) который заменяет текстуры Black Modo Jacket Map Prop и одной рубашки, и [доп. патч от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1548369285519507586) который применяет эти улучшения к Characters Fixes |
+| [Remove Luis Texture Compression](https://www.nexusmods.com/gta4/mods/1401?tab=description) | lettersandnumb192, B Dawg | Исправляет зеленоватые текстуры Луиса. |
+| [Story Characters Variety Animations](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Добавляет уникальные анимации к сюжетным персонажам для избавления от монотонности. Оба доп. патча применены. |
 | [Restored Motorcycle Helmets](https://www.nexusmods.com/gta4/mods/1006?file_id=2604) | Attramet | Ввостанавливает вырезанные мотошлема. [Соедененные файлы с Project Glass и Characters Fixes от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1539243333136683099). |
 | [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773) | Niikowo | Исправляет тени на спортивной курте для соответсвия зеленой куртке. |
 | [Improved Spyde Jacket](https://www.gtainside.com/en/gta4/skins/213587-improved-spyde-jacket/) | Lukakion | Улучшает модель спортивной куртки для большей полигональности и исправляет карту нормалей. |
@@ -240,6 +242,12 @@ description: Полностью готовая к игре сборка для �
 
 === "1.2.0.59"
     !!! info "Последняя версия"
+         - 15.09.2026
+            - Обновлены Various Fixes, Xbox Rain Droplets, Higher Resolution Miscellaneous Pack
+            - Обновления от Pingwinek1234:
+                - Обновленный Player Outfit Texture Fixes с доп. фиксами и применением к Characters Fixes
+                - Добавлены Remove Luis Texture Compression, Story Characters Variety Animations
+    ??? quote "Старые изменения"
         - 24.08.2026 (хотфикс)
             - Удален Grass and Procedural Props Fix из-за повышенной нестабильности; перемещен в Дополнительные моды
             - Хотфикс от Pingwinek1234:
@@ -256,7 +264,6 @@ description: Полностью готовая к игре сборка для �
                 - Оптимизированные текстуры High Quality Pigeons
                 - Исправлен `public_2.ide`
             - (спасибо Dashii за сборку некоторых обновлений что-бы мне было проще)
-    ??? quote "Старые изменения"
         - 18.07.2026
             - Обновлены Liberty City Plates, Restored Graffiti
             - Добавлен хотфикс от Pingwinek1234:
@@ -500,6 +507,13 @@ description: Полностью готовая к игре сборка для �
             - Архив создан.
 === "1.0.8.0"
     !!! info "Последняя версия"
+         - 15.09.2026
+            - Обновлены Various Fixes, Xbox Rain Droplets, Higher Resolution Miscellaneous Pack, Liberty Tweaks
+            - Отключен стрит-рейсинг в Liberty Tweaks ибо функция чисто спавнила пустые машины посреди дороги
+            - Обновления от Pingwinek1234:
+                - Обновленный Player Outfit Texture Fixes с доп. фиксами и применением к Characters Fixes
+                - Добавлены Remove Luis Texture Compression, Story Characters Variety Animations
+    ??? quote "Старые изменения"
         - 24.08.2026 (хотфикс)
             - Удален Grass and Procedural Props Fix из-за повышенной нестабильности; перемещен в Дополнительные моды
             - Хотфикс от Pingwinek1234:
@@ -517,7 +531,6 @@ description: Полностью готовая к игре сборка для �
                 - Исправлен `public_2.ide`
             - Заново включены некоторые настройки Liberty Tweaks которые, вроде как, больше не должны вызывать проблем.
             - (спасибо Dashii за сборку некоторых обновлений что-бы мне было проще)
-    ??? quote "Старые изменения"
         - 18.07.2026
             - Обновлены Liberty City Plates, Restored Graffiti
             - Добавлен хотфикс от Pingwinek1234:
