@@ -30,7 +30,7 @@ description: Почему игра не работает
     Убедитесь, что установили [необходимые программы](../preparation.md#_3).
 
 ??? info "Ошибка RMN60 при запуске"
-    Возникает на даунгрейднутых версиях. Установите [ZolikaPatch](../essential-modding/openprecepatch.md) (возможно, его удалил антивирус).
+    Возникает на даунгрейднутых версиях. Установите [OpenPreCEPatch](../essential-modding/openprecepatch.md) (возможно, его удалил антивирус).
 
 ??? info "Ошибка "SecuLauncher: failed to start application [2000]" при запуске"
     - Нажмите правой кнопкой на :material-file:`GTAIV.exe`, выберите **Свойства**, перейдите на вкладку **Совместимость** и снимите галочку с **Запускать эту программу от имени администратора**. Если она уже снята, смотрите следующее решение.
@@ -47,7 +47,7 @@ description: Почему игра не работает
 ??? info "Игра вылетает сразу после запуска"
     - Попробуйте отключить RivaTuner Statistics (через MSI Afterburner, если используете его), удалить Bandicam и любое другое ПО, которое делает инъекции - оверлеи и инжекторы могут мешать игре при запуске.
     - Попробуйте отключить Steam Overlay и/или Steam Input.
-    - На даунгрейднутой версии попробуйте установить [ZolikaPatch](../essential-modding/openprecepatch.md), если еще не ставили.
+    - На даунгрейднутой версии попробуйте установить [OpenPreCEPatch](../essential-modding/openprecepatch.md), если еще не ставили.
     - Попробуйте удалить `SETTINGS.cfg` из :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника. Обычно дело в инжектируемых модах, так что начинайте с них.
 
@@ -65,7 +65,7 @@ description: Почему игра не работает
 ??? info "Игра сразу загружает сохранение при запуске, без меню"
     Можете зажать ++lshift++ при запуске, когда нужно меню.
 
-    Если хотите полностью отключить эту функцию, измените **Skip Menu** на **Off** в `Настройки` - `Игра`, если используете FusionFix. Если функция всё равно срабатывает, установите `SkipMenu` в `0` в :material-file-cog:`ZolikaPatch.ini`.
+    Если хотите полностью отключить эту функцию, измените **Skip Menu** на **Off** в `Настройки` - `Игра`, если используете FusionFix. Если функция всё равно срабатывает, установите `SkipMenu` в `0` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
 
 ---
 
@@ -123,7 +123,7 @@ description: Почему игра не работает
 
 ??? info "Игра случайно вылетает посреди игры"
     - Если используете ZolikaPatch и FusionFix вместе, отключите [несовместимые настройки](../essential-modding/openprecepatch.md#incompatible-options).
-    - Откройте :material-file-cog:`ZolikaPatch.ini` и измените `HighFPSSpeedupFix` на `0`.
+    - Откройте :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`) и измените `HighFPSSpeedupFix` на `0`.
     - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника.
 
 ---
@@ -139,7 +139,7 @@ description: Почему игра не работает
     - Некоторые проблемы можно обойти только ограничением в 60 или 30 FPS. Это делается в `Настройки` - `Графика`, если используете FusionFix.
 
 ??? info "Софтлок в TLAD - Shifting Weight"
-    Откройте :material-file-cog:`ZolikaPatch.ini` и установите `HighFPSSpeedupFix` в `0`. После миссии можно вернуть `1`.
+    Откройте :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`) и установите `HighFPSSpeedupFix` в `0`. После миссии можно вернуть `1`.
 
 ??? info "Нельзя воспользоваться компьютерами в интернет-кафе или взаимодействовать с развлечениями (бильярд, боулинг)"
     Можно сделать одно из следующего:
@@ -148,11 +148,11 @@ description: Почему игра не работает
     - Удалить файлы `LibertyTweaks` из :material-folder: ==IVSDKDotNet\scripts== (если вы больше нигде не используете **IV-SDK .NET**, можете смело удалить из папки с игрой все файлы и папки, начинающиеся с `IVSDKDotNet`).
 
 ??? info ":material-steam: Достижения Steam пропали после даунгрейда"
-    Установите [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
+    Установите [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info "Не работают достижения GFWL / Xbox Live"
     - Удалите :material-file:`SteamAchivements.asi` - их нельзя использовать одновременно.
-    - Установите `TryToSkipAllErrors` и `VSyncFix` в `0` в :material-file-cog:`ZolikaPatch.ini`.
+    - Установите `TryToSkipAllErrors` и `VSyncFix` в `0` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
 
 ??? info "Настройка прицела застряла на 'Basic'"
     - Отключите `Dynamic Crosshair` в :material-file-cog:`LibertyTweaks.ini`.
@@ -185,14 +185,14 @@ description: Почему игра не работает
     Этот ключ уже использует кто-то другой, кто находится в лобби. Выйдите из аккаунта и найдите другой ключ или заново запустите кейген.
 
 ??? info "В GFWL игра просит войти в Social Club"
-    Вам нужен [ZolikaPatch](../essential-modding/openprecepatch.md).
+    Вам нужен [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info ""The downloadable content required for this autoload is not available" в GFWL"
     Перезапустите игру.
 
 ??? info ""You have been disconnected because your computer is running too slowly" в GFWL"
     - Включите `Windowed`, `Borderless` и отключите `Block on Focus Loss` в `Настройки` - `Игра`, если используете FusionFix.
-        - Если FusionFix не используете, установите `BorderlessWindowed` и `DoNotPauseOnMinimize` в `1` в :material-file-cog:`ZolikaPatch.ini` и добавьте `-windowed` в :material-file-cog:`commandline.txt`.
+        - Если FusionFix не используете, установите `BorderlessWindowed` и `DoNotPauseOnMinimize` в `1` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`) и добавьте `-windowed` в :material-file-cog:`commandline.txt`.
 
 ??? info ""The profile could not be signed in to LIVE" в GFWL"
     - Установите [приложение Xbox](https://www.xbox.com/en-US/apps/xbox-app-for-pc) и войдите в него с тем же аккаунтом, который пытаетесь использовать для GFWL.
@@ -231,7 +231,7 @@ description: Почему игра не работает
     Зайдите в Панель управления NVIDIA, в настройки 3D, добавьте :material-file:`GTAIV.exe` и выберите `Максимальная производительность` в `Режиме управления электропитанием`.
 
 ??? info "EFLC пропал после даунгрейда"
-    Убедитесь, что используете [ZolikaPatch](../essential-modding/openprecepatch.md), и установите `LoadDLCs` в `1` в :material-file-cog:`ZolikaPatch.ini`.
+    Убедитесь, что используете [OpenPreCEPatch](../essential-modding/openprecepatch.md), и установите `LoadDLCs` в `1` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
 
 ??? info ".NET моды не работают на Linux"
     Смотрите раздел [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](mod-dependencies.md#scripthookdotnet-iv-sdk-net-linux)

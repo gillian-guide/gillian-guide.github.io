@@ -80,7 +80,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
     4. Press `Reinstall DXVK` and then `Setup launch options`. Configure DLSS-IV as you see fit. Don't touch the toggles unless you are confident in what you are doing.
     5. You are ready to play!
         - Launch the game via :material-steam: Steam or the `PlayGTAIV.exe` executable.
-        - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi`.
+        - **If using the :simple-rockstargames: Rockstar Games Launcher**, do not launch the game via the launcher and delete :material-file:`SteamAchievements.asi` left over from older archives - [OpenPreCEPatch](../essential-modding/openprecepatch.md) handles achievements now.
         - In the Graphics settings, change `Graphics API` to Vulkan. If the game crashes, delete :material-file:`d3d9.cfg` and don't touch this setting.
         - It's preferable to start **a new game**. Existing savefiles can work, but you may encounter issues. It should also be noted that the savefiles (and the place to put your own radio songs to) are now located in the :material-folder: ==Savefiles== folder inside the game folder. Also, if you already started the game on 1.2.0.59 and want to keep playing on the same savefile, you have to [downgrade the savefile](downgrading/downgrading-the-game.md#downgrading-the-savefile).
         - Set `Traffic Density` to `100` to take full advantage of the custom popcycle.

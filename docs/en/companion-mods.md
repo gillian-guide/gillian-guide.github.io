@@ -53,7 +53,7 @@ These mods fix some aspect of the game without adding or changing something dras
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Fixes broken UV map on "Waiting Room" sign texture. |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Edits the UV map on the sign to include an unused texture. |
 | [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Allows to get :material-steam: Steam achievements on **older patches**. |
+| [OpenPreCEPatch](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Allows to get :material-steam: Steam achievements on **older patches**, alongside DLC support for PreCE versions. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Fixes some issues related to ImGui and cloud rendering. **Only relevant to IVSDKDotNet users.** |
 
 ---

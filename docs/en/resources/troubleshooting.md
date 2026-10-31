@@ -30,7 +30,7 @@ I know about these issues, no need to report them to me, unless you know a solut
     Make sure you installed the [prerequisite software](../preparation.md#software).
 
 ??? info "Error RMN60 on launch"
-    Occurs on downgraded versions. Install [ZolikaPatch](../essential-modding/openprecepatch.md) (your antivirus may have removed it, aswell).
+    Occurs on downgraded versions. Install [OpenPreCEPatch](../essential-modding/openprecepatch.md) (your antivirus may have removed it, aswell).
 
 ??? info "Error "SecuLauncher: failed to start application [2000]" on launch"
     - Right click :material-file:`GTAIV.exe`, click **Properties**, switch to the **Compatibility** tab and uncheck **Run this program as an administrator**. If it's already unchecked, see the next solution.
@@ -47,7 +47,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Game crashes immediately upon booting"
     - Try turning off RivaTuner Statistics (with MSI Afterburner if using that), uninstalling Bandicam or any other software of this sort that does injections - overlays and injectors can mess with the game on boot.
     - Try disabling Steam Overlay and/or Steam Input.
-    - On a downgraded version, try installing [ZolikaPatch](../essential-modding/openprecepatch.md) if you hadn't already.
+    - On a downgraded version, try installing [OpenPreCEPatch](../essential-modding/openprecepatch.md) if you hadn't already.
     - Try deleting `SETTINGS.cfg` from :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
     - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with injectable mods, so start there.
 
@@ -65,7 +65,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Game loads directly into the savegame on startup, no menu"
     You can hold ++lshift++ on boot for when you need the menu.
 
-    If you want to completely disable the feature off, change **Skip Menu** to **Off** in `Settings` - `Game` if using FusionFix. If the feature still triggers, set `SkipMenu` to `0` in :material-file-cog:`ZolikaPatch.ini`.
+    If you want to completely disable the feature off, change **Skip Menu** to **Off** in `Settings` - `Game` if using FusionFix. If the feature still triggers, set `SkipMenu` to `0` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`).
 
 ---
 
@@ -123,7 +123,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info "Game randomly crashes mid-game"
     - If using ZolikaPatch and FusionFix together, disable the [incompatible options](../essential-modding/openprecepatch.md#incompatible-options).
-    - Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`.
+    - Open :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) and change `HighFPSSpeedupFix` to `0`.
     - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem.
 
 ---
@@ -139,7 +139,7 @@ I know about these issues, no need to report them to me, unless you know a solut
     - Some issues can only be omitted by setting a 60 or 30 FPS lock. Can be done in `Settings` - `Graphics` if using FusionFix.
 
 ??? info "Softlock on TLAD - Shifting Weight"
-    Open :material-file-cog:`ZolikaPatch.ini` and set `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
+    Open :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) and set `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
 
 ??? info "Cannot access internet cafe computers or interact with entertainment assets (pool, bowling)"
     You can do one of the following:
@@ -148,11 +148,11 @@ I know about these issues, no need to report them to me, unless you know a solut
     - Remove `LibertyTweaks` files from :material-folder: ==IVSDKDotNet\scripts== (if you don't use **IV-SDK .NET** for anything else, you can remove safely all files and folders starting with `IVSDKDotNet` from the game folder aswell).
 
 ??? info ":material-steam: Steam achievements disappeared after downgrading"
-    Install [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
+    Install [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info "GFWL / Xbox Live achievements don't work"
     - Remove :material-file:`SteamAchivements.asi` - you can't use both at once.
-    - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`ZolikaPatch.ini`.
+    - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`).
 
 ??? info "Reticle option is stuck on 'Basic'"
     - Toggle `Dynamic Crosshair` off in the :material-file-cog:`LibertyTweaks.ini`.
@@ -185,14 +185,14 @@ I know about these issues, no need to report them to me, unless you know a solut
     The license key you're using is also used by somebody else who's already in the lobby. Log out and find yourself a different key or re-run the keygen.
 
 ??? info "The game asks to sign in to Social Club in GFWL"
-    You need [ZolikaPatch](../essential-modding/openprecepatch.md).
+    You need [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info ""The downloadable content required for this autoload is not available" in GFWL"
     Restart the game.
 
 ??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
     - Enable `Windowed`, `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
-        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
+        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
 
 ??? info ""The profile could not be signed in to LIVE" in GFWL"
     - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account you're trying to use for GFWL.
@@ -231,7 +231,7 @@ I know about these issues, no need to report them to me, unless you know a solut
     Go to the NVIDIA Control Panel, 3D settings, add :material-file:`GTAIV.exe` and select `Max Performance` in `Power Plan Mode`.
 
 ??? info "EFLC disappeared after downgrading"
-    Make sure you are using [ZolikaPatch](../essential-modding/openprecepatch.md) and set `LoadDLCs` to `1` in :material-file-cog:`ZolikaPatch.ini`.
+    Make sure you are using [OpenPreCEPatch](../essential-modding/openprecepatch.md) and set `LoadDLCs` to `1` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`).
 
 ??? info ".NET mods don't work on Linux"
     See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](mod-dependencies.md#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux)

@@ -74,7 +74,7 @@ You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog
 
 <div class="grid cards" markdown>
 
-- If your **game is downgraded**, continue with ZolikaPatch:
+- If your **game is downgraded**, continue with OpenPreCEPatch:
 
     [Next page:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 

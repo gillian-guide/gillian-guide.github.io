@@ -34,10 +34,10 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 
 ## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtility) (Automatic installation)
 
-Using this tool you can set up DXVK and [launch options](additional-setup.md#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
+Using this tool you can set up DXVK and [launch options](additional-setup.md#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, OpenPreCEPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
 
 !!! info ""
-    - You should re-run the tool **if you downgrade and/or install FusionFix and/or ZolikaPatch later.**
+    - You should re-run the tool **if you downgrade and/or install FusionFix and/or OpenPreCEPatch later.**
     - The tool is unnecessary on Linux, as DXVK is already used, but it can be used for other purposes if launched under Proton.
 
 ### Usage
@@ -126,9 +126,6 @@ After using the tool, you can freely skip to optimal graphics settings:
     If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 
     See [troubleshooting](resources/troubleshooting.md).
-???+ warning "For NVIDIA 50-series RTX GPU users"
-    Make sure your drivers are up-to-date. For several months, the drivers used to insta-crash all 50-series users. Latest drivers don't have that problem.
-
 ---
 
 ### Configuration

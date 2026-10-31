@@ -11,7 +11,7 @@ description: Алло? Есть тут кто?
 
 ## Предварительные требования и информация
 
-- Для лучшего опыта в мультиплеере рекомендуется настроить [OpenPreCEPatch (или ZolikaPatch)](../essential-modding/openprecepatch.md). Не забудьте включить функции мультиплеера в :material-file-cog:`ZolikaPatch.ini`.
+- Для лучшего опыта в мультиплеере рекомендуется настроить [OpenPreCEPatch (или ZolikaPatch)](../essential-modding/openprecepatch.md). Не забудьте включить функции мультиплеера в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
 - Убедитесь, что `RecoilFix` установлен в `0` в :material-file-cog:`GTAIV.EFLC.FusionFix.ini`, чтобы не оказаться в невыгодном положении перед другими игроками.
     - Также для большей стабильности рекомендуется использовать [патч GFWLMin](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) - ^^но он лишает вас функций сюжетного режима.^^
 - Дополнительно вам может понадобиться [ZMenuIV](trainers.md#zmenuiv), чтобы создавать свои режимы игры и участвовать в них.

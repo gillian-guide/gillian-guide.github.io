@@ -78,7 +78,7 @@ description: Графические исправления - и даже бол�
 
 <div class="grid cards" markdown>
 
-- Если ваша **игра даунгрейднута**, продолжите с ZolikaPatch:
+- Если ваша **игра даунгрейднута**, продолжите с OpenPreCEPatch:
 
     [Следующая страница:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 

@@ -53,7 +53,7 @@ description: Сколько же модов в этой игре
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Исправляет сломанную UV-карту на текстуре таблички "Waiting Room". |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Редактирует UV-карту вывески, чтобы задействовать неиспользуемую текстуру. |
 | [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ТОЛЬКО АДДОНЫ**: цель - дополнительно исправить несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Позволяет получать достижения :material-steam: Steam на **старых патчах**. |
+| [OpenPreCEPatch](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Позволяет получать достижения :material-steam: Steam на **старых патчах**, а также добавляет поддержку DLC для версий PreCE. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Исправляет некоторые проблемы, связанные с ImGui и рендерингом облаков. **Актуально только для пользователей IVSDKDotNet.** |
 
 ---

@@ -11,7 +11,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 
 ## Prerequisites and info
 
-- It's recommended to have [OpenPreCEPatch (or ZolikaPatch)](../essential-modding/openprecepatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
+- It's recommended to have [OpenPreCEPatch (or ZolikaPatch)](../essential-modding/openprecepatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) to use multiplayer functions.
 - Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
     - It is also recommended to use the [GFWLMin patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability - ^^but it cuts out singleplayer features.^^
 - Additionally, you may want to have [ZMenuIV](trainers.md#zmenuiv) for the ability to create and participate in custom gamemodes.
