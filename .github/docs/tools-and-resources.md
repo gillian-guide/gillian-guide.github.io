@@ -22,16 +22,26 @@ Here's a curated list of useful extensions for [Visual Studio Code](https://code
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces): Highlights unnecessary spaces.
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Assists with navigating local files.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): A code formatter that supports markdown files.
-- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml): Provides YAML file support.
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Provides TOML file support.
 - [ms-vscode-remote.remote-wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): Enables usage with WSL.
 
 When you first open the project in **VSC**, you will be prompted to install these extensions automaticlaly.
+
+## Repository tools
+
+The `tools` folder contains scripts that keep the content healthy:
+
+- `tools/check_links.py` checks the built site for broken internal links, missing anchors and dead external URLs.
+- `tools/normalize_links.py` rewrites relative links in the Markdown sources to file-relative paths, so they resolve the same way in every language.
+
+Both are described in [Setting up your local development environment](setting-up-your-local-development-environment.md#checking-links).
 
 ## Useful Resources
 
 Below are some resources that you might find useful for understanding the toolset:
 
-- [MkDocs](https://www.mkdocs.org/)
-- [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+- [Zensical](https://zensical.org/)
+- [Zensical documentation](https://zensical.org/docs/)
+- [zensical-i18n](https://github.com/hsandmann/zensical-i18n)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md)

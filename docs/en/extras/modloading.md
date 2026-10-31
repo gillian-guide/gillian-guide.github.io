@@ -1,16 +1,18 @@
+---
 title: Modloading
 description: Phew, all original files are still there!
+---
 
 # Modloading
 
-A lot of mods require replacing game files with [OpenIV](../../resources/openiv.md). We can get around this by using a modloader.
+A lot of mods require replacing game files with [OpenIV](../resources/openiv.md). We can get around this by using a modloader.
 
 ---
 
-## [Fusion Overloader](../../essential-modding/fusionfix.md)
+## [Fusion Overloader](../essential-modding/fusionfix.md)
 
 !!! warning "Compatibility"
-    Supports both the Complete Edition and 1.0.8.0/1.0.7.0 as long as the latest version of [FusionFix](../../essential-modding/fusionfix.md) is installed.
+    Supports both the Complete Edition and 1.0.8.0/1.0.7.0 as long as the latest version of [FusionFix](../essential-modding/fusionfix.md) is installed.
 
 This modloader works by loading the files from the :material-folder: ==update== folder *instead* of the main game files, avoiding replacing the original files.
 
@@ -29,7 +31,7 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
 
     If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
 
-1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../../resources/openiv.md).
+1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../resources/openiv.md).
 2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other (i.e. a mod provides separate files for base IV and EFLC), compile a separate `.img` file for each subgame.
 3. Create a folder with the name of your mod in the :material-folder: ==update== folder (create one in the game folder if it doesn't exist).
 4. Drop your compiled `.img` files into that folder.
@@ -109,7 +111,7 @@ This modloader has a few advantages over Fusion Overloader, such as being able t
 
     If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
 
-1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../../resources/openiv.md).
+1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../resources/openiv.md).
 2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
     - You can also omit the above two steps and just use raw files.
 3. Create a folder with the name of your mod in :material-folder: ==modloader==.

@@ -1,12 +1,14 @@
+---
 title: Trainers
 description: Dad, look, I can bhop in GTA IV!
+---
 
 # Trainers
 
 Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](multiplayer.md), but make sure your client/server allows them first.
 
 !!! warning ""
-    Both trainers require [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+    Both trainers require [Ultimate ASI Loader](../resources/mod-dependencies.md#ultimate-asi-loader).
 
     Also please pick one - don't install both at once.
 
@@ -98,7 +100,7 @@ This trainer is not as powerful as ZMenuIV, but still offers a lot of useful fea
 
 <h3>Installation</h3>
 
-1. Install [ScriptHookDotNet](../../resources/mod-dependencies.md/#scripthookdotnet) if you hadn't done so yourself outside of the guide.
+1. Install [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet) if you hadn't done so yourself outside of the guide.
 2. Go to the [GTAForums page](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
 3. Download the latest version.
 4. Extract the :material-zip-box:`Liberty's Legacy Trainer xxx.zip` archive into the game folder.

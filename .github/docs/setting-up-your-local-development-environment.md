@@ -6,20 +6,12 @@ This section will guide you through setting up your environment for local develo
 
 Before proceeding, ensure your system meets the following requirements:
 
-- **Python**: Version 3.8.1 or higher. [Download Python](https://www.python.org/)
-- **Linux System** (Recommended): While not mandatory, using a Linux system or the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/fr-fr/windows/wsl/install) simplifies library installation and allows for easier previews.
+- **Python**: Version 3.11 or higher. [Download Python](https://www.python.org/)
+- **Linux System** (Recommended): While not mandatory, using a Linux system or the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) simplifies installation and allows for easier previews.
 
 ## Dependency Installation
 
-### System Libraries
-
-Install the required system libraries using the command below:
-
-```bash
-sudo apt install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
-```
-
-> **Note**: If not using a Debian-based system, similar packages should be available on other package managers (such as `pacman`) aswell.
+The website is built with [Zensical](https://zensical.org/), together with [zensical-i18n](https://github.com/hsandmann/zensical-i18n) for the English/Russian localization. Both are Python packages, so no additional system libraries are required.
 
 ### Python
 
@@ -34,28 +26,65 @@ sudo apt install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-de
 pip install -r requirements.txt
 ```
 
-> **Note**: If you need to add a new python extension for some reason, remember to update the [`.github/workflows/deploy.yml`](../workflows/deploy.yml) file.
+> **Note**: If you need to add a new Python package for some reason, remember to update the [`.github/workflows/deploy.yml`](../workflows/deploy.yml) file.
 
 ## Useful Commands
 
 ### Running the website locally
 
-To serve the website locally, use the following command:
+The site is built by the `zensical-i18n` wrapper, which builds every language. To serve the website locally, use one of the following commands:
 
 ```bash
-mkdocs serve
+# Serve the English (default) version
+zensical-i18n serve
+
+# Serve the Russian version
+zensical-i18n serve --lang ru
 ```
 
 > **Note**: If you wish to use a port or IP other than the default, specify it using the `-a` option:
 
 ```bash
-mkdocs serve -a ip:port
+zensical-i18n serve -a ip:port
 ```
+
+> **Note for Windows users**: `zensical-i18n` currently fails on Windows with `invariant: Id(Format(Path(Backslash)))`, because Zensical rejects the `docs_dir` that the wrapper generates from a Windows path. Build and preview from WSL instead.
 
 ### Building the website
 
-To build a static website, use the following command:
+To build the static website into the `site` folder, use the following command:
 
 ```bash
-mkdocs build
+zensical-i18n build
 ```
+
+English is written to the root of the `site` folder, Russian to `site/ru`. To rebuild a single language while leaving the others untouched, pass `--lang`:
+
+```bash
+zensical-i18n build --lang ru
+```
+
+### Checking links
+
+Build the website first, then run the link checker against the generated files:
+
+```bash
+# Internal links, anchors and assets
+python tools/check_links.py
+
+# Additionally probe every external http(s) link
+python tools/check_links.py --external
+```
+
+The checker exits non-zero when a link is broken, so it can be used in CI - the [links workflow](../workflows/links.yml) runs the internal check on every push and probe the external links weekly. Server answers that mean "no bots" (`401`, `403`, `429`) are reported separately and do not fail the run.
+
+> **Note**: The guide links between pages with paths relative to the Markdown file, not to the URL of the page. A root-level page links `resources/credits.md`, a page in `resources/` links `../extras/modloading.md`. Writing URL-relative paths (`../../foo.md`) works on the English site because the browser clamps excess `..` segments, but escapes into English from `/ru/`. `tools/normalize_links.py` rewrites such links to their file-relative form:
+
+```bash
+python tools/normalize_links.py --dry-run   # review the changes
+python tools/normalize_links.py             # apply them
+```
+
+### Filtering instant previews
+
+Instant previews are enabled by a Markdown extension, which marks every internal link that matches its `targets`. The theme reveals a preview after a short delay; the delay is set in CSS in [`extra.css`](../../docs/assets/stylesheets/extra.css), so adjust it there if previews feel too eager or too slow.

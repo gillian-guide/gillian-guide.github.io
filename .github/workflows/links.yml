@@ -1,0 +1,31 @@
+name: links
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+  schedule:
+    # Weekly, so external links rot is noticed without blocking daily work
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - run: zensical-i18n build
+      - name: Internal links and anchors
+        run: python tools/check_links.py
+      - name: External links
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python tools/check_links.py --only-external --external --timeout 20

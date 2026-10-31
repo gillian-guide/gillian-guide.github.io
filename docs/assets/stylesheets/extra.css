@@ -1,0 +1,80 @@
+/*
+ * Custom tweaks for the Zensical "modern" theme variant.
+ *
+ * Loaded after the theme's own styles, so these rules win without !important.
+ */
+
+/* Modern draws buttons as pills (border-radius: 1.2rem) - square them off */
+.md-typeset .md-button {
+  border-radius: 0.2rem;
+}
+
+/* Links are told apart by colour instead of underlines; underlines only on
+   hover, keyboard focus and for links inside admonitions with custom titles */
+.md-typeset a:not(:hover):not(:focus) {
+  text-decoration: none;
+}
+
+.md-typeset a:hover,
+.md-typeset a:focus {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* The edit and copy buttons in the page header are icon buttons, not links */
+.md-content__button:hover,
+.md-code__button:hover {
+  text-decoration: none;
+}
+
+/* Cards in a row stretch to the same height, which leaves their buttons at
+   different heights - push the button of every card to the bottom edge */
+.md-typeset .grid.cards > ul > li:has(> p > .md-button) {
+  display: flex;
+  flex-direction: column;
+}
+
+.md-typeset .grid.cards > ul > li > p:has(> .md-button) {
+  margin-top: auto;
+}
+
+/* Instant previews fade in as soon as the pointer rests on a link. Hold the
+   fade back by 250ms, so a preview only shows up when the pointer really
+   stays there. `.md-tooltip` (glossary tooltips) is intentionally untouched. */
+.md-tooltip2--active {
+  transition:
+    transform 0.4s cubic-bezier(0, 1, 0.35, 1) 0.25s,
+    opacity 0.25s 0.25s,
+    z-index 0.25s;
+}
+
+/* A preview of a section that contains a table is wider than the popup the
+   theme sizes for text, so the table used to be clipped. Let those previews
+   grow to the width their table needs, no wider, and keep them inside the
+   viewport by widening the variable the theme clamps the position with. */
+.md-tooltip2:has(table) {
+  --md-tooltip-width: min(72rem, calc(100vw - 2.4rem)) !important;
+}
+
+.md-tooltip2:has(table) .md-tooltip2__inner {
+  width: max-content !important;
+  max-width: min(72rem, calc(100vw - 2.4rem)) !important;
+  overflow-x: auto;
+}
+
+/* The text around the table would otherwise stretch the popup to its own
+   unwrapped width - a long paragraph is wider than the table it introduces.
+   Cap prose at a readable measure so the table decides how wide the preview
+   gets. */
+.md-tooltip2:has(table) .md-tooltip2__inner
+  :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6) {
+  max-width: 30rem;
+}
+
+/* Links without an anchor preview the page title, and sections that are only
+   a heading preview just that heading - nothing worth reading. Hide those
+   previews instead of showing a popup with a single line in it. */
+.md-tooltip2:has(.md-tooltip2__inner > :is(h1, h2, h3, h4, h5, h6):only-child),
+.md-tooltip2:has(.md-tooltip2__inner):not(:has(.md-tooltip2__inner > *)) {
+  display: none !important;
+}

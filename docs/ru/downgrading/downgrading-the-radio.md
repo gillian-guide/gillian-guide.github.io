@@ -1,22 +1,24 @@
+---
 title: Даунгрейдинг радио
-description: Даунгрейдинг радио до того состояния, каким оно должно быть.
+description: Даунгрейдинг радио обратно к тому виду, каким оно должно быть.
+---
 
 # Даунгрейдинг радио
 
 !!! warning ""
-    Если вы ранее сделали даунгрейд игры, этот даунгрейдер не будет работать.
+    Если вы уже сделали даунгрейд игры, этот даунгрейдер не сработает.
 
 ---
 
 <h2>Инструкции</h2> <a id="_2"></a>
 
-1. Перейдите на [страницу с новейшим релизом](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest).
+1. Перейдите на [страницу последнего релиза](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest).
 2. Скачайте :material-zip-box:`Radio.Restoration.Mod.xx-xx-xxxx.zip`.
 3. Распакуйте архив в любую пустую папку.
 4. Запустите :material-file-download:`IVCERadioRestorer.exe` и следуйте инструкциям в приложении.
 
-???+ question В чем разница между "only pre-cut Vladivostok" и "pre-cut plus post-cut"?"
-    Rockstar добавили на Владивосток новые треки взамен вырезанных. "pre-cut plus post-cut" сохраняет их вместе с восстановленными вырезанными, а "only pre-cut" вырезает их, оставляя только восстановленные.
+???+ question "В чем разница между only pre-cut Vladivostok и pre-cut plus post-cut?"
+    Rockstar добавили на радиостанцию Vladivostok новые треки взамен вырезанных. Режим "pre-cut plus post-cut" оставляет новые треки вместе с восстановленными вырезанными, а "only pre-cut" вырезает новые, оставляя только восстановленные.
 
 ---
 
@@ -24,11 +26,11 @@ description: Даунгрейдинг радио до того состояни�
 
 <div class="grid cards" markdown>
 
-- Если вы также желаете совершить **даунгрейд игры**, продолжите здесь:
+- Если вы также хотите **сделать даунгрейд игры**, продолжайте здесь:
 
      [Следующая страница:material-page-last:<br>Даунгрейдинг игры</br>](downgrading-the-game.md){ .md-button .md-button--primary }
 
-- Если на этом у вас все, продолжите с **оптимизацией**:
+- Если на этом у вас все, переходите к **оптимизации**:
 
      [Следующая страница:material-page-last:<br>Оптимизация</br>](../optimization.md){ .md-button .md-button--primary }
 

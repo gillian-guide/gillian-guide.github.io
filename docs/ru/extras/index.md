@@ -1,30 +1,32 @@
-title: Extras
-description: A bunch of extra mods and applications for GTA IV
+---
+title: Дополнения
+description: Куча дополнительных модов и программ для GTA IV
+---
 
-# Extras
+# Дополнения
 
-This page has everything else that doesn't fit into earlier categories.
+Здесь собрано всё остальное, что не влезло в предыдущие категории.
 
-## Navigation
+## Навигация
 
 <div class="grid cards" markdown>
 
-- All known methods of playing **multiplayer**:
+- Все известные способы поиграть в **мультиплеер**:
 
-    [Next page:material-page-last: <br>Multiplayer</br>](multiplayer.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Мультиплеер</br>](multiplayer.md){ .md-button .md-button--primary }
 
-- Most popular **trainers** for messing around:
+- Самые популярные **тренеры**, чтобы подурачиться:
 
-    [Next page:material-page-last: <br>Trainers</br>](trainers.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Тренеры</br>](trainers.md){ .md-button .md-button--primary }
 
-- A **launcher** for organizing multiple installs:
+- **Лаунчер** для организации нескольких установок:
 
-    [Next page:material-page-last: <br>Launcher</br>](launcher.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Лаунчер</br>](launcher.md){ .md-button .md-button--primary }
 
-- Instructions for **modloading** to avoid replacing game files:
+- Инструкции по **модлоадингу**, чтобы не заменять файлы игры:
 
-    [Next page:material-page-last: <br>Modloading</br>](modloading.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Модлоадинг</br>](modloading.md){ .md-button .md-button--primary }
 
 </div>
 
-[:material-page-first:Previous page <br>Companion Mods</br>](../companion-mods.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Companion Mods</br>](../companion-mods.md){ .md-button }

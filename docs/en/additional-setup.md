@@ -1,5 +1,7 @@
+---
 title: Additional Setup
 description: Setting up launch options and optimal graphics settings
+---
 
 # Additional Setup
 
@@ -18,7 +20,7 @@ If you're here after anything else (including installing the archive on Linux), 
 ## Launch options
 
 !!! tip "Setup Utility (**Windows only**)"
-    The [Setup Utility](../optimization.md/#setup-utility-automatic-installation) can set up the launch options automatically for you.
+    The [Setup Utility](optimization.md#setup-utility-automatic-installation) can set up the launch options automatically for you.
 
 ### Manual instructions
 
@@ -114,7 +116,7 @@ If you're here after anything else (including installing the archive on Linux), 
 ## Optimal graphics settings
 
 !!! note ""
-    Following settings are targetted for the [recommended spec sheet hardware](index.md/#prerequisites).
+    Following settings are targetted for the [recommended spec sheet hardware](index.md#prerequisites).
 
     If you came here from the archive, use the FusionFix tab.
 
@@ -136,7 +138,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | VSync | Off if using DXVK<br>On | This setting controls vertical synchronization.<br>**If using [DXVK](optimization.md) with configuration applied, keep the game's implementation *Off* in favor of DXVK's implementation. ==Also add `d3d9.maxFrameRate = 60` to :material-file:`dxvk.conf` or limit framerate with other methods you know to 60 or 30 to avoid [timing-related issues](https://github.com/GTAmodding/GTAIV-Issues-List/issues/112).==** AMD Fluid Motion Frames (if DXVK is used) or [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) can be used to artificially increase the framerate. |
 === "FusionFix"
     !!! warning ""
-        Following options require [FusionFix](../essential-modding/fusionfix.md).
+        Following options require [FusionFix](essential-modding/fusionfix.md).
 
     | Setting | Optimal setting | Description |
     | :-----: | :-------------: | :---------: |
@@ -173,8 +175,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | Console Auto Exposure | Preference | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Preference | This setting controls the intensity of the motion blur effect. |
     | Depth of Field | Low<br>Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | Tree Lighting | PC+<br>Preference | This setting controls the vegetation's ambient occlusion. If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting. |
-    | Tree Alpha | PC+<br>Preference | This setting controls the vegetation's "transparency". If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting.  |
+    | Tree Lighting | PC+<br>Preference | This setting controls the vegetation's ambient occlusion. If using *Console*, install Console Visuals' Console Vegetation to go along with this setting. |
+    | Tree Alpha | PC+<br>Preference | This setting controls the vegetation's "transparency". If using *Console*, install Console Visuals' Console Vegetation to go along with this setting.  |
     | Bloom | On | This setting controls bloom. |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Distant Lights | Project2DFX | This setting controls whether the in-game's vanilla implementation of Distant Lights is used or integrated Project2DFX. <br>Further tuning for Project2DFX available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
@@ -228,8 +230,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | Console Auto Exposure | Preference | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Preference | This setting controls the intensity of the motion blur effect. |
     | Depth of Field | Low<br>Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
-    | Tree Lighting | PC+<br>Preference | This setting controls the vegetation's ambient occlusion. If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting. |
-    | Tree Alpha | PC+<br>Preference | This setting controls the vegetation's "transparency". If using *Console*, install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting.  |
+    | Tree Lighting | PC+<br>Preference | This setting controls the vegetation's ambient occlusion. If using *Console*, install Console Visuals' Console Vegetation to go along with this setting. |
+    | Tree Alpha | PC+<br>Preference | This setting controls the vegetation's "transparency". If using *Console*, install Console Visuals' Console Vegetation to go along with this setting.  |
     | Bloom | On | This setting controls bloom. |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Distant Lights | Project2DFX | This setting controls whether the in-game's vanilla implementation of Distant Lights is used or integrated Project2DFX. <br>Further tuning for Project2DFX available in :material-file-cog:`GTAIV.EFLC.FusionFix.ini`. |
@@ -251,7 +253,7 @@ If you're here after anything else (including installing the archive on Linux), 
         I don't really recommend playing with these settings, so this list is more for pure reference.
 
     !!! warning ""
-        Following options require [FusionFix](../essential-modding/fusionfix.md).
+        Following options require [FusionFix](essential-modding/fusionfix.md).
 
     | Setting | Console-identical setting | Description |
     | :-----: | :-----------------------: | :---------: |
@@ -285,8 +287,8 @@ If you're here after anything else (including installing the archive on Linux), 
     | Console Auto Exposure | On | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Very High (?) | This setting controls the intensity of the motion blur effect. |
     | Depth of Field | Very High (?) | This setting controls the intensity of the distant blur. |
-    | Tree Lighting | Console | This setting controls the vegetation's ambient occlusion. Install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting. |
-    | Tree Alpha | Console | This setting controls the vegetation's "transparency". Install Console Visuals' Console Vegetation to go along with this. Install [Console Visuals](../enhancements.md/#console-visuals)' Console Vegetation to go along with this setting. |
+    | Tree Lighting | Console | This setting controls the vegetation's ambient occlusion. Install Console Visuals' Console Vegetation to go along with this setting. |
+    | Tree Alpha | Console | This setting controls the vegetation's "transparency". Install Console Visuals' Console Vegetation to go along with this. Install Console Visuals' Console Vegetation to go along with this setting. |
     | Bloom | On | This setting controls bloom. |
     | Screen Filter | Default | This setting allows you to switch the timecyc file to match different screen filters (e.g. to have TBoGT filters in IV and vice versa). |
     | Distant Lights | Default | This setting controls whether the in-game's vanilla implementation of Distant Lights is used or Project2DFX. |
@@ -306,4 +308,4 @@ If you're here after anything else (including installing the archive on Linux), 
 
 - If you are going through the guide manually step-by-step, continue with **Essential Modding**.
 
-[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](../essential-modding/index.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Optimization</br>](optimization.md){ .md-button } [Next page:material-page-last: <br>Essential Modding</br>](essential-modding/index.md){ .md-button .md-button--primary }

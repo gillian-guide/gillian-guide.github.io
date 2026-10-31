@@ -1,14 +1,16 @@
-title: Готовый архив
+---
+title: Liberty Drag-and-Drop
 description: Полностью готовая к игре сборка для лучшего опыта сюжетки GTA IV
+---
 
-# Готовый архив { data-search-exclude }
+# Liberty Drag-and-Drop { data-search-exclude }
 
-Готовый архив - это полностью готовая к игре сборка для лучшего опыта сюжетки GTA IV. Все, что нужно для установки, это просто забросить файлы в папку с игрой и сделать несколько дополнительных действий - отсюда и название.
+Liberty Drag-and-Drop (ранее - Готовый архив, также известная как сборка Gillian, но теперь над ней работает больше людей) - это полностью готовая к игре сборка для лучшего опыта сюжетки GTA IV. Все, что нужно для установки, это просто забросить файлы в папку с игрой и сделать несколько дополнительных действий - отсюда и название.
 
 !!! warning ""
     Убедитесь, что все предварительные требования выполнены и была проведена подготовка. Если вы пропустили один из шагов, у вас могут возникнуть проблемы с использованием этой сборки, и вы не получите поддержку.
 
-    [:material-page-first:Вступление: Предварительные требования</br>](index.md/#_3){ .md-button } [:material-page-first:Подготовка</br>](preparation.md){ .md-button }
+    [:material-page-first:Вступление: Предварительные требования</br>](index.md#_3){ .md-button } [:material-page-first:Подготовка</br>](preparation.md){ .md-button }
 
 ---
 
@@ -23,29 +25,29 @@ description: Полностью готовая к игре сборка для �
 ## Установка { data-search-exclude }
 
 !!! question "Есть ли что-нибудь попроще?"
-    Да, на самом деле вы можете просто установить [FusionFix](../essential-modding/fusionfix.md) и [Various Fixes](../essential-modding/various-fixes.md) - и это исправит 90% проблем в игре, при этом имея значительно большую производительность и стабильность.
+    Да, на самом деле вы можете просто установить [FusionFix](essential-modding/fusionfix.md) и [Various Fixes](essential-modding/various-fixes.md) - и это исправит 90% проблем в игре, при этом имея значительно большую производительность и стабильность. Также можете использовать [Drag 'n Drop Archive от TJGM](https://tjgm.dev/resources/gtaiv/TJGM%27s-Drag-n%27-Drop-Archive/) - там чуть больше модов, и это по сути сборка только из самого необходимого, или, если хотите, лайт-версия моего модпака.
 
     Вы можете спросить: "Тогда в чём смысл этой сборки?" — и мой ответ будет, по сути, личным. Этот модпак создан с целью включить в себя все исправления от сообщества и базовые улучшения, которые я счёл достойными того, чтобы скомпилировать личную, "идеальную" и "definitive" версию игры, в которой исправлены все мельчайшие недочёты, но он не обязательно будет лучшим вариантом для вас, если вы не страдаете ОКР по поводу мелких проблем, несоответствий и неиспользуемого контента, которые вы могли бы использовать. Если вам нужны дополнительные аргументы в пользу модпака, посмотрите видео Not AJ выше, в котором подробно рассказывается, чем этот модпак отличается от простого использования двух вышеупомянутых модов, но я не могу заставить вас использовать его или считать его лучшим вариантом. Как говорится, выбирайте сами.
 
 !!! question "Какую версию ставить?"
-    Следующий переключитель относится к версии игры - базовые различия между ними смотрите [здесь](../downgrading/downgrading-the-game.md/#версии-игры). Моды в обоих архивах в основном идентичны, но **1.0.8.0 включает больше изменений в роде Quality of Life взамен на некоторые исправления в FusionFix и удаляет Rockstar Games Launcher, в то время как 1.2.0.59 считается более стабильным и доработанным.**
+    Следующий переключитель относится к версии игры - базовые различия между ними смотрите [здесь](downgrading/downgrading-the-game.md#_2). Моды в обоих архивах в основном идентичны, но **1.0.8.0 включает больше изменений в роде Quality of Life взамен на некоторые исправления в FusionFix и удаляет Rockstar Games Launcher, в то время как 1.2.0.59 считается более стабильным и доработанным.**
 
     Лично я предпочитаю для первого, ванильного прохождения архив для Complete Edition, а архив Vanilla+ - для перепрохождения, т.к. он значительно меняет баланс и геймплей. Учтите, что Vanilla+ намного требовательнее по железу.
 
-=== "Complete Edition (1.2.0.59)"
-    Последний раз обновлено: **[24.08.2026](#_9)**
+=== "Faithful Complete Edition (1.2.0.59)"
+    Последний раз обновлено: **[30.10.2026](#_8)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - и скорее всего значительно ухудшит ее - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
         - **Не ожидайте поддержки если устанавливаете моды за пределами [дополнительных модов](#_8) - скорее всего, вы ее не получите.**
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру. **Архив должен ставиться исключительно на чистую копию игры.**
-        - Если используете Linux, пропустите шаги 3-6, [примените параметры запуска вручную](additional-setup.md/#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](../essential-modding/fusionfix.md/#ff-linux). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
+        - Если используете Linux, пропустите шаги 3-6, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/g1368b8rujc11x5/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/1bu6ow9t3kak)) (4.9GB, SHA512: ~`f48c088d5cd8d862668b2531140236d86a873e6bbb21180b48ebede031481b7fcd9660c6da2f81b951790d028f51b1d3cff4004aadf490cd34b223b527da3070`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/4psgdmcktz8iv45/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/6ies2dr7uub3)) (5.2GB, SHA512: ~`3480f2d3c933ad8f1cf4a4a242842770a57f02082d013f75acf79133d24393d5d6866c21408a3c602b83d2f57566020ffe863a1a45ece090db6922dc9ce68aa8`~).
     1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     2. Запустите :material-file-download:`GTAIVSetupUtility.exe`. В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
-    4. Нажмите `Переустановить DXVK` (`Reinstall DXVK`), после чего `Настроить параметры запуска` (`Setup launch options`). Не трогайте переключатели, если не знаете что делаете.
+    4. Нажмите `Переустановить DXVK` (`Reinstall DXVK`), после чего `Настроить параметры запуска` (`Setup launch options`). Настройте DLSS-IV по своему вкусу. Не трогайте переключатели, если не знаете что делаете.
     5. После нажатия `Настроить параметры запуска` (`Setup launch options`) и `ОК`, параметры запуска будут у вас в буфере обмена, поэтому сделайте одно из следующих действий:
         - **:material-steam: Steam**: Нажмите правой кнопкой мыши на игре в библиотеке, нажмите `Свойства...` и вставьте содержимое в поле `Параметры запуска`.
         - **:simple-rockstargames: Rockstar Games Launcher**: Откройте страницу с игрой в библиотеке, откройте настройки и вставьте содержимое в поле `Параметры запуска`.
@@ -62,25 +64,25 @@ description: Полностью готовая к игре сборка для �
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "Vanilla+ (1.0.8.0)"
-    Последний раз обновлено: **[24.08.2026](#_9)**
+    Последний раз обновлено: **[30.10.2026](#_8)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - и скорее всего значительно ухудшит ее - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
         - **Не ожидайте поддержки если устанавливаете моды за пределами [дополнительных модов](#_8) - скорее всего, вы ее не получите.**
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
-        - Если используете Linux, пропустите шаги 3-5, [примените параметры запуска вручную](additional-setup.md/#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](../essential-modding/fusionfix.md/#ff-linux). Дополнительно, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](../resources/mod-dependencies.md/#_5) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
+        - Если используете Linux, пропустите шаги 3-5, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Дополнительно, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](resources/mod-dependencies.md#scripthookdotnet-iv-sdk-net-linux) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/rpo3cq0melcm57u/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/sxghevt64mfp)) (4.9GB, SHA512: ~`810d1c87475bc3d7bc8c9fafcc5dcc392275e8b0990e176b4067583dbfa51e922fe15ebc2cad2b96ae0b7ae46e05d0138ab56c0e50dd64175bcfd4725e88e8c9`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/58xjw5t6bv1dj00/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/psddyq3pmslb)) (5.2GB, SHA512: ~`ee2f151246a580a34aa7cd17518551aea313dd4706a2ba1d4716b0d3c052a7baee876e38bd002f2e5289b9d504eab5d7638e8489dc51c31655f5dcd445770f6e`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
-    4. Нажмите `Переустановить DXVK` (`Reinstall DXVK`), после чего `Настроить параметры запуска` (`Setup launch options`).
+    4. Нажмите `Переустановить DXVK` (`Reinstall DXVK`), после чего `Настроить параметры запуска` (`Setup launch options`). Настройте DLSS-IV по своему вкусу.
     6. Вы готовы к игре!
         - Запускайте игру через :material-steam: Steam или `PlayGTAIV.exe`.
         - **Если используете :simple-rockstargames: Rockstar Games Launcher**, не запускайте игру через лаунчер и удалите :material-file:`SteamAchievements.asi`.
         - Руссификатор доступен [ниже](#_8).
         - В настройках, измените  `Графический API` на Vulkan. Если игра вылетает, удалите :material-file:`d3d9.cfg` и не трогайте эту настройку.
-        - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы. Также следует отметить, что файлы сохранений (и папка для своих треков на радио) теперь находятся в папке :material-folder: ==Savefiles== внутри папки игры. Также, если вы уже начали играть на 1.2.0.59 и хотите продолжить игру на том же сохранении, вам потребуется сделать [даунгрейд сохранения](../downgrading/downgrading-the-game.md/#_4).
+        - Предпочтительнее начинать **новую игру**. Существующие файлы сохранения могут работать, но могут возникнуть проблемы. Также следует отметить, что файлы сохранений (и папка для своих треков на радио) теперь находятся в папке :material-folder: ==Savefiles== внутри папки игры. Также, если вы уже начали играть на 1.2.0.59 и хотите продолжить игру на том же сохранении, вам потребуется сделать [даунгрейд сохранения](downgrading/downgrading-the-game.md#_4).
         - Выставьте настройку `Транспортный поток` на `100` для полноценной утилизации кастомного popcycle.
         - Potential Grim, по умолчанию, отключен в EFLC. Найдите :material-file:`RenameToEnable.img_` в :material-folder: ==update\1 Potential Grim\TBoGT== (или TLAD) и уберите _ для включения.
         - **Не включайте настройку `Fusion Fix: Проверять Обновления`.**
@@ -90,11 +92,11 @@ description: Полностью готовая к игре сборка для �
         Если вы обновляете сборку, сначала удалите папки :material-folder: ==update== и :material-folder: ==modloader== (если есть) и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки с игрой.
 
 ??? bug "Игра не запускается | Игра странно себя ведет | Игра случайно вылетает"
-    Просмотрите [исправление проблем](../resources/troubleshooting.md).
+    Просмотрите [исправление проблем](resources/troubleshooting.md).
 
     Отключайте моды по одному, чтобы найти виновника, удаляя папки или файлы в :material-folder: ==update==, :material-folder: ==IVSDKDotNet\scripts== или файлы :material-file:`.asi` (два вероятных виновника - Liberty Tweaks и Potential Grim).
 
-    Сообщите о проблеме на [Discord сервере](../index.md/#_4).
+    Сообщите о проблеме на [Discord сервере](index.md#_4).
 
 ---
 
@@ -104,11 +106,11 @@ description: Полностью готовая к игре сборка для �
 
 - После установки архива, **примените оптимальные настройки графики**:
 
-    [Следующая страница:material-page-last: <br>Второстепенная настройка: Оптимальные настройки графики</br>](additional-setup.md/#__tabbed_2_2){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Второстепенная настройка: Оптимальные настройки графики</br>](additional-setup.md#__tabbed_2_2){ .md-button .md-button--primary }
 
 - **Если используете Linux,** также примените параметры запуска вручную:
 
-    [Следующая страница:material-page-last: <br>Второстепенная настройка: Параметры запуска</br>](additional-setup.md/#_3){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Второстепенная настройка: Параметры запуска</br>](additional-setup.md#_3){ .md-button .md-button--primary }
 
 </div>
 
@@ -123,30 +125,35 @@ description: Полностью готовая к игре сборка для �
 | Мод | Разработчик(и) | Детали |
 | :-: | :------------: | :----: |
 | [Radio Downgrader~23.05.2025~](https://github.com/Tomasak/GTA-Downgraders/releases/iv-latest) | Tomasak и другие | Простой даунгрейдер радио.<br>Использованный аддон: [Restored original TBoGT Menu Vocals](https://www.nexusmods.com/gta4/mods/234/?tab=files&category=archived).</br> |
-| [FusionFix~5.0.1~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера. |
-| [Various Fixes~2.3~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
-| [Trilogy Characters Fixes~custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей между основной GTA IV и EFLC. Использованные фанатские аддоны: [Mitch The Cop TLAD Model от Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ от nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV от nipahtard](https://www.nexusmods.com/gta4/mods/988) |
-| [EFLC Vehicle Addon Pack For GTA IV~1.2~](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ТОЛЬКО АДДОНЫ**: Направлено на дополнительное исправление несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [Console Visuals~2.1c~](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry и Parallellines | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds, Console Vegetation. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
+| [FusionFix~5.1.2~](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/) | ThirteenAG, Fusion Team и другие | Самый главный мод: он включает в себя кучу исправлений, улучшений, новые настройки а также выступает в качестве модлоадера. |
+| [Various Fixes~2.4~](https://gtaforums.com/topic/975211-various-fixes/) | Attramet и другие | Крупный сборник фиксов разного характера - в основном, кривые текстуры карты. |
+| [Trilogy Characters Fixes~custom~](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Исправляет несоответствие персонажей между основной GTA IV и EFLC. Использованные фанатские аддоны: модели из Various Fixes, [Mitch The Cop TLAD Model от Pingwinek1234](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ от nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV от nipahtard](https://www.nexusmods.com/gta4/mods/988), [Eugene Reaper and Triad 1 Fix от Pingwinek1234](https://www.nexusmods.com/gta4/mods/1469) и множество других отдельных исправлений и оптимизаций от Pingwinek1234 |
+| [EFLC Vehicle Addon Pack For GTA IV~1.2~](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ВКЛЮЧЕНЫ ТОЛЬКО АДДОНЫ, МАШИНЫ НЕ ДОБАВЛЯЮТСЯ**: Направлено на дополнительное исправление несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
+| [DLSS-IV~1.0.9~](https://www.nexusmods.com/gta4/mods/1430) | Chunk | Добавляет в GTA IV DLSS, FSR и HDR, которые на голову выше встроенных в игру решений сглаживания. Использован аддон Better Cables. |
+| [Console Visuals~2.1~](https://github.com/Tomasak/Console-Visuals/) | Tomasak, nastyyaboi, Ash_735, Attramet, brokensymmetry и Parallellines | Сборник портированных ассетов с консольной версии. <br>Включенные аддоны: Console Fences, Console Animations, Console Peds, Console Vegetation. Просмотрите [дополнительные моды](#_8) для других аддонов.</br> |
 | [Improved Animations Pack~28.06.2024~](https://gtaforums.com/topic/958625-improved-animations-pack/#comments) | B Dawg и C1aude_III | Исправляет разные проблемы с анимациями оружий. |
 | [Restored Pedestrians~2.0~](https://gtaforums.com/topic/981864-restored-pedestrians/) | Attramet | Восстанавливает пешеходов, которые либо не использовались, либо присутствовали только в бетах. <br>Включенные аддоны: Scenario Pedestrians (только на CE), Restored Taxi Drivers, M_Y_Garbage, M_Y_Amirguard_01</br> |
 | [Various Pedestrians Actions~1.7~](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и завершает недоделанные действия для пешеходов. |
-| [Restored Vegetation~21.05.2026~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает растительность, которая присутствовали в бета-версиях, но была вырезана в финальном релизе - либо случайно, либо из-за проблем с производительностью.<br>Включенный аддон: Beta Tree Positions</br> |
+| [Restored Vegetation~26.09.2026~](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает растительность, которая присутствовали в бета-версиях, но была вырезана в финальном релизе - либо случайно, либо из-за проблем с производительностью.<br>Включенный аддон: Beta Tree Positions</br> |
 | [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Восстанавливает граффити, которые были полностью вырезаны из фильного состояния игры. |
 | [More Visible Interiors~2.0~](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьер более заметными снаружи, хотя имеет недостаток в виде появления интерьеров на глазах. |
+| [Miscellaneous LOD Fixes~1.3.1~](https://www.nexusmods.com/gta4/mods/1580?tab=description) | quarterstogo2 | Исправляет некоторые LODы, которые не совпадают между IV и EFLC или в целом имеют проблемы. |
+| [Niko's Appearance Overhaul~2.0b~](https://www.nexusmods.com/gta4/mods/961?tab=posts) | ColbyDash | Исправления и улучшения текстур Нико без каких-либо изменений не в духе оригинала. |
+| [Redone Fingerless Gloves](https://www.gtainside.com/gta4/skins/new-look-model/192441-redone-fingerless-gloves-for-niko) | BrynnaDaRosa | Исправленная модель и меш перчаток без пальцев. |
 | [Higher Resolution Miscellaneous Pack~3.1~](https://www.nexusmods.com/gta4/mods/357/) | Ash_735 | Улучшает качество текстур мелких объектов. |
 | [Project Glass~10.06.2026~](https://discord.gg/gZvZmFt2p7) | DayL | Добавляет cubemap-отражения туда, где раньше было тупо прозрачное стекло. |
 | [Vehicle Pack~2.4~](https://www.nexusmods.com/gta4/mods/282?tab=files) | Ash_735 | Улучшает качество текстур всего транспорта в игре. Некоторые текстуры апскейлнуты, некоторые взяты из Max Payne 3 и GTA V. |
 | [LibertyCityPlates~1.2.6.4b~](https://www.nexusmods.com/gta4/mods/875?tab=description) | Ash_735 | Делает номерной знак уникальным для каждой машины. |
 | [Potential Grim~15.01.2024~](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Добавляет больше разнообразия педов, исправляет некоторые особенности поведения педов и добавляет прогрессивные отношения между бандами. Использованный фанатский аддон: [Optimized biker textures from Hardcore Lost MC от B Dawg](https://gtaforums.com/topic/945227-iveflc-potential-grim/?do=findComment&comment=1072426693). |
+| [Drive-By Pre-Aim~1.2~](https://www.nexusmods.com/gta4/mods/1362) | Xatriya | Позволяет прицеливаться *до* выстрела при стрельбе из машины. [Версия для 1.0.8.0](https://www.nexusmods.com/gta4/mods/1564) |
 | [Broker Bridge and Electric Wires Appearance Fix](https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/) | yarrabandi | Улучшенные шейдеры для моста Брокер. |
 | [New game parameters for transport and traffic~2.3.2~](https://www.nexusmods.com/gta4/mods/616?tab=description) | Ushan27 | Увеличивает и улучшает разнообразие транспорта и педов в разных регионах. |
 | [Fidelity Popcycle~1.0~](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | Замена popcycle в духе оригинала который делает жизнь в городе более разнообразной и реалистичной. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Позволяет пулям пробивать стекла так, как с лобовыми стеклами. |
-| [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Снимает неуязвимость с цели в миссии "Нет пути на метро". |
+| [No Way on the Subway Continuity Fix](https://www.nexusmods.com/gta4/mods/1502) | nipahtard | Исправляет нестыковку с TLAD |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Делает миссию 'Эскуэла улиц' быстрее, выкинув ПДД из головы водителя. |
 | [Clean Getaway - Destination Fix](https://gtaforums.com/topic/989680-attramets-workshop/page/3/#comment-1072596471) | Attramet | Изменяет назначение в миссии 'Чистое бегство' на то, что указано в диалоге. |
-| [Xbox Rain Droplets~01.09.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
+| [Xbox Rain Droplets~30.10.2026~](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран красивые капельки воды. </br>==Можно отключить, удалив файлы `GTAIV.XboxRainDroplets`.==</br> |
 | [Props Restoration~16.05.2026~](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Ввостанавливает пре-релизные, бета и неиспользованые пропы на карту. |
 | [Beta-Inspired Bank of Liberty](https://gtaforums.com/topic/1002675-interior-mod-beta-inspired-bank-of-liberty/) | Scott1 | Ввостанавливает интерьер Банка Либерти до состояния, которое можно было увидеть в Трейлере 1 (главная деталь - у здания теперь есть купол на потолке). |
 | [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Модель Джони (не путать с Джонни) переделанная для сходства с ее 2д артом, т.к. игровая модель ужасная. [Текстуры из Characters Fixes добавлены Pingwinek1234'ом](https://discord.com/channels/1129805289307242577/1494424154097586206/1541387694398246992). |
@@ -154,27 +161,33 @@ description: Полностью готовая к игре сборка для �
 | [High Quality Pigeons](https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/) | Supreme Dear Leader | Улучшает модель и качество текстуры голубей. [Оптимизированные текстуры от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1538872350928408737). |
 | [Resized Blista Compact](https://www.gtainside.de/en/gta4/cars/188730-resized-blista-compact/) | Thundersmacker | Уменьшение размера Blista Compact для соответствия реальному аналогу (Honda CR-X). |
 | [Player Outfit Texture Fixes](https://gtaforums.com/topic/925011-player-outfit-texture-fixes) | B Dawg | Исправляет зеленоватые текстуры на некоторых моделях персонажей. Включен [патч от Pingwinek1234](https://discord.com/channels/1129805289307242577/1548364567199875174) который заменяет текстуры Black Modo Jacket Map Prop и одной рубашки, и [доп. патч от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1548369285519507586) который применяет эти улучшения к Characters Fixes |
-| [Remove Luis Texture Compression](https://www.nexusmods.com/gta4/mods/1401?tab=description) | lettersandnumb192, B Dawg | Исправляет зеленоватые текстуры Луиса. |
-| [Story Characters Variety Animations](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Добавляет уникальные анимации к сюжетным персонажам для избавления от монотонности. Оба доп. патча применены. |
+| [Remove Luis Texture Compression (Greening)~1.5~](https://www.nexusmods.com/gta4/mods/1401?tab=description) | lettersandnumb192, B Dawg | Исправляет зеленоватые текстуры Луиса. |
+| [Story Characters Variety Animations~21.10.2026~](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Добавляет уникальные анимации к сюжетным персонажам для избавления от монотонности. Оба доп. патча применены. |
 | [Restored Motorcycle Helmets](https://www.nexusmods.com/gta4/mods/1006?file_id=2604) | Attramet | Ввостанавливает вырезанные мотошлема. [Соедененные файлы с Project Glass и Characters Fixes от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1539243333136683099). |
 | [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773) | Niikowo | Исправляет тени на спортивной курте для соответсвия зеленой куртке. |
 | [Improved Spyde Jacket](https://www.gtainside.com/en/gta4/skins/213587-improved-spyde-jacket/) | Lukakion | Улучшает модель спортивной куртки для большей полигональности и исправляет карту нормалей. |
 | [Puffer Jacket Logo](https://www.nexusmods.com/gta4/mods/542) | erwasabo | Добавляет недостающего логотипа Puffer на одну из желеток. |
 | [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/) | BrynnaDaRosa | Исправляет проблемы с текстурой руки Нико. Использованные аддоны: [TBoGT Niko In-Game Hands Fix](https://discord.com/channels/452421215076876288/461150059552178176/1535212054997241896), [TLAD Niko In-Game Hands Fix](https://discord.com/channels/1129805289307242577/1494424154097586206/1538900507618451587); оба от Pingwinek1234 |
+| [Johnny's Hand Seams Fix](https://www.nexusmods.com/gta4/mods/1315) | nipahtard | Исправляет швы на текстуре рук модели Джонни. Применено к модели для катсцен Pingwinek1234. |
+| [Johnny K pants fix~1.1~](https://www.nexusmods.com/gta4/mods/1464) | nipahtard | Исправляет небольшое пересечение полигонов при анимации прыжка в TLAD. |
 | [Ray Boccino Shirt Fix](https://www.nexusmods.com/gta4/mods/959) | DeathWrench | Исправляет плохие текстуры Рэй Боччино. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Исправление некорректного костюма в Perseus, т.к. вы покупаете костюм, отличный от отображаемого. |
+| [Clothing Props Fix Overhaul](https://www.nexusmods.com/gta4/mods/1354) | Pingwinek1234 | Исправляет и убирает большинство бета-остатков, спрятанных в пропах, и заменяет их финальными моделями. |
 | [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix) | Callistonian | Исправляет неправильно припаркованные автомоболи в районе Шоттлер. |
 | [Plane Flight Path Improvements](https://www.gtagaming.com/plane-flight-path-improvements-f33591.html) | C4PT41N BOMB4RD | Делает пути полёта самолетов более реалистичными. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Исправление голосовых линий байкеров из IV в EFLC. |
 | [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (я) | Исправляет недочет в моделе пистолета где прицел не имеет вообще никакого смысла. |
+| [Pistol UV map fix](https://discord.com/channels/452421215076876288/461150059552178176/1561930593766215770) | gooberboiuwu | Исправляет UV-развертку модели пистолета |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Исправление сломанной UV-карты на текстуре знака "Waiting Room". |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Редактирует UV-карту знака, чтобы включить в его неиспользуемую текстуру. |
 | [Replaced Esperanto by Roman's Taxi in Cab Depot](https://gtaforums.com/topic/989680-attramets-workshop/) | Attramet | Заменяет Esperanto возле оффиса Романа на его же такси. |
 | [Reduced Traffic Screech (Audio Tweak)](https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/) | GladiTek | Изменяет уровень шума транспорта в Algonquinе, чтобы он соответствовал реальному уровню, который можно обычно услышать на Times Square. |
 | [Stevie Car Theft Photo-Fixes](https://www.gtainside.com/en/gta4/mods/212547-stevie-car-theft-photo-fixes/) | AXL163 | Переделывает некоторые фото угона автомобилей для Стиви для соответствия релизному/модифицированному виду игры и транспорта. |
+| [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Меняет машины соперников в гонках на соответствующие вашей, а также убирает rubberbanding для честности |
 | [Menu Art Fix](https://drive.google.com/file/d/1g1AtEBNV2ElitGECGBD14Y0EsDN6XXR_/view?usp=drive_link) | _ys | Исправляет фоны с низким разрешением в меню EFLC. |
 | [GTA V's fxdecals](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Изменяет некоторые декали на точно такие же, но в высшем разрешении, из GTA V. |
-| [TBoGT timecyc c Глубиной резкости и Свечением](https://gtaforums.com/topic/934545-fusion-fix/page/149/#comment-1072589037) | Magic_Al | Включает Глубину резкости и Свечение в TBoGT (которые отключены по дизайну Rockstar). |
+| [TBoGT timecyc with DoF and Bloom](https://gtaforums.com/topic/934545-fusion-fix/page/149/#comment-1072589037) | Magic_Al | Включает Глубину резкости и Свечение в TBoGT (которые отключены по дизайну Rockstar). |
+| [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, я, Ash_735 | Небольшое смещение файлов, чтобы использовать геймплейную и проп-модель помпового дробления из TLAD в IV и TBoGT. |
 | Увеличенные LODы в `visualSettings.dat` | Gillian | Изменяет некоторые значения файла `visualSettings.dat`, чтобы сделать LODы идентичными до GTA V. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Повышает качество иконок радио на интерфейсе, так как они сильно не соответствуют другим частям интерфейса. |
 
@@ -182,21 +195,20 @@ description: Полностью готовая к игре сборка для �
 
 Моды или их конкретные версии в следующем списке присутствуют только в одном из архивов из-за несовместимости с другой версией.
 
-=== "1.2.0.59"
+=== "Faithful Complete Edition (1.2.0.59)"
     | Мод | Разработчик(и) | Детали |
     | :-: | :------------: | :----: |
     | [Console Select Menu](https://github.com/gennariarmando/iv-console-select-menu/) | _AG | Заменяет селектор эпизода на более похожий к консольному, который, по моему мнению, выглядит лучше. <br>==Можно отключить, удалив файлы `ConsoleSelectMenuIV` из папки :material-folder: `plugins`.==</br> |
-=== "1.0.8.0"
+=== "Vanilla+ (1.0.8.0)"
     | Мод | Разработчик(и) | Детали |
     | :-: | :------------: | :----: |
     | Даунгрейд до 1.0.8.0 | Gillian (файлы пренадлежат Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
-    | [ZolikaPatch IV~7.65~](https://zolika1351.pages.dev/mods/ivpatch) | Zolika1351 | Добавляет мелкие исправления исключительно для 1.0.8.0 и позволяет загружаться в EFLC с структурой файлов CE. |
+    | [OpenPreCEPatch](https://zolika1351.pages.dev/mods/ivpatch) | Gillian, Zolika1351 | Продолжение ZolikaPatch - добавляет несколько мелких исправлений, эксклюзивных для PreCE-версий, позволяет сохранить сохранения и файлы из CE, а также поддержку достижений Steam. |
     | [Liberty Tweaks~1.8beta~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre и другие | Мод, нацелений на улучшение различных аспектов игры и ее общий Quality of Life. Много настроек. Использованный аддон: [Armored Cops with EFLC heads from Characters Fixes от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757). <br>==Позволяет быстро сохраняться на ++f9++ и имеет множество геймплейных фич - если вам не нравятся настройки по умолчанию, вы можете изенить все на свой вкус в файле :material-file-cog:`LibertyTweaks.ini` который находится в :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [BetterRaceIV~1.0~](https://github.com/LotsofEds/BetterRaceIV) | ServalEd | Делает соперников в гонках менее тупыми. |
     | [Project Thunder~2.2.1~](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Улучшает грозу, с улучшениями к освещению и атмосфере. Много настроек. |
     | [VAmbience~1.0~](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Добавляет в игру фоновый шум, например, езда автомобилей в дали или стрельба, как в GTA V. Много настроек. |
-    | [Steam Achievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/) | Zolika1351 | Позволяет получать достижения в :material-steam: Steam на старых патчах. |
-    | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Исправляет некоторые проблемы связанные с ImGui и рендерингом облаков. |
+    | [CloudFixIV](https://www.mediafire.com/file/3ywonu77m57wv3z/CloudFixIV+1.1.rar/file) | Chunk | Исправляет некоторые проблемы связанные с ImGui и рендерингом облаков. |
 
 ---
 
@@ -204,33 +216,33 @@ description: Полностью готовая к игре сборка для �
 
 Эти моды не включены по умолчанию, но их легко установить поверх архива. Любые другие моды, не упомянутые в этом списке, не поддерживаются.
 
-=== "1.2.0.59"
+=== "Faithful Complete Edition (1.2.0.59)"
     | Мод | Разработчик(и) | Детали |
     | :-: | :------------: | :----: |
     | Альтернативный/ванильный popcycle | Ushan27 | Если вам не нравится popcycle в архиве (плотность транспортных средств, которая зависит от местности, погоды и времени суток), вы можете попробовать альтернативный popcycle из мода New game parameters for transport and traffic или вовсе удалить модифицированный popcycle. <br>Установка: переименуйте файл :material-file:`popcycle.dat_alt` в :material-file:`popcycle.dat` в папке :material-folder: ==update/common/data==, заменив существующий файл, или удалите файл :material-file:`popcycle.dat`, чтобы вернуться к ванильному состоянию.</br> |
-    | [Grass and Procedural Props Fix](https://www.nexusmods.com/gta4/mods/1230) | iammrmikeman | Исправляет проблему, из-за которой пропадает процедуральная трава и пропы. Не включен по умолчанию из-за повышенной нестабильности.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
+    | [Proper Grass](https://www.nexusmods.com/gta4/mods/1660) | paulopatine | Исправляет проблему, из-за которой пропадает процедуральная трава и пропы. Возможно, позже войдет в сам архив.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
     | [Liberty Loadout](https://www.nexusmods.com/gta4/mods/1226) | Delusional94 | Колесо выбора оружия и радио как в GTA V.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
     | [Liberty Shoulder](https://www.nexusmods.com/gta4/mods/1229) | Delusional94 | Shoulder swapping without any extras.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
     | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Добавляет детализированные анимации к пушкам. Не включен в архив из-за агрессивных изменений, которые не идеально работают с другими модами, но вы можете его использовать по желанию. <br>Установка: скачайте :material-file:`WeaponAnimations.asi` с [последнего релиза](https://github.com/ImpossibleEchoes/WeaponAnimations/releases), поместите его в папку :material-folder: ==plugins==, после скачайте версию `Animated Weapons 3.0 (Fusion Overloader)` с [NexusMods](https://www.nexusmods.com/gta4/mods/641?tab=files) и распакуйте папку :material-folder: ==AW3_Fusion_Overload\Weapon Animations 3.0\update== в папку с игрой. Переименуйте :material-folder: ==1Weapon Animations== на ==0 Weapon Animations==.</br> |
     | [Аддоны Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo и другие | Сборник портированных ассетов с консольной версии. <br>Установка: Распакуйте желаемые части в папку с игрой.</br> |
     | Сезонные читы (снег и хэллоуин) | ThirteenAG & Fusion Team | Для включения или выключения снега, введите `7665550100` на телефоне. Для хэллоуина, введите `2665550100`. |
     | [Аддоны для "снежного режима"](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_,  Straysify, gdanbo, ThirteenAG и Gillian | Часть [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) собраны в ввиде аддонов для "снежного режима" выше.<br>Инструкции по установке находятся в :material-file:`Readme.txt` внутри архива.</br> |
-    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](../resources/openiv.md).
+    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](resources/openiv.md).
     | [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description) | Alkimical | Карта высокого разрешения для меню паузы. Рекомендуется только к разрешениям 1440р и выше - на низких разрешениях выглядит грубо. |
     | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Измененные параметры вождения, чтобы управление автомобилем стало более предсказуемым, не внося при этом радикальных изменений в систему. Подробности можно прочитать на странице. <br>Установка: Скачайте основной архив, распакуйте содержимое в :material-folder: ==update==. Также установите :material-folder: ==Compatibility with LibertyCityPlates== из Optional content.
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | Мод timecyc, построенный на ванильном визуале.<br>Установка: Найдите папку :material-folder: ==Fusion overloader install== в архиве и распакуйте папку :material-folder: ==update== из-под нее в папку с игрой. Примените рекомендуемые настройки.</br> |
-=== "1.0.8.0"
+=== "Vanilla+ (1.0.8.0)"
     | Мод | Разработчик(и) | Детали |
     | :-: | :------------: | :----: |
     | Альтернативный/ванильный popcycle | Ushan27 | Если вам не нравится popcycle в архиве (плотность транспортных средств, которая зависит от местности, погоды и времени суток), вы можете попробовать альтернативный popcycle из мода New game parameters for transport and traffic или вовсе удалить модифицированный popcycle. <br>Установка: переименуйте файл :material-file:`popcycle.dat_alt` в :material-file:`popcycle.dat` в папке :material-folder: ==update/common/data==, заменив существующий файл, или удалите файл :material-file:`popcycle.dat`, чтобы вернуться к ванильному состоянию.</br> |
-    | [Grass and Procedural Props Fix](https://www.nexusmods.com/gta4/mods/1230) | iammrmikeman | Исправляет проблему, из-за которой пропадает процедуральная трава и пропы. Не включен по умолчанию из-за повышенной нестабильности.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
+    | [Proper Grass](https://www.nexusmods.com/gta4/mods/1660) | paulopatine | Исправляет проблему, из-за которой пропадает процедуральная трава и пропы. Возможно, позже войдет в сам архив.<br>Установка: поместите файлы в папку :material-folder: ==plugins==; настройте по необходимости. |
     | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Добавляет детализированные анимации к пушкам. Не включен в архив из-за агрессивных изменений, которые не идеально работают с другими модами, но вы можете его использовать по желанию. <br>Установка: скачайте :material-file:`WeaponAnimations_preCE.asi` с [последнего релиза](https://github.com/ImpossibleEchoes/WeaponAnimations/releases), поместите его в папку :material-folder: ==plugins==, после скачайте версию `Animated Weapons 3.0 (Fusion Overloader)` с [NexusMods](https://www.nexusmods.com/gta4/mods/641?tab=files) и распакуйте папку :material-folder: ==AW3_Fusion_Overload\Weapon Animations 3.0\update== в папку с игрой. Переименуйте :material-folder: ==1Weapon Animations== на ==0 Weapon Animations==.</br> |
     | [Официальный руссификатор (текст)](https://drive.google.com/file/d/1GbOA3CBAQGgXW6SjODzd8G8Cj-a8G6dt/view?usp=drive_link) | 1C SoftClub | Установка: Распакуйте папку :material-folder: ==update== в папку с игрой, в `Settings` - `Display` - `Language` смените язык на `Русский`. |
     | Настройки Liberty Tweaks | catsmackaroo, ItsClonkAndre и другие | В этом моде множество настроек, которые сильно изменяют геймплей - если вам такое не нравится, вы можете изменить настройки под свой вкус в :material-file-cog:`LibertyTweaks.ini` который находится в папке :material-folder: ==IVSDKDotNet\scripts\\==. |
     | [Аддоны Console Visuals](https://gtaforums.com/topic/989098-console-visuals-the-complete-edition) | catsmackaroo и другие | Сборник портированных ассетов с консольной версии. <br>Установка: Распакуйте желаемые части в папку с игрой.</br> |
     | Сезонные читы (снег и хэллоуин) | ThirteenAG & Fusion Team | Для включения или выключения снега, введите `7665550100` на телефоне. Для хэллоуина, введите `2665550100`. |
     | [Аддоны для "снежного режима"](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_,  Straysify, gdanbo, ThirteenAG и Gillian | Часть [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) собраны в ввиде аддонов для "снежного режима" выше.<br>Инструкции по установке находятся в :material-file:`Readme.txt` внутри архива.</br> |
-    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](../resources/openiv.md).
+    | [Файлы Potential Grim после начала игры](https://gtaforums.com/topic/945227-iveflc-potential-grim/) | Lord Criminal | Если вы уже начали игру и достаточно продвинулись, проверьте `Additional options`>`Gang acquaintances` на наличие нужных вам файлов. Вы должны вручную добавить их с помощью [OpenIV](resources/openiv.md).
     | [HQ Map](https://www.nexusmods.com/gta4/mods/356?tab=description) | Alkimical | Карта высокого разрешения для меню паузы. Рекомендуется только к разрешениям 1440р и выше - на низких разрешениях выглядит грубо. |
     | [Correction of physical parameters of transport](https://www.nexusmods.com/gta4/mods/714) | Ushan27 | Измененные параметры вождения, чтобы управление автомобилем стало более предсказуемым, не внося при этом радикальных изменений в систему. Подробности можно прочитать на странице. <br>Установка: Скачайте основной архив, распакуйте содержимое в :material-folder: ==update==. Также установите :material-folder: ==Compatibility with LibertyCityPlates== из Optional content.
     | [Solitude](https://www.nexusmods.com/gta4/mods/417) | Chunk | Мод timecyc, построенный на ванильном визуале.<br>Установка: Найдите папку :material-folder: ==Fusion overloader install== в архиве и распакуйте папку :material-folder: ==update== из-под нее в папку с игрой. Примените рекомендуемые настройки.</br> |
@@ -240,14 +252,28 @@ description: Полностью готовая к игре сборка для �
 
 ## Список изменений { data-search-exclude }
 
-=== "1.2.0.59"
+=== "Faithful Complete Edition (1.2.0.59)"
     !!! info "Последняя версия"
-         - 15.09.2026
+         - 30.10.2026
+            - Обновления от Dashii:
+                - Добавлены Johnny's Hand Seams Fix, Clothing Props Fix Overhaul, Drive-By Pre-Aim, Niko's Appearance Overhaul, Redone Fingerless Gloves, Better Tree LODs, DLSS-IV + Better Cables Addon, Eugene Reaper and Triad 1 Fix, Johnny K pants fix, Restored Hove Beach Telegraph Pole and Trees, No Way on The Subway Continuity Fix, Miscellaneous LOD Fixes, Pistol UV map fix, Sensible Rival Cars и No Rubber banding.
+                - Обновлены FusionFix, Various Fixes, Xbox Rain Droplets, Johnny K Eye Color V, Remove Luis Texture Compression (Greening) и Restored Vegetation.
+                - Исправлены мипмапы для текстур рук в катсценах и волос в игре у Нико из Characters Fixes для EFLC.
+                - Восстановлены альфа-карты для диффузных текстур головы Нико в основной игре и эпизодах.
+                - Исправлен баг Project Thunder с отсутствием молний и звуков грома.
+            - Обновления от Pingwinek1234:
+                - 'Restored Hove Beach Telegraph Pole and Trees' от Entitled Little Prick перемещен в MinorMods.img, а brook_s.img удален (чтобы не конфликтовало с Various Fixes)
+                - Удален мод 'Yes Way on The Subway' от ServalEd, чтобы он не конфликтовал с 'No Way on The Subway Continuity Fix' от nipahtard
+                - Добавлен патч совместимости Beta Bank of Liberty для мода Eugene Reaper and Triad 1 Fix
+                - Оптимизированы текстуры Джима Фицджеральда в CharacterFixes.IV.img
+                - В gta.dat добавлен 'DELAYED_IDE', чтобы не ломать сохранения и прочее
+                - В newchar.ide добавлен walkstyle Джима Фицджеральда из мода 'Story Characters Variety Animations' от f_y_street_02
+    ??? quote "Старые изменения"
+        - 15.09.2026
             - Обновлены Various Fixes, Xbox Rain Droplets, Higher Resolution Miscellaneous Pack
             - Обновления от Pingwinek1234:
                 - Обновленный Player Outfit Texture Fixes с доп. фиксами и применением к Characters Fixes
                 - Добавлены Remove Luis Texture Compression, Story Characters Variety Animations
-    ??? quote "Старые изменения"
         - 24.08.2026 (хотфикс)
             - Удален Grass and Procedural Props Fix из-за повышенной нестабильности; перемещен в Дополнительные моды
             - Хотфикс от Pingwinek1234:
@@ -505,15 +531,28 @@ description: Полностью готовая к игре сборка для �
             - Обновлены моды.
         - 26.06.2023:
             - Архив создан.
-=== "1.0.8.0"
+=== "Vanilla+ (1.0.8.0)"
     !!! info "Последняя версия"
-         - 15.09.2026
+         - 30.10.2026
+            - Обновления от Dashii:
+                - Добавлены Johnny's Hand Seams Fix, Clothing Props Fix Overhaul, Drive-By Pre-Aim, Niko's Appearance Overhaul, Redone Fingerless Gloves, Better Tree LODs, DLSS-IV + Better Cables Addon, Eugene Reaper and Triad 1 Fix, Johnny K pants fix, Restored Hove Beach Telegraph Pole and Trees, No Way on The Subway Continuity Fix, Miscellaneous LOD Fixes, Pistol UV map fix, Sensible Rival Cars и No Rubber banding.
+                - Обновлены FusionFix, Various Fixes, Liberty Tweaks, Xbox Rain Droplets, Johnny K Eye Color V, Remove Luis Texture Compression (Greening) и Restored Vegetation.
+                - Исправлены мипмапы для текстур рук в катсценах и волос в игре у Нико из Characters Fixes для EFLC.
+                - Восстановлены альфа-карты для диффузных текстур головы Нико в основной игре и эпизодах.
+            - Обновления от Pingwinek1234:
+                - 'Restored Hove Beach Telegraph Pole and Trees' от Entitled Little Prick перемещен в MinorMods.img, а brook_s.img удален (чтобы не конфликтовало с Various Fixes)
+                - Удален мод 'Yes Way on The Subway' от ServalEd, чтобы он не конфликтовал с 'No Way on The Subway Continuity Fix' от nipahtard
+                - Добавлен патч совместимости Beta Bank of Liberty для мода Eugene Reaper and Triad 1 Fix
+                - Оптимизированы текстуры Джима Фицджеральда в CharacterFixes.IV.img
+                - В gta.dat добавлен 'DELAYED_IDE', чтобы не ломать сохранения и прочее
+                - В newchar.ide добавлен walkstyle Джима Фицджеральда из мода 'Story Characters Variety Animations' от f_y_street_02
+    ??? quote "Старые изменения"
+        - 15.09.2026
             - Обновлены Various Fixes, Xbox Rain Droplets, Higher Resolution Miscellaneous Pack, Liberty Tweaks
             - Отключен стрит-рейсинг в Liberty Tweaks ибо функция чисто спавнила пустые машины посреди дороги
             - Обновления от Pingwinek1234:
                 - Обновленный Player Outfit Texture Fixes с доп. фиксами и применением к Characters Fixes
                 - Добавлены Remove Luis Texture Compression, Story Characters Variety Animations
-    ??? quote "Старые изменения"
         - 24.08.2026 (хотфикс)
             - Удален Grass and Procedural Props Fix из-за повышенной нестабильности; перемещен в Дополнительные моды
             - Хотфикс от Pingwinek1234:

@@ -1,5 +1,7 @@
+---
 title: Optimization
 description: Everything about DXVK for GTA IV
+---
 
 # Optimization
 
@@ -24,7 +26,7 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 ## Prerequisites
 
 !!! warning ""
-    - Make sure your [drivers](../preparation.md/#drivers) are up-to-date.
+    - Make sure your [drivers](preparation.md#drivers) are up-to-date.
     - If using Windows, disable `Shader Pre-caching` in :material-steam: Steam, located in `Settings` - `Downloads`.
     - If using Linux, skip to [configuration](#configuration), since Proton already uses DXVK.
 
@@ -32,7 +34,7 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
 
 ## [Setup Utility](https://github.com/gillian-guide/GTAIVSetupUtility) (Automatic installation)
 
-Using this tool you can set up DXVK and [launch options](../additional-setup.md/#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
+Using this tool you can set up DXVK and [launch options](additional-setup.md#launch-options) easily and automatically. It also takes care of compatibility between FusionFix, ZolikaPatch and other specifics - you can read the feature list [here](https://github.com/gillian-guide/GTAIVSetupUtility?tab=readme-ov-file#features).
 
 !!! info ""
     - You should re-run the tool **if you downgrade and/or install FusionFix and/or ZolikaPatch later.**
@@ -50,14 +52,14 @@ Using this tool you can set up DXVK and [launch options](../additional-setup.md/
 5. Press `Install DXVK` and `Setup launch options` in sequence.
     - If experienced, you can manually configure the options. There is usually no need to, though.
     - Updating DXVK can be done by pressing `Reinstall DXVK`.
-    - If any issues occur, [report them on the Discord server](../index.md/#navigation).
+    - If any issues occur, [report them on the Discord server](index.md#navigation).
 
 ???+ warning "For NVIDIA 50-series RTX GPU users"
     Make sure your drivers are up-to-date. For several months, the drivers used to insta-crash all 50-series users. Latest drivers don't have that problem.
 
 After using the tool, you can freely skip to optimal graphics settings:
 
-[Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md/#optimal-graphics-settings){ .md-button .md-button--primary }
+[Next page:material-page-last: <br>Additional Setup: Optimal graphics settings</br>](additional-setup.md#optimal-graphics-settings){ .md-button .md-button--primary }
 
 ---
 
@@ -123,7 +125,7 @@ After using the tool, you can freely skip to optimal graphics settings:
 
     If your game won't start at all, your GPU doesn't support the latest version. Use the Legacy version instead.
 
-    See [troubleshooting](../resources/troubleshooting.md).
+    See [troubleshooting](resources/troubleshooting.md).
 ???+ warning "For NVIDIA 50-series RTX GPU users"
     Make sure your drivers are up-to-date. For several months, the drivers used to insta-crash all 50-series users. Latest drivers don't have that problem.
 
@@ -165,4 +167,4 @@ For more in-depth configuration, you can see the full list of available options 
 
 After performing optimization, you should continue off with additional setup to finish optimizing the game.
 
-[:material-page-first:Previous page <br>Downgrading</br>](../downgrading/index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>Downgrading</br>](downgrading/index.md){ .md-button } [Next page:material-page-last: <br>Additional Setup</br>](additional-setup.md){ .md-button .md-button--primary }

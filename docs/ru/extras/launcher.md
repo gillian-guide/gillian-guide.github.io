@@ -1,31 +1,33 @@
-title: Launcher
-description: Do you really need that many installs?
+---
+title: Лаунчер
+description: Неужели вам нужно столько установок?
+---
 
-# [Launcher](https://gtaforums.com/topic/978788-gta-iv-launcher/)
+# [Лаунчер](https://gtaforums.com/topic/978788-gta-iv-launcher/)
 
-Let's say you have an instance for your modded version of GTA IV and an instance for the slightly modded GFWL version. Gets annoying to switch between folders, doesn't it? ItsClonkAndre's launcher comes to the rescue!
-!!! warning "Compatibility"
-    This launcher is theoretically compatible with the Complete Edition instances, but it's very problematic. You have to start the instance first, then once the Rockstar Games Launcher is open, close the IV Launcher and click `Play on Steam`, which will open the launcher again - from there, start the instance again ==without== closing the Rockstar Games Launcher, and that should get you into the game.
+Допустим, у вас есть одна установка с модифицированной GTA IV, а другая - со слегка модифицированной версией под GFWL. Переключаться между папками неудобно, правда? Тут на помощь приходит лаунчер от ItsClonkAndre!
+!!! warning "Совместимость"
+    Теоретически этот лаунчер совместим с установками Complete Edition, но на практике всё очень проблемно. Сначала нужно запустить установку, затем, когда откроется Rockstar Games Launcher, закрыть IV Launcher и нажать `Play on Steam` - лаунчер откроется снова. Оттуда запустите установку еще раз, ==не== закрывая Rockstar Games Launcher, и это должно запустить игру.
 
-    Frankly, I'd only recommend this launcher if you have no CE instances.
+    Честно говоря, я бы рекомендовал этот лаунчер только если у вас нет установок CE.
 
 ---
 
-<h2>Installation</h2> <a id="installation"></a>
+<h2>Установка</h2> <a id="installation"></a>
 
-1. Go to the [GTAForums page](https://gtaforums.com/topic/978788-gta-iv-launcher/).
-2. Download the latest version. Read the notes on the page.
-3. Extract the :material-zip-box:`GTAIVLauncher_vx.x.zip` archive into any empty folder.
-4. Open :material-file:`GTAIVLauncher.exe` with :fontawesome-solid-shield-halved: ==elevated permissions==.
-5. Follow the in-app instructions to create and configure instances.
-!!! tip "How do I launch the launcher with :material-steam: Steam?"
-    1. Move the launcher files to the game folder.
-    2. Rename :material-file:`PlayGTAIV.exe` to something else.
-    3. Rename :material-file:`GTAIVLauncher.exe` to `PlayGTAIV.exe`.
-    4. Rename :material-file-cog:`GTAIVLauncher.exe.config` to `PlayGTAIV.exe.config`.
+1. Перейдите на [страницу на GTAForums](https://gtaforums.com/topic/978788-gta-iv-launcher/).
+2. Скачайте последнюю версию. Прочитайте примечания на странице.
+3. Распакуйте архив :material-zip-box:`GTAIVLauncher_vx.x.zip` в любую пустую папку.
+4. Откройте :material-file:`GTAIVLauncher.exe` с :fontawesome-solid-shield-halved: ==правами администратора==.
+5. Следуйте инструкциям в приложении, чтобы создать установки и настроить их.
+!!! tip "Как запустить лаунчер через :material-steam: Steam?"
+    1. Переместите файлы лаунчера в папку с игрой.
+    2. Переименуйте :material-file:`PlayGTAIV.exe` во что-нибудь другое.
+    3. Переименуйте :material-file:`GTAIVLauncher.exe` в `PlayGTAIV.exe`.
+    4. Переименуйте :material-file-cog:`GTAIVLauncher.exe.config` в `PlayGTAIV.exe.config`.
 
 ---
 
-<h2>Navigation</h2> <a id="navigation"></a>
+<h2>Навигация</h2> <a id="navigation"></a>
 
-[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Дополнения</br>](index.md){ .md-button }

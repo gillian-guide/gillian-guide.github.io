@@ -1,33 +1,35 @@
+---
 title: Обязательные моды
 description: Обязательные моды для GTA IV
+---
 
 # Обязательные моды
 
-В этой категории вы найдете моды, которые я считаю обязательными для любой установки GTA IV, вместе с инструкциями по их установке и настройке.
+В этой категории собраны моды, которые я считаю обязательными для любой установки GTA IV, вместе с инструкциями по их установке и настройке.
 
 !!! warning ""
-    Каждый последующий мод требует [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+    Каждый мод ниже требует [Ultimate ASI Loader](../resources/mod-dependencies.md#ultimate-asi-loader).
 
 ## Навигация
 
 <div class="grid cards" markdown>
 
-- **FusionFix** метит на исправление большинства **графических и геймплейных проблем** и добавляет новые настройки графики. ^^Настоятельно рекомендуется установить первым.^^
+- **FusionFix** нацелен на исправление большинства **графических и геймплейных проблем** и добавляет новые настройки графики. ^^Настоятельно рекомендую ставить его первым.^^
 
     [Следующая страница:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **ZolikaPatch** улучшает работоспособность мультиплеера и **считается обязательным для даунгрейднутых версией**. ^^Не устанавливайте, если не даунгрейдились.^^
+- **OpenPreCEPatch** улучшает работу мультиплеера и добавляет поддержку DLC в патчи PreCE, и **считается обязательным для даунгрейнутых версий**. ^^Не устанавливайте, если не даунгрейдились.^^
 
-    [Следующая страница:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 
-- **Various Fixes** метит на исправление или улучшение большого количества **проблем с картой и текстурами**.
+- **Various Fixes** нацелен на исправление или улучшение большого количества **проблем с картой и текстурами**.
 
     [Следующая страница:material-page-last: <br>Various Fixes</br>](various-fixes.md){ .md-button .md-button--primary }
 
-- **Дополнительные моды** - список всех дополнительных модов которых можно использовать в сборке которые **не являются обязательными**.
+- **Companion Mods** - список всех дополнительных модов, которые можно использовать в сборке, но которые **не являются обязательными**.
 
-    [Следующая страница:material-page-last: <br>Дополнительные моды</br>](../companion-mods.md){ .md-button .md-button--primary }
+    [Следующая страница:material-page-last: <br>Companion Mods</br>](../companion-mods.md){ .md-button .md-button--primary }
 
 </div>
 
-[:material-page-first:Предудыщая страница <br>Второстепенная настройка</br>](../additional-setup.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Второстепенная настройка</br>](../additional-setup.md){ .md-button }

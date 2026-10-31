@@ -1,0 +1,188 @@
+[project]
+site_name = "Gillian's GTA IV Modding Guide"
+site_url = "https://gillian-guide.github.io/"
+copyright = """
+  Copyright &copy; 2021 - 2026 Gillian - <a href="#__consent"><u>Change cookie settings</u></a>.
+  This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive.
+"""
+
+repo_url = "https://github.com/gillian-guide/gillian-guide.github.io"
+repo_name = "Website's repository"
+
+extra_css = [
+  "assets/stylesheets/extra.css",
+]
+
+nav = [
+  "index.md",
+  "preparation.md",
+  "drag-and-drop-archive.md",
+  { "Downgrading" = [
+    "downgrading/index.md",
+    "downgrading/downgrading-the-radio.md",
+    "downgrading/downgrading-the-game.md",
+  ] },
+  "optimization.md",
+  "additional-setup.md",
+  { "Essential Modding" = [
+    "essential-modding/index.md",
+    "essential-modding/fusionfix.md",
+    "essential-modding/openprecepatch.md",
+    "essential-modding/various-fixes.md",
+  ] },
+  "companion-mods.md",
+  { "Extras" = [
+    "extras/index.md",
+    "extras/multiplayer.md",
+    "extras/trainers.md",
+    "extras/launcher.md",
+    "extras/modloading.md",
+  ] },
+  { "Resources" = [
+    "resources/mod-dependencies.md",
+    "resources/openiv.md",
+    "resources/troubleshooting.md",
+    "resources/similar-guides-modpacks.md",
+    "resources/credits.md",
+  ] },
+]
+
+[project.theme]
+variant = "modern"
+custom_dir = "overrides"
+language = "en"
+logo = "assets/logo-no-modding.webp"
+favicon = "assets/iv-logo-favicon.webp"
+features = [
+  "toc.integrate",
+  "toc.follow",
+  "navigation.expand",
+  "navigation.indexes",
+  "navigation.top",
+  "navigation.instant",
+  "content.tabs.link",
+  "content.tooltips",
+  "content.code.copy",
+  "content.code.annotate",
+  "content.action.edit",
+  "header.autohide",
+  "announce.dismiss",
+]
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "black"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "black"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+[project.theme.icon.admonition]
+quote = "material/clipboard-text"
+
+[project.markdown_extensions]
+toc.permalink = "#"
+md_in_html = {}
+admonition = {}
+tables = {}
+attr_list = {}
+def_list = {}
+abbr = {}
+pymdownx.superfences = {}
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.critic = {}
+pymdownx.caret = {}
+pymdownx.mark = {}
+pymdownx.tilde = {}
+pymdownx.snippets.auto_append = ["includes/abbreviations.md"]
+pymdownx.keys = {}
+pymdownx.tabbed.alternate_style = true
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.tasklist.custom_checkbox = true
+
+# Instant previews of linked pages, enabled for the pages of the guide
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+targets.include = [
+  "*.md",
+  "downgrading/*.md",
+  "essential-modding/*.md",
+  "extras/*.md",
+  "resources/*.md",
+]
+
+[project.plugins.i18n]
+docs_structure = "folder"
+fallback_to_default = true
+reconfigure_theme = true
+translate_admonitions = true
+
+[[project.plugins.i18n.languages]]
+locale = "en"
+default = true
+name = "English"
+
+[[project.plugins.i18n.languages]]
+locale = "ru"
+name = "Русский"
+
+[project.plugins.glightbox]
+
+[project.plugins.social]
+
+[project.plugins.privacy]
+
+[project.plugins.minify]
+minify_html = true
+minify_css = true
+css_files = [
+  "assets/stylesheets/extra.css",
+]
+
+# Old page locations, kept working after pages were moved into the navigation
+# sections. Keys are relative to the docs directory of each language, so the
+# mapping applies to both English and Russian.
+[project.plugins.redirects]
+redirect_maps = { "credits.md" = "resources/credits.md", "troubleshooting.md" = "resources/troubleshooting.md", "mod-dependencies.md" = "resources/mod-dependencies.md", "openiv.md" = "resources/openiv.md", "extras/openiv.md" = "resources/openiv.md", "multiplayer.md" = "extras/multiplayer.md", "extras/mods.md" = "extras/modloading.md", "support.md" = "resources/troubleshooting.md", "contact-me.md" = "index.md", "enhancements.md" = "companion-mods.md", "essential-modding/zolikapatch.md" = "essential-modding/openprecepatch.md" }
+
+# An llms.txt index and Markdown copies of every page, per language
+[project.plugins.llmstxt]
+sections = { "Getting started" = ["index.md", "preparation.md", "drag-and-drop-archive.md"], "Downgrading" = ["downgrading/*.md"], "Setup" = ["optimization.md", "additional-setup.md"], "Essential Modding" = ["essential-modding/*.md"], "Companion Mods" = ["companion-mods.md"], "Extras" = ["extras/*.md"], "Resources" = ["resources/*.md"] }
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://discord.gg/zwmsQqExbQ"
+name = "My Discord server"
+
+[project.extra.analytics]
+provider = "google"
+property = "G-RSQFR3F839"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+  This site uses cookies for Google Analytics,
+  which are used to recognize your repeated visits, the visited pages,
+  your preferences and basic browser information used only for global statistics purposes.
+  They are not mandatory and you can disable them if you wish to do so.
+"""
+actions = [
+  "accept",
+  "reject",
+  "manage",
+]

@@ -1,53 +1,55 @@
-title: Trainers
-description: Dad, look, I can bhop in GTA IV!
+---
+title: Тренеры
+description: Пап, смотри, я умею баннихопить в GTA IV!
+---
 
-# Trainers
+# Тренеры
 
-Trainers are essentially modmenus that add a lot of fun and useful options. They're also a better alternative to the very limited amount of [cheatcodes](https://gta.fandom.com/wiki/Cheats_in_GTA_IV) the game offers. You may want one for [multiplayer](multiplayer.md), but make sure your client/server allows them first.
+Тренеры - это по сути модменю, которые добавляют кучу веселых и полезных возможностей. Еще это хорошая альтернатива очень ограниченному набору [читов](https://gta.fandom.com/wiki/Cheats_in_GTA_IV), которые предлагает игра. Тренер может пригодиться в [мультиплеере](multiplayer.md), но сначала убедитесь, что ваш клиент/сервер их разрешает.
 
 !!! warning ""
-    Both trainers require [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+    Оба тренера требуют [Ultimate ASI Loader](../resources/mod-dependencies.md#ultimate-asi-loader).
 
-    Also please pick one - don't install both at once.
+    И, пожалуйста, выберите один - не ставьте оба сразу.
 
 ---
 
 ## [ZMenuIV](https://zolika1351.pages.dev/mods/ivmenu)
 
-!!! warning "Compatibility"
-    This trainer is not compatible with the Complete Edition.
-The most powerful and full-fledged trainer for GTA IV. Also includes a Chaos mod with streamer support, and features as absurd as GoldSrc physics.
+!!! warning "Совместимость"
+    Этот тренер несовместим с Complete Edition.
+Самый мощный и полнофункциональный тренер для GTA IV. Включает и Chaos-мод с поддержкой стримеров, и такие абсурдные вещи, как физика GoldSrc.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
-2. Scroll to the bottom of the page and download the latest version.
-3. Extract :material-zip-box:`ZMenuIV_vx.zip` into the game folder
-    - Do not extract :material-folder: `asi loader if not using xliveless`, :material-folder: `for developers`, :material-folder: `old version (has VR support)`, :material-folder: `parachute support(all into game folder)`. Read the :material-file:`readme.txt` for details on these folders.
+1. Перейдите на [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivmenu).
+2. Прокрутите страницу вниз и скачайте последнюю версию.
+3. Распакуйте :material-zip-box:`ZMenuIV_vx.zip` в папку с игрой
+    - Не распаковывайте :material-folder: `asi loader if not using xliveless`, :material-folder: `for developers`, :material-folder: `old version (has VR support)`, :material-folder: `parachute support(all into game folder)`. Подробности об этих папках читайте в :material-file:`readme.txt`.
 
-<h3>Usage</h3>
+<h3>Использование</h3>
 
-The default hotkeys are:
+Клавиши по умолчанию:
 
-- ++f7++ to toggle menu.
-- ++num8++, ++num2++, ++num4++, ++num6++ for navigation, ++num5++ to accept, ++num0++ to go back.
-- ++right-control+num1++ to fix the car.
-- ++right-control+num2++ to flip the car.
-- ++bracket-right++ (hold) to speed the car up.
-- ++f6++ for Airbreak (noclip).
-- ++0++ for Always God Mode.
-- ++bracket-left++ for Never Wanted.
-- ++semicolon++ for Unlimited Ammo.
-- ++equal++ for Collision.
-- ++minus++ for Resurrect.
-- ++m++ for Ragdoll.
+- ++f7++ - открыть/закрыть меню.
+- ++num8++, ++num2++, ++num4++, ++num6++ - навигация, ++num5++ - подтвердить, ++num0++ - вернуться назад.
+- ++right-control+num1++ - починить машину.
+- ++right-control+num2++ - перевернуть машину.
+- ++bracket-right++ (удерживать) - ускорить машину.
+- ++f6++ - Airbreak (noclip).
+- ++0++ - Always God Mode.
+- ++bracket-left++ - Never Wanted.
+- ++semicolon++ - Unlimited Ammo.
+- ++equal++ - Collision.
+- ++minus++ - Resurrect.
+- ++m++ - Ragdoll.
 
-You can add your own custom keybinds that can combine multiple options together. To do so, enable `Custom Keybind Creator` in `Trainer Settings`, highlight the desired option and press ++left-control+enter++ to set the keybind up.
+Вы можете добавить свои горячие клавиши, которые объединяют несколько опций. Для этого включите `Custom Keybind Creator` в `Trainer Settings`, выделите нужную опцию и нажмите ++left-control+enter++, чтобы задать клавишу.
 
-Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change existing keybinds.
+Чтобы изменить существующие привязки, отредактируйте раздел `[Keybinds]` в :material-file-cog:`ZMenuIV.ini`.
 
-??? tip "Setting up Numpad-less keybinds"
-    Not everyone has a Numpad, I get it, 80% (and less) keyboards are cool and comfortable. Open :material-file-cog:`ZMenuIV.ini` and locate these lines:
+??? tip "Настройка клавиш без нумпада"
+    Нумпад есть не у всех, я понимаю: 80-процентные (и меньше) клавиатуры - это удобно и практично. Откройте :material-file-cog:`ZMenuIV.ini` и найдите эти строки:
 
     ```{ .ini }
     [Keybinds]
@@ -65,7 +67,7 @@ Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change exis
     MenuBack=96
     ```
 
-    and change them to:
+    и замените их на:
 
     ```{ .ini }
     [Keybinds]
@@ -83,42 +85,42 @@ Edit the `[Keybinds]` section in :material-file-cog:`ZMenuIV.ini` to change exis
     MenuBack=220
     ```
 
-    Which will be:
+    Что будет означать:
 
-    - ++i++++j++++k++++l++ for navigation. ++enter++ to accept, ++backslash++ to go back.
-    - ++w++++a++++s++++d++ for horizontal airbreak control, ++space++ for going up and ++lshift++ for going down.
+    - ++i++++j++++k++++l++ - навигация. ++enter++ - подтвердить, ++backslash++ - вернуться назад.
+    - ++w++++a++++s++++d++ - горизонтальное управление airbreak, ++space++ - вверх, ++lshift++ - вниз.
 
 ---
 
 ## [Liberty's Legacy](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)
 
-!!! warning "Compatibility"
-    This trainer is compatible with the Complete Edition, as well as patches 1.0.8.0 and 1.0.7.0.
-This trainer is not as powerful as ZMenuIV, but still offers a lot of useful features. It's also the only one you can use with the Complete Edition, anyway. It's also compatible with controllers.
+!!! warning "Совместимость"
+    Этот тренер совместим с Complete Edition, а также с патчами 1.0.8.0 и 1.0.7.0.
+Этот тренер не такой мощный, как ZMenuIV, но тоже предлагает много полезных функций. Впрочем, это единственный тренер, который можно использовать с Complete Edition. Еще он поддерживает геймпады.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Install [ScriptHookDotNet](../../resources/mod-dependencies.md/#scripthookdotnet) if you hadn't done so yourself outside of the guide.
-2. Go to the [GTAForums page](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
-3. Download the latest version.
-4. Extract the :material-zip-box:`Liberty's Legacy Trainer xxx.zip` archive into the game folder.
+1. Установите [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet), если вы не сделали этого сами вне руководства.
+2. Перейдите на [страницу на GTAForums](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/).
+3. Скачайте последнюю версию.
+4. Распакуйте архив :material-zip-box:`Liberty's Legacy Trainer xxx.zip` в папку с игрой.
 
-<h3>Usage</h3>
+<h3>Использование</h3>
 
-The default hotkeys on keyboard&mouse are:
+Клавиши по умолчанию на клавиатуре и мыши:
 
-- ++f11++ to toggle menu.
-- Arrow keys for navigation, ++enter++ to accept, ++backspace++ to go back.
+- ++f11++ - открыть/закрыть меню.
+- Стрелки - навигация, ++enter++ - подтвердить, ++backspace++ - вернуться назад.
 
-The controller binds ones are:
+Привязки на геймпаде:
 
-- RB+X or R1+Square on controllers.
-- D-Pad for navigation, A or Cross to accept, B or Circle to go back.
+- RB+X или R1+Square на геймпадах.
+- D-Pad - навигация, A или Cross - подтвердить, B или Circle - вернуться назад.
 
-Additional key bindings can be set by highlighting the desired option, pressing ++left-control+enter++ and pressing the key you want to bind.
+Дополнительные привязки можно задать так: выделите нужную опцию, нажмите ++left-control+enter++ и нажмите клавишу, которую хотите привязать.
 
 ---
 
-## Navigation
+## Навигация
 
-[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Дополнения</br>](index.md){ .md-button }

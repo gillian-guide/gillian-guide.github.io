@@ -1,47 +1,49 @@
-title: Modloading
-description: Phew, all original files are still there!
+---
+title: Модлоадинг
+description: Уф, все оригинальные файлы на месте!
+---
 
-# Modloading
+# Модлоадинг
 
-A lot of mods require replacing game files with [OpenIV](../../resources/openiv.md). We can get around this by using a modloader.
+Многие моды требуют заменять файлы игры через [OpenIV](../resources/openiv.md). Этого можно избежать с помощью модлоадера.
 
 ---
 
-## [Fusion Overloader](../../essential-modding/fusionfix.md)
+## [Fusion Overloader](../essential-modding/fusionfix.md)
 
-!!! warning "Compatibility"
-    Supports both the Complete Edition and 1.0.8.0/1.0.7.0 as long as the latest version of [FusionFix](../../essential-modding/fusionfix.md) is installed.
+!!! warning "Совместимость"
+    Поддерживает и Complete Edition, и 1.0.8.0/1.0.7.0, если установлена последняя версия [FusionFix](../essential-modding/fusionfix.md).
 
-This modloader works by loading the files from the :material-folder: ==update== folder *instead* of the main game files, avoiding replacing the original files.
+Этот модлоадер работает так: файлы загружаются из папки :material-folder: ==update== *вместо* основных файлов игры, поэтому оригинальные файлы не заменяются.
 
-### Installing mods packaged for Fusion Overloader
+### Установка модов, упакованных под Fusion Overloader
 
-They're likely already packaged into an :material-folder: ==update== folder. Just drop that folder into the root folder of the game.
+Скорее всего, они уже упакованы в папку :material-folder: ==update==. Просто закиньте эту папку в корневую папку игры.
 
 ---
 
-### Installing mods with files that go into `.img` archives"
+### Установка модов с файлами, которые идут в архивы `.img`
 
-Example: mod requires you to drop a file into the :material-file:`vehicles.img` file.
+Пример: мод требует положить файл в :material-file:`vehicles.img`.
 
-!!! info "For mods that provide a whole `.img` archive"
-    If, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle - you should only package that separate vehicle alone. While you *can* get away with not separating the modified files, you'll ruin compatibility with other mods. So please don't do that.
+!!! info "Для модов, которые предоставляют целиком архив `.img`"
+    Если, скажем, мод собирает весь `vehicles.img`, а заменяет только одну машину - упаковывать нужно только эту отдельную машину. Можно, конечно, *не* отделять измененные файлы, но так вы сломаете совместимость с другими модами. Так что, пожалуйста, не делайте так.
 
-    If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
+    Если вы всё-таки хотите отделить измененные файлы, распакуйте архивы мода и ванильный в разные папки и сравните их чем-нибудь вроде [WinMerge](https://winmerge.org/).
 
-1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../../resources/openiv.md).
-2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other (i.e. a mod provides separate files for base IV and EFLC), compile a separate `.img` file for each subgame.
-3. Create a folder with the name of your mod in the :material-folder: ==update== folder (create one in the game folder if it doesn't exist).
-4. Drop your compiled `.img` files into that folder.
-5. If you went through step 2, also create folders called :material-folder: ==IV==, :material-folder: ==TLAD== or :material-folder: ==TBoGT== and drop the separate `.img` files there.
+1. Соберите все файлы, которые должны попасть в `.img`, в один архив `.img` (или несколько, если архивы превышают `1.5GB` - во избежание проблем) с помощью [OpenIV](../resources/openiv.md).
+2. Если у вас есть файлы, которые должны внедряться только в TLAD, TBoGT или IV, а не в остальные (т.е. мод дает отдельные файлы для базовой IV и EFLC), соберите отдельный `.img` для каждой части.
+3. Создайте в папке :material-folder: ==update== папку с названием вашего мода (если ее нет в папке с игрой, создайте).
+4. Положите туда собранные `.img` файлы.
+5. Если вы выполняли шаг 2, создайте еще папки :material-folder: ==IV==, :material-folder: ==TLAD== и :material-folder: ==TBoGT== и положите отдельные `.img` файлы туда.
 
-!!! tip "Priority"
-    If you have multiple mods that replace same files and need a priority system, you can add a number or a symbol (such as !) before it's name.
+!!! tip "Приоритет"
+    Если у вас несколько модов, заменяющих одни и те же файлы, и нужна система приоритетов, можно добавить перед названием число или символ (например, !).
 
-    Whatever is higher on the folder when sorting by **Name (ascending)** - is higher on priority.
+    Что выше в папке при сортировке по **имени (по возрастанию)** - то и в приоритете.
 
-    ??? info "Expected folder structure"
-        In this example, Mod 2 is supposed to be higher priority than Mod 1.
+    ??? info "Ожидаемая структура папок"
+        В этом примере Mod 2 должен иметь более высокий приоритет, чем Mod 1.
 
         * :material-folder: ==GTAIV==\
             * :material-folder: ==update==\
@@ -58,22 +60,22 @@ Example: mod requires you to drop a file into the :material-file:`vehicles.img` 
 
 ---
 
-### Installing mods with other kind of files
+### Установка модов с другими типами файлов
 
-Example: mod requires you to modify :material-file:`gta.dat`.
+Пример: мод требует изменить :material-file:`gta.dat`.
 
-Example 2: mod requires you to modify :material-file:`playerped.rpf` (copy the vanilla file over first and modify that).
+Пример 2: мод требует изменить :material-file:`playerped.rpf` (сначала скопируйте ванильный файл и меняйте уже его).
 
 !!! note ""
-    By other kind of files I mean literally any replacement files that go into :material-folder: ==pc==, :material-folder: ==common==, :material-folder: ==TLAD== or :material-folder: ==TBoGT==. As long as they're not `.img` files.
+    Под другими типами файлов я имею в виду буквально любые заменяемые файлы, которые идут в :material-folder: ==pc==, :material-folder: ==common==, :material-folder: ==TLAD== или :material-folder: ==TBoGT==. Главное, чтобы это были не файлы `.img`.
 
-    Placing the files in the mod folders won't work.
+    Просто положить файлы в папки модов не сработает.
 
-1. Recreate the folder structure from the vanilla one in :material-folder: ==update==.
-2. Place the replacement files exactly as you would in vanilla, just do that in :material-folder: ==update==.
-3. If the two mods replace same files, use a comparison tool (I like to use [WinMerge](https://winmerge.org/)) to merge them.
+1. Воссоздайте структуру папок из ванильной в :material-folder: ==update==.
+2. Положите заменяемые файлы точно так же, как в ванили, только в :material-folder: ==update==.
+3. Если два мода заменяют одни и те же файлы, объедините их с помощью инструмента сравнения (мне нравится [WinMerge](https://winmerge.org/)).
 
-??? info "Expected folder structure"
+??? info "Ожидаемая структура папок"
 
     * :material-folder: ==GTAIV==\
         * :material-folder: ==update==\
@@ -89,35 +91,35 @@ Example 2: mod requires you to modify :material-file:`playerped.rpf` (copy the v
 
 ## [IV Tweaker](https://zolika1351.pages.dev/mods/ivtweaker)
 
-!!! warning "Compatibility"
-    Supports 1.0.8.0 and 1.0.7.0 only.
+!!! warning "Совместимость"
+    Поддерживает только 1.0.8.0 и 1.0.7.0.
 
-This modloader has a few advantages over Fusion Overloader, such as being able to inject more files than just `.img`'s while still having the originals intact. It also allows to increase limits.
+У этого модлоадера есть несколько преимуществ перед Fusion Overloader: например, он умеет внедрять не только `.img`, но и другие файлы, при этом оригиналы остаются целы. Он также позволяет увеличивать лимиты.
 
-### Installation
+### Установка
 
-1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivtweaker)
-2. Scroll to the bottom and download the archive.
-3. Extract the :material-zip-box:`IVTweaker_vx.x.zip` archive into the game folder.
+1. Перейдите на [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivtweaker)
+2. Прокрутите страницу вниз и скачайте архив.
+3. Распакуйте архив :material-zip-box:`IVTweaker_vx.x.zip` в папку с игрой.
 
 ---
 
-### Installing mods
+### Установка модов
 
-!!! warning "For mods that provide a whole `.img` archive"
-    If, say, the mod compiles the whole `vehicles.img` but only replaces one vehicle - you should only package that separate vehicle alone. While you *can* get away with not separating the modified files, you'll ruin compatibility with other mods. So please don't do that.
+!!! warning "Для модов, которые предоставляют целиком архив `.img`"
+    Если, скажем, мод собирает весь `vehicles.img`, а заменяет только одну машину - упаковывать нужно только эту отдельную машину. Можно, конечно, *не* отделять измененные файлы, но так вы сломаете совместимость с другими модами. Так что, пожалуйста, не делайте так.
 
-    If you want to separate modified files, you have to extract the mod's and vanilla archives into separate folders and compare the folders with something like [WinMerge](https://winmerge.org/).
+    Если вы всё-таки хотите отделить измененные файлы, распакуйте архивы мода и ванильный в разные папки и сравните их чем-нибудь вроде [WinMerge](https://winmerge.org/).
 
-1. Compile all the files that go into `.img`'s into a single `.img` archive (or multiple if your archives exceed `1.5GB` to avoid issues) using [OpenIV](../../resources/openiv.md).
-2. If you have files that should be only injected into TLAD, TBoGT or IV and not the other, compile a separate `.img` file for them.
-    - You can also omit the above two steps and just use raw files.
-3. Create a folder with the name of your mod in :material-folder: ==modloader==.
-4. Drop your compiled `.img` or raw files into that folder.
-5. If you had to go through step 3, also create separate folders for IV, TLAD or TBoGT and drop the specific files there.
-6. You can add :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or a :material-file:`TBoGTOnly` if you don't need the mod to load in any other subgame. Otherwise, edit :material-file-cog:`modloader.ini` for priority and when the mods should or should not load.
+1. Соберите все файлы, которые должны попасть в `.img`, в один архив `.img` (или несколько, если архивы превышают `1.5GB` - во избежание проблем) с помощью [OpenIV](../resources/openiv.md).
+2. Если у вас есть файлы, которые должны внедряться только в TLAD, TBoGT или IV, а не в остальные, соберите для них отдельный `.img`.
+    - Можно также пропустить оба шага выше и использовать обычные файлы.
+3. Создайте в :material-folder: ==modloader== папку с названием вашего мода.
+4. Положите туда собранные `.img` или обычные файлы.
+5. Если вам пришлось выполнять шаг 3, создайте также отдельные папки для IV, TLAD или TBoGT и положите конкретные файлы туда.
+6. Если мод не должен загружаться в других частях, можете добавить :material-file:`GTAIVOnly`, :material-file:`TLADOnly` или :material-file:`TBoGTOnly`. Иначе отредактируйте :material-file-cog:`modloader.ini`, чтобы задать приоритет и условия загрузки модов.
 
-??? warning "Expected folder structure"
+??? warning "Ожидаемая структура папок"
 
     * :material-folder: ==GTAIV==\
         * :material-folder: ==modloader==\
@@ -134,16 +136,16 @@ This modloader has a few advantages over Fusion Overloader, such as being able t
 
 ---
 
-### Configuring the modloader
+### Настройка модлоадера
 
-To configure the modloader, edit :material-file-cog:`modloader.ini` in :material-folder: ==modloader==.
+Чтобы настроить модлоадер, отредактируйте :material-file-cog:`modloader.ini` в :material-folder: ==modloader==.
 
-- Make sure you set the correct priority so you don't have unwanted mods overriding other mods (higher number - higher priority).
-- Make sure mods that should *only* be injected to TBoGT or TLAD are disabled for IV (Ep0), mods that are *only* for TBoGT are disabled for TLAD (Ep1), and mods that are *only* for TLAD are disabled for TBoGT(Ep2).
-    - This isn't necessary if you left :material-file:`GTAIVOnly`, :material-file:`TLADOnly` or :material-file:`TBoGTOnly` files in the folders.
+- Убедитесь, что правильно выставлен приоритет, чтобы ненужные моды не перекрывали другие (больше число - выше приоритет).
+- Убедитесь, что моды, которые должны внедряться *только* в TBoGT или TLAD, отключены для IV (Ep0), моды *только* для TBoGT отключены для TLAD (Ep1), а моды *только* для TLAD отключены для TBoGT (Ep2).
+    - Это не нужно, если вы оставили в папках файлы :material-file:`GTAIVOnly`, :material-file:`TLADOnly` или :material-file:`TBoGTOnly`.
 
-??? warning "Expected configuration"
-    Improved Animations mod will be used for an example.
+??? warning "Ожидаемая конфигурация"
+    Для примера возьмем мод Improved Animations.
 
     ``` { .ini }
     [DisabledMods]
@@ -167,13 +169,13 @@ To configure the modloader, edit :material-file-cog:`modloader.ini` in :material
     TLADImprovedAnimations=1
     ```
 
-!!! info "Increasing the limits"
-    To increase the limits, edit :material-file-cog:`IVTweaker.ini`.
+!!! info "Увеличение лимитов"
+    Чтобы увеличить лимиты, отредактируйте :material-file-cog:`IVTweaker.ini`.
 
-    You may want to do that if you install mods that, for example, change vehicle textures, since you should increase the vehicle budget limits for those.
+    Это может понадобиться, если вы ставите моды, которые, например, меняют текстуры машин - для них стоит поднять лимиты бюджета транспорта.
 
 ---
 
-## Navigation
+## Навигация
 
-[:material-page-first:Previous page <br>Extras</br>](index.md){ .md-button }
+[:material-page-first:Предыдущая страница <br>Дополнения</br>](index.md){ .md-button }

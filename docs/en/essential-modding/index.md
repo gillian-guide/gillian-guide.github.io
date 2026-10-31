@@ -1,12 +1,14 @@
+---
 title: Essential Modding
 description: Must-have mods for GTA IV
+---
 
 # Essential Modding
 
 In this category, you'll find mods that I think are essential to any GTA IV installation, along with instructions on how to install and configure them.
 
 !!! warning ""
-    Every mod onwards requires [Ultimate ASI Loader](../../resources/mod-dependencies.md/#ultimate-asi-loader).
+    Every mod onwards requires [Ultimate ASI Loader](../resources/mod-dependencies.md#ultimate-asi-loader).
 
 ## Navigation
 
@@ -16,9 +18,9 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 
     [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **ZolikaPatch** improves core multiplayer experience and is **considered essential for downgraded versions**. ^^Don't install unless your game is downgraded.^^
+- **OpenPreCEPatch** improves core multiplayer experience and adds DLC support to PreCE patches, and is **considered essential for downgraded versions**. ^^Don't install unless your game is downgraded.^^
 
-    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 
 - **Various Fixes** aims to fix or improve a large amount of **map issues and textures**.
 

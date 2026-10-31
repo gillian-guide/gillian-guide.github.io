@@ -8,8 +8,13 @@
 .docusaurus
 .cache-loader
 
-# Mkdocs generated files
+# Zensical generated files
+/site
 .cache/
+.zensical-i18n/
+
+# Python virtual environment
+/.venv
 
 # Misc
 .DS_Store

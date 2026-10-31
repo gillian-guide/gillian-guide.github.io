@@ -1,12 +1,14 @@
+---
 title: Downgrading
 description: Downgrading the radio and/or the game version back to the retail version.
+---
 
 # Downgrading
 
 !!! warning ""
     Make sure the **prerequisites are met** and **preparation was done**. If you missed one of the steps, you may encounter issues when following the guide and won't receive support. This will not be repeated later.
 
-    [:material-page-first:Introduction: Prerequisites](../index.md/#prerequisites){ .md-button } [:material-page-first:Preparation](../preparation.md){ .md-button }
+    [:material-page-first:Introduction: Prerequisites](../index.md#prerequisites){ .md-button } [:material-page-first:Preparation](../preparation.md){ .md-button }
 
 ---
 

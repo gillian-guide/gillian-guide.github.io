@@ -1,9 +1,11 @@
+---
 title: OpenIV
 description: Where's ClosedIV?
+---
 
 # [OpenIV](https://openiv.com/)
 
-OpenIV is a powerful tool for modifying, creating and extracting internal files. It can be used to create `.img` and `.rpf` files, which can be useful for [modloading](../../extras/modloading.md) or mod creation. You may also, very rarely, come across mods packaged in `.oiv` - this tool allows you to install them as well.
+OpenIV is a powerful tool for modifying, creating and extracting internal files. It can be used to create `.img` and `.rpf` files, which can be useful for [modloading](../extras/modloading.md) or mod creation. You may also, very rarely, come across mods packaged in `.oiv` - this tool allows you to install them as well.
 
 ---
 
@@ -31,7 +33,7 @@ OpenIV is a powerful tool for modifying, creating and extracting internal files.
 ### Creating archives
 
 !!! info ""
-    This might be useful for you if you're making a mod/packing an existing mod for a [modloader](../../extras/modloading.md).
+    This might be useful for you if you're making a mod/packing an existing mod for a [modloader](../extras/modloading.md).
 
 1. Click `File` - `Create Archive` and choose the type of the archive you need.
 2. Choose the directory where you want to save the archive

@@ -1,239 +1,241 @@
-title: Troubleshooting
-description: Why game no work
+---
+title: Исправление проблем
+description: Почему игра не работает
+---
 
-# Troubleshooting
+# Исправление проблем
 
-Anyone can have problems modding their favorite games, and GTA IV is extremely prone to them.
+С проблемами при моддинге любимых игр может столкнуться каждый, а GTA IV к ним крайне склонна.
 
 ---
 
-## Known issues without a solution
+## Известные проблемы без решения
 
-I know about these issues, no need to report them to me, unless you know a solution.
+Я знаю об этих проблемах, сообщать мне о них не нужно, если только вы не знаете решения.
 
-- Cutscenes freeze the game up if the game is out-of-focus for too long.
-- Social Club achievements cannot be acquired on downgraded versions.
-- Night shadows are limited, including lack of headlight and lamppost shadows - not an actual issue, you can turn those back on in the `Game` tab.
-- Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game. *Possible solutions to increase available playtime: decrease resolution; decrease render distance sliders; remove launch options/`commandline.txt`, remove High Resolution Miscellaneous Pack, Project Glass and Vehicle Pack.*
-- Car washes appear everywhere in the world arbitrarily after installing mods (in particular, mods that change `.ide` and `.ipl` files or add something to the `.dat` ones). The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
-- Any arbitrary issues that don't get mentioned separately on the page are probably caused by Liberty Tweaks - try disabling some options. Known conflicting options in the past were: `Personal Vehicles`, `Dynamic Field of View`, `Reckless Drivers`, `Emergency Service Dispatches`, `Extended Weapon Pool`, `Improved Car Crashes`, `Vehicle Tilt & Rotation` `No Cursor Escape`, `Unused Hospital Respawn`.
-
----
-
-## Known issues & solutions
-
-### Boot issues
-
-??? info "Asi Loader Error | Other Visual C++ issues"
-    Make sure you installed the [prerequisite software](../../preparation.md#software).
-
-??? info "Error RMN60 on launch"
-    Occurs on downgraded versions. Install [ZolikaPatch](../../essential-modding/zolikapatch.md) (your antivirus may have removed it, aswell).
-
-??? info "Error "SecuLauncher: failed to start application [2000]" on launch"
-    - Right click :material-file:`GTAIV.exe`, click **Properties**, switch to the **Compatibility** tab and uncheck **Run this program as an administrator**. If it's already unchecked, see the next solution.
-    - Make sure you installed the [prerequisite software](../../preparation.md#software).
-    - If even that doesn't solve the issue, install [NET 3.5](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35-sp1).
-
-??? info "Game doesn't even show up"
-    - Make sure you don't have any duplicate mods - for example, you may have left FusionFix in both the :material-folder: ==plugins== folder and the game folder. The game won't start in this case.
-    - Reboot your PC.
-    - Only launch a downgraded version from :material-steam: Steam or using :material-file:`PlayGTAIV.exe`.
-    - If using ZolikaPatch and FusionFix together, disable the [incompatible options](../../essential-modding/zolikapatch.md/#incompatible-options).
-    - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with `.asi` mods, so start there.
-
-??? info "Game crashes immediately upon booting"
-    - Try turning off RivaTuner Statistics (with MSI Afterburner if using that), uninstalling Bandicam or any other software of this sort that does injections - overlays and injectors can mess with the game on boot.
-    - Try disabling Steam Overlay and/or Steam Input.
-    - On a downgraded version, try installing [ZolikaPatch](../../essential-modding/zolikapatch.md) if you hadn't already.
-    - Try deleting `SETTINGS.cfg` from :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
-    - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with injectable mods, so start there.
+- Катсцены подвешивают игру, если окно игры слишком долго не в фокусе.
+- Достижения Social Club нельзя получить на даунгрейднутых версиях.
+- Ночные тени ограничены, в том числе нет теней от фар и фонарей - это не баг, их можно снова включить на вкладке `Игра`.
+- При долгой игре мир начинает пропадать, и игра становится неиграбельной. Единственное решение - перезапустить игру. *Возможные способы продлить время до этого: снизить разрешение; уменьшить ползунки дальности прорисовки; убрать параметры запуска/`commandline.txt`, удалить High Resolution Miscellaneous Pack, Project Glass и Vehicle Pack.*
+- После установки модов (особенно тех, что меняют файлы `.ide` и `.ipl` или что-то добавляют в `.dat`) по всему миру произвольно появляются автомойки. Единственное решение - начать новое сохранение (при следующей загрузке этого нового сохранения проблема исчезнет).
+- Любые произвольные проблемы, которые не упомянуты на странице отдельно, скорее всего, вызваны Liberty Tweaks - попробуйте отключить некоторые опции. Известные конфликтующие опции в прошлом: `Personal Vehicles`, `Dynamic Field of View`, `Reckless Drivers`, `Emergency Service Dispatches`, `Extended Weapon Pool`, `Improved Car Crashes`, `Vehicle Tilt & Rotation` `No Cursor Escape`, `Unused Hospital Respawn`.
 
 ---
 
-### Load screen issues
+## Известные проблемы и решения
 
-??? info "Load times are too long"
-    - Remove ColAccel if you had installed it outside of the guide.
-    - Remove the `-managed` [launch option](../../additional-setup.md/#launch-options).
+### Проблемы с запуском
 
-??? info "Game loads endlessly"
-    Set the `-availablevidmem` [launch option](../../additional-setup.md/#launch-options) (with a value of up to 3072.0).
+??? info "Ошибка Asi Loader | Другие проблемы с Visual C++"
+    Убедитесь, что установили [необходимые программы](../preparation.md#_3).
 
-??? info "Game loads directly into the savegame on startup, no menu"
-    You can hold ++lshift++ on boot for when you need the menu.
+??? info "Ошибка RMN60 при запуске"
+    Возникает на даунгрейднутых версиях. Установите [ZolikaPatch](../essential-modding/openprecepatch.md) (возможно, его удалил антивирус).
 
-    If you want to completely disable the feature off, change **Skip Menu** to **Off** in `Settings` - `Game` if using FusionFix. If the feature still triggers, set `SkipMenu` to `0` in :material-file-cog:`ZolikaPatch.ini`.
+??? info "Ошибка "SecuLauncher: failed to start application [2000]" при запуске"
+    - Нажмите правой кнопкой на :material-file:`GTAIV.exe`, выберите **Свойства**, перейдите на вкладку **Совместимость** и снимите галочку с **Запускать эту программу от имени администратора**. Если она уже снята, смотрите следующее решение.
+    - Убедитесь, что установили [необходимые программы](../preparation.md#_3).
+    - Если и это не помогло, установите [NET 3.5](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35-sp1).
+
+??? info "Игра вообще не появляется"
+    - Убедитесь, что у вас нет дублирующихся модов - например, FusionFix мог остаться и в папке :material-folder: ==plugins==, и в папке с игрой. В таком случае игра не запустится.
+    - Перезагрузите ПК.
+    - Даунгрейднутую версию запускайте только из :material-steam: Steam или через :material-file:`PlayGTAIV.exe`.
+    - Если используете ZolikaPatch и FusionFix вместе, отключите [несовместимые настройки](../essential-modding/openprecepatch.md#incompatible-options).
+    - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника. Обычно дело в `.asi` модах, так что начинайте с них.
+
+??? info "Игра вылетает сразу после запуска"
+    - Попробуйте отключить RivaTuner Statistics (через MSI Afterburner, если используете его), удалить Bandicam и любое другое ПО, которое делает инъекции - оверлеи и инжекторы могут мешать игре при запуске.
+    - Попробуйте отключить Steam Overlay и/или Steam Input.
+    - На даунгрейднутой версии попробуйте установить [ZolikaPatch](../essential-modding/openprecepatch.md), если еще не ставили.
+    - Попробуйте удалить `SETTINGS.cfg` из :material-folder: ==C:/Users/(User)/AppData/Local/Rockstar Games/GTA IV/Settings==.
+    - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника. Обычно дело в инжектируемых модах, так что начинайте с них.
 
 ---
 
-### Settings / performance issues
+### Проблемы с экраном загрузки
 
-??? info "Game shows wrong VRAM value in settings"
-    Set the `-availablevidmem` [launch option](../../additional-setup.md/#launch-options) (with a value of up to 3072.0).
+??? info "Загрузка идет слишком долго"
+    - Удалите ColAccel, если ставили его вне руководства.
+    - Уберите [параметр запуска](../additional-setup.md#_2) `-managed`.
 
-    It is not recommended to go beyond 3072.0 due to potential unstability issues. Additionally, on verisons below 1.0.8.0 that number is arbitrary - try numbers like 60.0, 120.0 etc. to see what fits.
+??? info "Игра загружается бесконечно"
+    Задайте [параметр запуска](../additional-setup.md#_2) `-availablevidmem` (со значением до 3072.0).
 
-??? info "The game does not start in desired resolution and there is no option to increase it in the settings"
-    Set these [launch options](../../additional-setup.md/#launch-options):
+??? info "Игра сразу загружает сохранение при запуске, без меню"
+    Можете зажать ++lshift++ при запуске, когда нужно меню.
 
-    * `-width (horizontal resolution)`
-    * `-height (vertical resolution)`
-    * `-refreshrate (refresh rate)`
+    Если хотите полностью отключить эту функцию, измените **Skip Menu** на **Off** в `Настройки` - `Игра`, если используете FusionFix. Если функция всё равно срабатывает, установите `SkipMenu` в `0` в :material-file-cog:`ZolikaPatch.ini`.
 
-    Example:
+---
+
+### Проблемы с настройками и производительностью
+
+??? info "Игра показывает неверный объем видеопамяти в настройках"
+    Задайте [параметр запуска](../additional-setup.md#_2) `-availablevidmem` (со значением до 3072.0).
+
+    Не рекомендуется выходить за 3072.0 из-за возможных проблем со стабильностью. К тому же на версиях ниже 1.0.8.0 это число условное - пробуйте значения вроде 60.0, 120.0 и смотрите, что подойдет.
+
+??? info "Игра не запускается в нужном разрешении, а в настройках нет возможности его повысить"
+    Задайте следующие [параметры запуска](../additional-setup.md#_2):
+
+    * `-width (разрешение по горизонтали)`
+    * `-height (разрешение по вертикали)`
+    * `-refreshrate (частота обновления)`
+
+    Пример:
 
     * `-width 1920`
     * `-height 1080`
     * `-refreshrate 60`
 
-    If that still doesn't help, add `d3d9.forceAspectRatio = 16:9` to :material-file-cog:`dxvk.conf`. Change `16:9` with your *[exact](https://stevewadsworth.github.io/calculateAspectRatio/)* aspect ratio if you don't use a 16:9 monitor.
+    Если это не помогло, добавьте `d3d9.forceAspectRatio = 16:9` в :material-file-cog:`dxvk.conf`. Замените `16:9` на ваше *[точное](https://stevewadsworth.github.io/calculateAspectRatio/)* соотношение сторон, если у вас не 16:9 монитор.
 
-    Also, check for [GPU driver updates](../../preparation.md/#drivers).
+    Также проверьте [обновления драйверов ГП](../preparation.md#_4).
 
-??? info "Poor in-game performance / Stuttering"
-    - Make sure that [DXVK](../../optimization.md) is installed correctly and with recommended settings (don't use async unless you don't have Fast Linking).
-    - Try using [optimal game settings](../../additional-setup.md/#optimal-game-settings).
-    - Make sure `Shader Pre-caching` is disabled in the :material-steam: Steam `Settings` - `Downloads` tab if using DXVK.
-    - Try disabling Steam Overlay and/or Steam Input.
-    - Make sure you don't have overlays such as Rainmeter running in fullscreen, they can tank your performance greatly.
-    - Try lowering the graphics settings, in particular:
-        - Shadow Quality
-        - Night Shadows
-        - View/Detail Distance
-        - Shadow Filter
-        - Depth of Field
-        - Motion Blur
-        - Reflection Quality
+??? info "Плохая производительность в игре / Фризы"
+    - Убедитесь, что [DXVK](../optimization.md) установлен правильно и с рекомендуемыми настройками (не используйте async, если у вас есть Fast Linking).
+    - Попробуйте [оптимальные настройки графики](../additional-setup.md#_4).
+    - Убедитесь, что в :material-steam: Steam отключен `кэш шейдеров` в `Настройки` - `Загрузки`, если используете DXVK.
+    - Попробуйте отключить Steam Overlay и/или Steam Input.
+    - Убедитесь, что у вас не запущены в полноэкранном режиме оверлеи вроде Rainmeter - они могут сильно просадить производительность.
+    - Попробуйте понизить настройки графики, в частности:
+        - Качество теней
+        - Ночные тени
+        - Дистанция обзора и детализации
+        - Фильтрация теней
+        - Глубина резкости
+        - Размытие при движении
+        - Качество отражений
 
-??? info "Constant unstable frame timing after a while of playing (i.e. a microstutter every 0.5 seconds)"
-    Try disconnecting your gamepad. If the problem goes away, try enabling or disabling Steam Overlay. If the problem persists, try also enabling or disabling Steam Input alongside.
-
----
-
-### Crash issues
-
-??? info "Game crashes during or shortly after load screen"
-    - Make sure you started with a clean install (after pressing Uninstall on Steam, manually wipe the remainders in the folder).
-    - If you have added modded cars and saved them near your savehouse, your savefile is corrupted. Change the saved car using this [software](https://x3t-infinity.com/GTAIV_SE).
-    - Your savefile may be corrupted. Try temporarily removing your savefiles and start a new game to see if the problem persists.
-    - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem. Usually has something to do with script mods, so start there.
-
-??? info "Game randomly crashes mid-game"
-    - If using ZolikaPatch and FusionFix together, disable the [incompatible options](../../essential-modding/zolikapatch.md/#incompatible-options).
-    - Open :material-file-cog:`ZolikaPatch.ini` and change `HighFPSSpeedupFix` to `0`.
-    - If the problem persists, try deleting/disabling mods one-by-one to see which one is causing the problem.
+??? info "Постоянный нестабильный тайминг кадров через какое-то время игры (т.е. микрофриз каждые 0.5 секунды)"
+    Попробуйте отключить геймпад. Если проблема исчезла, попробуйте включить или отключить Steam Overlay. Если проблема осталась, попробуйте заодно включить или отключить Steam Input.
 
 ---
 
-### Gameplay issues
+### Проблемы с вылетами
 
-??? info "Broken LODs / textures"
-    - Set the `-availablevidmem` [launch option](../../additional-setup.md/#launch-options) (with a value of up to 3072.0).
-    - Tone down the amount of texture mods you're using - especially stuff like road textures.
+??? info "Игра вылетает во время или вскоре после экрана загрузки"
+    - Убедитесь, что начинали с чистой установки (после нажатия «Удалить» в Steam вручную вычистите остатки в папке).
+    - Если вы добавили модифицированные машины и сохранили их рядом со своим домом, сохранение повреждено. Поменяйте сохраненную машину с помощью [этой программы](https://x3t-infinity.com/GTAIV_SE).
+    - Ваше сохранение может быть повреждено. Попробуйте временно убрать сохранения и начать новую игру, чтобы проверить, останется ли проблема.
+    - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника. Обычно дело в скриптовых модах, так что начинайте с них.
 
-??? info "Can't get into helicopter on last mission | Other timing-related issues at high FPS such as arcades being broken"
-    - Install [FusionFix](../../essential-modding/fusionfix.md).
-    - Some issues can only be omitted by setting a 60 or 30 FPS lock. Can be done in `Settings` - `Graphics` if using FusionFix.
-
-??? info "Softlock on TLAD - Shifting Weight"
-    Open :material-file-cog:`ZolikaPatch.ini` and set `HighFPSSpeedupFix` to `0`. You can put it back to `1` after the mission.
-
-??? info "Cannot access internet cafe computers or interact with entertainment assets (pool, bowling)"
-    You can do one of the following:
-
-    - Start a new game and forget about your existing save.
-    - Remove `LibertyTweaks` files from :material-folder: ==IVSDKDotNet\scripts== (if you don't use **IV-SDK .NET** for anything else, you can remove safely all files and folders starting with `IVSDKDotNet` from the game folder aswell).
-
-??? info ":material-steam: Steam achievements disappeared after downgrading"
-    Install [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
-
-??? info "GFWL / Xbox Live achievements don't work"
-    - Remove :material-file:`SteamAchivements.asi` - you can't use both at once.
-    - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`ZolikaPatch.ini`.
-
-??? info "Reticle option is stuck on 'Basic'"
-    - Toggle `Dynamic Crosshair` off in the :material-file-cog:`LibertyTweaks.ini`.
-
-??? info "Unable to disable controller auto-aim"
-    - Toggle `San Andreas Styled Auto-Aim` off in the :material-file-cog:`LibertyTweaks.ini`.
+??? info "Игра случайно вылетает посреди игры"
+    - Если используете ZolikaPatch и FusionFix вместе, отключите [несовместимые настройки](../essential-modding/openprecepatch.md#incompatible-options).
+    - Откройте :material-file-cog:`ZolikaPatch.ini` и измените `HighFPSSpeedupFix` на `0`.
+    - Если проблема осталась, удаляйте или отключайте моды по одному, чтобы найти виновника.
 
 ---
 
-### Multiplayer issues
+### Проблемы с геймплеем
 
-??? info ""Unable to connect to game session", "Unable to join a game you were kicked from" or joining an empty lobby in GFWL"
-    You were either actually kicked by the host, or you're experiencing what's known as kickbug.
+??? info "Сломанные LOD / текстуры"
+    - Задайте [параметр запуска](../additional-setup.md#_2) `-availablevidmem` (со значением до 3072.0).
+    - Сократите количество текстурных модов - особенно всяких текстур дорог.
 
-    If you're indeed experiencing kickbug, you have to do manual port forwarding for the following ports in your router's settings and your system's firewall (look online for instructions for your specific router or ISP, or contact your ISP):
+??? info "Не получается сесть в вертолет в последней миссии | Другие проблемы с таймингами на высоком FPS, например сломанные аркадные автоматы"
+    - Установите [FusionFix](../essential-modding/fusionfix.md).
+    - Некоторые проблемы можно обойти только ограничением в 60 или 30 FPS. Это делается в `Настройки` - `Графика`, если используете FusionFix.
+
+??? info "Софтлок в TLAD - Shifting Weight"
+    Откройте :material-file-cog:`ZolikaPatch.ini` и установите `HighFPSSpeedupFix` в `0`. После миссии можно вернуть `1`.
+
+??? info "Нельзя воспользоваться компьютерами в интернет-кафе или взаимодействовать с развлечениями (бильярд, боулинг)"
+    Можно сделать одно из следующего:
+
+    - Начать новую игру и забыть о существующем сохранении.
+    - Удалить файлы `LibertyTweaks` из :material-folder: ==IVSDKDotNet\scripts== (если вы больше нигде не используете **IV-SDK .NET**, можете смело удалить из папки с игрой все файлы и папки, начинающиеся с `IVSDKDotNet`).
+
+??? info ":material-steam: Достижения Steam пропали после даунгрейда"
+    Установите [SteamAchievements](https://gtaforums.com/topic/957432-steam-achievements-for-1070-1080/).
+
+??? info "Не работают достижения GFWL / Xbox Live"
+    - Удалите :material-file:`SteamAchivements.asi` - их нельзя использовать одновременно.
+    - Установите `TryToSkipAllErrors` и `VSyncFix` в `0` в :material-file-cog:`ZolikaPatch.ini`.
+
+??? info "Настройка прицела застряла на 'Basic'"
+    - Отключите `Dynamic Crosshair` в :material-file-cog:`LibertyTweaks.ini`.
+
+??? info "Не получается отключить автоприцеливание для геймпада"
+    - Отключите `San Andreas Styled Auto-Aim` в :material-file-cog:`LibertyTweaks.ini`.
+
+---
+
+### Проблемы с мультиплеером
+
+??? info ""Unable to connect to game session", "Unable to join a game you were kicked from" или подключение к пустому лобби в GFWL"
+    Вас либо действительно кикнул хост, либо вы столкнулись с так называемым кикбагом.
+
+    Если это действительно кикбаг, нужно вручную пробросить следующие порты в настройках роутера и в брандмауэре системы (инструкции для своего роутера или провайдера ищите в интернете или обратитесь к провайдеру):
 
     * TCP: `3074`, `80`, `88`
     * UDP: `3074`, `80`, `88`
 
-    If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en).
+    Если проброс портов невозможен, используйте вместо него VPN. Я рекомендую [Mullvad VPN](https://mullvad.net/en).
 
-    Alternatively, give up. Seriously, just give up and try other multiplayer methods - some people are just stuck with the kickbug with no way to fight it.
+    Ну или сдайтесь. Серьезно, просто сдайтесь и попробуйте другие способы мультиплеера - некоторые люди намертво застряли с кикбагом, и бороться с ним бесполезно.
 
-??? info "GFWL overlay doesn't appear"
-    - You are using XLiveless (:fontawesome-solid-gears:`xlive.dll`). Rename the file to `dinput8.dll`.
-    - GFWL files are missing. You need :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` and `GTAIV.exe.cat`.
-    - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
+??? info "Не появляется оверлей GFWL"
+    - Вы используете XLiveless (:fontawesome-solid-gears:`xlive.dll`). Переименуйте файл в `dinput8.dll`.
+    - Не хватает файлов GFWL. Нужны :material-file:`GTAIV.exe.cdf`, :material-file-cog:`GTAIV.exe.cfg` и `GTAIV.exe.cat`.
+    - Попробуйте [переустановить GFWL](../extras/multiplayer.md#gfwl-install).
 
-??? info ""This session no longer exists" in GFWL"
-    The license key you're using is also used by somebody else who's already in the lobby. Log out and find yourself a different key or re-run the keygen.
+??? info ""This session no longer exists" в GFWL"
+    Этот ключ уже использует кто-то другой, кто находится в лобби. Выйдите из аккаунта и найдите другой ключ или заново запустите кейген.
 
-??? info "The game asks to sign in to Social Club in GFWL"
-    You need [ZolikaPatch](../../essential-modding/zolikapatch.md).
+??? info "В GFWL игра просит войти в Social Club"
+    Вам нужен [ZolikaPatch](../essential-modding/openprecepatch.md).
 
-??? info ""The downloadable content required for this autoload is not available" in GFWL"
-    Restart the game.
+??? info ""The downloadable content required for this autoload is not available" в GFWL"
+    Перезапустите игру.
 
-??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
-    - Enable `Windowed`, `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
-        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`ZolikaPatch.ini` and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
+??? info ""You have been disconnected because your computer is running too slowly" в GFWL"
+    - Включите `Windowed`, `Borderless` и отключите `Block on Focus Loss` в `Настройки` - `Игра`, если используете FusionFix.
+        - Если FusionFix не используете, установите `BorderlessWindowed` и `DoNotPauseOnMinimize` в `1` в :material-file-cog:`ZolikaPatch.ini` и добавьте `-windowed` в :material-file-cog:`commandline.txt`.
 
-??? info ""The profile could not be signed in to LIVE" in GFWL"
-    - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account you're trying to use for GFWL.
-    - Try [reinstalling GFWL](../../extras/multiplayer.md/#gfwl-install).
+??? info ""The profile could not be signed in to LIVE" в GFWL"
+    - Установите [приложение Xbox](https://www.xbox.com/en-US/apps/xbox-app-for-pc) и войдите в него с тем же аккаунтом, который пытаетесь использовать для GFWL.
+    - Попробуйте [переустановить GFWL](../extras/multiplayer.md#gfwl-install).
 
-??? info "Error code: 0x80048821 or "Password contains special characters" in GFWL"
-    [Create a new app password](https://account.live.com/proofs/AppPassword) and use that to log in.
+??? info "Код ошибки: 0x80048821 или "Password contains special characters" в GFWL"
+    [Создайте новый пароль приложения](https://account.live.com/proofs/AppPassword) и войдите с его помощью.
 
-??? info "Error code: 0x8007065b in GFWL"
-    Only known solution is to use another account to sign in.
+??? info "Код ошибки: 0x8007065b в GFWL"
+    Единственное известное решение - войти с другого аккаунта.
 
-??? info "Error code: 0x80151906 in GFWL"
-    [Xbox LIVE servers are likely down at the moment](https://support.xbox.com/en-US/xbox-live-status), try again later.
+??? info "Код ошибки: 0x80151906 в GFWL"
+    [Серверы Xbox LIVE, вероятно, сейчас недоступны](https://support.xbox.com/en-US/xbox-live-status), попробуйте позже.
 
-??? info "Error code: 0x8015403A in GFWL"
-    Try logging in on the [website](https://account.xbox.com/Account/Signin).
+??? info "Код ошибки: 0x8015403A в GFWL"
+    Попробуйте войти на [сайте](https://account.xbox.com/Account/Signin).
 
-??? info "Error code: 0x80150001 in GFWL"
-    GFWL only allows 100 friends maximum on the account. Reduce your number of friends on the account below 100, then try logging in again.
+??? info "Код ошибки: 0x80150001 в GFWL"
+    GFWL разрешает не больше 100 друзей на аккаунте. Сократите число друзей до 100 или меньше и попробуйте войти снова.
 
-??? info "Getting kicked by the anticheat in GTAC"
-    Your files are likely modified - make sure you're using a clean copy from :material-steam: Steam or :simple-rockstargames: Rockstar Games Launcher.
+??? info "Античит выкидывает в GTAC"
+    Скорее всего, ваши файлы изменены - убедитесь, что используете чистую копию из :material-steam: Steam или :simple-rockstargames: Rockstar Games Launcher.
 
-    The only way to find out which file doesn't pass through is to ask somebody with access to server logs (normally, the owner).
-
----
-
-### Miscellaneous issues
-
-??? info "I'm using the :simple-rockstargames: Rockstar Games Launcher and my files get constantly replaced"
-    After downgrading or using the drag-and-drop archive for 1.0.8.0, avoid using the launcher and start the game with :material-file:`PlayGTAIV.exe` instead.
-
-    Otherwise, if you want to use CE, avoid file replacements and use [modloaders](../../extras/modloading.md).
-
-??? info "Game is using the wrong GPU (NVIDIA laptop)"
-    Go to the NVIDIA Control Panel, 3D settings, add :material-file:`GTAIV.exe` and select `Max Performance` in `Power Plan Mode`.
-
-??? info "EFLC disappeared after downgrading"
-    Make sure you are using [ZolikaPatch](../../essential-modding/zolikapatch.md) and set `LoadDLCs` to `1` in :material-file-cog:`ZolikaPatch.ini`.
-
-??? info ".NET mods don't work on Linux"
-    See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](mod-dependencies.md/#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux)
+    Узнать, какой файл не проходит проверку, можно только у человека с доступом к логам сервера (обычно у владельца).
 
 ---
 
-If you know an issue and a solution that I missed, [let me know on the Discord server](../../index.md/#navigation).
+### Разные проблемы
+
+??? info "Я использую :simple-rockstargames: Rockstar Games Launcher, и мои файлы постоянно заменяются"
+    После даунгрейда или использования готового архива для 1.0.8.0 не запускайте игру через лаунчер, а запускайте через :material-file:`PlayGTAIV.exe`.
+
+    Если же вы хотите использовать CE, избегайте замены файлов и используйте [модлоадеры](../extras/modloading.md).
+
+??? info "Игра использует не ту видеокарту (ноутбук с NVIDIA)"
+    Зайдите в Панель управления NVIDIA, в настройки 3D, добавьте :material-file:`GTAIV.exe` и выберите `Максимальная производительность` в `Режиме управления электропитанием`.
+
+??? info "EFLC пропал после даунгрейда"
+    Убедитесь, что используете [ZolikaPatch](../essential-modding/openprecepatch.md), и установите `LoadDLCs` в `1` в :material-file-cog:`ZolikaPatch.ini`.
+
+??? info ".NET моды не работают на Linux"
+    Смотрите раздел [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](mod-dependencies.md#scripthookdotnet-iv-sdk-net-linux)
+
+---
+
+Если вы знаете проблему и решение, которые я пропустил, [напишите мне на Discord-сервере](../index.md#_4).

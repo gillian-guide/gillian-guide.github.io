@@ -1,12 +1,14 @@
+---
 title: Companion Mods
 description: How many mods does this game have
+---
 
 # Companion Mods
 
-This page includes mods that are either fixes, enhancements, or whatever else - something that's not a huge must-have mod on it's own, but can be used to enhance the experience in one way or another. They're separated in 3 groups - [Fixes](#fixes), [Enhancements](#enhancements) and [Miscellaneous](#miscellaneous). Don't look for mods to add into the Drag-and-Drop Archive here - the archive already includes all the mods I deem needed, and the additional mods for it can be found [there](../drag-and-drop-archive.md/#additional-mods) as well.
+This page includes mods that are either fixes, enhancements, or whatever else - something that's not a huge must-have mod on it's own, but can be used to enhance the experience in one way or another. They're separated in 3 groups - [Fixes](#fixes), [Enhancements](#enhancements) and [Miscellaneous](#miscellaneous). Don't look for mods to add into the Drag-and-Drop Archive here - the archive already includes all the mods I deem needed, and the additional mods for it can be found [there](drag-and-drop-archive.md#additional-mods) as well.
 
 !!! warning ""
-    [FusionFix](../essential-modding/fusionfix.md) is required for most mods. **This page will assume you have it installed and will not remind you of it.**
+    [FusionFix](essential-modding/fusionfix.md) is required for most mods. **This page will assume you have it installed and will not remind you of it.**
 
 !!! warning "For Linux users"
     When installing mods, be careful and take note when filenames have different casing (e.g. `weaponinfo.xml` and `weaponInfo.xml`). Make sure to merge them accordingly.
@@ -16,10 +18,10 @@ This page includes mods that are either fixes, enhancements, or whatever else - 
 
     - Type 1: basic `.asi` mods that don't require a special mod loader: those go into a :material-folder: ==plugins== folder or simply into the root folder;
     - Type 2: mods packaged for Fusion Overloader. They come with an :material-folder: ==update== folder - you simply extract that into the game folder. However, if there's merge conflicts, you will have to manually merge those files using something like [WinMerge](https://winmerge.org/downloads/?lang=en);
-    - Type 3: mods made for :material-file:`playerped.rpf`. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-other-kind-of-files);
-    - Type 4: mods with loose files that are meant to go into an :material-file:`.img`. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-files-that-go-into-img-archives);
-    - Type 5: mods with loose files that are meant to go into folders like :material-folder: ==common/data/==. Installation instructions for these can be read on [this page](../extras/modloading.md/#installing-mods-with-other-kind-of-files);
-    - Type 6: script mods that require a special mod loader (either ScriptHookDotNet or IVSDKDotNet): install the [required modloader](../resources/mod-dependencies.md/#scripthookdotnet), then the mod per installation instructions
+    - Type 3: mods made for :material-file:`playerped.rpf`. Installation instructions for these can be read on [this page](extras/modloading.md#installing-mods-with-other-kind-of-files);
+    - Type 4: mods with loose files that are meant to go into an :material-file:`.img`. Installation instructions for these can be read on [this page](extras/modloading.md#installing-mods-with-files-that-go-into-img-archives);
+    - Type 5: mods with loose files that are meant to go into folders like :material-folder: ==common/data/==. Installation instructions for these can be read on [this page](extras/modloading.md#installing-mods-with-other-kind-of-files);
+    - Type 6: script mods that require a special mod loader (either ScriptHookDotNet or IVSDKDotNet): install the [required modloader](resources/mod-dependencies.md#scripthookdotnet), then the mod per installation instructions
 
     The type tends to be easily recognizable and once you start installing the mods, it should be easy enough to figure it out. If you're finding it hard to do so (or the mod is some other kind entirely), feel free to ask for support on my [Discord server](https://discord.gg/zwmsQqExbQ) on the dedicated #community-modding channel.
 
@@ -41,6 +43,7 @@ These mods fix some aspect of the game without adding or changing something dras
 | [Remove Luis Texture Compression](https://www.nexusmods.com/gta4/mods/1401?tab=description) | lettersandnumb192, B Dawg | Fixes green-ish texture on Luis' textures. |
 | [Track Jackets Fix](https://www.nexusmods.com/gta4/mods/773) | Niikowo | Fixes the shading on track jacket textures to match the green track jacket. |
 | [Puffer Jacket Logo](https://www.nexusmods.com/gta4/mods/542) | erwasabo | Adds the missing logo to one of the Puffer jackets. |
+| [Miscellaneous LOD Fixes](https://www.nexusmods.com/gta4/mods/1580?tab=description) | quarterstogo2 | Fixes some LODs that don't match between IV and EFLC or have issues in general. |
 | [No More Hand Seams for Niko](https://www.gtainside.com/en/gta4/skins/192418-no-more-hand-seams-for-niko/) | BrynnaDaRosa | Fixes the hand texture seams in Niko's model. Addons used: [TBoGT Niko In-Game Hands Fix](https://discord.com/channels/452421215076876288/461150059552178176/1535212054997241896), [TLAD Niko In-Game Hands Fix](https://discord.com/channels/1129805289307242577/1494424154097586206/1538900507618451587); both by Pingwinek1234 |
 | [Ray Boccino Shirt Fix](https://www.nexusmods.com/gta4/mods/959) | DeathWrench | Fixes Ray Boccino's poor textures. |
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Fixes an incorrect suit in Perseus, as you end up buying a different one from the one displayed. |
@@ -78,6 +81,9 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [New game parameters for transport and traffic](https://www.nexusmods.com/gta4/mods/616?tab=description) | Ushan27 | Increases and improves vehicle and ped variety in different regions. |
 | [Fidelity Popcycle](https://www.nexusmods.com/gta4/mods/405?tab=description) | Chunk | A vanilla-friendly popcycle that makes the city life more varied and realistic. |
 | [Bullet Penetration - Minimal Edition](https://gtaforums.com/topic/989496-bullet-penetration/) | Internet Rob | Allows bullets to penetrate glass like they do with car windshields. |
+| [DLSS-IV](https://www.nexusmods.com/gta4/mods/1430) | Chunk | Adds DLSS, FSR and HDR to GTA IV, which are miles ahead of the game's in-built anti-aliasing solutions. Better Cables addon used. |
+| [Niko's Appearance Overhaul](https://www.nexusmods.com/gta4/mods/961?tab=posts) | ColbyDash | Niko's texture fixes and improvements without any non-faithful changes. |
+| [Redone Fingerless Gloves](https://www.gtainside.com/gta4/skins/new-look-model/192441-redone-fingerless-gloves-for-niko) | BrynnaDaRosa | Fixed fingerless gloves mesh and model. |
 | [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Removes invincibility from the target in the mission 'No Way On The Subway'. |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Makes the 'Escuela of the Street' mission faster by making the driver ignore traffic laws. |
 | [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Joni's model redone to match her artwork, because the in-game model is hideous. |
@@ -163,7 +169,7 @@ Please use the following load order (put the number before the folder names) aft
 10. FusionFix (leave it at the default folder name for ease of updating)
 11. Various Fixes (leave it at the default folder name for ease of updating)
 
-You may want to manually merge some `.img` mods together using [OpenIV](../resources/openiv.md/#creating-archives) to avoid going over the limit.
+You may want to manually merge some `.img` mods together using [OpenIV](resources/openiv.md#creating-archives) to avoid going over the limit.
 
 You can see how far you are on the limits if you set `ExtraInfo` to `1` in FusionFix's :material-file-cog:`GTAIV.EFLC.FusionFix.ini` - it'll give the number on bottom of the screen in settings - **but only on 1.2.0.58**. If you are using an older version, you can only tell if you went over the limit by going into TBoGT and seeing whether traffic spawns (if it doesn't - you're over the limit and it's a sign to merge some mods).
 
@@ -201,14 +207,14 @@ Mention it on the Mod Suggestions thread on my Discord server:
 
 Thanks for using **my** guide for modding GTA IV!
 
-I sincerely hope that I have helped you achieve the perfect state of the game. This guide takes some time to maintain, and it couldn't have been done without all the great mods, so please consider chipping in for some authors: [Credits](../resources/credits.md).
+I sincerely hope that I have helped you achieve the perfect state of the game. This guide takes some time to maintain, and it couldn't have been done without all the great mods, so please consider chipping in for some authors: [Credits](resources/credits.md).
 
-If you want more guides or modpacks like that, check out [Similar Guides & Resources](../resources/similar-guides-modpacks.md).
+If you want more guides or modpacks like that, check out [Similar Guides & Resources](resources/similar-guides-modpacks.md).
 
-Additional resources and tools can be found on the [Extras](../extras/index.md) page and the Resources sections on the left.
+Additional resources and tools can be found on the [Extras](extras/index.md) page and the Resources sections on the left.
 
 ---
 
 <h3>Navigation</h3>
 
-[:material-page-first:Previous page <br>Essential Modding</br>](../essential-modding/index.md){ .md-button }
+[:material-page-first:Previous page <br>Essential Modding</br>](essential-modding/index.md){ .md-button }

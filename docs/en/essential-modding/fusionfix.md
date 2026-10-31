@@ -1,12 +1,10 @@
+---
 title: FusionFix
 description: Graphics fixes, but even more than just that!
+---
 
 # [FusionFix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix)
 
-!!! warning "Compatibility"
-    This mod is only officially supported on the Complete Edition, but with taking several things in account, you can also use it with 1.0.8.0.
-
-    Support for non-CE versions may be axed at any time and the developers don't provide any support for them.
 This project aims to fix or address most **graphical and gameplay issues** and introduces new graphics options. You can read the changelog on the [repository](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/tree/master#coregameplay-changelog).
 
 ---
@@ -23,8 +21,8 @@ This project aims to fix or address most **graphical and gameplay issues** and i
     1. Go to the latest [release page](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix/releases/latest).
     2. Download the :material-zip-box:`GTAIV.EFLC.FusionFix.zip` archive.
     3. Extract the archive into the game folder.
-        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
-        - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../optimization.md) or [Additional Setup](../additional-setup.md) pages.
+        - See the [optimal graphics settings for FusionFix](../additional-setup.md#__tabbed_2_2).
 === "1.0.8.0"
     !!! info "Missing fixes"
         Installing FusionFix on 1.0.8.0 compromises on some fixes, and you won't receive any official support from Fusion Team shall any issues arise. Keep that in mind.
@@ -33,8 +31,8 @@ This project aims to fix or address most **graphical and gameplay issues** and i
     3. Extract the archive into the game folder.
     4. Move the files out of the :material-folder: ==plugins== folder into the game folder (don't ask me why, this tends to improve stability).
         - Rename :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll` **if not using GFWL**. Replace if needed.
-        - Consider re-running the Setup Utility if you used it on the [Optimization](../../optimization.md) or [Additional Setup](../../additional-setup.md) pages.
-        - See the [optimal graphics settings for FusionFix](../../additional-setup.md/#__tabbed_2_2).
+        - Consider re-running the Setup Utility if you used it on the [Optimization](../optimization.md) or [Additional Setup](../additional-setup.md) pages.
+        - See the [optimal graphics settings for FusionFix](../additional-setup.md#__tabbed_2_2).
         - **Do not enable `Check For Fusion Fix Updates`.**
 
     !!! tip "If using GFWL for multiplayer..."
@@ -60,7 +58,7 @@ This project aims to fix or address most **graphical and gameplay issues** and i
 3. Wait until DirectX installs (may take a few minutes).
 
 !!! tip "Modloading"
-    This mod can be used for modloading purposes. See [Fusion Overloader](../../extras/modloading.md/#fusion-overloader) for more details.
+    This mod can be used for modloading purposes. See [Fusion Overloader](../extras/modloading.md#fusion-overloader) for more details.
 
 ---
 
@@ -78,7 +76,7 @@ You can edit :material-file-cog:`GTAIV.EFLC.FusionFix.ini` or :material-file-cog
 
 - If your **game is downgraded**, continue with ZolikaPatch:
 
-    [Next page:material-page-last: <br>ZolikaPatch</br>](zolikapatch.md){ .md-button .md-button--primary }
+    [Next page:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 
 - If it isn't, continue with Various Fixes instead:
 

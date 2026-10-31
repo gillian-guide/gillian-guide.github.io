@@ -1,29 +1,27 @@
-name: ci 
+name: ci
 
 on:
   push:
     branches:
-      - master 
+      - master
       - main
 
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - uses: actions/cache@v4
+      - run: pip install -r requirements.txt
+      - run: zensical-i18n build
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          key: ${{ github.ref }}
-          path: .cache
-      - run: |
-          sudo apt-get update
-          sudo apt-get install --fix-missing -y \
-            libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
-      - run: pip install mkdocs-material mkdocs-static-i18n mkdocs-glightbox pillow cairosvg
-      - run: mkdocs gh-deploy --force
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./site
+          force_orphan: true

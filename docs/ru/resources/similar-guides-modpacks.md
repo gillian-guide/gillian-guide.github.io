@@ -1,22 +1,24 @@
-title: Similar Guides & Modpacks
-description: Want more like this for other games? I got you covered!
+---
+title: Похожие руководства и модпаки
+description: Хотите больше такого же, но для других игр? У меня есть что предложить!
+---
 
-# Similar Guides & Modpacks
+# Похожие руководства и модпаки
 
-Do you want more guides & modpacks like this but for other games? I got you covered, as I also love modding! All of the following guides & modpacks have been personally used by me and I can vouch for their quality, as much as you can vouch for my guide!
+Хотите еще такие руководства и модпаки, но для других игр? У меня есть что предложить - я тоже люблю моддинг! Всеми перечисленными ниже руководствами и модпаками я пользовался лично и могу поручиться за их качество - настолько, насколько вы можете поручиться за мое руководство!
 
 ## [Fallout: New Vegas (Viva New Vegas)](https://vivanewvegas.moddinglinked.com/)
 
 ## [Tale of Two Wastelands (The Best of Times)](https://thebestoftimes.moddinglinked.com/)
 
-- This is a mod to port Fallout 3 content to Fallout: New Vegas and merge the best of two worlds.
+- Это мод, который переносит контент Fallout 3 в Fallout: New Vegas и объединяет лучшее из двух миров.
 
 ## [Fallout 4 (The Midnight Ride)](https://themidnightride.moddinglinked.com/)
 
 ## [Grand Theft Auto: San Andreas, Vice City, III and the Stories games (Classic Edition)](https://steamcommunity.com/sharedfiles/filedetails/?id=1967678943)
 
-- If you're non-russian speaking, use Google Translate on the page and remove :material-file:`RUSSIFIER` from :material-folder:`modloader`.
-- The modpack is modular, so just remove something if you don't like it.
-- The same person has modpacks for GTA Vice City, III and the Stories games, they're on the bottom of the Steam Guide.
+- Если вы не говорите по-русски, переведите страницу через Google Translate и удалите :material-file:`RUSSIFIER` из :material-folder:`modloader`.
+- Модпак модульный, так что просто уберите то, что вам не нравится.
+- У этого же автора есть модпаки для GTA Vice City, III и игр серии Stories - они внизу руководства в Steam.
 
 ## [Need for Speed: Most Wanted, Carbon (Classic Edition & Rework)](https://discord.gg/Xy7KrNgymb)

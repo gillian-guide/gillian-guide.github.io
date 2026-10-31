@@ -1,5 +1,7 @@
+---
 title: Various Fixes
 description: Too many holes.
+---
 
 # [Various Fixes](https://gtaforums.com/topic/975211-various-fixes/)
 
@@ -19,4 +21,4 @@ This project aims to fix or improve a large amount of **map issues and textures*
 
 <h2>Navigation</h2> <a id="navigation"></a>
 
-[:material-page-first:Previous page <br>ZolikaPatch</br>](zolikapatch.md){ .md-button } [Next page:material-page-last: <br>Additional Fixes (List)</br>](additional-fixes.md){ .md-button .md-button--primary }
+[:material-page-first:Previous page <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button } [Next page:material-page-last: <br>Companion Mods</br>](../companion-mods.md){ .md-button .md-button--primary }

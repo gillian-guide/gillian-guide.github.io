@@ -1,5 +1,7 @@
+---
 title: Mod Dependencies
 description: Why can't all the mods use UAL it would make everyone's life easier
+---
 
 # Mod Dependencies
 
@@ -26,12 +28,12 @@ description: Why can't all the mods use UAL it would make everyone's life easier
     - **Windows shortcut**: Right click on the game shortcut, click `Properties` and paste the line in `Target` field.
 
 !!! tip "Getting rid of Games for Windows - LIVE (for retail patches)"
-    This tool can be used to get rid of GFWL if you're not interested in official [GFWL multiplayer](../../multiplayer.md/#games-for-windows-live) and Xbox Live achievements. This will reduce the amount of hassle and setup you have to do.
+    This tool can be used to get rid of GFWL if you're not interested in official [GFWL multiplayer](../extras/multiplayer.md#games-for-windows-live) and Xbox Live achievements. This will reduce the amount of hassle and setup you have to do.
 
     - Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
 
 !!! tip "Modloading"
-    Ultimate ASI Loader can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
+    Ultimate ASI Loader can be used for modloading purposes. See [modloading](../extras/modloading.md) for more details.
 
 ---
 

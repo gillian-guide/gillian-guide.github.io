@@ -1,5 +1,7 @@
+---
 title: Similar Guides & Modpacks
 description: Want more like this for other games? I got you covered!
+---
 
 # Similar Guides & Modpacks
 

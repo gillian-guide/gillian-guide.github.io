@@ -1,5 +1,2 @@
-mkdocs-material
-mkdocs-static-i18n
-mkdocs-glightbox
-pillow
-cairosvg
+zensical
+zensical-i18n

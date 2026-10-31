@@ -1,5 +1,7 @@
+---
 title: Multiplayer
 description: Hello? Anybody there?
+---
 
 # Multiplayer
 
@@ -9,10 +11,10 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 
 ## Prerequisites and info
 
-- It's recommended to have [ZolikaPatch](../../essential-modding/zolikapatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
+- It's recommended to have [ZolikaPatch](../essential-modding/openprecepatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
 - Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
     - It is also recommended to use the [GFWLMin patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability - ^^but it cuts out singleplayer features.^^
-- Additionally, you may want to have [ZMenuIV](trainers.md/#ZMenuIV) for the ability to create and participate in custom gamemodes.
+- Additionally, you may want to have [ZMenuIV](trainers.md#zmenuiv) for the ability to create and participate in custom gamemodes.
 - You can also use [this](https://www.gtainside.de/en/gta4/mods/160558-gta-iv-and-eflc-all-multiplayer-clothes-are-unlocked/) to unlock all multiplayer clothing for customization.
 - **Avoid using overhaul, addition or replacement mods**. They will put you, or others, at disadvantage and create instability.
 
@@ -23,7 +25,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 !!! note ""
     This section also includes steps to configure GFWL for non-multiplayer use too. If you came here for that, just skip the "Joining/Creating Lobbies" section.
 !!! warning "Compatibility"
-    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](../../downgrading/downgrading.md) if using the Complete Edition.
+    This method is only compatible with patches 1.0.7.0 and 1.0.8.0. It's also compatible with older patches, but they'll be put into separate lobbies. [Downgrade](../downgrading/index.md) if using the Complete Edition.
 
     Wine does not implement support for GFWL, so this method is not possible on Linux.
 

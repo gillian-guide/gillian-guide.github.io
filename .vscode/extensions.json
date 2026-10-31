@@ -5,6 +5,7 @@
     "christian-kohler.path-intellisense",
     "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
     "ms-vscode-remote.remote-wsl"
   ]
 }

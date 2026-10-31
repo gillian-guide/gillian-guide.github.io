@@ -1,113 +1,115 @@
-title: Mod Dependencies
-description: Why can't all the mods use UAL it would make everyone's life easier
+---
+title: Зависимости модов
+description: Почему все моды не используют UAL - всем было бы проще жить
+---
 
-# Mod Dependencies
+# Зависимости модов
 
 ---
 
 ## [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)
 
- UAL is used to load `.asi` mods (one of the most common types of GTA IV mods) into the game. It's multipurpose and can be used for many other games, but we will use it for GTA IV.
+ UAL используется для загрузки `.asi` модов (одного из самых распространенных типов модов GTA IV) в игру. Он универсален и подходит для многих других игр, но мы будем использовать его для GTA IV.
 
-!!! info "Compatibility"
-    Ultimate ASI Loader is compatible with all game versions.
+!!! info "Совместимость"
+    Ultimate ASI Loader совместим со всеми версиями игры.
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Go to the latest [release page](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest).
-2. Download :material-zip-box: `Ultimate-ASI-Loader.zip` (**not :material-zip-box:`Ultimate-ASI-Loader_x64.zip`**).
-3. Extract the archive into the game folder.
+1. Перейдите на страницу последнего [релиза](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest).
+2. Скачайте :material-zip-box: `Ultimate-ASI-Loader.zip` (**не :material-zip-box:`Ultimate-ASI-Loader_x64.zip`**).
+3. Распакуйте архив в папку с игрой.
 
-!!! warning "If using Linux..."
-    Add `WINEDLLOVERRIDES="dinput8=n,b" %command%` to your Launch options:
+!!! warning "Если используется Linux..."
+    Добавьте `WINEDLLOVERRIDES="dinput8=n,b" %command%` в параметры запуска:
 
-    - **:material-steam: Steam**: Right click the game in your library, press `Properties...` and paste the line in the `Launch options` field.
-    - **:simple-rockstargames: Rockstar Games Launcher**: Open the game page in your library, open settings and paste the line in the `Launcher arguments` field.
-    - **Windows shortcut**: Right click on the game shortcut, click `Properties` and paste the line in `Target` field.
+    - **:material-steam: Steam**: Нажмите правой кнопкой на игру в библиотеке, откройте `Свойства...` и вставьте строку в поле `Параметры запуска`.
+    - **:simple-rockstargames: Rockstar Games Launcher**: Откройте страницу игры в библиотеке, откройте настройки и вставьте строку в поле `Параметры запуска`.
+    - **Ярлык Windows**: Нажмите правой кнопкой на ярлык игры, выберите `Свойства` и вставьте строку в поле `Цель`.
 
-!!! tip "Getting rid of Games for Windows - LIVE (for retail patches)"
-    This tool can be used to get rid of GFWL if you're not interested in official [GFWL multiplayer](../../multiplayer.md/#games-for-windows-live) and Xbox Live achievements. This will reduce the amount of hassle and setup you have to do.
+!!! tip "Избавляемся от Games for Windows - LIVE (для розничных патчей)"
+    Этот инструмент поможет избавиться от GFWL, если вам не нужны официальный [мультиплеер GFWL](../extras/multiplayer.md#games-for-windows-live) и достижения Xbox Live. Так вы избавите себя от кучи возни с настройкой.
 
-    - Rename the :fontawesome-solid-gears:`dinput8.dll` to `xlive.dll`
+    - Переименуйте :fontawesome-solid-gears:`dinput8.dll` в `xlive.dll`
 
-!!! tip "Modloading"
-    Ultimate ASI Loader can be used for modloading purposes. See [modloading](extras/modloading.md) for more details.
+!!! tip "Модлоадинг"
+    Ultimate ASI Loader можно использовать для модлоадинга. Подробности смотрите в разделе [модлоадинг](../extras/modloading.md).
 
 ---
 
 ## [ScriptHookDotNet](https://github.com/HazardX/gta4_scripthookdotnet/)
 
-!!! warning "Compatibility"
-    - Compatible with all game versions.
-    - See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) if running Linux.
+!!! warning "Совместимость"
+    - Совместим со всеми версиями игры.
+    - Если вы на Linux, смотрите раздел [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](#scripthookdotnet-iv-sdk-net-linux).
 
-ScriptHookDotNet is used to run scripts written in any .NET language. Not to be confused with [IV-SDK .NET](#iv-sdk-net).
+ScriptHookDotNet используется для запуска скриптов, написанных на любом языке .NET. Не путайте с [IV-SDK .NET](#iv-sdk-net).
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
 === "1.2.0.59"
-    1. Go to the latest [release page](https://github.com/Tomasak/gta4_scripthookdotnet/releases).
-    2. Download :material-zip-box:`scripthookdotnet_vx_x_x_x.zip`.
-    3. Extract the archive into the game folder.
-=== "1.0.8.0 to older versions"
-    1. Go to the latest [release page for ScriptHook](https://github.com/themonthofjune/IV.1080.ScriptHook/releases).
-    2. Download :material-zip-box:`ScriptHook.zip`.
-    3. Extract the :material-zip-box:`ScriptHook.zip` archive into the game folder.
-    4. Go to the latest [release page for ScriptHookDotNet](https://github.com/ClonkAndre/gta4_scripthookdotnet/releases/tag/v1.7.2.0).
-    5. Download :material-file:`ScriptHookDotNet.asi`.
-    6. Move the file into the game folder.
+    1. Перейдите на страницу последнего [релиза](https://github.com/Tomasak/gta4_scripthookdotnet/releases).
+    2. Скачайте :material-zip-box:`scripthookdotnet_vx_x_x_x.zip`.
+    3. Распакуйте архив в папку с игрой.
+=== "1.0.8.0 и более старые"
+    1. Перейдите на страницу последнего [релиза ScriptHook](https://github.com/themonthofjune/IV.1080.ScriptHook/releases).
+    2. Скачайте :material-zip-box:`ScriptHook.zip`.
+    3. Распакуйте архив :material-zip-box:`ScriptHook.zip` в папку с игрой.
+    4. Перейдите на страницу последнего [релиза ScriptHookDotNet](https://github.com/ClonkAndre/gta4_scripthookdotnet/releases/tag/v1.7.2.0).
+    5. Скачайте :material-file:`ScriptHookDotNet.asi`.
+    6. Переместите файл в папку с игрой.
 
 ---
 
 ## [IV-SDK .NET](https://gtaforums.com/topic/986510-iv-sdk-net/)
 
-!!! warning "Compatibility"
-    - Only compatible with 1.0.8.0 and 1.0.7.0. [Downgrade](../downgrading/downgrading-the-game.md) if using Complete Edition.
-    - See [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) if running Linux.
+!!! warning "Совместимость"
+    - Совместим только с 1.0.8.0 и 1.0.7.0. Если у вас Complete Edition, сделайте [даунгрейд](../downgrading/downgrading-the-game.md).
+    - Если вы на Linux, смотрите раздел [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](#scripthookdotnet-iv-sdk-net-linux).
 
-IV-SDK .NET is used to run scripts written in any .NET language. Not to be confused with [ScriptHookDotNet](#scripthookdotnet).
+IV-SDK .NET используется для запуска скриптов, написанных на любом языке .NET. Не путайте с [ScriptHookDotNet](#scripthookdotnet).
 
-<h3>Installation</h3>
+<h3>Установка</h3>
 
-1. Go to the latest [release page](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest).
-2. Download :material-zip-box:`IV-SDK.NET.vx_x_x.zip`.
-3. Extract the archive into the game folder.
+1. Перейдите на страницу последнего [релиза](https://github.com/ClonkAndre/IV-SDK-DotNet/releases/latest).
+2. Скачайте :material-zip-box:`IV-SDK.NET.vx_x_x.zip`.
+3. Распакуйте архив в папку с игрой.
 
 ???+ tip "Clonk's Coding Library"
-    Some mods may require extensions from [Clonk's Coding Library](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/).
+    Некоторым модам могут понадобиться расширения из [Clonk's Coding Library](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/).
 
-    <h4>Installation</h4>
+    <h4>Установка</h4>
 
-    * Go to the latest [release page](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest).
-    * Download :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
-    * Extract the archive into the game folder.
+    * Перейдите на страницу последнего [релиза](https://github.com/ClonkAndre/ClonksCodingLib.GTAIV/releases/latest).
+    * Скачайте :material-zip-box:`ClonkCodingLib.GTAIV.vx_x.zip`.
+    * Распакуйте архив в папку с игрой.
 
 ---
 
-## Getting ScriptHookDotNet and IV-SDK .NET to work on Linux
+## Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux
 
-By default, neither of those two will run on Linux. This can be fixed, however. These instructions will assume you are an experienced Linux user, so if you don't get something - look it up online.
+По умолчанию ни один из них не работает на Linux. Но это можно исправить. Инструкции рассчитаны на опытного пользователя Linux, так что если что-то непонятно - ищите в интернете.
 
-<h3>Instructions</h3>
+<h3>Инструкции</h3>
 
-1. In the `Compatibility` tab of the game in :material-steam:Steam, temporarily change Proton version to one of Proton 4.11-4.13 versions
-2. Find your GTA IV's prefix folder, usually located at :material-folder: ==~/.steam/Steam/steamapps/compatdata/12210/pfx==, and delete it
-3. Launch the game once, you will get a Rockstar Games Launcher error, just close it, we only need this for the prefix folder to generate again
-4. Install [Protontricks](https://github.com/Matoking/protontricks) (If using Lutris (or any other form of managing GTA IV outside of Steam), use Winetricks instead)
-5. Open a terminal and run the following command to install .NET in the GTA IV prefix:
+1. Во вкладке `Compatibility` игры в :material-steam:Steam временно смените версию Proton на одну из версий Proton 4.11-4.13
+2. Найдите папку префикса вашей GTA IV, обычно она находится по пути :material-folder: ==~/.steam/Steam/steamapps/compatdata/12210/pfx==, и удалите ее
+3. Запустите игру один раз - вы получите ошибку Rockstar Games Launcher, просто закройте ее, нам нужно только, чтобы папка префикса создалась заново
+4. Установите [Protontricks](https://github.com/Matoking/protontricks) (если используете Lutris (или любой другой способ управления GTA IV вне Steam), используйте вместо него Winetricks)
+5. Откройте терминал и выполните следующую команду, чтобы установить .NET в префикс GTA IV:
 
     ```bash
     protontricks 12210 -q dotnet472
     ```
 
-    If you installed Protontricks through Flatpak (which you do if you're running Steam via Flatpak as well), run this instead:
+    Если вы устанавливали Protontricks через Flatpak (а это так, если Steam у вас тоже через Flatpak), выполните вместо нее эту:
 
     ```bash
     flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
     ```
 
-6. Wait until .NET installs (may take from 5 to 30 minutes)
-7. Change the game's Proton version back to your usual one (highly recommended to be using [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) which can improve stability and allows the use of Independence FM)
-8. When you launch the game, you may get some .NET errors, but the mods should be working fine.
+6. Дождитесь окончания установки .NET (может занять от 5 до 30 минут)
+7. Верните игре обычную версию Proton (настоятельно рекомендую использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить через [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)), которая улучшает стабильность и позволяет слушать Independence FM)
+8. При запуске игры вы можете получить несколько ошибок .NET, но моды должны работать нормально.
 
-Credit goes to Roigo and minidrwho for figuring out the actual solution.
+За то, что нашли рабочее решение, спасибо Roigo и minidrwho.
