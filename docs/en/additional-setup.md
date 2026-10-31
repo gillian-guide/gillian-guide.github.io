@@ -171,7 +171,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-------------: | :---------: |
     | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
     | Definition | On | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. |
-    | Console Gamma | On<br>Preference | This setting changes the gamma to match the Xbox 360 levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
+    | Console Gamma | Xbox 360 | This setting changes the gamma to match the Xbox 360 levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *Xbox 360*.** |
     | Console Auto Exposure | Preference | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Preference | This setting controls the intensity of the motion blur effect. |
     | Depth of Field | Low<br>Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
@@ -189,7 +189,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | Windowed | On | This setting controls whether game is in Exclusive Fullscreen mode or (Borderless) Windowed.<br>Borderless is generally more recommended than Exclusive Fullscreen for multitasking purposes. |
     | Windowed Borderless | On if using `Windowed`</br>Off | This setting controls if the game is a normal window or a Borderless Fullscreen window when the `Windowed` setting is **On**. |
     | Pause Game on Focus Loss | Off | This setting controls whether or not the game process will be locked when the window loses focus (alt-tabbing).<br>Recommended to turn off to avoid potential crashes.  |
-    | Extra Night Shadows | Preference<br>Off | This setting controls whether lampmpost and headlight shadows are enabled. Highly unstable, but if you miss the effect from vanilla IV you can turn it on. |
+    | Extra Night Shadows | Lampposts | This setting controls whether lamppost and headlight shadows are enabled. Highly unstable, but if you miss the effect from vanilla IV you can set it to *Lampposts*. |
 
 === "Steam Deck"
     !!! info "What are these settings?"
@@ -226,7 +226,7 @@ If you're here after anything else (including installing the archive on Linux), 
     | :-----: | :-------------: | :---------: |
     | FOV | Preference | This setting controls the game FOV in increments from the game's default value. |
     | Definition | Off | This setting smoothes out stippled and dithered objects to reduce shimmering and aliasing. According to Not AJ, setting this to `On` makes the image too jagged. |
-    | Console Gamma | On<br>Preference | This setting changes the gamma to match the Xbox 360 levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *On*.** |
+    | Console Gamma | Xbox 360 | This setting changes the gamma to match the Xbox 360 levels.<br>**The game was never supposed to be so whitewashed, so I recommend setting this to *Xbox 360*.** |
     | Console Auto Exposure | Preference | This setting controls whether the harsher console auto-exposure is applied (the "getting blinded" effect when leaving interior). |
     | Motion Blur | Preference | This setting controls the intensity of the motion blur effect. |
     | Depth of Field | Low<br>Preference | This setting controls the intensity of the distant blur and allows you to lock Depth of Field only to cutscenes. |
