@@ -11,7 +11,7 @@ GTA IV had an amazing multiplayer... and it still does! Rockstar Games has remov
 
 ## Prerequisites and info
 
-- It's recommended to have [ZolikaPatch](../essential-modding/openprecepatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
+- It's recommended to have [OpenPreCEPatch (or ZolikaPatch)](../essential-modding/openprecepatch.md) set up for a better multiplayer experience. Make sure to configure :material-file-cog:`ZolikaPatch.ini` to use multiplayer functions.
 - Make sure to have `RecoilFix` set to `0` in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to avoid being at disadvantage with other players.
     - It is also recommended to use the [GFWLMin patch](https://github.com/SandeMC/GTAIV.EFLC.FusionFix-GFWLMin/releases/latest) for increased stability - ^^but it cuts out singleplayer features.^^
 - Additionally, you may want to have [ZMenuIV](trainers.md#zmenuiv) for the ability to create and participate in custom gamemodes.
@@ -74,20 +74,11 @@ The one and only official multiplayer method. And to that end, it's also the one
 
         First, check if you already own any game with [Legacy (5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - you may already own one of these games - check if their CD Key works for you.
 
-        After you've made sure you don't have one already, you can:
-
-        - Look for a GFWL key on some marketplaces.
-        - Buy the following Steam game, which is the only one still selling a GFWL key as of February 2025. This may change in the future. ==Don't worry, you can refund the game after you purchase the key.==
-
-        <iframe src="https://store.steampowered.com/widget/10460/" frameborder="0" width="646" height="190" allowtransparency="true"></iframe>
+        After you've made sure you don't have one already, you can only look for a GFWL key on some marketplaces, as the last games that used to sell GFWL keys on Steam are no longer doing so.
 
         After buying the game, go to the library, select the game and right click - Manage - CD keys and copy the key somewhere. You can refund it now.
-    === "Trying out random keys online"
-        This one is pretty self-explanatory - just go around online and look for random GFWL keys - preferably with [Legacy (5x5) activation](https://www.pcgamingwiki.com/wiki/Games_for_Windows_-_LIVE#List_of_games_using_Games_for_Windows_-_LIVE) - they have multiple uses, so you might get lucky. This Discord server might help you:
-
-        [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     === "RevIVal's community method"
-        The channel with the activation method is `#gfwl-keys` (for promotion and respect reasons, I won't link it here directly), but check out the server itself too, we're welcome to anyone!
+        You can acquire a mod that activates the game for you in the `#mods` channel (for promotion and respect reasons, I won't link it here directly); check out the server itself too, we're welcome to anyone!
 
         [:simple-discord: Grand Theft RevIVal](https://discord.gg/Wn5eCWGcpb){ .md-button .md-button--primary }
     After you acquired the key and activated the game (again, this might take another 5-10 minutes, so get yourself a tea or something), you're ready to play!

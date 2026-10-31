@@ -16,6 +16,8 @@ A lot of mods require replacing game files with [OpenIV](../resources/openiv.md)
 
 This modloader works by loading the files from the :material-folder: ==update== folder *instead* of the main game files, avoiding replacing the original files.
 
+---
+
 ### Installing mods packaged for Fusion Overloader
 
 They're likely already packaged into an :material-folder: ==update== folder. Just drop that folder into the root folder of the game.
