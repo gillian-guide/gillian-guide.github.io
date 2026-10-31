@@ -151,8 +151,8 @@ description: Почему игра не работает
     Установите [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info "Не работают достижения GFWL / Xbox Live"
-    - Удалите :material-file:`SteamAchivements.asi` - их нельзя использовать одновременно.
-    - Установите `TryToSkipAllErrors` и `VSyncFix` в `0` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
+    - Удалите :material-file:`SteamAchivements.asi` - их нельзя использовать одновременно, если не используется [OpenPreCEPatch](../essential-modding/openprecepatch.md).
+    - Установите `TryToSkipAllErrors` и `VSyncFix` в `0` в :material-file-cog:`ZolikaPatch.ini` (проблема не относится к OpenPreCEPatch).
 
 ??? info "Настройка прицела застряла на 'Basic'"
     - Отключите `Dynamic Crosshair` в :material-file-cog:`LibertyTweaks.ini`.

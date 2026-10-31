@@ -151,8 +151,8 @@ I know about these issues, no need to report them to me, unless you know a solut
     Install [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
 ??? info "GFWL / Xbox Live achievements don't work"
-    - Remove :material-file:`SteamAchivements.asi` - you can't use both at once.
-    - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`).
+    - Remove :material-file:`SteamAchivements.asi` - you can't use both at once unless you use [OpenPreCEPatch](../essential-modding/openprecepatch.md).
+    - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`ZolikaPatch.ini` (issue does not apply to OpenPreCEPatch).
 
 ??? info "Reticle option is stuck on 'Basic'"
     - Toggle `Dynamic Crosshair` off in the :material-file-cog:`LibertyTweaks.ini`.
