@@ -49,7 +49,7 @@ If you're here after anything else (including installing the archive on Linux), 
         ```
 
     4. If using **FusionFix**, `-windowed` can be removed in favor of the mod's in-game toggle.
-    5. If using **FusionFix** and/or **OpenPreCEPatch**, enable `Borderless Windowed` in `Settings` - `Game` in-game or `BorderlessWindowed` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) depending on which of the two you install.
+    5. If using **FusionFix** and/or **OpenPreCEPatch**, enable `Borderless Windowed` in `Settings` - `Game` in-game or `BorderlessWindowed` in :material-file-cog:`XLivelessAddon.ini` (or :material-file-cog:`ZolikaPatch.ini`) depending on which of the two you install.
         - **If you don't plan to install either of the mods, remove `-windowed`.**
         - If using both, only enable the option in **FusionFix**.
 

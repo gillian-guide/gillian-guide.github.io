@@ -65,7 +65,7 @@ description: Почему игра не работает
 ??? info "Игра сразу загружает сохранение при запуске, без меню"
     Можете зажать ++lshift++ при запуске, когда нужно меню.
 
-    Если хотите полностью отключить эту функцию, измените **Skip Menu** на **Off** в `Настройки` - `Игра`, если используете FusionFix. Если функция всё равно срабатывает, установите `SkipMenu` в `0` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`).
+    Если хотите полностью отключить эту функцию, измените **Skip Menu** на **Off** в `Настройки` - `Игра`, если используете FusionFix. Если функция всё равно срабатывает, установите `SkipMenu` в `0` в :material-file-cog:`XLivelessAddon.ini` (или :material-file-cog:`ZolikaPatch.ini`).
 
 ---
 
@@ -192,7 +192,7 @@ description: Почему игра не работает
 
 ??? info ""You have been disconnected because your computer is running too slowly" в GFWL"
     - Включите `Windowed`, `Borderless` и отключите `Block on Focus Loss` в `Настройки` - `Игра`, если используете FusionFix.
-        - Если FusionFix не используете, установите `BorderlessWindowed` и `DoNotPauseOnMinimize` в `1` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`) и добавьте `-windowed` в :material-file-cog:`commandline.txt`.
+        - Если FusionFix не используете, установите `BorderlessWindowed` и `DoNotPauseOnMinimize` в `1` в :material-file-cog:`XLivelessAddon.ini` (или :material-file-cog:`ZolikaPatch.ini`) и добавьте `-windowed` в :material-file-cog:`commandline.txt`.
 
 ??? info ""The profile could not be signed in to LIVE" в GFWL"
     - Установите [приложение Xbox](https://www.xbox.com/en-US/apps/xbox-app-for-pc) и войдите в него с тем же аккаунтом, который пытаетесь использовать для GFWL.

@@ -65,7 +65,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info "Game loads directly into the savegame on startup, no menu"
     You can hold ++lshift++ on boot for when you need the menu.
 
-    If you want to completely disable the feature off, change **Skip Menu** to **Off** in `Settings` - `Game` if using FusionFix. If the feature still triggers, set `SkipMenu` to `0` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`).
+    If you want to completely disable the feature off, change **Skip Menu** to **Off** in `Settings` - `Game` if using FusionFix. If the feature still triggers, set `SkipMenu` to `0` in :material-file-cog:`XLivelessAddon.ini` (or :material-file-cog:`ZolikaPatch.ini`).
 
 ---
 
@@ -192,7 +192,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info ""You have been disconnected because your computer is running too slowly" in GFWL"
     - Enable `Windowed`, `Borderless` and disable `Block on Focus Loss` in `Settings` - `Game` if using FusionFix.
-        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (or :material-file-cog:`ZolikaPatch.ini`) and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
+        - If not using FusionFix, set `BorderlessWindowed` and `DoNotPauseOnMinimize` to `1` in :material-file-cog:`XLivelessAddon.ini` (or :material-file-cog:`ZolikaPatch.ini`) and add `-windowed` to your :material-file-cog:`commandline.txt` instead.
 
 ??? info ""The profile could not be signed in to LIVE" in GFWL"
     - Install the [Xbox App](https://www.xbox.com/en-US/apps/xbox-app-for-pc) and sign in to it with the same account you're trying to use for GFWL.

@@ -49,7 +49,7 @@ description: Настройка параметров запуска и опти�
         ```
 
     4. Если установлен **FusionFix**, `-windowed` может быть убран в пользу переключателей в самой игре.
-    5. Если установлен **FusionFix** и/или **OpenPreCEPatch**, включите `Borderless Windowed` в `Настройки` - `Игра` в игре или `BorderlessWindowed` в :material-file-cog:`IV.EFLC.OpenPreCEPatch.ini` (или :material-file-cog:`ZolikaPatch.ini`) в зависимости от того, что из двух вы установите.
+    5. Если установлен **FusionFix** и/или **OpenPreCEPatch**, включите `Borderless Windowed` в `Настройки` - `Игра` в игре или `BorderlessWindowed` в :material-file-cog:`XLivelessAddon.ini` (или :material-file-cog:`ZolikaPatch.ini`) в зависимости от того, что из двух вы установите.
         - **Если не планируете ставить ни то, ни другое, уберите `-windowed`.**
         - Если установлены оба, включите только настройку от **FusionFix**.
 
