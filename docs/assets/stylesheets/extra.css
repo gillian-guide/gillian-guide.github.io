@@ -78,3 +78,13 @@
 .md-tooltip2:has(.md-tooltip2__inner):not(:has(.md-tooltip2__inner > *)) {
   display: none !important;
 }
+
+/* lite-youtube embeds are block elements without a margin of their own, so
+   consecutive players would sit flush against each other */
+.md-typeset lite-youtube {
+  margin: 0 0 1rem;
+}
+
+.md-typeset lite-youtube:last-child {
+  margin-bottom: 0;
+}

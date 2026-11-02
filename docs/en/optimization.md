@@ -19,7 +19,7 @@ While it isn't a magic tool to improve performance and is more of a compatibilit
     It's hard to say, because DXVK's improvement can vary from device to device. **There is a chance that DXVK will not improve performance for you if you're GPU-bound.** So, the only answer is that you can expect *some* improvement if you are CPU-bound.
 
     Under right conditions, though, you can expect something comparable to this benchmark:
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
+    <lite-youtube videoid="mSSjw8uf5Rw" title="GTA IV: DXVK vs no DXVK" params="start=3" playlabel="Play: GTA IV - DXVK vs no DXVK benchmark"></lite-youtube>
 
 ---
 

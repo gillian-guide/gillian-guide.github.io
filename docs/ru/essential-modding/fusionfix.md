@@ -15,7 +15,7 @@ description: Графические исправления - и даже бол�
 
 <h2>Демо</h2> <a id="_2"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XTuOortPoY4?si=5HbNzCc6JboJjxUT" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube videoid="XTuOortPoY4" title="How Modders Fixed GTA IV" playlabel="Воспроизвести: How Modders Fixed GTA IV"></lite-youtube>
 
 ---
 

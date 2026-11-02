@@ -10,7 +10,12 @@ repo_url = "https://github.com/gillian-guide/gillian-guide.github.io"
 repo_name = "Website's repository"
 
 extra_css = [
+  "assets/stylesheets/lite-yt-embed.css",
   "assets/stylesheets/extra.css",
+]
+
+extra_javascript = [
+  { path = "assets/javascripts/lite-yt-embed.js", defer = true },
 ]
 
 nav = [

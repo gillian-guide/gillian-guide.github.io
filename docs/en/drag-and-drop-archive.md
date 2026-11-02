@@ -18,7 +18,9 @@ Liberty Drag-and-Drop (previously Drag-and-Drop Archive, also known as Gillian's
 
 If you want to get familiar with the modpack before installing it, I recommend these videos:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ed3mmDQISik" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/fvCPz3Fxj0w" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/lzEbEIGlIRs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube videoid="ed3mmDQISik" title="Fixing and Improving GTA IV on PC (With Mods)" playlabel="Play: Fixing and Improving GTA IV on PC (With Mods)"></lite-youtube>
+<lite-youtube videoid="fvCPz3Fxj0w" title="BEST Way to Play Grand Theft Auto IV" playlabel="Play: BEST Way to Play Grand Theft Auto IV"></lite-youtube>
+<lite-youtube videoid="lzEbEIGlIRs" title="The definitive way to play GTA IV" playlabel="Play: The definitive way to play GTA IV"></lite-youtube>
 
 ---
 

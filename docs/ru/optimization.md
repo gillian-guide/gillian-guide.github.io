@@ -19,7 +19,7 @@ description: Все про DXVK для GTA IV
     Сказать напрямую сложно, т.к. улучшения от DXVK полностью разные от одного ПК к другому. **Есть вероятность, что DXVK вам вообще не поможет, если у вас ГП и так на сотню загружен.** Так что единственный ответ - вы можете ожидать *какого-то* улучшения, если у вас нагрузка забита на ЦП.
 
     Однако при определенных условиях можно ожидать чего-то сопоставимого с этим тестом:
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mSSjw8uf5Rw;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
+    <lite-youtube videoid="mSSjw8uf5Rw" title="GTA IV: DXVK vs no DXVK" params="start=3" playlabel="Воспроизвести: GTA IV — DXVK vs no DXVK"></lite-youtube>
 
 ---
 
