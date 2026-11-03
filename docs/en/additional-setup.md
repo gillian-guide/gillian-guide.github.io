@@ -308,6 +308,7 @@ If you're annoyed by the Rockstar Games Launcher every time you launch the game,
 
 !!! warning
     - This is only for the :material-steam: Steam edition of the game.
+    - This disables achievements.
     - This method moves your savefile directory from :material-folder:==Documents== to a :material-folder:==save== folder inside of your game folder
 
 <h2>Installation</h2> <a id="installation"></a>
