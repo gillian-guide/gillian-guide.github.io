@@ -10,6 +10,19 @@ description: Welcome to Gillian's GTA IV Modding Guide
 !!! quote ""
     This website is not affiliated with Rockstar Games, Rockstar North, or Take-Two Interactive. Following the steps in this guide may violate Rockstar's End User License Agreement (EULA), and if you contact their support, they may refuse to help you because of the EULA violation. I am not the author of most of the following modifications, attribution goes to them only unless specified otherwise.
 
+---
+
+## Overview
+
+**Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
+
+This guide aims to provide the best vanilla-faithful experience for GTA IV, but is not limited to that. It's meant to be accessible to everyone and to be able to help anyone who has their own specifics on how they want to experience the game - be it creating the best singleplayer experience, creating the best environment for manual modding, playing multiplayer, getting the best performance, or something else.
+
+!!! note ""
+    This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
+
+    However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
+
 !!! note "Semi-retirement notice"
     September 2026 update: as much as I've wanted to retire, I've decided to not. Instead, I've decided to transition the website to minimal maintenance mode, thus collapsing a lot of extra information that's hard to update into a single, new page, called Companion Mods. As for the modpack updates, I've had two wonderful people - Pingwinek1234 and Dashii - helping me with the updates in the past months, thus you can consider them as sort-of my successors (though I still do the final steps). Basically, retirement is cancelled thanks to community, lol.
 
@@ -25,18 +38,6 @@ description: Welcome to Gillian's GTA IV Modding Guide
 
     Thank you for the past 5 years of support, and sorry for this somewhat-lengthy essay. I may not have meant much in the grand scale of things for this community compared to the modders, but I hope I've made **your** experience better and led all of you to discovering mods you have never heard of before. As of writing this, the modpack is functional and may still work and most of the information on the guide is still up-to-date, but that may change. I'm also willing to pass the torch to anybody willing to continue the effort, however I will no longer dedicate effort into this myself (or not for the next months, at the least). I will also stick around on the Discord server and provide advice whenever I can, and I may from time to time do some minor touches on the guide or update easy-to-update mods on the modpack, but I give no promises or guarantees.
 
----
-
-## Overview
-
-**Welcome to Gillian's Grand Theft Auto IV Modding Guide, a centralized and modular all-in-one modding guide.**
-
-This guide aims to provide the best vanilla-faithful experience for GTA IV, but is not limited to that. It's meant to be accessible to everyone and to be able to help anyone who has their own specifics on how they want to experience the game - be it creating the best singleplayer experience, creating the best environment for manual modding, playing multiplayer, getting the best performance, or something else.
-
-!!! note ""
-    This guide aims to be as unbiased as possible, and tries to provide only relevant information for modding GTA IV. Any mods or information listed do not reflect my personal opinion of anyone, and I'd prefer this guide to be free of personal bias.
-
-    However, one strict rule is enforced: **all modifications mentioned must preserve the original feel of the game.**
 
 ---
 
