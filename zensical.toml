@@ -17,6 +17,7 @@ extra_css = [
 extra_javascript = [
   { path = "assets/javascripts/lite-yt-embed.js", defer = true },
   { path = "assets/javascripts/video-loading.js", defer = true },
+  { path = "assets/javascripts/announce-dismiss.js", defer = true },
 ]
 
 nav = [
