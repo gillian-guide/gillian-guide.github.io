@@ -55,6 +55,11 @@ These mods fix some aspect of the game without adding or changing something dras
 | [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ONLY OPTIONALS**: Aims to further fix the inconsistency between base GTA IV and EFLC. Used: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
 | [OpenPreCEPatch](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Allows to get :material-steam: Steam achievements on **older patches**, alongside DLC support for PreCE versions. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Fixes some issues related to ImGui and cloud rendering. **Only relevant to IVSDKDotNet users.** |
+| [Johnny's Hand Seams Fix](https://www.nexusmods.com/gta4/mods/1315) | nipahtard | Fixes the hand texture seams in Johnny's model. Applied to cutscene model by Pingwinek1234. |
+| [Clothing Props Fix Overhaul](https://www.nexusmods.com/gta4/mods/1354) | Pingwinek1234 | Fixes or removes most of the beta leftovers hidden in the props and replaces them with their final designs. |
+| [Johnny K pants fix](https://www.nexusmods.com/gta4/mods/1464) | nipahtard | Fixes the small clipping that happens during the jump animation in TLAD. |
+| [No Way on the Subway Continuity Fix](https://www.nexusmods.com/gta4/mods/1502) | nipahtard | Fixes the continuity with TLAD. |
+| [Pistol UV map fix](https://discord.com/channels/452421215076876288/461150059552178176/1561930593766215770) | gooberboiuwu | Fixes the UV map and the iron sight on the pistol model. |
 
 ---
 
@@ -101,6 +106,10 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, me, Ash_735 | Slight file shift to use the TLAD's gameplay and prop model for pump shotgun in IV and TBoGT. |
 | [Fixed Combat Shotgun Icon](https://www.gtainside.com/gta4/mods/116711-fixed-combat-shotgun-icon) | DavSte | Changed Combat Shotgun icon to resemble the in-game model. I don't like because it looks too busy compared to other icons. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) and [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Increases the quality of UI radio icons, as they are highly inconsistent with other UI assets in the game. |
+| [Drive-By Pre-Aim](https://www.nexusmods.com/gta4/mods/1362) | Xatriya | Allows to aim *before* shooting for drive-by. A [1.0.8.0 version](https://www.nexusmods.com/gta4/mods/1564) is available. |
+| [Better Tree LODs](https://discord.com/channels/693286101686812722/1551212072711225345/1551212560999522326) | nidzo | Improved tree LOD billboards to be more seamless. |
+| [SISCO](https://www.nexusmods.com/gta4/mods/1453) | Chunk | Reduces the amount of streaming issues, if not erases them entirely, as well as raises the general limits of the game. |
+| [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Allows to toggle gloves with a button. Requires [ScriptHookDotNet](resources/mod-dependencies.md#scripthookdotnet), which is not part of the archive. |
 
 ---
 
@@ -131,6 +140,8 @@ These mods don't enhance or fix anything necessarily - they're mods that *will* 
 | [Beta Radio](https://gtaforums.com/topic/1007007-iv-beta-radio/) | MrFinger | Restores 136 songs removed from GTA IV and EFLC. |
 | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo and ThirteenAG | Parts of [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) and [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest) bundled as addons for FusionFix's Snow Mode. |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Adds a Discord Rich Presence (custom activity status). **1.0.8.0 only** |
+| [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Changes rival cars in races to match your car and removes rubberbanding to make it fair. |
+| [Longer Loading Screen](https://www.nexusmods.com/gta4/mods/1394?tab=description) | excinus | Allows to stay on the loading screen longer to enjoy the vibes or something. |
 
 ---
 

@@ -5,7 +5,7 @@ description: Сколько же модов в этой игре
 
 # Companion Mods
 
-На этой странице собраны моды, которые что-то исправляют, улучшают или делают еще что-нибудь - в общем, все то, что само по себе не тянет на обязательный мод, но так или иначе может улучшить впечатление от игры. Они разделены на 3 группы - [исправления](#_2), [улучшения](#_3) и [разное](#_4). Не ищите здесь моды для готового архива - архив уже включает все моды, которые я считаю нужными, а дополнительные моды для него можно найти [здесь](drag-and-drop-archive.md#_8).
+На этой странице собраны моды, которые что-то исправляют, улучшают или делают еще что-нибудь - в общем, все то, что само по себе не тянет на обязательный мод, но так или иначе может улучшить впечатление от игры. Они разделены на 3 группы - [исправления](#_1), [улучшения](#_2) и [разное](#_3). Не ищите здесь моды для готового архива - архив уже включает все моды, которые я считаю нужными, а дополнительные моды для него можно найти [здесь](drag-and-drop-archive.md#_8).
 
 !!! warning ""
     Для большинства модов требуется [FusionFix](essential-modding/fusionfix.md). **Эта страница исходит из того, что он у вас установлен, и больше напоминать об этом не будет.**
@@ -55,6 +55,11 @@ description: Сколько же модов в этой игре
 | [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ТОЛЬКО АДДОНЫ**: цель - дополнительно исправить несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
 | [OpenPreCEPatch](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Позволяет получать достижения :material-steam: Steam на **старых патчах**, а также добавляет поддержку DLC для версий PreCE. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Исправляет некоторые проблемы, связанные с ImGui и рендерингом облаков. **Актуально только для пользователей IVSDKDotNet.** |
+| [Johnny's Hand Seams Fix](https://www.nexusmods.com/gta4/mods/1315) | nipahtard | Исправляет швы на текстуре рук модели Джонни. Применено к модели для катсцен Pingwinek1234. |
+| [Clothing Props Fix Overhaul](https://www.nexusmods.com/gta4/mods/1354) | Pingwinek1234 | Исправляет или убирает большинство бета-остатков, спрятанных в пропах, и заменяет их финальными моделями. |
+| [Johnny K pants fix](https://www.nexusmods.com/gta4/mods/1464) | nipahtard | Исправляет небольшое пересечение полигонов при анимации прыжка в TLAD. |
+| [No Way on the Subway Continuity Fix](https://www.nexusmods.com/gta4/mods/1502) | nipahtard | Исправляет нестыковку с TLAD. |
+| [Pistol UV map fix](https://discord.com/channels/452421215076876288/461150059552178176/1561930593766215770) | gooberboiuwu | Исправляет UV-развертку и прицел (iron sight) модели пистолета. |
 
 ---
 
@@ -101,6 +106,10 @@ description: Сколько же модов в этой игре
 | [Consistent Pump Shotgun](https://drive.google.com/file/d/1AaYVYhaRVW9pA5dzTcsAEj_EgjeV2ST5/view?usp=sharing) | Haxogone, я, Ash_735 | Небольшой сдвиг файлов, чтобы в IV и TBoGT использовались геймплейная модель и проп-модель помпового дробовика из TLAD. |
 | [Fixed Combat Shotgun Icon](https://www.gtainside.com/gta4/mods/116711-fixed-combat-shotgun-icon) | DavSte | Иконка боевого дробовика изменена под игровую модель. Мне она не нравится: по сравнению с другими иконками выглядит слишком перегруженной. |
 | [Higher Res Radio Logos In-Game](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071559765) и [Higher Res Radio Logos Menu](https://gtaforums.com/topic/887527-ash_735s-workshop/?do=findComment&comment=1071512871) | Ash_735 | Повышает качество иконок радио в интерфейсе, так как они сильно выбиваются из остальных элементов интерфейса игры. |
+| [Drive-By Pre-Aim](https://www.nexusmods.com/gta4/mods/1362) | Xatriya | Позволяет прицеливаться *до* выстрела при стрельбе из машины. Есть [версия для 1.0.8.0](https://www.nexusmods.com/gta4/mods/1564). |
+| [Better Tree LODs](https://discord.com/channels/693286101686812722/1551212072711225345/1551212560999522326) | nidzo | Улучшенные LOD-биллборды деревьев - переходы между ними стали менее заметными. |
+| [SISCO](https://www.nexusmods.com/gta4/mods/1453) | Chunk | Снижает количество проблем со стримингом, если не убирает их вовсе, а также повышает общие лимиты игры. |
+| [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Позволяет включать и выключать перчатки кнопкой. Требует [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet), которого нет в сборке. |
 
 ---
 
@@ -131,6 +140,8 @@ description: Сколько же модов в этой игре
 | [Beta Radio](https://gtaforums.com/topic/1007007-iv-beta-radio/) | MrFinger | Возвращает 136 песен, вырезанных из GTA IV и EFLC. |
 | [Addons for the Snow Mod](https://drive.google.com/file/d/1xlFkZUTVMfmqO538J4S1EEGQ4tzOrfOC/view?usp=sharing) | Jumbo0, gr8man, Jantsu92, Alisa Bellucci, Flash, Alexkander_, Straysify, gdanbo и ThirteenAG | Части [Enhanced Snow Mod](https://www.moddb.com/mods/gta-iv-snow-mod-enhanced), [Snow Mod Reaction Fix](https://www.lcpdfr.com/downloads/gta4mods/scripts/6919-snow-mod-reaction-fix/), [Realistic Snow Sounds](https://www.moddb.com/mods/realistic-snow-sounds/addons/realistic-snow-sounds) и [Project2DFX](https://github.com/gillian-guide/IV.Project2DFX-PreCE/releases/latest), собранные в виде аддонов для снежного режима FusionFix. |
 | [IV-Presence](https://gtaforums.com/topic/975850-iv-presence/) | ItsClonkAndre | Добавляет Discord Rich Presence (кастомный статус активности). **Только 1.0.8.0** |
+| [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Меняет машины соперников в гонках на соответствующие вашей, а также убирает rubberbanding для честности. |
+| [Longer Loading Screen](https://www.nexusmods.com/gta4/mods/1394?tab=description) | excinus | Позволяет задержаться на экране загрузки подольше - ради атмосферы или просто так. |
 
 ---
 

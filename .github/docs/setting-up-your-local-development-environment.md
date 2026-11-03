@@ -76,7 +76,9 @@ python tools/check_links.py
 python tools/check_links.py --external
 ```
 
-The checker exits non-zero when a link is broken, so it can be used in CI - the [links workflow](../workflows/links.yml) runs the internal check on every push and probe the external links weekly. Server answers that mean "no bots" (`401`, `403`, `429`) are reported separately and do not fail the run.
+The checker splits its findings into **broken** links, which fail the run, and links it **could not verify** — `401`, `403` and `429` answers, timeouts, DNS and TLS errors. Those say nothing about the link itself, so they are reported but never fail the run.
+
+The [links workflow](../workflows/links.yml) runs the internal check on every push and the external probe weekly. It writes both reports into the job summary and, when it finds broken links, opens — or comments on — the "Broken links found by the links workflow" issue, so the result is visible without a red build.
 
 > **Note**: The guide links between pages with paths relative to the Markdown file, not to the URL of the page. A root-level page links `resources/credits.md`, a page in `resources/` links `../extras/modloading.md`. Writing URL-relative paths (`../../foo.md`) works on the English site because the browser clamps excess `..` segments, but escapes into English from `/ru/`. `tools/normalize_links.py` rewrites such links to their file-relative form:
 

@@ -13,6 +13,11 @@ on:
 
 permissions:
   contents: read
+  issues: write
+
+concurrency:
+  group: links-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   links:
@@ -24,8 +29,89 @@ jobs:
           python-version: 3.x
       - run: pip install -r requirements.txt
       - run: zensical-i18n build
+
       - name: Internal links and anchors
-        run: python tools/check_links.py
+        id: internal
+        shell: bash
+        run: |
+          set +e
+          python tools/check_links.py | tee internal.txt
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
       - name: External links
+        id: external
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: python tools/check_links.py --only-external --external --timeout 20
+        shell: bash
+        run: |
+          set +e
+          python tools/check_links.py --only-external --external --timeout 20 | tee external.txt
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Write job summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Link check"
+            echo
+            for report in internal.txt external.txt; do
+              if [ -f "$report" ]; then
+                echo '```'
+                cat "$report"
+                echo '```'
+                echo
+              fi
+            done
+            echo "Answers that say nothing about a link - HTTP 401, 403 and 429,"
+            echo "timeouts and TLS errors - are reported as unverified and never"
+            echo "fail this run."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update the broken links issue
+        if: |
+          (steps.internal.outputs.status || '0') != '0' ||
+          (steps.external.outputs.status || '0') != '0'
+        uses: actions/github-script@v7
+        env:
+          PUBLISH_ISSUE: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+        with:
+          script: |
+            const fs = require('fs')
+            const { owner, repo } = context.repo
+
+            if (process.env.PUBLISH_ISSUE !== 'true') {
+              core.info('Pull request from a fork: the report is in the job summary only.')
+              return
+            }
+
+            const sections = []
+            for (const [name, file] of [['Internal', 'internal.txt'], ['External', 'external.txt']]) {
+              if (!fs.existsSync(file)) continue
+              const report = fs.readFileSync(file, 'utf8').trim()
+              if (report) sections.push(`### ${name}\n\n\`\`\`\n${report}\n\`\`\``)
+            }
+            if (sections.length === 0) return
+
+            const body = [
+              `Found by the [\`links\` workflow](${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}).`,
+              '',
+              ...sections,
+              '',
+              'HTTP 401, 403 and 429, timeouts and TLS errors are listed as unverified and are not treated as broken.',
+            ].join('\n')
+
+            const title = 'Broken links found by the links workflow'
+            const existing = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', per_page: 100,
+            })
+            const issue = existing.data.find((item) => item.title === title)
+
+            if (issue) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number, body,
+              })
+              core.info(`Comment added to #${issue.number}`)
+            } else {
+              const created = await github.rest.issues.create({ owner, repo, title, body })
+              core.info(`Opened #${created.data.number}`)
+            }

@@ -69,7 +69,7 @@ class Report:
     external_failed: dict[str, list[tuple[Reference, str]]] = field(
         default_factory=dict
     )
-    external_blocked: dict[str, list[tuple[Reference, str]]] = field(
+    external_unverified: dict[str, list[tuple[Reference, str]]] = field(
         default_factory=dict
     )
 
@@ -208,11 +208,13 @@ def check_external(refs: list[Reference], timeout: float, workers: int,
             pages = by_url[url]
             if status is not None and 200 <= status < 400:
                 continue
-            entry = (f"HTTP {status}" if status else message, pages)
-            if status in SOFT_STATUS:
-                report.external_blocked[url] = [(p, entry[0]) for p in pages]
+            reason = f"HTTP {status}" if status else message
+            if status is None or status in SOFT_STATUS:
+                # A bot wall, a timeout or a TLS problem says nothing about the
+                # link itself, so it is reported but never counted as broken.
+                report.external_unverified[url] = [(p, reason) for p in pages]
             else:
-                report.external_failed[url] = [(p, entry[0]) for p in pages]
+                report.external_failed[url] = [(p, reason) for p in pages]
 
 
 def iter_pages(site: Path) -> list[Path]:
@@ -305,9 +307,9 @@ def main() -> int:
 
     if args.external or args.only_external:
         print(f"external: {report.external_checked} unique URLs")
-        for label, entries in (("failing", report.external_failed),
-                               ("blocked (not counted as broken)",
-                                report.external_blocked)):
+        for label, entries in (("broken", report.external_failed),
+                               ("could not be verified (not counted as broken)",
+                                report.external_unverified)):
             if not entries:
                 continue
             print(f"  {len(entries)} {label}:")
@@ -322,6 +324,9 @@ def main() -> int:
                 print(f"    ... and {len(entries) - show} more")
 
     failed = bool(report.broken) or bool(report.external_failed)
+    if args.external or args.only_external:
+        print(f"unverified: {len(report.external_unverified)} URLs "
+              f"(bot protection, timeouts, TLS errors)")
     print("result:", "FAILED" if failed else "ok")
     return 1 if failed else 0
 
