@@ -18,12 +18,9 @@ To minimize errors, consider using a linter specifically for `markdown` files, s
 
 Here's a curated list of useful extensions for [Visual Studio Code](https://code.visualstudio.com/):
 
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): A linter for markdown files.
+- [Zensical Studio](https://marketplace.visualstudio.com/items?itemName=zensical.zensical-studio): A linter for Zensical markdown files and all kinds of necessary tools in one.
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces): Highlights unnecessary spaces.
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Assists with navigating local files.
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): A code formatter that supports markdown files.
 - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Provides TOML file support.
-- [ms-vscode-remote.remote-wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): Enables usage with WSL.
 
 When you first open the project in **VSC**, you will be prompted to install these extensions automaticlaly.
 
