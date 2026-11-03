@@ -29,6 +29,14 @@
     }
   }
 
+  /* lite-youtube copies its title into data-title, which the caption is drawn
+     from, but leaves the attribute behind - and a title attribute makes the
+     browser show its own tooltip over the poster */
+  function dropTitle(embed) {
+    if (!embed.dataset.title) return;
+    if (embed.hasAttribute("title")) embed.removeAttribute("title");
+  }
+
   /* The recommended card keeps its ring while the player runs, so it needs a
      layer of its own instead of a shadow the player would cover */
   function ringFor(embed) {
@@ -146,6 +154,7 @@
   function run() {
     document.querySelectorAll("lite-youtube").forEach(spinnerFor);
     document.querySelectorAll("lite-youtube").forEach(ringFor);
+    document.querySelectorAll("lite-youtube").forEach(dropTitle);
     document.querySelectorAll(".video-row").forEach(setupRow);
     document.querySelectorAll(".video-row").forEach(centre);
   }
