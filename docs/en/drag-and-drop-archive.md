@@ -28,7 +28,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
 
 ## Installation { data-search-exclude }
 
-!!! question "Is there anything simpler and easier to run?"
+??? question "Is there anything simpler and easier to run?"
     Yes, you can actually just install [FusionFix](essential-modding/fusionfix.md) and [Various Fixes](essential-modding/various-fixes.md) alone to fix, like, 90% of the game, with much better performance and stability. You can also use [TJGM's Drag 'n Drop Archive](https://tjgm.dev/resources/gtaiv/TJGM%27s-Drag-n%27-Drop-Archive/) that has a few more mods that basically act as an essentials-only pack, or a lite version of my modpack if you will.
 
     You may then ask - "then what is the point of this modpack?" - and my answer would be mostly personal, really. This modpack is designed to include every community fix and basic enhancement that I found worthy to compile a personal, "ideal" and "definitive" experience with every nook and cranny fixed, but it may not necessarily be the best option for you if you don't have OCD about tiny issues, inconsistencies and unused content that you could be using or fixing. If you need any convincing, you could check Not AJ's video above that goes in-depth about what sets this modpack out from simply using the two mods above, but I can't force you to use this or consider this the best option. Suit yourself, as they say.
@@ -46,6 +46,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - **Do not expect support if attempting to install any more mods that aren't from [additional mods](#additional-mods) - you will likely be denied.**
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6, [apply launch options manually](additional-setup.md#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](essential-modding/fusionfix.md#ff-linux). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
+        - To remove Rockstar Games Launcher, you can install [RGLess](additional-setup.md#removing-rockstar-games-launcher-from-complete-edition-12059)
 
     1. [Download the archive](https://www.mediafire.com/file/zz71l3oj48sf29e/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/zsp81cr90e0g)) (5.2GB, SHA512: ~`63109f0e65c9fb011ac856bbcd321dc97117fcf1deb6f77779ccec198418792a9628e8bf02c752ef36c380bc76ed30274fcd3be8852bcc3bde8c661465eb430c`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).

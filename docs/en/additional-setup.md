@@ -56,7 +56,7 @@ If you're here after anything else (including installing the archive on Linux), 
 ???+ warning "If using DXVK..."
     - Remove `-managed`.
     - Add `-availablevidmem 3072.0` to the list of options.
-        - This option is **UNNECESSARY** if **FusionFix 4.0.0** or above is installed.
+        - This option is **UNNECESSARY** if **FusionFix** is installed.
         - Replace the value with your VRAM value in MBs if you have less than 3 GB of VRAM. Don't make it higher, though.
         - If using a version older than 1.0.8.0, this value is broken. Experiment manually to get as close to 3072 MB as possible (the value may looks something like 60.0, 80.0 etc).
     - If the game doesn't allow you to use the correct resolution/refresh rate in the graphics settings, add `-width`, `-height` and `-refreshrate` with your monitor's native values.
@@ -301,6 +301,20 @@ If you're here after anything else (including installing the archive on Linux), 
     | Extra Night Shadows | Off | This setting controls whether lampmpost and headlight shadows are enabled. Highly unstable. |
 
 ---
+
+## Removing Rockstar Games Launcher from Complete Edition (1.2.0.59)
+
+If you're annoyed by the Rockstar Games Launcher every time you launch the game, you can bypass that with RGLess.
+
+!!! warning
+    - This is only for the :material-steam: Steam edition of the game.
+    - This method moves your savefile directory from :material-folder:==Documents== to a :material-folder:==save== folder inside of your game folder
+
+<h2>Installation</h2> <a id="installation"></a>
+
+1. Download RGLess from [Mediafire](https://www.mediafire.com/file/q1zejgje6qr7app/RGLessIV.zip/file), [MEGA](https://mega.nz/file/PjxjzKKR#9KbMnB0qqmxsMEdTdDZ1M0B1ldw5M2Ie6I3A8VPTePE) or [Internet Archive](https://archive.org/details/rgless-iv).
+2. Extract the :material-zip-box:`RGLessIV.zip` archive into the game folder
+    - Backup :material-file:`GTAIV.exe`, :material-file:`PlayGTAIV.exe` and :fontawesome-solid-gears:`binkw32.dll` if you want to reverse this later.
 
 ## Navigation
 
