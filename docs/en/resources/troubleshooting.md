@@ -16,8 +16,6 @@ I know about these issues, no need to report them to me, unless you know a solut
 - Cutscenes freeze the game up if the game is out-of-focus for too long.
 - Social Club achievements cannot be acquired on downgraded versions.
 - Night shadows are limited, including lack of headlight and lamppost shadows - not an actual issue, you can turn those back on in the `Game` tab.
-- Over long playtime, world starts to disappear and the game becomes unplayable. The only solution is restarting the game. *Possible solutions to increase available playtime: decrease resolution; decrease render distance sliders; remove launch options/`commandline.txt`, remove High Resolution Miscellaneous Pack, Project Glass and Vehicle Pack.*
-- Car washes appear everywhere in the world arbitrarily after installing mods (in particular, mods that change `.ide` and `.ipl` files or add something to the `.dat` ones). The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
 - Any arbitrary issues that don't get mentioned separately on the page are probably caused by Liberty Tweaks - try disabling some options. Known conflicting options in the past were: `Personal Vehicles`, `Dynamic Field of View`, `Reckless Drivers`, `Emergency Service Dispatches`, `Extended Weapon Pool`, `Improved Car Crashes`, `Vehicle Tilt & Rotation` `No Cursor Escape`, `Unused Hospital Respawn`.
 
 ---
@@ -150,7 +148,7 @@ I know about these issues, no need to report them to me, unless you know a solut
 ??? info ":material-steam: Steam achievements disappeared after downgrading"
     Install [OpenPreCEPatch](../essential-modding/openprecepatch.md).
 
-??? info "GFWL / Xbox Live achievements don't work"
+??? info "GFWL / Xbox Live achievements don't work (on downgraded versions)"
     - Remove :material-file:`SteamAchivements.asi` - you can't use both at once unless you use [OpenPreCEPatch](../essential-modding/openprecepatch.md).
     - Set `TryToSkipAllErrors` and `VSyncFix` to `0` in :material-file-cog:`ZolikaPatch.ini` (issue does not apply to OpenPreCEPatch).
 
@@ -159,6 +157,23 @@ I know about these issues, no need to report them to me, unless you know a solut
 
 ??? info "Unable to disable controller auto-aim"
     - Toggle `San Andreas Styled Auto-Aim` off in the :material-file-cog:`LibertyTweaks.ini`.
+
+??? info "World disappears over long playtime"
+    - Use [SISCO](https://www.nexusmods.com/gta4/mods/1453).
+    - Alternative possible solutions to increase available playtime: decrease resolution; decrease render distance sliders; remove launch options/`commandline.txt`, remove High Resolution Miscellaneous Pack, Project Glass, Vehicle Pack and any other texture mods you're using.
+
+??? info "Car washes appear everywhere in the world arbitrarily after installing mods"
+    The mods in question change `.ide` and `.ipl` files or add something to the `.dat` ones.
+
+    - The only solution is starting a new savefile (problem will go away the next time you load that new savefile).
+    - Alternatively, remove the mods.
+
+??? info "The game is full of taxis | Car engine sounds disappear"
+    Both issues tie back to VehicleBudget.
+
+    - Raise the value in :material-file-cog:`GTAIV.EFLC.FusionFix.ini` to get rid of taxis, or lower it to bring car engine sounds back.
+    - Use [SISCO](https://www.nexusmods.com/gta4/mods/1453).
+    - Use [revd](https://www.nexusmods.com/gta4/mods/1399).
 
 ---
 
@@ -173,6 +188,8 @@ I know about these issues, no need to report them to me, unless you know a solut
     * UDP: `3074`, `80`, `88`
 
     If you can't perform port forwarding, use a VPN service instead. I recommend [Mullvad VPN](https://mullvad.net/en).
+
+    One more solution is to use KickbugFix, which you can find on [GTRF Discord Server](https://discord.gg/aJ4tZTyWAY) in the `#mods` channel.
 
     Alternatively, give up. Seriously, just give up and try other multiplayer methods - some people are just stuck with the kickbug with no way to fight it.
 

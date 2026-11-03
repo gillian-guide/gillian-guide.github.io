@@ -18,9 +18,11 @@ Liberty Drag-and-Drop (previously Drag-and-Drop Archive, also known as Gillian's
 
 If you want to get familiar with the modpack before installing it, I recommend these videos:
 
-<lite-youtube videoid="ed3mmDQISik" title="Fixing and Improving GTA IV on PC (With Mods)" playlabel="Play: Fixing and Improving GTA IV on PC (With Mods)"></lite-youtube>
-<lite-youtube videoid="fvCPz3Fxj0w" title="BEST Way to Play Grand Theft Auto IV" playlabel="Play: BEST Way to Play Grand Theft Auto IV"></lite-youtube>
-<lite-youtube videoid="lzEbEIGlIRs" title="The definitive way to play GTA IV" playlabel="Play: The definitive way to play GTA IV"></lite-youtube>
+<div class="video-row">
+<lite-youtube videoid="lzEbEIGlIRs" title="The definitive way to play GTA IV" playlabel="Play: The definitive way to play GTA IV"><span class="lyt-author">catsmackaroo</span></lite-youtube>
+<lite-youtube class="video-featured" videoid="ed3mmDQISik" title="Fixing and Improving GTA IV on PC (With Mods)" playlabel="Play: Fixing and Improving GTA IV on PC (With Mods)"><span class="lyt-badges"><span class="lyt-star" role="img" aria-label="Favourite"></span><span class="lyt-author">Not AJ</span></span></lite-youtube>
+<lite-youtube videoid="fvCPz3Fxj0w" title="BEST Way to Play Grand Theft Auto IV" playlabel="Play: BEST Way to Play Grand Theft Auto IV"><span class="lyt-author">Retro Renew</span></lite-youtube>
+</div>
 
 ---
 
@@ -45,7 +47,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not attempt to install this version on a downgraded copy. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-6, [apply launch options manually](additional-setup.md#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](essential-modding/fusionfix.md#ff-linux). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
 
-    1. [Download the archive](https://www.mediafire.com/file/jqgop5ul1kha6kq/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/j7mdhuuhlch1)) (5.2GB, SHA512: ~`b2f28059f626d0987f04eb735fe585421ddcfc00f5911618c028c77ee50076147fa8260c5e79ccc9df0ca4c0285011c2941f85d09b5bd7a96af600f23a37a461`~).
+    1. [Download the archive](https://www.mediafire.com/file/zz71l3oj48sf29e/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/zsp81cr90e0g)) (5.2GB, SHA512: ~`63109f0e65c9fb011ac856bbcd321dc97117fcf1deb6f77779ccec198418792a9628e8bf02c752ef36c380bc76ed30274fcd3be8852bcc3bde8c661465eb430c`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open...`, select the same game folder.
@@ -75,7 +77,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5, [apply launch options manually](additional-setup.md#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](essential-modding/fusionfix.md#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](resources/mod-dependencies.md#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
 
-    1. [Download the archive](https://www.mediafire.com/file/vrlsoefu3s7q0q2/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/psddyq3pmslb)) (5.3GB, SHA512: ~`1131c58c88cbfa5ef036fccb4153df5ed8956f548a4fe48fa308fb73cd0e85f3b42bd77b87b8cd5b9aa127bf74f5c53b177edd2581032b84f3de38bbbf57b96e`~).
+    1. [Download the archive](https://buzzheavier.com/29vu95rn0qr7) (mirror currently unavailable) (5.3GB, SHA512: ~`973635d7b947d611df0fa2d6e762be3ccfeacc6e142efb24e2422aaa4d9abc4c068e8b89ba23c829d0514cdaf4c74460cdae9c6a503345c63a9dfabc8e0f1794`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -96,7 +98,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
 ??? bug "The game doesn't boot | The game is behaving strangely | The game is crashing randomly"
     See [troubleshooting](resources/troubleshooting.md).
 
-    Disable mods one by one to see the culprit by deleting folders/files in the :material-folder: ==update== folder, :material-folder: ==IVSDKDotNet\scripts== folder or the :material-file:`.asi` files (two of the most likely culprits are Liberty Tweaks and Potential Grim).
+    Disable mods one by one to see the culprit by deleting folders/files in the :material-folder: ==update== folder, :material-folder: ==IVSDKDotNet\scripts== folder or the :material-file:`.asi` files (most likely culprits are Liberty Tweaks, SISCO, Potential Grim or any of the additional mods you added).
 
     Report the issue on the [Discord server](index.md#navigation).
 
@@ -263,6 +265,7 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 02.11.2026 (hotfix)
             - [Hotfix](https://discord.com/channels/1129805289307242577/1131636134376644759/1566949078200352888) includes:
                 - Updated Xbox Rain Droplets, DLSS-IV, Console Select Menu (custom build to fix crashes), New game parameters for transport and traffic, Resized Blista Compact, Setup Utility.
+                - Added SISCO.
                 - Fixed crash related to :material-file:`waveslots.xml`
                 - Merged some mods in Minor Mods
                 - Fixed Xbox Rain Droplets config
@@ -548,13 +551,14 @@ These mods are not included by default, but are easy to install ontop of the arc
         - 02.11.2026 (hotfix)
             - [Hotfix](https://discord.com/channels/1129805289307242577/1131636134376644759/1566949078200352888) includes:
                 - Updated Xbox Rain Droplets, DLSS-IV, New game parameters for transport and traffic, Resized Blista Compact, Setup Utility.
+                - Added SISCO.
                 - Fixed crash related to :material-file:`waveslots.xml`.
                 - Merged some mods in Minor Mods.
                 - Fixed Xbox Rain Droplets config.
         - 30.10.2026
             - Dashii's updates:
                 - Added Johnny's Hand Seams Fix, Clothing Props Fix Overhaul, Drive-By Pre-Aim, Niko's Appearance Overhaul, Redone Fingerless Gloves, Better Tree LODs, DLSS-IV + Better Cables Addon, Eugene Reaper and Triad 1 Fix, Johnny K pants fix, No Way on The Subway Continuity Fix, Miscellaneous LOD Fixes, Pistol UV map fix and Sensible Rival Cars and No Rubber banding.
-                - Updated FusionFix, Various Fixes, Liberty Tweaks, Xbox Rain Droplets, Johnny K Eye Color V, Remove Luis Texture Compression (Greening), Restored Vegetation, Setup Utility.
+                - Updated FusionFix, Various Fixes, Liberty Tweaks, Xbox Rain Droplets, OpenPreCEPatch, Johnny K Eye Color V, Remove Luis Texture Compression (Greening), Restored Vegetation, Setup Utility.
                 - Corrects the mipmaps for Characters Fixes' EFLC Niko's cutscene hand and in-game hair textures.
                 - Restores the alpha maps for Niko's head diffuse textures across the base game and the episodes.
             - Pingwinek1234's updates:

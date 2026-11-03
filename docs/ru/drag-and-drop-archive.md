@@ -18,9 +18,11 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
 
 Если вы перед установкой хотите ознакомиться со сборкой, я рекомендую эти видео:
 
-<lite-youtube videoid="ed3mmDQISik" title="Fixing and Improving GTA IV on PC (With Mods)" playlabel="Воспроизвести: Fixing and Improving GTA IV on PC (With Mods)"></lite-youtube>
-<lite-youtube videoid="fvCPz3Fxj0w" title="BEST Way to Play Grand Theft Auto IV" playlabel="Воспроизвести: BEST Way to Play Grand Theft Auto IV"></lite-youtube>
-<lite-youtube videoid="lzEbEIGlIRs" title="The definitive way to play GTA IV" playlabel="Воспроизвести: The definitive way to play GTA IV"></lite-youtube>
+<div class="video-row">
+<lite-youtube videoid="lzEbEIGlIRs" title="The definitive way to play GTA IV" playlabel="Воспроизвести: The definitive way to play GTA IV"><span class="lyt-author">catsmackaroo</span></lite-youtube>
+<lite-youtube class="video-featured" videoid="ed3mmDQISik" title="Fixing and Improving GTA IV on PC (With Mods)" playlabel="Воспроизвести: Fixing and Improving GTA IV on PC (With Mods)"><span class="lyt-badges"><span class="lyt-star" role="img" aria-label="Favourite"></span><span class="lyt-author">Not AJ</span></span></lite-youtube>
+<lite-youtube videoid="fvCPz3Fxj0w" title="BEST Way to Play Grand Theft Auto IV" playlabel="Воспроизвести: BEST Way to Play Grand Theft Auto IV"><span class="lyt-author">Retro Renew</span></lite-youtube>
+</div>
 
 ---
 
@@ -45,7 +47,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - Не пытайтесь установить эту версию на уже-даунгрейднутую игру. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-6, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/jqgop5ul1kha6kq/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/j7mdhuuhlch1)) (5.2GB, SHA512: ~`b2f28059f626d0987f04eb735fe585421ddcfc00f5911618c028c77ee50076147fa8260c5e79ccc9df0ca4c0285011c2941f85d09b5bd7a96af600f23a37a461`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/jqgop5ul1kha6kq/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/zsp81cr90e0g)) (5.2GB, SHA512: ~`63109f0e65c9fb011ac856bbcd321dc97117fcf1deb6f77779ccec198418792a9628e8bf02c752ef36c380bc76ed30274fcd3be8852bcc3bde8c661465eb430c`~).
     1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     2. Запустите :material-file-download:`GTAIVSetupUtility.exe`. В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -74,7 +76,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Дополнительно, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](resources/mod-dependencies.md#scripthookdotnet-iv-sdk-net-linux) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/vrlsoefu3s7q0q2/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/psddyq3pmslb)) (5.3GB, SHA512: ~`1131c58c88cbfa5ef036fccb4153df5ed8956f548a4fe48fa308fb73cd0e85f3b42bd77b87b8cd5b9aa127bf74f5c53b177edd2581032b84f3de38bbbf57b96e`~).
+    1. [Скачайте архив](https://buzzheavier.com/29vu95rn0qr7) (зеркало временно недоступно) (5.3GB, SHA512: ~`973635d7b947d611df0fa2d6e762be3ccfeacc6e142efb24e2422aaa4d9abc4c068e8b89ba23c829d0514cdaf4c74460cdae9c6a503345c63a9dfabc8e0f1794`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -96,7 +98,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
 ??? bug "Игра не запускается | Игра странно себя ведет | Игра случайно вылетает"
     Просмотрите [исправление проблем](resources/troubleshooting.md).
 
-    Отключайте моды по одному, чтобы найти виновника, удаляя папки или файлы в :material-folder: ==update==, :material-folder: ==IVSDKDotNet\scripts== или файлы :material-file:`.asi` (два вероятных виновника - Liberty Tweaks и Potential Grim).
+    Отключайте моды по одному, чтобы найти виновника, удаляя папки или файлы в :material-folder: ==update==, :material-folder: ==IVSDKDotNet\scripts== или файлы :material-file:`.asi` (вероятнее всего - Liberty Tweaks, SISCO, Potential Grim или любые дополнительные моды, которые вы поставили).
 
     Сообщите о проблеме на [Discord сервере](index.md#_4).
 
@@ -264,6 +266,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - 02.11.2026 (хотфикс)
             - [Хотфикс](https://discord.com/channels/1129805289307242577/1131636134376644759/1566949078200352888) включает:
                 - Обновлены Xbox Rain Droplets, DLSS-IV, Console Select Menu (кастомная сборка для исправления вылетов), New game parameters for transport and traffic, Resized Blista Compact, Setup Utility.
+                - Добавлен SISCO.
                 - Исправлен вылет, связанный с :material-file:`waveslots.xml`
                 - Некоторые моды объединены в Minor Mods
                 - Исправлен конфиг Xbox Rain Droplets
@@ -549,13 +552,14 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - 02.11.2026 (хотфикс)
             - [Хотфикс](https://discord.com/channels/1129805289307242577/1131636134376644759/1566949078200352888) включает:
                 - Обновлены Xbox Rain Droplets, DLSS-IV, New game parameters for transport and traffic, Resized Blista Compact, Setup Utility.
+                - Добавлен SISCO.
                 - Исправлен вылет, связанный с :material-file:`waveslots.xml`.
                 - Некоторые моды объединены в Minor Mods.
                 - Исправлен конфиг Xbox Rain Droplets.
         - 30.10.2026
             - Обновления от Dashii:
                 - Добавлены Johnny's Hand Seams Fix, Clothing Props Fix Overhaul, Drive-By Pre-Aim, Niko's Appearance Overhaul, Redone Fingerless Gloves, Better Tree LODs, DLSS-IV + Better Cables Addon, Eugene Reaper and Triad 1 Fix, Johnny K pants fix, No Way on The Subway Continuity Fix, Miscellaneous LOD Fixes, Pistol UV map fix, Sensible Rival Cars и No Rubber banding.
-                - Обновлены FusionFix, Various Fixes, Liberty Tweaks, Xbox Rain Droplets, Johnny K Eye Color V, Remove Luis Texture Compression (Greening), Restored Vegetation, Setup Utility.
+                - Обновлены FusionFix, Various Fixes, Liberty Tweaks, Xbox Rain Droplets, OpenPreCEPatch, Johnny K Eye Color V, Remove Luis Texture Compression (Greening), Restored Vegetation, Setup Utility.
                 - Исправлены мипмапы для текстур рук в катсценах и волос в игре у Нико из Characters Fixes для EFLC.
                 - Восстановлены альфа-карты для диффузных текстур головы Нико в основной игре и эпизодах.
             - Обновления от Pingwinek1234:
