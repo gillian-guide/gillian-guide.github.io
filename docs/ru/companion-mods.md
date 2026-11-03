@@ -1,11 +1,11 @@
 ---
-title: Companion Mods
+title: Дополнительные моды
 description: Сколько же модов в этой игре
 ---
 
-# Companion Mods
+# Дополнительные моды
 
-На этой странице собраны моды, которые что-то исправляют, улучшают или делают еще что-нибудь - в общем, все то, что само по себе не тянет на обязательный мод, но так или иначе может улучшить впечатление от игры. Они разделены на 3 группы - [исправления](#_1), [улучшения](#_2) и [разное](#_3). Не ищите здесь моды для готового архива - архив уже включает все моды, которые я считаю нужными, а дополнительные моды для него можно найти [здесь](drag-and-drop-archive.md#_8).
+На этой странице собраны моды, которые что-то исправляют, улучшают или делают еще что-нибудь - в общем, все то, что само по себе не тянет на обязательный мод, но так или иначе может улучшить впечатление от игры. Они разделены на 3 группы - [исправления](#_2), [улучшения](#_3) и [разное](#_4). Не ищите здесь моды для готового архива - архив уже включает все моды, которые я считаю нужными, а дополнительные моды для него можно найти [здесь](drag-and-drop-archive.md#_8).
 
 !!! warning ""
     Для большинства модов требуется [FusionFix](essential-modding/fusionfix.md). **Эта страница исходит из того, что он у вас установлен, и больше напоминать об этом не будет.**
@@ -49,11 +49,9 @@ description: Сколько же модов в этой игре
 | [Fixed Suit Display in Perseus](https://gtaforums.com/topic/984565-iv-fixed-suit-display-in-perseus/) | _ys | Исправляет неправильный костюм в Perseus: в итоге вы покупаете не тот, который отображается. |
 | [Schottler Parked Vehicles Fix](https://www.moddb.com/mods/schottler-parked-vehicles-fix) | Callistonian | Исправляет неправильно припаркованные машины в районе Шоттлер. |
 | [IV Bikers in Episodes voice sets fix](https://gtaforums.com/topic/992050-iv-bikers-in-episodes-voice-sets-fix/) | B Dawg | Исправляет реплики байкеров из IV в EFLC. |
-| [Pistol Iron Sight Fix](https://drive.google.com/file/d/1YJLc7dsrDiEQEgzfv4Mn6UmMjQcVBcmg/view?usp=sharing) | Gillian (я) | Исправляет недочет в модели пистолета, из-за которого прицельное приспособление не имеет никакого смысла. |
 | [Liberty Ferry Terminal - Waiting Room Sign Fix](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Исправляет сломанную UV-карту на текстуре таблички "Waiting Room". |
 | [Sugar Chomps - Separate Signs](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Редактирует UV-карту вывески, чтобы задействовать неиспользуемую текстуру. |
 | [EFLC Vehicle Addon Pack For GTA IV](https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/) | 7urbo1ag | **ТОЛЬКО АДДОНЫ**: цель - дополнительно исправить несоответствия между основной GTA IV и EFLC. Использованы: Fixed Infernus Exit Animations, Correct Extras on Gracie's Fetzler in 'Blog This...', Fixed ZombieB Colors in 'Was it Worth It' |
-| [OpenPreCEPatch](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Позволяет получать достижения :material-steam: Steam на **старых патчах**, а также добавляет поддержку DLC для версий PreCE. |
 | [CloudFixIV](https://discord.com/channels/452421215076876288/461150059552178176/1541206795769356488) | Chunk | Исправляет некоторые проблемы, связанные с ImGui и рендерингом облаков. **Актуально только для пользователей IVSDKDotNet.** |
 | [Johnny's Hand Seams Fix](https://www.nexusmods.com/gta4/mods/1315) | nipahtard | Исправляет швы на текстуре рук модели Джонни. Применено к модели для катсцен Pingwinek1234. |
 | [Clothing Props Fix Overhaul](https://www.nexusmods.com/gta4/mods/1354) | Pingwinek1234 | Исправляет или убирает большинство бета-остатков, спрятанных в пропах, и заменяет их финальными моделями. |
@@ -89,7 +87,6 @@ description: Сколько же модов в этой игре
 | [DLSS-IV](https://www.nexusmods.com/gta4/mods/1430) | Chunk | Добавляет в GTA IV DLSS, FSR и HDR, которые на голову выше встроенных в игру способов сглаживания. Использован аддон Better Cables. |
 | [Niko's Appearance Overhaul](https://www.nexusmods.com/gta4/mods/961?tab=posts) | ColbyDash | Исправления и улучшения текстур Нико без каких-либо отступлений от оригинала. |
 | [Redone Fingerless Gloves](https://www.gtainside.com/gta4/skins/new-look-model/192441-redone-fingerless-gloves-for-niko) | BrynnaDaRosa | Исправленные сетка и модель перчаток без пальцев. |
-| [Yes Way On The Subway](https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/) | ServalEd | Снимает неуязвимость с цели в миссии 'No Way On The Subway'. |
 | [Escuela of the Sleep](https://www.nexusmods.com/gta4/mods/507?tab=description) | ServalEd | Делает миссию 'Escuela of the Street' быстрее: водитель теперь плевать хотел на ПДД. |
 | [Artwork Joni](https://www.nexusmods.com/gta4/mods/975) | BrynnaDaRosa | Модель Джони переделана под ее арт, потому что игровая модель просто уродлива. |
 | [Dodgy Doc - Higher Quality](https://gtaforums.com/topic/974798-donnits-bakery/) | donnits | Улучшает качество Dodgy Doc в миссии 'Have a Heart'. |
@@ -109,7 +106,7 @@ description: Сколько же модов в этой игре
 | [Drive-By Pre-Aim](https://www.nexusmods.com/gta4/mods/1362) | Xatriya | Позволяет прицеливаться *до* выстрела при стрельбе из машины. Есть [версия для 1.0.8.0](https://www.nexusmods.com/gta4/mods/1564). |
 | [Better Tree LODs](https://discord.com/channels/693286101686812722/1551212072711225345/1551212560999522326) | nidzo | Улучшенные LOD-биллборды деревьев - переходы между ними стали менее заметными. |
 | [SISCO](https://www.nexusmods.com/gta4/mods/1453) | Chunk | Снижает количество проблем со стримингом, если не убирает их вовсе, а также повышает общие лимиты игры. |
-| [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Позволяет включать и выключать перчатки кнопкой. Требует [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet), которого нет в сборке. |
+| [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Позволяет включать и выключать перчатки кнопкой. Требует [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet). |
 
 ---
 

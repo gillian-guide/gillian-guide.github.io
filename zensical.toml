@@ -147,6 +147,14 @@ name = "English"
 locale = "ru"
 name = "Русский"
 
+# Section titles of the navigation, which otherwise stay in English because
+# they live in the [project] nav above
+[project.plugins.i18n.languages.nav_translations]
+"Downgrading" = "Даунгрейдинг"
+"Essential Modding" = "Обязательные моды"
+"Extras" = "Дополнения"
+"Resources" = "Ресурсы"
+
 [project.plugins.glightbox]
 
 [project.plugins.social]

@@ -18,7 +18,7 @@ In this category, you'll find mods that I think are essential to any GTA IV inst
 
     [Next page:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **OpenPreCEPatch** improves core multiplayer experience and adds DLC support to PreCE patches, and is **considered essential for downgraded versions**. ^^Don't install unless your game is downgraded.^^
+- **OpenPreCEPatch** improves core multiplayer experience and adds CE files support to PreCE patches, and is **considered essential for downgraded versions**. ^^Don't install unless your game is downgraded.^^
 
     [Next page:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 

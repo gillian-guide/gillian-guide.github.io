@@ -113,3 +113,29 @@ By default, neither of those two will run on Linux. This can be fixed, however. 
 8. When you launch the game, you may get some .NET errors, but the mods should be working fine.
 
 Credit goes to Roigo and minidrwho for figuring out the actual solution.
+
+??? tip "Alternative method, if the instructions above do not work"
+    These steps come from a system where the method above fails - in particular, Proton 4.11-4.13 refuses to work.
+
+    1. Find your GTA IV's prefix folder, usually located at :material-folder: ==~/.steam/Steam/steamapps/compatdata/12210/pfx==, and delete it
+    2. In the `Compatibility` tab of the game in :material-steam:Steam, set Proton to a [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom/releases) release - GE-Proton 11-1 was used. Install it with [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) if you don't have it.
+    3. Create an empty :material-folder: ==pfx== folder inside :material-folder: ==compatdata/12210== again.
+    4. Launch the game once, so the prefix is generated and updated. It may crash right after the loading screen at this point - that is expected and does not affect the following steps.
+    5. Open a terminal and run the following command to install .NET in the GTA IV prefix:
+
+        ```bash
+        protontricks 12210 -q dotnet472
+        ```
+
+        If you installed Protontricks through Flatpak (which you do if you're running Steam via Flatpak as well), run this instead:
+
+        ```bash
+        flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
+        ```
+
+    6. Wait until .NET installs (may take from 5 to 30 minutes)
+    7. Change the game's Proton version back to Proton Experimental.
+    8. Launch the game. A `rundll` error appears twice - dismiss it with `No` both times.
+    9. ScriptHookDotNet now works, the game does not crash and the console is available.
+
+    Credit goes to EzequielGhR, who reported this method in [issue #60](https://github.com/gillian-guide/gillian-guide.github.io/issues/60).

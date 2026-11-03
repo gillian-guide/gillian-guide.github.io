@@ -18,7 +18,7 @@ description: Обязательные моды для GTA IV
 
     [Следующая страница:material-page-last: <br>FusionFix</br>](fusionfix.md){ .md-button .md-button--primary }
 
-- **OpenPreCEPatch** улучшает работу мультиплеера и добавляет поддержку DLC в патчи PreCE, и **считается обязательным для даунгрейнутых версий**. ^^Не устанавливайте, если не даунгрейдились.^^
+- **OpenPreCEPatch** улучшает работу мультиплеера и добавляет поддержку CE файлов в патчи PreCE, и **считается обязательным для даунгрейнутых версий**. ^^Не устанавливайте, если не даунгрейдились.^^
 
     [Следующая страница:material-page-last: <br>OpenPreCEPatch</br>](openprecepatch.md){ .md-button .md-button--primary }
 

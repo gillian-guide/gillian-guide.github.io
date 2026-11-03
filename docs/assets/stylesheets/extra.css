@@ -73,9 +73,13 @@
 
 /* Links without an anchor preview the page title, and sections that are only
    a heading preview just that heading - nothing worth reading. Hide those
-   previews instead of showing a popup with a single line in it. */
-.md-tooltip2:has(.md-tooltip2__inner > :is(h1, h2, h3, h4, h5, h6):only-child),
-.md-tooltip2:has(.md-tooltip2__inner):not(:has(.md-tooltip2__inner > *)) {
+   previews instead of showing a popup with a single line in it.
+
+   Only link previews (role="dialog") are affected: the glossary tooltips for
+   abbreviations (role="tooltip") are a plain text node, which the "empty"
+   selector below would otherwise swallow. */
+.md-tooltip2[role="dialog"]:has(.md-tooltip2__inner > :is(h1, h2, h3, h4, h5, h6):only-child),
+.md-tooltip2[role="dialog"]:has(.md-tooltip2__inner):not(:has(.md-tooltip2__inner > *)) {
   display: none !important;
 }
 

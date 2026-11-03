@@ -113,3 +113,29 @@ IV-SDK .NET используется для запуска скриптов, н�
 8. При запуске игры вы можете получить несколько ошибок .NET, но моды должны работать нормально.
 
 За то, что нашли рабочее решение, спасибо Roigo и minidrwho.
+
+??? tip "Альтернативный способ, если инструкции выше не работают"
+    Эти шаги проверены на системе, где способ выше не работает - в частности, Proton 4.11-4.13 отказывается работать.
+
+    1. Найдите папку префикса вашей GTA IV, обычно она находится по пути :material-folder: ==~/.steam/Steam/steamapps/compatdata/12210/pfx==, и удалите ее
+    2. Во вкладке `Compatibility` игры в :material-steam:Steam установите версию [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom/releases) - использовалась GE-Proton 11-1. Если ее нет, установите через [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/).
+    3. Создайте заново пустую папку :material-folder: ==pfx== внутри :material-folder: ==compatdata/12210==.
+    4. Запустите игру один раз, чтобы префикс создался и обновился. На этом этапе она может вылететь сразу после экрана загрузки - это ожидаемо и не влияет на следующие шаги.
+    5. Откройте терминал и выполните следующую команду, чтобы установить .NET в префикс GTA IV:
+
+        ```bash
+        protontricks 12210 -q dotnet472
+        ```
+
+        Если вы устанавливали Protontricks через Flatpak (а это так, если Steam у вас тоже через Flatpak), выполните вместо нее эту:
+
+        ```bash
+        flatpak run com.github.Matoking.protontricks 12210 -q dotnet472
+        ```
+
+    6. Дождитесь окончания установки .NET (может занять от 5 до 30 минут)
+    7. Верните игре версию Proton Experimental.
+    8. Запустите игру. Дважды появится ошибка `rundll` - оба раза нажмите `No`.
+    9. ScriptHookDotNet теперь работает, игра не вылетает, консоль доступна.
+
+    Способ предложил EzequielGhR в [issue #60](https://github.com/gillian-guide/gillian-guide.github.io/issues/60).
