@@ -13,7 +13,7 @@ I've been working on this guide since 2021 and I would greatly appreciate any su
 
 I also directly contributed to Liberty Tweaks with a minor feature and made [Pistol Iron Sight Fix](../essential-modding/various-fixes.md).
 
-==Notes: monobank will send the money to me directly. Open the PayPal link from mobile if you want it to work. Sending via Ko-Fi might put money on hold for near a month.==
+==Notes: monobank will send the money to me directly. Open the PayPal link from mobile if you want it to work (or message me privately for my e-mail). Sending via Ko-Fi might put money on hold for near a month.==
 
 [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }  [:simple-paypal: PayPal](https://www.paypal.com/qrcodes/p2pqrc/MQUJK8UCEU2KS){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/gillianmc){ .md-button .md-button--primary }
 
@@ -83,7 +83,7 @@ For directly contributing to [Fusion Shaders](../essential-modding/fusionfix.md)
 
 For their work on Higher Resolution Miscellaneous Pack, Vehicle Pack, [Player Outfit Texture Fixes](../essential-modding/various-fixes.md) and Higher Res Radio Logos and directly contributing to [FusionFix](../essential-modding/fusionfix.md), [Various Fixes](../essential-modding/various-fixes.md) and Console Visuals.
 
-[:simple-kofi: Ko-Fi](https://ko-fi.com/ash_735){ .md-button .md-button--primary } [:simple-cashapp: CashApp](https://cash.app/%C2%A3AshR735){ .md-button .md-button--primary }
+[:simple-kofi: Ko-Fi](https://ko-fi.com/ash_735){ .md-button .md-button--primary }
 
 ## brokensymmetry
 

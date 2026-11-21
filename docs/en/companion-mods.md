@@ -58,6 +58,7 @@ These mods fix some aspect of the game without adding or changing something dras
 | [Johnny K pants fix](https://www.nexusmods.com/gta4/mods/1464) | nipahtard | Fixes the small clipping that happens during the jump animation in TLAD. |
 | [No Way on the Subway Continuity Fix](https://www.nexusmods.com/gta4/mods/1502) | nipahtard | Fixes the continuity with TLAD. |
 | [Pistol UV map fix](https://discord.com/channels/452421215076876288/461150059552178176/1561930593766215770) | gooberboiuwu | Fixes the UV map and the iron sight on the pistol model. |
+| [Statue of Happiness LOD Fix](https://www.nexusmods.com/gta4/mods/1756) | mehraanakbarii | Fixes the Statue of Liberty LOD. |
 
 ---
 
@@ -68,7 +69,7 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | Mod | Developer(s) | Details |
 | :-: | :----------: | :-----: |
 | [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable. **1.0.8.0 only.** Addon available: [Armored Cops with EFLC heads from Characters Fixes by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757)<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
-| [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. [Community fixes and community addons](https://www.mediafire.com/file/njs6nre57kcpxfd/Characters_Fixes.7z/file) to add on top, which include: [Mitch The Cop TLAD Model by Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ by nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV by nipahtard](https://www.nexusmods.com/gta4/mods/988) |
+| [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love and others | Aims to fix the inconsistency of characters between base GTA IV and EFLC. [Community fixes and community addons](https://www.mediafire.com/file/41sov6jtf2jkf08/Characters_Fixes_-_Liberty_Edition.zip/file) to add on top, which include: Various Fixes models, [Mitch The Cop TLAD Model by Pingwinek1234](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ by nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV by nipahtard](https://www.nexusmods.com/gta4/mods/988), [Eugene Reaper and Triad 1 Fix by Pingwinek1234](https://www.nexusmods.com/gta4/mods/1469) and many more individual fixes and optimizations by Pingwinek1234 |
 | [Story Characters Variety Animations](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Adds unique animations to story characters so they appear less monotone. Both optional patches applied. |
 | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Adds detailed weapon animations to every animation. **May conflict with other mods**. |
 | [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Makes interiors more visible from the outside, although comes with a downside of potential pop-in. |
@@ -107,6 +108,9 @@ These mods enhance some aspect of the game that already exists or just makes sen
 | [Better Tree LODs](https://discord.com/channels/693286101686812722/1551212072711225345/1551212560999522326) | nidzo | Improved tree LOD billboards to be more seamless. |
 | [SISCO](https://www.nexusmods.com/gta4/mods/1453) | Chunk | Reduces the amount of streaming issues, if not erases them entirely, as well as raises the general limits of the game. |
 | [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Allows to toggle gloves with a button. Requires [ScriptHookDotNet](resources/mod-dependencies.md#scripthookdotnet). |
+| [Better Procedural Grass~2.6~](https://www.nexusmods.com/gta4/mods/1489) | mehraanakbarii | Improves the procedural grass models to look less janky and low quality. |
+| [Fixed License Plates Pack](https://www.gtainside.com/gta4/cars/other/149220-fixed-license-plate-pack-v1-3/) | Thundersmacker | Adds license plates to vehicles that lack them for some reason. Additionally used [Turismo With A License Plate by Miles Dipperion](https://www.gtainside.com/gta4/cars/other/189783-turismo-with-a-license-plate). |
+| [Proper Cover and Drive-by](https://www.nexusmods.com/gta4/mods/1608?tab=description) | TuckerJones | Allows to aim *before* shooting for drive-by and improves a few cover features to work closer to GTA V without changing the balancing. |
 
 ---
 
@@ -126,7 +130,7 @@ These mods don't enhance or fix anything necessarily - they're mods that *will* 
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Adds, corrects and completes unfinished actions for pedestrians. |
 | [Restored Vegetation](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Restores vegetation that was present in the betas but removed in the final release, either as an oversight or due to performance concerns. |
 | [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Restores graffiti, which were completely cut out in the final build of the game. |
-| [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. |
+| [Fusion Rain Droplets](https://github.com/ThirteenAG/FusionRainDroplets/releases/tag/gtaiv) | ThirteenAG | Adds nice water droplets on the screen. |
 | [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Improves how thunder appears in-game, with actual lighting and improved atmosphere. Highly configurable. **1.0.8.0 only**. |
 | [VAmbience](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Adds background noise to the game, such as driving and shooting, alike to GTA V. Highly configurable. **1.0.8.0 only**. |
 | [Props Restoration](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Restores pre-release, beta and unused props to the map. |

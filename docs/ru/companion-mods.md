@@ -58,6 +58,7 @@ description: Сколько же модов в этой игре
 | [Johnny K pants fix](https://www.nexusmods.com/gta4/mods/1464) | nipahtard | Исправляет небольшое пересечение полигонов при анимации прыжка в TLAD. |
 | [No Way on the Subway Continuity Fix](https://www.nexusmods.com/gta4/mods/1502) | nipahtard | Исправляет нестыковку с TLAD. |
 | [Pistol UV map fix](https://discord.com/channels/452421215076876288/461150059552178176/1561930593766215770) | gooberboiuwu | Исправляет UV-развертку и прицел (iron sight) модели пистолета. |
+| [Statue of Happiness LOD Fix](https://www.nexusmods.com/gta4/mods/1756) | mehraanakbarii | Исправляет LOD Статуи Свободы. |
 
 ---
 
@@ -68,7 +69,7 @@ description: Сколько же модов в этой игре
 | Мод | Разработчик(и) | Детали |
 | :-: | :----------: | :-----: |
 | [Liberty Tweaks](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre и другие | Нацелен на улучшение разных аспектов игры и общего качества жизни. Много настроек. **Только 1.0.8.0.** Есть аддон: [Armored Cops with EFLC heads from Characters Fixes от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757)<br>==Позволяет быстро сохраняться по клавише ++f9++ и содержит кучу разных геймплейных фич - если вам не по вкусу значения по умолчанию, все можно подогнать под себя в :material-file-cog:`LibertyTweaks.ini` в папке :material-folder: `IVSDKDotNet\scripts\`==</br> |
-| [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Нацелен на исправление несоответствий персонажей между основной GTA IV и EFLC. Сверху можно поставить [фанатские фиксы и аддоны](https://www.mediafire.com/file/njs6nre57kcpxfd/Characters_Fixes.7z/file), в том числе: [Mitch The Cop TLAD Model от Pingwinek123](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ от nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV от nipahtard](https://www.nexusmods.com/gta4/mods/988) |
+| [Trilogy Characters Fixes](https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/) | TheYoshiPunch, (Japan) GTA Love и другие | Нацелен на исправление несоответствий персонажей между основной GTA IV и EFLC. Сверху можно поставить [фанатские фиксы и аддоны](https://www.mediafire.com/file/41sov6jtf2jkf08/Characters_Fixes_-_Liberty_Edition.zip/file), в том числе: модели из Various Fixes, [Mitch The Cop TLAD Model от Pingwinek1234](https://www.nexusmods.com/gta4/mods/963), [Johnny K Eye Color V~1.2~ от nipahtard](https://www.nexusmods.com/gta4/mods/1110), [Brucie Kibbutz TBoGT Model for IV от nipahtard](https://www.nexusmods.com/gta4/mods/988), [Eugene Reaper and Triad 1 Fix от Pingwinek1234](https://www.nexusmods.com/gta4/mods/1469) и множество других отдельных исправлений и оптимизаций от Pingwinek1234 |
 | [Story Characters Variety Animations](https://www.gtainside.com/gta4/skins/new-look-model/221653-story-characters-variety-animations) | f_y_street_02 | Добавляет сюжетным персонажам уникальные анимации, чтобы они не выглядели такими однообразными. Оба необязательных патча применены. |
 | [Animated Weapons](https://www.nexusmods.com/gta4/mods/641?tab=description) | ImpossibleEchoes, Spartan112 | Добавляет детализированные анимации оружия к каждой анимации. **Может конфликтовать с другими модами**. |
 | [More Visible Interiors](https://gtaforums.com/topic/974099-more-visible-interiors/) | Attramet | Делает интерьеры более заметными снаружи, хотя есть минус: они могут появляться на глазах. |
@@ -107,6 +108,9 @@ description: Сколько же модов в этой игре
 | [Better Tree LODs](https://discord.com/channels/693286101686812722/1551212072711225345/1551212560999522326) | nidzo | Улучшенные LOD-биллборды деревьев - переходы между ними стали менее заметными. |
 | [SISCO](https://www.nexusmods.com/gta4/mods/1453) | Chunk | Снижает количество проблем со стримингом, если не убирает их вовсе, а также повышает общие лимиты игры. |
 | [Toggleable Gloves](https://www.nexusmods.com/gta4/mods/1576) | StrangeLifeOG | Позволяет включать и выключать перчатки кнопкой. Требует [ScriptHookDotNet](../resources/mod-dependencies.md#scripthookdotnet). |
+| [Better Procedural Grass~2.6~](https://www.nexusmods.com/gta4/mods/1489) | mehraanakbarii | Улучшает модели процедурной травы, чтобы они выглядели менее криво и низкокачественно. |
+| [Fixed License Plates Pack](https://www.gtainside.com/gta4/cars/other/149220-fixed-license-plate-pack-v1-3/) | Thundersmacker | Добавляет номерные знаки машинам, у которых их почему-то нет. Дополнительно использован [Turismo With A License Plate by Miles Dipperion](https://www.gtainside.com/gta4/cars/other/189783-turismo-with-a-license-plate). |
+| [Proper Cover and Drive-by](https://www.nexusmods.com/gta4/mods/1608?tab=description) | TuckerJones | Позволяет прицеливаться *до* выстрела при стрельбе из машины и улучшает некоторые механики укрытий, приближая их к GTA V без изменения баланса. |
 
 ---
 
@@ -126,7 +130,7 @@ description: Сколько же модов в этой игре
 | [Various Pedestrians Actions](https://gtaforums.com/topic/976318-various-pedestrian-actions/) | Attramet | Добавляет, исправляет и доделывает незаконченные действия пешеходов. |
 | [Restored Vegetation](https://gtaforums.com/topic/984591-restored-trees-position/) | Attramet | Восстанавливает растительность, которая была в бетах, но пропала в финальном релизе - то ли из-за недосмотра, то ли из-за производительности. |
 | [Restored Graffiti](https://gtaforums.com/topic/1005785-restored-graffiti/) | Attramet | Восстанавливает граффити, которые полностью вырезали из финальной сборки игры. |
-| [Xbox Rain Droplets](https://github.com/ThirteenAG/XboxRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран приятные капли воды. |
+| [Fusion Rain Droplets](https://github.com/ThirteenAG/FusionRainDroplets/releases/tag/gtaiv) | ThirteenAG | Добавляет на экран приятные капли воды. |
 | [Project Thunder](https://gtaforums.com/topic/982902-project-thunder/) | ItsClonkAndre | Делает грозу в игре более настоящей: с реальным освещением и улучшенной атмосферой. Много настроек. **Только 1.0.8.0**. |
 | [VAmbience](https://gtaforums.com/topic/981402-vambience/) | ItsClonkAndre | Добавляет в игру фоновые шумы - например, езду и стрельбу - как в GTA V. Много настроек. **Только 1.0.8.0**. |
 | [Props Restoration](https://gtaforums.com/topic/1004764-props-restoration/) | Attramet | Возвращает на карту пре-релизные, бета- и неиспользуемые пропы. |

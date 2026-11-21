@@ -13,7 +13,7 @@ description: Это руководство было бы невозможно б
 
 Я также лично поучаствовал в Liberty Tweaks с одной небольшой функцией и сделал [Pistol Iron Sight Fix](../essential-modding/various-fixes.md).
 
-==Примечания: monobank перечислит деньги напрямую мне. Ссылку PayPal открывайте с мобильного, иначе она не сработает. При отправке через Ko-Fi деньги могут заморозить почти на месяц.==
+==Примечания: monobank перечислит деньги напрямую мне. Ссылку PayPal открывайте с мобильного, иначе она не сработает (или напишите мне лично, чтобы получить мою почту). При отправке через Ko-Fi деньги могут заморозить почти на месяц.==
 
 [:simple-googlepay: :octicons-credit-card-16: monobank](https://send.monobank.ua/jar/3cJx2rhdw2){ .md-button .md-button--primary }  [:simple-paypal: PayPal](https://www.paypal.com/qrcodes/p2pqrc/MQUJK8UCEU2KS){ .md-button .md-button--primary } [:simple-kofi: Ko-Fi](https://ko-fi.com/gillianmc){ .md-button .md-button--primary }
 
@@ -83,7 +83,7 @@ description: Это руководство было бы невозможно б
 
 За работу над Higher Resolution Miscellaneous Pack, Vehicle Pack, [Player Outfit Texture Fixes](../essential-modding/various-fixes.md) и Higher Res Radio Logos, а также за непосредственный вклад в [FusionFix](../essential-modding/fusionfix.md), [Various Fixes](../essential-modding/various-fixes.md) и Console Visuals.
 
-[:simple-kofi: Ko-Fi](https://ko-fi.com/ash_735){ .md-button .md-button--primary } [:simple-cashapp: CashApp](https://cash.app/%C2%A3AshR735){ .md-button .md-button--primary }
+[:simple-kofi: Ko-Fi](https://ko-fi.com/ash_735){ .md-button .md-button--primary }
 
 ## brokensymmetry
 
