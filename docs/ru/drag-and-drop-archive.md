@@ -99,7 +99,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
 ??? bug "Игра не запускается | Игра странно себя ведет | Игра случайно вылетает"
     Просмотрите [исправление проблем](resources/troubleshooting.md).
 
-    Отключайте моды по одному, чтобы найти виновника, удаляя папки или файлы в :material-folder: ==update==, :material-folder: ==IVSDKDotNet\scripts== или файлы :material-file:`.asi` (вероятнее всего - Liberty Tweaks, SISCO, Potential Grim или любые дополнительные моды, которые вы поставили).
+    Отключайте моды по одному, чтобы найти виновника, удаляя папки или файлы в :material-folder: ==update==, :material-folder: ==IVSDKDotNet\scripts== или файлы :material-file:`.asi` (вероятнее всего - Liberty Tweaks, SISCO, Console Select Menu, Potential Grim или любые дополнительные моды, которые вы поставили).
 
     Сообщите о проблеме на [Discord сервере](index.md#_4).
 

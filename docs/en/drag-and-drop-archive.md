@@ -99,7 +99,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
 ??? bug "The game doesn't boot | The game is behaving strangely | The game is crashing randomly"
     See [troubleshooting](resources/troubleshooting.md).
 
-    Disable mods one by one to see the culprit by deleting folders/files in the :material-folder: ==update== folder, :material-folder: ==IVSDKDotNet\scripts== folder or the :material-file:`.asi` files (most likely culprits are Liberty Tweaks, SISCO, Potential Grim or any of the additional mods you added).
+    Disable mods one by one to see the culprit by deleting folders/files in the :material-folder: ==update== folder, :material-folder: ==IVSDKDotNet\scripts== folder or the :material-file:`.asi` files (most likely culprits are Liberty Tweaks, SISCO, Console Select Menu, Potential Grim or any of the additional mods you added).
 
     Report the issue on the [Discord server](index.md#navigation).
 
