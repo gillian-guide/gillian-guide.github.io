@@ -16,12 +16,12 @@ This project **improves core multiplayer experience, adds DLC support to PreCE p
 
 1. Go to the [Releases](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch/releases/latest) page.
 2. Download the latest release.
-3. Extract :material-zip-box:`OpenPreCEPatch.zip` into the game folder.
+3. Extract :material-zip-box:`IV.EFLC.OpenPreCEPatch.zip` into the game folder.
 
 ??? tip "ZolikaPatch"
     OpenPreCEPatch is an experimental open source successor to ZolikaPatch that already includes all of its' meaningful features. It already includes FusionFix compatibility and patches to existing issues of ZolikaPatch.
 
-    If you desire to install specifically ZolikaPatch for whatever purposes, however, instructions are available below:
+    If you desire to install specifically ZolikaPatch for whatever purposes (multiplayer etc.), however, instructions are available below:
 
     1. Go to [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
     2. Scroll to the bottom of the page and download the latest version.

@@ -16,12 +16,12 @@ description: Некоторые исправления для вашей дау�
 
 1. Перейдите на страницу [релизов](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch/releases/latest).
 2. Скачайте последний релиз.
-3. Распакуйте :material-zip-box:`OpenPreCEPatch.zip` в папку с игрой.
+3. Распакуйте :material-zip-box:`IV.EFLC.OpenPreCEPatch.zip` в папку с игрой.
 
 ??? tip "ZolikaPatch"
     OpenPreCEPatch - экспериментальный преемник ZolikaPatch с открытым исходным кодом, который уже включает все его значимые функции, а также совместимость с FusionFix и патчи для известных проблем ZolikaPatch.
 
-    Если же вы по каким-то причинам хотите установить именно ZolikaPatch, инструкция ниже:
+    Если же вы по каким-то причинам хотите установить именно ZolikaPatch (например, мультиплеер), инструкция ниже:
 
     1. Перейдите на [Zolika1351's Zone](https://zolika1351.pages.dev/mods/ivpatch).
     2. Прокрутите страницу до конца и скачайте последнюю версию.
