@@ -230,6 +230,7 @@ These mods are not included by default, but are easy to install ontop of the arc
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
     | Alternative/vanilla popcycle | Ushan27 | If you don't like the default popcycle (density of vehicles depending on area, weather and time of day), you can try the alternative popcycle from the New game parameters for transport and traffic mod, or remove the modded popcycle altogether.<br>Installation: Rename :material-file:`popcycle.dat_alt` to :material-file:`popcycle.dat` in  :material-folder: ==update/common/data==, replacing the existing one, or remove :material-file:`popcycle.dat` to revert to vanilla state.</br>
+    | [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Changes rival cars in races to be matching to your car, as well as removing rubberbanding to make it fair. Not included due to changing race balancing. |
     | [Proper Grass](https://www.nexusmods.com/gta4/mods/1660) | paulopatine | Fixes up the capacity for procedural grass and props so that it doesn't just disappear over some time of playing. May be included in the archive itself later. |
     | [Liberty Loadout](https://www.nexusmods.com/gta4/mods/1226) | Delusional94 | GTA V-like weapon and radio wheel. |
     | [Liberty Shoulder](https://www.nexusmods.com/gta4/mods/1229) | Delusional94 | Shoulder swapping without any extras. |
