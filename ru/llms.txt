@@ -1,0 +1,50 @@
+# Gillian's GTA IV Modding Guide
+
+## Getting started
+
+- [Вступление](<https://gillian-guide.github.io/ru/index.md>)
+- [Подготовка](<https://gillian-guide.github.io/ru/preparation/index.md>)
+- [Liberty Drag-and-Drop](<https://gillian-guide.github.io/ru/drag-and-drop-archive/index.md>)
+
+## Downgrading
+
+- [Даунгрейдинг игры](<https://gillian-guide.github.io/ru/downgrading/downgrading-the-game/index.md>)
+- [Даунгрейдинг радио](<https://gillian-guide.github.io/ru/downgrading/downgrading-the-radio/index.md>)
+- [Даунгрейдинг](<https://gillian-guide.github.io/ru/downgrading/index.md>)
+
+## Setup
+
+- [Оптимизация](<https://gillian-guide.github.io/ru/optimization/index.md>)
+- [Второстепенная настройка](<https://gillian-guide.github.io/ru/additional-setup/index.md>)
+
+## Essential Modding
+
+- [FusionFix](<https://gillian-guide.github.io/ru/essential-modding/fusionfix/index.md>)
+- [Обязательные моды](<https://gillian-guide.github.io/ru/essential-modding/index.md>)
+- [OpenPreCEPatch](<https://gillian-guide.github.io/ru/essential-modding/openprecepatch/index.md>)
+- [Various Fixes](<https://gillian-guide.github.io/ru/essential-modding/various-fixes/index.md>)
+
+## Companion Mods
+
+- [Дополнительные моды](<https://gillian-guide.github.io/ru/companion-mods/index.md>)
+
+## Extras
+
+- [Дополнения](<https://gillian-guide.github.io/ru/extras/index.md>)
+- [Лаунчер](<https://gillian-guide.github.io/ru/extras/launcher/index.md>)
+- [Модлоадинг](<https://gillian-guide.github.io/ru/extras/modloading/index.md>)
+- [Мультиплеер](<https://gillian-guide.github.io/ru/extras/multiplayer/index.md>)
+- [Тренеры](<https://gillian-guide.github.io/ru/extras/trainers/index.md>)
+
+## Resources
+
+- [Благодарности и ссылки для донатов](<https://gillian-guide.github.io/ru/resources/credits/index.md>)
+- [Зависимости модов](<https://gillian-guide.github.io/ru/resources/mod-dependencies/index.md>)
+- [OpenIV](<https://gillian-guide.github.io/ru/resources/openiv/index.md>)
+- [Похожие руководства и модпаки](<https://gillian-guide.github.io/ru/resources/similar-guides-modpacks/index.md>)
+- [Исправление проблем](<https://gillian-guide.github.io/ru/resources/troubleshooting/index.md>)
+
+<!-- zensical-i18n: languages -->
+## Languages
+
+- [English](https://gillian-guide.github.io/llms.txt): Gillian's GTA IV Modding Guide (en)
