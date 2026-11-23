@@ -39,7 +39,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
     My personal preference for a first-time vanilla-faithful playthrough is the Faithful Complete Edition archive, and the Vanilla+ modpack for a replay of the game, as it noticably changes the gameplay mechanics and balancing. Do note, however, that Vanilla+ is a lot more demanding on performance.
 
 === "Faithful Complete Edition (1.2.0.59)"
-    Last updated: **[21.11.2026](#changelog)**
+    Last updated: **[23.11.2026 (hotfix)](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -48,7 +48,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - If using Linux, skip steps 3-6, [apply launch options manually](additional-setup.md#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](essential-modding/fusionfix.md#ff-linux). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
         - To remove Rockstar Games Launcher, you can install [RGLess](additional-setup.md#removing-rockstar-games-launcher-from-complete-edition-12059)
 
-    1. [Download the archive](https://www.mediafire.com/file/2xu0pcei3lzymhf/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/42uhewgcdqoj)) (5.4GB, SHA512: ~`34010cfdc01d852ab29304dd05935145192b220d7111e5c94f1c4de6f4561382060cb25bb27ae1aa21593f7d571c292095df4ff9e3feb4e37d0fddde91e31713`~).
+    1. [Download the archive](https://www.mediafire.com/file/gso4eu3fno7kyyo/1.2_archive.7z/file) ([mirror](https://buzzheavier.com/zv038kq1i2d8)) (5.4GB, SHA512: ~`08229e7a12781757710b58ff9aff2126e6e52dc84e6953797c63f4d8eaa231029ecb34ae12e05ca6346a69bff8d421d37cb9fd0d183a3eb54205ea76a0b7f5d8`~).
     1. Extract the :material-zip-box:`1.2 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open...`, select the same game folder.
@@ -70,7 +70,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         If you're updating the archive, delete the :material-folder: ==update== folder and remove all :material-file:`.asi` files (but don't touch other ones) from the :material-folder: ==plugins== folder first.
 
 === "Vanilla+ (1.0.8.0)"
-    Last updated: **[21.11.2026](#changelog)**
+    Last updated: **[23.11.2026 (hotfix)](#changelog)**
 
     !!! warning ""
         - **This archive does NOT provide the best possible performance - in fact the performance will noticeably drop - the goal is first and foremost to provide the best vanilla-faithful experience.** If you just want the best performance - mod the game manually.
@@ -78,7 +78,7 @@ If you want to get familiar with the modpack before installing it, I recommend t
         - Do not downgrade the game on your own. The archive already includes a downgrader. **The archive has to be installed on a clean copy.**
         - If using Linux, skip steps 3-5, [apply launch options manually](additional-setup.md#launch-options) and [install `d3dx9_43` to the Wineprefix of GTA IV](essential-modding/fusionfix.md#ff-linux). Additionally, see [Getting ScriptHookDotNet and IV-SDK .NET to work on Linux](resources/mod-dependencies.md#getting-scripthookdotnet-and-iv-sdk-net-to-work-on-linux) (or delete files & folders starting with `IVSDKDotNet`, which will remove Project Thunder and Liberty Tweaks). I would additionally recommend to use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (can be installed using [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) too to improve stability and getting the ability to use Independence FM.
 
-    1. [Download the archive](https://www.mediafire.com/file/jc6ewitgovmqivk/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/ac1io4sw2jf3)) (5.4GB, SHA512: ~`d70fa1c3f2aa8df9feb5ab5e2ffc2fc0e49eb3915a8ebd5c01bba4ee941dd43d483d1433c46eb4f6781ef5d2ec62b518e3feb3c8c64d491c7136cde2104a6bc4`~).
+    1. [Download the archive](https://www.mediafire.com/file/1zl2qkagyvtvlf4/1.0_archive.7z/file) ([mirror](https://buzzheavier.com/hzahe9njqoep)) (5.4GB, SHA512: ~`95137b241ea84ce7d3b4707bbfc9b23ec0a68045be7b25038405306a85dbfc9303b067a04931517b003f29082797a33099df1bff884384ef397439e66df95f49`~).
     1. Extract the :material-zip-box:`1.0 archive.7z` archive into the game folder (the one that includes :material-file:`GTAIV.exe`).
     2. Launch :material-file-download:`GTAIVSetupUtility.exe`. Due to widespread confusion, I should specify that this is just a failsafe method to install DXVK and set launch options - it is **not** mandatory for modpack's functionality.
     3. Press `Open`, select the same game folder.
@@ -211,7 +211,7 @@ The mods or their specific versions in the following list are present in only on
     | Mod | Developer(s) | Details |
     | :-: | :----------: | :-----: |
     | Downgrade to 1.0.8.0 | Gillian (files belong to Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
-    | [OpenPreCEPatch~1.2~](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | A continuation of ZolikaPatch, adds a few minor fixes exclusive to PreCE versions and allows to retain CE savefiles and files, as well as support for Steam achievements. |
+    | [OpenPreCEPatch~1.2.1~](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | A continuation of ZolikaPatch, adds a few minor fixes exclusive to PreCE versions and allows to retain CE savefiles and files, as well as support for Steam achievements. |
     | [Liberty Tweaks~1.8beta~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre and others | Aims to improve various aspects of the game and it's general Quality of Life. Highly configurable. Addon used: [Armored Cops with EFLC heads from Characters Fixes by Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757)<br>==Allows to quicksave using the ++f9++ key and has a lot of various gameplay features - if you're not a fan of the defaults, you can modify things to your taste in :material-file-cog:`LibertyTweaks.ini` located in :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [BetterRaceIV~1.0~](https://github.com/LotsofEds/BetterRaceIV) | ServalEd | Makes the racing AI opponents better at racing. |
     | [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Changes rival cars in races to be matching to your car, as well as removing rubberbanding to make it fair |
@@ -268,6 +268,11 @@ These mods are not included by default, but are easy to install ontop of the arc
 
 === "Faithful Complete Edition (1.2.0.59)"
     !!! info "Latest version"
+        - 23.11.2026 ([hotfix](https://discord.com/channels/1129805289307242577/1131636134376644759/1574340720993509396))
+            - Updated Setup Utility
+            - Set FusionFix VehicleBudget a little higher
+            - Moved some wrongly placed files
+            - Restored the intended Minor Mods package
         - 21.11.2026
             - Updated Fusion Rain Droplets, Better Procedural Grass, Miscellaneous LOD Fixes.
             - Restored higher LODs and TBoGT timecyc with DoF and Bloom from previous versions of the modpack.
@@ -570,6 +575,12 @@ These mods are not included by default, but are easy to install ontop of the arc
             - Created the archive.
 === "Vanilla+ (1.0.8.0)"
     !!! info "Latest version"
+        - 23.11.2026 ([hotfix](https://discord.com/channels/1129805289307242577/1131636134376644759/1574340720993509396))
+            - Updated Setup Utility and OpenPreCEPatch (fixes an issue in Clean Getaway and more missions)
+            - Set FusionFix VehicleBudget a little higher
+            - Changed Liberty Tweaks' config
+            - Moved some wrongly placed files
+            - Restored the intended Minor Mods package
         - 21.11.2026
             - Updated LibertyTweaks, Fusion Rain Droplets, Better Procedural Grass, Miscellaneous LOD Fixes, OpenPreCEPatch.
             - Restored higher LODs and TBoGT timecyc with DoF and Bloom from previous versions of the modpack.

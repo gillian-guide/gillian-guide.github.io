@@ -175,6 +175,9 @@ description: Почему игра не работает
     - Используйте [SISCO](https://www.nexusmods.com/gta4/mods/1453).
     - Используйте [revd](https://www.nexusmods.com/gta4/mods/1399).
 
+??? info "Контроллер не работает на Linux"
+    - Удалите Console Select Menu (я сам не понимаю почему).
+
 ---
 
 ### Проблемы с мультиплеером

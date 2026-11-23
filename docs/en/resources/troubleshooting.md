@@ -175,6 +175,9 @@ I know about these issues, no need to report them to me, unless you know a solut
     - Use [SISCO](https://www.nexusmods.com/gta4/mods/1453).
     - Use [revd](https://www.nexusmods.com/gta4/mods/1399).
 
+??? info "Controller doesn't work on Linux"
+    - Remove Console Select Menu (yeah I have no idea either).
+
 ---
 
 ### Multiplayer issues

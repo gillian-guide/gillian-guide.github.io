@@ -39,7 +39,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
     Лично я предпочитаю для первого, ванильного прохождения архив для Complete Edition, а архив Vanilla+ - для перепрохождения, т.к. он значительно меняет баланс и геймплей. Учтите, что Vanilla+ немного требовательнее по железу.
 
 === "Faithful Complete Edition (1.2.0.59)"
-    Последний раз обновлено: **[21.11.2026](#_8)**
+    Последний раз обновлено: **[23.11.2026 (хотфикс)](#_8)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - и скорее всего значительно ухудшит ее - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -48,7 +48,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - Если используете Linux, пропустите шаги 3-6, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
         - Чтобы убрать Rockstar Games Launcher, можно установить [RGLess](additional-setup.md#rockstar-games-launcher-complete-edition-12059)
 
-    1. [Скачайте архив](https://www.mediafire.com/file/2xu0pcei3lzymhf/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/42uhewgcdqoj)) (5.4GB, SHA512: ~`34010cfdc01d852ab29304dd05935145192b220d7111e5c94f1c4de6f4561382060cb25bb27ae1aa21593f7d571c292095df4ff9e3feb4e37d0fddde91e31713`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/gso4eu3fno7kyyo/1.2_archive.7z/file) ([зеркало](https://buzzheavier.com/zv038kq1i2d8)) (5.4GB, SHA512: ~`08229e7a12781757710b58ff9aff2126e6e52dc84e6953797c63f4d8eaa231029ecb34ae12e05ca6346a69bff8d421d37cb9fd0d183a3eb54205ea76a0b7f5d8`~).
     1. Распакуйте :material-zip-box:`1.2 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     2. Запустите :material-file-download:`GTAIVSetupUtility.exe`. В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -69,7 +69,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
     !!! info "Обновление"
         Если вы обновляете сборку, сначала удалите папку :material-folder: ==update== и удалите все :material-file:`.asi` файлы (но не трогайте остальные) из папки :material-folder: ==plugins==.
 === "Vanilla+ (1.0.8.0)"
-    Последний раз обновлено: **[21.11.2026](#_8)**
+    Последний раз обновлено: **[23.11.2026 (хотфикс)](#_8)**
 
     !!! warning ""
         - **Эта сборка НЕ обеспечивает наилучшую производительность - и скорее всего значительно ухудшит ее - цель, в первую очередь, создать лучший ванильный-плюс опыт игры.** Если вы только хотите лучшую производительность - начинайте моддинг вручную.
@@ -77,7 +77,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
         - Не выполняйте даунгрейд самостоятельно. В архив уже входит даунгрейдер. **Архив должен ставиться исключительно на чистую копию игры.**
         - Если используете Linux, пропустите шаги 3-5, [примените параметры запуска вручную](additional-setup.md#_2) и [установите `d3dx9_43` в Wineprefix GTA IV](essential-modding/fusionfix.md#ff-linux). Дополнительно, просмотрите [Заставляем ScriptHookDotNet и IV-SDK .NET работать на Linux](resources/mod-dependencies.md#scripthookdotnet-iv-sdk-net-linux) (или удалите файлы и папки начинающиеся на `IVSDKDotNet`, что отключит Project Thunder и Liberty Tweaks). Я бы также порекомендовал использовать [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) (можно установить с помощью [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)) для улучшения стабильности и получения возможности слушать Independence FM.
 
-    1. [Скачайте архив](https://www.mediafire.com/file/jc6ewitgovmqivk/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/ac1io4sw2jf3)) (5.4GB, SHA512: ~`d70fa1c3f2aa8df9feb5ab5e2ffc2fc0e49eb3915a8ebd5c01bba4ee941dd43d483d1433c46eb4f6781ef5d2ec62b518e3feb3c8c64d491c7136cde2104a6bc4`~).
+    1. [Скачайте архив](https://www.mediafire.com/file/1zl2qkagyvtvlf4/1.0_archive.7z/file) ([зеркало](https://buzzheavier.com/hzahe9njqoep)) (5.4GB, SHA512: ~`95137b241ea84ce7d3b4707bbfc9b23ec0a68045be7b25038405306a85dbfc9303b067a04931517b003f29082797a33099df1bff884384ef397439e66df95f49`~).
     2. Распакуйте :material-zip-box:`1.0 archive.7z` в папку с игрой (та, в которой :material-file:`GTAIV.exe`).
     3. Запустите :material-file-download:`GTAIVSetupUtilityWPF.exe`. Вам возможно потребуется установить [.NET 6 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.32-windows-x64-installer). В связи с распространенной путаницей, я должен уточнить, что это просто надежный метод установки DXVK и настройка параметров запуска - утилита **не** обязателеньна для функциональности сборки.
     3. Нажмите `Открыть...` (`Open...`), выберите ту же папку с игрой.
@@ -211,7 +211,7 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
     | Мод | Разработчик(и) | Детали |
     | :-: | :------------: | :----: |
     | Даунгрейд до 1.0.8.0 | Gillian (файлы пренадлежат Rockstar) |  A simple downgrade to 1.0.8.0 without replacing too many files. |
-    | [OpenPreCEPatch~1.2~](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Продолжение ZolikaPatch - добавляет несколько мелких исправлений, эксклюзивных для PreCE-версий, позволяет сохранить сохранения и файлы из CE, а также поддержку достижений Steam. |
+    | [OpenPreCEPatch~1.2.1~](https://github.com/gillian-guide/IV.EFLC.OpenPreCEPatch) | Gillian, Zolika1351 | Продолжение ZolikaPatch - добавляет несколько мелких исправлений, эксклюзивных для PreCE-версий, позволяет сохранить сохранения и файлы из CE, а также поддержку достижений Steam. |
     | [Liberty Tweaks~1.8beta~](https://gtaforums.com/topic/991160-liberty-tweaks/) | catsmackaroo, ItsClonkAndre и другие | Мод, нацелений на улучшение различных аспектов игры и ее общий Quality of Life. Много настроек. Использованный аддон: [Armored Cops with EFLC heads from Characters Fixes от Pingwinek1234](https://discord.com/channels/1129805289307242577/1494424154097586206/1540680532780916757). <br>==Позволяет быстро сохраняться на ++f9++ и имеет множество геймплейных фич - если вам не нравятся настройки по умолчанию, вы можете изенить все на свой вкус в файле :material-file-cog:`LibertyTweaks.ini` который находится в :material-folder: `IVSDKDotNet\scripts\`==</br> |
     | [BetterRaceIV~1.0~](https://github.com/LotsofEds/BetterRaceIV) | ServalEd | Делает соперников в гонках менее тупыми. |
     | [Sensible Rival Cars and No Rubber banding](https://www.nexusmods.com/gta4/mods/1516) | Musclewannabe | Меняет машины соперников в гонках на соответствующие вашей, а также убирает rubberbanding для честности |
@@ -269,6 +269,11 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
 
 === "Faithful Complete Edition (1.2.0.59)"
     !!! info "Последняя версия"
+        - 23.11.2026 ([хотфикс](https://discord.com/channels/1129805289307242577/1131636134376644759/1574340720993509396))
+            - Обновлен Setup Utility
+            - Значение VehicleBudget в FusionFix немного повышено
+            - Убраны некоторые неправильно размещенные файлы
+            - Восстановлен задуманный набор Minor Mods
         - 21.11.2026
             - Обновлены Fusion Rain Droplets, Better Procedural Grass, Miscellaneous LOD Fixes.
             - Возвращены повышенные LODы и TBoGT timecyc с DoF и Bloom из предыдущих версий сборки.
@@ -571,6 +576,12 @@ Liberty Drag-and-Drop (ранее - Готовый архив, также изв
             - Архив создан.
 === "Vanilla+ (1.0.8.0)"
     !!! info "Последняя версия"
+        - 23.11.2026 ([хотфикс](https://discord.com/channels/1129805289307242577/1131636134376644759/1574340720993509396))
+            - Обновлены Setup Utility и OpenPreCEPatch (исправляет проблему в Clean Getaway и других миссиях)
+            - Значение VehicleBudget в FusionFix немного повышено
+            - Изменен конфиг Liberty Tweaks
+            - Убраны некоторые неправильно размещенные файлы
+            - Восстановлен задуманный набор Minor Mods
         - 21.11.2026
             - Обновлены LibertyTweaks, Fusion Rain Droplets, Better Procedural Grass, Miscellaneous LOD Fixes, OpenPreCEPatch.
             - Возвращены повышенные LODы и TBoGT timecyc с DoF и Bloom из предыдущих версий сборки.
